@@ -171,7 +171,7 @@ Two years ago, Bea wrote a small tool at Corvid so that she could change the new
 Bea thinks about this, and takes a biscuit, and does not argue, which for Bea is agreement.
 :::
 
-Bea's story is the career-capital argument in miniature, and it closes a loop from Part I. Her film was always excellent; what she lacked was a trailer. Two years of public, specific, checkable work, with a history that cannot be faked, has become one without her trying, exactly the kind of strong signal that [[ch01.move.signal]] rated highest, and a standing work sample, the kind of evidence [[ch08]] is about. She will still dread the phone screens. But the next time she plays the snapshot game, she will not be playing it empty-handed.
+Bea's story is the career-capital argument in miniature, and it closes a loop from Part I. Her film was always excellent; what she lacked was a trailer. Two years of public, specific, checkable work, with a history that cannot be faked, has become one without her trying, exactly the kind of strong signal that [[ch01.move.signal]] rated highest, and a standing work sample, the kind of evidence [[ch08.sec.why]] is about. She will still dread the phone screens. But the next time she plays the snapshot game, she will not be playing it empty-handed.
 
 :::: move {#ch20.move.mentors} Two mentors for two questions
 1. Write down the two most important questions about your work that you cannot answer yourself right now. Make them specific: "How do senior engineers here decide when a design is good enough?" not "How do I grow?"
