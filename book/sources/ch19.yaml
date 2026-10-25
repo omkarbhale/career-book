@@ -1,0 +1,25 @@
+# Sources added for Chapter 19 that are not already in a research registry.
+# Same schema as the research registries (see WRITING-GUIDE.md). Each page was opened on the date given.
+
+reilly2026:
+  type: web
+  authors: ['Reilly, Tanya']
+  year: 2026
+  title: Being Glue
+  container: No Idea Blog
+  url: https://noidea.dog/glue
+  url_checked: '2026-10-25'
+  url_note: >-
+    Read the talk abstract and the written-up slides on the author's own site. The page shows no publication
+    date, so the year is the year accessed. The author introduces herself on the page as a principal software
+    engineer.
+  kind: practitioner
+  flags: ['practitioner']
+  supports: >-
+    Names "glue work": onboarding people, updating the roadmap, talking to users, noticing dropped work, reviewing
+    design documents and keeping a team pointed the same way. Argues it is "less glamorous - and often
+    less-promotable" work that makes teams succeed; "Managed deliberately, glue work demonstrates and builds strong
+    technical leadership skills. Left unconscious, it can be career limiting", pushing people into less technical
+    roles or out of the industry.
+  grade: weak
+  caveats: A practitioner talk, not a study; the term and the argument are useful, the claims about careers are untested.

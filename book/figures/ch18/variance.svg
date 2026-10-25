@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 620" class="fig">
+<title>Sources of variance in performance ratings</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<text x="24.0" y="40.0" class="t t-sans">What goes into a rating</text>
+<text x="213.6" y="80.0" class="t t-mid t-a4">who rates you</text>
+<text x="446.0" y="80.0" class="t t-mid">what you did</text>
+<path d="M213.6 88.0 Q213.4 104.1 213.6 122.0" class="k-thin k-a4"/><path d="M213.6 122.0 L217.8 114.0 M213.6 122.0 L209.3 114.1" class="k-thin k-a4"/>
+<path d="M446.0 88.0 Q447.3 104.5 446.0 122.0" class="k-thin"/><path d="M446.0 122.0 L450.8 114.4 M446.0 122.0 L442.4 113.8" class="k-thin"/>
+<rect x="40.0" y="130" width="347.2" height="64" class="f-a4s"/>
+<rect x="179.6" y="144" width="68.0" height="36" rx="18" class="f-paper"/>
+<text x="213.6" y="172.0" class="t t-lg t-mid">62%</text>
+<rect x="387.2" y="130" width="117.6" height="64" class="f-a3s"/>
+<rect x="412.0" y="144" width="68.0" height="36" rx="18" class="f-paper"/>
+<text x="446.0" y="172.0" class="t t-lg t-mid">21%</text>
+<rect x="504.8" y="130" width="61.6" height="64" class="f-mute"/>
+<rect x="507.8" y="144" width="55.6" height="36" rx="18" class="f-paper"/>
+<text x="535.6" y="172.0" class="t t-lg t-mid">11%</text>
+<rect x="566.4" y="130" width="33.6" height="64" class="f-soft"/>
+<text x="583.2" y="220.0" class="t t-sm t-mid">6%</text>
+<path d="M39.3 130.9 Q319.3 130.4 599.9 130.7 Q598.7 161.1 600.4 193.2 Q320.6 192.7 40.1 194.4 Q38.9 161.1 40.3 130.5 Z" class="k"/>
+<text x="40.0" y="276.0" class="t t-sm">Data set 2: 2,142 managers</text>
+<rect x="40.0" y="290" width="296.8" height="64" class="f-a4s"/>
+<rect x="154.4" y="304" width="68.0" height="36" rx="18" class="f-paper"/>
+<text x="188.4" y="332.0" class="t t-lg t-mid">53%</text>
+<rect x="336.8" y="290" width="140.0" height="64" class="f-a3s"/>
+<rect x="372.8" y="304" width="68.0" height="36" rx="18" class="f-paper"/>
+<text x="406.8" y="332.0" class="t t-lg t-mid">25%</text>
+<rect x="476.8" y="290" width="100.8" height="64" class="f-mute"/>
+<rect x="493.2" y="304" width="68.0" height="36" rx="18" class="f-paper"/>
+<text x="527.2" y="332.0" class="t t-lg t-mid">18%</text>
+<rect x="577.6" y="290" width="22.4" height="64" class="f-soft"/>
+<text x="588.8" y="380.0" class="t t-sm t-mid">4%</text>
+<path d="M40.8 289.2 Q319.9 288.8 600.1 290.2 Q600.6 320.9 599.8 354.4 Q321.3 353.9 40.6 354.0 Q39.8 322.3 39.8 289.6 Z" class="k"/>
+<text x="40.0" y="220.0" class="t t-sm t-mute">Data set 1: 2,350 managers</text>
+<rect x="40" y="400" width="26" height="26" rx="5" class="f-a4s"/>
+<path d="M41.3 400.7 Q53.6 399.8 65.9 399.5 Q65.2 411.5 66.7 426.6 Q51.5 426.7 40.1 426.1 Q38.5 414.2 39.6 400.3 Z" class="k-thin"/>
+<text x="80.0" y="420.0" class="t">the rater’s own tendencies</text>
+<rect x="40" y="434" width="26" height="26" rx="5" class="f-a3s"/>
+<path d="M38.6 434.0 Q53.8 433.2 65.4 433.7 Q66.3 446.7 66.6 459.8 Q53.4 460.5 40.2 460.7 Q38.5 448.3 40.4 433.6 Z" class="k-thin"/>
+<text x="80.0" y="454.0" class="t">the ratee’s performance</text>
+<rect x="40" y="468" width="26" height="26" rx="5" class="f-mute"/>
+<path d="M41.0 468.4 Q53.3 468.1 65.9 468.2 Q64.4 479.5 66.8 493.7 Q52.1 494.5 39.3 494.0 Q39.5 480.3 39.7 467.4 Z" class="k-thin"/>
+<text x="80.0" y="488.0" class="t">random error</text>
+<rect x="40" y="502" width="26" height="26" rx="5" class="f-soft"/>
+<path d="M40.3 503.2 Q53.6 500.7 66.7 501.3 Q67.4 514.1 65.5 527.8 Q53.2 528.9 40.7 528.4 Q40.2 514.1 40.4 501.3 Z" class="k-thin"/>
+<text x="80.0" y="522.0" class="t">the rater’s role (boss, peer, report)</text>
+<text x="320.0" y="576.0" class="t t-sm t-mid t-mute">Shares of variance across many ratings,</text>
+<text x="320.0" y="600.0" class="t t-sm t-mid t-mute">not of any one person’s rating. Each manager had 7 raters.</text>
+</svg>

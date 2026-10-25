@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 778" class="fig">
+<title>A learning loop at work</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<circle cx="320" cy="236" r="56" class="f-a4"/>
+<path d="M368.1 266.8 Q357.3 281.5 340.5 288.5 Q323.4 294.8 306.0 289.3 Q288.2 285.6 276.0 272.1 Q265.2 257.4 263.8 239.3 Q263.0 221.1 272.0 205.2 Q282.7 190.5 299.5 183.5 Q316.6 177.2 334.4 181.1 Q351.8 186.4 364.0 200.0 Q374.8 214.6 375.4 232.8 Q377.0 250.9 366.1 265.5" class="k-thin"/>
+<text x="320.0" y="232.0" class="t t-sm t-mid">one sub-skill</text><text x="320.0" y="256.0" class="t t-sm t-mid">at a time</text>
+<rect x="215.0" y="48.0" width="210" height="76" rx="14" class="f-paper"/>
+<path d="M216.3 46.8 Q320.2 49.6 424.8 47.6 Q424.6 85.0 425.4 123.7 Q318.6 124.3 214.6 123.5 Q213.5 87.1 214.8 48.2 Z" class="k"/>
+<text x="320.0" y="80.0" class="t t-mid">1  pick one</text><text x="320.0" y="108.0" class="t t-mid">sub-skill</text>
+<rect x="423.0" y="198.0" width="210" height="76" rx="14" class="f-paper"/>
+<path d="M422.9 199.2 Q526.6 198.4 633.5 197.7 Q632.8 235.5 632.7 274.7 Q527.1 274.8 422.3 274.5 Q421.7 236.9 422.3 197.5 Z" class="k"/>
+<text x="528.0" y="230.0" class="t t-mid">2  do it for real,</text><text x="528.0" y="258.0" class="t t-mid">a notch harder</text>
+<rect x="215.0" y="348.0" width="210" height="76" rx="14" class="f-paper"/>
+<path d="M214.2 347.3 Q320.9 348.0 424.3 347.5 Q424.7 386.7 425.2 424.0 Q321.0 425.4 215.7 424.8 Q216.3 387.6 215.3 348.3 Z" class="k"/>
+<text x="320.0" y="380.0" class="t t-mid">3  get feedback, fast,</text><text x="320.0" y="408.0" class="t t-mid">about the task</text>
+<rect x="7.0" y="198.0" width="210" height="76" rx="14" class="f-paper"/>
+<path d="M7.3 197.7 Q113.1 197.6 217.6 197.9 Q215.5 237.1 217.0 273.2 Q113.0 274.9 7.6 273.9 Q5.9 235.1 7.1 198.3 Z" class="k"/>
+<text x="112.0" y="230.0" class="t t-mid">4  write down</text><text x="112.0" y="258.0" class="t t-mid">what you’ll change</text>
+<path d="M429.0 86.0 Q496.2 121.8 528.0 192.0" class="k-thick k-a4"/><path d="M528.0 192.0 L528.8 180.0 M528.0 192.0 L518.5 184.7" class="k-thick k-a4"/>
+<path d="M528.0 280.0 Q494.9 350.9 429.0 386.0" class="k-thick k-a4"/><path d="M429.0 386.0 L441.0 386.0 M429.0 386.0 L435.7 376.0" class="k-thick k-a4"/>
+<path d="M211.0 386.0 Q145.6 350.8 112.0 280.0" class="k-thick k-a4"/><path d="M112.0 280.0 L111.4 292.0 M112.0 280.0 L121.6 287.2" class="k-thick k-a4"/>
+<path d="M112.0 192.0 Q144.0 121.3 211.0 86.0" class="k-thick k-a4"/><path d="M211.0 86.0 L199.0 86.0 M211.0 86.0 L204.2 95.9" class="k-thick k-a4"/>
+<text x="24.0" y="476.0" class="t t-sans">Challenge pays, with diminishing returns</text>
+<path d="M150.0 690.0 Q344.1 690.2 540.0 690.0" class="k"/><path d="M540.0 690.0 L529.4 684.4 M540.0 690.0 L529.4 695.6" class="k"/>
+<path d="M150.0 690.0 Q151.2 605.6 150.0 520.0" class="k"/><path d="M150.0 520.0 L144.5 530.7 M150.0 520.0 L155.8 530.5" class="k"/>
+<text x="335.0" y="722.0" class="t t-mid">challenge →</text>
+<g transform="rotate(-90 126 610.0)"><text x="126.0" y="610.0" class="t t-mid">skill gained →</text></g>
+<path d="M150 690 C270 580 370 570 520 572" class="k-thick k-mute"/>
+<path d="M150 690 C270 578 390 550 520 528" class="k-thick k-a2"/>
+<text x="520.0" y="516.0" class="t t-a2 t-end">with feedback</text>
+<text x="520.0" y="598.0" class="t t-mute t-end">without</text>
+<text x="320.0" y="758.0" class="t t-sm t-mid t-mute">Shape illustrative, after DeRue and Wellman (2009).</text>
+</svg>

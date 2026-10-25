@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 530" class="fig">
+<title>What deliberate practice explains, by domain</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<text x="24.0" y="40.0" class="t t-sans">What practice explains</text>
+<text x="154.0" y="102.0" class="t t-end">Games</text>
+<rect x="170" y="74" width="430" height="40" class="f-paper"/>
+<rect x="170" y="74" width="111.8" height="40" class="f-a4s"/>
+<path d="M170.8 74.5 Q384.7 73.0 600.3 74.8 Q599.8 95.1 599.3 114.0 Q384.0 114.0 170.2 114.6 Q170.1 95.2 169.7 73.4 Z" class="k"/>
+<text x="293.8" y="102.0" class="t t-bold">26%</text>
+<text x="588.0" y="102.0" class="t t-sm t-end t-mute">everything else</text>
+<text x="154.0" y="168.0" class="t t-end">Music</text>
+<rect x="170" y="140" width="430" height="40" class="f-paper"/>
+<rect x="170" y="140" width="90.3" height="40" class="f-a4s"/>
+<path d="M169.9 140.7 Q385.7 138.5 599.6 139.6 Q599.9 161.2 599.6 179.3 Q386.3 181.2 170.4 179.3 Q169.2 159.0 170.7 139.4 Z" class="k"/>
+<text x="272.3" y="168.0" class="t t-bold">21%</text>
+<text x="154.0" y="234.0" class="t t-end">Sports</text>
+<rect x="170" y="206" width="430" height="40" class="f-paper"/>
+<rect x="170" y="206" width="77.4" height="40" class="f-a4s"/>
+<path d="M168.8 205.1 Q385.9 205.0 600.8 205.7 Q600.5 225.0 599.7 246.6 Q386.6 245.2 169.8 245.3 Q169.0 225.6 170.0 206.1 Z" class="k"/>
+<text x="259.4" y="234.0" class="t t-bold">18%</text>
+<text x="154.0" y="300.0" class="t t-end">Education</text>
+<rect x="170" y="272" width="430" height="40" class="f-paper"/>
+<rect x="170" y="272" width="17.2" height="40" class="f-a4s"/>
+<path d="M169.5 270.9 Q385.2 271.5 599.8 272.8 Q600.3 290.4 600.7 312.8 Q384.6 313.5 169.4 312.7 Q168.9 293.2 170.3 272.7 Z" class="k"/>
+<text x="199.2" y="300.0" class="t t-bold">4%</text>
+<text x="154.0" y="366.0" class="t t-end">Professions</text>
+<rect x="170" y="338" width="430" height="40" class="f-paper"/>
+<rect x="170" y="338" width="2.6" height="40" class="f-a4s"/>
+<path d="M169.4 338.5 Q386.4 336.8 599.5 338.1 Q598.8 356.6 599.2 377.8 Q385.5 377.9 170.2 377.2 Q168.7 358.2 169.5 337.2 Z" class="k"/>
+<text x="184.6" y="366.0" class="t t-bold">under 1%</text>
+<path d="M320.0 430.0 Q243.6 417.0 176.0 384.0" class="k-thin k-a1"/><path d="M176.0 384.0 L181.9 392.1 M176.0 384.0 L186.0 383.7" class="k-thin k-a1"/>
+<text x="330.0" y="438.0" class="t t-a1">your job is here</text>
+<text x="320.0" y="486.0" class="t t-sm t-mid t-mute">Share of differences in performance explained by</text>
+<text x="320.0" y="510.0" class="t t-sm t-mid t-mute">deliberate practice. Macnamara, Hambrick and Oswald (2014).</text>
+</svg>

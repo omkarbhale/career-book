@@ -1,0 +1,47 @@
+# Sources added for Chapter 20 that are not already in a research registry.
+# Same schema as the research registries (see WRITING-GUIDE.md). Each source was opened on the date given:
+# the DOI was resolved at doi.org and the abstract read via the OpenAlex API.
+
+derue2009:
+  type: article
+  authors: ['DeRue, D. Scott', 'Wellman, Ned']
+  year: 2009
+  title: 'Developing leaders via experience: The role of developmental challenge, learning orientation, and feedback availability'
+  container: Journal of Applied Psychology
+  volume: '94'
+  issue: '4'
+  pages: 859-875
+  doi: 10.1037/a0015317
+  url: https://doi.org/10.1037/a0015317
+  url_checked: '2026-10-25'
+  url_note: doi.org resolved (HTTP 302); Crossref metadata checked; abstract read via OpenAlex.
+  kind: evidence
+  design: field study of on-the-job experiences
+  supports: >-
+    Across 225 on-the-job experiences of 60 managers, the link between developmental challenge and leadership skill
+    development showed diminishing returns: more challenge helped, but less and less as it rose. Access to feedback
+    offset the diminishing returns at high levels of challenge.
+  sample: 60 managers, 225 experiences.
+  grade: moderate
+  caveats: One modest sample of managers developing leadership skills; abstract-level reading.
+
+higgins2001:
+  type: article
+  authors: ['Higgins, Monica C.', 'Kram, Kathy E.']
+  year: 2001
+  title: 'Reconceptualizing mentoring at work: A developmental network perspective'
+  container: Academy of Management Review
+  volume: '26'
+  issue: '2'
+  doi: 10.5465/amr.2001.4378023
+  url: https://doi.org/10.5465/amr.2001.4378023
+  url_checked: '2026-10-25'
+  url_note: doi.org resolved (HTTP 301); abstract read via OpenAlex.
+  kind: theory
+  design: theory paper
+  supports: >-
+    Proposes viewing mentoring as a "multiple relationship phenomenon": a developmental network of several people,
+    described by its diversity and the strength of its ties, rather than a single mentor; offers propositions about
+    how different network types shape people's development.
+  grade: moderate
+  caveats: Theory, not a test; cited only for the idea that development usually comes from several relationships.

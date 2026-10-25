@@ -1,0 +1,147 @@
+# Sources added for Chapter 18 that are not already in a research registry.
+# Same schema as the research registries (see WRITING-GUIDE.md). Each source was opened on the date given:
+# the DOI was resolved at doi.org, metadata checked against Crossref, and the abstract read via the OpenAlex API.
+
+oboyle2012:
+  type: article
+  authors: ["O'Boyle, Ernest H.", 'Aguinis, Herman']
+  year: 2012
+  title: 'The best and the rest: Revisiting the norm of normality of individual performance'
+  container: Personnel Psychology
+  volume: '65'
+  issue: '1'
+  pages: 79-119
+  doi: 10.1111/j.1744-6570.2011.01239.x
+  url: https://doi.org/10.1111/j.1744-6570.2011.01239.x
+  url_checked: '2026-10-25'
+  url_note: doi.org resolved (HTTP 302); Crossref metadata checked; abstract read via OpenAlex. Full text not read.
+  kind: evidence
+  design: five studies, 198 samples
+  supports: >-
+    Across five studies of 198 samples (633,263 researchers, entertainers, politicians and amateur and
+    professional athletes), individual performance was not normally distributed but followed a Paretian
+    (power-law) distribution, consistently across industries, job types, performance measures and time frames;
+    the authors argue that assuming normality misleads performance management and other HR practice.
+  sample: 633,263 people in 198 samples; performance measured by outputs such as publications, awards, wins and votes.
+  grade: moderate
+  caveats: >-
+    Contested: beck2014 argues the heavy tails come from the kinds of measures used (counts of rare outcomes,
+    unbounded time frames, no comparable jobs) rather than from job performance itself. Few samples are ordinary
+    employees rated on their whole job.
+
+beck2014:
+  type: article
+  authors: ['Beck, James W.', 'Beatty, Adam S.', 'Sackett, Paul R.']
+  year: 2014
+  title: 'On the distribution of job performance: The role of measurement characteristics in observed departures from normality'
+  container: Personnel Psychology
+  volume: '67'
+  issue: '3'
+  pages: 531-566
+  doi: 10.1111/peps.12060
+  url: https://doi.org/10.1111/peps.12060
+  url_checked: '2026-10-25'
+  url_note: doi.org resolved (HTTP 302); Crossref metadata checked (online 2013, issue September 2014); abstract read via OpenAlex.
+  kind: evidence
+  design: critique with data from workplace, laboratory, athletic and simulated sources
+  supports: >-
+    A reply to oboyle2012. Sets out seven conditions a measure must meet before it can show how job performance
+    is distributed (it must reflect behaviour, aggregate many behaviours, cover the full range of performers and of
+    performance, be time-bounded, compare comparable jobs, and not be distorted by motivation). Where measures
+    failed these conditions, highly skewed distributions fitted best; where they met them, a normal distribution
+    fitted better. Concludes that large departures from normality are "in many cases an artifact of measurement".
+  sample: Multiple data sets (workplace, laboratory, athletics, simulations); details not given in the abstract.
+  grade: moderate
+  caveats: One critique; the debate is not settled. Neither side tests forced-distribution rating systems directly.
+
+roth2012:
+  type: article
+  authors: ['Roth, Philip L.', 'Purvis, Kristen L.', 'Bobko, Philip']
+  year: 2012
+  title: A meta-analysis of gender group differences for measures of job performance in field studies
+  container: Journal of Management
+  volume: '38'
+  issue: '2'
+  pages: 719-739
+  doi: 10.1177/0149206310374774
+  url: https://doi.org/10.1177/0149206310374774
+  url_checked: '2026-10-25'
+  url_note: doi.org resolved (HTTP 302); Crossref metadata checked (online 2010, issue March 2012); abstract read via OpenAlex.
+  kind: evidence
+  design: meta-analysis of field studies
+  supports: >-
+    In field studies of job performance measures, women scored slightly higher than men on average (mean d = -.11,
+    80% credibility interval -.33 to .12); although performance ratings favoured women, ratings of promotion
+    potential were higher for men, so promotability ratings may be a source of differential promotion rates.
+  sample: Field studies of job performance; number of studies not stated in the abstract.
+  grade: strong
+  caveats: Abstract-level reading; the size of the promotion-potential difference is not given in the abstract.
+
+kordsmeyer2026:
+  type: article
+  authors: ['Kordsmeyer, Tobias L.', 'Godehardt, Sarah K.', 'Roß, Julia', 'Lanzoni, Sophie L. A.', 'Speer, Andrew B.']
+  year: 2026
+  title: Gender differences in performance and development potential and resulting impacts on promotions
+  container: International Journal of Selection and Assessment
+  volume: '34'
+  issue: '3'
+  doi: 10.1111/ijsa.70073
+  url: https://doi.org/10.1111/ijsa.70073
+  url_checked: '2026-10-25'
+  url_note: doi.org resolved (HTTP 302); Crossref metadata checked; abstract read via OpenAlex.
+  kind: evidence
+  design: personnel data from one multinational company
+  supports: >-
+    In personnel data on 20,199 employees of a multinational wholesale company, gender differences in ratings of
+    performance and of development potential were statistically significant but small to negligible, with men rated
+    slightly higher; the differences varied with departmental gender composition and partly with manager gender;
+    ratings predicted promotion similarly for men and women.
+  sample: 20,199 employees, one multinational wholesale company.
+  grade: moderate
+  caveats: One company; use only alongside broader evidence (roth2012, benson2026).
+
+castilla2008:
+  type: article
+  authors: ['Castilla, Emilio J.']
+  year: 2008
+  title: Gender, race, and meritocracy in organizational careers
+  container: American Journal of Sociology
+  volume: '113'
+  issue: '6'
+  pages: 1479-1526
+  doi: 10.1086/588738
+  url: https://doi.org/10.1086/588738
+  url_checked: '2026-10-25'
+  url_note: doi.org resolved (HTTP 302); Crossref metadata checked; abstract read via OpenAlex.
+  kind: evidence
+  design: personnel data from one organisation
+  supports: >-
+    In personnel data from a large service organisation, women and minorities received less salary growth than
+    white men with the same performance-evaluation scores ("performance-reward bias"); gender, race and nationality
+    differences continued to affect salary growth after ratings were taken into account. Merit policies with limited
+    transparency and accountability can increase bias.
+  sample: Employees of one large US service organisation; size not stated in the abstract.
+  grade: moderate
+  caveats: One organisation; the size of the gaps is not given in the abstract, so the book prints none.
+
+castilla2010:
+  type: article
+  authors: ['Castilla, Emilio J.', 'Benard, Stephen']
+  year: 2010
+  title: The paradox of meritocracy in organizations
+  container: Administrative Science Quarterly
+  volume: '55'
+  issue: '4'
+  doi: 10.2189/asqu.2010.55.4.543
+  url: https://doi.org/10.2189/asqu.2010.55.4.543
+  url_checked: '2026-10-25'
+  url_note: doi.org resolved (HTTP 302); Crossref metadata checked (its page range looks wrong, so none is given); abstract read via OpenAlex.
+  kind: evidence
+  design: three experiments
+  supports: >-
+    In three experiments with 445 participants with managerial experience, when a company was presented as
+    explicitly meritocratic, participants gave a male employee a larger bonus than an equally performing female
+    employee ("the paradox of meritocracy").
+  sample: 445 participants with managerial experience, rating hypothetical employee profiles.
+  grade: moderate
+  caveats: Experiments with hypothetical profiles, not real pay decisions.
