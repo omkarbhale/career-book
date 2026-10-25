@@ -1,6 +1,6 @@
 ---
 id: ch06
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. DEV'S FLAT — TUESDAY, 11:15 PM"}
@@ -35,7 +35,7 @@ Before you read on: think of ten people who know your work, however slightly. If
 
 Start with what Dev did on Monday: press Apply and join the 200.
 
-In [[ch03]] you met the funnel from the employer's side. Here is the same funnel, split by how candidates arrived. In one large US corporation that tracked the source of all 62,127 of its applicants, people referred by a current employee were **6.1% of applicants**, but 21.4% of the people interviewed, 27.3% of the people offered jobs and **29.1% of hires**. Applicants from internet job boards were the mirror image: 60.1% of applicants and 23.5% of hires [@brown2016].
+You have met the headline number twice already, in [[ch01.sec.loop]] and [[ch03.sec.routes]]: in one large US corporation, people referred by a current employee were **6.1% of applicants** but **29.1% of hires**. Now look at the whole pool that firm tracked, all 62,127 applicants, split by how they arrived. Applicants from internet job boards were the mirror image of the referrals: 60.1% of applicants and 23.5% of hires [@brown2016].
 
 ::: figure {#ch06.fig.referral-funnel src="ch06/referral-funnel.svg"}
 Alt: Two horizontal stacked bars, one above the other, from one large US firm: "who applied" and "who got hired". In the applicants bar, job boards fill 60.1% and referrals a thin coral sliver of 6.1%. In the hires bar, job boards shrink to 23.5% and referrals grow to 29.1%, the largest single slice. A label between the bars says "referred: 6.1% of who applies, 29.1% of who gets hired". A third segment in each bar, "everything else", covers the company website, applying on your own initiative, campus recruiting and other channels: 33.8% of applicants and 47.4% of hires.
@@ -235,7 +235,7 @@ A: If you have a genuine reason (a mutual contact, a shared community, something
 
 Sometimes the person who reaches out is not someone you know but someone paid to find you. Recruiters come in two kinds, and it helps to know which is which.
 
-**In-house recruiters** work for the employer. When one of them contacts you, you have been "sourced": someone looked at your profile and decided you were worth a message. In one vendor's 2024 data, sourced candidates were hired at 2.0% against 0.4% for people who applied cold, five times the rate [@gem2025]. Most of that is selection (the recruiter picked you because you looked like a fit), but it means a findable, accurate profile is a channel in its own right. [[ch05.sec.profiles]] covers what makes a profile worth finding.
+**In-house recruiters** work for the employer. When one of them contacts you, you have been "sourced": someone looked at your profile and decided you were worth a message. In one vendor's 2024 data, sourced candidates were hired at five times the rate of people who applied cold [@gem2025], as [[ch03.sec.routes]] showed. Most of that is selection (the recruiter picked you because you looked like a fit), but it means a findable, accurate profile is a channel in its own right. [[ch05.sec.profiles]] covers what makes a profile worth finding.
 
 **Agency recruiters** work for a separate firm that the employer pays when it hires someone they introduced. The fee is usually a percentage of the new hire's first-year pay: "contingent" agencies are paid only if a hire happens, while "retained" search firms are paid in instalments and usually cost more in total. One fee guide written for agencies gives examples in the range of 18% to 25% [@topechelon-fees!]. That is illustrative rather than survey data, but it tells you whose money is on the table.
 
@@ -283,7 +283,7 @@ The point of the exercise is calibration. Most people who avoid asking are not a
 :::
 ::::
 
-Dev's *People* tab is not finished, and it never will be. That is the point. The snapshot game is about to get much more intense for her, but the tab she just started will matter long after it ends. In [[ch15]] some of these people become friends; in [[ch19]] a few of them become the people who vouch for her on the inside, which turns out to be how promotions work too; and in [[epi]] it is Dev's turn to be someone's Ana.
+Dev's *People* tab is not finished, and it never will be. That is the point. The snapshot game is about to get much more intense for her, but the tab she just started will matter long after it ends. In [[ch19]] a few of them become the people who vouch for her on the inside, which turns out to be how promotions work too; and in [[epi]] it is Dev's turn to be someone's Ana.
 
 ::: rewind
 - Referred candidates are a sliver of applicants and a large share of hires: **6.1% of applicants and 29.1% of hires** in one large firm, with the same direction in vendor data.

@@ -1,6 +1,6 @@
 ---
 id: ch17
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. LANTERNFISH, THE KITCHEN — WEDNESDAY, 7:52 AM"}
@@ -102,7 +102,7 @@ A 2005 paper claimed that people flourish when their ratio of positive to negati
 
 Look again at Dev's calendar. Very little of it is unreasonable on its own. Covering two interviews is helpful. Reviewing a colleague's code is part of the job. Running onboarding for testers uses her QA background. Keeping the coffee machine alive is, frankly, a public service. The problem is the total, and what the total is made of.
 
-The research on helping beyond your role, what organisational psychologists call **citizenship behaviour**, has a reassuring half and a worrying half. The reassuring half: across 168 samples and more than 51,000 people, citizenship behaviour went with better performance ratings from managers, more rewards, and lower turnover and absence [@podsakoff2009]. (Some of that may be halo: managers who like you rate both your helpfulness and your performance highly.) The worrying half: in a study of 98 couples, people whose spouses rated them high on individual initiative reported more role overload, job stress and work-family conflict, the last of these more strongly for women [@bolino2005]. And a theory paper points out the paradox: time spent helping comes out of time for your core work, and since reviews and promotions mostly reward the core work, helping too much can quietly hurt a career [@bergeron2007].
+The research on helping beyond your role, what organisational psychologists call **citizenship behaviour**, has a reassuring half and a worrying half, and [[ch10.sec.reciprocity]] gave a first look at both. The reassuring half: across 168 samples and more than 51,000 people, citizenship behaviour went with better performance ratings from managers, more rewards, and lower turnover and absence [@podsakoff2009]. (Some of that may be halo: managers who like you rate both your helpfulness and your performance highly.) The worrying half: in a study of 98 couples, people whose spouses rated them high on individual initiative reported more role overload, job stress and work-family conflict, the last of these more strongly for women [@bolino2005]. And a theory paper points out the paradox: time spent helping comes out of time for your core work, and since reviews and promotions mostly reward the core work, helping too much can quietly hurt a career [@bergeron2007].
 
 Not all helping is equal, either. In field and laboratory studies, researchers found that women were asked more often than men to do tasks that matter to an organisation but do little for the person's advancement (sitting on committees, writing reports), and accepted such requests more often, driven by a shared expectation that women would say yes [@babcock2017]. They called these **low-promotability tasks**. Many people now call the wider category **glue work**: the coordinating, onboarding, documenting, note-taking and fixing that holds a team together and rarely appears in anyone's promotion case.
 
@@ -122,7 +122,7 @@ The way out is not to stop helping, which would make you a worse colleague and, 
 
 ### Saying no {#ch17.sec.no}
 
-Saying no costs less than it feels. People asked to help find it awkward to refuse, which is why requesters underestimate how often others will say yes [@flynn2008] ([[ch12]] used the same finding from the other side). And people who decline overestimate how much it will hurt: in a series of experiments on social invitations, people who said no expected the person inviting them to be more upset, and less likely to invite them again, than the inviters actually were [@givi2024]. That research was about invitations rather than work requests, so treat it as a strong hint rather than proof. But it points the same way as Dev's experience the first time she tries it.
+Saying no costs less than it feels, as [[ch12.sec.no]] showed. People asked to help find it awkward to refuse, which is why requesters underestimate how often others will say yes [@flynn2008]. And people who decline overestimate how much it will hurt: in experiments on social invitations, people who said no expected the person inviting them to be more upset, and less likely to invite them again, than the inviters actually were [@givi2024]. That research was about invitations rather than work requests, so treat it as a strong hint rather than proof. But it points the same way as Dev's experience the first time she tries it.
 
 A good no has three parts, in our experience: a clear answer, a reason tied to priorities rather than feelings, and, when you can, a smaller alternative [!view]. "I can't take the two interviews this week; I'm behind on the reconciliation work Kai asked me to finish. I can do one next week if that helps" is a no that leaves the relationship intact. "I'm so sorry, I'm just really swamped, maybe?" is not a no at all, and the person asking will hear a yes.
 
@@ -230,7 +230,7 @@ What makes these work is the second line: naming the first small step turns an a
 
 Sometimes boundaries, conversations and a better no are not enough, because the problem is the job itself: the demands are too high and are not going to fall, the resources are missing and are not going to arrive, or the culture keeps asking for the first small step.
 
-When people do leave, they usually leave for concrete reasons. In a Pew Research Center survey of US workers who quit a job in 2021, the most commonly cited reasons were low pay (63%), no opportunities for advancement (63%) and feeling disrespected at work (57%), followed by childcare problems (48% of those with a child under 18 at home), a lack of flexibility over hours (45%) and poor benefits (43%) [@pew2022]. Those are self-reported reasons, from one country, but they are a useful checklist: if three or four of them describe your job, and they are not changing, the problem is probably not your resilience.
+When people do leave, they usually leave for concrete reasons. The Pew survey from [[ch02.sec.why-leave]] found that US workers who quit a job in 2021 most often cited low pay, no opportunities for advancement and feeling disrespected at work, followed by childcare problems, inflexible hours and poor benefits [@pew2022]. Those are self-reported reasons, from one country, but they are a useful checklist: if three or four of them describe your job, and they are not changing, the problem is probably not your resilience.
 
 Some signals that it might be time to go, which are our synthesis rather than a validated test [!view]:
 

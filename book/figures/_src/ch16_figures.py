@@ -91,8 +91,8 @@ def fig_conflict():
         b.append(fk.text(cx, cy, head, f"t t-sans t-mid {colour}".strip()))
         b.append(fk.lines(cx, cy + 38, rows, "t t-sm t-mid", 24))
     b += [
-        pen.arrow(xm + 210, ym + 150, xm + 210, ym - 60, "k-thick k-dash k-a1", bend=-30, head=14),
-        fk.text(xm + 190, ym + 186, "the leak", "t t-bold t-a1 t-end"),
+        pen.arrow(xm + 22, ym + 160, xm + 22, ym - 60, "k-thick k-dash k-a1", bend=-30, head=14),
+        fk.text(xm + 40, ym + 196, "the leak", "t t-bold t-a1"),
     ]
     fk.write_svg("ch16/conflict.svg", 660, 580, "Task conflict versus relationship conflict", "\n".join(b))
 

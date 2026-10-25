@@ -247,7 +247,7 @@ So this is not one exam followed by a career. It is three interleaved games, pla
 ::: field {regions="US, UK, India"} How often, and how fast, you can move
 The tenure and job-count figures above are American, from the Bureau of Labor Statistics. We did not find comparable figures for India or the UK that we could verify, so we have not guessed.
 
-The *speed* of a switch also varies. Most US employment is "at will": by default, either side can end it at any time, for almost any reason, with exceptions that vary by state [@lii-atwill]. In the UK, you must give at least a week's notice once you have been in a job for a month, and your contract may require more [@govuk-notice]. In India, notice is set mainly by contract, typically one to two months for non-managerial staff and three to six months for senior roles [@khaitan-notice]. A three-month notice period changes how you run a job search. [[ch09]] has the details.
+The *speed* of a switch also varies. Most US employment is "at will": by default, either side can end it at any time, for almost any reason, with exceptions that vary by state [@lii-atwill]. In the UK, you must give at least a week's notice once you have been in a job for a month, and your contract may require more [@govuk-notice]. In India, notice is set mainly by contract, typically one to two months for non-managerial staff and three to six months for senior roles [@khaitan-notice]. A three-month notice period changes how you run a job search. [[ch02.sec.runway]] shows how, and [[ch09.sec.leaving]] has the rules region by region.
 :::
 
 ## The loop {#ch01.sec.loop}

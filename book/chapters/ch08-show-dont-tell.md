@@ -1,6 +1,6 @@
 ---
 id: ch08
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. DEV'S FLAT — SATURDAY, 9:10 AM"}

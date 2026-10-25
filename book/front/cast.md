@@ -35,7 +35,7 @@ Yes, her name is Dev and she wants to be a dev. She has heard the joke.
 
 ## Kai {#cast.sec.kai}
 
-**Kai Mensah (they/them), 26.** A product designer at Lanternfish and Dev's first friend there. Kai is open, quick to laugh, and quick to share things Dev would keep to herself. Through Kai, Part II looks at office friendship: its warmth, its pull and its boundaries. In Part III, Kai takes the manager's path that Dev is unsure about.
+**Kai Mensah (they/them), 26.** A product designer at Lanternfish and Dev's first friend there. Kai is open, quick to laugh, and quick to share things Dev would keep to herself. Through Kai, Part II looks at office friendship: its warmth, its pull and its boundaries, including what happens when Kai becomes Dev's squad lead. In Part III, Kai shows Dev what the manager's path she is unsure about is really like.
 
 ## Running jokes {#cast.sec.jokes}
 

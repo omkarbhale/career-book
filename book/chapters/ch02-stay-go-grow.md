@@ -1,6 +1,6 @@
 ---
 id: ch02
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. CORVID SYSTEMS, MEETING ROOM 3 — MONDAY, 4:30 PM"}
@@ -177,12 +177,7 @@ She stares at the notice period for a while, then adds a fifth row: **Things tha
 A runway is just two numbers: how long you could last without income if things went wrong, and how long it will take to get from "yes" to a start date. The first decides how much risk you can take. The second decides how far ahead you need to start. A long notice period does not stop you searching, but it means an employer who needs someone next month will not choose you, and it means your search takes longer than the interview process alone suggests.
 
 ::: field {regions="US, UK, Germany, India"} Notice periods and non-competes
-**Notice when you resign.**
-
-- **US.** Most employment is "at will": either side can end it at any time, for almost any reason, with exceptions that vary by state [@lii-atwill]. So notice is set by your contract and your employer's policy rather than by a general legal minimum; read both.
-- **UK.** After a month in a job you must give at least a week's notice, or more if your contract says so; your employer may put you on "garden leave", paying you but asking you to stay away during your notice [@govuk-notice].
-- **Germany** (our verified example for the EU). The basic notice period is four weeks, to the 15th or the end of a calendar month, and two weeks during a probation period of up to six months [@bgb622].
-- **India.** Notice is set mainly by contract. A law firm reports that non-managerial employees usually serve one to two months, and senior staff three to six [@khaitan-notice].
+**Notice when you resign.** The law sets a floor and your contract usually sets the actual period, so read your contract now: the notice period is part of your runway. In the US, most employment is "at will", so notice is set by contract and policy rather than by a general legal minimum [@lii-atwill]. In the UK you must give at least a week once you have been in a job for a month [@govuk-notice]. In Germany, our verified example for the EU, the basic period is four weeks [@bgb622]. In India notice is set mainly by contract, and a law firm reports one to two months for non-managerial employees and three to six for senior staff [@khaitan-notice]. [[ch09.sec.leaving]] has the fuller rules, including garden leave and probation, for when you resign.
 
 **Non-competes**, clauses that stop you working for a competitor after you leave, differ even more.
 

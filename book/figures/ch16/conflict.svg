@@ -72,6 +72,6 @@
 <text x="237.5" y="168.0" class="t t-sm t-mid">people dislike each other,</text><text x="237.5" y="192.0" class="t t-sm t-mid">about nothing in particular</text>
 <text x="492.5" y="130.0" class="t t-sans t-mid t-a1">the spiral</text>
 <text x="492.5" y="168.0" class="t t-sm t-mid">every disagreement</text><text x="492.5" y="192.0" class="t t-sm t-mid">is personal</text>
-<path d="M575.0 430.0 Q546.6 324.7 575.0 220.0" class="k-thick k-dash k-a1"/><path d="M575.0 220.0 L565.4 230.2 M575.0 220.0 L578.1 233.7" class="k-thick k-dash k-a1"/>
-<text x="555.0" y="466.0" class="t t-bold t-a1 t-end">the leak</text>
+<path d="M387.0 440.0 Q358.6 329.7 387.0 220.0" class="k-thick k-dash k-a1"/><path d="M387.0 220.0 L377.5 230.3 M387.0 220.0 L390.3 233.6" class="k-thick k-dash k-a1"/>
+<text x="405.0" y="476.0" class="t t-bold t-a1">the leak</text>
 </svg>

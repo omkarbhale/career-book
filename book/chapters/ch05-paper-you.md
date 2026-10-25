@@ -1,6 +1,6 @@
 ---
 id: ch05
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. DEV'S FLAT — WEDNESDAY, 10 PM"}
@@ -295,7 +295,7 @@ Bea sends a message too, a screenshot of her new top third, with a single line u
 
 @dev: It's you. Just legible.
 
-Dev's résumé goes out to three targets from her list on Monday morning. One of them is Lanternfish, a logistics-software company she has never heard of until this week. And, it turns out, a university acquaintance of hers works there.
+Dev's résumé goes out to three targets from her list on Monday morning. One of them is Lanternfish, a logistics-software company she had never heard of until this week. And, it turns out, a university acquaintance of hers works there.
 :::
 
 Paper you is finished, or at least finished enough: a page that survives a skim, bullets that survive a read, and a portfolio that shows the work instead of describing it. But paper is the coldest way into the funnel. The warmest is a person, and that is the subject of [[ch06]]. After that, the paper becomes a script for the conversation: every bullet you wrote is a question you will be asked in [[ch07]], and every claim on it is something a background check or a reference may test in [[ch09]].

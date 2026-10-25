@@ -1,6 +1,6 @@
 ---
 id: ch12
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. LANTERNFISH, BACKEND TEAM AREA — MONTH 4, FRIDAY, 4:47 PM"}
