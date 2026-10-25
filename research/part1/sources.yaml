@@ -398,3 +398,144 @@ fresnostate2024-hidden:
   caveats: Originally from College Recruiter (a job board); commentary only.
   commercial: true
   topics: [networking, myths]
+
+fernandez1997:
+  type: article
+  authors: [Roberto M. Fernandez, Nancy Weinberg]
+  year: 1997
+  title: "Sifting and sorting: Personal contacts and hiring in a retail bank"
+  venue: American Sociological Review, 62(6), 883-902
+  url: https://www.gsb.stanford.edu/faculty-research/working-papers/getting-job-networks-hiring-retail-bank
+  url_note: Opened the 1996 Stanford GSB working-paper page ("Getting a job - networks and hiring in a retail bank"), which carries the abstract; the ASR article itself was not opened.
+  accessed: 2026-10-25
+  supports: Applicants to four job categories at a large retail bank (1993-1995) followed through interview, offer and hire; referrals advantaged at interview and offer stages after controls; referrals present more appropriate resumes, but resume quality and timing do not explain their advantage.
+  sample: Applicant pool of one retail bank.
+  grade: strong
+  caveats: Single firm; evidence taken from the working-paper abstract.
+  commercial: false
+  topics: [referrals]
+
+pallais2016:
+  type: article
+  authors: [Amanda Pallais, Emily Glassberg Sands]
+  year: 2016
+  title: "Why the referential treatment? Evidence from field experiments on referrals"
+  venue: Journal of Political Economy, 124(6)
+  url: https://www.nber.org/system/files/working_papers/w21357/w21357.pdf
+  url_note: NBER working paper w21357 (2015) opened; journal volume/issue from secondary listing, not confirmed on the publisher site.
+  accessed: 2026-10-25
+  supports: Three field experiments in an online labour market (oDesk) - referrals carry positive information about performance and persistence beyond observables; referred workers do especially well working directly with their referrer; no evidence of extra effort to protect the referrer.
+  sample: Workers hired on oDesk (now Upwork) for experimental tasks.
+  grade: strong
+  caveats: Online micro-task context; generalisation to salaried jobs is an inference.
+  commercial: false
+  topics: [referrals]
+
+fernandez2019:
+  type: article
+  authors: [Roberto M. Fernandez, Brian Rubineau]
+  year: 2019
+  title: "Network recruitment and the glass ceiling: Evidence from two firms"
+  venue: "RSF: The Russell Sage Foundation Journal of the Social Sciences, 5(3), 88-102"
+  url: https://www.mcgill.ca/desautels/channels/news/network-recruitment-and-glass-ceiling-evidence-two-firms-296396
+  url_note: McGill Desautels page carrying the abstract and citation.
+  accessed: 2026-10-25
+  supports: With gender homophily, referral hiring can disadvantage women where an old-boys network exists, more so at higher levels; but overall network recruitment was desegregating and promoted women's representation at all levels.
+  sample: Administrative data from two firms.
+  grade: moderate
+  caveats: Two firms; abstract-level reading.
+  commercial: false
+  topics: [referrals]
+
+gee2017:
+  type: article
+  authors: [Laura K. Gee, Jason Jones, Moira Burke]
+  year: 2017
+  title: "Social networks and labor markets: How strong ties relate to job finding on Facebook's social network"
+  venue: Journal of Labor Economics, 35(2), 485-518
+  doi: 10.1086/686225
+  url: https://dl.tufts.edu/concern/pdfs/zk51vt87x
+  url_note: Tufts Digital Library record with abstract and full citation.
+  accessed: 2026-10-25
+  supports: 6 million Facebook users; most people are helped through one of their numerous weak ties, but a single stronger tie is significantly more valuable at the margin.
+  sample: De-identified Facebook data; job help proxied by later working with a pre-existing friend.
+  grade: strong
+  caveats: Correlational; Facebook-measured ties only; two authors were Facebook researchers.
+  commercial: false
+  topics: [networking]
+
+bidwell2011:
+  type: article
+  authors: [Matthew Bidwell]
+  year: 2011
+  title: "Paying more to get less: The effects of external hiring versus internal mobility"
+  venue: Administrative Science Quarterly, 56(3), 369-407
+  url: https://knowledge.wharton.upenn.edu/article/why-external-hires-get-paid-more-and-perform-worse-than-internal-staff/
+  url_note: Opened Knowledge at Wharton's write-up (28 March 2012), which links the ASQ abstract; the paper itself was not opened. Volume/issue inferred from the ASQ link path (content/56/3/369).
+  accessed: 2026-10-25
+  supports: US investment-banking division, 2003-2009 - external hires paid about 18-20% more than internal promotions, significantly lower performance evaluations in first two years, higher exit rates, faster promotion if they stay beyond two years; similar in another bank and a publisher.
+  sample: Personnel data from one investment-bank division (plus two replication sites).
+  grade: moderate
+  caveats: Secondary write-up of a peer-reviewed paper; one industry.
+  commercial: false
+  topics: [channels, switching]
+
+topechelon-fees:
+  type: web
+  authors: [Top Echelon]
+  year: 2026
+  title: "Recruitment agency fee structure types"
+  venue: Top Echelon blog (software and services vendor to recruitment agencies)
+  url: https://topechelon.com/blog/recruitment-agency-fee-structures/
+  accessed: 2026-10-25
+  supports: Agencies typically charge employers a percentage of the new hire's first-year wages; retained search paid in instalments and typically a higher total percentage than contingency; illustrative examples at 18-25%.
+  sample: n/a
+  grade: weak
+  caveats: Vendor to agencies; examples, not survey data.
+  commercial: true
+  topics: [channels]
+
+startwire2011:
+  type: news
+  authors: [ERE (reporting StartWire data)]
+  year: 2011
+  title: "Post a job this week? Your hire has probably already applied"
+  venue: ERE, 8 June 2011
+  url: https://www.ere.net/articles/post-a-job-this-week-your-hire-has-probably-already-applied
+  accessed: 2026-10-25
+  supports: StartWire data on 6,600 hires across 10 industries - almost 50% of hires applied within first week of posting, 27% within two days, three-quarters within three weeks.
+  sample: 6,600 hires from employers that shared data with a startup; method not published.
+  grade: weak
+  caveats: Startup's own unpublished analysis; correlation (early posting periods also have most applicants).
+  commercial: true
+  topics: [channels, myths]
+
+fradkin-bu2025:
+  type: news
+  authors: [Boston University (The Brink)]
+  year: 2025
+  title: "Looking for jobs on Indeed or LinkedIn? BU research finds it's best to apply early"
+  venue: BU Faculty of Computing & Data Sciences / The Brink, 24 July 2025
+  url: https://www.bu.edu/cds-faculty/2025/07/24/bu-careers-research-apply-early/
+  accessed: 2026-10-25
+  supports: Summary of Andrey Fradkin's Management Science research - fewer people apply after a posting's first few days; people more likely to apply when told few others have applied.
+  sample: Job-board platform data (details in the paper, not opened).
+  grade: moderate
+  caveats: University press summary; measures applicant behaviour, not hiring outcomes.
+  commercial: false
+  topics: [channels]
+
+faberman2017:
+  type: working-paper
+  authors: [R. Jason Faberman, Andreas I. Mueller, Aysegul Sahin, Giorgio Topa]
+  year: 2017
+  title: "Job search behavior among the employed and non-employed"
+  venue: Working paper (August 2017); later published in Econometrica (2022) per secondary listings, not verified
+  url: https://business.columbia.edu/sites/default/files-efs/pubfiles/20320/FMST_WP.pdf
+  accessed: 2026-10-25
+  supports: Employed searchers receive more offers per application and higher wage offers than the non-employed, even after controls; unconditional wage-offer gap 40 log points (49%), 25 log points after controls; employed nearly three times more efficient at converting search effort into offers.
+  sample: NY Fed Survey of Consumer Expectations job-search supplement (annual each October from 2013), US.
+  grade: strong
+  caveats: Working-paper figures; the published version may differ. Part of the gap reflects who is unemployed (selection), which the paper models.
+  commercial: false
+  topics: [switching, channels]
