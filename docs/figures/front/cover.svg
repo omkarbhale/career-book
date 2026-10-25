@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 520" class="fig">
+<title>Cover illustration</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<g transform="rotate(-6 150 200)"><rect x="55.0" y="90.0" width="190" height="220" rx="4" class="f-paper k"/><rect x="65.0" y="100.0" width="170" height="168" class="f-a1"/><rect x="98" y="122" width="56" height="70" rx="3" class="f-paper k-thin"/><path d="M105 131 L138 131" class="k"/><path d="M105 140 L147 140" class="k-thin k-mute"/><path d="M105 148 L138 148" class="k-thin k-mute"/><path d="M105 156 L147 156" class="k-thin k-mute"/><path d="M105 164 L138 164" class="k-thin k-mute"/><path d="M105 172 L147 172" class="k-thin k-mute"/><g transform="translate(164.0 128.0) scale(1.000)"><defs><clipPath id="c-dev-photo"><circle cx="32" cy="32" r="30.5"/></clipPath></defs><circle cx="32" cy="32" r="30.5" class="f-soft"/><g clip-path="url(#c-dev-photo)"><path d="M18.6 30 C17.4 18 24 13.6 32 13.6 C40.5 13.6 47 18.4 45.6 30 L47.4 46.5 C44 49.5 40.5 48.4 39.4 45.4 L24.6 45.4 C23.5 48.4 20 49.5 16.6 46.5 Z" class="f-hair1 k-thin"/><path d="M27 40.5 L27 49 L37 49 L37 40.5 Z" class="f-skin3 k-thin"/><path d="M7 68 C8 54 17 48.5 32 48.5 C47 48.5 56 54 57 68 Z" class="f-dev k-thin"/><path d="M21.5 49.5 C25 55.5 39 55.5 42.5 49.5" class="k-thin"/><path d="M28.4 54 L27.6 61" class="k-thin"/><path d="M35.6 54 L36.4 61" class="k-thin"/><ellipse cx="19.8" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="44.2" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="32" cy="30" rx="12.4" ry="14" class="f-skin3 k-thin"/><path d="M19.7 27.5 C20 18.4 26 15.2 32.6 15.6 C39.4 16 44.2 19.8 44.5 27.5 C40.4 22.6 35.4 21.2 30 21.8 C25.8 22.3 22.4 24.4 19.7 27.5 Z" class="f-hair1 k-thin"/><rect x="37.2" y="18.2" width="6.4" height="2.8" rx="1.2" transform="rotate(28 40.4 19.6)" class="f-a2s k-thin"/><circle cx="27.4" cy="30.4" r="1.6" class="f-ink"/><circle cx="36.6" cy="30.4" r="1.6" class="f-ink"/><path d="M24.8 26.2 Q27.4 24.8 30 26" class="k-thin"/><path d="M34 26 Q36.6 24.8 39.2 26.2" class="k-thin"/><path d="M32.2 31.5 Q31 34.4 32.8 34.8" class="k-thin"/><path d="M28.4 37.6 Q32 40 35.6 37.4" class="k-thin"/></g><circle cx="32" cy="32" r="30.5" class="k-thin"/></g><text x="150.0" y="295.0" class="t t-sm t-mid">the snapshot</text></g>
+<rect x="246" y="67" width="8" height="7" rx="2" class="f-ink"/><circle cx="250" cy="102" r="26" class="f-paper k"/><path d="M250 102 L250 83 M250 102 L261.7 106" class="k"/><circle cx="250" cy="102" r="2.6" class="f-ink"/>
+<g transform="rotate(9 372 110)"><rect x="372" y="110" width="314" height="92" rx="4" class="f-ink"/><rect x="380" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="380" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="394" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="394" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="408" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="408" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="422" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="422" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="436" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="436" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="450" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="450" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="464" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="464" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="478" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="478" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="492" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="492" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="506" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="506" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="520" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="520" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="534" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="534" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="548" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="548" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="562" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="562" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="576" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="576" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="590" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="590" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="604" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="604" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="618" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="618" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="632" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="632" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="646" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="646" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="660" y="115" width="7" height="6" rx="1.5" class="f-paper"/><rect x="660" y="191" width="7" height="6" rx="1.5" class="f-paper"/><rect x="382" y="126" width="66" height="56" rx="3" class="f-a2"/><g transform="translate(382 126)"><g transform="translate(26 22) scale(1.0)"><path d="M0 0 L2 22 L20 22 L22 0 Z" class="f-a3 k-thin"/><path d="M22 5 C31 5 31 16 21 16" class="k-thin"/><path d="M6 -4 Q8 -9 6 -14 M14 -4 Q16 -9 14 -14" class="k-thin k-mute"/></g></g><rect x="458" y="126" width="66" height="56" rx="3" class="f-a2"/><g transform="translate(458 126)"><g transform="translate(14 10) scale(1.0)"><path d="M0 0 h26 a4 4 0 0 1 4 4 v12 a4 4 0 0 1 -4 4 h-16 l-6 6 v-6 h-4 a4 4 0 0 1 -4 -4 v-12 a4 4 0 0 1 4 -4 z" class="f-a2 k-thin"/><path d="M14 16 h26 a4 4 0 0 1 4 4 v12 a4 4 0 0 1 -4 4 h-4 v6 l-6 -6 h-16 a4 4 0 0 1 -4 -4 v-12 a4 4 0 0 1 4 -4 z" class="f-paper k-thin"/></g></g><rect x="534" y="126" width="66" height="56" rx="3" class="f-a2"/><g transform="translate(534 126)"><g transform="translate(18 12) scale(1.0)"><rect x="0" y="-4" width="38" height="38" rx="3" class="f-paper k-thin"/><path d="M4 6 l3 3 l6 -7" class="k-thin k-a2"/><path d="M17 6 h16" class="k-thin k-mute"/><path d="M4 17 l3 3 l6 -7" class="k-thin k-a2"/><path d="M17 17 h16" class="k-thin k-mute"/><path d="M4 28 l3 3 l6 -7" class="k-thin k-a2"/><path d="M17 28 h16" class="k-thin k-mute"/></g></g><rect x="610" y="126" width="66" height="56" rx="3" class="f-a2"/><g transform="translate(610 126)"><g transform="translate(16 18) scale(1.0)"><path d="M0 14 L12 6 L22 10 L30 4 L42 12" class="k"/><path d="M8 18 C14 26 22 26 28 20 L36 16" class="k"/><path d="M12 6 L20 16 M22 10 L28 20" class="k-thin"/></g></g></g>
+<text x="560.0" y="292.0" class="t t-lg t-mid">the long game</text>
+<rect x="470" y="440" width="40" height="30" class="f-a4 k-thin"/><rect x="510" y="410" width="40" height="60" class="f-a4 k-thin"/><rect x="550" y="380" width="40" height="90" class="f-a4 k-thin"/><path d="M570.0 342.0 L574.2 352.2 L585.2 353.1 L576.8 360.2 L579.4 370.9 L570.0 365.2 L560.6 370.9 L563.2 360.2 L554.8 353.1 L565.8 352.2 Z" class="f-a3s k-thin"/>
+<text x="612.0" y="500.0" class="t t-lg t-end">the career game</text>
+<ellipse cx="318" cy="474" rx="56" ry="9" class="f-soft"/>
+<g transform="translate(318.0 476.0) scale(1.050)"><path d="M-14 -70 L-15 -8 L-4 -8 L-2 -70 Z" class="f-mute k-thin"/><path d="M2 -70 L4 -8 L15 -8 L14 -70 Z" class="f-mute k-thin"/><ellipse cx="-11" cy="-5" rx="10" ry="5" class="f-ink"/><ellipse cx="11" cy="-5" rx="10" ry="5" class="f-ink"/><path d="M-24 -128 C-36 -112 -40 -94 -38 -76 L-29 -75 C-30 -92 -27 -106 -19 -118 Z" class="f-dev k-thin"/><path d="M24 -128 C36 -112 40 -94 38 -76 L29 -75 C30 -92 27 -106 19 -118 Z" class="f-dev k-thin"/><circle cx="-33.5" cy="-71" r="6" class="f-skin3 k-thin"/><circle cx="33.5" cy="-71" r="6" class="f-skin3 k-thin"/><path d="M-25 -129 C-30 -112 -26 -88 -20 -66 L20 -66 C26 -88 30 -112 25 -129 C14 -136 -14 -136 -25 -129 Z" class="f-dev k-thin"/><path d="M-14 -131 C-8 -121 8 -121 14 -131" class="k-thin"/><path d="M-5 -124 L-6 -110 M5 -124 L6 -110" class="k-thin"/><path d="M-5 -142 L-5 -130 L5 -130 L5 -142 Z" class="f-skin3 k-thin"/><g transform="translate(-48.0 -204.5) scale(1.5)"><path d="M18.6 30 C17.4 18 24 13.6 32 13.6 C40.5 13.6 47 18.4 45.6 30 L47.4 46.5 C44 49.5 40.5 48.4 39.4 45.4 L24.6 45.4 C23.5 48.4 20 49.5 16.6 46.5 Z" class="f-hair1 k-thin"/><ellipse cx="19.8" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="44.2" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="32" cy="30" rx="12.4" ry="14" class="f-skin3 k-thin"/><path d="M19.7 27.5 C20 18.4 26 15.2 32.6 15.6 C39.4 16 44.2 19.8 44.5 27.5 C40.4 22.6 35.4 21.2 30 21.8 C25.8 22.3 22.4 24.4 19.7 27.5 Z" class="f-hair1 k-thin"/><rect x="37.2" y="18.2" width="6.4" height="2.8" rx="1.2" transform="rotate(28 40.4 19.6)" class="f-a2s k-thin"/><circle cx="27.4" cy="30.4" r="1.6" class="f-ink"/><circle cx="36.6" cy="30.4" r="1.6" class="f-ink"/><path d="M24.8 26.2 Q27.4 24.8 30 26" class="k-thin"/><path d="M34 26 Q36.6 24.8 39.2 26.2" class="k-thin"/><path d="M32.2 31.5 Q31 34.4 32.8 34.8" class="k-thin"/><path d="M28.4 37.6 Q32 40 35.6 37.4" class="k-thin"/></g><g transform="translate(26 -96) rotate(-12)"><rect x="0" y="0" width="30" height="21" rx="2" class="f-paper k-thin"/><path d="M4 21 L-2 27 L30 27 L30 21" class="f-soft k-thin"/><circle cx="15" cy="10" r="3.4" class="f-a2"/></g></g>
+</svg>
