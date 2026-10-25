@@ -1,0 +1,154 @@
+# Sources added for Chapter 16 that are not already in a research registry.
+# Same schema as the research registries (see WRITING-GUIDE.md). Each page was opened on the date given.
+
+eeoc-harassment:
+  type: government
+  authors: ['U.S. Equal Employment Opportunity Commission']
+  year: 2026
+  title: Harassment
+  url: https://www.eeoc.gov/harassment
+  url_checked: '2026-10-25'
+  url_note: Read the EEOC Harassment page in full.
+  kind: law
+  supports: >-
+    "Harassment becomes unlawful where 1) enduring the offensive conduct becomes a condition of continued
+    employment, or 2) the conduct is severe or pervasive enough to create a work environment that a
+    reasonable person would consider intimidating, hostile, or abusive." "Anti-discrimination laws also
+    prohibit harassment against individuals in retaliation for filing a discrimination charge,
+    testifying, or participating in any way in an investigation, proceeding, or lawsuit under these laws;
+    or opposing employment practices that they reasonably believe discriminate". "Petty slights,
+    annoyances, and isolated incidents (unless extremely serious) will not rise to the level of
+    illegality." The harasser can be a supervisor, co-worker or non-employee.
+  grade: strong
+  caveats: >-
+    Covers harassment based on protected characteristics under Title VII, ADEA, ADA and GINA, not
+    general bullying. Agency summary, not statute or case law. No page date shown; year is the year accessed.
+
+eeoc-charge-stats:
+  type: dataset
+  authors: ['U.S. Equal Employment Opportunity Commission']
+  year: 2025
+  title: Table E1a. Charge Receipts by Basis or Statute (All Statutes) FY 1997 - FY 2025
+  url: https://www.eeoc.gov/sites/default/files/2026-04/Table_E1a._Charge_Receipts_by_Basis_or_Statute_%28All_Statutes%29_FY_1997_-_FY_2025_0.xlsx
+  url_checked: '2026-10-25'
+  url_note: Downloaded and read the XLSX table linked from https://www.eeoc.gov/data/enforcement-and-litigation-statistics-0.
+  kind: data
+  supports: >-
+    FY 2025: 88,201 total charges; "Retaliation - All Statutes" 54,350 (61.6%), the highest basis.
+    Next were Disability 36,256 (41.1%), Race 29,338 (33.3%), Sex 26,941 (30.5%) and Age 16,353 (18.5%).
+    Retaliation was also the top basis in FY 2024 (42,301, 47.8% of 88,531) and FY 2023 (46,047, 56.8%).
+  grade: strong
+  caveats: >-
+    A charge can allege several bases, so percentages sum to more than 100%. The table excludes charges
+    filed only with state/local Fair Employment Practices Agencies. Charges are allegations, not findings.
+    I did not find an EEOC sentence calling retaliation "the most frequently alleged basis"; that ranking
+    is read from the table's numbers.
+
+govuk-whistleblowing:
+  type: government
+  authors: ['GOV.UK']
+  year: 2026
+  title: 'Whistleblowing for employees: What is a whistleblower'
+  url: https://www.gov.uk/whistleblowing
+  url_checked: '2026-10-25'
+  url_note: Read the gov.uk whistleblowing guide's first page in full; also read the Acas Code of Practice on disciplinary and grievance procedures (https://www.acas.org.uk/acas-code-of-practice-on-disciplinary-and-grievance-procedures/html).
+  kind: law
+  supports: >-
+    "The wrongdoing you disclose must be in the public interest. This means it must affect others, for
+    example the general public." "As a whistleblower you're protected by law - you should not be treated
+    unfairly or lose your job because you 'blow the whistle'." Protected reports listed: a criminal
+    offence (e.g. fraud), health and safety danger, environmental damage, a miscarriage of justice, the
+    company breaking the law, covering up wrongdoing, and "sexual harassment". "Personal grievances are
+    not covered by whistleblowing law, unless your particular case is in the public interest. Report
+    these under your employer's grievance policy." Acas Code: "If it is not possible to resolve a
+    grievance informally employees should raise the matter formally ... with a manager who is not the
+    subject of the grievance. This should be done in writing"; employers "should arrange for a formal
+    meeting to be held without unreasonable delay"; "Workers have a statutory right to be accompanied";
+    decisions "in writing"; appeal if not resolved; tribunals may adjust awards "by up to 25 per cent"
+    for unreasonable failure to follow the Code.
+  grade: strong
+  caveats: >-
+    The gov.uk page does NOT name bullying or (non-sexual) harassment as personal grievances; it now
+    lists sexual harassment as a protected whistleblowing disclosure. Do not say "harassment is not
+    covered by whistleblowing law". Acas has a 2026 draft revised Code out for consultation (not read).
+    Workers, not only employees, are protected. No last-updated date visible.
+
+eu-whistleblower2019:
+  type: report
+  authors: ['European Parliamentary Research Service (Micaela Del Monte with Titouan Faucheux)']
+  year: 2024
+  title: Protecting whistle-blowers in the EU (EPRS Briefing PE 747.103, September 2024)
+  url: https://www.europarl.europa.eu/RegData/etudes/BRIE/2023/747103/EPRS_BRI(2023)747103_EN.pdf
+  url_checked: '2026-10-25'
+  url_note: Read the European Parliament research briefing on Directive (EU) 2019/1937 (PDF text); also the Commission page https://commission.europa.eu/aid-development-cooperation-fundamental-rights/your-fundamental-rights-eu/protection-whistleblowers_en. EUR-Lex text would not load.
+  kind: law
+  supports: >-
+    Private-sector legal entities "with more than 50 workers should establish channels and procedures for
+    internal reporting (Article 8)"; those "with 50 to 249 workers may decide to share resources" (Art
+    8(6)); below 50 it is up to Member States. Internal channel steps (Art 9): "Acknowledgement of receipt
+    within 7 days of reporting" and "Reasonable timeframe for feedback, i.e. within 3 months from the
+    acknowledgement of receipt". External channels (Art 11): acknowledgement within 7 days; feedback
+    within 3 months "or six months in duly justified cases". Transposition deadline 17 December 2021,
+    postponable to 17 December 2023 for private entities with 50 to 249 employees; "As of June 2024, all
+    EU Member States had adopted the required transposition law". Commission page: the Directive "entered
+    into force on 16 December 2019" and "whistleblowers are protected from retaliation".
+  grade: moderate
+  caveats: >-
+    Official EU institution but a secondary briefing; the Directive's own article text was NOT read
+    (EUR-Lex and the legislation.gov.uk copy both blocked automated access). The briefing says "more than
+    50 workers"; the commonly cited Article 8(3) wording "50 or more workers" could not be confirmed
+    from primary text, so the book should cite "50 or more" only after checking EUR-Lex by hand. National
+    transposition laws vary and may be stricter.
+
+india-posh2013:
+  type: government
+  authors: ['Ministry of Women and Child Development, Government of India']
+  year: 2015
+  title: Handbook on Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013
+  url: https://wcd.gov.in/documents/uploaded/1716181382_9zygfnpOoU.pdf
+  url_checked: '2026-10-25'
+  url_note: Read the Ministry's November 2015 handbook on the 2013 Act (PDF text); India Code copies of the Act would not load (504/connection refused).
+  kind: law
+  supports: >-
+    "Every employer is obliged to constitute an ICC [Internal Complaints Committee] through a written
+    order"; an ICC "has to be set up at every administrative unit and office". Composition: a senior woman
+    employee as chair, at least 2 employee members, and 1 external member from an NGO/association or a
+    person familiar with sexual harassment issues; "All Complaints Committees must have 50 per cent
+    representation of women"; members serve up to three years. The District Officer constitutes a Local
+    Complaints Committee (LCC) in every district, which receives complaints "From women working in an
+    organisation having less than 10 workers", "When the complaint is against the employer himself", and
+    "From domestic workers". The complainant "submits a sexual harassment complaint in writing within
+    three months of the last alleged incident".
+  grade: strong
+  caveats: >-
+    Government handbook (2015), not the Act's section text, which could not be opened. The handbook uses
+    "Internal Complaints Committee"; the brief's "Internal Committee" label and the exact "10 or more
+    employees" wording were not read in primary text (the handbook frames it as every employer must have
+    an ICC, with the LCC for organisations under 10 workers). The power to extend the three-month limit
+    (commonly cited as a further three months) was NOT verified. Applies to complaints by women.
+
+india-companies177:
+  type: law
+  authors: ['High Court of Delhi (quoting the Companies Act, 2013 and the Companies (Meetings of Board and its Powers) Rules, 2014)']
+  year: 2013
+  title: Companies Act, 2013, s.177(9)-(10); Companies (Meetings of Board and its Powers) Rules, 2014, r.7 (as set out in Manoj Kumar Grover v Union of India, W.P.(C) 7051/2020 & 11048/2024, decided 24 Feb 2026)
+  url: https://delhihighcourt.nic.in/app/showFileJudgment/75524022026CW70512020_191800.pdf
+  url_checked: '2026-10-25'
+  url_note: Read the Delhi High Court judgment, which quotes s.177(1), (9), (10) and Rule 7 verbatim; MCA and India Code copies of the Act would not load (403/504/DNS failure).
+  kind: law
+  supports: >-
+    s.177(9): "Every listed company or such class or classes of companies, as may be prescribed, shall
+    establish a vigil mechanism for directors and employees to report genuine concerns". s.177(10): it
+    "shall provide for adequate safeguards against victimisation" and "direct access to the chairperson
+    of the Audit Committee in appropriate or exceptional cases", with details disclosed on the company
+    website and in the Board's report. Rule 7(1): every listed company and "(a) the Companies which accept
+    deposits from the public; (b) the Companies which have borrowed money from banks and public financial
+    institutions in excess of fifty crore rupees". In other companies without an audit committee, the board
+    nominates a director to play that role (r.7(3)). The court (24 Feb 2026) declined to extend the duty
+    to other companies: that is "a policy decision" for the Government.
+  grade: strong
+  caveats: >-
+    Statutory text read as quoted in an official court judgment, not from the MCA/India Code copy.
+    Most private limited companies are outside the mandate unless they meet r.7(1). SEBI's listing
+    regulations (Reg 22) also require listed entities to have a vigil mechanism (mentioned in the
+    judgment, not checked separately).
