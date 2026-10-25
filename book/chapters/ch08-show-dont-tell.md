@@ -180,7 +180,7 @@ Take the library brief above, or a real one. Before you start, write a plan that
 ::: answer
 A reasonable plan for a three-hour version: 15 minutes reading and sending questions; 90 minutes on the core (borrow, return, list); 30 minutes on tests for the core; 20 minutes on the README; 25 minutes of slack for the thing that goes wrong. Most people's first plan has no slack and no README time, and most people's actual run overshoots the core by half. That is normal; it is also the most useful thing the exercise teaches.
 
-If you overshoot, say so in the README: "I spent 3 hours 40 minutes; the extra went on input validation." Honesty about the time is a signal in its own right, and it is one that the person who spent fourteen hours and claimed three cannot send. You will need exactly this skill, estimating and telling people early when you slip, in [[ch12]].
+If you overshoot, say so in the README: "I spent 3 hours 40 minutes; the extra went on input validation." Honesty about the time is a signal in its own right, and it is one that the person who spent fourteen hours and claimed three cannot send. You will need exactly this skill, estimating and telling people early when you slip, in [[ch12.sec.estimates|Chapter 12]].
 :::
 ::::
 

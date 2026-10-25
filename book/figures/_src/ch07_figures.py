@@ -27,7 +27,7 @@ def fig_story():
     parts = [
         ("situation and task", 20, "f-soft", ["the queue was dropping 1 in 2,000", "messages; nobody had spotted it"]),
         ("what I did", 70, "f-a1", ["noticed a pattern in the test logs, wrote", "a reproduction, paired with the developer", "on the fix, added a nightly test"]),
-        ("result", 20, "f-a3", ["fixed three days before the client's", "launch; no repeats in a year"]),
+        ("result", 20, "f-a3", ["fixed two days before go-live;", "no repeats in a year"]),
         ("what I'd keep", 10, "f-a2", ["now I check retries first"]),
     ]
     b = [fk.text(x0, 34, "A two-minute answer, roughly to scale", "t t-sans")]
@@ -80,7 +80,7 @@ def fig_scoring_sheet():
         y += 28 * len(rows) + 16
     b.append(fk.text(70, 462, "evidence heard", "t t-sans"))
     b.append(f'<path d="{pen.rect_d(62, 474, 406, 132)}" class="k-thin k-dash k-mute"/>')
-    b.append(fk.lines(80, 508, ["queue bug, 3 days before client", "wrote a repro, paired on the fix", "added a nightly test"], "t t-a2", 32))
+    b.append(fk.lines(80, 508, ["queue bug, 2 days before go-live", "wrote a repro, paired on the fix", "added a nightly test"], "t t-a2", 32))
     b.append(fk.text(265, 640, "score alone, then discuss", "t t-mid t-bold t-a1"))
     b.append(mug(552, 548, 2.4))
     b.append(fk.text(578, 636, "structure", "t t-sans t-mid"))

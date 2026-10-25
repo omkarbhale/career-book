@@ -4,13 +4,13 @@ status: review
 ---
 
 ::: scene {slug="INT. DEV'S FLAT — TUESDAY, 11:15 PM"}
-The job ad is perfect, which is the problem. *Backend Developer, Lanternfish. Help us build the software that keeps 4,000 lorries on time.* Testing background welcome. Python. Queues. Dev has a story in her story bank for every line of it, and a résumé that finally says what she did instead of what she was for.
+The job ad is perfect, which is the problem. *Backend Developer, Lanternfish. Help us build the software that keeps 4,000 lorries on time.* Testing background welcome. Python. Queues. Dev has a story in her story bank for every line of it, and on Monday morning she sent it a résumé that finally says what she did instead of what she was for.
 
-Under the button that says **Apply** there is a small grey line: *Over 200 applicants.*
+Tonight she has the ad open again, and she notices something she missed on Monday. Under the button that says **Apply** there is a small grey line: *Over 200 applicants.*
 
 She has read [[ch03]]. She knows what 200 applicants means. She can feel her new, honest, carefully evidenced résumé sliding into a pile the size of a small town.
 
-Her phone buzzes. It is Rex, who started his new job on Monday and has already updated his profile.
+Her phone buzzes. It is Rex, a few weeks into his new job, with news about his profile.
 
 @rex: New headline. Be honest. "Chief Possibility Officer."
 
@@ -18,7 +18,7 @@ Her phone buzzes. It is Rex, who started his new job on Monday and has already u
 
 @rex: That's the beauty of it. Nobody knows. They have to message me to find out.
 
-Dev puts the phone face down. Then she picks it up again, because something in the ad has snagged. *Lanternfish.* She scrolls the company's people page, and there, third row, is a face she knows: Ana, from her second-year databases course, who once lent her a charger during an exam and whom she has not spoken to in five years.
+Dev puts the phone face down. Then she opens another tab, the one she found on Sunday while researching the company: Lanternfish's people page. Third row, a face she knows. Ana, from her second-year databases course, who once lent her a charger during an exam and whom she has not spoken to in five years.
 
 @dev: I can't message her. That would be using her.
 :::
@@ -33,7 +33,7 @@ Before you read on: think of ten people who know your work, however slightly. If
 
 ## The portal and the person {#ch06.sec.portal}
 
-Start with what Dev was about to do: press Apply and join the 200.
+Start with what Dev did on Monday: press Apply and join the 200.
 
 In [[ch03]] you met the funnel from the employer's side. Here is the same funnel, split by how candidates arrived. In one large US corporation that tracked the source of all 62,127 of its applicants, people referred by a current employee were **6.1% of applicants**, but 21.4% of the people interviewed, 27.3% of the people offered jobs and **29.1% of hires**. Applicants from internet job boards were the mirror image: 60.1% of applicants and 23.5% of hires [@brown2016].
 
@@ -129,7 +129,7 @@ There is an ethical edge in that same finding, and it is worth taking seriously.
 On the second part, resentment, the answer is in how you ask. A good ask is short, specific and easy to act on, and it leaves a clean exit.
 
 ::: figure {#ch06.fig.good-ask src="ch06/good-ask.svg"}
-Alt: A chat message from Dev to Ana, annotated in four numbered parts. Part 1, "the bridge": "Hi Ana, it's Dev from second-year databases: you saved my exam with a charger." Part 2, "the specific ask": "I've seen Lanternfish is hiring a backend developer, and I'd love to apply. Would you be comfortable referring me, or telling me who to talk to?" Part 3, "make it easy": "I can send the link, my résumé and two lines on why I fit, so it takes you two minutes." Part 4, "the clean exit": "And if it's not a good time or you don't know my work well enough, no problem at all." A side note reads "four sentences, one ask, no guilt". A crossed-out bubble above reads "Hey stranger! Can I pick your brain sometime?"
+Alt: A chat message from Dev to Ana, annotated in four numbered parts. Part 1, "the bridge": "Hi Ana, it's Dev from second-year databases: you saved my exam with a charger." Part 2, "the specific ask": "I've just applied for the backend developer role at Lanternfish: would you be comfortable referring me, or telling me who to talk to?" Part 3, "make it easy": "I can send the link, my résumé and two lines on why I fit, so it takes you two minutes." Part 4, "the clean exit": "And if it's not a good time or you don't know my work well enough, no problem at all." A side note reads "four sentences, one ask, no guilt". A crossed-out bubble above reads "Hey stranger! Can I pick your brain sometime?"
 
 Anatomy of a good ask. Each part does one job: remind them who you are, say exactly what you want, make it cheap to do, and make it easy to decline. The crossed-out version does none of them.
 :::
@@ -235,7 +235,7 @@ A: If you have a genuine reason (a mutual contact, a shared community, something
 
 Sometimes the person who reaches out is not someone you know but someone paid to find you. Recruiters come in two kinds, and it helps to know which is which.
 
-**In-house recruiters** work for the employer. When one of them contacts you, you have been "sourced": someone looked at your profile and decided you were worth a message. In one vendor's 2024 data, sourced candidates were hired at 2.0% against 0.4% for people who applied cold, five times the rate [@gem2025]. Most of that is selection (the recruiter picked you because you looked like a fit), but it means a findable, accurate profile is a channel in its own right. [[ch05]] covers what makes a profile worth finding.
+**In-house recruiters** work for the employer. When one of them contacts you, you have been "sourced": someone looked at your profile and decided you were worth a message. In one vendor's 2024 data, sourced candidates were hired at 2.0% against 0.4% for people who applied cold, five times the rate [@gem2025]. Most of that is selection (the recruiter picked you because you looked like a fit), but it means a findable, accurate profile is a channel in its own right. [[ch05.sec.profiles]] covers what makes a profile worth finding.
 
 **Agency recruiters** work for a separate firm that the employer pays when it hires someone they introduced. The fee is usually a percentage of the new hire's first-year pay: "contingent" agencies are paid only if a hire happens, while "retained" search firms are paid in instalments and usually cost more in total. One fee guide written for agencies gives examples in the range of 18% to 25% [@topechelon-fees!]. That is illustrative rather than survey data, but it tells you whose money is on the table.
 
@@ -256,7 +256,7 @@ She sends it at 9:05 and opens her spreadsheet to have something to do with her 
 
 At 9:52 her phone buzzes.
 
-> *Dev! Of course I remember. The charger was the best investment I made that year. I'm on the platform team, not backend, but I know Tomás who's hiring and he's lovely. Send me the stuff and I'll put you in today. Also, honestly, it's nice to hear from you.*
+> *Dev! Of course I remember. The charger was the best investment I made that year. I'm on the platform team, not backend, but I know Tomás who's hiring and he's lovely. Send me the stuff and I'll put a referral in today. Also, honestly, it's nice to hear from you.*
 
 @dev: Bea. She said yes. In under an hour.
 

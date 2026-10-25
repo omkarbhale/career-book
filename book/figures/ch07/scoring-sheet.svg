@@ -81,7 +81,7 @@
 <text x="112.0" y="400.0" class="t">noticed early, acted, checked,</text><text x="112.0" y="428.0" class="t">and stopped it recurring</text>
 <text x="70.0" y="462.0" class="t t-sans">evidence heard</text>
 <path d="M62.7 474.2 Q266.2 475.1 468.1 473.4 Q468.5 541.6 467.6 606.3 Q263.8 607.0 62.1 606.1 Q62.3 540.1 62.3 474.2 Z" class="k-thin k-dash k-mute"/>
-<text x="80.0" y="508.0" class="t t-a2">queue bug, 3 days before client</text><text x="80.0" y="540.0" class="t t-a2">wrote a repro, paired on the fix</text><text x="80.0" y="572.0" class="t t-a2">added a nightly test</text>
+<text x="80.0" y="508.0" class="t t-a2">queue bug, 2 days before go-live</text><text x="80.0" y="540.0" class="t t-a2">wrote a repro, paired on the fix</text><text x="80.0" y="572.0" class="t t-a2">added a nightly test</text>
 <text x="265.0" y="640.0" class="t t-mid t-bold t-a1">score alone, then discuss</text>
 <g transform="translate(552 548) scale(2.4)"><path d="M0 0 L2 22 L20 22 L22 0 Z" class="f-meera k-thin"/><path d="M22 5 C31 5 31 16 21 16" class="k-thin"/><path d="M6 -4 Q8 -9 6 -14 M14 -4 Q16 -9 14 -14" class="k-thin k-mute"/></g>
 <text x="578.0" y="636.0" class="t t-sans t-mid">structure</text>

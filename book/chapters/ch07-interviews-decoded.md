@@ -16,7 +16,7 @@ It gets a laugh, which helps. Then Tomás leans forward.
 
 @tomas: Tell me about a time you found a problem that nobody else had noticed. What did you do, and what happened?
 
-For two seconds Dev's mind is a clean white wall. Then, from somewhere behind the wall, her story bank opens: the queueing bug, the one she found three days before a client would have. She starts talking.
+For two seconds Dev's mind is a clean white wall. Then, from somewhere behind the wall, her story bank opens: the queueing bug, the one she found two days before go-live, before the client did. She starts talking.
 
 While she talks, Tomás writes. Not much. A few words, and then something in a column on the right-hand side of his sheet. When she finishes, the second engineer asks the next question from *her* sheet, and Dev notices that it is printed, not improvised.
 :::
@@ -58,7 +58,7 @@ Meera's "kindness" is two kindnesses. To the candidate, structure means being ju
 Here is what a scoring sheet usually looks like.
 
 ::: figure {#ch07.fig.scoring-sheet src="ch07/scoring-sheet.svg"}
-Alt: A clipboard holding an interviewer's scoring sheet. At the top: "Q3. Tell me about a time you found a problem nobody else had noticed." Below it, a scale from 1 to 5 with anchors: 1, "vague, or someone else did it"; 3, "clear problem, clear personal action, some result"; 5, "noticed early, acted, checked the result, and changed something so it would not recur". A box labelled "evidence heard" holds handwritten notes: "queue bug, 3 days before client", "wrote a repro, paired with dev", "added a test to the nightly suite". On the row of score boxes, the 4 is circled in coral. At the foot of the sheet: "score alone, then discuss". Meera's plum mug sits beside the clipboard, labelled STRUCTURE IS KINDNESS.
+Alt: A clipboard holding an interviewer's scoring sheet. At the top: "Q3. Tell me about a time you found a problem nobody else had noticed." Below it, a scale from 1 to 5 with anchors: 1, "vague, or someone else did it"; 3, "clear problem, clear personal action, some result"; 5, "noticed early, acted, checked the result, and changed something so it would not recur". A box labelled "evidence heard" holds handwritten notes: "queue bug, 2 days before go-live", "wrote a repro, paired with dev", "added a test to the nightly suite". On the row of score boxes, the 4 is circled in coral. At the foot of the sheet: "score alone, then discuss". Meera's plum mug sits beside the clipboard, labelled STRUCTURE IS KINDNESS.
 
 A structured scoring sheet. The question and the anchors are written before the interview, and each interviewer scores alone before the panel compares notes. Notice that the anchors reward specific evidence, not confidence.
 :::
@@ -85,7 +85,7 @@ That is the honest case for preparing stories. It is not a trick. It is what the
 You will have met the most widely taught structure for answering past-behaviour questions: **Situation, Task, Action, Result**, usually shortened to STAR. Nobody seems to agree where it came from, and it does not matter. What matters is what the anchors on a scoring sheet listen for, and a good story answer is built to give it to them.
 
 ::: figure {#ch07.fig.story src="ch07/story.svg"}
-Alt: Headed "a two-minute answer, roughly to scale": a horizontal bar running from 0 to 2 minutes, divided into four numbered segments, with each segment explained in a numbered row below. "Situation and task" is short, about 20 seconds: "the queue was dropping 1 in 2,000 messages; nobody had spotted it". "What I did" is the longest, about 70 seconds: "noticed a pattern in the test logs, wrote a reproduction, paired with the developer on the fix, added a nightly test". "Result" is about 20 seconds: "fixed three days before the client's launch; no repeats in a year". "What I'd keep" is about 10 seconds: "now I check retries first". A note below reads "a rule of thumb, not a finding: most of the time goes on what you did".
+Alt: Headed "a two-minute answer, roughly to scale": a horizontal bar running from 0 to 2 minutes, divided into four numbered segments, with each segment explained in a numbered row below. "Situation and task" is short, about 20 seconds: "the queue was dropping 1 in 2,000 messages; nobody had spotted it". "What I did" is the longest, about 70 seconds: "noticed a pattern in the test logs, wrote a reproduction, paired with the developer on the fix, added a nightly test". "Result" is about 20 seconds: "fixed two days before go-live; no repeats in a year". "What I'd keep" is about 10 seconds: "now I check retries first". A note below reads "a rule of thumb, not a finding: most of the time goes on what you did".
 
 Anatomy of a story answer. Set the scene quickly, spend most of your time on what *you* did, land a result someone could check, and close with what you learned. The proportions are a craft rule of thumb, not a research finding.
 :::
@@ -98,7 +98,7 @@ Five things turn a story into a good answer [!craft]:
 4. **Land a result.** A number if there is one, a consequence if there is not: "the client never saw it", "the team now tests every merge".
 5. **Stop.** Two minutes is plenty. If they want more, they will ask, and their follow-up question is a better guide to what they care about than your guess.
 
-Dev's queueing-bug answer in the opening scene worked because it was already in the story bank she built in [[ch04]], with the details checked and the result written down. If you skipped that chapter, now is the time: every past-behaviour question is a request for a story you either have ready or have to improvise. Under pressure, people do not rise to the occasion; they fall back on what they prepared [!view].
+Dev's queueing-bug answer in the opening scene worked because it was already in the story bank she built in [[ch04.sec.story-bank|Chapter 4]], with the details checked and the result written down. If you skipped that chapter, now is the time: every past-behaviour question is a request for a story you either have ready or have to improvise. Under pressure, people do not rise to the occasion; they fall back on what they prepared [!view].
 
 :::: move {#ch07.move.two-minute} The two-minute story
 Pick one story from your story bank (or, if you skipped [[ch04]], one piece of work you are proud of). Set a timer for two minutes and tell it out loud, to a wall or a patient friend, using the shape in [[ch07.fig.story]]. Record yourself if you can bear it.
@@ -230,7 +230,7 @@ Many first interviews now happen over the phone or video, and the evidence on th
 
 What that means for you: on video, you are working against a slight headwind that has nothing to do with you. Remove what you can of it [!craft]. Test the link and the microphone beforehand. Put the camera at eye level and a light in front of you rather than behind. Look at the camera when you make a key point, and at the faces when you listen. Keep your story notes just below the camera, where glancing at them looks like thinking.
 
-Panels add a different challenge: several people, each with their own sheet. Answer the person who asked, then include the others with your eyes as you go. If two panellists ask conflicting things, say so lightly and answer both [!craft]. And if you are interviewing across cultures, you face a related question: how formal and how direct to be with people you have just met. [[ch14]] treats that as a dial to set, at work as much as in interviews.
+Panels add a different challenge: several people, each with their own sheet. Answer the person who asked, then include the others with your eyes as you go. If two panellists ask conflicting things, say so lightly and answer both [!craft]. And if you are interviewing across cultures, you face a related question: how formal and how direct to be with people you have just met. [[ch14.sec.culture|Chapter 14]] treats that as a dial to set, at work as much as in interviews.
 
 ## "Culture fit" {#ch07.sec.fit}
 
@@ -307,7 +307,7 @@ Tomás answers properly: one service owned end to end, two on-call weeks survive
 Everyone laughs, including Tomás, but Dev underlines it twice.
 :::
 
-Dev's two questions did two jobs. They told her what success would look like, which she will need in [[ch11]] when she has to keep the trailer's promises. And they told her something real about the man who might be her manager. File that Friday-afternoon remark; it comes back in [[ch12]].
+Dev's two questions did two jobs. They told her what success would look like, which she will need in [[ch11.sec.promises|Chapter 11]] when she has to keep the trailer's promises. And they told her something real about the man who might be her manager. File that Friday-afternoon remark; it comes back in [[ch12.sec.early|Chapter 12]].
 
 :::: move {#ch07.move.questions} Five questions for them
 Think of a role you want, or one you are interviewing for. Write five questions you would genuinely want answered before accepting it: at least one each about the work, the team, the manager and the risks. Then, for each, write what answer would worry you.

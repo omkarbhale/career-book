@@ -142,10 +142,10 @@ def fig_good_ask():
     b.append(pen.line(108, 92, 560, 42, "k-thick k-a1"))
     b.append(fk.text(100, 134, "but this:", "t t-sm"))
     b.append(fk.avatar("dev", 52, 190, 62, "ga-dev"))
-    b.append(bubble(pen, 100, 150, 520, 560, "f-paper k"))
+    b.append(bubble(pen, 100, 150, 520, 530, "f-paper k"))
     sections = [
         ("the bridge", ["Hi Ana, it's Dev from second-year databases:", "you saved my exam with a charger."]),
-        ("the specific ask", ["I've seen Lanternfish is hiring a backend", "developer, and I'd love to apply. Would you", "be comfortable referring me, or telling me", "who to talk to?"]),
+        ("the specific ask", ["I've just applied for the backend developer", "role at Lanternfish: would you be comfortable", "referring me, or telling me who to talk to?"]),
         ("make it easy", ["I can send the link, my résumé and two lines", "on why I fit, so it takes you two minutes."]),
         ("the clean exit", ["And if it's not a good time, or you don't know", "my work well enough, no problem at all."]),
     ]
@@ -157,8 +157,8 @@ def fig_good_ask():
         b.append(fk.text(162, y, label, "t t-sans"))
         b.append(fk.lines(162, y + 32, rows, "t", 29))
         y += 32 + 29 * len(rows) + 30
-    b.append(fk.text(360, 752, "four sentences, one ask, no guilt", "t t-mid t-a1 t-bold"))
-    fk.write_svg("ch06/good-ask.svg", 640, 776, "Anatomy of a good ask", "\n".join(b))
+    b.append(fk.text(360, 722, "four sentences, one ask, no guilt", "t t-mid t-a1 t-bold"))
+    fk.write_svg("ch06/good-ask.svg", 640, 746, "Anatomy of a good ask", "\n".join(b))
 
 
 if __name__ == "__main__":
