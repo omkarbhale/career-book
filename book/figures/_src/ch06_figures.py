@@ -107,7 +107,7 @@ def fig_referral_funnel():
     p, x3 = seg(x2, 100, 33.8, 64, "f-paper k-thin")
     b.append(p)
     b.append(fk.text((x1 + x2) / 2, 140, "job boards 60.1%", "t t-mid"))
-    b.append(fk.lines((x2 + x3) / 2, 128, ["everything", "else 33.8%"], "t t-sm t-mid t-mute", 24))
+    b.append(fk.lines((x2 + x3) / 2, 128, ["everything", "else 33.8%"], "t t-mid t-mute", 26))
     b.append(fk.text(x0, 196, "referred 6.1%", "t t-a1 t-bold"))
     # hires
     b.append(fk.text(x0 + width, 300, "Who got hired", "t t-bold t-end"))
@@ -118,8 +118,8 @@ def fig_referral_funnel():
     p, h3 = seg(h2, 314, 47.4, 64, "f-paper k-thin")
     b.append(p)
     b.append(fk.lines((x0 + h1) / 2, 342, ["referred", "29.1%"], "t t-mid t-a1 t-bold", 26))
-    b.append(fk.lines((h1 + h2) / 2, 342, ["job boards", "23.5%"], "t t-sm t-mid", 24))
-    b.append(fk.text((h2 + h3) / 2, 354, "everything else 47.4%", "t t-sm t-mid t-mute"))
+    b.append(fk.lines((h1 + h2) / 2, 342, ["job boards", "23.5%"], "t t-mid", 26))
+    b.append(fk.text((h2 + h3) / 2, 354, "everything else 47.4%", "t t-mid t-mute"))
     # the widening referral share
     b.append(pen.line(x1, 166, h1, 312, "k-thin k-dash k-a1"))
     b.append(fk.lines(250, 232, ["referred: 6.1% of who applies,", "29.1% of who gets hired"], "t t-a1", 30))

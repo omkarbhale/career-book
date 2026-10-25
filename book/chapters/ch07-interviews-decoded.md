@@ -33,7 +33,7 @@ An interview is the employer's attempt to predict the film from a trailer, as [[
 
 In a structured interview, every candidate for a role gets the same job-related questions, and every answer is scored against the same scale. In an unstructured one, the interviewer chats, follows their curiosity and forms an overall impression. In the most recent large review of how well selection methods predict job performance, structured interviews came top, with an average correlation of **.42** with later performance; unstructured interviews managed **.19**, less than half as much [@sackett2022]. Both numbers were higher in the classic 1998 estimates (.51 and .38), before the 2022 re-analysis argued that an earlier statistical correction had been applied too generously [@schmidt1998; @sackett2022]. The ranking survived the revision. The gap between them did too.
 
-Google's then head of people operations put the same point bluntly when he said that brainteasers were "a complete waste of time" and that what worked were "structured behavioral interviews, where you have a consistent rubric" [@abc2013-google]. That was one employer describing its own internal data, which it did not publish, so treat it as a well-informed opinion rather than a finding. But it points the same way as the meta-analyses.
+Laszlo Bock, then Google's head of people operations, put the same point bluntly, saying that brainteasers were "a complete waste of time" and that what worked were "structured behavioral interviews, where you have a consistent rubric" [@abc2013-google]. That was one employer describing its own internal data, which it did not publish, so treat it as a well-informed opinion rather than a finding. But it points the same way as the meta-analyses.
 
 So the answer to the Pause is: Tomás is probably scoring your answer, against a scale, on a sheet that every other candidate's interviewers will also fill in. And if you had a choice, you should prefer that interviewer. The printed sheet is on your side.
 
@@ -98,7 +98,7 @@ Five things turn a story into a good answer [!craft]:
 4. **Land a result.** A number if there is one, a consequence if there is not: "the client never saw it", "the team now tests every merge".
 5. **Stop.** Two minutes is plenty. If they want more, they will ask, and their follow-up question is a better guide to what they care about than your guess.
 
-Dev's queueing-bug answer in the opening scene worked because it was already in her story bank, with the details checked and the result written down. Under pressure, people do not rise to the occasion; they fall back on what they prepared [!view].
+Dev's queueing-bug answer in the opening scene worked because it was already in the story bank she built in [[ch04]], with the details checked and the result written down. If you skipped that chapter, now is the time: every past-behaviour question is a request for a story you either have ready or have to improvise. Under pressure, people do not rise to the occasion; they fall back on what they prepared [!view].
 
 :::: move {#ch07.move.two-minute} The two-minute story
 Pick one story from your story bank (or, if you skipped [[ch04]], one piece of work you are proud of). Set a timer for two minutes and tell it out loud, to a wall or a patient friend, using the shape in [[ch07.fig.story]]. Record yourself if you can bear it.
@@ -140,6 +140,26 @@ For someone like Bea, who dislikes talking about herself, that sounds like bad n
 
 Both chairs score. Understatement is a real cost in the snapshot game, because the scoring sheet cannot reward work it never hears about. Overstatement buys a good first minute and then collapses under follow-up questions, and if it survives the interview, you will meet it again in [[ch11]], when you have to deliver what the trailer promised. The answer is the one [[ch01.sec.signals]] gave: **translate, don't fabricate**. Say exactly what you did, as specifically as you can, and let the specificity do the persuading [!view].
 
+Presenting well raises a handful of practical questions that people rarely ask out loud.
+
+::: ask
+Q: Is it all right to say "I don't know"?
+
+A: Yes, followed by how you would find out, or what you would guess and why. A confident wrong answer is worse than an honest "I don't know, but here's how I'd approach it", and on a structured scoring sheet, the reasoning is usually what gets scored [!view].
+
+Q: Can I bring notes into the room?
+
+A: A notebook with your questions for them is normal everywhere. Reading your answers from notes in a face-to-face interview looks less natural; a few prompt words are fine. On the phone, nobody can see your notes at all [!craft].
+
+Q: What if the interviewer clearly has no structure and just chats?
+
+A: Bring the structure yourself. Answer their questions with stories anyway, and use the conversation to make sure your three strongest pieces of evidence come up before the end. You are helping them do a better job, which they will not notice and will appreciate.
+
+Q: Should I follow up after the interview?
+
+A: A short thank-you note that mentions something specific is courteous and costs nothing. We found no good evidence that it changes outcomes, so do it because it is kind, not because it is a tactic.
+:::
+
 ## First impressions, measured {#ch07.sec.first-impressions}
 
 Popular advice about the opening of an interview is full of precise-sounding numbers: interviewers decide in seven seconds, or ninety, or "before you sit down". What does the evidence say?
@@ -157,6 +177,8 @@ Two more pieces of interview folklore are worth clearing up while we are here.
 ::: myth {#ch07.myth.nonverbal verdict=busted grade=strong} "93% of communication is non-verbal"
 False as a general rule, and its own author says so. The 7–38–55 split comes from Albert Mehrabian's experiments on how people communicate feelings and attitudes, such as liking or disliking, through single words and tone of voice. His own site states that "unless a communicator is talking about their feelings or attitudes, these equations are not applicable" [@mehrabian-site]. The original studies were small laboratory tasks [@bigthink-mehrabian]. In an interview, the words carry the evidence. Tone and posture matter, but they do not outweigh what you say by twelve to one.
 :::
+
+The second is a pre-interview ritual you may have seen recommended.
 
 ::: myth {#ch07.myth.power-pose verdict=busted grade=strong} "Power-pose for two minutes before your interview"
 The hormonal and behavioural claims do not hold up. The first author of the original 2010 study later wrote: "I do not believe that 'power pose' effects are real" [@carney2016]. A 2022 meta-analysis of 88 studies found effects on how powerful people *said* they felt, but no reliable effects on physiological measures, and behavioural effects that were probably inflated by publication bias [@forrt-powerposing]. If standing tall makes you feel better, do it; it costs nothing. Just do not expect it to change your hormones or your score.
@@ -200,9 +222,7 @@ Afterwards, she texts Dev.
 @bea: Next time they'll be laminated.
 :::
 
-::: craft
-A phone screen is the one interview where your notes are invisible [!craft]. Use that. Have your story bank, the job ad, your questions for them and a glass of water in front of you. Stand up if it helps your voice. And smile: it is audible.
-:::
+Bea has found the one advantage of a phone screen: nobody can see your notes. Use it [!craft]. Have your story bank, the job ad, your questions for them and a glass of water in front of you. Stand up if it helps your voice. And smile, because it is audible.
 
 ## Phone, video and panels {#ch07.sec.formats}
 
@@ -210,11 +230,7 @@ Many first interviews now happen over the phone or video, and the evidence on th
 
 What that means for you: on video, you are working against a slight headwind that has nothing to do with you. Remove what you can of it [!craft]. Test the link and the microphone beforehand. Put the camera at eye level and a light in front of you rather than behind. Look at the camera when you make a key point, and at the faces when you listen. Keep your story notes just below the camera, where glancing at them looks like thinking.
 
-Panels add a different challenge: several people, each with their own sheet. Answer the person who asked, then include the others with your eyes as you go. If two panellists ask conflicting things, say so lightly and answer both [!craft].
-
-::: coming {ref=ch14}
-Interviewing across cultures, and how direct or formal to be with people you have just met, is a question of setting the dial. [[ch14]] is about exactly that, at work and in interviews.
-:::
+Panels add a different challenge: several people, each with their own sheet. Answer the person who asked, then include the others with your eyes as you go. If two panellists ask conflicting things, say so lightly and answer both [!craft]. And if you are interviewing across cultures, you face a related question: how formal and how direct to be with people you have just met. [[ch14]] treats that as a dial to set, at work as much as in interviews.
 
 ## "Culture fit" {#ch07.sec.fit}
 
@@ -222,7 +238,7 @@ Sooner or later you will be told that a role went to someone who was a better "c
 
 In one of the most detailed studies of hiring, a sociologist interviewed 120 people who made hiring decisions at elite US investment banks, law firms and consultancies, and observed their processes. Employers looked for candidates who were culturally similar to themselves in leisure pursuits, experiences and self-presentation, and this shared culture often outweighed concerns about how productive candidates would be [@rivera2012]. That was one elite sector, studied qualitatively, but the mechanism is the one Meera described: unstructured judgement drifts towards "like me".
 
-There are two lessons, one for each side of the table. As a candidate, genuine common ground helps and pretending to share it does not, because the film will contradict the trailer quickly. As an interviewer, which you will be one day, ask what "fit" actually means in behaviours ("we argue openly about designs", "we write things down") and score those, instead of asking whether you would enjoy a drink with the candidate [!view].
+There are two lessons, one for each side of the table. As a candidate, genuine common ground helps and pretending to share it does not, because the film will contradict the trailer quickly. As an interviewer, which you will be one day, ask what "fit" actually means in behaviours ("we argue openly about designs", "we write things down") and score those, instead of asking whether you would enjoy a drink with the candidate [!view]. The same choice turns up inside companies: promotion panels weigh evidence against rubrics too, as [[ch19]] shows, and the same risk of "like me" applies [!view].
 
 ## Questions they shouldn't ask {#ch07.sec.law}
 
@@ -303,33 +319,7 @@ The second half of the exercise matters more than the first. Deciding *in advanc
 :::
 ::::
 
-::: ask
-Q: Is it all right to say "I don't know"?
-
-A: Yes, followed by how you would find out, or what you would guess and why. A confident wrong answer is worse than an honest "I don't know, but here's how I'd approach it", and on a structured scoring sheet, the reasoning is usually what gets scored [!view].
-
-Q: Can I bring notes into the room?
-
-A: A notebook with your questions for them is normal everywhere. Reading your answers from notes in a face-to-face interview looks less natural; a few prompt words are fine. On the phone, as Bea found, nobody can see the wall [!craft].
-
-Q: What if the interviewer clearly has no structure and just chats?
-
-A: Bring the structure yourself. Answer their questions with stories anyway, and use the conversation to make sure your three strongest pieces of evidence come up before the end. You are helping them do a better job, which they will not notice and will appreciate.
-
-Q: Should I follow up after the interview?
-
-A: A short thank-you note that mentions something specific is courteous and costs nothing. We found no good evidence that it changes outcomes, so do it because it is kind, not because it is a tactic.
-:::
-
-::: flashback {ref=ch04}
-The story bank you built in [[ch04]] did most of the work in this chapter. If you skipped it, now is the time: every past-behaviour question is a request for a story you either have ready or have to improvise.
-:::
-
 Dev leaves the Depot with a good feeling and the knowledge that good feelings after interviews are not reliable data. Two days later, Lanternfish emails: they would like to see some of her work. A take-home task, due in a week. It is time to stop telling and start showing.
-
-::: coming {ref=ch19}
-Interview panels and promotion committees have a lot in common: evidence, rubrics, calibration, and the risk of "like me". [[ch19]] shows how the skills from this chapter apply when the panel is inside your own company.
-:::
 
 ::: rewind
 - An interview is a **measurement**, and structure makes it a better one: structured interviews predict job performance at about .42, unstructured ones at about .19.

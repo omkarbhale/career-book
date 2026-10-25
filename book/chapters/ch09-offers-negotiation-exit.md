@@ -49,6 +49,8 @@ Reading an offer properly means pricing each layer [!craft]:
 Offers in India are usually quoted as **CTC**, "cost to company": the total the employer spends on you, which differs from the take-home pay that reaches your account [@tickertape-ctc!]. CTC can include allowances, bonuses, health insurance, gratuity and the employer's provident-fund contribution, so two offers with the same CTC can mean quite different monthly pay. Ask for the breakdown and the expected in-hand figure. India's four Labour Codes, which came into force on 21 November 2025, changed parts of how wages are defined for these calculations, and rules were still being notified at the time of writing [@argus-labourcodes], so check the current position before comparing offers.
 :::
 
+With the layers in mind, try comparing two offers that look simpler than they are.
+
 :::: move {#ch09.move.compare} Compare two offers
 Dev's friend has two offers. All figures are in thousands a year, in whatever currency you like.
 
@@ -76,7 +78,7 @@ What to ask before deciding: Offer A's bonus history over several years, the equ
 
 Tomás asked for an answer by Monday, and Dev asked for Wednesday. That small exchange is worth a closer look, because deadlines on offers are a known problem.
 
-Economists who study labour markets call an offer that must be accepted almost immediately an **exploding offer**. Across about a dozen real markets, those where deals were struck far in advance tended to allow exploding offers and forbid going back on an acceptance; in laboratory experiments, that combination produced inefficient early matching, and relaxing either rule let people match later, with better information and better results [@niederle2009]. In plain terms: pressure to decide fast benefits whoever is applying the pressure, and leads to worse matches on average.
+Economists who study labour markets call an offer that must be accepted almost immediately an **exploding offer**. Across about a dozen real markets, those where deals were struck far in advance tended to allow exploding offers and forbid going back on an acceptance; in laboratory experiments, that combination produced inefficient early matching, and relaxing either rule let people match later, with better information and better results [@niederle2009]. In plain terms: pressure to decide fast means deciding with less information, and leads to worse matches on average.
 
 For a candidate, the practical move is simple and normal: **ask for a specific, reasonable amount of time, with a reason** [!craft]. "I'm excited about this. I'd like to read the details properly and finish one other conversation; can I give you a firm answer by Wednesday?" Most employers will agree. One who refuses a few days for a decision that will shape years of your life is telling you something about how decisions get made there, as [[ch07.sec.ask-them]] warned.
 
@@ -113,8 +115,10 @@ Those were laboratory negotiations between students over business deals, not sal
 Overstated. In laboratory negotiations, whoever made the first offer usually did *better*, because first offers anchor the outcome [@galinsky2001]. The advice has a sensible core when you have no idea what the role pays: a number pulled from thin air can anchor you low. But with good market information, opening with a well-justified number can help, and when the other side opens first, focusing on your own target and alternatives removes most of their advantage [@galinsky2001]. The grade is for the lab evidence; salary talks have a relationship the experiments did not.
 :::
 
+In some places, you no longer have to guess the market, because the law makes employers tell you.
+
 ::: field {regions="US, EU, UK, India"} Pay transparency: when they have to tell you
-**United States.** As of May 2026, 13 states and the District of Columbia had pay-transparency laws in effect requiring salary ranges in job postings, including California, Colorado, Illinois, New York and Washington [@clockspot-paytransparency]. New York State, for example, requires employers with four or more employees to list a compensation range for advertised jobs, promotions and transfers [@nydol-paytransparency]. Virginia's law takes effect on 1 July 2026 and also bans seeking or relying on salary history; Maine's on 29 July 2026; Delaware's on 26 September 2027 [@cooley2026]. Thresholds and details vary by state.
+**United States.** As of May 2026, 13 states and the District of Columbia had pay-transparency laws in effect requiring salary ranges in job postings, including California, Colorado, Illinois, New York and Washington [@clockspot-paytransparency]. New York State, for example, requires employers with four or more employees to list a compensation range for advertised jobs, promotions and transfers [@nydol-paytransparency]. Virginia's law took effect on 1 July 2026 and also bans seeking or relying on salary history, and Maine's on 29 July 2026; Delaware's takes effect on 26 September 2027 [@cooley2026]. Thresholds and details vary by state.
 
 **European Union.** The Pay Transparency Directive gives job seekers a right to information about pay before employment and bans employers from asking about salary history; member states were due to transpose it by 7 June 2026 [@ec-paytransparency]. By late September 2026 only a few had done so fully, and Germany and France had not [@lockton2026-eu], so whether the rights apply to you yet depends on your country.
 
@@ -123,8 +127,10 @@ Overstated. In laboratory negotiations, whoever made the first offer usually did
 Where a range is posted, it is your anchor information: place yourself within it using your evidence.
 :::
 
+Transparency laws are popular, and a popular belief has grown up around them.
+
 ::: myth {#ch09.myth.transparency verdict=busted grade=strong} "Pay transparency raises everyone's pay"
-Unsupported, and probably wrong on average. A major study of US state laws protecting workers' right to discuss pay with colleagues found that wages *fell* by about 2% after the laws took effect, because transparency weakened individual bargaining; the effect was smaller where workers had little individual bargaining power to begin with [@cullen2023]. Those were laws about discussing pay, not about posting ranges, so applying the result to posting laws is an inference. Transparency can still be fairer, by narrowing gaps between people in the same role. It is not a pay rise for everyone.
+Unsupported, and probably wrong on average. A major study of US state laws protecting workers' right to discuss pay with colleagues found that wages *fell* by about 2% after the laws took effect, because transparency weakened individual bargaining; the effect was smaller where workers had little individual bargaining power to begin with [@cullen2023]. Those were laws about discussing pay, not about posting ranges, so applying the result to posting laws is an inference. There may be other good reasons for transparency, such as fairness between people doing the same job [!view]. A pay rise for everyone is not one of them.
 :::
 
 ## Negotiating is not equally free {#ch09.sec.not-free}
@@ -143,6 +149,8 @@ And yet the claim that women simply "don't negotiate" does not hold up either. I
 Overstated. When job ads made clear that pay was negotiable, women and men negotiated at the same rate, 21.2% and 21.4% [@leibbrandt2015]. The gap appeared when the rules were unclear, and evaluators have been found to penalise women more than men for asking [@bowles2007], which makes caution a reasonable choice rather than a failing. The fix is clearer rules, not braver women.
 :::
 
+The other half of the folk wisdom, that asking costs nothing, fares worse.
+
 ::: myth {#ch09.myth.free verdict=busted grade=strong} "Negotiating is always free; the worst they can say is no"
 False for some candidates. Evaluators penalised women more than men for initiating salary negotiations [@bowles2007], and more racially biased evaluators gave Black candidates who negotiated lower starting salaries [@hernandez2019]. For many people, a polite, well-founded request carries little risk, but "free for everyone" is not what the evidence shows.
 :::
@@ -160,24 +168,24 @@ And if you are on the hiring side, the clearest lesson is for you: say in the ad
 ::: scene {slug="INT. DEV'S FLAT — MONDAY, 6:30 PM"}
 The written offer matches what Tomás said. Dev puts it in the *Offers* tab, next to the range from the job ad, her current pay, the notice period in her Corvid contract, and a column she has labelled *Alternatives*. It says: *stay at Corvid; keep searching.* Under *Target*, she writes a number in the middle of the posted range, and next to it the three reasons she thinks she has earned it: the regression suite, the queueing bug, the take-home bug she chose to show.
 
-Then she phones the recruiter, because the evidence in [[ch07]] says that saying things out loud is harder, and she wants to have done the hard version.
+Then she phones the recruiter instead of emailing, because she wants to have done the hard version.
 
 @dev: I'm excited about this and I want to make it work. Is there any flexibility on the base salary?
 
 > *There might be a little. What did you have in mind?*
 
-@dev: The ad said the range goes up to the high end. Given the test automation work I'd bring on day one, I was hoping for nearer the middle.
+@dev: The range in the ad was quite wide. Given the test automation work I'd bring on day one, I was hoping for nearer the middle of it.
 
 She says the number. Then she stops talking, which is the hardest part.
 
 On Tuesday afternoon the recruiter calls back. Lanternfish has met her about two-thirds of the way. Dev thanks her, says yes, and asks for the updated letter in writing.
 :::
 
-That is what a negotiation usually looks like: one ask, a reason, a number, a pause, and a partial yes. Not drama; a conversation. Dev did not threaten to walk away, did not invent a competing offer and did not apologise. She used the range as her information, her evidence as her reason and her written-down target and alternatives as her counterweight to the anchor. She also took the partial yes, because she had decided in advance what she would be pleased with.
+That is what a negotiation usually looks like: one ask, a reason, a number, a pause, and a partial yes. Not drama; a conversation. Dev did not threaten to walk away, did not invent a competing offer and did not apologise. She used the range as her information, her evidence as her reason and her written-down target and alternatives as her counterweight to the anchor. She also took the partial yes, because she had decided in advance what she would be pleased with. She will need the same habits again: a promotion comes with its own conversation about pay, and [[ch19]] shows how the rules from this chapter carry over.
 
 ## Checks, references and probation {#ch09.sec.checks}
 
-Between "yes" and the first day, many employers check things: your identity, your right to work, your past employment, sometimes your criminal record, and often your references. Most of this is routine. A little of it is worth understanding.
+Between "yes" and the first day, many employers check things: your identity, your right to work, your past employment, sometimes your criminal record, and often your references. Most of this is routine. A little of it is worth understanding, and all of it is the moment when the trailer you cut in [[ch05]] meets someone who checks it.
 
 **References** are a weak but real signal. In the classic 1998 summary of selection methods, reference checks predicted job performance with a validity of .26, well below structured interviews and work samples [@schmidt1998]. Their value to you is mostly defensive: choose referees who have seen your work, ask them in advance, and tell them what the role is so they can talk about the relevant parts of your film [!craft]. This is the long game paying out in the snapshot game, exactly as [[ch01.sec.loop]] promised.
 
@@ -233,8 +241,10 @@ It is short and true. It gives the real reason without an accusation, thanks the
 
 ## The counter-offer {#ch09.sec.counter}
 
+Dev's manager at Corvid has one more move to make.
+
 ::: scene {slug="INT. CORVID SYSTEMS, MANAGER'S OFFICE — WEDNESDAY, 4:00 PM"}
-Dev's manager takes the news well, too well. Two hours later he asks her back in.
+Dev's manager takes the news well, too well. Two hours later, Dev is asked back in.
 
 > *We don't want to lose you. We can match the money, and I've spoken to the head of delivery: there's a real chance of a move into development next year.*
 
@@ -259,15 +269,15 @@ That evening, Dev calls Meera. Meera's mug, visible over the video call, says IT
 
 A counter-offer is a strange moment: the people who would not give you what you wanted are suddenly offering it, because you are leaving. Popular advice usually answers the question for you, with a statistic: "80% of people who accept a counter-offer are gone within six months." Before you lean on that number, look at where it comes from.
 
-::: myth {#ch09.myth.counter-offer verdict=busted grade=myth-or-unsupported} "80% of people who accept a counter-offer leave within six months"
-Unsupported. Two career sites that tried to trace the statistic found no study behind it; the figure circulates as anything from 48% to 93%, depending on who repeats it [@interviewguys-counteroffer; @4dayweek-counteroffer]. Both mention a figure of roughly 50% leaving within a year, attributed to a commercial research firm, which we could not verify. As one of them points out, the most enthusiastic repeaters of the 80% figure are recruiters, who are paid when you move [@4dayweek-counteroffer]. The grade reflects the evidence for the claim itself: there is none we could find.
+::: myth {#ch09.myth.counter-offer verdict=busted grade=weak} "80% of people who accept a counter-offer leave within six months"
+Unsupported. Two career sites that tried to trace the statistic found no study behind it; the figure circulates as anything from 48% to 93%, depending on who repeats it [@interviewguys-counteroffer; @4dayweek-counteroffer]. Both mention a figure of roughly 50% leaving within a year, attributed to a commercial research firm, which we could not verify. As one of them points out, the most enthusiastic repeaters of the 80% figure are recruiters, who are paid when you move [@4dayweek-counteroffer]. The debunking comes from commercial career sites, so its grade is weak; but nobody, including us, has found a study that supports the claim.
 :::
 
 Without the statistic, you have to think, which is better anyway. Two questions do most of the work [!craft].
 
 **Why did it take a resignation?** If the raise or the role was possible, it was possible last month. A counter-offer can be a sincere correction by a manager who did not realise what they were about to lose. It can also be a way to buy time while they find your replacement. You know your manager better than any statistic does.
 
-**Are your reasons for leaving fixed by what is on offer?** Among US workers who quit a job in 2021, the most common reasons were low pay and no opportunities for advancement (63% each) and feeling disrespected at work (57%) [@pew2022]. If your reason was pay, a counter-offer might genuinely solve it. If it was advancement, a promise about next year is worth exactly as much as the last promise. If it was respect, money rarely buys it back.
+**Are your reasons for leaving fixed by what is on offer?** Among US workers who quit a job in 2021, the most common reasons were low pay and no opportunities for advancement (63% each) and feeling disrespected at work (57%) [@pew2022]. If your reason was pay, a counter-offer might genuinely solve it. If it was advancement, a promise about next year is worth exactly as much as the last promise. If it was respect, money rarely buys it back [!view].
 
 There is one more piece of evidence worth knowing, about the people who leave and later return. In one large organisation, rehired "boomerang" managers performed about as well as other hires in their first year but improved less over time, and were more likely to leave again, often for the same reasons as the first time [@arnold2021]. That study was about returning rather than staying, but the lesson transfers [!view]: when the original reasons for leaving have not changed, they tend to reassert themselves.
 
@@ -300,7 +310,29 @@ Within those rules, leaving well is mostly a matter of craft [!craft]:
 - **Do not coast, and do not gossip about the new place.** Your colleagues are still in the film you are leaving.
 - **Say goodbye properly.** A short, specific thank-you to the people who helped you is cheap, true and remembered.
 
-Why bother, when you are leaving anyway? Because, as [[ch01.sec.long-game]] put it, at work people remember. The colleagues you leave become your middle-ring ties ([[ch06.sec.ties]]), your references, your referrers and, sometimes, your colleagues again. Leaving well is not the end of the long game; it is the move that keeps it going.
+Why bother, when you are leaving anyway? Because, as [[ch01.sec.long-game]] put it, at work people remember. The colleagues you leave become your middle-ring ties ([[ch06.sec.ties]]), your references, your referrers and, sometimes, your colleagues again. Leaving well is not the end of the long game; it is the move that keeps it going. Years from now, Dev will face the stay-or-go decision again, from strength, in [[ch22]], and some of the people she is leaving will be part of how it goes.
+
+A few last questions come up at this stage, often late at night.
+
+::: ask
+Q: Should I tell my current employer that I'm interviewing?
+
+A: Usually not until you have a signed offer, unless you have a manager you trust and a reason, such as wanting them to try to keep you. The research on resignation styles found that managers react well to people who keep them "in the loop" [@shrm2016-resignation], but that is about how you resign, not about announcing a search that may come to nothing [!craft].
+
+Q: Can an employer withdraw an offer because I tried to negotiate?
+
+A: It can happen, and the backlash research shows why some evaluators react badly to asking [@bowles2007; @hernandez2019]. In practice it is rare when the request is polite, specific and grounded in evidence [!craft]. An employer who withdraws an offer over a courteous question has told you something important cheaply.
+
+Q: What if I've already accepted, and a better offer arrives?
+
+A: Whatever the legal position where you are, which depends on what you signed, reneging is costly to your reputation, and the people you let down will remember. If it happens, be honest, quick and apologetic, and do not do it twice [!view].
+
+Q: Do I have to give a reason for leaving?
+
+A: Your contract may not require one. Even so, resignations with no reason given tend to land badly with managers [@shrm2016-resignation], and a short, true reason ("I've accepted a role that moves me into development") costs you nothing.
+:::
+
+On Dev's last Friday at Corvid, the handover is finished, and so, nearly, is Part I.
 
 ::: scene {slug="INT. CORVID SYSTEMS, THIRD FLOOR — DEV'S LAST FRIDAY, 5:15 PM"}
 The regression suite has a 14-page handover document, a recorded walk-through and a new owner, a junior tester whom Dev has spent two weeks pairing with, who has run it alone twice. It passed both times, which Dev finds almost disappointing.
@@ -318,29 +350,7 @@ Bea is the last person at Dev's desk.
 Dev takes her mustard hoodie off the back of her chair, where it has hung for three years, and logs out for the last time.
 :::
 
-Bea's search has stalled for now: a final round at the payments company ended in a hiring freeze. She will stay at Corvid, and the book will come back to her. Dev's snapshot game is over. Her long game is about to begin, at a company where she knows one person from a databases course, one manager who hates Friday afternoons, and nothing else at all.
-
-::: coming {ref=ch10}
-Part II starts on Dev's first morning at Lanternfish, when the coffee machine breaks and everybody's response tells her something about them. [[ch10]] is about the model under the whole long game: trust, reciprocity and why good defaults beat performances.
-:::
-
-::: ask
-Q: Should I tell my current employer that I'm interviewing?
-
-A: Usually not until you have a signed offer, unless you have a manager you trust and a reason, such as wanting them to try to keep you. The research on resignation styles found that managers react well to people who keep them "in the loop" [@shrm2016-resignation], but that is about how you resign, not about announcing a search that may come to nothing [!craft].
-
-Q: Can an employer withdraw an offer because I tried to negotiate?
-
-A: It can happen, and the backlash research shows why some evaluators react badly to asking [@bowles2007; @hernandez2019]. In practice it is rare when the request is polite, specific and grounded in evidence [!craft]. An employer who withdraws an offer over a courteous question has told you something important cheaply.
-
-Q: What if I've already accepted, and a better offer arrives?
-
-A: Whatever the legal position where you are, which depends on what you signed, reneging is costly to your reputation, and the people you let down will remember. If it happens, be honest, quick and apologetic, and do not do it twice [!view].
-
-Q: Do I have to give a reason for leaving?
-
-A: Not legally, in most places. But resignations with no reason given tend to land badly with managers [@shrm2016-resignation], and a short, true reason ("I've accepted a role that moves me into development") costs you nothing.
-:::
+Bea's search has stalled for now: a final round at the payments company ended in a hiring freeze. She will stay at Corvid, and the book will come back to her. Dev's snapshot game is over. Her long game is about to begin, at a company where she knows one person from a databases course, one manager who hates Friday afternoons, and nothing else at all. Part II starts on her first morning there, when the coffee machine breaks and everybody's response tells her something about them. [[ch10]] is about the model under the whole long game: trust, reciprocity and why good defaults beat performances.
 
 ::: rewind
 - An offer is more than base pay: **price the bonus as paid, the equity as uncertain, the benefits, and what is not on paper**. In India, ask how much of the CTC lands in your account.

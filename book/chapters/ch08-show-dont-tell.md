@@ -74,11 +74,11 @@ Study research points to a better way. In a major review of learning techniques,
 - **Learn patterns, not problems.** After each problem, write one line: "This was really a ___ problem." Over time you build a small set of shapes (two pointers, a queue, a hash map of counts) that cover many questions.
 - **Practise the whole performance.** Talking, writing on a board or a shared editor, testing out loud, being interrupted. That last part is the subject of the next section.
 
-::: coming {ref=ch20}
-Practice matters, but less than its fans claim. [[ch20]] looks at what the research on deliberate practice does and does not explain about getting good at work, and the famous 10,000 hours.
-:::
+Practice matters, but less than its fans claim: [[ch20]] looks at what the research on deliberate practice does and does not explain about getting good at work, including the famous 10,000 hours.
 
 ## Thinking out loud {#ch08.sec.out-loud}
+
+Bea gets a chance to test all this sooner than she would like.
 
 ::: scene {slug="INT. BEA'S FLAT, ON A VIDEO CALL — TUESDAY, 2:00 PM"}
 Bea has made it to the next round with the payments company: a live coding session in a shared editor. Ten minutes in, it is going the way her live coding usually goes. She has understood the problem, seen a good approach, and gone completely silent while she types it. The interviewer has unmuted twice to ask "How's it going?" and twice been told "Fine."
@@ -106,6 +106,20 @@ Thinking out loud has a cost, and the evidence suggests what it is. Narrating wh
 When you get stuck in a live exercise [!craft]. Say so, specifically: "I'm stuck on how to handle the duplicate timestamps." Then say what you would try. Interviewers often have a hint ready, and many score how you use a hint, not whether you needed one. Silence, by contrast, gives them nothing to work with. If your mind goes blank, go back to the tiny example: running something concrete through by hand almost always restarts the thinking.
 :::
 
+None of this sticks from reading about it. It sticks from doing it out loud, several times, which is what the next exercise is for.
+
+:::: move {#ch08.move.talk-aloud} Talk-aloud practice
+Pick a small problem from your field: a coding exercise, a short case question ("How many coffee machines does an office of 200 need?"), or a design question. Set a timer for 15 minutes and solve it **out loud**, using the five moves in [[ch08.fig.out-loud]]. Record yourself, or ask a friend to listen without helping.
+
+Then listen back and count: how many of the five moves did you make? How long were your longest silences?
+
+::: answer
+Almost everyone has two or three silences of more than a minute on the first try, usually right after reading the problem and right before writing the main logic. Those are exactly the moments the interviewer most wants to hear. The fix is not to fill the silence with chatter but to narrate the decision you are making: "I'm choosing between a list and a map here; a map, because I need lookups."
+
+Most people also skip the tiny example and the testing out loud, because they feel slow. They are the opposite: the example prevents you solving the wrong problem, and testing out loud catches bugs while the interviewer is still watching you be careful. Do the exercise three times over a week, on different problems, and the silences shrink.
+:::
+::::
+
 ## Pairing and system design {#ch08.sec.formats}
 
 Two other formats are common in software hiring, and the same principles carry over.
@@ -122,6 +136,10 @@ Back to Dev's Saturday and the Pause. How long should you spend on a take-home t
 
 The answer we would give is: **about what they said, and tell them how long you spent** [!view]. The stated time is the employer telling you how much work they expect, and therefore how much work they are comparing. Spending fourteen hours does not make you look three times as good; it makes the comparison unfair to everyone who respected the brief, and it teaches the employer that their "three hours" is really fourteen. It also sets a pattern you will regret in Part II: the person who always over-delivers in secret becomes the person everyone quietly expects to work weekends.
 
+::: trapdoor
+**Gold-plating the take-home.** Spending a whole weekend to "stand out" feels like commitment. It usually buys a marginally better submission, a reviewer who cannot tell whether you would need a weekend for every task, and a tired Monday. Worse, it trains you to pay for opportunities with unpaid time, a habit that Part II will ask you to break. Respect the stated time, say how long you took, and let the README show what you would have done next.
+:::
+
 No study has compared take-home strategies, so most of what follows is craft [!craft]. It is built on the same idea as the rest of this chapter: make your thinking visible, and make it easy for a reviewer to score.
 
 ::: figure {#ch08.fig.scoping src="ch08/scoping.svg"}
@@ -135,10 +153,6 @@ Scoping a take-home. The questions before and the README after take twenty minut
 > *Is it fine to keep the data in memory rather than set up a database, given the time limit? And should I optimise for correctness or throughput if I have to choose?*
 
 The recruiter forwarded them to Tomás, who replied within the hour: in memory is fine; correctness first. Two questions, and Dev now knows what "good" means to the person who will mark it.
-
-**While you work**, start a timer. Build the core of the task first, so that whatever happens, you hand in something that works. Then test the core. Polish, extras and the little dashboard come last, if at all.
-
-**When the timer goes off, stop**, and write the README. This is the part most candidates skip and most reviewers read first. Say what you built, what you decided and why, what you left out on purpose, what you would do next with more time, and how long you spent. A section called "What I'd do with another day" turns every gap in your code from a weakness into evidence of judgement: you knew it was there, and you chose.
 
 :::: move {#ch08.move.questions} What would you ask before starting?
 Here is a take-home brief. Before reading the answer, write the two or three questions you would send back before writing any code.
@@ -155,6 +169,10 @@ Strong questions resolve ambiguity that would change what you build, or what "go
 Weak questions are ones you could answer yourself ("What language should I use?" when the brief says any) or that signal anxiety rather than judgement ("Is it OK if it's not perfect?"). Two or three questions are plenty; twelve suggests you will need a lot of hand-holding. And if nobody answers within a day, make a sensible assumption and write it down in the README. That is a judgement call too, and a visible one.
 :::
 ::::
+
+**While you work**, start a timer. Build the core of the task first, so that whatever happens, you hand in something that works. Then test the core. Polish, extras and the little dashboard come last, if at all.
+
+**When the timer goes off, stop**, and write the README. This is the part most candidates skip and most reviewers read first. Say what you built, what you decided and why, what you left out on purpose, what you would do next with more time, and how long you spent. A section called "What I'd do with another day" turns every gap in your code from a weakness into evidence of judgement: you knew it was there, and you chose.
 
 :::: move {#ch08.move.time-box} Time-box a take-home
 Take the library brief above, or a real one. Before you start, write a plan that fits inside the stated time, in blocks of 15 minutes: what you will build first, when you will write tests, and when you will stop to write the README. Then, if you can, do it, with a real timer, and compare your plan with what happened.
@@ -174,10 +192,6 @@ Most take-homes are honest: a small, artificial problem designed to show how you
 We think a take-home crosses from assessment into free labour when several of these are true: it is a real problem from the company's own backlog rather than an artificial one; it is open-ended, with no stated time; it would take more than an evening; it asks for production-ready polish; or the terms suggest the company will use or own what you produce. No study measures how common this is, so this is our view, not a finding.
 
 When you see the signs, you have options short of walking away. Ask how long they expect it to take and how it will be assessed. Offer a smaller version, or to walk through how you would approach it in a call. Ask whether they pay for longer exercises (some companies do). And if the answer to every question is "just do it", you have learned something about how the company treats people's time, before you work there rather than after.
-:::
-
-::: trapdoor
-**Gold-plating the take-home.** Spending a whole weekend to "stand out" feels like commitment. It usually buys a marginally better submission, a reviewer who cannot tell whether you would need a weekend for every task, and a tired Monday. Worse, it trains you to pay for opportunities with unpaid time, a habit that Part II will ask you to break. Respect the stated time, say how long you took, and let the README show what you would have done next.
 :::
 
 ## Cases and presentations {#ch08.sec.cases}
@@ -208,6 +222,8 @@ A: Sometimes, if you ask politely and briefly. Many companies do not give it, of
 
 ## Dev's walk-through {#ch08.sec.walkthrough}
 
+The following Tuesday, Dev finds out what the README was for.
+
 ::: scene {slug="INT. DEV'S FLAT, ON A VIDEO CALL WITH LANTERNFISH — THE FOLLOWING TUESDAY, 4:00 PM"}
 Dev sent her take-home on Wednesday, after three hours and fifty minutes, with a README whose last section was called *What I'd do with another day*. Now Tomás and one of the panel engineers are walking through it with her.
 
@@ -230,21 +246,7 @@ The engineer laughs. Tomás doesn't, but he writes something down, and Dev has l
 
 Look at what the walk-through actually tested: not whether Dev's code was perfect, but whether she understood its weaknesses, could explain her decisions and was honest about what she had not done. The README turned three gaps into three pieces of evidence. The failing test she chose to show is the clearest signal of the lot: specific, checkable and costly to fake, exactly as [[ch01.sec.signals]] promised. A candidate who hides a bug has to hope nobody finds it. A candidate who shows one has nothing left to hide.
 
-::: coming {ref=ch09}
 On Friday morning, Lanternfish calls. What happens next, an offer, a negotiation, a counter-offer from Corvid and a resignation, is [[ch09]].
-:::
-
-:::: move {#ch08.move.talk-aloud} Talk-aloud practice
-Pick a small problem from your field: a coding exercise, a short case question ("How many coffee machines does an office of 200 need?"), or a design question. Set a timer for 15 minutes and solve it **out loud**, using the five moves in [[ch08.fig.out-loud]]. Record yourself, or ask a friend to listen without helping.
-
-Then listen back and count: how many of the five moves did you make? How long were your longest silences?
-
-::: answer
-Almost everyone has two or three silences of more than a minute on the first try, usually right after reading the problem and right before writing the main logic. Those are exactly the moments the interviewer most wants to hear. The fix is not to fill the silence with chatter but to narrate the decision you are making: "I'm choosing between a list and a map here; a map, because I need lookups."
-
-Most people also skip the tiny example and the testing out loud, because they feel slow. They are the opposite: the example prevents you solving the wrong problem, and testing out loud catches bugs while the interviewer is still watching you be careful. Do the exercise three times over a week, on different problems, and the silences shrink.
-:::
-::::
 
 ::: rewind
 - Work samples are **costly signals**: hard to fake, close to the real job. They predict job performance (a revised validity of .33), though less than the old .54 estimate suggested.

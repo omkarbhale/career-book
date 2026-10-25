@@ -38,7 +38,7 @@ Start with what Dev was about to do: press Apply and join the 200.
 In [[ch03]] you met the funnel from the employer's side. Here is the same funnel, split by how candidates arrived. In one large US corporation that tracked the source of all 62,127 of its applicants, people referred by a current employee were **6.1% of applicants**, but 21.4% of the people interviewed, 27.3% of the people offered jobs and **29.1% of hires**. Applicants from internet job boards were the mirror image: 60.1% of applicants and 23.5% of hires [@brown2016].
 
 ::: figure {#ch06.fig.referral-funnel src="ch06/referral-funnel.svg"}
-Alt: Two stacked bars side by side, one for applicants and one for hires, from one large US firm. In the applicants bar, job boards fill 60.1% and referrals a thin coral sliver of 6.1%. In the hires bar, job boards shrink to 23.5% and referrals grow to 29.1%, the largest single slice. A label between the bars says "referred: 6.1% of who applies, 29.1% of who gets hired". A third segment in each bar, "everything else", covers the company website, applying on your own initiative, campus recruiting and other channels: 33.8% of applicants and 47.4% of hires.
+Alt: Two horizontal stacked bars, one above the other, from one large US firm: "who applied" and "who got hired". In the applicants bar, job boards fill 60.1% and referrals a thin coral sliver of 6.1%. In the hires bar, job boards shrink to 23.5% and referrals grow to 29.1%, the largest single slice. A label between the bars says "referred: 6.1% of who applies, 29.1% of who gets hired". A third segment in each bar, "everything else", covers the company website, applying on your own initiative, campus recruiting and other channels: 33.8% of applicants and 47.4% of hires.
 
 The referral effect, in one firm's numbers [@brown2016]. Referred candidates were a sliver of the people who applied and the biggest single group of the people hired. Every stage of the funnel tilted their way.
 :::
@@ -88,6 +88,24 @@ Overstated. Granovetter's insight holds up: acquaintances carry new information 
 
 One honest caveat about all of this. In the LinkedIn experiment, the chance that any single new connection led to a job was a fraction of one per cent [@rajkumar2022]. Ties matter in aggregate, over years. Adding 300 strangers on a Tuesday night is not a job search; it is a Tuesday night.
 
+Before going further, it is worth seeing what your own rings look like.
+
+:::: move {#ch06.move.tie-map} Map your ties
+Draw three rings on a page, like [[ch06.fig.tie-map]], with you at the centre.
+
+1. In the **inner ring**, write up to five people who know you well: close colleagues, friends in your field, a mentor.
+2. In the **middle ring**, write as many people as you can who know you a little and have seen *some* of your work: former teammates, classmates, clients, people from a community you take part in. Aim for twenty.
+3. Next to each middle-ring name, write one specific thing they have seen you do.
+4. Circle the three middle-ring people most likely to hear about roles you want.
+
+::: answer
+Most people find the inner ring easy and the middle ring surprisingly long once they start: former colleagues from two jobs ago, the person who reviewed your code once, the classmate who went into your target industry. If your middle ring has fewer than ten names, that is useful information, not a verdict. It tells you where the long-game work is: picking one community and showing up in it regularly.
+
+The third step is the important one. A name you cannot attach to a piece of work is an outer-ring tie wearing a middle-ring label. Those people may still pass on news of a job, but they cannot vouch for you, so ask them for information ("Is the team hiring? Who should I talk to?") rather than a referral.
+:::
+::::
+
+
 ## The "hidden job market" {#ch06.sec.hidden}
 
 If you have read any careers advice at all, you have met a number that sounds like a conspiracy: 70%, or 80%, or 85% of jobs are never advertised. It is usually followed by a course you can buy.
@@ -125,9 +143,22 @@ Each of the four parts earns its place.
 
 The structure is craft rather than science: nobody has run a trial of four-sentence messages against five-sentence ones [!craft]. But each part follows from evidence you have now seen: referrals carry information, people are more willing than you expect, and a reluctant yes helps nobody.
 
-::: trapdoor
-**The ask that costs the asker nothing and the helper everything.** "Can I pick your brain?", "Do you know anyone hiring?", a request for a referral to a role you have not read, or a message to 40 people at once with the name changed. Each one hands the other person a job: working out what you want, whether you fit, and what to say. Most people quietly decline by not replying, and you learn nothing. Do the work first: read the role, decide what you are asking for, and write the two sentences you would want them to say.
+The opposite of a good ask is one that costs the asker nothing and the helper everything: "Do you know anyone hiring?", a referral request for a role you have not read, or the same message sent to 40 people with the name changed. Each hands the other person a job (working out what you want, whether you fit and what to say), and most people quietly decline by not replying. Do that work yourself, before you send anything.
+
+:::: move {#ch06.move.ask} Write a four-sentence ask
+Pick one real person from your middle ring and one real role. Write a message to them using the four parts in [[ch06.fig.good-ask]]: the bridge, the specific ask, make it easy, and the clean exit. Four sentences, no apologies.
+
+Then check it against these questions. Could they answer it with "yes" or "no"? Could they act on it in two minutes? Would a "no" feel easy to send?
+
+::: answer
+Here is one Dev might send to the organiser of the testing meetup she went to twice, someone she knows less well than Ana:
+
+> *Hi Jo, I'm Dev; I came to the testing meetup in March and asked about flaky tests after your talk. I've seen your company is hiring a backend developer and I'm planning to apply; would you be open to a 15-minute call about what the team needs, or to pointing me to the right person? I've put the role and a short summary of my background below so you don't have to look anything up. And if you're swamped, no worries at all.*
+
+Notice that it asks for information, not a referral, because Jo has heard Dev ask a question at a meetup, not seen her work. A referral request would put Jo in an awkward spot. The most common weaknesses in first drafts are an ask that is too vague ("any advice?"), too big ("could you get me an interview?"), or buried in the third paragraph. If yours runs to more than five sentences, the extra ones are probably apologies. Cut them.
 :::
+::::
+
 
 ### Informational conversations {#ch06.sec.informational}
 
@@ -141,7 +172,7 @@ Running an informational conversation. Ask for a specific, short slot ("twenty m
 
 The best time to ask someone for help is after you have spent years being someone they would want to help. This is where the snapshot game borrows from the long game, and it is the first place the [[ch01.sec.loop|loop]] becomes something you can act on.
 
-Reciprocity is one of the oldest findings in social psychology. In a classic study, people who were given an unsolicited soft drink by a stranger later bought more of his raffle tickets, whether or not they liked him [@regan1971]. But the pull fades: in another set of studies, people repaid a small favour five minutes later, but showed no reliable pull to repay it a week later [@burger1997]. So reciprocity is not a bank account you can fill once and draw on for a decade. It is closer to a habit: small, frequent, honest exchanges that keep relationships warm.
+Reciprocity is one of the oldest findings in social psychology. In a classic study, people who were given an unsolicited soft drink by a stranger later bought more of the stranger's raffle tickets, whether or not they liked the stranger [@regan1971]. But the pull fades: in another set of studies, people repaid a small favour five minutes later, but showed no reliable pull to repay it a week later [@burger1997]. So reciprocity is not a bank account you can fill once and draw on for a decade. It is closer to a habit: small, frequent, honest exchanges that keep relationships warm.
 
 That suggests a different picture of "networking" from the one most people dread. Not working a room of strangers with a stack of business cards, but a few cheap habits, kept up over years [!view]:
 
@@ -155,6 +186,8 @@ That suggests a different picture of "networking" from the one most people dread
 :::
 
 ## The fairness problem {#ch06.sec.fairness}
+
+Bea has a different objection to all of this, and it is a serious one.
 
 ::: scene {slug="INT. CORVID SYSTEMS, KITCHEN — WEDNESDAY, 12:40 PM"}
 Dev tells Bea about Ana while the kettle boils.
@@ -170,13 +203,33 @@ Dev tells Bea about Ana while the kettle boils.
 @bea: I have you. Lucky me. What about everyone who doesn't have a you?
 :::
 
-Bea is right, and the book should say so plainly. People tend to refer people like themselves, in characteristics and even in behaviour [@burks2015]. In two firms' data, referral hiring could disadvantage women where an established male network was in place, and more so at higher levels, although overall, network recruitment brought more women in rather than fewer [@fernandez2019]. And the kind of contact matters: in US survey data, referrals from business contacts were used more for high-skill jobs and came with higher starting wages, while referrals from family and friends were used more for low-skill jobs, came with lower starting wages, and were relied on most by people who struggled to get offers through other channels [@lester2021].
+Bea is right, and the book should say so plainly. People tend to refer people like themselves, in characteristics and even in behaviour [@burks2015]. In two firms' data, referral hiring could disadvantage women where an established male network was in place, and more so at higher levels, although overall, network recruitment brought more women in rather than fewer [@fernandez2019]. And the kind of contact matters: in US survey data, referrals from business contacts were used more for high-skill jobs and came with higher starting wages, while referrals from family and friends were used more for low-skill jobs and came with lower starting wages [@lester2021].
 
 So a referral-heavy labour market rewards people who already have professional networks, and those networks are not handed out at random. That is a real unfairness, and no amount of good advice makes it disappear.
 
 What advice can do is shift who has those networks. If you are starting with few professional ties, the evidence points in a hopeful direction: the most useful ties are not intimate ones but moderately weak, professional ones [@rajkumar2022; @lester2021], and those can be built. Communities of practice (meetups, open-source projects, professional groups, alumni networks, online forums in your field) are places where strangers watch a little of your work and become the middle ring. A year of answering questions well in one of them builds exactly the kind of tie that can later say "I've seen what she can do" [!view].
 
-And if you are on the inside, Bea's question is also addressed to you. When you refer, refer for evidence, not for familiarity, and look for good people outside your own circle. [[ch19]] will show that the same dynamic, people vouching for people like themselves, shapes who gets sponsored for promotion.
+And if you are on the inside, Bea's question is also addressed to you. When you refer, refer for evidence, not for familiarity, and look for good people outside your own circle. The same question comes back in [[ch19]], where the people vouching for you are sponsors and the prize is a promotion.
+
+A few more questions tend to come up at this point, usually from the people who most need the answers.
+
+::: ask
+Q: Isn't asking for a referral just using people?
+
+A: Not if what you ask them to say is true and you make it easy to decline. Employers run referral schemes because referrals help them hire people who fit and stay [@burks2015]. You are giving your contact a chance to help their own team. The line is crossed when you ask someone to vouch for work they have not seen, or pressure them when they hesitate.
+
+Q: I'm an introvert. Do I have to go to networking events?
+
+A: No. The evidence is about ties, not events, and the most useful ties are people who have seen your work [@rajkumar2022; @burks2015]. Writing, code, answering questions in a forum and doing good work alongside people all build them, quietly.
+
+Q: What if someone refers me and I don't get the job?
+
+A: That is normal. A referral gets you looked at; it does not get you hired. Thank them either way, tell them how it went, and you have kept a tie warm for next time.
+
+Q: Should I connect with the hiring manager before I apply?
+
+A: If you have a genuine reason (a mutual contact, a shared community, something they wrote that you can respond to), a short, specific message is fine. A cold "I've applied, please look at my application" mostly adds to their inbox [!craft].
+:::
 
 ## Recruiters and agencies {#ch06.sec.recruiters}
 
@@ -193,6 +246,8 @@ In Great Britain the rule is explicit: "Recruitment agencies cannot charge you a
 :::
 
 ## Dev writes to Ana {#ch06.sec.ana}
+
+Back in her flat, with the four parts and the evidence in front of her, Dev finally writes the message.
 
 ::: scene {slug="INT. DEV'S FLAT — WEDNESDAY, 9:05 PM"}
 Dev has written the message four times. The first version was 300 words and apologised twice. The second asked Ana to "keep her in mind", which Dev realised would require Ana to remember her. The fourth is four sentences long. It mentions the charger.
@@ -212,44 +267,9 @@ At 9:52 her phone buzzes.
 @bea: It isn't. Now you have to be as good as the two sentences she's about to paste.
 :::
 
-Dev's experience is an anecdote, but it is exactly the pattern the research predicts: a moderately weak tie, a specific ask, a quick yes from someone happier to help than Dev expected. Notice what made it work: not Dev's charm, but the fact that the two sentences she gave Ana were true. In the next chapter she has to live up to them in a room with Tomás.
+Dev's experience is an anecdote, but it is exactly the pattern the research predicts: a moderately weak tie, a specific ask, a quick yes from someone happier to help than Dev expected. Notice what made it work: not Dev's charm, but the fact that the two sentences she gave Ana were true. In the next chapter, [[ch07]], she has to live up to them in a room with Tomás.
 
-::: coming {ref=ch07}
-A referral gets you into the room. [[ch07]] is what happens there: what interviews actually measure, how to tell a story that lands, and what to do about nerves.
-:::
-
-## Your moves {#ch06.sec.moves}
-
-:::: move {#ch06.move.tie-map} Map your ties
-Draw three rings on a page, like [[ch06.fig.tie-map]], with you at the centre.
-
-1. In the **inner ring**, write up to five people who know you well: close colleagues, friends in your field, a mentor.
-2. In the **middle ring**, write as many people as you can who know you a little and have seen *some* of your work: former teammates, classmates, clients, people from a community you take part in. Aim for twenty.
-3. Next to each middle-ring name, write one specific thing they have seen you do.
-4. Circle the three middle-ring people most likely to hear about roles you want.
-
-::: answer
-Most people find the inner ring easy and the middle ring surprisingly long once they start: former colleagues from two jobs ago, the person who reviewed your code once, the classmate who went into your target industry. If your middle ring has fewer than ten names, that is useful information, not a verdict. It tells you where the long-game work is: picking one community and showing up in it regularly.
-
-The third step is the important one. A name you cannot attach to a piece of work is an outer-ring tie wearing a middle-ring label. Those people may still pass on news of a job, but they cannot vouch for you, so ask them for information ("Is the team hiring? Who should I talk to?") rather than a referral.
-:::
-::::
-
-:::: move {#ch06.move.ask} Write a four-sentence ask
-Pick one real person from your middle ring and one real role. Write a message to them using the four parts in [[ch06.fig.good-ask]]: the bridge, the specific ask, make it easy, and the clean exit. Four sentences, no apologies.
-
-Then check it against these questions. Could they answer it with "yes" or "no"? Could they act on it in two minutes? Would a "no" feel easy to send?
-
-::: answer
-Here is a version for someone you know less well than Dev knows Ana:
-
-> *Hi Sam, we met at the testing meetup in March, when you gave the talk on flaky tests. I've seen your team is hiring a QA lead and I'm planning to apply; would you be open to a 15-minute call about what the team needs, or to pointing me to the right person? I've put the role and a short summary of my background below so you don't have to look anything up. And if you're swamped, no worries at all.*
-
-Notice that it asks for information, not a referral, because Sam has seen Dev's questions at a meetup, not her work. A referral request would put Sam in an awkward spot. The most common weaknesses in first drafts are an ask that is too vague ("any advice?"), too big ("could you get me an interview?"), or buried in the third paragraph. If yours runs to more than five sentences, the extra ones are probably apologies. Cut them.
-:::
-::::
-
-Now return to the number you wrote down at the start of the chapter.
+First, though, return to the number you wrote down at the start of the chapter.
 
 :::: move {#ch06.move.guess} Guess, then check
 At the start of this chapter you guessed how many of ten people would say yes to a short, specific request for help.
@@ -262,24 +282,6 @@ If you are like the people in Flynn and Lake's experiments, your guess was too l
 The point of the exercise is calibration. Most people who avoid asking are not avoiding rejection; they are avoiding a rejection that is much less likely than they think. The only way to update that belief is to collect your own data. Dev's first datapoint took 47 minutes.
 :::
 ::::
-
-::: ask
-Q: Isn't asking for a referral just using people?
-
-A: Not if what you ask them to say is true and you make it easy to decline. Employers run referral schemes because referrals help them hire people who fit and stay [@burks2015]. You are giving your contact a chance to help their own team. The line is crossed when you ask someone to vouch for work they have not seen, or pressure them when they hesitate.
-
-Q: I'm an introvert. Do I have to go to networking events?
-
-A: No. The evidence is about ties, not events, and the most useful ties are people who have seen your work [@rajkumar2022; @burks2015]. Writing, code, answering questions in a forum and doing good work alongside people all build them, quietly.
-
-Q: What if someone refers me and I don't get the job?
-
-A: That is normal. A referral gets you looked at; it does not get you hired. Thank them either way, tell them how it went, and you have kept a tie warm for next time.
-
-Q: Should I connect with the hiring manager before I apply?
-
-A: If you have a genuine reason (a mutual contact, a shared community, something they wrote that you can respond to), a short, specific message is fine. A cold "I've applied, please look at my application" mostly adds to their inbox [!craft].
-:::
 
 Dev's *People* tab is not finished, and it never will be. That is the point. The snapshot game is about to get much more intense for her, but the tab she just started will matter long after it ends. In [[ch15]] some of these people become friends; in [[ch19]] a few of them become the people who vouch for her on the inside, which turns out to be how promotions work too; and in [[epi]] it is Dev's turn to be someone's Ana.
 
