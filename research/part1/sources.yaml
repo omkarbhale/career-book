@@ -217,15 +217,15 @@ sackett2023-gca:
   authors: [Paul R. Sackett, Saron Demeke, Isaac M. Bazian, Anne Marie Griebie, Reed Priest, Nathan R. Kuncel]
   year: 2024
   title: "A contemporary look at the relationship between general cognitive ability and job performance"
-  venue: Journal of Applied Psychology, 109(5)
+  venue: Journal of Applied Psychology, 109(5), 687-713
   doi: 10.1037/apl0001159
   url: https://gwern.net/doc/iq/ses/2023-sackett.pdf
-  url_note: Copy hosted on gwern.net (filename says 2023, online-first year); print issue 2024 per secondary listings.
+  url_note: Copy hosted on gwern.net (filename says 2023, the online-first year); print 2024 confirmed via Crossref.
   accessed: 2026-10-25
   supports: 153 samples, N=40,740 from 21st-century studies - mean observed validity .16, corrected .22 for general cognitive ability vs job performance.
   sample: Meta-analysis of studies from 2000 onward.
   grade: strong
-  caveats: Part of an active dispute about corrections (see ones2023); print year/issue taken from search listing, the PDF itself was the online version.
+  caveats: Part of an active dispute about corrections (see ones2023).
   commercial: false
   topics: [selection-methods]
 
@@ -405,6 +405,7 @@ fernandez1997:
   year: 1997
   title: "Sifting and sorting: Personal contacts and hiring in a retail bank"
   venue: American Sociological Review, 62(6), 883-902
+  doi: 10.2307/2657345
   url: https://www.gsb.stanford.edu/faculty-research/working-papers/getting-job-networks-hiring-retail-bank
   url_note: Opened the 1996 Stanford GSB working-paper page ("Getting a job - networks and hiring in a retail bank"), which carries the abstract; the ASR article itself was not opened.
   accessed: 2026-10-25
@@ -420,9 +421,9 @@ pallais2016:
   authors: [Amanda Pallais, Emily Glassberg Sands]
   year: 2016
   title: "Why the referential treatment? Evidence from field experiments on referrals"
-  venue: Journal of Political Economy, 124(6)
+  venue: Journal of Political Economy (2016); NBER working paper w21357, doi 10.3386/w21357
   url: https://www.nber.org/system/files/working_papers/w21357/w21357.pdf
-  url_note: NBER working paper w21357 (2015) opened; journal volume/issue from secondary listing, not confirmed on the publisher site.
+  url_note: NBER working paper w21357 (July 2015) opened; JPE publication per author's 2016 copyright notice in search results, volume/issue not verified.
   accessed: 2026-10-25
   supports: Three field experiments in an online labour market (oDesk) - referrals carry positive information about performance and persistence beyond observables; referred workers do especially well working directly with their referrer; no evidence of extra effort to protect the referrer.
   sample: Workers hired on oDesk (now Upwork) for experimental tasks.
@@ -437,6 +438,7 @@ fernandez2019:
   year: 2019
   title: "Network recruitment and the glass ceiling: Evidence from two firms"
   venue: "RSF: The Russell Sage Foundation Journal of the Social Sciences, 5(3), 88-102"
+  doi: 10.7758/rsf.2019.5.3.05
   url: https://www.mcgill.ca/desautels/channels/news/network-recruitment-and-glass-ceiling-evidence-two-firms-296396
   url_note: McGill Desautels page carrying the abstract and citation.
   accessed: 2026-10-25
@@ -470,6 +472,7 @@ bidwell2011:
   year: 2011
   title: "Paying more to get less: The effects of external hiring versus internal mobility"
   venue: Administrative Science Quarterly, 56(3), 369-407
+  doi: 10.1177/0001839211433562
   url: https://knowledge.wharton.upenn.edu/article/why-external-hires-get-paid-more-and-perform-worse-than-internal-staff/
   url_note: Opened Knowledge at Wharton's write-up (28 March 2012), which links the ASQ abstract; the paper itself was not opened. Volume/issue inferred from the ASQ link path (content/56/3/369).
   accessed: 2026-10-25
@@ -542,16 +545,17 @@ faberman2017:
 
 sterkens2023:
   type: article
-  authors: [Philippe Sterkens, Ralf Caers, Marijke De Couck, Valentina Van Driessche, Michel Geamanu, Stijn Baert]
+  authors: [Philippe Sterkens, Ralf Caers, Marijke De Couck, Victor Van Driessche, Michael Geamanu, Stijn Baert]
   year: 2023
   title: "Costly mistakes: Why and when spelling errors in resumes jeopardise interview chances"
-  venue: PLOS ONE
+  venue: PLOS ONE, 18(4), e0283280
+  doi: 10.1371/journal.pone.0283280
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10075394/
   accessed: 2026-10-25
   supports: Scenario experiment with 445 recruiters - error-laden resumes 18.5 pp lower interview probability, fewer errors 7.3 pp lower; half the penalty explained by inferred lower interpersonal skills (9.0%), conscientiousness (12.1%), mental ability (32.2%).
   sample: 445 recruiters (Belgium-based research team).
   grade: strong
-  caveats: Vignette experiment rather than real hiring; co-author list beyond Sterkens and Baert taken from the PMC record header and should be re-checked before print.
+  caveats: Vignette experiment rather than real hiring; author list verified against the PMC author-roles section.
   commercial: false
   topics: [resumes]
 
@@ -670,8 +674,8 @@ marlow2013:
   authors: [Jennifer Marlow, Laura Dabbish]
   year: 2013
   title: "Activity traces and signals in software developer recruitment and hiring"
-  venue: Proceedings of CSCW 2013 (ACM)
-  doi: 10.1145/2441776.2441792
+  venue: Proceedings of the 2013 Conference on Computer Supported Cooperative Work (CSCW), 145-156
+  doi: 10.1145/2441776.2441794
   url: https://www.cs.cmu.edu/~xia/resources/Documents/Marlow-cscw13.pdf
   accessed: 2026-10-25
   supports: Interviews with seven employers who use GitHub to evaluate candidates and six job seekers (from 128 survey respondents); profile cues read as evidence of skills, motivation and values, trusted more than resumes because activity is visible and hard to fake.
@@ -727,3 +731,272 @@ salwender2024:
   caveats: Intentions, not real applications; abstract-level reading.
   commercial: false
   topics: [myths, applying]
+
+behroozi2020:
+  type: conference-paper
+  authors: [Mahnaz Behroozi, Shivani Shirolkar, Titus Barik, Chris Parnin]
+  year: 2020
+  title: "Does stress impact technical interview performance?"
+  venue: Proceedings of ESEC/FSE 2020 (ACM), 481-492
+  doi: 10.1145/3368089.3409712
+  url: https://2020.esec-fse.org/details/fse-2020-papers/140/Does-Stress-Impact-Technical-Interview-Performance-
+  url_note: Conference page with abstract; bibliographic details verified via Crossref.
+  accessed: 2026-10-25
+  supports: RCT with 48 computer-science students, private vs observed whiteboard - performance reduced by more than half when watched; stress and cognitive load significantly higher in traditional format.
+  sample: 48 CS students, one university (NC State).
+  grade: moderate
+  caveats: Small student sample, single task; strong design but limited generalisation.
+  commercial: false
+  topics: [interviewing, tech]
+
+behroozi2019:
+  type: conference-paper
+  authors: [Mahnaz Behroozi, Chris Parnin, Titus Barik]
+  year: 2019
+  title: "Hiring is broken: What do developers say about technical interviews?"
+  venue: 2019 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC), 1-9
+  doi: 10.1109/vlhcc.2019.8818836
+  url: https://www.microsoft.com/en-us/research/publication/hiring-is-broken-what-do-developers-say-about-technical-interviews/
+  accessed: 2026-10-25
+  supports: Qualitative analysis of Hacker News posts - concerns about real-world relevance, bias toward younger developers, time demands, anxiety, arbitrary implicit norms; suggests collaborative problem-solving formats.
+  sample: Hacker News discussion threads.
+  grade: weak
+  caveats: Opinions of a self-selected online community.
+  commercial: false
+  topics: [interviewing, tech]
+
+interviewingio2016:
+  type: web
+  authors: [Aline Lerner (interviewing.io)]
+  year: 2016
+  title: "After a lot more data, technical interview performance really is kind of arbitrary"
+  venue: interviewing.io blog
+  url: https://interviewing.io/blog/after-a-lot-more-data-technical-interview-performance-really-is-kind-of-arbitrary
+  accessed: 2026-10-25
+  supports: Same users interviewing repeatedly with different interviewers show large score swings; roughly 20% of interviewees consistent; ~12% had a score SD of 1 or more on a 1-4 scale.
+  sample: ~1,000+ interviews on the platform (2016), mostly practice interviews.
+  grade: weak
+  caveats: Commercial interview-practice platform; self-selected users; not peer-reviewed.
+  commercial: true
+  topics: [interviewing, tech]
+
+interviewingio-selfassess:
+  type: web
+  authors: [interviewing.io]
+  year: 2016
+  title: "People can't gauge their own interview performance, and that makes them harder to hire"
+  venue: interviewing.io blog
+  url: https://interviewing.io/blog/people-cant-gauge-their-own-interview-performance-and-that-makes-them-harder-to-hire
+  accessed: 2026-10-25
+  supports: Claim that candidates misjudge their own interview performance.
+  sample: Platform interviews (details not extracted).
+  grade: weak
+  caveats: Commercial; details not verified from the extracted text; year approximate (same series as interviewingio2016).
+  commercial: true
+  topics: [interviewing]
+
+abc2013-google:
+  type: news
+  authors: [ABC News]
+  year: 2013
+  title: "Google skips 'waste of time' brainteaser interview questions"
+  venue: ABC News (June 2013), relaying a New York Times interview with Laszlo Bock
+  url: https://abcnews.go.com/blogs/business/2013/06/google-skips-waste-of-time-brainteaser-interview-questions
+  accessed: 2026-10-25
+  supports: Bock - "brainteasers are a complete waste of time"; what works "are structured behavioral interviews, where you have a consistent rubric".
+  sample: n/a (employer testimony)
+  grade: moderate
+  caveats: Secondary report of an interview; Google's internal data not published.
+  commercial: false
+  topics: [interviewing]
+
+powell2018:
+  type: article
+  authors: [Deborah M. Powell, David J. Stanley, Kayla N. Brown]
+  year: 2018
+  title: "Meta-analysis of the relation between interview anxiety and interview performance"
+  venue: Canadian Journal of Behavioural Science
+  url: https://cannexus.ceric.ca/download/378/en/2735/deborah-powell-silvia-bonaccio-understanding-interview-anxiety-causes-coping-and-consequences.pdf
+  url_note: First author's Cannexus conference slides citing and summarising the meta-analysis; the article itself was not opened.
+  accessed: 2026-10-25
+  supports: 30 studies; average correlation between self-reported interview anxiety and interviewer-rated performance r = -.19; moderated by measurement approach and mock vs real interviews.
+  sample: Meta-analysis of 30 studies.
+  grade: strong
+  caveats: Read via author slides; volume/pages not verified.
+  commercial: false
+  topics: [interviewing]
+
+barrick2010:
+  type: article
+  authors: [Murray R. Barrick, Brian W. Swider, Greg L. Stewart]
+  year: 2010
+  title: "Initial evaluations in the interview: Relationships with subsequent interviewer evaluations and employment offers"
+  venue: Journal of Applied Psychology, 95(6), 1163-1172
+  doi: 10.1037/a0019918
+  url: https://pubmed.ncbi.nlm.nih.gov/20718533/
+  url_note: Abstract retrieved via NCBI E-utilities for PMID 20718533.
+  accessed: 2026-10-25
+  supports: Better initial impressions in rapport building associated with more internship offers (r = .22) and higher interviewer ratings (r = .42); competence judgments carried to separate interviewers, liking/similarity did not.
+  sample: Structured mock/real interviews for internships (student candidates).
+  grade: strong
+  caveats: Student/internship context.
+  commercial: false
+  topics: [interviewing, first-impressions]
+
+swider2016:
+  type: article
+  authors: [Brian W. Swider, Murray R. Barrick, T. Brad Harris]
+  year: 2016
+  title: "Initial impressions: What they are, what they are not, and how they influence structured interview outcomes"
+  venue: Journal of Applied Psychology, 101(5), 625-638
+  doi: 10.1037/apl0000077
+  url: https://pubmed.ncbi.nlm.nih.gov/26727208/
+  url_note: Abstract via NCBI E-utilities; also BPS Research Digest summary https://www.bps.org.uk/research-digest/psychologists-have-looked-importance-pre-interview-chitchat
+  accessed: 2026-10-25
+  supports: 163 mock interviews - a significant portion of initial impressions' influence overlaps with job-related content; distinct from image-related constructs; stronger on early than late answers.
+  sample: 163 mock interviews (accountancy students per BPS summary).
+  grade: strong
+  caveats: Mock interviews; third author's middle initial from PubMed listing "Harris TB".
+  commercial: false
+  topics: [interviewing, first-impressions]
+
+stewart2008:
+  type: article
+  authors: [Greg L. Stewart, Susan L. Dustin, Murray R. Barrick, Todd C. Darnold]
+  year: 2008
+  title: "Exploring the handshake in employment interviews"
+  venue: Journal of Applied Psychology, 93(5), 1139-1146
+  doi: 10.1037/0021-9010.93.5.1139
+  url: https://www.newswise.com/articles/dont-shake-off-the-handshake-research-confirms-a-firm-grip-is-key-to-successful-job-interview
+  url_note: University of Iowa press release via Newswise; citation verified via Crossref.
+  accessed: 2026-10-25
+  supports: 98 business students in mock interviews with local business representatives; five trained raters scored handshakes; handshake quality associated with hireability ratings; linked to extraversion.
+  sample: 98 students.
+  grade: moderate
+  caveats: Small student sample; press-release framing ("more important than dress") goes beyond the abstract.
+  commercial: false
+  topics: [interviewing, first-impressions]
+
+ambady1993:
+  type: article
+  authors: [Nalini Ambady, Robert Rosenthal]
+  year: 1993
+  title: "Half a minute: Predicting teacher evaluations from thin slices of nonverbal behavior and physical attractiveness"
+  venue: Journal of Personality and Social Psychology, 64(3), 431-441
+  url: https://www.math.stonybrook.edu/~bishop/classes/math598.F25/Half_a_Minute.pdf
+  url_note: Course-hosted copy of the published article.
+  accessed: 2026-10-25
+  supports: Strangers' ratings of silent clips (under 30 s; 6 s and 15 s in Study 3) of teachers predicted end-of-semester student evaluations and a principal's ratings.
+  sample: College and high-school teachers.
+  grade: strong
+  caveats: About teaching evaluations, not job interviews; often misused as evidence that interviewers decide in seconds.
+  commercial: false
+  topics: [first-impressions, myths]
+
+carney2016:
+  type: web
+  authors: [Dana R. Carney]
+  year: 2016
+  title: "My position on 'Power Poses'"
+  venue: Statement hosted on Carney's UC Berkeley Haas faculty page
+  url: https://faculty.haas.berkeley.edu/dana_carney/pdf_My%20position%20on%20power%20poses.pdf
+  accessed: 2026-10-25
+  supports: First author of Carney, Cuddy & Yap (2010) states "I do not believe that 'power pose' effects are real."
+  sample: n/a
+  grade: strong
+  caveats: Statement, not data; year from widely reported release (2016), not printed in the extracted text.
+  commercial: false
+  topics: [interviewing, myths]
+
+forrt-powerposing:
+  type: web
+  authors: [FORRT (Framework for Open and Reproducible Research Training)]
+  year: 2024
+  title: "Power posing (Open social psychology, chapter 27)"
+  venue: forrt.org
+  url: https://forrt.org/open-social-psychology/chapter27.html
+  accessed: 2026-10-25
+  supports: Summarises Ranehill et al. (2015) non-replication of hormonal/behavioural effects and Korner et al. (2022, Psychological Bulletin, 88 studies, 9,779 participants) - effects on self-report but no reliable physiological effects; behavioural effects likely inflated by publication bias.
+  sample: n/a (review)
+  grade: moderate
+  caveats: Secondary teaching resource; year approximate.
+  commercial: false
+  topics: [myths]
+
+rivera2012:
+  type: article
+  authors: [Lauren A. Rivera]
+  year: 2012
+  title: "Hiring as cultural matching: The case of elite professional service firms"
+  venue: American Sociological Review, 77(6), 999-1022
+  doi: 10.1177/0003122412463213
+  url: https://edbatista.com/wp-content/uploads/files/hiring-as-cultural-matching-the-case-of-elite-professional-service-firms-rivera.pdf
+  url_note: Copy of the published article on a personal site.
+  accessed: 2026-10-25
+  supports: 120 interviews with hiring professionals at elite US banks, law firms and consultancies plus participant observation; employers sought candidates culturally similar in leisure, experiences, self-presentation; shared culture often outweighed productivity concerns.
+  sample: 120 evaluators, 2006-2008, elite US firms.
+  grade: strong
+  caveats: Qualitative; elite professional services specifically.
+  commercial: false
+  topics: [interviewing, culture-fit]
+
+eeoc-prohibited:
+  type: government
+  authors: [US Equal Employment Opportunity Commission]
+  year: 2026
+  title: "Prohibited employment policies/practices"
+  venue: eeoc.gov
+  url: https://www.eeoc.gov/prohibited-employment-policiespractices
+  accessed: 2026-10-25
+  supports: Pre-employment information should be limited to what is essential to determine qualification; race, sex, national origin, age, religion irrelevant; explicit prohibition on pre-offer disability inquiries; other questions not clearly forbidden but usable as evidence of discriminatory intent; avoid requesting photographs pre-offer.
+  sample: n/a
+  grade: strong
+  caveats: Federal level only; states add rules.
+  commercial: false
+  topics: [interviewing, legal, regional]
+
+ukparl2020-health:
+  type: government
+  authors: [UK Parliament (Minister for Women and Equalities)]
+  year: 2020
+  title: "Written question 64193 - autistic job applicants and the Equality Act 2010 (answered 29 June 2020)"
+  venue: UK Parliament written questions
+  url: https://questions-statements-api.parliament.uk/api/writtenquestions/questions/1217455
+  accessed: 2026-10-25
+  supports: "It is generally unlawful under the Equality Act 2010... for an employer to ask a job applicant about their health or disability... during the initial stages of a recruitment process, except in a few specific circumstances."
+  sample: n/a
+  grade: strong
+  caveats: Ministerial summary of Equality Act s.60; the statute page itself blocked automated access.
+  commercial: false
+  topics: [interviewing, legal, regional]
+
+govuk-agency-fees:
+  type: government
+  authors: [GOV.UK]
+  year: 2026
+  title: "Your rights as an agency worker: Fees"
+  venue: gov.uk
+  url: https://www.gov.uk/agency-workers-your-rights/fees
+  accessed: 2026-10-25
+  supports: "Recruitment agencies cannot charge you a fee for finding or trying to find you work"; they can charge for optional services such as CV writing, training or transport.
+  sample: n/a
+  grade: strong
+  caveats: Great Britain; separate rules for entertainment and modelling agencies.
+  commercial: false
+  topics: [channels, regional]
+
+govuk-notice:
+  type: government
+  authors: [GOV.UK]
+  year: 2026
+  title: "Handing in your notice (giving notice; garden leave; restrictive covenants) and Redundancy: notice periods"
+  venue: gov.uk
+  url: https://www.gov.uk/handing-in-your-notice/giving-notice
+  url_note: Also opened https://www.gov.uk/handing-in-your-notice/garden-leave, https://www.gov.uk/handing-in-your-notice/restrictive-covenants, https://www.gov.uk/redundancy-your-rights/notice-periods
+  accessed: 2026-10-25
+  supports: Employee must give at least a week's notice after a month in the job (contract may require more); garden leave defined; restrictive covenants can be enforced in court; statutory employer notice - one week (1 month to 2 years), one week per year (2-12 years), 12 weeks (12+ years).
+  sample: n/a
+  grade: strong
+  caveats: Great Britain; contracts commonly specify longer periods.
+  commercial: false
+  topics: [switching, regional]
