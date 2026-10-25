@@ -31,6 +31,8 @@ The research agrees that work samples carry real information. In the classic 199
 
 Two things follow. First, a well-designed work sample is a fair way to be judged: it looks at the thing you will actually do. Second, it is still a sample. A three-hour exercise or a forty-minute coding round sees one slice of your film, under unusual conditions, and those conditions matter more than most candidates realise.
 
+It also helps to know what a work sample cannot see, because those are the things you will have to show in other ways. It cannot see how you work with other people over months, how you take feedback on the third round of review, whether you warn people early when you are going to miss a date, or what you do when the problem is boring rather than clever. Those are the long game's skills, and Part II is about them. In the snapshot game, the only ways to show them are your stories ([[ch07]]) and the people who have watched you work ([[ch06]]). A work sample shows that you can do the task. It never shows that you will do it reliably for three years [!view].
+
 ## Being watched {#ch08.sec.watched}
 
 ::: receipts {source=behroozi2020} Does being watched change how well you code?
@@ -103,6 +105,16 @@ Thinking out loud has a cost, and the evidence suggests what it is. Narrating wh
 ::: craft
 When you get stuck in a live exercise [!craft]. Say so, specifically: "I'm stuck on how to handle the duplicate timestamps." Then say what you would try. Interviewers often have a hint ready, and many score how you use a hint, not whether you needed one. Silence, by contrast, gives them nothing to work with. If your mind goes blank, go back to the tiny example: running something concrete through by hand almost always restarts the thinking.
 :::
+
+## Pairing and system design {#ch08.sec.formats}
+
+Two other formats are common in software hiring, and the same principles carry over.
+
+In a **pairing** interview, you work on a problem with an interviewer as if you were colleagues: they may drive while you navigate, or the other way round. It is the format closest to real work, and it rewards exactly the habits in [[ch08.fig.out-loud]], plus one more: treating the interviewer as a collaborator. Ask what they would do. Accept a suggestion gracefully, or disagree with a reason. They are scoring whether they would like to pair with you on a Tuesday afternoon, and that is a fair question [!craft].
+
+In a **system-design** round, usually for more experienced roles, you sketch how you would build something larger, such as a delivery-tracking service for 4,000 lorries, on a whiteboard or a shared canvas. There is no single right answer, which unnerves people who like right answers. The moves are the same five, scaled up [!craft]: clarify the requirements and the numbers (how many lorries, how many events a second, how fresh must the data be?), sketch the simplest design that works, then find where it breaks and name the trade-offs of each fix. Interviewers are mostly listening for judgement: what you chose not to build, and why.
+
+Honesty about the evidence: we found no rigorous research on how well software take-homes or system-design rounds predict job performance. They resemble work samples, which do predict reasonably well [@sackett2022], and that is the best that can be said. Treat claims that any one format "really" reveals talent with the same scepticism as [[ch08.myth.objective]] suggests.
 
 ## The take-home task {#ch08.sec.take-home}
 

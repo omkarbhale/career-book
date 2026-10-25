@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" class="fig">
+<title>How a first number anchors a negotiation</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<rect x="190" y="200" width="300" height="40" rx="4" class="f-a3"/>
+<text x="340.0" y="190.0" class="t t-mid">the posted range</text>
+<path d="M40.0 220.0 Q325.7 220.2 612.0 220.0" class="k"/><path d="M612.0 220.0 L601.4 214.4 M612.0 220.0 L601.4 225.6" class="k"/>
+<text x="40.0" y="260.0" class="t t-sm t-mute">low</text>
+<text x="612.0" y="260.0" class="t t-sm t-mute t-end">high</text>
+<path d="M566.0 220.0 Q566.2 145.3 566.4 70.6" class="k"/>
+<path d="M566 72 L620 88 L566 106 Z" class="f-a1s k-thin"/>
+<text x="566.0" y="56.0" class="t t-mid t-a1 t-bold">first number</text>
+<path d="M446 212 L460 186 L474 212 Z" class="f-ink"/>
+<text x="460.0" y="272.0" class="t t-mid t-bold">where it tends</text><text x="460.0" y="298.0" class="t t-mid t-bold">to land</text>
+<path d="M466 190 Q520 120 562 112" class="k k-a1"/>
+<path d="M500.0 150.0 Q520.6 139.0 540.0 126.0" class="k-thin k-a1"/><path d="M540.0 126.0 L531.0 126.9 M540.0 126.0 L535.7 133.9" class="k-thin k-a1"/>
+<path d="M60.2 299.9 Q109.1 301.6 156.1 300.2 Q154.6 329.2 156.2 356.2 Q106.9 356.3 60.2 355.5 Q59.7 328.8 60.4 300.3 Z" class="f-soft k"/>
+<text x="108.0" y="336.0" class="t t-mid t-bold">target</text>
+<path d="M452 204 Q300 270 156 316" class="k k-dash"/>
+<text x="176.0" y="330.0" class="t">your target and your alternatives,</text><text x="176.0" y="358.0" class="t">written down first</text>
+<text x="320.0" y="420.0" class="t t-sm t-mid t-mute">schematic, after lab experiments: first offers anchor the outcome</text><text x="320.0" y="446.0" class="t t-sm t-mid t-mute">unless the other side focuses on its own target and alternatives</text>
+</svg>
