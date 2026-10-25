@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 886" class="fig">
+<title>Thinking out loud, annotated</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<g transform="translate(30.0 20.0) scale(1.125)"><defs><clipPath id="ol-bea"><circle cx="32" cy="32" r="30.5"/></clipPath></defs><circle cx="32" cy="32" r="30.5" class="f-soft"/><g clip-path="url(#ol-bea)"><path d="M27 40.5 L27 49 L37 49 L37 40.5 Z" class="f-skin2 k-thin"/><path d="M7 68 C8 54 17 48.5 32 48.5 C47 48.5 56 54 57 68 Z" class="f-bea k-thin"/><path d="M27 48.6 L32 57.5 L37 48.6 Z" class="f-paper k-thin"/><path d="M17.5 52 C17.5 43.5 46.5 43.5 46.5 52" class="k-thick k-mute"/><rect x="13.6" y="48.5" width="7" height="9" rx="2.6" class="f-mute k-thin"/><rect x="43.4" y="48.5" width="7" height="9" rx="2.6" class="f-mute k-thin"/><ellipse cx="19.8" cy="31.5" rx="2.3" ry="3.3" class="f-skin2 k-thin"/><ellipse cx="44.2" cy="31.5" rx="2.3" ry="3.3" class="f-skin2 k-thin"/><ellipse cx="32" cy="30" rx="12.4" ry="14" class="f-skin2 k-thin"/><g class="f-hair2 k-thin"><circle cx="20.6" cy="25.6" r="4.2"/><circle cx="22.8" cy="19.6" r="4.8"/><circle cx="28.4" cy="15.6" r="5.2"/><circle cx="35" cy="15.2" r="5.2"/><circle cx="40.8" cy="18.8" r="4.9"/><circle cx="43.6" cy="24.6" r="4.2"/><circle cx="31.8" cy="19.8" r="4"/></g><circle cx="27.4" cy="30.4" r="1.6" class="f-ink"/><circle cx="36.6" cy="30.4" r="1.6" class="f-ink"/><circle cx="27.4" cy="30.4" r="4.3" class="k-thin"/><circle cx="36.6" cy="30.4" r="4.3" class="k-thin"/><path d="M31.7 30 Q32 29 32.3 30" class="k-thin"/><path d="M24.8 24.8 Q27.4 24 30 24.8" class="k-thin"/><path d="M34 24.8 Q36.6 24 39.2 24.8" class="k-thin"/><path d="M32.2 31.5 Q31 34.4 32.8 34.8" class="k-thin"/><path d="M29.2 38 Q32 39.4 34.8 37.8" class="k-thin"/></g><circle cx="32" cy="32" r="30.5" class="k-thin"/></g>
+<text x="116.0" y="66.0" class="t t-lg">Bea, thinking out loud</text>
+<circle cx="48" cy="124" r="15" class="f-a3 k-thin"/><text x="48.0" y="131.0" class="t t-mid t-bold">1</text>
+<text x="74.0" y="130.0" class="t t-sans">restate the problem</text>
+<path d="M40.7 145.3 Q323.5 142.4 610.8 143.7 Q609.0 184.0 610.1 224.4 Q325.3 224.1 40.4 223.6 Q39.9 185.3 40.4 144.2 Z" class="f-paper k-thin"/>
+<text x="60.0" y="176.0" class="t">“So: for each account, return the most</text><text x="60.0" y="206.0" class="t">recent transaction?”</text>
+<circle cx="48" cy="264" r="15" class="f-a3 k-thin"/><text x="48.0" y="271.0" class="t t-mid t-bold">2</text>
+<text x="74.0" y="270.0" class="t t-sans">try a tiny example</text>
+<path d="M38.8 285.4 Q323.5 285.0 609.4 284.0 Q610.6 324.1 609.2 363.5 Q324.8 363.3 39.4 363.4 Q40.7 324.1 39.9 283.2 Z" class="f-paper k-thin"/>
+<text x="60.0" y="316.0" class="t">“Let me try three transactions for two</text><text x="60.0" y="346.0" class="t">accounts by hand first.”</text>
+<circle cx="48" cy="404" r="15" class="f-a3 k-thin"/><text x="48.0" y="411.0" class="t t-mid t-bold">3</text>
+<text x="74.0" y="410.0" class="t t-sans">say the simple version first</text>
+<path d="M40.8 425.6 Q325.7 423.9 610.3 424.2 Q608.8 464.2 610.2 503.5 Q324.2 503.4 39.8 503.7 Q41.5 465.2 40.0 423.5 Z" class="f-paper k-thin"/>
+<text x="60.0" y="456.0" class="t">“Simplest version: sort everything by time,</text><text x="60.0" y="486.0" class="t">keep the last one per account.”</text>
+<circle cx="48" cy="544" r="15" class="f-a3 k-thin"/><text x="48.0" y="551.0" class="t t-mid t-bold">4</text>
+<text x="74.0" y="550.0" class="t t-sans">name the trade-off</text>
+<path d="M41.3 565.1 Q323.5 565.0 609.2 564.6 Q610.3 605.4 610.2 643.4 Q325.1 645.2 39.8 644.2 Q39.5 604.5 39.8 563.6 Z" class="f-paper k-thin"/>
+<text x="60.0" y="596.0" class="t">“Sorting is n log n; one pass with a map is</text><text x="60.0" y="626.0" class="t">linear, so I&#x27;ll do that.”</text>
+<circle cx="48" cy="684" r="15" class="f-a3 k-thin"/><text x="48.0" y="691.0" class="t t-mid t-bold">5</text>
+<text x="74.0" y="690.0" class="t t-sans">test out loud</text>
+<path d="M38.4 705.3 Q325.3 705.3 610.3 703.7 Q608.6 745.5 610.7 784.6 Q324.6 784.3 40.4 783.7 Q39.2 743.2 40.0 703.8 Z" class="f-paper k-thin"/>
+<text x="60.0" y="736.0" class="t">“Edge case: two transactions with the same</text><text x="60.0" y="766.0" class="t">timestamp. Can that happen?”</text>
+<text x="320.0" y="834.0" class="t t-mid t-a1 t-bold">each bubble gives the interviewer</text><text x="320.0" y="864.0" class="t t-mid t-a1 t-bold">something to score, and a chance to help</text>
+</svg>
