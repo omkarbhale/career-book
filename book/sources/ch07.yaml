@@ -1,0 +1,29 @@
+# Sources added for Chapter 7 that are not already in research/part1 or research/part2.
+# Same schema as the research registries (see WRITING-GUIDE.md). Every entry was opened on the date given.
+
+blacksmith2016:
+  type: article
+  authors: ['Blacksmith, Nikki', 'Willford, Jon C.', 'Behrend, Tara S.']
+  year: 2016
+  title: 'Technology in the employment interview: A meta-analysis and future research agenda'
+  container: Personnel Assessment and Decisions
+  volume: '2'
+  issue: '1'
+  doi: 10.25035/pad.2016.002
+  url: https://scholarworks.bgsu.edu/pad/vol2/iss1/2/
+  url_checked: '2026-10-25'
+  url_note: >-
+    DOI resolved to the open-access journal page (Bowling Green State University ScholarWorks); abstract read
+    via the OpenAlex API and bibliographic details checked against Crossref.
+  kind: evidence
+  design: meta-analysis
+  supports: >-
+    Across 12 studies (13 samples, N = 1,557), interviewer ratings were lower in technology-mediated
+    interviews (telephone and video) than face to face (d = -.41), and applicants reacted less favourably to
+    them (d = -.36). The authors warn against varying interview mode across applicants, because the
+    inconsistency could create fairness problems, and call for more research.
+  sample: Meta-analysis of 12 studies, 13 independent samples, 1,557 participants.
+  grade: moderate
+  caveats: >-
+    Small evidence base, much of it predating today's routine video interviewing; the authors themselves
+    call it limited. Abstract-level reading.

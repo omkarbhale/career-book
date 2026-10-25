@@ -1,0 +1,36 @@
+# Sources added for Chapter 9 that are not already in research/part1 or research/part2.
+# Same schema as the research registries (see WRITING-GUIDE.md). Every entry was opened on the date given.
+
+shrm2016-resignation:
+  type: news
+  authors: ['Loveland, Elaina']
+  year: 2016
+  title: '7 ways people quit their jobs'
+  container: SHRM (Society for Human Resource Management)
+  url: https://www.shrm.org/in/topics-tools/news/employee-relations/7-ways-people-quit-jobs
+  url_checked: '2026-10-25'
+  url_note: >-
+    Full article read (SHRM news, dated 12 December 2016). It reports the resignation-style taxonomy and
+    frequencies from Klotz and Bolino (2016, Journal of Applied Psychology; registered as klotz2016), with
+    quotes from both authors. The paper's own abstract (read via OpenAlex) confirms the four-study design
+    but does not name the styles.
+  kind: evidence
+  design: news report of a peer-reviewed study
+  supports: >-
+    Seven resignation styles and their reported shares: by the book (31%: a face-to-face meeting with the
+    manager, a standard notice period and a reason for leaving), perfunctory (23.5%: similar but shorter and
+    without a reason), avoidant (12.7%: telling colleagues, mentors or HR rather than the boss), grateful
+    goodbye (10%: expressing gratitude and offering help with the transition), bridge burning (8.6%: seeking
+    to harm the organisation or colleagues on the way out), in the loop (7.9%: confiding in the manager
+    before formally resigning) and impulsive quitting (6.3%: walking out with no notice). Managers viewed
+    by-the-book, grateful-goodbye and in-the-loop resignations as positive, and avoidant, bridge-burning and
+    impulsive ones as negative; they also viewed perfunctory resignations, with no reason given, as negative.
+    Klotz: negative styles often respond to unfair treatment or disrespectful managers rather than reflecting
+    "bad apples".
+  sample: Secondary report; the underlying studies covered recently resigned employees and managers.
+  grade: moderate
+  flags: [not-peer-reviewed]
+  caveats: >-
+    A trade-association news article summarising the paper; the percentages are as reported there and were
+    not checked against the paper's tables. The SHRM Foundation part-funded Klotz's dissertation research,
+    as the article discloses.
