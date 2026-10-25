@@ -3,15 +3,15 @@
 # A chapter with no file yet is published as a plan ("In production").
 
 [book]
-title = "Two Games, One You"
-subtitle = "A field guide to landing the job and being yourself at work"
-blurb = "Getting a job and doing a job are different games with different rules. This book teaches both, one evidence-graded chapter at a time, and argues that the winning move in each is the same: be one real person, and make that person easy to see."
+title = "Three Games, One You"
+subtitle = "A field guide to landing the job, being yourself at work, and making the work count"
+blurb = "Getting a job, working with people, and being good at the work so that it counts are three different games with different rules. This book teaches all three, one evidence-graded chapter at a time, and argues that the winning move in each is the same: be one real person, and make that person easy to see."
 language = "en"
 site_url = "https://omkarbhale.github.io/career-book/"
 repo_url = "https://github.com/omkarbhale/career-book"
 copyright = "© 2026 Omkar Bhale"
 cover = "front/cover.svg"
-cover_alt = "Dev, the book's protagonist, stands between two game boards. On the left, a single photo frame labelled 'the snapshot' holds a résumé and a stopwatch. On the right, a long film strip labelled 'the long game' winds off the page, its frames showing small everyday moments at work."
+cover_alt = "Dev, the book's protagonist, stands among three games. On the left, an instant photo labelled 'the snapshot' holds a résumé, next to a stopwatch. On the right, a film strip labelled 'the long game' runs off the page, its frames showing a coffee mug, speech bubbles, a checklist and a handshake. Below it, a short staircase rises to a gold star, labelled 'the career game'."
 
 [bibliography]
 # Every registry matched here is read. A key may repeat across files only for the same work.
@@ -35,14 +35,14 @@ title = "Meet the Cast"
 href = "cast.html"
 label = "B"
 file = "front/cast.md"
-summary = "The people you will follow through both games, and the running jokes they bring with them."
+summary = "The people you will follow through all three games, and the running jokes they bring with them."
 
 [[pages]]
 id = "ch01"
 kind = "chapter"
 number = 1
-title = "Two Games, One You"
-summary = "Why getting a job and doing one are different games, why you will play both many times, and why the trick is to stay one person through both."
+title = "Three Games, One You"
+summary = "Why getting a job, working with people and making the work count are different games, why you will play all three many times, and why the trick is to stay one person through them all."
 
 [[pages]]
 id = "ch02"
@@ -267,14 +267,88 @@ id = "ch17"
 kind = "chapter"
 number = 17
 part = "part2"
-title = "Growing Without Losing Yourself"
-summary = "Visibility without bragging, promotions, boundaries and burnout, ethics, and knowing when it is time to play the snapshot game again."
+title = "Staying Yourself Under Pressure"
+summary = "Boundaries and workload, burnout as the evidence defines it, the helpful work that quietly eats your week, integrity when it costs something, and knowing when a job is breaking you."
 covers = [
-  "Making your work visible without becoming Rex",
-  "Promotions, reviews and the brag document",
-  "Boundaries, workload and burnout",
-  "Integrity under pressure",
-  "Knowing when to leave, and leaving well, which takes you back to Part I",
+  "Boundaries that hold: workload, hours and switching off",
+  "Burnout: what it is, how it is measured, and what actually helps",
+  "The helping trap: volunteering, glue work and low-promotability tasks",
+  "Integrity under pressure: slippery slopes and the small first step",
+  "When the job is the problem: the signals that it is time to go",
+]
+
+[[pages]]
+id = "ch18"
+kind = "chapter"
+number = 18
+part = "part3"
+title = "The Review"
+summary = "Performance reviews and ratings: how they are made, how much of a rating is really about the rater, and the parts of the process you can actually influence."
+covers = [
+  "How reviews work: self-assessments, manager ratings, calibration and pay",
+  "How noisy ratings are, and why the rater can matter as much as the rated",
+  "What you control: expectations, evidence, timing and the conversation",
+  "Feedback in reviews: hearing it, using it, and disagreeing well",
+  "Bias in ratings, and what the evidence does and does not show",
+]
+
+[[pages]]
+id = "ch19"
+kind = "chapter"
+number = 19
+part = "part3"
+title = "The Promotion Case"
+summary = "How promotion decisions are really made: packets, committees, calibration, sponsors and 'potential', why the best performer is not always promoted, and how to build a case that is true."
+covers = [
+  "Inside a promotion decision: who decides, on what evidence",
+  "The Peter Principle: what the evidence says about promoting the best performer",
+  "Signals, again: your promotion case as an internal trailer",
+  "Sponsors and the trust ledger: why Part II is the currency of Part III",
+  "Potential, visibility and bias; internal promotion versus moving out",
+]
+
+[[pages]]
+id = "ch20"
+kind = "chapter"
+number = 20
+part = "part3"
+title = "What to Get Good At"
+summary = "Choosing skills that compound: career capital, what deliberate practice does and does not explain, how people really learn on the job, and how to find mentors who help."
+covers = [
+  "Career capital: rare, valuable skills and the evidence that they compound",
+  "Practice: what the deliberate-practice research supports, and the 10,000-hour myth",
+  "Learning on the job: stretch work, feedback and the 70-20-10 claim",
+  "Mentors and sponsors: what the evidence shows they do",
+  "Choosing your next skill without guessing the future",
+]
+
+[[pages]]
+id = "ch21"
+kind = "chapter"
+number = 21
+part = "part3"
+title = "The Fork: Expert or Manager?"
+summary = "Whether and when to manage people: what the job actually is, what the evidence says about who succeeds at it, the expert track, and how to try management without betting your career on it."
+covers = [
+  "What managing really is, and what it is not",
+  "Who makes a good manager, and why great individual contributors sometimes don't",
+  "The expert track: senior, staff and principal roles",
+  "Trying it: acting roles, tours of duty and the way back",
+  "Deciding, without the pressure of the next title",
+]
+
+[[pages]]
+id = "ch22"
+kind = "chapter"
+number = 22
+part = "part3"
+title = "The Whole Career"
+summary = "The career over decades: motivation and meaning where the evidence exists, shaping the job you have, and making your next move from strength, which takes you back to Part I."
+covers = [
+  "Careers over decades: plateaus, pivots and second acts",
+  "Motivation and meaningful work: what the research finds",
+  "Job crafting: shaping the job you already have",
+  "Switching again, from strength: back to Part I with better material",
 ]
 
 [[pages]]
@@ -283,10 +357,37 @@ kind = "epilogue"
 title = "Epilogue: The Loop"
 href = "epilogue.html"
 label = "E"
-summary = "Dev's next move, Bea's referral, and the whole book on one page."
+summary = "Dev's next move, made from strength, Bea's referral, and the whole book on one page."
 covers = [
-  "How the long game feeds the next snapshot",
+  "How the long game and the career game feed the next snapshot",
+  "Your scorecards from Chapter 1, revisited",
   "The whole book on one page",
+]
+
+[[pages]]
+id = "more"
+kind = "appendix"
+title = "Left Out, on Purpose"
+href = "left-out.html"
+label = "C"
+file = "back/left-out.md"
+summary = "What this book deliberately does not cover, why, and a short list of vetted places to go next for each topic."
+covers = [
+  "For each topic: why it is outside this book's scope, in a line or two",
+  "A few vetted next steps (books, papers, courses or official sites), each labelled evidence-based or practitioner view, with who it suits",
+  "No affiliate links and no padding: only resources checked to exist and worth your time",
+]
+sections = [
+  { id = "more.sec.managing", title = "Managing people" },
+  { id = "more.sec.founding", title = "Freelancing and founding a company" },
+  { id = "more.sec.money", title = "Personal finance beyond the pay cheque" },
+  { id = "more.sec.law", title = "Employment law and workplace disputes" },
+  { id = "more.sec.immigration", title = "Immigration and working abroad" },
+  { id = "more.sec.health", title = "Mental health beyond burnout" },
+  { id = "more.sec.pay-data", title = "Salary data for your role and market" },
+  { id = "more.sec.interview-prep", title = "Technical interview practice" },
+  { id = "more.sec.personality", title = "Personality tests and types" },
+  { id = "more.sec.research", title = "Reading the research yourself" },
 ]
 
 # ----------------------------------------------------------------------- parts
@@ -302,6 +403,12 @@ id = "part2"
 label = "Part II"
 title = "The Long Game"
 subtitle = "Being yourself at work, from first principles"
+
+[[parts]]
+id = "part3"
+label = "Part III"
+title = "The Career Game"
+subtitle = "Being good at the work, and having it count"
 
 # ------------------------------------------------------------------------ cast
 # Speech lines use these keys: "@dev: Hello." Avatars are 64×64 head-and-shoulders SVGs.

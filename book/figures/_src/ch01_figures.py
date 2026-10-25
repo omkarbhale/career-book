@@ -103,36 +103,43 @@ def film_strip(x, y, frames, fw=74, fh=62, angle=0):
 
 FRAMES = [mug(26, 22), bubbles(14, 10), checklist(18, 12), handshake(16, 18)]
 
+
+def staircase(x, y, step=34, rise=26, n=3):
+    """Steps rising to the right from (x, y) (bottom-left corner), with a star on the top step."""
+    parts = []
+    for i in range(n):
+        parts.append(
+            f'<rect x="{x + i * step}" y="{y - (i + 1) * rise}" width="{step}" height="{(i + 1) * rise}" class="f-a4 k-thin"/>'
+        )
+    parts.append(star(x + (n - 0.5) * step, y - n * rise - 22, 16, "f-a3s k-thin"))
+    return "".join(parts)
+
 # ---------------------------------------------------------- Figure 1.1
 
 
 def fig_two_games():
     pen = fk.Pen(seed=3)
-    b = [
-        fk.text(175, 48, "The snapshot game", "t-sans t-a1 t-mid"),
-        fk.text(505, 48, "The long game", "t-sans t-a2 t-mid"),
-        polaroid(165, 160, 150, 170, -5, resume(126, 92) + fk.avatar("dev", 196, 125, 50, "p-dev"), "you, in an hour"),
-        stopwatch(278, 104),
-        film_strip(372, 102, FRAMES[:3], angle=-3),
-        fk.text(505, 240, "you, every day, for years", "t t-mid"),
-        pen.line(340, 268, 340, 596, "k-thin k-dash k-mute"),
+    bands = [
+        ("The snapshot game \u00b7 Part I", "t-a1",
+         ["judged by strangers, in hours", "they see a trailer you edit", "what wins: clear, honest signals"],
+         polaroid(118, 108, 120, 138, -5, resume(84, 54, 38, 46) + fk.avatar("dev", 140, 82, 40, "p-dev"), "you, in an hour")
+         + stopwatch(200, 46, 20)),
+        ("The long game \u00b7 Part II", "t-a2",
+         ["judged by colleagues, every day", "they see the whole film, uncut", "what wins: being reliably yourself"],
+         film_strip(20, 72, FRAMES[:3], fw=52, fh=46, angle=-4)),
+        ("The career game \u00b7 Part III", "t-a4",
+         ["judged by managers and panels, in cycles", "they see the film, summarised", "what wins: good work, made visible"],
+         staircase(40, 200) + checklist(160, 136, 1.1)),
     ]
-    rows = [
-        ("Who judges", "strangers", "people who know you"),
-        ("For how long", "a few hours, over weeks", "years, every working day"),
-        ("What they see", "a trailer you edit", "the whole film, uncut"),
-        ("What wins", "clear, honest signals", "being reliably yourself"),
-    ]
-    for i, (label, left, right) in enumerate(rows):
-        y = 300 + i * 78
-        b.append(f'<rect x="250" y="{y - 18}" width="180" height="26" rx="13" class="f-soft"/>')
-        b.append(fk.text(340, y, label, "t-sans t-mute t-mid"))
-        b.append(fk.text(175, y + 38, left, "t t-mid t-a1"))
-        b.append(fk.text(505, y + 38, right, "t t-mid t-a2"))
-    fk.write_svg(
-        "ch01/two-games.svg", 680, 620,
-        "The snapshot game and the long game compared", "\n".join(b),
-    )
+    b = []
+    for i, (head, colour, rows, art) in enumerate(bands):
+        y0 = i * 236
+        if i:
+            b.append(pen.line(24, y0 + 4, 616, y0 + 4, "k-thin k-dash k-mute"))
+        b.append(f'<g transform="translate(0 {y0})">{art}</g>')
+        b.append(fk.text(250, y0 + 62, head, f"t-sans {colour}"))
+        b.append(fk.lines(250, y0 + 104, rows, f"t {colour}", 36))
+    fk.write_svg("ch01/three-games.svg", 640, 708, "The three games compared", "\n".join(b))
 
 
 # ---------------------------------------------------------- Figure 1.2
@@ -229,75 +236,117 @@ def fig_correlation():
 
 
 def fig_loop():
-    pen = fk.Pen(seed=13)
-    cx, cy, R = 340, 290, 190
-    left, right = cx - R, cx + R
+    cx, cy, R = 360, 300, 170
+
+    def pt(deg, r=R):
+        a = math.radians(deg)
+        return cx + r * math.cos(a), cy - r * math.sin(a)
+
+    def arc(d0, d1, cls):
+        x0, y0 = pt(d0)
+        x1, y1 = pt(d1)
+        return f'<path d="M{x0:.1f} {y0:.1f} A{R} {R} 0 0 1 {x1:.1f} {y1:.1f}" class="{cls}"/>'
+
+    def head(deg, cls):
+        # arrowhead at angle deg, pointing clockwise along the circle
+        x, y = pt(deg)
+        a = math.radians(deg)
+        tx, ty = math.sin(a), math.cos(a)  # clockwise tangent on screen
+        wings = []
+        for sgn in (1, -1):
+            ang = math.radians(150) * sgn
+            wx = x + 15 * (tx * math.cos(ang) - ty * math.sin(ang))
+            wy = y + 15 * (tx * math.sin(ang) + ty * math.cos(ang))
+            wings.append(f"M{x:.1f} {y:.1f} L{wx:.1f} {wy:.1f}")
+        return f'<path d="{" ".join(wings)}" class="{cls}"/>'
+
     b = [
-        f'<path d="M{left} {cy} A{R} {R} 0 0 1 {right} {cy}" class="k-thick k-a1"/>',
-        f'<path d="M{right} {cy} A{R} {R} 0 0 1 {left} {cy}" class="k-thick k-a2"/>',
-        f'<path d="M{right} {cy + 2} L{right - 11} {cy - 14} M{right} {cy + 2} L{right + 11} {cy - 14}" class="k-thick k-a1"/>',
-        f'<path d="M{left} {cy - 2} L{left - 11} {cy + 14} M{left} {cy - 2} L{left + 11} {cy + 14}" class="k-thick k-a2"/>',
-        fk.text(cx, 64, "Part I · the snapshot game", "t-sans t-a1 t-mid"),
-        fk.text(cx, 538, "Part II · the long game", "t-sans t-a2 t-mid"),
+        arc(150, 30, "k-thick k-a1"), head(32, "k-thick k-a1"),
+        arc(30, -90, "k-thick k-a2"), head(-88, "k-thick k-a2"),
+        arc(-90, -210, "k-thick k-a4"), head(-208, "k-thick k-a4"),
+        fk.text(cx, cy - R - 34, "Part I \u00b7 the snapshot game", "t-sans t-a1 t-mid"),
     ]
-    for ang, word in ((158, "apply"), (90, "interview"), (22, "offer")):
-        a = math.radians(ang)
-        tx, ty = cx + (R - 34) * math.cos(a), cy - (R - 34) * math.sin(a) + 8
-        b.append(fk.text(tx, ty, word, "t t-mid t-a1"))
-    for ang, word in ((-26, "do the work"), (-90, "earn trust"), (-154, "grow")):
-        a = math.radians(ang)
-        tx, ty = cx + (R - 66) * math.cos(a), cy - (R - 66) * math.sin(a) + 8
-        b.append(fk.text(tx, ty, word, "t t-mid t-a2"))
+    x, y = pt(-38, R + 22)
+    b.append(fk.lines(x, y, ["Part II \u00b7", "the long game"], "t-sans t-a2", 22))
+    x, y = pt(-142, R + 22)
+    b.append(fk.lines(x, y, ["Part III \u00b7", "the career game"], "t-sans t-a4 t-end", 22))
+    for deg, word, colour, rr in ((128, "apply", "t-a1", 46), (90, "interview", "t-a1", 40), (52, "offer", "t-a1", 46),
+                                  (-6, "do the work", "t-a2", 78), (-58, "earn trust", "t-a2", 52),
+                                  (-122, "get good", "t-a4", 52), (-174, "get reviewed", "t-a4", 80)):
+        tx, ty = pt(deg, R - rr)
+        b.append(fk.text(tx, ty + 8, word, f"t t-mid {colour}"))
+    hx, hy = pt(30)
+    nx, ny = pt(150)
     b += [
-        f'<circle cx="{right}" cy="{cy}" r="15" class="f-paper k"/>',
-        star(right, cy, 9, "f-a3s k-thin"),
-        fk.lines(right + 24, cy - 6, ["you’re", "hired"], "t", 26),
-        f'<circle cx="{left}" cy="{cy}" r="15" class="f-paper k"/>',
-        fk.lines(left - 22, cy - 48, ["reputation,", "skills, stories,", "people:", "your next", "trailer"], "t t-end", 26),
-        fk.avatar("dev", cx, cy - 26, 96, "l-dev"),
+        f'<circle cx="{hx:.1f}" cy="{hy:.1f}" r="15" class="f-paper k"/>',
+        star(hx, hy, 9, "f-a3s k-thin"),
+        fk.lines(hx + 26, hy - 6, ["you\u2019re", "hired"], "t", 26),
+        f'<circle cx="{nx:.1f}" cy="{ny:.1f}" r="15" class="f-paper k"/>',
+        fk.lines(nx - 24, ny - 52, ["reputation,", "skills, stories,", "people: your", "next trailer"], "t t-end", 26),
+        fk.avatar("dev", cx, cy - 22, 92, "l-dev"),
         fk.text(cx, cy + 52, "one you", "t t-lg t-bold t-mid"),
-        fk.text(cx, cy + 82, "in both games", "t t-mid t-mute"),
+        fk.text(cx, cy + 80, "in all three games", "t t-mid t-mute"),
     ]
-    fk.write_svg("ch01/loop.svg", 640, 570, "The loop between the two games", "\n".join(b))
+    fk.write_svg("ch01/loop.svg", 720, 600, "The loop between the three games", "\n".join(b))
 
 
 # ---------------------------------------------------------- Figure 1.5
 
 
 def fig_map():
-    part1 = ["Stay or go?", "The other side", "Your evidence", "Paper you", "People", "Interviews", "Show your work", "Offer & exit"]
-    part2 = ["Trust", "First 90 days", "Reliability", "Talk & write", "The dial", "Friends at work", "Conflict", "Growing"]
-    L, Rr, top, bot = 120, 480, 120, 880
-    b = [
-        f'<path d="M{L + 80} {top} C{L + 20} {top} {L} {top + 20} {L} {top + 80} L{L} {bot - 80} C{L} {bot - 20} {L + 20} {bot} {L + 80} {bot}" class="k-thick k-a1"/>',
-        f'<path d="M{L + 80} {bot} L{Rr - 80} {bot}" class="k-thick k-mute"/>',
-        f'<path d="M{Rr - 80} {bot} C{Rr - 20} {bot} {Rr} {bot - 20} {Rr} {bot - 80} L{Rr} {top + 80} C{Rr} {top + 20} {Rr - 20} {top} {Rr - 80} {top}" class="k-thick k-a2"/>',
-        f'<path d="M{Rr - 80} {top} L{L + 80} {top}" class="k-thick k-mute k-dash"/>',
-        f'<g transform="rotate(-90 70 {(top + bot) / 2})">{fk.text(70, (top + bot) / 2, "Part I · the snapshot game", "t-sans t-a1 t-mid")}</g>',
-        f'<g transform="rotate(90 530 {(top + bot) / 2})">{fk.text(530, (top + bot) / 2, "Part II · the long game", "t-sans t-a2 t-mid")}</g>',
+    pen = fk.Pen(seed=17)
+    groups = [
+        ("Part I \u00b7 the snapshot game", "a1", 2,
+         ["Stay or go?", "The other side", "Your evidence", "Paper you", "People, not portals", "Interviews", "Show your work", "Offer and exit"]),
+        ("Part II \u00b7 the long game", "a2", 10,
+         ["Trust", "First 90 days", "Reliability", "Talk and write", "The dial", "Friends at work", "Conflict", "Under pressure"]),
+        ("Part III \u00b7 the career game", "a4", 18,
+         ["The review", "The promotion case", "What to get good at", "Expert or manager?", "The whole career"]),
     ]
-    ys = [top + 110 + i * 84 for i in range(8)]
-    for i, (y, name) in enumerate(zip(ys, part1)):
-        b.append(f'<circle cx="{L}" cy="{y}" r="17" class="f-paper k k-a1"/>')
-        b.append(fk.text(L, y + 7, str(i + 2), "t t-sm t-bold t-mid"))
-        b.append(fk.text(L + 30, y + 8, name, "t"))
-    for i, (y, name) in enumerate(zip(reversed(ys), part2)):
-        b.append(f'<circle cx="{Rr}" cy="{y}" r="17" class="f-paper k k-a2"/>')
-        b.append(fk.text(Rr, y + 7, str(i + 10), "t t-sm t-bold t-mid"))
-        b.append(fk.text(Rr - 30, y + 8, name, "t t-end"))
-    b += [
-        f'<circle cx="{L + 80}" cy="{top}" r="22" class="f-a3 k"/>',
-        fk.text(L + 80, top + 8, "1", "t t-bold t-mid"),
-        fk.text(L + 80, top - 36, "Start: two games", "t t-mid"),
-        f'<circle cx="{Rr - 80}" cy="{top}" r="22" class="f-a3 k"/>',
-        fk.text(Rr - 80, top + 8, "E", "t t-bold t-mid"),
-        fk.text(Rr - 80, top - 36, "Epilogue: the loop", "t t-mid"),
-        f'<circle cx="300" cy="{bot}" r="18" class="f-paper k"/>',
-        star(300, bot, 11, "f-a3s k-thin"),
-        fk.text(300, bot + 46, "you’re hired", "t t-mid"),
-        fk.text(300, top + 40, "the next move", "t t-sm t-mid t-mute"),
-    ]
-    fk.write_svg("ch01/map.svg", 600, 960, "Map of the book as a loop of chapters", "\n".join(b))
+    X, gap = 110, 46
+    y = 110
+    b = [f'<circle cx="{X}" cy="{y}" r="22" class="f-a3 k"/>', fk.text(X, y + 8, "1", "t t-bold t-mid"),
+         fk.text(X + 40, y + 8, "Start: three games", "t")]
+    line_top = y
+    segments = []
+    for title, colour, first, names in groups:
+        y += 58
+        b.append(fk.text(X + 40, y + 6, title, f"t-sans t-{colour}"))
+        seg_start = y - 30
+        for i, name in enumerate(names):
+            y += gap
+            b.append(f'<circle cx="{X}" cy="{y}" r="17" class="f-paper k k-{colour}"/>')
+            b.append(fk.text(X, y + 7, str(first + i), "t t-sm t-bold t-mid"))
+            b.append(fk.text(X + 40, y + 8, name, "t"))
+            if first == 2 and i == len(names) - 1:
+                pass
+        segments.append((seg_start, y + 20, colour))
+        if first == 2:
+            y += gap
+            b.append(f'<circle cx="{X}" cy="{y}" r="18" class="f-paper k"/>')
+            b.append(star(X, y, 11, "f-a3s k-thin"))
+            b.append(fk.text(X + 40, y + 8, "you\u2019re hired", "t t-mute"))
+    y += gap + 10
+    b.append(f'<circle cx="{X}" cy="{y}" r="22" class="f-a3 k"/>')
+    b.append(fk.text(X, y + 8, "E", "t t-bold t-mid"))
+    b.append(fk.text(X + 40, y + 8, "Epilogue: the loop", "t"))
+    bottom = y
+    lines = [f'<path d="M{X} {line_top + 22} L{X} {segments[0][0]}" class="k-thick k-mute"/>']
+    prev_end = None
+    for start, end, colour in segments:
+        if prev_end is not None:
+            lines.append(f'<path d="M{X} {prev_end} L{X} {start}" class="k-thick k-mute"/>')
+        lines.append(f'<path d="M{X} {start} L{X} {end}" class="k-thick k-{colour}"/>')
+        prev_end = end
+    lines.append(f'<path d="M{X} {prev_end} L{X} {bottom - 22}" class="k-thick k-mute"/>')
+    loop = (
+        f'<path d="M{X + 24} {bottom + 10} C{X + 160} {bottom + 70} 560 {bottom + 20} 560 {bottom - 120} '
+        f'L560 {line_top + 80} C560 {line_top - 70} {X + 70} {line_top - 86} {X + 6} {line_top - 28}" class="k-thick k-dash k-a1"/>'
+        f'<path d="M{X + 6} {line_top - 28} L{X + 9} {line_top - 46} M{X + 6} {line_top - 28} L{X + 24} {line_top - 32}" class="k-thick k-a1"/>'
+    )
+    mid = (line_top + bottom) / 2
+    label = f'<g transform="rotate(90 590 {mid})">{fk.text(590, mid, "the next move, made from strength", "t t-a1 t-mid")}</g>'
+    fk.write_svg("ch01/map.svg", 620, int(bottom + 80), "Map of the book as a loop of chapters", "\n".join(lines + b) + loop + label)
 
 
 # ---------------------------------------------------------- the cover
@@ -305,16 +354,18 @@ def fig_map():
 
 def cover():
     b = [
-        polaroid(150, 210, 190, 220, -6, resume(98, 132, 56, 70) + fk.avatar("dev", 196, 170, 64, "c-dev-photo"), "the snapshot"),
-        stopwatch(250, 112, 26),
-        film_strip(372, 150, FRAMES, fw=66, fh=56, angle=9),
-        fk.text(520, 372, "the long game", "t t-lg t-mid"),
-        '<ellipse cx="318" cy="444" rx="56" ry="9" class="f-soft"/>',
-        fk.person("dev", 318, 446, 1.05,
+        polaroid(150, 200, 190, 220, -6, resume(98, 122, 56, 70) + fk.avatar("dev", 196, 160, 64, "c-dev-photo"), "the snapshot"),
+        stopwatch(250, 102, 26),
+        film_strip(372, 110, FRAMES, fw=66, fh=56, angle=9),
+        fk.text(560, 292, "the long game", "t t-lg t-mid"),
+        staircase(470, 470, step=40, rise=30),
+        fk.text(612, 500, "the career game", "t t-lg t-end"),
+        '<ellipse cx="318" cy="474" rx="56" ry="9" class="f-soft"/>',
+        fk.person("dev", 318, 476, 1.05,
                   '<g transform="translate(26 -96) rotate(-12)"><rect x="0" y="0" width="30" height="21" rx="2" class="f-paper k-thin"/>'
                   '<path d="M4 21 L-2 27 L30 27 L30 21" class="f-soft k-thin"/><circle cx="15" cy="10" r="3.4" class="f-a2"/></g>'),
     ]
-    fk.write_svg("front/cover.svg", 660, 470, "Cover illustration", "\n".join(b))
+    fk.write_svg("front/cover.svg", 660, 520, "Cover illustration", "\n".join(b))
 
 
 if __name__ == "__main__":

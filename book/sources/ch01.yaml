@@ -112,3 +112,50 @@ bls-nlsy2025:
   caveats: >-
     One US cohort; "jobs" counts employers, and jobs spanning age groups are counted in each. Younger
     cohorts and other countries may differ.
+
+scullen2000:
+  type: article
+  authors: ['Scullen, Steven E.', 'Mount, Michael K.', 'Goff, Maynard']
+  year: 2000
+  title: Understanding the latent structure of job performance ratings
+  container: Journal of Applied Psychology
+  volume: '85'
+  issue: '6'
+  pages: 956-970
+  doi: 10.1037/0021-9010.85.6.956
+  url: https://api.openalex.org/works/doi:10.1037/0021-9010.85.6.956
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the OpenAlex API.
+  kind: evidence
+  design: variance decomposition of multi-rater ratings
+  supports: >-
+    In two large data sets of managers rated by bosses, peers, subordinates and themselves, the raters'
+    idiosyncratic tendencies accounted for 62% and 53% of the variance in ratings, while the ratees' actual
+    performance (general and dimension-specific) accounted for 21% and 25%.
+  sample: Two data sets of 2,350 and 2,142 managers with developmental ratings from seven raters each.
+  grade: strong
+  caveats: >-
+    Developmental 360-degree ratings of managers, not ordinary annual reviews; later studies debate how much
+    "rater" variance is noise and how much reflects genuinely different views.
+
+benson2019:
+  type: article
+  authors: ['Benson, Alan', 'Li, Danielle', 'Shue, Kelly']
+  year: 2019
+  title: Promotions and the Peter Principle
+  container: The Quarterly Journal of Economics
+  volume: '134'
+  issue: '4'
+  pages: 2085-2134
+  doi: 10.1093/qje/qjz022
+  url: https://api.openalex.org/works/doi:10.1093/qje/qjz022
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the OpenAlex API.
+  kind: evidence
+  design: firm microdata on sales workers and their promotions
+  supports: >-
+    Across 131 firms, promotion decisions prioritised current sales performance over characteristics that
+    better predicted managerial performance, consistent with the Peter Principle, at a high estimated cost.
+  sample: Sales workers at 131 US firms.
+  grade: strong
+  caveats: Sales jobs, where individual output is easy to measure; other jobs may differ.

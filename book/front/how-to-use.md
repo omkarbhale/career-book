@@ -12,7 +12,7 @@ This page takes five minutes. It tells you who the book is for, how it is built,
 **Read on if most of these are true:**
 
 - You are early or in the middle of your career, or you are about to start one.
-- You want to get a job, change jobs, or get better at the job you have.
+- You want to get a job, change jobs, get better at the job you have, or make sure your good work counts.
 - You would rather be told what the evidence says than be told a confident story.
 - You can enjoy a joke and a cartoon without suspecting they make the content less serious.
 
@@ -26,7 +26,7 @@ The examples lean towards technology jobs, because that is where our main charac
 
 ## The idea in one paragraph {#howto.sec.idea}
 
-Getting a job and doing a job are two different games. In the first, strangers judge a short, edited trailer of you; in the second, colleagues watch the whole film, every day, for years. The skills differ, so the book teaches them separately: Part I is the snapshot game of getting or switching a job, and Part II is the long game of working with people. The thread through both is one person: you. The snapshot should be an honest trailer of the film, and the film is what earns your next snapshot. [[ch01]] makes that case properly.
+Working life is three different games. In the first, strangers judge a short, edited trailer of you; in the second, colleagues watch the whole film, every day, for years; in the third, the film gets reviewed, and the review decides what you do next. The skills differ, so the book teaches them separately: Part I is the snapshot game of getting or switching a job, Part II is the long game of working with people, and Part III is the career game of being good at the work and having it count. The thread through all three is one person: you. The trailer should be an honest cut of the film, and the film is what earns your next snapshot. [[ch01]] makes that case properly.
 
 ## How the book is built to teach {#howto.sec.built}
 
@@ -45,7 +45,7 @@ And one thing we avoid: brain myths. "Learning styles" and "left-brain versus ri
 Most of the book is plain prose and pictures. The boxes below interrupt it on purpose, and each type has one job. Here is a sample of each, so you will recognise them later.
 
 ::: scene {slug="INT. ANY OFFICE — MONDAY, 9:02 AM"}
-**Scenes** move the story. You will follow Dev and a small cast through both games, and the scenes show the ideas happening to people before the prose explains them.
+**Scenes** move the story. You will follow Dev and a small cast through all three games, and the scenes show the ideas happening to people before the prose explains them.
 
 @dev: This is me. I'll be the one making the mistakes so you don't have to.
 :::
@@ -101,12 +101,20 @@ A: You can skip them; the main text still makes sense. But the exercises and the
 :::
 
 ::: coming {ref=ch10}
-**Flashback** and **Coming Soon** link backward and forward through the book, so you can follow a thread between the two games.
+**Flashback** and **Coming Soon** link backward and forward through the book, so you can follow a thread from one game to another.
 :::
 
 ::: rewind
 - **Rewind** closes each chapter with the points worth keeping.
 - If you only have five minutes, read the Rewind.
+:::
+
+::: further {ref=more}
+**Going Further** follows the Rewind and points to the part of [[more]] that picks up where the chapter stops, for the topics this book deliberately leaves to others.
+:::
+
+::: resource {source=dunlosky2013}
+**Resource** cards appear in [[more]]. Each one says what a book, paper, course or site is good for and who it suits, and its label says whether it rests on research or on practitioner experience. This one is the review behind our exercises: good for anyone who studies for a living, and readable without a psychology degree.
 :::
 
 ## How to read the evidence {#howto.sec.evidence}
@@ -133,13 +141,15 @@ The chapters build on each other, and reading them in order works best. But you 
 | applying for jobs right now | [[ch01]], then Chapters 3 to 9 in order, then [[ch02]] once you have a moment to breathe |
 | about to start a new job | [[ch01]], [[ch10]], [[ch11]], then [[ch12]] |
 | stuck with a difficult situation at work | [[ch01]], [[ch10]], [[ch16]] |
-| wondering whether to leave | [[ch02]] and [[ch17]], which are two ends of the same decision |
+| facing a review or hoping for a promotion | [[ch01]], [[ch18]], [[ch19]], then [[ch10]] for why trust is the currency |
+| deciding whether to manage people | [[ch21]], then [[ch20]] |
+| wondering whether to leave | [[ch02]] and [[ch22]], which are two ends of the same decision |
 
 [[ch01:full]] draws the whole route as a map.
 
 ## A few honest limits {#howto.sec.limits}
 
-Much of the research on hiring and on behaviour at work comes from the United States and Western Europe. Where that matters, we say so. The rules of the hiring game also change: laws on pay transparency, non-compete clauses and notice periods were moving even while this book was being written, so treat any legal detail as a pointer to check, not as advice.
+Some topics are deliberately left to others (managing people in depth, founding a company, personal finance, legal specifics, immigration), and [[more]] says where to go for each. Much of the research on hiring and on behaviour at work comes from the United States and Western Europe. Where that matters, we say so. The rules of the hiring game also change: laws on pay transparency, non-compete clauses and notice periods were moving even while this book was being written, so treat any legal detail as a pointer to check, not as advice.
 
 The style of this book owes a debt to the learner-centred approach Kathy Sierra and Bert Bates championed in technical books, and to Richard Mayer's research on learning from words and pictures. Every word and every picture here is original.
 
