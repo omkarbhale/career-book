@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 648" class="fig">
+<title>A boundary map for work relationships</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<text x="372.0" y="56.0" class="t t-sm t-mid t-bold">the whole</text>
+<text x="372.0" y="80.0" class="t t-sm t-mid t-bold">team</text>
+<text x="488.0" y="56.0" class="t t-sm t-mid t-bold">a work</text>
+<text x="488.0" y="80.0" class="t t-sm t-mid t-bold">friend</text>
+<text x="604.0" y="56.0" class="t t-sm t-mid t-bold">a friend who</text>
+<text x="604.0" y="80.0" class="t t-sm t-mid t-bold">is your lead</text>
+<path d="M20.0 96.0 Q340.2 96.8 660.3 96.5" class="k"/>
+<rect x="20" y="98" width="640" height="62" class="f-soft"/>
+<text x="30.0" y="136.0" class="t">weekend plans</text>
+<path d="M359 128 L368 138 L386 116" class="k-thick k-a2"/>
+<path d="M475 128 L484 138 L502 116" class="k-thick k-a2"/>
+<path d="M591 128 L600 138 L618 116" class="k-thick k-a2"/>
+<text x="30.0" y="198.0" class="t">how a project is really going</text>
+<path d="M356 192 C362 180 368 180 372 190 S382 200 388 188" class="k-thick k-a3"/>
+<path d="M475 190 L484 200 L502 178" class="k-thick k-a2"/>
+<path d="M591 190 L600 200 L618 178" class="k-thick k-a2"/>
+<rect x="20" y="222" width="640" height="62" class="f-soft"/>
+<text x="30.0" y="260.0" class="t">frustration with a colleague</text>
+<path d="M361 241 L383 263 M383 241 L361 263" class="k-thick k-a1"/>
+<path d="M475 252 L484 262 L502 240" class="k-thick k-a2"/>
+<path d="M588 254 C594 242 600 242 604 252 S614 262 620 250" class="k-thick k-a3"/>
+<text x="30.0" y="322.0" class="t">your health</text>
+<path d="M356 316 C362 304 368 304 372 314 S382 324 388 312" class="k-thick k-a3"/>
+<path d="M472 316 C478 304 484 304 488 314 S498 324 504 312" class="k-thick k-a3"/>
+<path d="M588 316 C594 304 600 304 604 314 S614 324 620 312" class="k-thick k-a3"/>
+<rect x="20" y="346" width="640" height="62" class="f-soft"/>
+<text x="30.0" y="384.0" class="t">your job search</text>
+<path d="M361 365 L383 387 M383 365 L361 387" class="k-thick k-a1"/>
+<path d="M472 378 C478 366 484 366 488 376 S498 386 504 374" class="k-thick k-a3"/>
+<path d="M593 365 L615 387 M615 365 L593 387" class="k-thick k-a1"/>
+<text x="30.0" y="446.0" class="t">your pay or review</text>
+<path d="M361 427 L383 449 M383 427 L361 449" class="k-thick k-a1"/>
+<path d="M472 440 C478 428 484 428 488 438 S498 448 504 436" class="k-thick k-a3"/>
+<path d="M591 438 L600 448 L618 426" class="k-thick k-a2"/>
+<text x="604.0" y="464.0" class="t t-sm t-mid t-a2">in the one-to-one,</text>
+<text x="604.0" y="484.0" class="t t-sm t-mid t-a2">not at dinner</text>
+<path d="M20.0 504.0 Q339.3 505.5 660.1 504.3" class="k-thin k-dash k-mute"/>
+<path d="M31 534 L40 544 L58 522" class="k-thick k-a2"/>
+<text x="70.0" y="542.0" class="t t-sm">fine</text>
+<path d="M134 536 C140 524 146 524 150 534 S160 544 166 532" class="k-thick k-a3"/>
+<text x="176.0" y="542.0" class="t t-sm">depends: say which hat you&#x27;re wearing</text>
+<path d="M33 567 L55 589 M55 567 L33 589" class="k-thick k-a1"/>
+<text x="70.0" y="586.0" class="t t-sm">keep it out of this relationship</text>
+<text x="660.0" y="630.0" class="t t-sm t-end t-mute">our suggestions, not findings</text>
+</svg>
