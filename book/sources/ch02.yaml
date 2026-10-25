@@ -116,3 +116,103 @@ govuk-redundancy-pay:
   sample: Official UK government guidance.
   grade: strong
   caveats: Great Britain; amounts and caps change each April.
+
+# Added or corrected by the fact-check of Chapters 1-5 (checks/part1.md). Entries for keys that also
+# appear in a research registry describe the same work (same DOI or URL) and take precedence in the
+# reference list, because they record what the fact-checker read in the source itself.
+
+bls-jolts2022:
+  type: article
+  authors: ['Penn, Rick', 'Huang, Victor']
+  year: 2023
+  title: Job openings reach record highs in 2022 as the labor market recovery continues
+  container: Monthly Labor Review, U.S. Bureau of Labor Statistics, May 2023
+  url: https://www.bls.gov/opub/mlr/2023/article/job-openings-reach-record-highs-in-2022-as-the-labor-market-recovery-continues.htm
+  url_checked: '2026-10-25'
+  url_note: >-
+    Full article read through the Internet Archive copy (bls.gov refuses scripted access):
+    https://web.archive.org/web/2025/https://www.bls.gov/opub/mlr/2023/article/job-openings-reach-record-highs-in-2022-as-the-labor-market-recovery-continues.htm
+  kind: data
+  design: official statistics (Job Openings and Labor Turnover Survey)
+  supports: >-
+    US job openings reached a series high in March 2022 and "remained at historically high levels
+    throughout the year"; quits drove a rise in separations.
+  sample: JOLTS establishment survey, seasonally adjusted estimates for 2022.
+  grade: strong
+  caveats: US only; describes labour-market tightness, not any individual's prospects.
+
+farber2017:
+  type: article
+  authors: ['Farber, Henry S.', 'Silverman, Dan', 'von Wachter, Till']
+  year: 2017
+  title: 'Factors determining callbacks to job applications by the unemployed: An audit study'
+  container: 'RSF: The Russell Sage Foundation Journal of the Social Sciences'
+  volume: '3'
+  issue: '3'
+  pages: 168-201
+  doi: 10.7758/rsf.2017.3.3.08
+  url: https://www.nber.org/system/files/working_papers/w21689/w21689.pdf
+  url_checked: '2026-10-25'
+  url_note: >-
+    NBER Working Paper 21689 (October 2015) read; the published version's details checked on OpenAlex.
+  kind: evidence
+  design: correspondence (audit) field experiment
+  supports: >-
+    Among experienced, college-educated women applying for administrative support jobs, the authors found
+    "no relationship between callback rates and the duration of unemployment", which they note differs from
+    Kroft, Lange and Notowidigdo (2013); applicants aged 50 and over, and those who had taken a low-level
+    interim job, received fewer callbacks.
+  sample: About 12,000 fictitious applications to job openings in eight US cities, 2012-2014.
+  grade: moderate
+  caveats: >-
+    One occupation and one group of applicants; together with kroft2013 and eriksson2014 it shows the
+    effect of unemployment duration on callbacks is not universal.
+
+eriksson2014:
+  type: article
+  authors: ['Eriksson, Stefan', 'Rooth, Dan-Olof']
+  year: 2014
+  title: 'Do employers use unemployment as a sorting criterion when hiring? Evidence from a field experiment'
+  container: American Economic Review
+  volume: '104'
+  issue: '3'
+  pages: 1014-1039
+  doi: 10.1257/aer.104.3.1014
+  url: https://api.openalex.org/works/doi:10.1257/aer.104.3.1014
+  url_checked: '2026-10-25'
+  url_note: >-
+    Published abstract read via the OpenAlex API; the online appendix
+    (https://www.aeaweb.org/aer/app/10403/20121097_app.pdf) confirms applicants aged 23-32. The earlier IZA
+    Discussion Paper 6235 abstract was also read.
+  kind: evidence
+  design: correspondence (audit) field experiment
+  supports: >-
+    In Sweden, past long-term unemployment spells did not affect employers' interview invitations, nor did
+    contemporary short spells; contemporary spells of at least nine months did reduce them.
+  sample: Fictitious applicants aged 23-32 applying to Swedish job openings in a range of occupations.
+  grade: strong
+  caveats: One country and age band; interview invitations, not hires.
+
+pew2022:
+  type: web
+  authors: ['Parker, Kim', 'Horowitz, Juliana Menasce']
+  year: 2022
+  title: >-
+    Majority of workers who quit a job in 2021 cite low pay, no opportunities for advancement, feeling
+    disrespected
+  container: Pew Research Center, 9 March 2022
+  url: >-
+    https://www.pewresearch.org/short-reads/2022/03/09/majority-of-workers-who-quit-a-job-in-2021-cite-low-pay-no-opportunities-for-advancement-feeling-disrespected/
+  url_checked: '2026-10-25'
+  url_note: Full page read on pewresearch.org.
+  kind: data
+  design: probability-based survey (American Trends Panel)
+  supports: >-
+    Among US adults who quit a job in 2021, the most cited reasons were low pay (63%), no opportunities for
+    advancement (63%) and feeling disrespected at work (57%); childcare issues were cited by 48% of those
+    with a child under 18 at home, lack of flexibility over hours by 45% and poor benefits by 43%.
+  sample: 6,627 non-retired US adults surveyed 7-13 February 2022, including 965 who quit a job in 2021.
+  grade: strong
+  caveats: >-
+    Self-reported reasons, one country, one unusual year; people could give several reasons. Disrespect is
+    partly about managers, but pay and advancement rank as high.

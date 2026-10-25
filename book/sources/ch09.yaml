@@ -34,3 +34,30 @@ shrm2016-resignation:
     A trade-association news article summarising the paper; the percentages are as reported there and were
     not checked against the paper's tables. The SHRM Foundation part-funded Klotz's dissertation research,
     as the article discloses.
+
+# Added by the fact-check of Part I (checks/part1.md).
+
+arnold2025:
+  type: report
+  authors: ['Arnold, David', 'Quach, Simon', 'Taska, Bledi']
+  year: 2025
+  title: The impact of pay transparency in job postings on the labor market
+  container: NBER Working Paper 34480, November 2025
+  doi: 10.3386/w34480
+  url: https://www.nber.org/papers/w34480
+  url_checked: '2026-10-25'
+  url_note: NBER abstract page read.
+  kind: evidence
+  design: difference-in-differences across states with and without salary-posting laws
+  supports: >-
+    After state laws requiring salary information in job postings, the share of postings with salary
+    information rose by 30 percentage points and wages rose by 1.3-3.6% across three datasets, with no
+    effect on pay dispersion, employment, the number of postings or skill requirements; the authors read
+    this as more competition, with positive spillovers to incumbent workers and to firms that always posted
+    wages.
+  sample: US job-posting and wage data in three datasets.
+  grade: moderate
+  caveats: >-
+    Working paper, not yet peer-reviewed; abstract-level reading. Concerns posting laws, unlike cullen2023,
+    which concerns laws protecting the right to discuss pay.
+  flags: ['not-peer-reviewed']

@@ -23,3 +23,50 @@ kanfer2001:
   sample: Meta-analysis of studies of job losers, employed job seekers and new entrants.
   grade: strong
   caveats: Abstract-level reading; correlational. Effect sizes for search-to-employment are not quoted here.
+
+# Corrected by the fact-check of Chapters 1-5 (checks/part1.md). Same works as the Part I registry
+# entries (same URL), so these take precedence in the reference list.
+
+sullivan2013:
+  type: web
+  authors: ['Sullivan, John']
+  year: 2013
+  title: Why you can't get a job... Recruiting explained by the numbers
+  container: ERE (recruiting trade site), 20 May 2013
+  url: https://www.ere.net/articles/why-you-cant-get-a-job-recruiting-explained-by-the-numbers
+  url_checked: '2026-10-25'
+  url_note: Full article read on ere.net.
+  kind: practitioner
+  supports: >-
+    The earliest source found for the widely repeated "250 resumes per corporate job opening", hedged in
+    the original ("Although it varies with the company and the job, on average 250 resumes are received
+    for each corporate job opening"), with no method or source given for that figure.
+  sample: None stated.
+  grade: weak
+  caveats: Consultant's estimate without method or source.
+  flags: ['practitioner']
+
+hiddenworkers2021:
+  type: report
+  authors: ['Fuller, Joseph B.', 'Raman, Manjari', 'Sage-Gavin, Eva', 'Hines, Kristen']
+  year: 2021
+  title: 'Hidden Workers: Untapped Talent'
+  container: Harvard Business School Project on Managing the Future of Work and Accenture
+  url: https://www.hbs.edu/managing-the-future-of-work/research/hidden-workers-untapped-talent
+  url_checked: '2026-10-25'
+  url_note: >-
+    Full report PDF (hiddenworkers09032021.pdf) read via the download link on this page.
+  kind: data
+  design: survey of employers and workers
+  supports: >-
+    Survey of 2,275 executives and 8,720 hidden workers in the US, UK and Germany. 63% of employers used a
+    recruiting management system (RMS); "more than 90% of employers" used their RMS to initially filter or
+    rank middle-skills (94%) and high-skills (92%) candidates. 88% agreed that qualified high-skills
+    candidates are vetted out because they do not match the exact criteria in the job description (94% for
+    middle-skills); 48% filtered middle-skills candidates on employment gaps of more than six months.
+  sample: 2,275 executives and 8,720 workers in three countries.
+  grade: moderate
+  caveats: >-
+    Executive self-report; Accenture is a consultancy with services in this space. The 90% figure appears to
+    refer to employers that use an RMS. Shows employer-configured filters, not autonomous rejection.
+  flags: ['commercial']
