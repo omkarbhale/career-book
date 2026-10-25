@@ -1318,3 +1318,219 @@ govuk-dbs:
   caveats: England and Wales (Scotland and NI differ).
   commercial: false
   topics: [background-checks, regional]
+
+bls-tenure2026:
+  type: government
+  authors: [US Bureau of Labor Statistics]
+  year: 2026
+  title: "Employee tenure in 2026 (news release USDL-26-1532, 24 September 2026)"
+  venue: bls.gov
+  url: https://www.bls.gov/news.release/tenure.nr0.htm
+  url_note: Opened via a web-fetch subagent (direct curl was blocked with 403); Table 1 at https://www.bls.gov/news.release/tenure.t01.htm also read.
+  accessed: 2026-10-25
+  supports: Median tenure with current employer 4.1 years in January 2026 (3.9 in January 2024); ages 25-34 3.0 years; ages 55-64 9.6 years; public sector 5.6 vs private 3.9.
+  sample: CPS January supplement (biennial), US wage and salary workers.
+  grade: strong
+  caveats: US only; median, not distribution.
+  commercial: false
+  topics: [switching, tenure]
+
+cohn2021:
+  type: article
+  authors: [Alain Cohn, Michel Andre Marechal, Frederic Schneider, Roberto A. Weber]
+  year: 2021
+  title: "Frequent job changes can signal poor work attitude and reduce employability"
+  venue: Journal of the European Economic Association, 19(1), 475-508
+  doi: 10.1093/jeea/jvaa017
+  url: https://www.repository.cam.ac.uk/handle/1810/301792
+  url_note: Cambridge repository record with abstract; also Chicago Booth Review summary of the 2015 working paper https://www.chicagobooth.edu/review/why-frequent-job-hopping-can-harm-your-employment-prospects
+  accessed: 2026-10-25
+  supports: Lab, field and survey experiments - resumes with fewer job changes received 40-50% more callbacks (field); HR professionals perceived frequent changers as having poorer work attitude, largely accounting for callback differences.
+  sample: Field experiment with fictitious resumes (Switzerland per authors' affiliations; occupations not confirmed here) plus HR survey and lab.
+  grade: strong
+  caveats: Callback effects; the authors note job changes can also signal positives; country/occupation scope not verified in opened text.
+  commercial: false
+  topics: [switching, job-hopping]
+
+eriksson2014:
+  type: article
+  authors: [Stefan Eriksson, Dan-Olof Rooth]
+  year: 2014
+  title: "Do employers use unemployment as a sorting criterion when hiring? Evidence from a field experiment"
+  venue: American Economic Review, 104(3), 1014-1039
+  doi: 10.1257/aer.104.3.1014
+  url: https://www.iza.org/publications/dp/6235
+  url_note: IZA Discussion Paper 6235 (2011) abstract page.
+  accessed: 2026-10-25
+  supports: Swedish field experiment - no evidence employers use past unemployment to sort young applicants, some evidence they use contemporary unemployment.
+  sample: Fictitious applications in Sweden (8,466 applications to 3,786 employers per secondary summary; not confirmed on opened page).
+  grade: strong
+  caveats: Young workers, Sweden, interview invitations.
+  commercial: false
+  topics: [switching, unemployment]
+
+lii-atwill:
+  type: web
+  authors: [Legal Information Institute, Cornell Law School]
+  year: 2026
+  title: "Employment-at-will doctrine (Wex)"
+  venue: law.cornell.edu
+  url: https://www.law.cornell.edu/wex/employment-at-will_doctrine
+  accessed: 2026-10-25
+  supports: At-will is the US default; employment may be terminated by either party at any time and for almost any reason (subject to exceptions).
+  sample: n/a
+  grade: strong
+  caveats: Legal encyclopedia, not statute; state exceptions vary (e.g., Montana).
+  commercial: false
+  topics: [switching, legal, regional]
+
+warn-2102:
+  type: statute
+  authors: [US Congress]
+  year: 1988
+  title: "29 U.S.C. 2102 - Notice required before plant closings and mass layoffs (WARN Act)"
+  venue: US Code via Cornell LII
+  url: https://www.law.cornell.edu/uscode/text/29/2102
+  accessed: 2026-10-25
+  supports: Employer shall not order a plant closing or mass layoff until the end of a 60-day period after written notice; exceptions for faltering company and unforeseeable business circumstances.
+  sample: n/a
+  grade: strong
+  caveats: Federal; state mini-WARN laws not covered.
+  commercial: false
+  topics: [layoffs, legal, regional]
+
+warn-2101:
+  type: statute
+  authors: [US Congress]
+  year: 1988
+  title: "29 U.S.C. 2101 - Definitions; exclusions (WARN Act)"
+  venue: US Code via Cornell LII
+  url: https://www.law.cornell.edu/uscode/text/29/2101
+  accessed: 2026-10-25
+  supports: Covered employer - 100 or more employees (excluding part-time) or 100+ working 4,000 hours/week; mass layoff - at least 33% and at least 50 employees at a site, or at least 500.
+  sample: n/a
+  grade: strong
+  caveats: Simplified; see statute for definitions.
+  commercial: false
+  topics: [layoffs, legal, regional]
+
+bgb622:
+  type: statute
+  authors: [Federal Republic of Germany]
+  year: 2026
+  title: "German Civil Code (BGB) section 622 - Notice periods in the case of employment relationships"
+  venue: gesetze-im-internet.de (official German text and official English translation)
+  url: https://www.gesetze-im-internet.de/englisch_bgb/englisch_bgb.html
+  url_note: German original also opened https://www.gesetze-im-internet.de/bgb/__622.html
+  accessed: 2026-10-25
+  supports: Basic notice four weeks to the 15th or end of a month; employer notice rises with service (1 month after 2 years up to 7 months after 20 years); two weeks during probation of up to six months.
+  sample: n/a
+  grade: strong
+  caveats: Germany only as an EU example; collective agreements may differ.
+  commercial: false
+  topics: [switching, legal, regional]
+
+khaitan-notice:
+  type: web
+  authors: [Khaitan & Co]
+  year: 2025
+  title: "Lengthy notice periods in employment contracts: Understanding law and market trends"
+  venue: Khaitan & Co Compass (Indian law firm)
+  url: https://compass.khaitanco.com/lengthy-notice-periods-in-employment-contracts-understanding-law-and-market-trends
+  accessed: 2026-10-25
+  supports: In India non-managerial employees usually serve 1-2 months' notice, senior roles 3-6 months; direct judicial precedents on lengthy notice periods are limited; Supreme Court voided a termination clause under s.23 Contract Act in a particular case.
+  sample: n/a
+  grade: moderate
+  caveats: Law-firm commentary; year approximate (not shown in extracted text).
+  commercial: false
+  topics: [switching, regional]
+
+argus-labourcodes:
+  type: web
+  authors: [Argus Partners]
+  year: 2026
+  title: "Cracking the code: The new labour laws at a glance"
+  venue: Argus Partners thought paper (Indian law firm)
+  url: https://www.argus-p.com/papers-publications/thought-paper/cracking-the-code-the-new-labour-laws-at-a-glance-1/
+  accessed: 2026-10-25
+  supports: All four Labour Codes came into force on 21 November 2025, consolidating 29 central laws (repealed as of 2 February 2026); rules still being notified; employers must pay employees within two days of resignation.
+  sample: n/a
+  grade: moderate
+  caveats: Law-firm summary; state rules vary.
+  commercial: false
+  topics: [switching, regional]
+
+barandbench-labourcodes:
+  type: web
+  authors: [Bar & Bench (law-firm viewpoint)]
+  year: 2025
+  title: "Labour Codes - Key highlights"
+  venue: Bar & Bench, 29 November 2025
+  url: https://www.barandbench.com/law-firms/view-point/labour-codes-key-highlights
+  accessed: 2026-10-25
+  supports: Ministry of Labour and Employment notified enforcement of the four labour codes on 21 November 2025 (Wages, Social Security, OSH, Industrial Relations).
+  sample: n/a
+  grade: moderate
+  caveats: Secondary legal commentary.
+  commercial: false
+  topics: [regional]
+
+uschamber-ryan:
+  type: web
+  authors: [US Chamber of Commerce Litigation Center]
+  year: 2025
+  title: "Ryan LLC v. FTC (case page)"
+  venue: uschamber.com
+  url: https://www.uschamber.com/cases/antitrust-and-competition-law/ryan-llc-v.-ftc-2
+  accessed: 2026-10-25
+  supports: FTC moved to voluntarily dismiss its appeal (5 September 2025); Fifth Circuit dismissed the appeal of the Chamber's victory over the Noncompete Rule (8 September 2025).
+  sample: n/a
+  grade: strong
+  caveats: Litigant's own page (interested party) but documents docket events.
+  commercial: false
+  topics: [non-competes, regional]
+
+loeb2023-california:
+  type: web
+  authors: [Loeb & Loeb LLP]
+  year: 2023
+  title: "California strengthens its prohibitions on noncompetes with the enactment of two new laws"
+  venue: Loeb & Loeb client alert, December 2023
+  url: https://www.loeb.com/en/insights/publications/2023/12/california-strengthens-its-prohibitions-on-noncompetes-with-the-enactment-of-two-new-laws
+  accessed: 2026-10-25
+  supports: SB 699 and AB 1076 strengthen B&P Code 16600 - employers may not enter into or attempt to enforce void noncompetes regardless of where/when signed; notice obligations.
+  sample: n/a
+  grade: moderate
+  caveats: Law-firm alert; check current statute.
+  commercial: false
+  topics: [non-competes, regional]
+
+cms2025-uk-noncompete:
+  type: web
+  authors: [CMS (law firm)]
+  year: 2025
+  title: "UK Government re-opens the potential for legislating on employee non-compete clauses"
+  venue: CMS Law-Now, 28 November 2025
+  url: https://cms.law/en/gbr/legal-updates/uk-government-re-opens-the-potential-for-legislating-on-employee-non-compete-clauses
+  accessed: 2026-10-25
+  supports: Government published a working paper on non-compete reform options (statutory length limit, ban below salary threshold); the previous government's 2023 three-month cap was never legislated.
+  sample: n/a
+  grade: moderate
+  caveats: Law-firm update; outcome after Nov 2025 not found.
+  commercial: false
+  topics: [non-competes, regional]
+
+barandbench-s27:
+  type: web
+  authors: [Chandan Kini, Nikhil Sharma, Sonali Shendge, Nidhi Acharya (Bar & Bench viewpoint)]
+  year: 2022
+  title: "The Viewpoint - Validity of restrictive covenants in contracts"
+  venue: Bar & Bench
+  url: https://www.barandbench.com/law-firms/view-point/the-viewpoint-validity-of-restrictive-covenants-in-contracts
+  accessed: 2026-10-25
+  supports: Indian Contract Act s.27 makes agreements in restraint of trade void; restrictive covenants during employment not treated as restraint of trade; Percept D'Mark v Zaheer Khan - covenant extending beyond contract term void.
+  sample: n/a
+  grade: moderate
+  caveats: Law-firm commentary; authors from search listing; year approximate.
+  commercial: false
+  topics: [non-competes, regional]
