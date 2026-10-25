@@ -1,0 +1,2601 @@
+# Part III source registry - machine-readable.
+#
+# Format: same as research/part2/sources.yaml. YAML mapping from a stable citation key to one source
+# record. Keys are lowercase first-author family name (ASCII) followed by the year the work is
+# conventionally cited by (print/issue year), with a letter suffix when one author has two works in a
+# year (bls2026a, bls2026b). Organisations use a short lowercase name (leanin2025, gallup2025). Undated
+# web pages use the access year (brown2026). Keys are permanent: never rename one once written.
+#
+# Fields (all records): type, authors ["Family, Given"], year, title, url, url_checked (date the URL was
+# opened), url_note (how it was checked), kind (evidence | review | theory | data | practitioner),
+# design, supports, sample, grade (strong | moderate | weak | myth-or-unsupported), caveats,
+# topics (Part III research files that cite it; derived automatically).
+# Optional: container, volume, issue, pages, doi, secondary_urls,
+# flags (commercial | self-interested | practitioner | not-peer-reviewed).
+#
+# Keys shared with Part I or Part II (bidwell2011) are re-verified here; the README says what changed.
+# Grading and method: see research/part3/README.md.
+# Generated from verified Crossref/OpenAlex metadata plus hand-written annotations.
+
+adler2016:
+  type: 'article'
+  authors: ['Adler, Seymour', 'Campion, Michael', 'Colquitt, Alan', 'Grubb, Amy', 'Murphy, Kevin', 'Ollander-Krane, Rob', 'Pulakos, Elaine D.']
+  year: 2016
+  title: 'Getting Rid of Performance Ratings: Genius or Folly? A Debate'
+  container: 'Industrial and Organizational Psychology'
+  volume: '9'
+  issue: '2'
+  pages: '219-252'
+  doi: '10.1017/iop.2015.106'
+  url: 'https://doi.org/10.1017/iop.2015.106'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: 'structured debate summary'
+  supports: >-
+    Lists the arguments for and against abolishing performance ratings, including rater disagreement, weak
+    links between performance and ratings and conflicting purposes (against), and "performance is always
+    evaluated in some manner" and "alternatives may be worse" (for).
+  sample: 'Panel debate at the 2015 SIOP conference.'
+  grade: 'moderate'
+  caveats: 'Expert opinion; no new data.'
+  topics: [reviews]
+allen1986:
+  type: 'article'
+  authors: ['Allen, Thomas J.', 'Katz, Ralph']
+  year: 1986
+  title: 'The dual ladder: motivational solution or managerial delusion?'
+  container: 'R&D Management'
+  volume: '16'
+  issue: '2'
+  pages: '185-197'
+  doi: '10.1111/j.1467-9310.1986.tb01171.x'
+  url: 'https://doi.org/10.1111/j.1467-9310.1986.tb01171.x'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'survey'
+  supports: >-
+    Asked to choose between more managerial responsibility, technical-ladder advancement or more interesting
+    technical work, engineers' preferences shifted strongly with age toward interesting project work over
+    either form of advancement; questions whether dual ladders deliver what they promise.
+  sample: >-
+    Nearly 1,500 engineers and scientists in nine US organisations.
+  grade: 'moderate'
+  caveats: '1980s R&D labs.'
+  topics: [the-fork]
+anderson2012:
+  type: 'article'
+  authors: ['Anderson, Cameron', 'Brion, Sebastien', 'Moore, Don A.', 'Kennedy, Jessica A.']
+  year: 2012
+  title: 'A status-enhancement account of overconfidence.'
+  container: 'Journal of Personality and Social Psychology'
+  volume: '103'
+  issue: '4'
+  pages: '718-735'
+  doi: '10.1037/a0029395'
+  url: 'https://doi.org/10.1037/a0029395'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'six studies (naturalistic and experimental)'
+  supports: >-
+    Overconfidence led to higher social status in short- and longer-term groups because it produced
+    behaviour that made people look competent; the desire for status increased overconfidence.
+  sample: 'Six studies, student and group settings.'
+  grade: 'moderate'
+  caveats: >-
+    Status in groups, not promotion. What happens when overconfidence is later exposed was not checked here.
+  topics: [self-assessment]
+artz2017:
+  type: 'article'
+  authors: ['Artz, Benjamin M.', 'Goodall, Amanda H.', 'Oswald, Andrew J.']
+  year: 2017
+  title: 'Boss Competence and Worker Well-Being'
+  container: 'ILR Review'
+  volume: '70'
+  issue: '2'
+  pages: '419-450'
+  doi: '10.1177/0019793916650451'
+  url: 'https://doi.org/10.1177/0019793916650451'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex. Online
+    2016, issue 2017.
+  kind: 'evidence'
+  design: 'cross-section and longitudinal fixed-effects analysis'
+  supports: >-
+    A boss's technical competence is the single strongest predictor of a worker's job satisfaction; when a
+    worker's supervisor becomes more competent (same job, same workplace), the worker's well-being rises.
+  sample: 'US and British survey data.'
+  grade: 'moderate'
+  caveats: >-
+    Self-reported boss competence; instrumental-variable results described as tentative.
+  topics: [the-fork]
+ashford1985:
+  type: 'article'
+  authors: ['Ashford, Susan J.', 'Cummings, L. L.']
+  year: 1985
+  title: 'Proactive feedback seeking: The instrumental use of the information environment'
+  container: 'Journal of Occupational Psychology'
+  volume: '58'
+  issue: '1'
+  pages: '67-79'
+  doi: '10.1111/j.2044-8325.1985.tb00181.x'
+  url: 'https://doi.org/10.1111/j.2044-8325.1985.tb00181.x'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'field study'
+  supports: >-
+    Proactive feedback seeking was predicted by role ambiguity, contingency uncertainty, tenure and job
+    involvement; tolerance for ambiguity moderated the links.
+  sample: 'Employees in one field setting (abstract gives no N).'
+  grade: 'moderate'
+  caveats: 'Early study; correlational.'
+  topics: [self-assessment]
+ashford2003:
+  type: 'article'
+  authors: ['Ashford, Susan J.', 'Blatt, Ruth', 'VandeWalle, Don']
+  year: 2003
+  title: >-
+    Reflections on the Looking Glass: A Review of Research on Feedback-Seeking Behavior in Organizations
+  container: 'Journal of Management'
+  volume: '29'
+  issue: '6'
+  pages: '773-799'
+  doi: '10.1016/s0149-2063(03)00079-5'
+  url: 'https://doi.org/10.1016/s0149-2063(03)00079-5'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: 'narrative review of two decades of research'
+  supports: >-
+    Feedback seeking is driven by three motives - instrumental (to achieve goals), ego-defence and image
+    protection - which shape how often people seek, whether they ask or monitor, when, whom and on what
+    topic.
+  sample: 'Review.'
+  grade: 'strong'
+  caveats: >-
+    Crossref lists only the first author (Ashford); the published authors are Ashford, Blatt and VandeWalle.
+  topics: [reviews, self-assessment]
+ashford2016:
+  type: 'article'
+  authors: ['Ashford, Susan J.', 'De Stobbeleir, Katleen', 'Nujella, Mrudula']
+  year: 2016
+  title: >-
+    To Seek or Not to Seek: Is That the Only Question? Recent Developments in Feedback-Seeking Literature
+  container: 'Annual Review of Organizational Psychology and Organizational Behavior'
+  volume: '3'
+  issue: '1'
+  pages: '213-239'
+  doi: '10.1146/annurev-orgpsych-041015-062314'
+  url: 'https://doi.org/10.1146/annurev-orgpsych-041015-062314'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: 'Annual Review'
+  supports: >-
+    Updates feedback-seeking research since 2003; dates the shift from supervisor-given annual feedback to
+    feedback proactively sought in everyday interaction to Ashford and Cummings (1983); covers who seeks,
+    when, and the benefits and costs of seeking.
+  sample: 'Review.'
+  grade: 'strong'
+  caveats: >-
+    Review-level; individual effect sizes in anseel2015 (Part II).
+  topics: [reviews, self-assessment]
+baker1994:
+  type: 'article'
+  authors: ['Baker, G.', 'Gibbs, M.', 'Holmstrom, B.']
+  year: 1994
+  title: 'The Internal Economics of the Firm: Evidence from Personnel Data'
+  container: 'The Quarterly Journal of Economics'
+  volume: '109'
+  issue: '4'
+  pages: '881-919'
+  doi: '10.2307/2118351'
+  url: 'https://doi.org/10.2307/2118351'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: '20 years of one firm''s personnel data'
+  supports: >-
+    Simple, stable hierarchy; promotion "fast tracks" exist; job levels matter for pay but pay varies a lot
+    within levels; career moves suggest both the employee's learning and the firm's learning about ability
+    matter.
+  sample: 'One US firm''s managerial employees over 20 years.'
+  grade: 'moderate'
+  caveats: 'One firm; a classic of personnel economics.'
+  topics: [promotions]
+benson2019:
+  type: 'article'
+  authors: ['Benson, Alan', 'Li, Danielle', 'Shue, Kelly']
+  year: 2019
+  title: 'Promotions and the Peter Principle*'
+  container: 'The Quarterly Journal of Economics'
+  volume: '134'
+  issue: '4'
+  pages: '2085-2134'
+  doi: '10.1093/qje/qjz022'
+  url: 'https://doi.org/10.1093/qje/qjz022'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex. Effect
+    sizes read in the NBER working paper w24343 (opened, 2018 version); the published PDF (OUP and MIT
+    DSpace) refused automated download (403/429).
+  secondary_urls: ['https://www.nber.org/system/files/working_papers/w24343/w24343.pdf']
+  kind: 'evidence'
+  design: 'firm microdata, promotion and post-promotion performance'
+  supports: >-
+    Firms promote their best salespeople even though sales performance negatively predicts performance as a
+    manager, while collaboration experience (which predicts managerial success) is not rewarded - evidence
+    consistent with the Peter Principle; firms weight sales less when the manager role carries more
+    responsibility or frontline pay is strongly incentive-based. Working-paper figures: doubling sales
+    raises promotion probability by 14.3% relative to the base rate; doubling a new manager's pre-promotion
+    sales is associated with a 7.5% fall in each subordinate's sales; "lone wolves" who never collaborated
+    did particularly poorly as managers.
+  sample: >-
+    Sales workers at 131 firms (published version; the 2018 NBER working paper reports 214 firms).
+  grade: 'strong'
+  caveats: >-
+    Sales jobs only, where performance is measurable. Effect sizes come from the working paper and may
+    differ in the published version (whose sample is 131 firms). It does not show people rise until they are
+    incompetent.
+  topics: [promotions, the-fork]
+benson2026:
+  type: 'article'
+  authors: ['Benson, Alan', 'Li, Danielle', 'Shue, Kelly']
+  year: 2026
+  title: '“Potential” and the Gender Promotion Gap'
+  container: 'American Economic Review'
+  volume: '116'
+  issue: '2'
+  pages: '375-417'
+  doi: '10.1257/aer.20220831'
+  url: 'https://doi.org/10.1257/aer.20220831'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref metadata and abstract fetched (AER 116(2), 2026). Figures read in
+    the authors' June 2022 working-paper PDF (danielle.li); the AEA supplemental appendix (September 2025)
+    also opened.
+  secondary_urls: ['https://danielle-li.github.io/assets/docs/PotentialAndTheGenderPromotionGap.pdf', 'https://www.aeaweb.org/articles/materials/24547']
+  kind: 'evidence'
+  design: 'firm personnel data'
+  supports: >-
+    Women received higher performance ratings but substantially lower "potential" ratings; potential
+    differences explain about half of the gender promotion gap; women later outperformed men with the same
+    potential rating. In the 2022 working paper, men's annual promotion rate was 12.6% vs women's 11.0%, and
+    moving from potential rating 2 to 3 raised promotion probability by about 9 percentage points (75% of
+    baseline). Ratings came from a "Nine Box" performance-potential grid.
+  sample: >-
+    29,809 management-track employees of a large North American retail chain.
+  grade: 'strong'
+  caveats: >-
+    One retail firm. Circulated as a working paper from 2021 ("Benson, Li & Shue 2021/2022") before
+    publication in 2026; the key uses the issue year. Working-paper numbers may differ from the final paper.
+  topics: [promotions, regional, reviews]
+bidwell2011:
+  type: 'article'
+  authors: ['Bidwell, Matthew']
+  year: 2011
+  title: 'Paying More to Get Less'
+  container: 'Administrative Science Quarterly'
+  volume: '56'
+  issue: '3'
+  pages: '369-407'
+  doi: '10.1177/0001839211433562'
+  url: 'https://doi.org/10.1177/0001839211433562'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; ASQ abstract read via OpenAlex.
+    Part I graded this key moderate because only the Knowledge at Wharton summary could be opened then.
+  kind: 'evidence'
+  design: 'firm personnel data'
+  supports: >-
+    Workers promoted into a job performed significantly better for the first two years than external hires
+    into similar jobs and had lower voluntary and involuntary exit; external hires were initially paid
+    around 18% more, had more experience and education, and were promoted faster. Promotion combined with
+    transfer did worse than other internal moves.
+  sample: >-
+    Personnel data from the US investment-banking arm of a financial services firm, 2003-2009.
+  grade: 'strong'
+  caveats: >-
+    One firm in one industry. The abstract says "around 18 percent"; Part I's "18-20%" came from the Wharton
+    summary. Part III upgrades the grade to strong for the core finding because the ASQ abstract was read;
+    it does not change Part I's description.
+  topics: [promotions]
+blanchflower2021:
+  type: 'article'
+  authors: ['Blanchflower, David G.']
+  year: 2021
+  title: 'Is happiness U-shaped everywhere? Age and subjective well-being in 145 countries'
+  container: 'Journal of Population Economics'
+  volume: '34'
+  issue: '2'
+  pages: '575-624'
+  doi: '10.1007/s00148-020-00797-z'
+  url: 'https://doi.org/10.1007/s00148-020-00797-z'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref metadata fetched; abstract read on link.springer.com (OpenAlex had
+    none). Online 2020, issue 2021.
+  kind: 'evidence'
+  design: 'cross-sectional analysis of many national surveys'
+  supports: >-
+    A U-shaped happiness-age curve with a low point around age 50 appears in 145 countries (109 developing),
+    controlling for education, marital and labour-force status.
+  sample: 'Individuals under 70 in 145 countries.'
+  grade: 'moderate'
+  caveats: 'Cross-sectional; contested (galambos2020).'
+  topics: [long-game]
+bls2026a:
+  type: 'government'
+  authors: ['U.S. Bureau of Labor Statistics']
+  year: 2026
+  title: >-
+    Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers
+  container: 'U.S. Bureau of Labor Statistics, last modified 27 August 2026'
+  url: 'https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm'
+  url_checked: '2026-10-25'
+  url_note: >-
+    Opened via a web-fetch tool (bls.gov refuses scripted requests with HTTP 403).
+  kind: 'data'
+  design: 'official statistics (OEWS wage data)'
+  supports: >-
+    "The median annual wage for software developers was $135,980 in May 2025." Work experience in a related
+    occupation required: none.
+  sample: 'US employer wage survey.'
+  grade: 'strong'
+  caveats: 'US only; medians hide large variation by firm and level.'
+  topics: [the-fork]
+bls2026b:
+  type: 'government'
+  authors: ['U.S. Bureau of Labor Statistics']
+  year: 2026
+  title: 'Occupational Outlook Handbook: Computer and Information Systems Managers'
+  container: 'U.S. Bureau of Labor Statistics, last modified 27 August 2026'
+  url: 'https://www.bls.gov/ooh/management/computer-and-information-systems-managers.htm'
+  url_checked: '2026-10-25'
+  url_note: >-
+    Opened via a web-fetch tool (bls.gov refuses scripted requests with HTTP 403).
+  kind: 'data'
+  design: 'official statistics (OEWS wage data)'
+  supports: >-
+    "The median annual wage for computer and information systems managers was $175,140 in May 2025"; typical
+    related work experience "5 years or more".
+  sample: 'US employer wage survey.'
+  grade: 'strong'
+  caveats: >-
+    Occupation medians, not a like-for-like comparison of the same person on two tracks; senior ICs at large
+    tech firms can out-earn managers.
+  topics: [the-fork]
+boyce2012:
+  type: 'article'
+  authors: ['Boyce, Christopher J.', 'Oswald, Andrew J.']
+  year: 2012
+  title: 'Do people become healthier after being promoted?'
+  container: 'Health Economics'
+  volume: '21'
+  issue: '5'
+  pages: '580-596'
+  doi: '10.1002/hec.1734'
+  url: 'https://doi.org/10.1002/hec.1734'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'longitudinal panel'
+  supports: >-
+    Replicates the cross-sectional link between job seniority and health, but longitudinally healthy people
+    are the ones later promoted; little evidence health improves after promotion; promoted people show a
+    significant deterioration in psychological well-being (GHQ).
+  sample: 'Large random sample of British workers followed over time.'
+  grade: 'moderate'
+  caveats: 'Observational; published online 2011, issue 2012.'
+  topics: [long-game, promotions, the-fork]
+boyce2013:
+  type: 'article'
+  authors: ['Boyce, Christopher J.', 'Wood, Alex M.', 'Banks, James', 'Clark, Andrew E.', 'Brown, Gordon D. A.']
+  year: 2013
+  title: 'Money, Well-Being, and Loss Aversion'
+  container: 'Psychological Science'
+  volume: '24'
+  issue: '12'
+  pages: '2557-2562'
+  doi: '10.1177/0956797613496436'
+  url: 'https://doi.org/10.1177/0956797613496436'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'two national panels'
+  supports: >-
+    Income losses hurt well-being more than equal gains help, beyond diminishing returns; suggests small,
+    stable raises may serve well-being better than volatile pay even at some cost to long-run growth.
+  sample: 'Germany N = 28,723; UK N = 20,570.'
+  grade: 'strong'
+  caveats: 'Observational panels.'
+  topics: [money]
+brown2026:
+  type: 'web'
+  authors: ['Brown, John Seely']
+  year: 2026
+  title: 'Presentation slides (Toronto talk), undated'
+  container: 'johnseelybrown.com'
+  url: 'https://johnseelybrown.com/toronto6up.pdf'
+  url_checked: '2026-10-25'
+  url_note: >-
+    HTTP 200, PDF text read; undated, so the year is the access year.
+  kind: 'practitioner'
+  design: 'talk slides'
+  supports: >-
+    Slide text: "In a world of increasingly rapid change, the half life of many stocks/skills is constantly
+    shrinking. (perhaps as low as 5 years)" - a hedged guess, with no data or method.
+  sample: 'None.'
+  grade: 'myth-or-unsupported'
+  caveats: >-
+    Earliest traceable form found of the "skills have a five-year half-life" claim; it is an aside, not a
+    finding.
+  flags: [practitioner]
+  topics: [long-game]
+buckingham2015:
+  type: 'magazine'
+  authors: ['Buckingham, Marcus', 'Goodall, Ashley']
+  year: 2015
+  title: 'Reinventing Performance Management'
+  container: 'Harvard Business Review, April 2015'
+  url: 'https://hbr.org/2015/04/reinventing-performance-management'
+  url_checked: '2026-10-25'
+  url_note: >-
+    HTTP 200; only the title, subtitle ("How one company is rethinking peer feedback and the annual
+    review...") and opening were visible; body text was not readable.
+  kind: 'practitioner'
+  design: 'company case article'
+  supports: >-
+    Deloitte publicly described redesigning its annual review because the process was "increasingly out of
+    step" with its objectives. Title-level only for any further detail.
+  sample: 'One firm (Deloitte).'
+  grade: 'weak'
+  caveats: >-
+    The article's frequently quoted figures (e.g. hours spent on reviews, "62%") could not be read on the
+    page and are not used. The 62% figure's primary source is scullen2000.
+  flags: [practitioner]
+  topics: [reviews]
+bunderson2009:
+  type: 'article'
+  authors: ['Bunderson, J. Stuart', 'Thompson, Jeffery A.']
+  year: 2009
+  title: >-
+    The Call of the Wild: Zookeepers, Callings, and the Double-edged Sword of Deeply Meaningful Work
+  container: 'Administrative Science Quarterly'
+  volume: '54'
+  issue: '1'
+  pages: '32-57'
+  doi: '10.2189/asqu.2009.54.1.32'
+  url: 'https://doi.org/10.2189/asqu.2009.54.1.32'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'qualitative interviews plus survey'
+  supports: >-
+    Zookeepers with a strong calling found deep meaning in their work but were also more likely to see it as
+    a moral duty and to sacrifice pay, personal time and comfort for it - meaningful work as a double-edged
+    sword.
+  sample: >-
+    Interviews with US zookeepers; survey across 157 US and Canadian zoos.
+  grade: 'moderate'
+  caveats: 'One occupation.'
+  topics: [motivation]
+campbell2010:
+  type: 'web'
+  authors: ['Campbell, Gardner']
+  year: 2010
+  title: 'John Seely Brown, Closing Plenary for NMC 2010'
+  container: 'Gardner Writes (blog)'
+  url: 'https://www.gardnercampbell.net/blog1/john-seely-brown-closing-plenary-for-nmc-2010/'
+  url_checked: '2026-10-25'
+  url_note: 'HTTP 200, text read.'
+  kind: 'practitioner'
+  design: 'live notes of a conference talk'
+  supports: >-
+    An attendee's notes of John Seely Brown's 2010 NMC plenary: "Most skills we teach have a half-life of
+    about five years."
+  sample: 'None.'
+  grade: 'weak'
+  caveats: >-
+    Second-hand notes; shows the figure circulating as a talk line by 2010.
+  flags: [practitioner]
+  topics: [long-game]
+card2012:
+  type: 'article'
+  authors: ['Card, David', 'Mas, Alexandre', 'Moretti, Enrico', 'Saez, Emmanuel']
+  year: 2012
+  title: 'Inequality at Work: The Effect of Peer Salaries on Job Satisfaction'
+  container: 'American Economic Review'
+  volume: '102'
+  issue: '6'
+  pages: '2981-3003'
+  doi: '10.1257/aer.102.6.2981'
+  url: 'https://doi.org/10.1257/aer.102.6.2981'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'randomised information experiment'
+  supports: >-
+    When a random subset of University of California employees was told about a website listing colleagues'
+    pay, those paid below their unit's median reported lower pay and job satisfaction and more job-search
+    intention; above-median earners were unaffected; pay rank mattered more than pay level.
+  sample: 'University of California employees.'
+  grade: 'strong'
+  caveats: 'One public employer.'
+  topics: [money]
+cardinaels2021:
+  type: 'article'
+  authors: ['Cardinaels, Eddy', 'Feichter, Christoph']
+  year: 2021
+  title: 'Forced Rating Systems from Employee and Supervisor Perspectives'
+  container: 'Journal of Accounting Research'
+  volume: '59'
+  issue: '5'
+  pages: '1573-1607'
+  doi: '10.1111/1475-679x.12388'
+  url: 'https://doi.org/10.1111/1475-679x.12388'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'laboratory and online experiments'
+  supports: >-
+    On a creative task, forced ratings did not change effort or performance but raised employee stress
+    (self-report and biomarkers); under forced ratings, supervisors' ratings tracked actual creativity less
+    and eloquent writing and strategic gaming more.
+  sample: 'Laboratory experiment plus an online experiment.'
+  grade: 'moderate'
+  caveats: 'Lab setting.'
+  topics: [reviews]
+cepeda2006:
+  type: 'article'
+  authors: ['Cepeda, Nicholas J.', 'Pashler, Harold', 'Vul, Edward', 'Wixted, John T.', 'Rohrer, Doug']
+  year: 2006
+  title: 'Distributed practice in verbal recall tasks: A review and quantitative synthesis.'
+  container: 'Psychological Bulletin'
+  volume: '132'
+  issue: '3'
+  pages: '354-380'
+  doi: '10.1037/0033-2909.132.3.354'
+  url: 'https://doi.org/10.1037/0033-2909.132.3.354'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'meta-analysis'
+  supports: >-
+    Spaced learning beats massed learning for retention; the best gap between study sessions grows with how
+    long you need to remember.
+  sample: '839 assessments in 317 experiments from 184 articles.'
+  grade: 'strong'
+  caveats: 'Mostly verbal recall in lab and school settings.'
+  topics: [getting-good]
+cerasoli2014:
+  type: 'article'
+  authors: ['Cerasoli, Christopher P.', 'Nicklin, Jessica M.', 'Ford, Michael T.']
+  year: 2014
+  title: >-
+    Intrinsic motivation and extrinsic incentives jointly predict performance: A 40-year meta-analysis.
+  container: 'Psychological Bulletin'
+  volume: '140'
+  issue: '4'
+  pages: '980-1008'
+  doi: '10.1037/a0035661'
+  url: 'https://doi.org/10.1037/a0035661'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'meta-analysis'
+  supports: >-
+    Intrinsic motivation predicts performance (rho = .21-.45) whether or not incentives are present;
+    intrinsic motivation predicts quality better and incentives predict quantity better; when incentives are
+    tied directly to performance, intrinsic motivation matters less ("crowding out").
+  sample: 'k = 183, N = 212,468 (school, work, physical domains).'
+  grade: 'strong'
+  caveats: 'Mostly correlational studies.'
+  topics: [motivation]
+chen2015:
+  type: 'article'
+  authors: ['Chen, Patricia', 'Ellsworth, Phoebe C.', 'Schwarz, Norbert']
+  year: 2015
+  title: 'Finding a Fit or Developing It'
+  container: 'Personality and Social Psychology Bulletin'
+  volume: '41'
+  issue: '10'
+  pages: '1411-1424'
+  doi: '10.1177/0146167215596988'
+  url: 'https://doi.org/10.1177/0146167215596988'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'four studies'
+  supports: >-
+    "Fit" theorists (passion comes from finding the right work) and "develop" theorists (passion grows over
+    time) show different priorities and motivational patterns, but both beliefs can lead to vocational
+    well-being and success.
+  sample: 'Four studies (US samples).'
+  grade: 'moderate'
+  caveats: 'Shows develop-theory is not the only route to satisfaction.'
+  topics: [getting-good, motivation]
+choudhry2005:
+  type: 'article'
+  authors: ['Choudhry, Niteesh K.', 'Fletcher, Robert H.', 'Soumerai, Stephen B.']
+  year: 2005
+  title: 'Systematic Review: The Relationship between Clinical Experience and Quality of Health Care'
+  container: 'Annals of Internal Medicine'
+  volume: '142'
+  issue: '4'
+  pages: '260-273'
+  doi: '10.7326/0003-4819-142-4-200502150-00008'
+  url: 'https://doi.org/10.7326/0003-4819-142-4-200502150-00008'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'systematic review'
+  supports: >-
+    Of 62 evaluations, 52% found physicians' performance declined with years in practice for all outcomes
+    and 21% for some outcomes; only 2% found steady improvement on all outcomes; results held with the most
+    objective outcome measures.
+  sample: '62 evaluations from MEDLINE, 1966-2004.'
+  grade: 'strong'
+  caveats: >-
+    Medicine; years in practice also proxy for older training. Shows experience without updating and
+    feedback does not guarantee improvement.
+  topics: [getting-good]
+clardy2018:
+  type: 'article'
+  authors: ['Clardy, Alan']
+  year: 2018
+  title: '70-20-10 and the Dominance of Informal Learning: A Fact in Search of Evidence'
+  container: 'Human Resource Development Review'
+  volume: '17'
+  issue: '2'
+  pages: '153-178'
+  doi: '10.1177/1534484318759399'
+  url: 'https://doi.org/10.1177/1534484318759399'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: 'critical literature review'
+  supports: >-
+    The "70% rule" (most workplace learning is informal), basis of 70-20-10, is treated as fact in HRD but
+    its evidential basis is weak - sloppy scholarship, inconsistent concepts and research-protocol problems
+    - and "needs to be set aside".
+  sample: 'Review of five literature traditions.'
+  grade: 'moderate'
+  caveats: >-
+    One critical review; it does not show informal learning is unimportant.
+  topics: [getting-good]
+clark2008:
+  type: 'article'
+  authors: ['Clark, Andrew E', 'Frijters, Paul', 'Shields, Michael A']
+  year: 2008
+  title: >-
+    Relative Income, Happiness, and Utility: An Explanation for the Easterlin Paradox and Other Puzzles
+  container: 'Journal of Economic Literature'
+  volume: '46'
+  issue: '1'
+  pages: '95-144'
+  doi: '10.1257/jel.46.1.95'
+  url: 'https://doi.org/10.1257/jel.46.1.95'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: 'review'
+  supports: >-
+    Relative income - compared with others (social comparison) or with one's own past (habituation) - helps
+    explain why national happiness stays flat as income grows while richer individuals are happier.
+  sample: 'Review of subjective well-being literature.'
+  grade: 'strong'
+  caveats: 'Review.'
+  topics: [money]
+cohen2023:
+  type: 'web'
+  authors: ['Cohen, Lauren H.', 'Gurun, Umit', 'Ozel, Bugra']
+  year: 2023
+  title: 'Too Many Managers: The Strategic Use of Titles to Avoid Overtime Payments'
+  container: 'Harvard Law School Forum on Corporate Governance, 7 March 2023'
+  url: >-
+    https://corpgov.law.harvard.edu/2023/03/07/too-many-managers-the-strategic-use-of-titles-to-avoid-overtime-payments/
+  url_checked: '2026-10-25'
+  url_note: >-
+    HTTP 200, text read (the authors' summary of their working paper).
+  kind: 'evidence'
+  design: 'job-posting data around a regulatory salary threshold'
+  supports: >-
+    US firms show a sharp jump in "manager" titles for salaried jobs just above the federal
+    overtime-exemption threshold ($455/week in the study period), not at nearby thresholds or for hourly
+    jobs; strategic titling is over 50% higher where state worker protections are weaker and is concentrated
+    in retail, food service, janitorial and hotel work.
+  sample: 'US job postings (details in the working paper, not opened).'
+  grade: 'moderate'
+  caveats: 'Authors'' summary of a working paper; US legal context.'
+  topics: [regional]
+correll2020:
+  type: 'article'
+  authors: ['Correll, Shelley J.', 'Weisshaar, Katherine R.', 'Wynn, Alison T.', 'Wehner, JoAnne Delfino']
+  year: 2020
+  title: >-
+    Inside the Black Box of Organizational Life: The Gendered Language of Performance Assessment
+  container: 'American Sociological Review'
+  volume: '85'
+  issue: '6'
+  pages: '1022-1050'
+  doi: '10.1177/0003122420962080'
+  url: 'https://doi.org/10.1177/0003122420962080'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'content analysis of written reviews linked to ratings'
+  supports: >-
+    In one Fortune 500 tech firm, men and women were equally likely to be described as technically able, but
+    women were more often called "too aggressive" and men "too soft"; "taking charge" predicted the highest
+    ratings for men but not for women.
+  sample: >-
+    Written performance reviews and numeric ratings, one Fortune 500 technology company; 88 coded language
+    attributes.
+  grade: 'moderate'
+  caveats: 'One firm; observational.'
+  topics: [promotions, reviews]
+cullen2023b:
+  type: 'article'
+  authors: ['Cullen, Zoë', 'Perez-Truglia, Ricardo']
+  year: 2023
+  title: 'The Old Boys’ Club: Schmoozing and the Gender Gap'
+  container: 'American Economic Review'
+  volume: '113'
+  issue: '7'
+  pages: '1703-1740'
+  doi: '10.1257/aer.20210863'
+  url: 'https://doi.org/10.1257/aer.20210863'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; AER abstract read via OpenAlex.
+    Effect sizes read in the NBER working paper w26530 (opened).
+  secondary_urls: ['https://www.nber.org/system/files/working_papers/w26530/w26530.pdf']
+  kind: 'evidence'
+  design: 'quasi-experiment using manager rotation'
+  supports: >-
+    Employees who gain more face-to-face interaction with their manager are promoted faster; the mechanism
+    could explain a third of the gender gap in promotions at the firm. In the 2019 working paper, smoking
+    employees moved to a smoking manager rose 0.70 pay grades more within 10 quarters (non-smokers saw no
+    such gain), and male employees moved to a male manager gained 0.60 pay grades (about a 14.6% salary
+    increase) relative to those moved to another female manager.
+  sample: >-
+    Administrative and survey data, a large financial institution, 2015-2018; 14,638 employees and 1,269
+    managers.
+  grade: 'strong'
+  caveats: >-
+    One firm; the abstract does not name the country. Working-paper figures may differ from the AER version.
+  topics: [money, promotions, regional, reviews]
+deci2017:
+  type: 'article'
+  authors: ['Deci, Edward L.', 'Olafsen, Anja H.', 'Ryan, Richard M.']
+  year: 2017
+  title: 'Self-Determination Theory in Work Organizations: The State of a Science'
+  container: 'Annual Review of Organizational Psychology and Organizational Behavior'
+  volume: '4'
+  issue: '1'
+  pages: '19-43'
+  doi: '10.1146/annurev-orgpsych-032516-113108'
+  url: 'https://doi.org/10.1146/annurev-orgpsych-032516-113108'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: 'Annual Review'
+  supports: >-
+    Self-determination theory distinguishes autonomous motivation (intrinsic or fully internalised) from
+    controlled motivation; satisfying needs for competence, autonomy and relatedness promotes autonomous
+    motivation, high-quality performance and wellness at work.
+  sample: 'Review.'
+  grade: 'strong'
+  caveats: 'Written by the theory''s founders.'
+  topics: [motivation]
+deming2020:
+  type: 'article'
+  authors: ['Deming, David J', 'Noray, Kadeem']
+  year: 2020
+  title: 'Earnings Dynamics, Changing Job Skills, and STEM Careers*'
+  container: 'The Quarterly Journal of Economics'
+  volume: '135'
+  issue: '4'
+  pages: '1965-2005'
+  doi: '10.1093/qje/qjaa021'
+  url: 'https://doi.org/10.1093/qje/qjaa021'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; QJE abstract read via OpenAlex.
+    Figures read in NBER working paper w25065 (revised June 2019).
+  secondary_urls: ['https://www.nber.org/system/files/working_papers/w25065/w25065.pdf']
+  kind: 'evidence'
+  design: 'job-postings data plus earnings data and a model'
+  supports: >-
+    Returns to experience are a race between on-the-job learning and skill obsolescence; in faster-changing
+    careers age-earnings profiles are flatter. The earnings premium for applied STEM majors (computer
+    science, engineering) is highest at entry and, in the working paper, declines by more than 50% in the
+    first decade; graduates sort out of fast-changing occupations as they age. STEM vacancies requiring
+    machine-learning/AI skills rose 460% between 2007 and 2017 (working paper).
+  sample: >-
+    Near-universe of US online job postings 2007-2019, linked to earnings data.
+  grade: 'strong'
+  caveats: >-
+    Measures job-skill change, not a "half-life" of an individual's skills.
+  topics: [getting-good, long-game, the-fork]
+denisi2017:
+  type: 'article'
+  authors: ['DeNisi, Angelo S.', 'Murphy, Kevin R.']
+  year: 2017
+  title: 'Performance appraisal and performance management: 100 years of progress?'
+  container: 'Journal of Applied Psychology'
+  volume: '102'
+  issue: '3'
+  pages: '421-433'
+  doi: '10.1037/apl0000085'
+  url: 'https://doi.org/10.1037/apl0000085'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: '100-year narrative review'
+  supports: >-
+    Reviews a century of appraisal research across scale formats, rating criteria, rater training,
+    reactions, purpose of rating, rating sources, demographic differences and cognitive processes; calls for
+    more research on performance management rather than rating mechanics.
+  sample: 'Review of JAP and other journals, 1917-2017.'
+  grade: 'strong'
+  caveats: 'Narrative, not quantitative.'
+  topics: [reviews]
+ditella2010:
+  type: 'article'
+  authors: ['Di Tella, Rafael', 'Haisken-De New, John', 'MacCulloch, Robert']
+  year: 2010
+  title: 'Happiness adaptation to income and to status in an individual panel'
+  container: 'Journal of Economic Behavior & Organization'
+  volume: '76'
+  issue: '3'
+  pages: '834-852'
+  doi: '10.1016/j.jebo.2010.09.016'
+  url: 'https://doi.org/10.1016/j.jebo.2010.09.016'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref metadata fetched; abstract read in NBER working paper w13159 (2007
+    version of the same paper).
+  secondary_urls: ['https://www.nber.org/system/files/working_papers/w13159/w13159.pdf']
+  kind: 'evidence'
+  design: 'individual panel'
+  supports: >-
+    In German panel data, happiness adapts to income gains within four years but not to status gains; in the
+    long run a one-standard-deviation status rise matched an income rise of 285% of a standard deviation.
+  sample: '7,812 people in Germany, 1984-2000 (SOEP).'
+  grade: 'moderate'
+  caveats: >-
+    Working-paper abstract; "status" is occupational prestige; one country.
+  topics: [money, promotions]
+dragoni2014:
+  type: 'article'
+  authors: ['Dragoni, Lisa', 'Park, Haeseen', 'Soltis, Jim', 'Forte-Trammell, Sheila']
+  year: 2014
+  title: 'Show and tell: How supervisors facilitate leader development among transitioning leaders.'
+  container: 'Journal of Applied Psychology'
+  volume: '99'
+  issue: '1'
+  pages: '66-86'
+  doi: '10.1037/a0034452'
+  url: 'https://doi.org/10.1037/a0034452'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'four-wave longitudinal field study'
+  supports: >-
+    New first-line leaders learned their role faster when their own supervisor both modelled effective
+    leadership ("show") and gave job information ("tell"), especially if they had never worked for an
+    exceptional leader; greater role knowledge led them to spend more time leading others.
+  sample: '110 first-line leaders tracked over about 10 months.'
+  grade: 'moderate'
+  caveats: 'Self-perceived role knowledge; one organisation.'
+  topics: [getting-good, the-fork]
+dunlosky2013:
+  type: 'article'
+  authors: ['Dunlosky, John', 'Rawson, Katherine A.', 'Marsh, Elizabeth J.', 'Nathan, Mitchell J.', 'Willingham, Daniel T.']
+  year: 2013
+  title: 'Improving Students’ Learning With Effective Learning Techniques'
+  container: 'Psychological Science in the Public Interest'
+  volume: '14'
+  issue: '1'
+  pages: '4-58'
+  doi: '10.1177/1529100612453266'
+  url: 'https://doi.org/10.1177/1529100612453266'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: 'evaluative review of 10 learning techniques'
+  supports: >-
+    Practice testing and distributed practice received "high utility" ratings; elaborative interrogation,
+    self-explanation and interleaving "moderate"; summarisation, highlighting, keyword mnemonics, imagery
+    and rereading "low" - rereading and highlighting do not consistently boost performance.
+  sample: 'Review of experimental literature, mostly students.'
+  grade: 'strong'
+  caveats: >-
+    Student learning; transfer to workplace skill is plausible but less tested.
+  topics: [getting-good]
+ericsson2019:
+  type: 'article'
+  authors: ['Ericsson, K. Anders', 'Harwell, Kyle W.']
+  year: 2019
+  title: >-
+    Deliberate Practice and Proposed Limits on the Effects of Practice on the Acquisition of Expert
+    Performance: Why the Original Definition Matters and Recommendations for Future Research
+  container: 'Frontiers in Psychology'
+  volume: '10'
+  doi: '10.3389/fpsyg.2019.02396'
+  url: 'https://doi.org/10.3389/fpsyg.2019.02396'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: 'reanalysis and argument by the originator of deliberate practice'
+  supports: >-
+    Argues later studies used looser definitions of "deliberate practice"; restricting to studies matching
+    the original definition (teacher-designed, individualised training), practice explained considerably
+    more variance (29%, and 61% after correcting for attenuation) than the 14% reported by Macnamara and
+    colleagues.
+  sample: >-
+    Reanalysis of a subset of studies in the Macnamara meta-analyses.
+  grade: 'moderate'
+  caveats: >-
+    Written by the theory's originator in reply to critics; the reanalysis uses a small subset and an
+    attenuation correction. The two camps agree that quality and design of practice matter more than hours.
+  topics: [getting-good]
+exley2022:
+  type: 'article'
+  authors: ['Exley, Christine L', 'Kessler, Judd B']
+  year: 2022
+  title: 'The Gender Gap in Self-Promotion'
+  container: 'The Quarterly Journal of Economics'
+  volume: '137'
+  issue: '3'
+  pages: '1345-1381'
+  doi: '10.1093/qje/qjac003'
+  url: 'https://doi.org/10.1093/qje/qjac003'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'series of experiments'
+  supports: >-
+    Asked to describe their own performance on a male-typed maths/science task, women gave lower
+    self-evaluations than men with equal performance, both when evaluations went to potential employers and
+    when there was no incentive to promote; the gap appears by sixth grade and vanishes on a female-typed
+    task.
+  sample: >-
+    Over 4,000 online participants and over 10,000 school-aged youth.
+  grade: 'strong'
+  caveats: 'Online and school samples; self-evaluation wording tasks.'
+  topics: [self-assessment]
+ference1977:
+  type: 'article'
+  authors: ['Ference, Thomas P.', 'Stoner, James A. F.', 'Warren, E. Kirby']
+  year: 1977
+  title: 'Managing the Career Plateau'
+  container: 'Academy of Management Review'
+  volume: '2'
+  issue: '4'
+  pages: '602-612'
+  doi: '10.5465/amr.1977.4406740'
+  url: 'https://doi.org/10.5465/amr.1977.4406740'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'theory'
+  design: 'interview-based conceptual model'
+  supports: >-
+    Managerial careers show early rapid upward mobility followed by "inevitable" levelling off or
+    plateauing; offers a model and suggestions for managing it. Origin of the career-plateau concept.
+  sample: 'Interviews with managers in nine major organisations.'
+  grade: 'moderate'
+  caveats: 'Conceptual; 1970s managerial careers.'
+  topics: [long-game]
+freund2012:
+  type: 'article'
+  authors: ['Freund, Philipp Alexander', 'Kasten, Nadine']
+  year: 2012
+  title: >-
+    How smart do you think you are? A meta-analysis on the validity of self-estimates of cognitive ability.
+  container: 'Psychological Bulletin'
+  volume: '138'
+  issue: '2'
+  pages: '296-321'
+  doi: '10.1037/a0026556'
+  url: 'https://doi.org/10.1037/a0026556'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'multilevel meta-analysis'
+  supports: >-
+    Self-estimated and measured cognitive ability correlate r = .33; accuracy improves with relative scales
+    and clear comparison groups.
+  sample: '154 effect sizes in 41 studies.'
+  grade: 'strong'
+  caveats: 'Cognitive ability, not job skills.'
+  topics: [self-assessment]
+galambos2020:
+  type: 'article'
+  authors: ['Galambos, Nancy L.', 'Krahn, Harvey J.', 'Johnson, Matthew D.', 'Lachman, Margie E.']
+  year: 2020
+  title: 'The U Shape of Happiness Across the Life Course: Expanding the Discussion'
+  container: 'Perspectives on Psychological Science'
+  volume: '15'
+  issue: '4'
+  pages: '898-912'
+  doi: '10.1177/1745691620902428'
+  url: 'https://doi.org/10.1177/1745691620902428'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: 'critical review'
+  supports: >-
+    Argues the U-shape is less robust than assumed: cross-sectional data cannot show within-person change,
+    and both cross-sectional and longitudinal evidence are mixed; older adults recall midlife as one of the
+    more positive periods; a single average trajectory hides diverse pathways.
+  sample: 'Review.'
+  grade: 'moderate'
+  caveats: >-
+    Argument paper; Blanchflower and others have replied (not opened).
+  topics: [long-game]
+gallup2025:
+  type: 'web'
+  authors: ['Harter, Jim', 'Pendell, Ryan']
+  year: 2025
+  title: 'Global Engagement Falls for the Second Time Since 2009'
+  container: 'Gallup Workplace, 22 April 2025'
+  url: 'https://www.gallup.com/workplace/659279/global-engagement-falls-second-time-2009.aspx'
+  url_checked: '2026-10-25'
+  url_note: 'Opened via a web-fetch tool (HTTP 200).'
+  kind: 'data'
+  design: 'global employee survey'
+  supports: >-
+    "Manager engagement fell from 30% to 27%, while individual contributor engagement remained flat at 18%"
+    (2024 data); "Managers are experiencing the sharpest decline."
+  sample: >-
+    Gallup State of the Global Workplace data (sample size not on the page).
+  grade: 'weak'
+  caveats: >-
+    Commercial publisher that sells manager development and its Q12 engagement instrument.
+  flags: [commercial]
+  topics: [the-fork]
+gignac2020:
+  type: 'article'
+  authors: ['Gignac, Gilles E.', 'Zajenkowski, Marcin']
+  year: 2020
+  title: >-
+    The Dunning-Kruger effect is (mostly) a statistical artefact: Valid approaches to testing the hypothesis
+    with individual differences data
+  container: 'Intelligence'
+  volume: '80'
+  pages: '101449'
+  doi: '10.1016/j.intell.2020.101449'
+  url: 'https://doi.org/10.1016/j.intell.2020.101449'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref metadata fetched; abstract read via the Semantic Scholar API
+    (OpenAlex had none).
+  kind: 'evidence'
+  design: 'cross-sectional test with heteroscedasticity and nonlinear regression'
+  supports: >-
+    In 929 adults, the link between measured and self-assessed intelligence was essentially linear with no
+    heteroscedasticity, contrary to the Dunning-Kruger hypothesis; the effect, if real, is much smaller than
+    previously reported.
+  sample: '929 community participants; Raven''s matrices.'
+  grade: 'moderate'
+  caveats: >-
+    Intelligence, not job skills; a published comment (hiller2023) disputes the method and the authors
+    replied (gignac2023).
+  topics: [self-assessment]
+gignac2023:
+  type: 'article'
+  authors: ['Gignac, Gilles E.', 'Zajenkowski, Marcin']
+  year: 2023
+  title: 'Still no Dunning-Kruger effect: A reply to Hiller'
+  container: 'Intelligence'
+  volume: '97'
+  pages: '101733'
+  doi: '10.1016/j.intell.2023.101733'
+  url: 'https://doi.org/10.1016/j.intell.2023.101733'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: 'published reply'
+  supports: >-
+    Title-level - the authors' reply to hiller2023, titled "Still no Dunning-Kruger effect".
+  sample: 'Commentary.'
+  grade: 'moderate'
+  caveats: 'Title-level only.'
+  topics: [self-assessment]
+gignac2024:
+  type: 'article'
+  authors: ['Gignac, Gilles E.']
+  year: 2024
+  title: >-
+    Rethinking the Dunning-Kruger effect: Negligible influence on a limited segment of the population
+  container: 'Intelligence'
+  volume: '104'
+  pages: '101830'
+  doi: '10.1016/j.intell.2024.101830'
+  url: 'https://doi.org/10.1016/j.intell.2024.101830'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'simulation plus two field samples'
+  supports: >-
+    Using recommended methods, a Dunning-Kruger effect reached at most 7-9 percentile points of relative
+    overestimation and was confined to about 0.2% of participants, all scoring at chance (IQ around 55).
+  sample: >-
+    Simulated data plus two field samples (N about 3,500 each), grammar and logical reasoning subtests.
+  grade: 'moderate'
+  caveats: >-
+    Same first author as gignac2020; the paper concludes the effect is unlikely to matter for an appreciable
+    share of people.
+  topics: [self-assessment]
+grant2014:
+  type: 'article'
+  authors: ['Grant, Adam M.', 'Berg, Justin M.', 'Cable, Daniel M.']
+  year: 2014
+  title: 'Job Titles as Identity Badges: How Self-Reflective Titles Can Reduce Emotional Exhaustion'
+  container: 'Academy of Management Journal'
+  volume: '57'
+  issue: '4'
+  pages: '1201-1225'
+  doi: '10.5465/amj.2012.0338'
+  url: 'https://doi.org/10.5465/amj.2012.0338'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'qualitative study plus field quasi-experiment'
+  supports: >-
+    Employees who created their own self-reflective job titles reported less emotional exhaustion five weeks
+    later, via self-verification and psychological safety.
+  sample: >-
+    Make-A-Wish Foundation (qualitative); a health-care system (quasi-experiment).
+  grade: 'moderate'
+  caveats: 'Small field samples; titles as identity, not as pay.'
+  topics: [motivation, regional]
+greenberg1983:
+  type: 'article'
+  authors: ['Greenberg, Jerald', 'Ornstein, Suzyn']
+  year: 1983
+  title: 'High status job title compensation for underpayment: A test of equity theory.'
+  container: 'Journal of Applied Psychology'
+  volume: '68'
+  issue: '2'
+  pages: '285-297'
+  doi: '10.1037/0021-9010.68.2.285'
+  url: 'https://doi.org/10.1037/0021-9010.68.2.285'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'experiment (title-level)'
+  supports: >-
+    Title-level - an equity-theory test of whether a high-status job title can compensate for underpayment.
+  sample: 'Not checked (no abstract retrievable).'
+  grade: 'moderate'
+  caveats: 'Title-level only; do not state results beyond the title.'
+  topics: [regional]
+grund2007:
+  type: 'article'
+  authors: ['Grund, Christian', 'Sliwka, Dirk']
+  year: 2007
+  title: >-
+    Reference-Dependent Preferences and the Impact of Wage Increases on Job Satisfaction: Theory and
+    Evidence
+  container: 'Journal of Institutional and Theoretical Economics'
+  volume: '163'
+  issue: '2'
+  pages: '313-335'
+  doi: '10.1628/093245607781261351'
+  url: 'https://doi.org/10.1628/093245607781261351'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'model plus panel data'
+  supports: >-
+    Job satisfaction depends on wage increases as well as wage levels; staying in the same job, employees
+    become less satisfied over time even though wages rise.
+  sample: '19 waves of the German Socio-Economic Panel.'
+  grade: 'moderate'
+  caveats: 'One country.'
+  topics: [money]
+hamaaki2012:
+  type: 'article'
+  authors: ['Hamaaki, Junya', 'Hori, Masahiro', 'Maeda, Saeko', 'Murata, Keiko']
+  year: 2012
+  title: 'Changes in the Japanese Employment System in the Two Lost Decades'
+  container: 'ILR Review'
+  volume: '65'
+  issue: '4'
+  pages: '810-846'
+  doi: '10.1177/001979391206500403'
+  url: 'https://doi.org/10.1177/001979391206500403'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'official wage-survey microdata'
+  supports: >-
+    Seniority-based wages and lifetime employment in Japan are eroding: the age-wage profile flattened,
+    especially mid- and late-career, and the share of lifetime employees among young university graduates
+    has fallen since the early 2000s.
+  sample: 'Japan''s Basic Survey on Wage Structure microdata.'
+  grade: 'strong'
+  caveats: >-
+    Abstract-level; the study period is not given in the abstract.
+  topics: [regional]
+harris1988:
+  type: 'article'
+  authors: ['Harris, Michael M.', 'Schaubroeck, John']
+  year: 1988
+  title: 'A META‐ANALYSIS OF SELF‐SUPERVISOR, SELF‐PEER, AND PEER‐SUPERVISOR RATINGS'
+  container: 'Personnel Psychology'
+  volume: '41'
+  issue: '1'
+  pages: '43-62'
+  doi: '10.1111/j.1744-6570.1988.tb00631.x'
+  url: 'https://doi.org/10.1111/j.1744-6570.1988.tb00631.x'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'meta-analysis'
+  supports: >-
+    Peer and supervisor ratings correlate fairly highly (rho = .62), but self ratings agree only moderately
+    with supervisors (rho = .35) and peers (rho = .36); agreement is lower in managerial/professional jobs.
+  sample: 'Meta-analysis of rating-source agreement studies.'
+  grade: 'strong'
+  caveats: 'Older studies.'
+  topics: [reviews, self-assessment]
+heidemeier2009:
+  type: 'article'
+  authors: ['Heidemeier, Heike', 'Moser, Klaus']
+  year: 2009
+  title: 'Self–other agreement in job performance ratings: A meta-analytic test of a process model.'
+  container: 'Journal of Applied Psychology'
+  volume: '94'
+  issue: '2'
+  pages: '353-370'
+  doi: '10.1037/0021-9010.94.2.353'
+  url: 'https://doi.org/10.1037/0021-9010.94.2.353'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'meta-analysis'
+  supports: >-
+    Self-supervisor agreement on job performance r = .22 (rho = .34; k = 115; n = 37,752); in Western
+    samples self-ratings are more lenient than supervisor ratings (d = 0.32); agreement is better when
+    non-judgmental performance indicators are used.
+  sample: '128 independent samples.'
+  grade: 'strong'
+  caveats: >-
+    Leniency varies with context and culture (stated for Western samples).
+  topics: [reviews, self-assessment]
+hill2007:
+  type: 'magazine'
+  authors: ['Hill, Linda A.']
+  year: 2007
+  title: 'Becoming the Boss'
+  container: 'Harvard Business Review, January 2007'
+  url: 'https://hbr.org/2007/01/becoming-the-boss'
+  url_checked: '2026-10-25'
+  url_note: >-
+    HTTP 200; summary and opening read (body not visible). Also opened via a web-fetch tool.
+  kind: 'practitioner'
+  design: 'practitioner summary of the author''s research on new managers'
+  supports: >-
+    Star performers who become managers mostly "initially fail this test because of a set of common
+    misconceptions about what it means to be in charge"; based on more than a decade studying how star
+    performers transition into management.
+  sample: >-
+    The author's longitudinal research on new managers (numbers not on the page).
+  grade: 'weak'
+  caveats: >-
+    Only the summary was readable; the specific myths and the underlying book (Becoming a Manager) were not
+    opened, so do not attribute details to Hill beyond the summary.
+  flags: [practitioner]
+  topics: [the-fork]
+hiller2023:
+  type: 'article'
+  authors: ['Hiller, Avram']
+  year: 2023
+  title: >-
+    Comment on Gignac and Zajenkowski, “The Dunning-Kruger effect is (mostly) a statistical artefact: Valid
+    approaches to testing the hypothesis with individual differences data”
+  container: 'Intelligence'
+  volume: '97'
+  pages: '101732'
+  doi: '10.1016/j.intell.2023.101732'
+  url: 'https://doi.org/10.1016/j.intell.2023.101732'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: 'published comment'
+  supports: >-
+    Title-level - a published comment disputing gignac2020's approach to testing the Dunning-Kruger effect.
+  sample: 'Commentary.'
+  grade: 'moderate'
+  caveats: >-
+    Content not read (no abstract; PDF host refused automated access). Cite only to show the method is
+    debated.
+  topics: [self-assessment]
+hu2017:
+  type: 'article'
+  authors: ['Hu, Jing', 'Hirsh, Jacob B.']
+  year: 2017
+  title: 'Accepting Lower Salaries for Meaningful Work'
+  container: 'Frontiers in Psychology'
+  volume: '8'
+  doi: '10.3389/fpsyg.2017.01649'
+  url: 'https://doi.org/10.3389/fpsyg.2017.01649'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'four studies (experiments and cross-national surveys)'
+  supports: >-
+    People accept lower minimum salaries for jobs they see as meaningful; workers with more meaningful work
+    were more likely to turn down higher-paying offers elsewhere, and the effect strengthened between 2005
+    and 2015.
+  sample: >-
+    Lab and online samples plus two large cross-national employee samples (2005, 2015).
+  grade: 'moderate'
+  caveats: 'Stated willingness, not actual pay paths.'
+  topics: [money, motivation]
+jansen2021:
+  type: 'article'
+  authors: ['Jansen, Rachel A.', 'Rafferty, Anna N.', 'Griffiths, Thomas L.']
+  year: 2021
+  title: >-
+    A rational model of the Dunning–Kruger effect supports insensitivity to evidence in low performers
+  container: 'Nature Human Behaviour'
+  volume: '5'
+  issue: '6'
+  pages: '756-763'
+  doi: '10.1038/s41562-021-01057-0'
+  url: 'https://doi.org/10.1038/s41562-021-01057-0'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref metadata fetched; abstract read on nature.com (OpenAlex had none).
+  kind: 'evidence'
+  design: 'computational model plus two large replications'
+  supports: >-
+    A rational model shows the pattern can come from prior beliefs about ability or from low performers
+    being worse at judging whether each answer is correct; two replications (about 4,000 participants each)
+    supported low performers being less able to tell whether they are correct in grammar and logic.
+  sample: 'About 4,000 participants in each of two online studies.'
+  grade: 'strong'
+  caveats: >-
+    Supports a real but modest metacognitive difference, not the cartoon of the confident fool.
+  topics: [self-assessment]
+johnson2018:
+  type: 'article'
+  authors: ['Johnson, Samantha J.', 'Blackman, Deborah A.', 'Buick, Fiona']
+  year: 2018
+  title: 'The 70:20:10 framework and the transfer of learning'
+  container: 'Human Resource Development Quarterly'
+  volume: '29'
+  issue: '4'
+  pages: '383-402'
+  doi: '10.1002/hrdq.21330'
+  url: 'https://doi.org/10.1002/hrdq.21330'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'qualitative study'
+  supports: >-
+    Implementing 70:20:10 in the Australian public sector did not achieve the desired capability transfer;
+    four misconceptions included assuming unstructured experience automatically builds capability and
+    expecting behaviour to change after training without support.
+  sample: 'Qualitative data, Australian public-sector middle managers.'
+  grade: 'weak'
+  caveats: >-
+    Qualitative, one sector; notes the framework's effectiveness had not been assessed.
+  topics: [getting-good]
+johnston2013:
+  type: 'article'
+  authors: ['Johnston, David W.', 'Lee, Wang-Sheng']
+  year: 2013
+  title: 'Extra Status and Extra Stress: Are Promotions Good for Us?'
+  container: 'ILR Review'
+  volume: '66'
+  issue: '1'
+  pages: '32-54'
+  doi: '10.1177/001979391306600102'
+  url: 'https://doi.org/10.1177/001979391306600102'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'individual panel data, pre- and post-promotion'
+  supports: >-
+    Promotions improve job security, pay perceptions and job satisfaction in the short term and change job
+    control, stress, income and hours, but have negligible effects on health and happiness; mental health
+    deteriorates significantly two years after promotion.
+  sample: >-
+    High-quality national panel data (the abstract does not name the country).
+  grade: 'moderate'
+  caveats: 'Observational panel; average worker only.'
+  topics: [long-game, promotions, the-fork]
+judge2001:
+  type: 'article'
+  authors: ['Judge, Timothy A.', 'Thoresen, Carl J.', 'Bono, Joyce E.', 'Patton, Gregory K.']
+  year: 2001
+  title: 'The job satisfaction–job performance relationship: A qualitative and quantitative review.'
+  container: 'Psychological Bulletin'
+  volume: '127'
+  issue: '3'
+  pages: '376-407'
+  doi: '10.1037/0033-2909.127.3.376'
+  url: 'https://doi.org/10.1037/0033-2909.127.3.376'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'meta-analysis'
+  supports: >-
+    Mean true correlation between overall job satisfaction and job performance is about .30.
+  sample: '312 samples, N = 54,417.'
+  grade: 'strong'
+  caveats: 'Correlation; direction of causality unresolved.'
+  topics: [motivation]
+kahn1988:
+  type: 'article'
+  authors: ['Kahn, Charles', 'Huberman, Gur']
+  year: 1988
+  title: 'Two-Sided Uncertainty and "Up-or-Out" Contracts'
+  container: 'Journal of Labor Economics'
+  volume: '6'
+  issue: '4'
+  pages: '423-444'
+  doi: '10.1086/298190'
+  url: 'https://doi.org/10.1086/298190'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'theory'
+  design: 'formal model'
+  supports: >-
+    Up-or-out contracts (as in law-firm partnership or academic tenure) solve a two-sided incentive problem:
+    the firm commits to promote or fire so it cannot underreport an employee's value, and the worker invests
+    in firm-specific skills.
+  sample: 'Theory.'
+  grade: 'moderate'
+  caveats: 'Theory.'
+  topics: [promotions, regional]
+kahneman2009:
+  type: 'article'
+  authors: ['Kahneman, Daniel', 'Klein, Gary']
+  year: 2009
+  title: 'Conditions for intuitive expertise: A failure to disagree.'
+  container: 'American Psychologist'
+  volume: '64'
+  issue: '6'
+  pages: '515-526'
+  doi: '10.1037/a0016755'
+  url: 'https://doi.org/10.1037/a0016755'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: >-
+    joint review by two opposing schools (heuristics-and-biases vs naturalistic decision making)
+  supports: >-
+    Intuitive expertise is trustworthy only when the environment is regular enough to be predictable and the
+    person has had the chance to learn its regularities (through practice with feedback); subjective
+    confidence is not a reliable indicator of accuracy.
+  sample: 'Conceptual synthesis.'
+  grade: 'moderate'
+  caveats: >-
+    Theory-level, but an unusually well-grounded consensus statement.
+  topics: [getting-good]
+kahneman2010:
+  type: 'article'
+  authors: ['Kahneman, Daniel', 'Deaton, Angus']
+  year: 2010
+  title: 'High income improves evaluation of life but not emotional well-being'
+  container: 'Proceedings of the National Academy of Sciences'
+  volume: '107'
+  issue: '38'
+  pages: '16489-16493'
+  doi: '10.1073/pnas.1011492107'
+  url: 'https://doi.org/10.1073/pnas.1011492107'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'large daily survey'
+  supports: >-
+    Life evaluation rises steadily with log income; emotional well-being also rises but showed "no further
+    progress beyond an annual income of ~$75,000"; low income worsens the emotional pain of misfortunes.
+  sample: >-
+    More than 450,000 responses to the Gallup-Healthways Well-Being Index, US.
+  grade: 'strong'
+  caveats: >-
+    The $75,000 plateau was later traced to a ceiling effect in yes/no measures (killingsworth2023), with
+    the flattening holding only for the least happy people.
+  topics: [money]
+kambourov2008:
+  type: 'article'
+  authors: ['Kambourov, Gueorgui', 'Manovskii, Iourii']
+  year: 2008
+  title: 'RISING OCCUPATIONAL AND INDUSTRY MOBILITY IN THE UNITED STATES: 1968–97*'
+  container: 'International Economic Review'
+  volume: '49'
+  issue: '1'
+  pages: '41-79'
+  doi: '10.1111/j.1468-2354.2008.00473.x'
+  url: 'https://doi.org/10.1111/j.1468-2354.2008.00473.x'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'panel data analysis (PSID) with measurement-error correction'
+  supports: >-
+    Documents a high and substantially rising level of occupational and industry mobility in the US,
+    1968-1997, at several levels of aggregation; human capital is largely occupation- or industry-specific.
+  sample: 'PSID, US, 1968-97.'
+  grade: 'strong'
+  caveats: 'Abstract does not give rates; older period.'
+  topics: [getting-good, long-game]
+katz1995:
+  type: 'article'
+  authors: ['Katz, Ralph', 'Tushman, Michael', 'Allen, Thomas J.']
+  year: 1995
+  title: >-
+    The Influence of Supervisory Promotion and Network Location on Subordinate Careers in a Dual Ladder RD&E
+    Setting
+  container: 'Management Science'
+  volume: '41'
+  issue: '5'
+  pages: '848-863'
+  doi: '10.1287/mnsc.41.5.848'
+  url: 'https://doi.org/10.1287/mnsc.41.5.848'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'longitudinal study in a dual-ladder organisation'
+  supports: >-
+    Professionals reporting to supervisors promoted on the technical ladder were more likely to be promoted
+    technically themselves; those reporting to gatekeeping supervisors in development were more likely to
+    rise on the managerial ladder - who you work for steers which ladder you climb.
+  sample: 'One RD&E organisation.'
+  grade: 'moderate'
+  caveats: 'Single organisation, 1980s-90s.'
+  topics: [the-fork]
+killingsworth2021:
+  type: 'article'
+  authors: ['Killingsworth, Matthew A.']
+  year: 2021
+  title: 'Experienced well-being rises with income, even above $75,000 per year'
+  container: 'Proceedings of the National Academy of Sciences'
+  volume: '118'
+  issue: '4'
+  doi: '10.1073/pnas.2016976118'
+  url: 'https://doi.org/10.1073/pnas.2016976118'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'experience sampling'
+  supports: >-
+    Both experienced and evaluative well-being rose linearly with log income, as steeply for higher as for
+    lower earners; no plateau above $75,000.
+  sample: >-
+    1,725,994 experience-sampling reports from 33,391 employed US adults.
+  grade: 'strong'
+  caveats: 'App users; correlational.'
+  topics: [money]
+killingsworth2023:
+  type: 'article'
+  authors: ['Killingsworth, Matthew A.', 'Kahneman, Daniel', 'Mellers, Barbara']
+  year: 2023
+  title: 'Income and emotional well-being: A conflict resolved'
+  container: 'Proceedings of the National Academy of Sciences'
+  volume: '120'
+  issue: '10'
+  doi: '10.1073/pnas.2208661120'
+  url: 'https://doi.org/10.1073/pnas.2208661120'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex; full
+    text read on PubMed Central (PMC10013834).
+  secondary_urls: ['https://pmc.ncbi.nlm.nih.gov/articles/PMC10013834/']
+  kind: 'evidence'
+  design: 'adversarial collaboration reanalysis'
+  supports: >-
+    For the least happy ~15-20% of people, happiness rises with income up to about $100,000 then flattens;
+    for the happier majority it keeps rising, and accelerates for the happiest. Kahneman and Deaton's
+    measures could not discriminate degrees of happiness (a ceiling effect).
+  sample: >-
+    Reanalysis of Killingsworth's experience-sampling data with Kahneman and Deaton's framing.
+  grade: 'strong'
+  caveats: >-
+    Correlational. PubMed Central lists published critiques, including "Inappropriate causal assumptions
+    underlie Killingsworth, Kahneman, and Mellers' conclusions", and a 2024 reply (killingsworth2024).
+  topics: [money]
+killingsworth2024:
+  type: 'article'
+  authors: ['Killingsworth, Matthew A.', 'Kahneman, Daniel', 'Mellers, Barbara']
+  year: 2024
+  title: >-
+    Reply to Rohrer and Wenz and Arslan: The association between income and emotional well-being
+  container: 'Proceedings of the National Academy of Sciences'
+  volume: '121'
+  issue: '46'
+  doi: '10.1073/pnas.2322160121'
+  url: 'https://doi.org/10.1073/pnas.2322160121'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: 'published reply to critiques'
+  supports: >-
+    Title-level - "Reply to Rohrer and Wenz and Arslan" on the association between income and emotional
+    well-being; shows the debate continues.
+  sample: 'Correspondence.'
+  grade: 'moderate'
+  caveats: 'Title-level only.'
+  topics: [money]
+kim2020:
+  type: 'article'
+  authors: ['Kim, Jae Yun', 'Campbell, Troy H.', 'Shepherd, Steven', 'Kay, Aaron C.']
+  year: 2020
+  title: >-
+    Understanding contemporary forms of exploitation: Attributions of passion serve to legitimize the poor
+    treatment of workers.
+  container: 'Journal of Personality and Social Psychology'
+  volume: '118'
+  issue: '1'
+  pages: '121-148'
+  doi: '10.1037/pspi0000190'
+  url: 'https://doi.org/10.1037/pspi0000190'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'seven studies plus a meta-analysis'
+  supports: >-
+    People judge unpaid extra hours and demeaning off-role tasks as more legitimate when the worker is
+    presumed passionate, because they assume passionate workers would volunteer and that the work is its own
+    reward; people also attribute passion to exploited workers.
+  sample: 'Seven studies and an internal meta-analysis.'
+  grade: 'moderate'
+  caveats: 'Vignette studies of observers'' judgments.'
+  topics: [money, motivation]
+krueger2002:
+  type: 'article'
+  authors: ['Krueger, Joachim', 'Mueller, Ross A.']
+  year: 2002
+  title: >-
+    Unskilled, unaware, or both? The better-than-average heuristic and statistical regression predict errors
+    in estimates of own performance.
+  container: 'Journal of Personality and Social Psychology'
+  volume: '82'
+  issue: '2'
+  pages: '180-188'
+  doi: '10.1037/0022-3514.82.2.180'
+  url: 'https://doi.org/10.1037/0022-3514.82.2.180'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'replication and re-analysis'
+  supports: >-
+    Replicated the asymmetric errors but found no mediation by metacognitive variables; the asymmetry
+    disappeared when regression or the better-than-average effect was removed; high performers were more
+    error-prone in one respect.
+  sample: 'Student replication study.'
+  grade: 'moderate'
+  caveats: 'Kruger and Dunning published a reply in the same issue.'
+  topics: [self-assessment]
+kruger1999:
+  type: 'article'
+  authors: ['Kruger, Justin', 'Dunning, David']
+  year: 1999
+  title: >-
+    Unskilled and unaware of it: How difficulties in recognizing one's own incompetence lead to inflated
+    self-assessments.
+  container: 'Journal of Personality and Social Psychology'
+  volume: '77'
+  issue: '6'
+  pages: '1121-1134'
+  doi: '10.1037/0022-3514.77.6.1121'
+  url: 'https://doi.org/10.1037/0022-3514.77.6.1121'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'four lab studies'
+  supports: >-
+    Bottom-quartile scorers on humour, grammar and logic tests estimated themselves at the 62nd percentile
+    while scoring at the 12th; the authors attributed this to a metacognitive deficit; training improved
+    both skill and self-insight.
+  sample: >-
+    Four studies with Cornell undergraduates (per the paper; abstract does not give sample sizes).
+  grade: 'moderate'
+  caveats: >-
+    The quartile-plot method is confounded by regression to the mean and the better-than-average effect
+    (krueger2002, nuhfer2016, gignac2020). The claim that "the incompetent are the most confident" does not
+    follow: low scorers rate themselves lower than high scorers do.
+  topics: [self-assessment]
+larson2020:
+  type: 'web'
+  authors: ['Larson, Will']
+  year: 2020
+  title: 'Staff archetypes'
+  container: >-
+    StaffEng.com guide (Staff Engineer: Leadership beyond the management track), published 21 June 2020
+  url: 'https://staffeng.com/guides/staff-archetypes/'
+  url_checked: '2026-10-25'
+  url_note: 'HTTP 200, text read; publication date from page metadata.'
+  kind: 'practitioner'
+  design: 'interview-based practitioner taxonomy'
+  supports: >-
+    Four common Staff-plus archetypes: Tech Lead (most common; roughly one per eight engineers), Architect,
+    Solver and Right Hand; "career ladders are a tool that applies better against populations than people";
+    some companies had no technical-leadership path and pushed experienced engineers into management.
+  sample: 'Interviews with Staff-plus engineers at various companies.'
+  grade: 'weak'
+  caveats: >-
+    Practitioner taxonomy, explicitly "more focused on being useful than complete".
+  flags: [practitioner]
+  topics: [promotions, the-fork]
+lazear1981:
+  type: 'article'
+  authors: ['Lazear, Edward P.', 'Rosen, Sherwin']
+  year: 1981
+  title: 'Rank-Order Tournaments as Optimum Labor Contracts'
+  container: 'Journal of Political Economy'
+  volume: '89'
+  issue: '5'
+  pages: '841-864'
+  doi: '10.1086/261010'
+  url: 'https://doi.org/10.1086/261010'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'theory'
+  design: 'formal model'
+  supports: >-
+    Paying by ordinal rank (as in promotion tournaments) can produce the same efficient effort as paying for
+    output; explains large pay jumps between levels as prizes.
+  sample: 'Theory.'
+  grade: 'moderate'
+  caveats: >-
+    Theory; frames why promotions are a contest for a prize rather than a reward for absolute performance.
+  topics: [long-game, promotions]
+lazear2004:
+  type: 'article'
+  authors: ['Lazear, Edward P.']
+  year: 2004
+  title: 'The Peter Principle: A Theory of Decline'
+  container: 'Journal of Political Economy'
+  volume: '112'
+  issue: 'S1'
+  pages: 'S141-S163'
+  doi: '10.1086/379943'
+  url: 'https://doi.org/10.1086/379943'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'theory'
+  design: 'formal model'
+  supports: >-
+    Performance falls after promotion partly as a statistical matter - promotion selects people who had a
+    good (partly transitory) run, so regression to the mean follows; firms should inflate the promotion
+    standard to compensate. Same logic explains why sequels disappoint.
+  sample: 'Theory.'
+  grade: 'moderate'
+  caveats: >-
+    Theory, not evidence; an alternative to the "promoted to incompetence" reading of Peter and Hull's 1969
+    book (the book itself was not opened).
+  topics: [promotions]
+leanin2025:
+  type: 'report'
+  authors: ['LeanIn.Org', 'McKinsey & Company']
+  year: 2025
+  title: 'Women in the Workplace 2025'
+  container: 'LeanIn.Org and McKinsey & Company'
+  url: 'https://leanin.org/women-in-the-workplace'
+  url_checked: '2026-10-25'
+  url_note: >-
+    HTTP 200 (redirects to leanin.org/report/women-in-the-workplace/), text read; study method read on
+    https://womenintheworkplace.com/ (HTTP 200). McKinsey's own page timed out.
+  secondary_urls: ['https://womenintheworkplace.com/']
+  kind: 'data'
+  design: 'company pipeline data plus employee survey'
+  supports: >-
+    "For every 100 men promoted to manager last year, only 93 women were promoted" (82 Asian women and
+    Latinas, 60 Black women); the 11th year of a "broken rung" at the first step to manager. Only 31% of
+    entry-level women report having a sponsor vs 45% of men.
+  sample: >-
+    124 participating US and Canadian organisations employing about 3 million people; survey of 9,500
+    employees; 62 HR-leader interviews.
+  grade: 'moderate'
+  caveats: >-
+    Self-selected participating companies; advocacy organisation plus a consultancy that sells diversity
+    services. The ratio moves year to year (secondary coverage of the 2024 report gave 81 per 100; not
+    verified here), so always cite the year. Sponsor figures are self-reported.
+  flags: [self-interested, not-peer-reviewed]
+  topics: [promotions, regional]
+lindqvist2020:
+  type: 'article'
+  authors: ['Lindqvist, Erik', 'Östling, Robert', 'Cesarini, David']
+  year: 2020
+  title: 'Long-Run Effects of Lottery Wealth on Psychological Well-Being'
+  container: 'The Review of Economic Studies'
+  volume: '87'
+  issue: '6'
+  pages: '2703-2726'
+  doi: '10.1093/restud/rdaa006'
+  url: 'https://doi.org/10.1093/restud/rdaa006'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'natural experiment (lottery wins), pre-registered analysis'
+  supports: >-
+    Large-prize lottery winners show sustained increases in overall life satisfaction lasting over a decade
+    with no sign of fading; effects on happiness and mental health are significantly smaller; financial
+    satisfaction mediates.
+  sample: >-
+    Swedish lottery players surveyed 5-22 years after winning, vs matched controls.
+  grade: 'strong'
+  caveats: 'Wealth shock, not salary; Sweden.'
+  topics: [money]
+loberg2021:
+  type: 'article'
+  authors: ['Loberg, Linda', 'Nüesch, Stephan', 'Foege, Johann Nils']
+  year: 2021
+  title: 'Forced distribution rating systems and team collaboration'
+  container: 'Journal of Economic Behavior & Organization'
+  volume: '188'
+  pages: '18-35'
+  doi: '10.1016/j.jebo.2021.04.035'
+  url: 'https://doi.org/10.1016/j.jebo.2021.04.035'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'three real-effort experiments'
+  supports: >-
+    Forced distribution ratings sped up individual work but slowed team work and significantly reduced
+    knowledge sharing within teams; the system was perceived as unfair in collaborative settings.
+  sample: 'Laboratory real-effort tasks (card sequencing).'
+  grade: 'moderate'
+  caveats: 'Lab tasks; abstract-level reading.'
+  topics: [reviews]
+macnamara2016:
+  type: 'article'
+  authors: ['Macnamara, Brooke N.', 'Moreau, David', 'Hambrick, David Z.']
+  year: 2016
+  title: 'The Relationship Between Deliberate Practice and Performance in Sports'
+  container: 'Perspectives on Psychological Science'
+  volume: '11'
+  issue: '3'
+  pages: '333-350'
+  doi: '10.1177/1745691616635591'
+  url: 'https://doi.org/10.1177/1745691616635591'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'meta-analysis'
+  supports: >-
+    Deliberate practice explained 18% of variance in sports performance overall but only 1% among elite
+    performers; athletes who reached high skill did not start their sport earlier than lower-skill athletes.
+  sample: 'Meta-analysis of sports studies.'
+  grade: 'strong'
+  caveats: >-
+    Sports, not office work; Ericsson disputed the coding of "deliberate practice" (ericsson2019).
+  topics: [getting-good]
+majors2017:
+  type: 'web'
+  authors: ['Majors, Charity']
+  year: 2017
+  title: 'The Engineer/Manager Pendulum'
+  container: 'charity.wtf (blog), 11 May 2017'
+  url: 'https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/'
+  url_checked: '2026-10-25'
+  url_note: >-
+    HTTP 200 (now served at charity.wtf/p/the-engineer-manager-pendulum), text read.
+  kind: 'practitioner'
+  design: 'practitioner essay'
+  supports: >-
+    Argues management "is not a promotion" but "a change of profession"; you cannot improve at engineering
+    and management at once; the strongest technical leaders often alternate between the two tracks every few
+    years ("like a pendulum").
+  sample: >-
+    Author's experience (engineering leader and startup co-founder).
+  grade: 'weak'
+  caveats: 'Opinion; contains profanity in places; quote carefully.'
+  flags: [practitioner]
+  topics: [the-fork]
+murphy2008:
+  type: 'article'
+  authors: ['Murphy, Kevin R.']
+  year: 2008
+  title: 'Explaining the Weak Relationship Between Job Performance and Ratings of Job Performance'
+  container: 'Industrial and Organizational Psychology'
+  volume: '1'
+  issue: '2'
+  pages: '148-160'
+  doi: '10.1111/j.1754-9434.2008.00030.x'
+  url: 'https://doi.org/10.1111/j.1754-9434.2008.00030.x'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: 'focal review article with peer commentaries'
+  supports: >-
+    Ratings are widely viewed as poor measures of performance; sets out three explanations - measurement
+    error, systematic non-performance factors, and intentional distortion by raters (who need both tools and
+    incentives to rate honestly).
+  sample: 'Conceptual review.'
+  grade: 'moderate'
+  caveats: >-
+    An argument paper; the journal format publishes rebuttals alongside it.
+  topics: [reviews]
+newport2012:
+  type: 'book'
+  authors: ['Newport, Cal']
+  year: 2012
+  title: 'So Good They Can''t Ignore You: Why Skills Trump Passion in the Quest for Work You Love'
+  container: 'Author website book listing'
+  url: 'https://calnewport.com/writing/'
+  url_checked: '2026-10-25'
+  url_note: >-
+    HTTP 200; author's own page confirms title, 2012 publication and thesis ("'Follow your passion' is bad
+    advice"). The book itself was not opened.
+  kind: 'practitioner'
+  design: 'popular book'
+  supports: >-
+    Popular argument that skill and mastery come before passion; the book popularised "career capital".
+    Title- and blurb-level only.
+  sample: 'None (argument and anecdotes).'
+  grade: 'weak'
+  caveats: >-
+    Specific phrasings attributed to the book (e.g. "rare and valuable skills") were not verified against
+    the text here.
+  flags: [practitioner]
+  topics: [getting-good, motivation]
+ng2008:
+  type: 'article'
+  authors: ['Ng, Thomas W. H.', 'Feldman, Daniel C.']
+  year: 2008
+  title: 'The relationship of age to ten dimensions of job performance.'
+  container: 'Journal of Applied Psychology'
+  volume: '93'
+  issue: '2'
+  pages: '392-423'
+  doi: '10.1037/0021-9010.93.2.392'
+  url: 'https://doi.org/10.1037/0021-9010.93.2.392'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'meta-analysis'
+  supports: >-
+    Age was largely unrelated to core task performance, creativity and training performance, but had
+    stronger relationships with the other seven dimensions (citizenship, safety, counterproductive
+    behaviour, aggression, substance use, tardiness, absence); age links with task performance and
+    counterproductive behaviour are curvilinear.
+  sample: 'Meta-analysis across 10 performance dimensions.'
+  grade: 'strong'
+  caveats: 'Cross-sectional age comparisons.'
+  topics: [getting-good, long-game]
+nuhfer2016:
+  type: 'article'
+  authors: ['Nuhfer, Edward', 'Cogan, Christopher', 'Fleischer, Steven', 'Gaze, Eric', 'Wirth, Karl']
+  year: 2016
+  title: >-
+    Random Number Simulations Reveal How Random Noise Affects the Measurements and Graphical Portrayals of
+    Self-Assessed Competency
+  container: 'Numeracy'
+  volume: '9'
+  issue: '1'
+  doi: '10.5038/1936-4660.9.1.4'
+  url: 'https://doi.org/10.5038/1936-4660.9.1.4'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'random-number simulation plus real data'
+  supports: >-
+    Random noise alone reproduces the common Dunning-Kruger graphs (y-x vs x, quartile line charts);
+    plotting self-assessed vs measured competence per person avoids the artefact; data from 1,154
+    participants in science literacy.
+  sample: 'Simulations plus 1,154 participants.'
+  grade: 'moderate'
+  caveats: >-
+    Published in an open-access numeracy journal; widely cited for the artefact argument.
+  topics: [self-assessment]
+okeefe2018:
+  type: 'article'
+  authors: ['O’Keefe, Paul A.', 'Dweck, Carol S.', 'Walton, Gregory M.']
+  year: 2018
+  title: 'Implicit Theories of Interest: Finding Your Passion or Developing It?'
+  container: 'Psychological Science'
+  volume: '29'
+  issue: '10'
+  pages: '1653-1664'
+  doi: '10.1177/0956797618780643'
+  url: 'https://doi.org/10.1177/0956797618780643'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'five studies including experiments'
+  supports: >-
+    People who believe interests are fixed ("find your passion") show less interest in areas outside their
+    existing interests, expect boundless motivation once a passion is found, and lose interest faster when a
+    new interest becomes difficult, compared with people induced to see interests as developed.
+  sample: 'Five studies, mostly university students.'
+  grade: 'moderate'
+  caveats: 'Students and short lab tasks.'
+  topics: [getting-good, motivation]
+oprea2019:
+  type: 'article'
+  authors: ['Oprea, Bogdan Teodor', 'Barzin, Liubița', 'Vîrgă, Delia', 'Iliescu, Dragoș', 'Rusu, Andrei']
+  year: 2019
+  title: 'Effectiveness of job crafting interventions: a meta-analysis and utility analysis'
+  container: 'European Journal of Work and Organizational Psychology'
+  volume: '28'
+  issue: '6'
+  pages: '723-741'
+  doi: '10.1080/1359432x.2019.1646728'
+  url: 'https://doi.org/10.1080/1359432x.2019.1646728'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'meta-analysis of interventions'
+  supports: >-
+    Job-crafting interventions raised overall crafting (g = 0.26), work engagement (g = 0.31) and contextual
+    performance (g = 0.39); task-performance gains appeared only among healthcare employees; effects on
+    performance ran through engagement.
+  sample: '14 intervention studies.'
+  grade: 'moderate'
+  caveats: 'Small number of studies; wide confidence intervals.'
+  topics: [motivation]
+orosz2019:
+  type: 'web'
+  authors: ['Orosz, Gergely']
+  year: 2019
+  title: 'Software Developer Promotions: Advice to Get to That Next Level'
+  container: 'The Pragmatic Engineer (blog), published 1 October 2019, updated 1 October 2021'
+  url: 'https://blog.pragmaticengineer.com/software-engineering-promotions/'
+  url_checked: '2026-10-25'
+  url_note: 'HTTP 200, text read.'
+  kind: 'practitioner'
+  design: 'practitioner essay by an engineering manager who sat on promotion committees'
+  supports: >-
+    Describes three stages of promotion process as companies grow: managers decide in a room; a semi-formal
+    manager-heavy committee with written level expectations; formal promotion packages and committees (as at
+    Google, Uber and other large tech firms) with self-, peer- and manager reviews judged against defined
+    job ladders.
+  sample: 'Author''s experience.'
+  grade: 'weak'
+  caveats: 'Practitioner opinion; the author sells a newsletter.'
+  flags: [practitioner]
+  topics: [promotions, reviews]
+pashler2008:
+  type: 'article'
+  authors: ['Pashler, Harold', 'McDaniel, Mark', 'Rohrer, Doug', 'Bjork, Robert']
+  year: 2008
+  title: 'Learning Styles'
+  container: 'Psychological Science in the Public Interest'
+  volume: '9'
+  issue: '3'
+  pages: '105-119'
+  doi: '10.1111/j.1539-6053.2009.01038.x'
+  url: 'https://doi.org/10.1111/j.1539-6053.2009.01038.x'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: 'evidence review'
+  supports: >-
+    Found "virtually no evidence" for the interaction needed to validate learning-styles "meshing" (matching
+    instruction to a preferred style); several properly designed studies "flatly contradict" it; concludes
+    "there is no adequate evidence base" for using learning-styles assessments in general education.
+  sample: 'Review.'
+  grade: 'strong'
+  caveats: >-
+    The authors note many versions of learning styles have simply not been tested; issue year 2008, online
+    2009.
+  topics: [getting-good]
+prins2015:
+  type: 'article'
+  authors: ['Prins, Seth J.', 'Bates, Lisa M.', 'Keyes, Katherine M.', 'Muntaner, Carles']
+  year: 2015
+  title: >-
+    Anxious? Depressed? You might be suffering from capitalism: contradictory class locations and the
+    prevalence of depression and anxiety in the USA
+  container: 'Sociology of Health & Illness'
+  volume: '37'
+  issue: '8'
+  pages: '1352-1372'
+  doi: '10.1111/1467-9566.12315'
+  url: 'https://doi.org/10.1111/1467-9566.12315'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'cross-sectional epidemiological survey'
+  supports: >-
+    Among US full-time workers, people in "contradictory class locations" (which combine aspects of
+    ownership and labour) had higher prevalence and odds of depression and anxiety than people in
+    non-contradictory locations, echoing evidence that the middle of the hierarchy fares worse than the top
+    or bottom.
+  sample: 'NESARC national survey, n = 21,859 full-time workers.'
+  grade: 'moderate'
+  caveats: >-
+    Cross-sectional; the class-location construct is not the same as "middle manager" (which positions it
+    covers was not checked beyond the abstract).
+  topics: [the-fork]
+pulakos2011:
+  type: 'article'
+  authors: ['Pulakos, Elaine D.', 'O’Leary, Ryan S.']
+  year: 2011
+  title: 'Why Is Performance Management Broken?'
+  container: 'Industrial and Organizational Psychology'
+  volume: '4'
+  issue: '2'
+  pages: '146-164'
+  doi: '10.1111/j.1754-9434.2011.01315.x'
+  url: 'https://doi.org/10.1111/j.1754-9434.2011.01315.x'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: 'focal argument article'
+  supports: >-
+    Argues performance management fails because it has been reduced to formal administrative steps,
+    disconnected from the day-to-day activities that drive performance (clear expectations, short-term
+    objectives, continual guidance); recommends improving manager-employee communication over redesigning
+    forms.
+  sample: 'Conceptual.'
+  grade: 'moderate'
+  caveats: 'Argument from practitioner-scientists, not a test.'
+  topics: [reviews]
+quinones1995:
+  type: 'article'
+  authors: ['Quińones, Miguel A.', 'Ford, J. Kevin', 'Teachout, Mark S.']
+  year: 1995
+  title: >-
+    THE RELATIONSHIP BETWEEN WORK EXPERIENCE AND JOB PERFORMANCE: A CONCEPTUAL AND META‐ANALYTIC REVIEW
+  container: 'Personnel Psychology'
+  volume: '48'
+  issue: '4'
+  pages: '887-910'
+  doi: '10.1111/j.1744-6570.1995.tb01785.x'
+  url: 'https://doi.org/10.1111/j.1744-6570.1995.tb01785.x'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'meta-analysis'
+  supports: >-
+    Work experience correlates rho = .27 with job performance; experience measured as amount (rho = .43) or
+    at task level (.41) predicts best, more than time-based measures; correlations are higher with hard
+    measures such as work samples (.39) than with ratings (.24).
+  sample: 'K = 44, N = 25,911.'
+  grade: 'strong'
+  caveats: >-
+    Contrast sackett2022 (Part I): years of experience predict new-hire performance only .07. What you did
+    repeatedly matters more than how long you were employed.
+  topics: [getting-good]
+resolution2012:
+  type: 'web'
+  authors: ['Resolution Foundation']
+  year: 2012
+  title: 'We''re all managers now'
+  container: 'Resolution Foundation press release, 2 March 2012'
+  url: 'https://www.resolutionfoundation.org/press-releases/were-all-managers-now/'
+  url_checked: '2026-10-25'
+  url_note: 'HTTP 200, text read.'
+  kind: 'data'
+  design: 'think-tank analysis of UK labour-force data (by Craig Holmes and Ken Mayhew)'
+  supports: >-
+    The share of UK retail-sector "managers" earning below 400 GBP a week rose from 37% to nearly 60% during
+    the 2000s - senior-sounding titles on middle-wage jobs.
+  sample: >-
+    UK labour-market data (method in the underlying report, not opened).
+  grade: 'weak'
+  caveats: 'Press release; underlying report not opened.'
+  flags: [not-peer-reviewed]
+  topics: [regional]
+rotundo2002:
+  type: 'article'
+  authors: ['Rotundo, Maria', 'Sackett, Paul R.']
+  year: 2002
+  title: >-
+    The relative importance of task, citizenship, and counterproductive performance to global ratings of job
+    performance: A policy-capturing approach.
+  container: 'Journal of Applied Psychology'
+  volume: '87'
+  issue: '1'
+  pages: '66-80'
+  doi: '10.1037/0021-9010.87.1.66'
+  url: 'https://doi.org/10.1037/0021-9010.87.1.66'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'policy-capturing experiment'
+  supports: >-
+    Managers weighted task, citizenship and counterproductive behaviour differently when forming an overall
+    rating; raters clustered into three policies (task highest; counterproductive highest; task and
+    counterproductive equal and large). Rater demographics did not predict weights.
+  sample: 'Managers in 5 jobs rating hypothetical employee profiles.'
+  grade: 'moderate'
+  caveats: 'Hypothetical profiles, not real employees.'
+  topics: [reviews]
+schleicher2009:
+  type: 'article'
+  authors: ['Schleicher, Deidra J.', 'Bull, Rebecca A.', 'Green, Stephen G.']
+  year: 2009
+  title: 'Rater Reactions to Forced Distribution Rating Systems'
+  container: 'Journal of Management'
+  volume: '35'
+  issue: '4'
+  pages: '899-927'
+  doi: '10.1177/0149206307312514'
+  url: 'https://doi.org/10.1177/0149206307312514'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'two experiments'
+  supports: >-
+    Raters found a forced distribution system more difficult and less fair than a traditional scale,
+    especially when used for administrative decisions and when ratee performance varied little; difficulty
+    and unfairness lowered raters' confidence to give feedback.
+  sample: 'Two laboratory experiments with raters.'
+  grade: 'moderate'
+  caveats: 'Lab raters; published online 2008, issue 2009.'
+  topics: [reviews]
+scullen2000:
+  type: 'article'
+  authors: ['Scullen, Steven E.', 'Mount, Michael K.', 'Goff, Maynard']
+  year: 2000
+  title: 'Understanding the latent structure of job performance ratings.'
+  container: 'Journal of Applied Psychology'
+  volume: '85'
+  issue: '6'
+  pages: '956-970'
+  doi: '10.1037/0021-9010.85.6.956'
+  url: 'https://doi.org/10.1037/0021-9010.85.6.956'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'variance decomposition of multisource (360-degree) ratings'
+  supports: >-
+    Idiosyncratic rater effects accounted for 62% and 53% of rating variance in two datasets; the ratee's
+    actual general and dimensional performance accounted for only 21% and 25%; random error 11% and 18%;
+    rater perspective (boss, peer, subordinate) added little.
+  sample: >-
+    Two large datasets of managers (n = 2,350 and n = 2,142), each rated on 3 dimensions by 7 raters (2
+    bosses, 2 peers, 2 subordinates, self). Developmental (not pay-linked) ratings.
+  grade: 'strong'
+  caveats: >-
+    Developmental 360 ratings of managers, not administrative annual ratings; the percentages are variance
+    shares, not "62% of your rating is about the rater" for any one person. Popular "62%" claims (often
+    credited to HBR's 2015 Deloitte article, whose text could not be read here) match this study's figure.
+  topics: [reviews]
+scullen2005:
+  type: 'article'
+  authors: ['Scullen, Steven E.', 'Bergey, Paul K.', 'Aiman‐Smith, Lynda']
+  year: 2005
+  title: >-
+    FORCED DISTRIBUTION RATING SYSTEMS AND THE IMPROVEMENT OF WORKFORCE POTENTIAL: A BASELINE SIMULATION
+  container: 'Personnel Psychology'
+  volume: '58'
+  issue: '1'
+  pages: '1-32'
+  doi: '10.1111/j.1744-6570.2005.00361.x'
+  url: 'https://doi.org/10.1111/j.1744-6570.2005.00361.x'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'simulation'
+  supports: >-
+    A forced distribution system that fires a fixed share of workers each year could noticeably raise
+    workforce potential, with most of the gain in the first several years; the gain depends on how many are
+    fired and on voluntary turnover.
+  sample: >-
+    Computer simulation with assumed parameters (rating reliability, selection validity, turnover).
+  grade: 'moderate'
+  caveats: >-
+    A simulation, not field data; it ignores morale, collaboration, gaming and legal costs, and the gains
+    shrink after the first years.
+  topics: [reviews]
+shrm2013:
+  type: 'web'
+  authors: ['SHRM']
+  year: 2013
+  title: 'Stack Ranking Ends at Microsoft, Generating Heated Debate'
+  container: 'Society for Human Resource Management (SHRM) news'
+  url: >-
+    https://www.shrm.org/in/topics-tools/news/benefits-compensation/stack-ranking-ends-microsoft-generating-heated-debate
+  url_checked: '2026-10-25'
+  url_note: 'HTTP 200, text read.'
+  kind: 'data'
+  design: 'news report quoting an internal email'
+  supports: >-
+    Microsoft ended stack ranking in November 2013; HR head Lisa Brummel's 12 Nov 2013 email (as reported by
+    the Seattle Times): "No more curve ... there will no longer be a pre-determined targeted distribution."
+    Under the system (in place for 2011 reviews), a single 1-5 rating from manager assessment plus
+    calibration drove merit pay, bonus and stock.
+  sample: 'One company.'
+  grade: 'moderate'
+  caveats: >-
+    Trade-association news report; the Vanity Fair claim that stack ranking "crippled" innovation is
+    journalism, not evidence.
+  flags: [practitioner]
+  topics: [reviews]
+sisk2018:
+  type: 'article'
+  authors: ['Sisk, Victoria F.', 'Burgoyne, Alexander P.', 'Sun, Jingze', 'Butler, Jennifer L.', 'Macnamara, Brooke N.']
+  year: 2018
+  title: >-
+    To What Extent and Under Which Circumstances Are Growth Mind-Sets Important to Academic Achievement? Two
+    Meta-Analyses
+  container: 'Psychological Science'
+  volume: '29'
+  issue: '4'
+  pages: '549-571'
+  doi: '10.1177/0956797617739704'
+  url: 'https://doi.org/10.1177/0956797617739704'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'two meta-analyses'
+  supports: >-
+    Overall effects were weak both for the link between growth mindset and academic achievement (k = 273, N
+    = 365,915) and for mindset interventions (k = 43, N = 57,155); low-SES or at-risk students may benefit.
+  sample: 'School and university students.'
+  grade: 'strong'
+  caveats: 'Academic achievement, not careers.'
+  topics: [getting-good]
+speer2019:
+  type: 'article'
+  authors: ['Speer, Andrew B.', 'Tenbrink, Andrew P.', 'Schwendeman, Michael G.']
+  year: 2019
+  title: 'Let’s Talk it Out: The Effects of Calibration Meetings on Performance Ratings'
+  container: 'Human Performance'
+  volume: '32'
+  issue: '3-4'
+  pages: '107-128'
+  doi: '10.1080/08959285.2019.1609477'
+  url: 'https://doi.org/10.1080/08959285.2019.1609477'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'two field studies'
+  supports: >-
+    Calibration meetings occur widely but vary in form; managers saw them as attempts to improve rating
+    quality; calibration was associated with more perceived accountability and information; post-calibration
+    ratings correlated more with other performance measures than pre-calibration ratings.
+  sample: 'Two organisations'' field data.'
+  grade: 'moderate'
+  caveats: >-
+    One of very few academic studies of calibration; perceived (self-reported) mechanisms; does not test
+    bias or politics inside the room.
+  topics: [reviews]
+todd2026:
+  type: 'web'
+  authors: ['Todd, Benjamin']
+  year: 2026
+  title: 'Career capital: how to invest in yourself'
+  container: '80,000 Hours career guide, published May 2026'
+  url: 'https://80000hours.org/articles/career-capital/'
+  url_checked: '2026-10-25'
+  url_note: >-
+    HTTP 200 (redirects to /career-guide/career-capital/), text read.
+  kind: 'practitioner'
+  design: 'practitioner career guide'
+  supports: >-
+    Defines career capital as "anything that puts you in a better position to make a difference in the
+    future": skills, connections, credentials, character and financial runway; warns both against neglecting
+    it and against generic credential-collecting.
+  sample: 'Author''s synthesis.'
+  grade: 'weak'
+  caveats: >-
+    Practitioner framework from a nonprofit with an impact-focused mission; not empirically tested.
+  flags: [practitioner]
+  topics: [getting-good, money, motivation]
+todi2021:
+  type: 'web'
+  authors: ['Todi, Anirudh']
+  year: 2021
+  title: 'Sharing our Engineering Career Framework with the world'
+  container: 'dropbox.tech, 12 July 2021'
+  url: 'https://dropbox.tech/culture/sharing-our-engineering-career-framework-with-the-world'
+  url_checked: '2026-10-25'
+  url_note: 'HTTP 200, text read.'
+  kind: 'practitioner'
+  design: 'company publication of its leveling framework'
+  supports: >-
+    Dropbox published its engineering levels framework, stating it "is not meant to be a promotion
+    checklist" but a guide to what impact looks like at the next level, with three to four key behaviours
+    per responsibility; revised in 2020 to be explicit about business impact ("the what").
+  sample: 'One company.'
+  grade: 'weak'
+  caveats: >-
+    One company's self-description; updated again in 2023 (not opened).
+  flags: [practitioner]
+  topics: [promotions, the-fork]
+vandenbroeck2016:
+  type: 'article'
+  authors: ['Van den Broeck, Anja', 'Ferris, D. Lance', 'Chang, Chu-Hsiang', 'Rosen, Christopher C.']
+  year: 2016
+  title: 'A Review of Self-Determination Theory’s Basic Psychological Needs at Work'
+  container: 'Journal of Management'
+  volume: '42'
+  issue: '5'
+  pages: '1195-1229'
+  doi: '10.1177/0149206316632058'
+  url: 'https://doi.org/10.1177/0149206316632058'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'meta-analytic review'
+  supports: >-
+    Tests whether autonomy, competence and relatedness each uniquely predict growth, internalisation and
+    well-being at work, and whether an overall need-satisfaction score is appropriate; cautions about
+    measures and methods.
+  sample: '99 studies, 119 samples.'
+  grade: 'strong'
+  caveats: >-
+    Abstract-level reading does not give the effect sizes; cite for the scope of evidence, not specific
+    numbers.
+  topics: [motivation]
+viswesvaran1996:
+  type: 'article'
+  authors: ['Viswesvaran, Chockalingam', 'Ones, Deniz S.', 'Schmidt, Frank L.']
+  year: 1996
+  title: 'Comparative analysis of the reliability of job performance ratings.'
+  container: 'Journal of Applied Psychology'
+  volume: '81'
+  issue: '5'
+  pages: '557-574'
+  doi: '10.1037/0021-9010.81.5.557'
+  url: 'https://doi.org/10.1037/0021-9010.81.5.557'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'evidence'
+  design: 'meta-analysis'
+  supports: >-
+    Mean interrater reliability of supervisor ratings of overall job performance is .52; supervisor ratings
+    are more reliable than peer ratings; interrater reliability is always lower than intrarater reliability.
+  sample: >-
+    Meta-analysis of published reliability estimates across 10 performance dimensions.
+  grade: 'strong'
+  caveats: >-
+    .52 means two supervisors rating the same person agree only moderately; it does not mean ratings are
+    worthless. Some scholars (murphy2008) argue rater disagreement is systematic, not just noise.
+  topics: [reviews]
+wrzesniewski2001:
+  type: 'article'
+  authors: ['Wrzesniewski, Amy', 'Dutton, Jane E.']
+  year: 2001
+  title: 'Crafting a Job: Revisioning Employees as Active Crafters of Their Work'
+  container: 'The Academy of Management Review'
+  volume: '26'
+  issue: '2'
+  pages: '179'
+  doi: '10.2307/259118'
+  url: 'https://doi.org/10.2307/259118'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'theory'
+  design: 'theoretical model'
+  supports: >-
+    Employees "craft" jobs by changing task, relational and cognitive boundaries, which changes the meaning
+    of the work and their work identity.
+  sample: 'Theory.'
+  grade: 'moderate'
+  caveats: 'Foundational theory; tested later (oprea2019).'
+  topics: [motivation]
+yang2019:
+  type: 'article'
+  authors: ['Yang, Wei-Ning', 'Niven, Karen', 'Johnson, Sheena']
+  year: 2019
+  title: 'Career plateau: A review of 40 years of research'
+  container: 'Journal of Vocational Behavior'
+  volume: '110'
+  pages: '286-302'
+  doi: '10.1016/j.jvb.2018.11.005'
+  url: 'https://doi.org/10.1016/j.jvb.2018.11.005'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref metadata fetched; abstract read on the University of Manchester
+    research portal (OpenAlex had none).
+  secondary_urls: ['https://research.manchester.ac.uk/en/publications/career-plateau-a-review-of-40-years-of-research/']
+  kind: 'review'
+  design: 'systematic review of 72 empirical sources (1977-2017)'
+  supports: >-
+    Plateaued people (hierarchical or job-content plateau) report poorer satisfaction, well-being,
+    performance and commitment and more turnover intention, largely because they perceive less
+    organisational support; effects are weaker when people care less about promotion and when organisation
+    and individual counteract the plateau; proactivity and added responsibilities are linked to less
+    plateauing.
+  sample: '72 empirical sources.'
+  grade: 'moderate'
+  caveats: 'Narrative review of mostly cross-sectional studies.'
+  topics: [long-game]
+zell2014:
+  type: 'article'
+  authors: ['Zell, Ethan', 'Krizan, Zlatan']
+  year: 2014
+  title: 'Do People Have Insight Into Their Abilities? A Metasynthesis'
+  container: 'Perspectives on Psychological Science'
+  volume: '9'
+  issue: '2'
+  pages: '111-125'
+  doi: '10.1177/1745691613518075'
+  url: 'https://doi.org/10.1177/1745691613518075'
+  url_checked: '2026-10-25'
+  url_note: >-
+    doi.org resolved (HTTP 302); Crossref and OpenAlex metadata fetched; abstract read via OpenAlex.
+  kind: 'review'
+  design: 'metasynthesis of 22 meta-analyses'
+  supports: >-
+    Mean correlation between self-evaluated ability and objective performance across 22 meta-analyses is
+    moderate, M = .29 (range .09 to .63); stronger for domain-specific self-ratings and for objective,
+    familiar or low-complexity tasks.
+  sample: >-
+    22 meta-analyses (academic ability, intelligence, language, medical, sport, vocational skills).
+  grade: 'strong'
+  caveats: 'Correlation, not bias direction.'
+  topics: [getting-good, self-assessment]
