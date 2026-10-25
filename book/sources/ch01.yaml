@@ -1,0 +1,114 @@
+# Sources added for Chapter 1 that are not already in research/part1 or research/part2.
+# Same schema as the research registries (see WRITING-GUIDE.md). Every entry was opened on the date given.
+
+sackett2023-iop:
+  type: article
+  authors: ['Sackett, Paul R.', 'Zhang, Charlene', 'Berry, Christopher M.', 'Lievens, Filip']
+  year: 2023
+  title: >-
+    Revisiting the design of selection systems in light of new findings regarding the validity of widely
+    used predictors
+  container: Industrial and Organizational Psychology
+  volume: '16'
+  issue: '3'
+  pages: 283-300
+  doi: 10.1017/iop.2023.24
+  url: https://www.cambridge.org/core/product/A20984B138319E3D432E643978BF026D/core-reader
+  url_checked: '2026-10-25'
+  url_note: Open-access full text read on Cambridge Core.
+  kind: review
+  design: focal article summarising a meta-analytic revision
+  supports: >-
+    Structured interviews top the revised list with a mean validity of .42, but with an 80% credibility
+    interval from .18 to .66 ("really .42, plus or minus .24"); unstructured interviews were revised down
+    by .19; predictors specific to the job (structured interviews, job knowledge, work samples, biodata)
+    beat general measures.
+  sample: Commentary by the authors of the 2022 meta-analytic revision.
+  grade: strong
+  caveats: Validities are for single predictors used alone; combinations of predictors do better.
+
+barrick2009:
+  type: article
+  authors: ['Barrick, Murray R.', 'Shaffer, Jonathan A.', 'DeGrassi, Sandra W.']
+  year: 2009
+  title: >-
+    What you see may not be what you get: Relationships among self-presentation tactics and ratings of
+    interview and job performance
+  container: Journal of Applied Psychology
+  volume: '94'
+  issue: '6'
+  pages: 1394-1411
+  doi: 10.1037/a0016532
+  url: https://pubmed.ncbi.nlm.nih.gov/19916651/
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the NCBI E-utilities API.
+  kind: evidence
+  design: meta-analysis
+  supports: >-
+    Appearance, impression management and verbal and nonverbal behaviour influence interviewer ratings;
+    "what you see in the interview may not be what you get on the job", and unstructured interviews are
+    especially affected.
+  sample: Meta-analysis of field and experimental studies.
+  grade: strong
+  caveats: Abstract-level reading; effect sizes not quoted here.
+
+spence1973:
+  type: article
+  authors: ['Spence, Michael']
+  year: 1973
+  title: Job market signaling
+  container: The Quarterly Journal of Economics
+  volume: '87'
+  issue: '3'
+  pages: 355-374
+  doi: 10.2307/1882010
+  url: https://api.crossref.org/works/10.2307/1882010
+  url_checked: '2026-10-25'
+  url_note: Bibliographic record checked on Crossref; the argument is read in Spence's Nobel lecture (spence2001-lecture).
+  kind: theory
+  design: economic model
+  supports: The original model of education and credentials as signals in the job market.
+  sample: Theoretical paper.
+  grade: strong
+  caveats: >-
+    A model, not an empirical finding; the book uses it as a lens. Content is cited through the author's
+    own 2001 retrospective.
+
+spence2001-lecture:
+  type: talk
+  authors: ['Spence, A. Michael']
+  year: 2001
+  title: Signaling in retrospect and the informational structure of markets
+  container: Prize Lecture, Nobel Prize in Economic Sciences, 8 December 2001
+  url: https://www.nobelprize.org/uploads/2018/06/spence-lecture.pdf
+  url_checked: '2026-10-25'
+  url_note: Full lecture PDF read on nobelprize.org.
+  kind: theory
+  design: author's retrospective of an economic model
+  supports: >-
+    "The value of individuals to firms is not directly observed, at least at the time of hiring"; a signal
+    separates people only when its cost is negatively correlated with the unseen quality employers value.
+  sample: Theoretical lecture.
+  grade: strong
+  caveats: A model of markets; applying it to an individual's job search is the book's interpretation.
+
+bls-nlsy2025:
+  type: government
+  authors: ['U.S. Bureau of Labor Statistics']
+  year: 2025
+  title: >-
+    Number of jobs, labor market experience, marital status, and health for those born 1957-1964
+    (news release USDL-25-1322, 26 August 2025)
+  url: https://www.bls.gov/news.release/nlsoy.nr0.htm
+  url_checked: '2026-10-25'
+  url_note: News release text read on bls.gov.
+  kind: data
+  design: longitudinal survey (National Longitudinal Survey of Youth 1979)
+  supports: >-
+    People born 1957-64 held an average of 12.9 jobs from ages 18 to 58: 5.6 at ages 18-24 and 4.5 at
+    ages 25-34, falling to 1.3 at 55-58.
+  sample: 9,964 people first interviewed in 1979 and most recently in 2022-23.
+  grade: strong
+  caveats: >-
+    One US cohort; "jobs" counts employers, and jobs spanning age groups are counted in each. Younger
+    cohorts and other countries may differ.

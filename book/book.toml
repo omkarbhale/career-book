@@ -1,0 +1,343 @@
+# The book's spine: metadata, reading order, parts and cast.
+# Chapter files are found by id: book/chapters/ch07-anything.md is chapter ch07.
+# A chapter with no file yet is published as a plan ("In production").
+
+[book]
+title = "Two Games, One You"
+subtitle = "A field guide to landing the job and being yourself at work"
+blurb = "Getting a job and doing a job are different games with different rules. This book teaches both, one evidence-graded chapter at a time, and argues that the winning move in each is the same: be one real person, and make that person easy to see."
+language = "en"
+site_url = "https://omkarbhale.github.io/career-book/"
+repo_url = "https://github.com/omkarbhale/career-book"
+copyright = "© 2026 Omkar Bhale"
+cover = "front/cover.svg"
+cover_alt = "Dev, the book's protagonist, stands between two game boards. On the left, a single photo frame labelled 'the snapshot' holds a résumé and a stopwatch. On the right, a long film strip labelled 'the long game' winds off the page, its frames showing small everyday moments at work."
+
+[bibliography]
+# Every registry matched here is read. A key may repeat across files only for the same work.
+files = ["research/*/sources.yaml", "book/sources/*.yaml"]
+
+# ---------------------------------------------------------------- reading order
+
+[[pages]]
+id = "howto"
+kind = "front"
+title = "How to Use This Book"
+href = "how-to-use.html"
+label = "A"
+file = "front/how-to-use.md"
+summary = "Who this book is for, how it is built, what the boxes mean, and how to get the most out of it."
+
+[[pages]]
+id = "cast"
+kind = "front"
+title = "Meet the Cast"
+href = "cast.html"
+label = "B"
+file = "front/cast.md"
+summary = "The people you will follow through both games, and the running jokes they bring with them."
+
+[[pages]]
+id = "ch01"
+kind = "chapter"
+number = 1
+title = "Two Games, One You"
+summary = "Why getting a job and doing one are different games, why you will play both many times, and why the trick is to stay one person through both."
+
+[[pages]]
+id = "ch02"
+kind = "chapter"
+number = 2
+part = "part1"
+title = "Stay, Go, or Grow?"
+summary = "Deciding whether to switch at all: good and bad reasons to leave, moving inside your company, timing, and what to do when the decision is made for you."
+covers = [
+  "Push and pull: separating what is wrong with this job from what is right about another one",
+  "Internal moves, role changes and asking for what you want before you leave",
+  "Timing, money runways and searching while employed",
+  "Layoffs and being let go: the first two weeks, and how to talk about it later",
+  "Career changers: what transfers and what has to be rebuilt",
+]
+
+[[pages]]
+id = "ch03"
+kind = "chapter"
+number = 3
+part = "part1"
+title = "The View from the Other Side of the Table"
+summary = "How hiring actually works: who decides, the funnel, applicant tracking systems, why it is slow and noisy, and why most rejections are statistics rather than verdicts."
+covers = [
+  "Requisitions, recruiters, hiring managers and panels: who wants what",
+  "The funnel, with honest numbers, and what it means for how many applications to send",
+  "Applicant tracking systems: what they do and the myths about what they do",
+  "Silence, ghosting and rejection, and how to keep your morale out of the funnel",
+]
+
+[[pages]]
+id = "ch04"
+kind = "chapter"
+number = 4
+part = "part1"
+title = "Know What You're Selling"
+summary = "Inventory your evidence: skills, results and stories. Build a story bank, choose target roles, and translate your experience if you are changing fields."
+covers = [
+  "From duties to evidence: turning what you did into what changed because of you",
+  "The story bank: a dozen true stories that answer most interview questions",
+  "Choosing targets: roles, companies and the overlap between what you want and what they need",
+  "Translating experience across fields without overselling it",
+]
+
+[[pages]]
+id = "ch05"
+kind = "chapter"
+number = 5
+part = "part1"
+title = "Paper You"
+summary = "Résumés, profiles and portfolios as compressed evidence: what screeners actually read, the myths about bots and six seconds, and when a cover letter earns its place."
+covers = [
+  "The résumé as a trailer: structure, bullets that carry evidence, length",
+  "Myths: robots that reject 75%, the six-second glance, the one-page rule",
+  "LinkedIn and other profiles; portfolios and code samples",
+  "Cover letters and tailoring: when they matter and how much",
+  "Regional differences: CVs, photos, dates of birth and what is illegal to ask for",
+]
+
+[[pages]]
+id = "ch06"
+kind = "chapter"
+number = 6
+part = "part1"
+title = "People, Not Portals"
+summary = "Referrals, weak ties, informational conversations, recruiters and communities, without becoming a person who 'networks'."
+covers = [
+  "Why referrals and weak ties matter, with the evidence and its limits",
+  "The 'hidden job market' claim, checked",
+  "Asking for help well: cold messages, informational conversations, referrals",
+  "Working with recruiters, agency and in-house",
+  "Giving before you need: the long game starts here",
+]
+
+[[pages]]
+id = "ch07"
+kind = "chapter"
+number = 7
+part = "part1"
+title = "Interviews, Decoded"
+summary = "What interviews measure and how to show it: structured and behavioural questions, stories that land, nerves, video interviews, and interviewing the employer back."
+covers = [
+  "What different interview formats predict, and why structure matters",
+  "Behavioural and situational questions; telling a story with a point",
+  "Nerves, impression management and the line between presenting and pretending",
+  "Video and phone interviews; panels; interviewing across cultures",
+  "Questions to ask, and red flags to listen for",
+]
+
+[[pages]]
+id = "ch08"
+kind = "chapter"
+number = 8
+part = "part1"
+title = "Show, Don't Tell"
+summary = "Work samples: technical interviews, take-home tasks, case studies and presentations; how to prepare, and where to draw the line on unpaid work."
+covers = [
+  "Why work samples predict well, and what they cannot see",
+  "Technical and coding interviews: preparing without memorising",
+  "Take-home tasks: scope, time limits and unpaid labour",
+  "Case interviews and presentations for non-technical roles",
+]
+
+[[pages]]
+id = "ch09"
+kind = "chapter"
+number = 9
+part = "part1"
+title = "Offers, Negotiation, and the Exit"
+summary = "Reading an offer, negotiating without drama, pay-transparency laws, references and checks, resigning, notice periods, counter-offers, and leaving well."
+covers = [
+  "Reading an offer: total compensation, equity, benefits and the things not on paper",
+  "Negotiation: what the evidence says, scripts, and when not to",
+  "Pay transparency and salary-history laws by region",
+  "References, background checks and probation periods",
+  "Resigning: notice periods, counter-offers and leaving the door open",
+]
+
+[[pages]]
+id = "ch10"
+kind = "chapter"
+number = 10
+part = "part2"
+title = "First Principles: Trust Is the Whole Game"
+summary = "The model under all of Part II: repeated interactions, how trust forms, why acting is expensive, and how to have good defaults instead of a script."
+covers = [
+  "Repeated games: why the long game rewards reciprocity",
+  "What trust is made of: ability, integrity and benevolence",
+  "Surface acting versus being yourself: what the research on emotional labour shows",
+  "Defaults, not scripts: a small set of principles that decide most situations",
+]
+
+[[pages]]
+id = "ch11"
+kind = "chapter"
+number = 11
+part = "part2"
+title = "The First Ninety Days"
+summary = "Starting well: learning how the place really works, first impressions without performance, asking questions, early wins, and the 'corporate mode' trap."
+covers = [
+  "Onboarding: what good organisations do, and what to do when yours doesn't",
+  "First impressions: what is true about them and what is folklore",
+  "Asking questions without fear; learning the unwritten rules",
+  "Early wins that are real, and promises from the interview you now have to keep",
+]
+
+[[pages]]
+id = "ch12"
+kind = "chapter"
+number = 12
+part = "part2"
+title = "Reliability, the Boring Superpower"
+summary = "Commitments, estimates, follow-through, saying no, and working with your manager: managing up without managing anyone."
+covers = [
+  "Commitments and follow-through: the cheapest trust you will ever buy",
+  "Estimates, slipping, and telling people early",
+  "Saying no and negotiating scope",
+  "Working with your manager: one-to-ones, expectations, feedback in both directions",
+]
+
+[[pages]]
+id = "ch13"
+kind = "chapter"
+number = 13
+part = "part2"
+title = "Talking and Writing at Work"
+summary = "Meetings, messages, async writing, disagreement, and giving and receiving feedback."
+covers = [
+  "Writing for busy readers: the point first, then the evidence",
+  "Meetings: when to have them, how to be useful in them",
+  "Disagreeing without damage",
+  "Feedback: giving it, asking for it, and hearing it",
+]
+
+[[pages]]
+id = "ch14"
+kind = "chapter"
+number = 14
+part = "part2"
+title = "The Professionalism Dial"
+summary = "When to be formal and when to be casual, humour that lands, what to share about your life, culture and code-switching, and remote and hybrid work."
+covers = [
+  "Professionalism as a dial, not a costume: reading the room",
+  "Humour at work: what it does, and how it backfires",
+  "Self-disclosure: what to share, when, and with whom",
+  "Culture, code-switching and the cost of covering",
+  "Remote and hybrid: being present without being in the room",
+]
+
+[[pages]]
+id = "ch15"
+kind = "chapter"
+number = 15
+part = "part2"
+title = "Office Friendships"
+summary = "Friendships at work: the benefits, the costs, boundaries, romance, cliques, and what happens when your friend becomes your manager."
+covers = [
+  "What the research says about friends at work, benefits and costs",
+  "Friendly versus friends: boundaries that keep both",
+  "Cliques, gossip and the colleague who wants more of you than you want to give",
+  "Romance at work and the policies around it",
+  "When a friend becomes your manager, or you become theirs",
+]
+
+[[pages]]
+id = "ch16"
+kind = "chapter"
+number = 16
+part = "part2"
+title = "Conflict, Politics, and Difficult People"
+summary = "Disagreement, credit, gossip, difficult colleagues, escalation, psychological safety, and what to do when something is actually wrong."
+covers = [
+  "Politics as influence: the honest version",
+  "Conflict about tasks versus conflict about people",
+  "Credit, blame and gossip",
+  "Difficult colleagues and difficult managers",
+  "When it is not a personality clash: harassment, discrimination, wrongdoing, and how to escalate",
+]
+
+[[pages]]
+id = "ch17"
+kind = "chapter"
+number = 17
+part = "part2"
+title = "Growing Without Losing Yourself"
+summary = "Visibility without bragging, promotions, boundaries and burnout, ethics, and knowing when it is time to play the snapshot game again."
+covers = [
+  "Making your work visible without becoming Rex",
+  "Promotions, reviews and the brag document",
+  "Boundaries, workload and burnout",
+  "Integrity under pressure",
+  "Knowing when to leave, and leaving well, which takes you back to Part I",
+]
+
+[[pages]]
+id = "epi"
+kind = "epilogue"
+title = "Epilogue: The Loop"
+href = "epilogue.html"
+label = "E"
+summary = "Dev's next move, Bea's referral, and the whole book on one page."
+covers = [
+  "How the long game feeds the next snapshot",
+  "The whole book on one page",
+]
+
+# ----------------------------------------------------------------------- parts
+
+[[parts]]
+id = "part1"
+label = "Part I"
+title = "The Snapshot Game"
+subtitle = "Getting (or switching) a job"
+
+[[parts]]
+id = "part2"
+label = "Part II"
+title = "The Long Game"
+subtitle = "Being yourself at work, from first principles"
+
+# ------------------------------------------------------------------------ cast
+# Speech lines use these keys: "@dev: Hello." Avatars are 64×64 head-and-shoulders SVGs.
+
+[cast.dev]
+name = "Dev"
+full_name = "Devika Rao"
+pronouns = "she/her"
+avatar = "cast/dev.svg"
+
+[cast.bea]
+name = "Bea"
+full_name = "Beatriz Santos"
+pronouns = "she/her"
+avatar = "cast/bea.svg"
+
+[cast.rex]
+name = "Rex"
+full_name = "Rex Calloway"
+pronouns = "he/him"
+avatar = "cast/rex.svg"
+
+[cast.meera]
+name = "Meera"
+full_name = "Meera Iyer"
+pronouns = "she/her"
+avatar = "cast/meera.svg"
+
+[cast.tomas]
+name = "Tomás"
+full_name = "Tomás Rivera"
+pronouns = "he/him"
+avatar = "cast/tomas.svg"
+
+[cast.kai]
+name = "Kai"
+full_name = "Kai Mensah"
+pronouns = "they/them"
+avatar = "cast/kai.svg"

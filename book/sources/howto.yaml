@@ -1,0 +1,133 @@
+# Sources for the front matter ("How to Use This Book"). Each was opened on the date given.
+
+mayer2003:
+  type: article
+  authors: ['Mayer, Richard E.', 'Moreno, Roxana']
+  year: 2003
+  title: Nine ways to reduce cognitive load in multimedia learning
+  container: Educational Psychologist
+  volume: '38'
+  issue: '1'
+  pages: 43-52
+  doi: 10.1207/S15326985EP3801_6
+  url: https://web.archive.org/web/2024/https://www.uky.edu/~gmswan3/575/9_ways_to_reduce_CL.pdf
+  url_checked: '2026-10-25'
+  url_note: Full article read from a course-hosted copy (archived).
+  kind: review
+  design: synthesis of the authors' experiments
+  supports: >-
+    Learners understand an explanation better when interesting but extraneous material is cut (coherence
+    effect, median effect size .90 over 5 experiments), when cues signal the structure (.74), and when
+    printed words sit next to the parts of the graphic they describe (.48).
+  sample: A 12-year programme of lab experiments with short multimedia lessons, measured by transfer tests.
+  grade: moderate
+  caveats: >-
+    Mostly short lessons with university students in one lab; later meta-analyses find smaller effects
+    for some principles.
+
+ginns2013:
+  type: article
+  authors: ['Ginns, Paul', 'Martin, Andrew J.', 'Marsh, Herbert W.']
+  year: 2013
+  title: 'Designing instructional text in a conversational style: A meta-analysis'
+  container: Educational Psychology Review
+  volume: '25'
+  issue: '4'
+  pages: 445-472
+  url: https://eric.ed.gov/?id=EJ1036785
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the ERIC API.
+  kind: evidence
+  design: meta-analysis
+  supports: >-
+    Conversational-style versions of instructional text improved retention (d = 0.30) and transfer
+    (d = 0.54); the clearest boundary condition was time, with small, non-significant effects in studies
+    longer than 35 minutes.
+  sample: Meta-analysis of personalisation experiments.
+  grade: strong
+  caveats: Abstract-level reading; most studies are short lab lessons.
+
+cheng2026:
+  type: article
+  authors: ['Cheng, Chao', 'Wu, Yijun', 'Wang, Ruobing', 'Wang, Zhe']
+  year: 2026
+  title: 'Seductive details, cognitive load, and learning outcomes: A multi-level meta-analysis and MASEM'
+  container: Educational Psychology Review
+  url: https://eric.ed.gov/?id=EJ1510171
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the ERIC API.
+  kind: evidence
+  design: multi-level meta-analysis
+  supports: >-
+    Interesting but irrelevant additions ("seductive details") have a small negative effect on learning
+    (g = -0.16 over 177 effect sizes from 50 studies), mainly by adding extraneous cognitive load.
+  sample: 50 studies, 177 effect sizes.
+  grade: strong
+  caveats: Small average effect with moderators (sample size, language, learning environment).
+
+dunlosky2013:
+  type: article
+  authors: ['Dunlosky, John', 'Rawson, Katherine A.', 'Marsh, Elizabeth J.', 'Nathan, Mitchell J.', 'Willingham, Daniel T.']
+  year: 2013
+  title: >-
+    Improving students' learning with effective learning techniques: Promising directions from cognitive
+    and educational psychology
+  container: Psychological Science in the Public Interest
+  volume: '14'
+  issue: '1'
+  pages: 4-58
+  doi: 10.1177/1529100612453266
+  url: https://pubmed.ncbi.nlm.nih.gov/26173288/
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the NCBI E-utilities API.
+  kind: review
+  design: systematic review of ten techniques
+  supports: >-
+    Practice testing and distributed practice received high utility ratings; rereading and highlighting
+    received low ratings because they do not consistently improve performance.
+  sample: Review of experimental literature across ages, materials and tasks.
+  grade: strong
+  caveats: Focused on students learning material for later tests.
+
+dekker2012:
+  type: article
+  authors: ['Dekker, Sanne', 'Lee, Nikki C.', 'Howard-Jones, Paul', 'Jolles, Jelle']
+  year: 2012
+  title: 'Neuromyths in education: Prevalence and predictors of misconceptions among teachers'
+  container: Frontiers in Psychology
+  volume: '3'
+  pages: '429'
+  doi: 10.3389/fpsyg.2012.00429
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3475349/
+  url_checked: '2026-10-25'
+  url_note: Full text read via the NCBI E-utilities API (PMC).
+  kind: evidence
+  design: survey
+  supports: >-
+    Teachers interested in neuroscience believed 49% of neuromyths on average, including learning styles
+    and "left-brain/right-brain" learners; more general brain knowledge predicted more belief in myths.
+  sample: 242 teachers in the UK and the Netherlands.
+  grade: moderate
+  caveats: Self-selected sample of teachers interested in the brain.
+
+cowan2001:
+  type: article
+  authors: ['Cowan, Nelson']
+  year: 2001
+  title: 'The magical number 4 in short-term memory: A reconsideration of mental storage capacity'
+  container: Behavioral and Brain Sciences
+  volume: '24'
+  issue: '1'
+  pages: 87-114
+  doi: 10.1017/s0140525x01003922
+  url: https://pubmed.ncbi.nlm.nih.gov/11515286/
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the NCBI E-utilities API.
+  kind: review
+  design: theoretical review
+  supports: >-
+    Miller's "seven" was a rough estimate; under conditions where chunks can be counted, short-term
+    memory holds about four chunks.
+  sample: Review of a wide range of capacity studies.
+  grade: strong
+  caveats: Capacity estimates depend on how chunks are defined and measured.

@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 600" class="fig">
+<title>Scatter plot of simulated interview scores against job performance</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<path d="M110.0 510.0 Q369.9 509.6 630.0 510.0" class="k"/><path d="M630.0 510.0 L619.4 504.3 M630.0 510.0 L619.4 515.6" class="k"/>
+<path d="M100.0 510.0 Q98.8 276.2 100.0 40.0" class="k"/><path d="M100.0 40.0 L94.3 50.6 M100.0 40.0 L105.6 50.6" class="k"/>
+<circle cx="345.6" cy="299.1" r="5" class="f-mute"/>
+<circle cx="348.9" cy="228.1" r="5" class="f-mute"/>
+<circle cx="347.2" cy="404.3" r="5" class="f-mute"/>
+<circle cx="393.2" cy="289.1" r="5" class="f-mute"/>
+<circle cx="338.3" cy="278.8" r="5" class="f-mute"/>
+<circle cx="383.2" cy="178.5" r="5" class="f-mute"/>
+<circle cx="425.7" cy="246.9" r="5" class="f-mute"/>
+<circle cx="286.2" cy="388.3" r="5" class="f-mute"/>
+<circle cx="384.6" cy="166.2" r="5" class="f-mute"/>
+<circle cx="364.2" cy="287.0" r="5" class="f-mute"/>
+<circle cx="413.2" cy="376.4" r="5" class="f-mute"/>
+<circle cx="328.8" cy="252.4" r="5" class="f-mute"/>
+<circle cx="447.3" cy="266.9" r="5" class="f-mute"/>
+<circle cx="397.7" cy="246.3" r="5" class="f-mute"/>
+<circle cx="438.2" cy="340.0" r="5" class="f-a1s"/>
+<circle cx="416.8" cy="380.0" r="5" class="f-mute"/>
+<circle cx="120.0" cy="425.3" r="5" class="f-mute"/>
+<circle cx="268.4" cy="243.9" r="5" class="f-mute"/>
+<circle cx="426.4" cy="352.8" r="5" class="f-mute"/>
+<circle cx="444.7" cy="328.7" r="5" class="f-a1s"/>
+<circle cx="351.4" cy="306.7" r="5" class="f-mute"/>
+<circle cx="371.4" cy="210.4" r="5" class="f-mute"/>
+<circle cx="423.8" cy="228.5" r="5" class="f-mute"/>
+<circle cx="425.0" cy="217.8" r="5" class="f-mute"/>
+<circle cx="297.3" cy="360.5" r="5" class="f-mute"/>
+<circle cx="313.0" cy="257.5" r="5" class="f-mute"/>
+<circle cx="335.0" cy="102.7" r="5" class="f-mute"/>
+<circle cx="278.1" cy="398.0" r="5" class="f-mute"/>
+<circle cx="436.8" cy="138.0" r="5" class="f-mute"/>
+<circle cx="410.6" cy="194.6" r="5" class="f-mute"/>
+<circle cx="502.6" cy="234.8" r="5" class="f-mute"/>
+<circle cx="217.7" cy="375.1" r="5" class="f-mute"/>
+<circle cx="455.3" cy="360.1" r="5" class="f-a1s"/>
+<circle cx="363.4" cy="258.5" r="5" class="f-mute"/>
+<circle cx="328.4" cy="233.9" r="5" class="f-mute"/>
+<circle cx="418.1" cy="73.1" r="5" class="f-mute"/>
+<circle cx="422.0" cy="305.8" r="5" class="f-mute"/>
+<circle cx="303.8" cy="367.2" r="5" class="f-mute"/>
+<circle cx="455.2" cy="290.1" r="5" class="f-mute"/>
+<circle cx="353.0" cy="222.8" r="5" class="f-mute"/>
+<circle cx="287.7" cy="330.2" r="5" class="f-mute"/>
+<circle cx="175.9" cy="434.5" r="5" class="f-mute"/>
+<circle cx="303.2" cy="267.8" r="5" class="f-mute"/>
+<circle cx="479.3" cy="237.4" r="5" class="f-mute"/>
+<circle cx="386.1" cy="256.9" r="5" class="f-mute"/>
+<circle cx="468.5" cy="168.6" r="5" class="f-mute"/>
+<circle cx="387.4" cy="350.6" r="5" class="f-mute"/>
+<circle cx="450.3" cy="216.2" r="5" class="f-mute"/>
+<circle cx="482.7" cy="237.0" r="5" class="f-mute"/>
+<circle cx="555.3" cy="236.5" r="5" class="f-mute"/>
+<circle cx="519.3" cy="211.9" r="5" class="f-mute"/>
+<circle cx="308.4" cy="389.2" r="5" class="f-mute"/>
+<circle cx="344.9" cy="171.9" r="5" class="f-mute"/>
+<circle cx="441.6" cy="194.8" r="5" class="f-mute"/>
+<circle cx="122.4" cy="311.0" r="5" class="f-mute"/>
+<circle cx="415.6" cy="303.4" r="5" class="f-mute"/>
+<circle cx="297.3" cy="303.4" r="5" class="f-mute"/>
+<circle cx="532.5" cy="300.5" r="5" class="f-mute"/>
+<circle cx="317.2" cy="187.1" r="5" class="f-a2s"/>
+<circle cx="315.4" cy="325.6" r="5" class="f-mute"/>
+<circle cx="369.8" cy="375.5" r="5" class="f-mute"/>
+<circle cx="382.0" cy="368.5" r="5" class="f-mute"/>
+<circle cx="448.5" cy="247.0" r="5" class="f-mute"/>
+<circle cx="588.3" cy="173.2" r="5" class="f-mute"/>
+<circle cx="496.6" cy="333.6" r="5" class="f-a1s"/>
+<circle cx="347.8" cy="258.7" r="5" class="f-mute"/>
+<circle cx="534.6" cy="349.7" r="5" class="f-a1s"/>
+<circle cx="459.1" cy="196.2" r="5" class="f-mute"/>
+<circle cx="513.4" cy="166.4" r="5" class="f-mute"/>
+<circle cx="365.2" cy="319.7" r="5" class="f-mute"/>
+<circle cx="235.2" cy="310.5" r="5" class="f-mute"/>
+<circle cx="340.8" cy="125.7" r="5" class="f-mute"/>
+<circle cx="298.9" cy="277.0" r="5" class="f-mute"/>
+<circle cx="203.1" cy="369.6" r="5" class="f-mute"/>
+<circle cx="386.1" cy="204.5" r="5" class="f-mute"/>
+<circle cx="504.8" cy="230.0" r="5" class="f-mute"/>
+<circle cx="248.3" cy="284.7" r="5" class="f-mute"/>
+<circle cx="411.7" cy="221.6" r="5" class="f-mute"/>
+<circle cx="290.0" cy="215.4" r="5" class="f-a2s"/>
+<circle cx="368.8" cy="220.9" r="5" class="f-mute"/>
+<circle cx="487.4" cy="184.3" r="5" class="f-mute"/>
+<circle cx="388.7" cy="97.5" r="5" class="f-mute"/>
+<circle cx="384.4" cy="294.6" r="5" class="f-mute"/>
+<circle cx="371.2" cy="157.4" r="5" class="f-mute"/>
+<circle cx="371.9" cy="234.1" r="5" class="f-mute"/>
+<circle cx="479.6" cy="276.8" r="5" class="f-mute"/>
+<circle cx="187.3" cy="319.9" r="5" class="f-mute"/>
+<circle cx="383.0" cy="320.1" r="5" class="f-mute"/>
+<circle cx="447.1" cy="199.3" r="5" class="f-mute"/>
+<circle cx="260.5" cy="275.4" r="5" class="f-mute"/>
+<circle cx="340.4" cy="405.7" r="5" class="f-mute"/>
+<circle cx="405.3" cy="266.9" r="5" class="f-mute"/>
+<circle cx="285.5" cy="265.8" r="5" class="f-mute"/>
+<circle cx="408.8" cy="308.1" r="5" class="f-mute"/>
+<circle cx="400.0" cy="184.1" r="5" class="f-mute"/>
+<circle cx="288.7" cy="275.9" r="5" class="f-mute"/>
+<circle cx="360.3" cy="98.9" r="5" class="f-mute"/>
+<circle cx="173.8" cy="293.3" r="5" class="f-mute"/>
+<circle cx="329.4" cy="299.3" r="5" class="f-mute"/>
+<circle cx="550.2" cy="210.4" r="5" class="f-mute"/>
+<circle cx="584.1" cy="232.5" r="5" class="f-mute"/>
+<circle cx="395.1" cy="306.2" r="5" class="f-mute"/>
+<circle cx="290.9" cy="300.5" r="5" class="f-mute"/>
+<circle cx="331.7" cy="274.3" r="5" class="f-mute"/>
+<circle cx="149.5" cy="197.9" r="5" class="f-a2s"/>
+<circle cx="343.3" cy="147.0" r="5" class="f-mute"/>
+<circle cx="259.3" cy="293.9" r="5" class="f-mute"/>
+<circle cx="600.0" cy="232.5" r="5" class="f-mute"/>
+<circle cx="210.5" cy="378.9" r="5" class="f-mute"/>
+<circle cx="407.2" cy="207.2" r="5" class="f-mute"/>
+<circle cx="489.0" cy="252.8" r="5" class="f-mute"/>
+<circle cx="199.8" cy="374.0" r="5" class="f-mute"/>
+<circle cx="484.0" cy="197.0" r="5" class="f-mute"/>
+<circle cx="164.3" cy="355.1" r="5" class="f-mute"/>
+<circle cx="499.8" cy="68.8" r="5" class="f-mute"/>
+<circle cx="416.2" cy="234.5" r="5" class="f-mute"/>
+<circle cx="236.0" cy="393.2" r="5" class="f-mute"/>
+<circle cx="364.7" cy="238.1" r="5" class="f-mute"/>
+<circle cx="418.0" cy="296.7" r="5" class="f-mute"/>
+<circle cx="244.8" cy="384.7" r="5" class="f-mute"/>
+<circle cx="244.3" cy="271.4" r="5" class="f-mute"/>
+<circle cx="128.8" cy="392.1" r="5" class="f-mute"/>
+<circle cx="405.0" cy="141.8" r="5" class="f-mute"/>
+<circle cx="367.1" cy="197.4" r="5" class="f-mute"/>
+<circle cx="320.1" cy="354.2" r="5" class="f-mute"/>
+<circle cx="292.6" cy="182.9" r="5" class="f-a2s"/>
+<circle cx="459.4" cy="204.3" r="5" class="f-mute"/>
+<circle cx="600.0" cy="159.5" r="5" class="f-mute"/>
+<circle cx="422.0" cy="232.5" r="5" class="f-mute"/>
+<circle cx="337.8" cy="103.2" r="5" class="f-mute"/>
+<circle cx="510.7" cy="336.1" r="5" class="f-a1s"/>
+<circle cx="320.0" cy="260.6" r="5" class="f-mute"/>
+<circle cx="438.3" cy="358.7" r="5" class="f-a1s"/>
+<circle cx="134.4" cy="491.2" r="5" class="f-mute"/>
+<circle cx="352.9" cy="290.9" r="5" class="f-mute"/>
+<circle cx="394.5" cy="328.7" r="5" class="f-mute"/>
+<circle cx="237.6" cy="486.8" r="5" class="f-mute"/>
+<circle cx="392.9" cy="238.3" r="5" class="f-mute"/>
+<circle cx="459.3" cy="180.1" r="5" class="f-mute"/>
+<circle cx="340.9" cy="179.3" r="5" class="f-mute"/>
+<circle cx="346.4" cy="337.8" r="5" class="f-mute"/>
+<circle cx="307.9" cy="345.9" r="5" class="f-mute"/>
+<circle cx="143.4" cy="347.6" r="5" class="f-mute"/>
+<circle cx="385.0" cy="299.7" r="5" class="f-mute"/>
+<circle cx="288.6" cy="276.7" r="5" class="f-mute"/>
+<circle cx="531.7" cy="213.5" r="5" class="f-mute"/>
+<circle cx="309.2" cy="346.0" r="5" class="f-mute"/>
+<circle cx="353.0" cy="383.6" r="5" class="f-mute"/>
+<circle cx="347.5" cy="279.7" r="5" class="f-mute"/>
+<circle cx="544.5" cy="136.5" r="5" class="f-mute"/>
+<path d="M120.0 368.7 Q358.4 280.0 600.5 190.8" class="k k-dash"/>
+<rect x="440.0" y="127.3" width="156" height="32" rx="6" class="f-paper"/>
+<text x="592.0" y="151.3" class="t t-end">trend: r = .42</text>
+<text x="130.0" y="92.0" class="t t-a2">fumbled the interview,</text><text x="130.0" y="118.0" class="t t-a2">star on the job</text>
+<path d="M205.0 130.0 Q170.3 152.5 153.5 189.9" class="k-thin k-a2"/><path d="M153.5 189.9 L163.0 182.5 M153.5 189.9 L152.7 177.9" class="k-thin k-a2"/>
+<text x="600.0" y="418.0" class="t t-a1 t-end">aced the interview,</text><text x="600.0" y="444.0" class="t t-a1 t-end">struggled on the job</text>
+<path d="M470.0 408.0 Q451.2 391.0 458.3 368.1" class="k-thin k-a1"/><path d="M458.3 368.1 L449.8 376.5 M458.3 368.1 L460.5 379.9" class="k-thin k-a1"/>
+<text x="360.0" y="548.0" class="t t-mid">interview score →</text>
+<g transform="rotate(-90 70 280)"><text x="70.0" y="280.0" class="t t-mid">job performance a year later →</text></g>
+<text x="360.0" y="586.0" class="t t-sm t-mute t-mid">Simulated people, drawn with a correlation of .42</text>
+</svg>
