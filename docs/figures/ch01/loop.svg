@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 570" class="fig">
+<title>The loop between the two games</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<path d="M150 290 A190 190 0 0 1 530 290" class="k-thick k-a1"/>
+<path d="M530 290 A190 190 0 0 1 150 290" class="k-thick k-a2"/>
+<path d="M530 292 L519 276 M530 292 L541 276" class="k-thick k-a1"/>
+<path d="M150 288 L139 304 M150 288 L161 304" class="k-thick k-a2"/>
+<text x="340.0" y="64.0" class="t-sans t-a1 t-mid">Part I · the snapshot game</text>
+<text x="340.0" y="538.0" class="t-sans t-a2 t-mid">Part II · the long game</text>
+<text x="195.4" y="239.6" class="t t-mid t-a1">apply</text>
+<text x="340.0" y="142.0" class="t t-mid t-a1">interview</text>
+<text x="484.6" y="239.6" class="t t-mid t-a1">offer</text>
+<text x="451.5" y="352.4" class="t t-mid t-a2">do the work</text>
+<text x="340.0" y="422.0" class="t t-mid t-a2">earn trust</text>
+<text x="228.5" y="352.4" class="t t-mid t-a2">grow</text>
+<circle cx="530" cy="290" r="15" class="f-paper k"/>
+<path d="M530.0 281.0 L532.4 286.7 L538.6 287.2 L533.9 291.3 L535.3 297.3 L530.0 294.1 L524.7 297.3 L526.1 291.3 L521.4 287.2 L527.6 286.7 Z" class="f-a3s k-thin"/>
+<text x="554.0" y="284.0" class="t">you’re</text><text x="554.0" y="310.0" class="t">hired</text>
+<circle cx="150" cy="290" r="15" class="f-paper k"/>
+<text x="128.0" y="242.0" class="t t-end">reputation,</text><text x="128.0" y="268.0" class="t t-end">skills, stories,</text><text x="128.0" y="294.0" class="t t-end">people:</text><text x="128.0" y="320.0" class="t t-end">your next</text><text x="128.0" y="346.0" class="t t-end">trailer</text>
+<g transform="translate(292.0 216.0) scale(1.500)"><defs><clipPath id="l-dev"><circle cx="32" cy="32" r="30.5"/></clipPath></defs><circle cx="32" cy="32" r="30.5" class="f-soft"/><g clip-path="url(#l-dev)"><path d="M18.6 30 C17.4 18 24 13.6 32 13.6 C40.5 13.6 47 18.4 45.6 30 L47.4 46.5 C44 49.5 40.5 48.4 39.4 45.4 L24.6 45.4 C23.5 48.4 20 49.5 16.6 46.5 Z" class="f-hair1 k-thin"/><path d="M27 40.5 L27 49 L37 49 L37 40.5 Z" class="f-skin3 k-thin"/><path d="M7 68 C8 54 17 48.5 32 48.5 C47 48.5 56 54 57 68 Z" class="f-dev k-thin"/><path d="M21.5 49.5 C25 55.5 39 55.5 42.5 49.5" class="k-thin"/><path d="M28.4 54 L27.6 61" class="k-thin"/><path d="M35.6 54 L36.4 61" class="k-thin"/><ellipse cx="19.8" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="44.2" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="32" cy="30" rx="12.4" ry="14" class="f-skin3 k-thin"/><path d="M19.7 27.5 C20 18.4 26 15.2 32.6 15.6 C39.4 16 44.2 19.8 44.5 27.5 C40.4 22.6 35.4 21.2 30 21.8 C25.8 22.3 22.4 24.4 19.7 27.5 Z" class="f-hair1 k-thin"/><rect x="37.2" y="18.2" width="6.4" height="2.8" rx="1.2" transform="rotate(28 40.4 19.6)" class="f-a2s k-thin"/><circle cx="27.4" cy="30.4" r="1.6" class="f-ink"/><circle cx="36.6" cy="30.4" r="1.6" class="f-ink"/><path d="M24.8 26.2 Q27.4 24.8 30 26" class="k-thin"/><path d="M34 26 Q36.6 24.8 39.2 26.2" class="k-thin"/><path d="M32.2 31.5 Q31 34.4 32.8 34.8" class="k-thin"/><path d="M28.4 37.6 Q32 40 35.6 37.4" class="k-thin"/></g><circle cx="32" cy="32" r="30.5" class="k-thin"/></g>
+<text x="340.0" y="342.0" class="t t-lg t-bold t-mid">one you</text>
+<text x="340.0" y="372.0" class="t t-mid t-mute">in both games</text>
+</svg>
