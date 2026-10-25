@@ -98,7 +98,7 @@
 <text x="80.0" y="488.0" class="t">random error</text>
 <rect x="40" y="502" width="26" height="26" rx="5" class="f-soft"/>
 <path d="M40.3 503.2 Q53.6 500.7 66.7 501.3 Q67.4 514.1 65.5 527.8 Q53.2 528.9 40.7 528.4 Q40.2 514.1 40.4 501.3 Z" class="k-thin"/>
-<text x="80.0" y="522.0" class="t">the rater’s role (boss, peer, report)</text>
+<text x="80.0" y="522.0" class="t">the rest, including the rater’s role</text>
 <text x="320.0" y="576.0" class="t t-sm t-mid t-mute">Shares of variance across many ratings,</text>
 <text x="320.0" y="600.0" class="t t-sm t-mid t-mute">not of any one person’s rating. Each manager had 7 raters.</text>
 </svg>

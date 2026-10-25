@@ -145,3 +145,29 @@ castilla2010:
   sample: 445 participants with managerial experience, rating hypothetical employee profiles.
   grade: moderate
   caveats: Experiments with hypothetical profiles, not real pay decisions.
+
+hoffman2010:
+  type: article
+  authors: ['Hoffman, Brian', 'Lance, Charles E.', 'Bynum, Bethany', 'Gentry, William A.']
+  year: 2010
+  title: Rater source effects are alive and well after all
+  container: Personnel Psychology
+  volume: '63'
+  issue: '1'
+  pages: 119-151
+  doi: 10.1111/j.1744-6570.2009.01164.x
+  url: https://doi.org/10.1111/j.1744-6570.2009.01164.x
+  url_checked: '2026-10-25'
+  url_note: Added during the Part III fact-check. doi.org resolved (HTTP 302); Crossref metadata checked; abstract read via OpenAlex. Full text not read.
+  kind: evidence
+  design: hierarchical confirmatory factor analysis of two large multisource (360-degree) rating samples
+  supports: >-
+    A reexamination of rater perspective effects (which scullen2000 found small). Modelling source effects as
+    second-order factors in two large samples, the structure of multisource ratings comprised general performance,
+    dimensional performance, idiosyncratic rater and source factors; source factors explained "(much) more variance"
+    and general performance "(much) less variance than was previously believed".
+  sample: Two large samples of multisource performance ratings; sizes not given in the abstract.
+  grade: moderate
+  caveats: >-
+    A modelling disagreement, not a refutation of scullen2000's main point: idiosyncratic rater effects remain
+    large, and ratee performance explains even less. Abstract-level reading; no percentages printed from it.
