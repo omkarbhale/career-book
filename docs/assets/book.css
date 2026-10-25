@@ -201,6 +201,15 @@ th, td { padding: 0.55em 0.75em; border-bottom: 1px solid var(--rule); vertical-
 th { font-family: var(--font-ui); font-size: 0.85em; letter-spacing: 0.02em; background: var(--paper-2); }
 tr:last-child td { border-bottom: 0; }
 tbody th[scope="row"] { font-family: var(--font-ui); font-weight: 700; font-size: 0.85em; background: transparent; letter-spacing: 0; }
+@media (max-width: 560px) {
+  .table-stack table, .table-stack tbody, .table-stack tr, .table-stack th[scope="row"], .table-stack td { display: block; width: auto; }
+  .table-stack thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .table-stack tr { padding: 0.6rem 0.85rem; border-bottom: 1px solid var(--rule); }
+  .table-stack tr:last-child { border-bottom: 0; }
+  .table-stack th[scope="row"] { padding: 0 0 0.3rem; font-size: 0.95rem; border: 0; }
+  .table-stack td { border: 0; padding: 0.25rem 0; }
+  .table-stack td[data-label]::before { content: attr(data-label); display: block; font: 700 0.7rem/1.4 var(--font-ui); letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-2); }
+}
 
 .skip { position: absolute; left: -999px; top: 0; background: var(--ink); color: var(--paper); padding: 0.6em 1em; z-index: 10; }
 .skip:focus { left: var(--gutter); top: var(--gutter); }
@@ -265,6 +274,12 @@ tbody th[scope="row"] { font-family: var(--font-ui); font-weight: 700; font-size
 .el-flashback, .el-coming { --el-accent: var(--a2-ink); --el-soft: transparent; border-top: 2px solid var(--rule); border-bottom: 2px solid var(--rule); border-radius: 0; padding: 0.7rem 0 0; font-size: 0.95em; }
 .el-flashback .el-title, .el-coming .el-title { font-size: 0.98rem; }
 .el-rewind { --el-accent: var(--a1-ink); --el-soft: var(--a3-soft); border-top: 4px solid var(--a3); }
+.el-further { --el-accent: var(--a4-ink); --el-soft: transparent; border: 1px dashed var(--a4); padding-bottom: 0.2rem; font-size: 0.95em; }
+.el-further .el-title { font-size: 0.98rem; }
+.el-resource { --el-accent: var(--a4-ink); --el-soft: var(--paper-2); border-left: 4px solid var(--a4); border-radius: 6px 14px 14px 6px; }
+.el-resource-evidence { --el-accent: var(--a2-ink); border-left-color: var(--a2); }
+.el-resource .el-title cite { font-style: italic; }
+.resource-by { font-family: var(--font-ui); }
 .el-rewind ul { padding-left: 1.2em; }
 .el-rewind li::marker { color: var(--a1); content: "\25B8  "; }
 

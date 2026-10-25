@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 960" class="fig">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 1432" class="fig">
 <title>Map of the book as a loop of chapters</title>
 <style>
 /* Figure vocabulary. Every figure's style element is an exact copy of this file
@@ -56,68 +56,86 @@
 .fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
 .fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
 </style>
-<path d="M200 120 C140 120 120 140 120 200 L120 800 C120 860 140 880 200 880" class="k-thick k-a1"/>
-<path d="M200 880 L400 880" class="k-thick k-mute"/>
-<path d="M400 880 C460 880 480 860 480 800 L480 200 C480 140 460 120 400 120" class="k-thick k-a2"/>
-<path d="M400 120 L200 120" class="k-thick k-mute k-dash"/>
-<g transform="rotate(-90 70 500.0)"><text x="70.0" y="500.0" class="t-sans t-a1 t-mid">Part I · the snapshot game</text></g>
-<g transform="rotate(90 530 500.0)"><text x="530.0" y="500.0" class="t-sans t-a2 t-mid">Part II · the long game</text></g>
-<circle cx="120" cy="230" r="17" class="f-paper k k-a1"/>
-<text x="120.0" y="237.0" class="t t-sm t-bold t-mid">2</text>
-<text x="150.0" y="238.0" class="t">Stay or go?</text>
-<circle cx="120" cy="314" r="17" class="f-paper k k-a1"/>
-<text x="120.0" y="321.0" class="t t-sm t-bold t-mid">3</text>
-<text x="150.0" y="322.0" class="t">The other side</text>
-<circle cx="120" cy="398" r="17" class="f-paper k k-a1"/>
-<text x="120.0" y="405.0" class="t t-sm t-bold t-mid">4</text>
-<text x="150.0" y="406.0" class="t">Your evidence</text>
-<circle cx="120" cy="482" r="17" class="f-paper k k-a1"/>
-<text x="120.0" y="489.0" class="t t-sm t-bold t-mid">5</text>
-<text x="150.0" y="490.0" class="t">Paper you</text>
-<circle cx="120" cy="566" r="17" class="f-paper k k-a1"/>
-<text x="120.0" y="573.0" class="t t-sm t-bold t-mid">6</text>
-<text x="150.0" y="574.0" class="t">People</text>
-<circle cx="120" cy="650" r="17" class="f-paper k k-a1"/>
-<text x="120.0" y="657.0" class="t t-sm t-bold t-mid">7</text>
-<text x="150.0" y="658.0" class="t">Interviews</text>
-<circle cx="120" cy="734" r="17" class="f-paper k k-a1"/>
-<text x="120.0" y="741.0" class="t t-sm t-bold t-mid">8</text>
-<text x="150.0" y="742.0" class="t">Show your work</text>
-<circle cx="120" cy="818" r="17" class="f-paper k k-a1"/>
-<text x="120.0" y="825.0" class="t t-sm t-bold t-mid">9</text>
-<text x="150.0" y="826.0" class="t">Offer &amp; exit</text>
-<circle cx="480" cy="818" r="17" class="f-paper k k-a2"/>
-<text x="480.0" y="825.0" class="t t-sm t-bold t-mid">10</text>
-<text x="450.0" y="826.0" class="t t-end">Trust</text>
-<circle cx="480" cy="734" r="17" class="f-paper k k-a2"/>
-<text x="480.0" y="741.0" class="t t-sm t-bold t-mid">11</text>
-<text x="450.0" y="742.0" class="t t-end">First 90 days</text>
-<circle cx="480" cy="650" r="17" class="f-paper k k-a2"/>
-<text x="480.0" y="657.0" class="t t-sm t-bold t-mid">12</text>
-<text x="450.0" y="658.0" class="t t-end">Reliability</text>
-<circle cx="480" cy="566" r="17" class="f-paper k k-a2"/>
-<text x="480.0" y="573.0" class="t t-sm t-bold t-mid">13</text>
-<text x="450.0" y="574.0" class="t t-end">Talk &amp; write</text>
-<circle cx="480" cy="482" r="17" class="f-paper k k-a2"/>
-<text x="480.0" y="489.0" class="t t-sm t-bold t-mid">14</text>
-<text x="450.0" y="490.0" class="t t-end">The dial</text>
-<circle cx="480" cy="398" r="17" class="f-paper k k-a2"/>
-<text x="480.0" y="405.0" class="t t-sm t-bold t-mid">15</text>
-<text x="450.0" y="406.0" class="t t-end">Friends at work</text>
-<circle cx="480" cy="314" r="17" class="f-paper k k-a2"/>
-<text x="480.0" y="321.0" class="t t-sm t-bold t-mid">16</text>
-<text x="450.0" y="322.0" class="t t-end">Conflict</text>
-<circle cx="480" cy="230" r="17" class="f-paper k k-a2"/>
-<text x="480.0" y="237.0" class="t t-sm t-bold t-mid">17</text>
-<text x="450.0" y="238.0" class="t t-end">Growing</text>
-<circle cx="200" cy="120" r="22" class="f-a3 k"/>
-<text x="200.0" y="128.0" class="t t-bold t-mid">1</text>
-<text x="200.0" y="84.0" class="t t-mid">Start: two games</text>
-<circle cx="400" cy="120" r="22" class="f-a3 k"/>
-<text x="400.0" y="128.0" class="t t-bold t-mid">E</text>
-<text x="400.0" y="84.0" class="t t-mid">Epilogue: the loop</text>
-<circle cx="300" cy="880" r="18" class="f-paper k"/>
-<path d="M300.0 869.0 L302.9 876.0 L310.5 876.6 L304.7 881.5 L306.5 888.9 L300.0 885.0 L293.5 888.9 L295.3 881.5 L289.5 876.6 L297.1 876.0 Z" class="f-a3s k-thin"/>
-<text x="300.0" y="926.0" class="t t-mid">you’re hired</text>
-<text x="300.0" y="160.0" class="t t-sm t-mid t-mute">the next move</text>
+<path d="M110 132 L110 138" class="k-thick k-mute"/>
+<path d="M110 138 L110 556" class="k-thick k-a1"/>
+<path d="M110 556 L110 610" class="k-thick k-mute"/>
+<path d="M110 610 L110 1028" class="k-thick k-a2"/>
+<path d="M110 1028 L110 1036" class="k-thick k-mute"/>
+<path d="M110 1036 L110 1316" class="k-thick k-a4"/>
+<path d="M110 1316 L110 1330" class="k-thick k-mute"/>
+<circle cx="110" cy="110" r="22" class="f-a3 k"/>
+<text x="110.0" y="118.0" class="t t-bold t-mid">1</text>
+<text x="150.0" y="118.0" class="t">Start: three games</text>
+<text x="150.0" y="174.0" class="t-sans t-a1">Part I · the snapshot game</text>
+<circle cx="110" cy="214" r="17" class="f-paper k k-a1"/>
+<text x="110.0" y="221.0" class="t t-sm t-bold t-mid">2</text>
+<text x="150.0" y="222.0" class="t">Stay or go?</text>
+<circle cx="110" cy="260" r="17" class="f-paper k k-a1"/>
+<text x="110.0" y="267.0" class="t t-sm t-bold t-mid">3</text>
+<text x="150.0" y="268.0" class="t">The other side</text>
+<circle cx="110" cy="306" r="17" class="f-paper k k-a1"/>
+<text x="110.0" y="313.0" class="t t-sm t-bold t-mid">4</text>
+<text x="150.0" y="314.0" class="t">Your evidence</text>
+<circle cx="110" cy="352" r="17" class="f-paper k k-a1"/>
+<text x="110.0" y="359.0" class="t t-sm t-bold t-mid">5</text>
+<text x="150.0" y="360.0" class="t">Paper you</text>
+<circle cx="110" cy="398" r="17" class="f-paper k k-a1"/>
+<text x="110.0" y="405.0" class="t t-sm t-bold t-mid">6</text>
+<text x="150.0" y="406.0" class="t">People, not portals</text>
+<circle cx="110" cy="444" r="17" class="f-paper k k-a1"/>
+<text x="110.0" y="451.0" class="t t-sm t-bold t-mid">7</text>
+<text x="150.0" y="452.0" class="t">Interviews</text>
+<circle cx="110" cy="490" r="17" class="f-paper k k-a1"/>
+<text x="110.0" y="497.0" class="t t-sm t-bold t-mid">8</text>
+<text x="150.0" y="498.0" class="t">Show your work</text>
+<circle cx="110" cy="536" r="17" class="f-paper k k-a1"/>
+<text x="110.0" y="543.0" class="t t-sm t-bold t-mid">9</text>
+<text x="150.0" y="544.0" class="t">Offer and exit</text>
+<circle cx="110" cy="582" r="18" class="f-paper k"/>
+<path d="M110.0 571.0 L112.9 578.0 L120.5 578.6 L114.7 583.5 L116.5 590.9 L110.0 587.0 L103.5 590.9 L105.3 583.5 L99.5 578.6 L107.1 578.0 Z" class="f-a3s k-thin"/>
+<text x="150.0" y="590.0" class="t t-mute">you’re hired</text>
+<text x="150.0" y="646.0" class="t-sans t-a2">Part II · the long game</text>
+<circle cx="110" cy="686" r="17" class="f-paper k k-a2"/>
+<text x="110.0" y="693.0" class="t t-sm t-bold t-mid">10</text>
+<text x="150.0" y="694.0" class="t">Trust</text>
+<circle cx="110" cy="732" r="17" class="f-paper k k-a2"/>
+<text x="110.0" y="739.0" class="t t-sm t-bold t-mid">11</text>
+<text x="150.0" y="740.0" class="t">First 90 days</text>
+<circle cx="110" cy="778" r="17" class="f-paper k k-a2"/>
+<text x="110.0" y="785.0" class="t t-sm t-bold t-mid">12</text>
+<text x="150.0" y="786.0" class="t">Reliability</text>
+<circle cx="110" cy="824" r="17" class="f-paper k k-a2"/>
+<text x="110.0" y="831.0" class="t t-sm t-bold t-mid">13</text>
+<text x="150.0" y="832.0" class="t">Talk and write</text>
+<circle cx="110" cy="870" r="17" class="f-paper k k-a2"/>
+<text x="110.0" y="877.0" class="t t-sm t-bold t-mid">14</text>
+<text x="150.0" y="878.0" class="t">The dial</text>
+<circle cx="110" cy="916" r="17" class="f-paper k k-a2"/>
+<text x="110.0" y="923.0" class="t t-sm t-bold t-mid">15</text>
+<text x="150.0" y="924.0" class="t">Friends at work</text>
+<circle cx="110" cy="962" r="17" class="f-paper k k-a2"/>
+<text x="110.0" y="969.0" class="t t-sm t-bold t-mid">16</text>
+<text x="150.0" y="970.0" class="t">Conflict</text>
+<circle cx="110" cy="1008" r="17" class="f-paper k k-a2"/>
+<text x="110.0" y="1015.0" class="t t-sm t-bold t-mid">17</text>
+<text x="150.0" y="1016.0" class="t">Under pressure</text>
+<text x="150.0" y="1072.0" class="t-sans t-a4">Part III · the career game</text>
+<circle cx="110" cy="1112" r="17" class="f-paper k k-a4"/>
+<text x="110.0" y="1119.0" class="t t-sm t-bold t-mid">18</text>
+<text x="150.0" y="1120.0" class="t">The review</text>
+<circle cx="110" cy="1158" r="17" class="f-paper k k-a4"/>
+<text x="110.0" y="1165.0" class="t t-sm t-bold t-mid">19</text>
+<text x="150.0" y="1166.0" class="t">The promotion case</text>
+<circle cx="110" cy="1204" r="17" class="f-paper k k-a4"/>
+<text x="110.0" y="1211.0" class="t t-sm t-bold t-mid">20</text>
+<text x="150.0" y="1212.0" class="t">What to get good at</text>
+<circle cx="110" cy="1250" r="17" class="f-paper k k-a4"/>
+<text x="110.0" y="1257.0" class="t t-sm t-bold t-mid">21</text>
+<text x="150.0" y="1258.0" class="t">Expert or manager?</text>
+<circle cx="110" cy="1296" r="17" class="f-paper k k-a4"/>
+<text x="110.0" y="1303.0" class="t t-sm t-bold t-mid">22</text>
+<text x="150.0" y="1304.0" class="t">The whole career</text>
+<circle cx="110" cy="1352" r="22" class="f-a3 k"/>
+<text x="110.0" y="1360.0" class="t t-bold t-mid">E</text>
+<text x="150.0" y="1360.0" class="t">Epilogue: the loop</text><path d="M134 1362 C270 1422 560 1372 560 1232 L560 190 C560 40 180 24 116 82" class="k-thick k-dash k-a1"/><path d="M116 82 L119 64 M116 82 L134 78" class="k-thick k-a1"/><g transform="rotate(90 590 731.0)"><text x="590.0" y="731.0" class="t t-a1 t-mid">the next move, made from strength</text></g>
 </svg>
