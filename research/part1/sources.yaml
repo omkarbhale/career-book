@@ -812,7 +812,7 @@ abc2013-google:
 
 powell2018:
   type: article
-  authors: [Deborah M. Powell, David J. Stanley, Kayla N. Brown]
+  authors: [Deborah M. Powell, David J. Stanley, K. N. Brown]
   year: 2018
   title: "Meta-analysis of the relation between interview anxiety and interview performance"
   venue: Canadian Journal of Behavioural Science
@@ -845,7 +845,7 @@ barrick2010:
 
 swider2016:
   type: article
-  authors: [Brian W. Swider, Murray R. Barrick, T. Brad Harris]
+  authors: [Brian W. Swider, Murray R. Barrick, T. B. Harris]
   year: 2016
   title: "Initial impressions: What they are, what they are not, and how they influence structured interview outcomes"
   venue: Journal of Applied Psychology, 101(5), 625-638
@@ -856,7 +856,7 @@ swider2016:
   supports: 163 mock interviews - a significant portion of initial impressions' influence overlaps with job-related content; distinct from image-related constructs; stronger on early than late answers.
   sample: 163 mock interviews (accountancy students per BPS summary).
   grade: strong
-  caveats: Mock interviews; third author's middle initial from PubMed listing "Harris TB".
+  caveats: Mock interviews.
   commercial: false
   topics: [interviewing, first-impressions]
 
@@ -1000,3 +1000,321 @@ govuk-notice:
   caveats: Great Britain; contracts commonly specify longer periods.
   commercial: false
   topics: [switching, regional]
+
+galinsky2001:
+  type: article
+  authors: [Adam D. Galinsky, Thomas Mussweiler]
+  year: 2001
+  title: "First offers as anchors: The role of perspective-taking and negotiator focus"
+  venue: Journal of Personality and Social Psychology, 81(4), 657-669
+  doi: 10.1037/0022-3514.81.4.657
+  url: https://pubmed.ncbi.nlm.nih.gov/11642352/
+  url_note: Abstract retrieved via NCBI E-utilities (PMID 11642352); DOI via Crossref.
+  accessed: 2026-10-25
+  supports: Across three experiments whichever party made the first offer obtained a better outcome; first offers strongly predicted settlement; effect eliminated when the other side focused on the opponent's alternatives, reservation price, or own target; held face-to-face and by email.
+  sample: Laboratory negotiation experiments (MBA/student participants).
+  grade: strong
+  caveats: Lab deal-making, not employment negotiations with an ongoing relationship.
+  commercial: false
+  topics: [negotiation]
+
+hallkrueger2012:
+  type: article
+  authors: [Robert E. Hall, Alan B. Krueger]
+  year: 2012
+  title: "Evidence on the incidence of wage posting, wage bargaining, and on-the-job search"
+  venue: American Economic Journal - Macroeconomics, 4(4), 56-67
+  doi: 10.1257/mac.4.4.56
+  url: https://www.nber.org/papers/w16033
+  url_note: NBER w16033 abstract (2010 working-paper title "Evidence on the determinants of the choice between wage posting and wage bargaining"); also Princeton IRS working paper 1062 abstract https://repec-prod.princeton.edu/econlib/RePEc/pri/papers/1062
+  accessed: 2026-10-25
+  supports: Representative US survey - a third bargained over pay before accepting; about a third had precise pay information at first meeting; about 40% could have stayed in their earlier jobs; wages higher among bargainers after adjusting for composition.
+  sample: Representative sample of US workers (Princeton survey).
+  grade: strong
+  caveats: Self-report; c. 2008-2009 data.
+  commercial: false
+  topics: [negotiation]
+
+marks2011:
+  type: article
+  authors: [Michelle Marks, Crystal Harold]
+  year: 2011
+  title: "Who asks and who receives in salary negotiation"
+  venue: Journal of Organizational Behavior, 32(3), 371-394
+  doi: 10.1002/job.671
+  url: https://www.strategy-business.com/article/11115
+  url_note: Read via strategy+business coverage; DOI/venue via Crossref; article not opened.
+  accessed: 2026-10-25
+  supports: Survey of 149 employees - negotiators rather than accepters of first offer boosted annual pay by an average of US$5,000; most competitive negotiators gained most.
+  sample: 149 employees.
+  grade: weak
+  caveats: Secondary coverage; self-report; selection into negotiating.
+  commercial: false
+  topics: [negotiation]
+
+leibbrandt2015:
+  type: article
+  authors: [Andreas Leibbrandt, John A. List]
+  year: 2015
+  title: "Do women avoid salary negotiations? Evidence from a large-scale natural field experiment"
+  venue: Management Science, 61(9), 2016-2024
+  doi: 10.1287/mnsc.2014.1994
+  url: https://gap.hks.harvard.edu/do-women-avoid-salary-negotiations-evidence-large-scale-natural-field-experiment
+  url_note: Harvard Kennedy School Gender Action Portal summary; NBER w18511 abstract also opened https://www.nber.org/papers/w18511
+  accessed: 2026-10-25
+  supports: 2,422 job seekers responding to ads on 18 job boards in nine US cities; without a negotiability statement men negotiated more; with "negotiable" stated the difference disappeared (women 21.2%, men 21.4%); initiation 21% vs 7%; statement cut application gender gap ~45%.
+  sample: 2,422 US job seekers (administrative-assistant style postings).
+  grade: strong
+  caveats: One job type; figures from GAP summary.
+  commercial: false
+  topics: [negotiation, gender]
+
+bowles2007:
+  type: article
+  authors: [Hannah Riley Bowles, Linda Babcock, Lei Lai]
+  year: 2007
+  title: "Social incentives for gender differences in the propensity to initiate negotiations: Sometimes it does hurt to ask"
+  venue: Organizational Behavior and Human Decision Processes, 103(1), 84-103
+  doi: 10.1016/j.obhdp.2006.09.001
+  url: https://gap.hks.harvard.edu/social-incentives-gender-differences-propensity-initiate-negotiations-sometimes-it-does-hurt-ask
+  url_note: Gender Action Portal summary; Harvard DASH full text returned 429 (rate-limited).
+  accessed: 2026-10-25
+  supports: Four experiments; evaluators penalised women more than men for initiating compensation negotiations; negative effect on willingness to work with candidate 5.5x greater for female candidates; in video study male evaluators penalised only women, female evaluators penalised all.
+  sample: US experimental participants (GAP lists 1,070 per search snippet; not confirmed on opened page).
+  grade: strong
+  caveats: Hypothetical evaluations; 2000s US.
+  commercial: false
+  topics: [negotiation, gender]
+
+hernandez2019:
+  type: article
+  authors: [Morela Hernandez, Derek R. Avery, Sabrina D. Volpone, Cheryl R. Kaiser]
+  year: 2019
+  title: "Bargaining while Black: The role of race in salary negotiations"
+  venue: Journal of Applied Psychology, 104(4), 581-592
+  doi: 10.1037/apl0000363
+  url: https://pubmed.ncbi.nlm.nih.gov/30335407/
+  url_note: Abstract via NCBI E-utilities (PMID 30335407).
+  accessed: 2026-10-25
+  supports: Three studies - more racially biased evaluators expect Black job seekers to negotiate less; when they negotiate they receive lower starting salaries; evaluators more resistant to concessions.
+  sample: Experimental studies, US.
+  grade: strong
+  caveats: Simulated negotiations.
+  commercial: false
+  topics: [negotiation, discrimination]
+
+clockspot-paytransparency:
+  type: web
+  authors: [Clockspot]
+  year: 2026
+  title: "Pay transparency laws by state: Salary range posting rules"
+  venue: Clockspot (time-tracking software vendor)
+  url: https://www.clockspot.com/articles/pay-transparency-laws-by-state
+  accessed: 2026-10-25
+  supports: As of May 2026, 13 states plus DC have effective pay-transparency posting laws (CA, CO, CT, DC, HI, IL, MD, MA, MN, NJ, NY, RI, VT, WA); employee thresholds by state; CA/WA/NY/CO reach remote roles residents could perform.
+  sample: n/a
+  grade: moderate
+  caveats: Vendor summary, not legal advice; verify individual statutes before print.
+  commercial: true
+  topics: [pay-transparency, regional]
+
+cooley2026:
+  type: web
+  authors: [Cooley LLP]
+  year: 2026
+  title: "Show me the money (or the wage range): New state pay transparency laws"
+  venue: Cooley insight, 6 July 2026
+  url: https://www.cooley.com/news/insight/2026/2026-07-06-show-me-the-money-or-the-wage-range-new-state-pay-transparency-laws
+  accessed: 2026-10-25
+  supports: Virginia (effective 1 July 2026; all employers; also bans seeking/relying on salary history), Maine (29 July 2026; 10+ employees), Delaware (26 September 2027; more than 25 employees), Connecticut changes.
+  sample: n/a
+  grade: moderate
+  caveats: Law-firm client alert.
+  commercial: false
+  topics: [pay-transparency, regional]
+
+nydol-paytransparency:
+  type: government
+  authors: [New York State Department of Labor]
+  year: 2026
+  title: "Pay transparency"
+  venue: dol.ny.gov
+  url: https://dol.ny.gov/pay-transparency
+  accessed: 2026-10-25
+  supports: Labor Law Section 194-B requires NY State businesses with four or more employees to list compensation ranges and job descriptions for advertised jobs, promotions, transfers.
+  sample: n/a
+  grade: strong
+  caveats: State-level; NYC has its own ordinance.
+  commercial: false
+  topics: [pay-transparency, regional]
+
+ec-paytransparency:
+  type: government
+  authors: [European Commission]
+  year: 2026
+  title: "EU action for equal pay"
+  venue: commission.europa.eu
+  url: https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/gender-equality/equal-pay/eu-action-equal-pay_en
+  accessed: 2026-10-25
+  supports: Directive (EU) 2023/970 includes a right to information on pay prior to employment and a prohibition on asking salary history; member states must transpose by 7 June 2026.
+  sample: n/a
+  grade: strong
+  caveats: The directive text on EUR-Lex blocked automated access; details via Commission summary.
+  commercial: false
+  topics: [pay-transparency, regional]
+
+lockton2026-eu:
+  type: web
+  authors: [Lockton]
+  year: 2026
+  title: "EU Pay Transparency Directive implementation status"
+  venue: Lockton alert, 25 September 2026
+  url: https://global.lockton.com/us/en/news-insights/eu-pay-transparency-directive-implementation-status
+  accessed: 2026-10-25
+  supports: Status table as of 23 September 2026 - few member states fully transposed by deadline (e.g., Greece, Italy, Lithuania, Malta); Germany and France not yet; Estonia partially (pre-employment provisions from 13 July 2026).
+  sample: n/a
+  grade: moderate
+  caveats: Broker/consultancy summary; fast-moving.
+  commercial: true
+  topics: [pay-transparency, regional]
+
+cullen2023:
+  type: article
+  authors: [Zoe B. Cullen, Bobak Pakzad-Hurson]
+  year: 2023
+  title: "Equilibrium effects of pay transparency"
+  venue: Econometrica, 91(3), 765-802
+  doi: 10.3982/ECTA19788
+  url: https://www.nber.org/papers/w28903
+  url_note: NBER w28903 abstract page opened; publication details via Crossref.
+  accessed: 2026-10-25
+  supports: US state laws protecting workers' right to discuss pay led wages to decline by approximately 2%; smaller where workers have low individual bargaining power; mechanism - reduced individual bargaining power.
+  sample: US private sector, state-level event study.
+  grade: strong
+  caveats: About pay-discussion protections, not range-posting mandates.
+  commercial: false
+  topics: [pay-transparency, negotiation]
+
+irs-p525:
+  type: government
+  authors: [US Internal Revenue Service]
+  year: 2026
+  title: "Publication 525: Taxable and nontaxable income"
+  venue: irs.gov
+  url: https://www.irs.gov/publications/p525
+  accessed: 2026-10-25
+  supports: Rules for nonstatutory stock options (income at grant only if FMV readily determinable, else at exercise), statutory/incentive stock options (AMT implications), restricted property taxed when no longer subject to substantial risk of forfeiture.
+  sample: n/a
+  grade: strong
+  caveats: US federal tax only; not advice.
+  commercial: false
+  topics: [equity]
+
+secfi-vesting:
+  type: web
+  authors: [Secfi]
+  year: 2026
+  title: "What is a stock option vesting schedule?"
+  venue: Secfi (equity-financing company)
+  url: https://secfi.com/learn/stock-option-vesting-schedule
+  accessed: 2026-10-25
+  supports: Most common schedule is four-year vesting with a one-year cliff, 25% after year one.
+  sample: n/a
+  grade: weak
+  caveats: Vendor explainer; prevalence not measured here.
+  commercial: true
+  topics: [equity]
+
+interviewguys-counteroffer:
+  type: web
+  authors: [The Interview Guys]
+  year: 2026
+  title: "The counteroffer stat everyone cites is fake"
+  venue: The Interview Guys blog
+  url: https://blog.theinterviewguys.com/?p=17416
+  accessed: 2026-10-25
+  supports: The 80% counteroffer-departure statistic cannot be traced to a legitimate study; figure varies (48-93%); CEB data cited by HBR put it closer to 50% within 12 months (not verified here).
+  sample: n/a
+  grade: weak
+  caveats: Commercial career site; CEB claim unverified; year approximate.
+  commercial: true
+  topics: [counteroffers, myths]
+
+4dayweek-counteroffer:
+  type: web
+  authors: [4dayweek.io]
+  year: 2026
+  title: "Should you accept a counteroffer?"
+  venue: 4dayweek.io career advice
+  url: https://4dayweek.io/career-advice/counteroffer
+  accessed: 2026-10-25
+  supports: No large credible research supports 70-90% counteroffer departure figures; notes recruiters' interest in discouraging counteroffers; CEB ~50% within 12 months, methodology not widely published.
+  sample: n/a
+  grade: weak
+  caveats: Commercial job board; year approximate.
+  commercial: true
+  topics: [counteroffers, myths]
+
+niederle2009:
+  type: article
+  authors: [Muriel Niederle, Alvin E. Roth]
+  year: 2009
+  title: "Market culture: How rules governing exploding offers affect market performance"
+  venue: American Economic Journal - Microeconomics, 1(2), 199-219
+  doi: 10.1257/mic.1.2.199
+  url: https://stanford.edu/~alroth/papers/MarketCultureAEJMicro.pdf
+  accessed: 2026-10-25
+  supports: Markets with far-advance transactions allow exploding offers and forbid reneging; lab - exploding offers with binding acceptances produce inefficient early contracting; relaxing either yields later, better-informed, more efficient matching.
+  sample: Field comparison of ~a dozen markets plus lab experiments.
+  grade: moderate
+  caveats: Market-design evidence, not individual negotiation advice.
+  commercial: false
+  topics: [offers]
+
+eeoc-ftc-background:
+  type: government
+  authors: [US EEOC, US FTC]
+  year: 2014
+  title: "Background checks: What job applicants and employees should know"
+  venue: eeoc.gov (joint EEOC/FTC guidance)
+  url: https://www.eeoc.gov/laws/guidance/background-checks-what-job-applicants-and-employees-should-know
+  accessed: 2026-10-25
+  supports: Employer must ask written permission before getting a report from a background-check company; must provide a copy and notice of rights before acting on it adversely; must treat applicants equally.
+  sample: n/a
+  grade: strong
+  caveats: US federal; states add rules.
+  commercial: false
+  topics: [background-checks, legal]
+
+agan2018:
+  type: article
+  authors: [Amanda Agan, Sonja Starr]
+  year: 2018
+  title: "Ban the box, criminal records, and racial discrimination: A field experiment"
+  venue: Quarterly Journal of Economics, 133(1), 191-235
+  doi: 10.1093/qje/qjx028
+  url: https://www.cato.org/sites/cato.org/files/pubs/pdf/rb65.pdf
+  url_note: Cato Research Brief by the authors (working-paper version); Princeton Alumni Weekly summary also opened https://paw.princeton.edu/article/economics-study-finds-employer-bias-increased-after-ban-box
+  accessed: 2026-10-25
+  supports: ~15,000 fictitious applications in NJ and NYC before/after ban-the-box; employers asking about records called no-record applicants 63% more; white-Black callback gap among affected employers rose from ~7% to ~45% (43% in some versions).
+  sample: Entry-level online applications, young men without college.
+  grade: strong
+  caveats: Figures differ slightly by version.
+  commercial: false
+  topics: [background-checks, discrimination]
+
+govuk-dbs:
+  type: government
+  authors: [GOV.UK / Disclosure and Barring Service]
+  year: 2026
+  title: "DBS checks (applicant criminal record checks) and About DBS"
+  venue: gov.uk
+  url: https://www.gov.uk/dbs-check-applicant-criminal-record
+  url_note: Also https://www.gov.uk/government/organisations/disclosure-and-barring-service/about
+  accessed: 2026-10-25
+  supports: Four types of DBS check (basic, standard, enhanced, enhanced with barred lists); basic shows unspent convictions and conditional cautions; results issued to the applicant.
+  sample: n/a
+  grade: strong
+  caveats: England and Wales (Scotland and NI differ).
+  commercial: false
+  topics: [background-checks, regional]
