@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 616" class="fig">
+<title>Illustration: chance of no offer after many applications</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<text x="24.0" y="40.0" class="t t-sans">Chance of still having no offer</text>
+<path d="M100 470.0 L610 470.0" class="k-thin k-mute k-dash"/>
+<text x="88.0" y="478.0" class="t t-sm t-end t-mute">0%</text>
+<path d="M100 380.0 L610 380.0" class="k-thin k-mute k-dash"/>
+<text x="88.0" y="388.0" class="t t-sm t-end t-mute">25%</text>
+<path d="M100 290.0 L610 290.0" class="k-thin k-mute k-dash"/>
+<text x="88.0" y="298.0" class="t t-sm t-end t-mute">50%</text>
+<path d="M100 200.0 L610 200.0" class="k-thin k-mute k-dash"/>
+<text x="88.0" y="208.0" class="t t-sm t-end t-mute">75%</text>
+<path d="M100 110.0 L610 110.0" class="k-thin k-mute k-dash"/>
+<text x="88.0" y="118.0" class="t t-sm t-end t-mute">100%</text>
+<text x="100.0" y="502.0" class="t t-sm t-mid t-mute">0</text>
+<text x="270.0" y="502.0" class="t t-sm t-mid t-mute">20</text>
+<text x="440.0" y="502.0" class="t t-sm t-mid t-mute">40</text>
+<text x="610.0" y="502.0" class="t t-sm t-mid t-mute">60</text>
+<path d="M100.0 110.0 L108.5 113.6 L117.0 117.2 L125.5 120.7 L134.0 124.2 L142.5 127.6 L151.0 131.1 L159.5 134.5 L168.0 137.8 L176.5 141.1 L185.0 144.4 L193.5 147.7 L202.0 150.9 L210.5 154.1 L219.0 157.3 L227.5 160.4 L236.0 163.5 L244.5 166.5 L253.0 169.6 L261.5 172.6 L270.0 175.6 L278.5 178.5 L287.0 181.4 L295.5 184.3 L304.0 187.2 L312.5 190.0 L321.0 192.8 L329.5 195.6 L338.0 198.3 L346.5 201.0 L355.0 203.7 L363.5 206.4 L372.0 209.0 L380.5 211.6 L389.0 214.2 L397.5 216.8 L406.0 219.3 L414.5 221.8 L423.0 224.3 L431.5 226.7 L440.0 229.2 L448.5 231.6 L457.0 234.0 L465.5 236.3 L474.0 238.7 L482.5 241.0 L491.0 243.3 L499.5 245.5 L508.0 247.8 L516.5 250.0 L525.0 252.2 L533.5 254.4 L542.0 256.5 L550.5 258.7 L559.0 260.8 L567.5 262.9 L576.0 264.9 L584.5 267.0 L593.0 269.0 L601.5 271.0 L610.0 273.0" class="k-thick k-a1"/>
+<path d="M100.0 110.0 L108.5 128.0 L117.0 145.1 L125.5 161.3 L134.0 176.8 L142.5 191.4 L151.0 205.4 L159.5 218.6 L168.0 231.2 L176.5 243.1 L185.0 254.5 L193.5 265.2 L202.0 275.5 L210.5 285.2 L219.0 294.4 L227.5 303.2 L236.0 311.6 L244.5 319.5 L253.0 327.0 L261.5 334.2 L270.0 340.9 L278.5 347.4 L287.0 353.5 L295.5 359.4 L304.0 364.9 L312.5 370.1 L321.0 375.1 L329.5 379.9 L338.0 384.4 L346.5 388.7 L355.0 392.7 L363.5 396.6 L372.0 400.3 L380.5 403.8 L389.0 407.1 L397.5 410.2 L406.0 413.2 L414.5 416.0 L423.0 418.7 L431.5 421.3 L440.0 423.7 L448.5 426.0 L457.0 428.2 L465.5 430.3 L474.0 432.3 L482.5 434.2 L491.0 436.0 L499.5 437.7 L508.0 439.3 L516.5 440.8 L525.0 442.3 L533.5 443.7 L542.0 445.0 L550.5 446.3 L559.0 447.4 L567.5 448.6 L576.0 449.6 L584.5 450.7 L593.0 451.6 L601.5 452.5 L610.0 453.4" class="k-thick k-a3"/>
+<path d="M100.0 110.0 L108.5 146.0 L117.0 178.4 L125.5 207.6 L134.0 233.8 L142.5 257.4 L151.0 278.7 L159.5 297.8 L168.0 315.0 L176.5 330.5 L185.0 344.5 L193.5 357.0 L202.0 368.3 L210.5 378.5 L219.0 387.6 L227.5 395.9 L236.0 403.3 L244.5 410.0 L253.0 416.0 L261.5 421.4 L270.0 426.2 L278.5 430.6 L287.0 434.5 L295.5 438.1 L304.0 441.3 L312.5 444.2 L321.0 446.7 L329.5 449.1 L338.0 451.2 L346.5 453.0 L355.0 454.7 L363.5 456.3 L372.0 457.6 L380.5 458.9 L389.0 460.0 L397.5 461.0 L406.0 461.9 L414.5 462.7 L423.0 463.4 L431.5 464.1 L440.0 464.7 L448.5 465.2 L457.0 465.7 L465.5 466.1 L474.0 466.5 L482.5 466.9 L491.0 467.2 L499.5 467.5 L508.0 467.7 L516.5 467.9 L525.0 468.1 L533.5 468.3 L542.0 468.5 L550.5 468.6 L559.0 468.8 L567.5 468.9 L576.0 469.0 L584.5 469.1 L593.0 469.2 L601.5 469.3 L610.0 469.4" class="k-thick k-a2"/>
+<path d="M100.0 470.0 Q359.2 470.4 618.4 469.7" class="k"/>
+<path d="M100.0 470.0 Q100.5 286.3 100.5 99.6" class="k"/>
+<text x="355.0" y="536.0" class="t t-mid">applications sent →</text>
+<text x="363.5" y="190.4" class="t t-sm t-mid t-a1">1 in 100 chance each</text>
+<text x="278.5" y="321.0" class="t t-sm">1 in 20</text>
+<text x="219.0" y="347.6" class="t t-sm t-a2">1 in 10</text>
+<path d="M491.0 470 L491.0 110" class="k-thin k-dash"/>
+<text x="499.0" y="132.0" class="t t-sm">Dev: 46 noes</text>
+<circle cx="491.0" cy="243.3" r="6" class="f-a1s"/>
+<text x="503.0" y="273.3" class="t t-sm t-a1">63%</text>
+<circle cx="491.0" cy="436.0" r="6" class="f-a3s"/>
+<text x="503.0" y="428.0" class="t t-sm">9%</text>
+<text x="24.0" y="572.0" class="t t-sm t-mute">Illustrative maths, not data: each application is treated as</text>
+<text x="24.0" y="596.0" class="t t-sm t-mute">independent, with the same chance of ending in an offer.</text>
+</svg>

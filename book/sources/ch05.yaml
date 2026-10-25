@@ -1,0 +1,27 @@
+# Sources added for Chapter 5 that are not already in research/part1 or research/part2.
+# Same schema as the research registries (see WRITING-GUIDE.md). Every entry was opened on the date given.
+
+kang2016:
+  type: article
+  authors: ['Kang, Sonia K.', 'DeCelles, Katherine A.', 'Tilcsik, András', 'Jun, Sora']
+  year: 2016
+  title: 'Whitened résumés: Race and self-presentation in the labor market'
+  container: Administrative Science Quarterly
+  volume: '61'
+  issue: '3'
+  pages: 469-502
+  doi: 10.1177/0001839216639577
+  url: https://api.openalex.org/works/https://doi.org/10.1177/0001839216639577
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the OpenAlex API.
+  kind: evidence
+  design: interviews, a laboratory experiment and a résumé audit study
+  supports: >-
+    Some racial-minority job seekers conceal or downplay racial cues on résumés ("résumé whitening") and some
+    reject the practice; applicants whiten less when an employer presents itself as valuing diversity, yet in
+    the audit study employers' diversity statements were not associated with less discrimination against
+    unwhitened résumés.
+  sample: Racial-minority university students (interviews and lab study) and an audit study of employers.
+  grade: strong
+  caveats: >-
+    Abstract-level reading, so no callback percentages are printed; North American labour market.
