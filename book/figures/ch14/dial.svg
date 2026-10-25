@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 590" class="fig">
+<title>The professionalism dial</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<path d="M162.0 262.0 A168 168 0 0 1 498.0 262.0" class="k-thick k-a2"/>
+<path d="M188.0 262.0 A142 142 0 0 1 472.0 262.0" class="k-thin k-mute k-dash"/>
+<text x="162.0" y="296.0" class="t t-sans t-mid">formal</text>
+<text x="498.0" y="296.0" class="t t-sans t-mid">casual</text>
+<path d="M177.4 221.1 L158.1 215.9" class="k"/>
+<text x="144.5" y="194.3" class="t t-end">client board</text><text x="144.5" y="218.3" class="t t-end">meeting</text>
+<path d="M218.3 150.3 L204.1 136.1" class="k"/>
+<text x="194.2" y="130.2" class="t t-end">incident review</text>
+<path d="M289.1 109.4 L283.9 90.1" class="k"/>
+<text x="280.3" y="80.5" class="t t-end">all-hands</text>
+<path d="M370.9 109.4 L376.1 90.1" class="k"/>
+<text x="379.7" y="80.5" class="t">team stand-up</text>
+<path d="M441.7 150.3 L455.9 136.1" class="k"/>
+<text x="465.8" y="118.2" class="t">the #old-faithful</text><text x="465.8" y="142.2" class="t">channel</text>
+<path d="M482.6 221.1 L501.9 215.9" class="k"/>
+<text x="515.5" y="206.3" class="t">lunch with Kai</text>
+<path d="M330 262 L297.9 142.2" class="k-thick k-a1"/>
+<circle cx="330" cy="262" r="34" class="f-paper k"/>
+<circle cx="330" cy="262" r="9" class="f-a1s k-thin"/>
+<text x="330.0" y="328.0" class="t t-mid t-mute">same you, different volume</text>
+<path d="M38.7 362.6 Q175.5 363.4 309.6 361.6 Q310.7 462.5 309.7 562.3 Q174.7 562.9 39.4 561.6 Q41.3 461.5 39.6 362.5 Z" class="f-a2 k"/>
+<text x="175.0" y="398.0" class="t t-sans t-mid t-a2">turns with the dial</text>
+<circle cx="74" cy="431" r="4" class="f-ink"/>
+<text x="90.0" y="438.0" class="t">words</text>
+<circle cx="74" cy="465" r="4" class="f-ink"/>
+<text x="90.0" y="472.0" class="t">volume</text>
+<circle cx="74" cy="499" r="4" class="f-ink"/>
+<text x="90.0" y="506.0" class="t">jokes</text>
+<circle cx="74" cy="533" r="4" class="f-ink"/>
+<text x="90.0" y="540.0" class="t">what you share</text>
+<path d="M350.4 360.9 Q485.2 362.5 619.5 362.2 Q618.8 461.5 619.3 561.5 Q486.5 561.7 350.8 561.9 Q350.3 463.2 350.3 361.4 Z" class="f-a4 k"/>
+<text x="485.0" y="398.0" class="t t-sans t-mid t-a4">never turns</text>
+<circle cx="384" cy="431" r="4" class="f-ink"/>
+<text x="400.0" y="438.0" class="t">values</text>
+<circle cx="384" cy="465" r="4" class="f-ink"/>
+<text x="400.0" y="472.0" class="t">honesty</text>
+<circle cx="384" cy="499" r="4" class="f-ink"/>
+<text x="400.0" y="506.0" class="t">kindness</text>
+<circle cx="384" cy="533" r="4" class="f-ink"/>
+<text x="400.0" y="540.0" class="t">keeping your word</text>
+</svg>
