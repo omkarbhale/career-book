@@ -35,6 +35,8 @@ ICONS = {
     "flashback": '<path d="M9 7H4V2"/><path d="M4.5 7A8 8 0 1 1 4 13"/>',
     "coming": '<path d="M15 7h5V2"/><path d="M19.5 7A8 8 0 1 0 20 13"/>',
     "rewind": '<path d="M11 6L4 12l7 6zM20 6l-7 6 7 6z"/>',
+    "further": '<path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>',
+    "resource": '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/><path d="M8 7h8M8 11h6"/>',
 }
 
 
@@ -71,6 +73,8 @@ ELEMENTS = {
     "flashback": Element("Flashback", required=("ref",)),
     "coming": Element("Coming Soon", required=("ref",)),
     "rewind": Element("Rewind", tag="section"),
+    "further": Element("Going Further", optional=("ref",)),
+    "resource": Element("Resource", required=("source",)),
     "figure": Element("Figure", tag="figure", required=("src",), optional=("alt", "size"), id_kind="fig", numbered=True),
 }
 VERDICTS = {"busted": "Busted", "partly": "Partly true", "holds": "Holds up"}
@@ -95,6 +99,7 @@ class Page:
     meta: dict = field(default_factory=dict)
     summary: str = ""
     covers: list = field(default_factory=list)
+    planned: list = field(default_factory=list)  # [(id, title)] sections other pages may link to before this one exists
     written: bool = False
     status: str = "planned"
     toc: list = field(default_factory=list)
@@ -132,6 +137,9 @@ class Book:
         self.cited_in: dict[str, list] = {}
         for p in pages:
             self.anchors[p.id] = Anchor(p.id, p, "page", title=p.title, number=str(p.number or ""))
+            if not p.written:
+                for ident, title in p.planned:
+                    self.anchors[ident] = Anchor(ident, p, "sec", title=title)
 
     # -- pass 1 ------------------------------------------------------------
 
@@ -306,6 +314,8 @@ class Renderer(InlineContext):
         if anchor.page.id != self.page.id:
             elsewhere = f" in {self.xref_text(self.book.anchors[anchor.page.id])}"
         if anchor.kind == "sec":
+            if mode == "title":
+                return f"“{title}”"
             return f"“{title}”{elsewhere}"
         label = ELEMENTS[anchor.element].label if anchor.element else "Box"
         return f"{label} “{title}”{elsewhere}" if title else f"{label}{elsewhere}"
@@ -376,16 +386,27 @@ class Renderer(InlineContext):
         head_line, header = node.rows[0]
         # An empty top-left cell means the first column labels the rows.
         row_headers = header[0].strip() == ""
+        # Tables of three or more columns become stacked cards on narrow screens; the
+        # explicit roles keep their table semantics when CSS changes their display.
+        stack = len(header) >= 3
+        labels = [plain_text(h) for h in header]
 
         def cell(tag, text, i, line, scope=""):
             align = node.align[i]
             style = f' style="text-align:{align}"' if align else ""
             scope_attr = f' scope="{scope}"' if scope else ""
-            return f"<{tag}{scope_attr}{style}>{self.inline(text, Node('para', line))}</{tag}>"
+            role = ""
+            if stack:
+                role = {"col": "columnheader", "row": "rowheader"}.get(scope, "cell")
+                role = f' role="{role}"'
+                if tag == "td" and labels[i]:
+                    role += f' data-label="{html.escape(labels[i])}"'
+            return f"<{tag}{scope_attr}{role}{style}>{self.inline(text, Node('para', line))}</{tag}>"
 
-        thead = "<tr>" + "".join(cell("th", t, i, head_line, "col") for i, t in enumerate(header)) + "</tr>"
+        tr = '<tr role="row">' if stack else "<tr>"
+        thead = tr + "".join(cell("th", t, i, head_line, "col") for i, t in enumerate(header)) + "</tr>"
         rows = "".join(
-            "<tr>"
+            tr
             + "".join(
                 cell("th", t, i, line, "row") if (i == 0 and row_headers) else cell("td", t, i, line)
                 for i, t in enumerate(row)
@@ -393,6 +414,11 @@ class Renderer(InlineContext):
             + "</tr>"
             for line, row in node.rows[1:]
         )
+        if stack:
+            return (
+                '<div class="table-wrap table-stack" role="region" aria-label="Table" tabindex="0">'
+                f'<table role="table"><thead role="rowgroup">{thead}</thead><tbody role="rowgroup">{rows}</tbody></table></div>'
+            )
         return (
             '<div class="table-wrap" role="region" aria-label="Table" tabindex="0">'
             f"<table><thead>{thead}</thead><tbody>{rows}</tbody></table></div>"
@@ -542,6 +568,29 @@ class Renderer(InlineContext):
                 f'<aside class="el el-craft el-craft-{by}{cls}"{id_attr} aria-label="{label}">'
                 f'{self.head("craft", label, title_html)}'
                 f'<p class="el-meta">{note}</p>'
+                f'<div class="el-body">{self.blocks(node.children)}</div></aside>'
+            )
+        if name == "further":
+            target = node.attrs.get("ref", "more")
+            link = self.xref(target, None, "title", where)
+            return (
+                f'<aside class="el el-further{cls}"{id_attr} aria-label="Going Further">'
+                f'{self.head("further", "Going Further", link)}'
+                f'<div class="el-body">{self.blocks(node.children)}</div></aside>'
+            )
+        if name == "resource":
+            key = node.attrs.get("source", "")
+            src = self.book.sources.get(key)
+            if not src:
+                self.report.error(f"{where}: resource source {key!r} is not in any bibliography file")
+                return ""
+            evidence = src.kind in ("evidence", "review", "data", "law")
+            kind_label = "Evidence-based" if evidence else ("Theory" if src.kind == "theory" else "Practitioner view")
+            title = f'<a href="{html.escape(src.link())}" class="ext" rel="noopener"><cite>{html.escape(src.title.rstrip("."))}</cite></a>'
+            byline = f'<span class="resource-by">{src.authors_html()} ({html.escape(src.year)}) {self.cite([(key, False, "")], where)}</span>'
+            return (
+                f'<aside class="el el-resource el-resource-{"evidence" if evidence else "practice"}{cls}"{id_attr} aria-label="Resource">'
+                f'{self.head("resource", kind_label, title)}<p class="el-meta">{byline}</p>'
                 f'<div class="el-body">{self.blocks(node.children)}</div></aside>'
             )
         if name in ("flashback", "coming"):

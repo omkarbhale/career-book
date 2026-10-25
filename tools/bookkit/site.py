@@ -75,6 +75,7 @@ class Site:
                 part=entry.get("part", ""),
                 summary=entry.get("summary", ""),
                 covers=list(entry.get("covers", [])),
+                planned=[(sec["id"], sec["title"]) for sec in entry.get("sections", [])],
             )
             if path and path.exists():
                 page.rel = self.rel(path)
@@ -167,6 +168,13 @@ class Site:
         for page in self.pages:
             self.book.collect(page)
         for page in self.pages:
+            for ident, title in page.planned:
+                anchor = self.book.anchors.get(ident)
+                if page.written and (not anchor or anchor.page is not page):
+                    self.report.error(
+                        f"{page.rel}: book.toml promises a section {{#{ident}}} ({title}) that other pages may link to; add it"
+                    )
+        for page in self.pages:
             self.book.render(page)
         for page in self.pages:
             if page.written and page.kind == "chapter" and not any(
@@ -216,6 +224,8 @@ class Site:
             return "Opening"
         if page.kind == "epilogue":
             return "Closing"
+        if page.kind == "appendix":
+            return "Back matter"
         return "Before you start"
 
     def status_badge(self, page: Page) -> str:
@@ -271,11 +281,14 @@ class Site:
     def stub_html(self, page: Page) -> str:
         covers = "".join(f"<li>{self.inline(c, page.rel)}</li>" for c in page.covers)
         covers_html = f"<h2>What it will cover</h2><ul>{covers}</ul>" if covers else ""
+        if page.planned:
+            sections = "".join(f'<li id="{html.escape(i)}">{html.escape(t)}</li>' for i, t in page.planned)
+            covers_html += f"<h2>Planned sections</h2><ul>{sections}</ul>"
         return (
             f'<main id="main" class="page page-stub">{self.page_head(page)}'
             '<article class="prose"><aside class="el el-coming" aria-label="In production">'
             '<header class="el-head"><span class="el-label">In production</span></header>'
-            '<div class="el-body"><p>This chapter is being researched and written. '
+            f'<div class="el-body"><p>This {"chapter" if page.kind == "chapter" else "page"} is being researched and written. '
             "The plan below is the brief its writer works from; it may change as the evidence comes in.</p></div></aside>"
             f"<p class=\"lede\">{self.inline(page.summary, page.rel)}</p>{covers_html}</article>"
         )
@@ -344,11 +357,22 @@ class Site:
             f'Chapters marked <span class="status status-planned">In production</span> show their plan.</p>'
             "</div></header>"
             f'<section class="toc" id="contents" aria-labelledby="contents-h"><h2 id="contents-h">Contents</h2>{self.toc_html()}'
-            '<section class="toc-group"><h3>Back matter</h3><ol class="toc-list"><li class="toc-item"><span class="toc-num toc-num-blank"></span>'
+            f'<section class="toc-group"><h3>Back matter</h3><ol class="toc-list">{self.appendix_items()}<li class="toc-item"><span class="toc-num toc-num-blank"></span>'
             '<div class="toc-text"><a href="references.html">References</a><p class="toc-sum">Every source the book cites, '
             "with its evidence grade and the chapters that use it.</p></div></li></ol></section></section></main>"
         )
         return self.document(b["title"], b["subtitle"], body, "index", title_is_book=True)
+
+    def appendix_items(self) -> str:
+        items = []
+        for p in self.pages:
+            if p.kind == "appendix":
+                items.append(
+                    f'<li class="toc-item{"" if p.written else " toc-planned"}"><span class="toc-num toc-num-blank"></span><div class="toc-text">'
+                    f'<a href="{p.href}">{html.escape(p.title)}</a> {self.status_badge(p)}'
+                    f'<p class="toc-sum">{self.inline(p.summary, "book/book.toml")}</p></div></li>'
+                )
+        return "".join(items)
 
     def references_html(self) -> str:
         legend = "".join(

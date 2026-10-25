@@ -150,6 +150,21 @@ class RenderTests(unittest.TestCase):
         self.assertTrue(report.errors)
 
 
+class PlannedSectionTests(unittest.TestCase):
+    def test_links_to_planned_sections_of_unwritten_pages_resolve(self):
+        report = Report()
+        _, nodes = parse_document("See [[more.sec.managing]].\n\n::: further {ref=more.sec.managing}\nMore.\n:::\n", "t.md")
+        page = Page(id="ch99", kind="chapter", title="T", href="ch99.html", label="99", number=99, rel="t.md", nodes=nodes)
+        more = Page(id="more", kind="appendix", title="Left Out", href="left-out.html", label="C",
+                    planned=[("more.sec.managing", "Managing people")])
+        book = Book({}, [page, more], {}, {}, lambda src, where: None, report)
+        book.collect(page)
+        book.render(page)
+        self.assertEqual(report.errors, [])
+        self.assertIn('href="left-out.html#more.sec.managing"', page.body_html)
+        self.assertIn("Going Further", page.body_html)
+
+
 class BuildTests(unittest.TestCase):
     def test_book_builds_and_is_reproducible(self):
         with tempfile.TemporaryDirectory() as tmp:
