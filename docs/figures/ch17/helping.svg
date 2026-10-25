@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 668" class="fig">
+<title>The helping trap</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { fill: var(--fig-ink, #26211c); font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<path d="M404.9 144.6 Q459.8 152.6 483.2 201.4" class="k k-a4"/><path d="M483.2 201.4 L483.7 190.5 M483.2 201.4 L474.4 194.9" class="k k-a4"/>
+<path d="M529.5 344.0 Q546.2 386.6 509.8 417.7" class="k k-a4"/><path d="M509.8 417.7 L520.5 415.3 M509.8 417.7 L513.8 407.4" class="k k-a4"/>
+<path d="M398.4 517.9 Q328.6 545.0 261.6 517.9" class="k k-a4"/><path d="M261.6 517.9 L268.7 526.4 M261.6 517.9 L272.5 516.8" class="k k-a4"/>
+<path d="M150.2 417.7 Q114.7 387.1 130.5 344.0" class="k k-a4"/><path d="M130.5 344.0 L122.3 351.3 M130.5 344.0 L132.0 354.8" class="k k-a4"/>
+<path d="M176.8 201.4 Q201.7 151.0 255.1 144.6" class="k k-a4"/><path d="M255.1 144.6 L244.8 140.6 M255.1 144.6 L246.0 150.8" class="k k-a4"/>
+<path d="M215.3 96.0 Q328.6 97.3 446.1 95.3 Q447.1 128.9 446.4 160.3 Q331.6 158.4 214.8 160.2 Q213.2 128.4 213.7 96.2 Z" class="f-paper k"/>
+<text x="330.0" y="124.0" class="t t-mid">someone asks</text>
+<text x="330.0" y="150.0" class="t t-sm t-mid t-mute">for help</text>
+<path d="M404.9 234.3 Q518.9 233.9 635.9 234.6 Q637.6 267.1 636.3 297.7 Q520.9 297.4 405.0 297.7 Q405.7 264.6 404.7 234.0 Z" class="f-paper k"/>
+<text x="520.2" y="262.2" class="t t-mid">you say yes</text>
+<text x="520.2" y="288.2" class="t t-sm t-mid t-mute">(it&#x27;s quicker than explaining)</text>
+<path d="M331.8 457.5 Q446.9 457.6 564.1 457.6 Q563.1 490.7 563.0 521.6 Q447.6 521.9 331.0 522.2 Q331.5 488.5 331.3 457.1 Z" class="f-paper k"/>
+<text x="447.6" y="485.8" class="t t-mid">you become</text>
+<text x="447.6" y="511.8" class="t t-sm t-mid t-mute">“the person who”</text>
+<path d="M79.7 443.4 Q195.4 444.8 312.5 444.3 Q312.1 476.7 312.3 509.3 Q195.3 509.5 80.3 509.3 Q80.8 475.0 79.5 445.1 Z" class="f-paper k"/>
+<text x="196.2" y="472.6" class="t t-mid">more people</text>
+<text x="196.2" y="498.6" class="t t-sm t-mid t-mute">ask</text>
+<path d="M23.1 234.6 Q138.5 234.4 255.6 234.1 Q254.2 267.5 256.3 298.6 Q140.2 297.3 23.3 298.7 Q23.2 265.8 24.4 233.9 Z" class="f-paper k"/>
+<text x="139.8" y="262.2" class="t t-mid">less time for the work</text>
+<text x="139.8" y="288.2" class="t t-sm t-mid t-mute">your review rewards</text>
+<g transform="translate(265.0 291.0) scale(1.094)"><defs><clipPath id="h-dev"><circle cx="32" cy="32" r="30.5"/></clipPath></defs><circle cx="32" cy="32" r="30.5" class="f-soft"/><g clip-path="url(#h-dev)"><path d="M18.6 30 C17.4 18 24 13.6 32 13.6 C40.5 13.6 47 18.4 45.6 30 L47.4 46.5 C44 49.5 40.5 48.4 39.4 45.4 L24.6 45.4 C23.5 48.4 20 49.5 16.6 46.5 Z" class="f-hair1 k-thin"/><path d="M27 40.5 L27 49 L37 49 L37 40.5 Z" class="f-skin3 k-thin"/><path d="M7 68 C8 54 17 48.5 32 48.5 C47 48.5 56 54 57 68 Z" class="f-dev k-thin"/><path d="M21.5 49.5 C25 55.5 39 55.5 42.5 49.5" class="k-thin"/><path d="M28.4 54 L27.6 61" class="k-thin"/><path d="M35.6 54 L36.4 61" class="k-thin"/><ellipse cx="19.8" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="44.2" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="32" cy="30" rx="12.4" ry="14" class="f-skin3 k-thin"/><path d="M19.7 27.5 C20 18.4 26 15.2 32.6 15.6 C39.4 16 44.2 19.8 44.5 27.5 C40.4 22.6 35.4 21.2 30 21.8 C25.8 22.3 22.4 24.4 19.7 27.5 Z" class="f-hair1 k-thin"/><rect x="37.2" y="18.2" width="6.4" height="2.8" rx="1.2" transform="rotate(28 40.4 19.6)" class="f-a2s k-thin"/><circle cx="27.4" cy="30.4" r="1.6" class="f-ink"/><circle cx="36.6" cy="30.4" r="1.6" class="f-ink"/><path d="M24.8 26.2 Q27.4 24.8 30 26" class="k-thin"/><path d="M34 26 Q36.6 24.8 39.2 26.2" class="k-thin"/><path d="M32.2 31.5 Q31 34.4 32.8 34.8" class="k-thin"/><path d="M28.4 37.6 Q32 40 35.6 37.4" class="k-thin"/></g><circle cx="32" cy="32" r="30.5" class="k-thin"/></g>
+<g transform="translate(344 364) scale(1.0)"><rect x="0" y="-62" width="46" height="62" rx="5" class="f-mute k-thin"/><rect x="8" y="-54" width="30" height="14" rx="2" class="f-a3 k-thin"/><path d="M14 -30 L32 -30 L30 -16 L16 -16 Z" class="f-paper k-thin"/><path d="M20 -36 L20 -31 M26 -36 L26 -31" class="k-thin"/></g>
+<text x="330.0" y="396.0" class="t t-sans t-mid t-a4">the helping trap</text>
+<path d="M533.8 510.6 Q582.1 538.2 613.8 582.6" class="k-thick k-a3"/><path d="M613.8 582.6 L612.0 568.7 M613.8 582.6 L601.3 576.4" class="k-thick k-a3"/>
+<text x="650.0" y="618.6" class="t t-bold t-end">hand it over: write it down,</text>
+<text x="650.0" y="646.6" class="t t-bold t-end">give it an owner</text>
+</svg>

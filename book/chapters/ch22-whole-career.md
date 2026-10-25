@@ -1,6 +1,6 @@
 ---
 id: ch22
-status: review
+status: final
 ---
 
 ::: scene {slug="EXT. A GUESTHOUSE VERANDA, SOMEWHERE WITH HILLS — VIDEO CALL, 7 PM HER TIME"}

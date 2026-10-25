@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 612" class="fig">
+<title>Skills that compound</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { fill: var(--fig-ink, #26211c); font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<text x="24.0" y="36.0" class="t t-sans">Skills that compound</text>
+<rect x="343.0" y="64" width="273.0" height="228.0" class="f-a3"/>
+<path d="M68.6 63.4 Q341.4 63.3 616.4 64.3 Q615.9 292.8 615.9 520.6 Q343.4 518.8 70.1 520.0 Q70.1 291.1 70.3 63.5 Z" class="k"/>
+<path d="M343.0 64.0 Q342.4 291.2 342.7 519.6" class="k-thin k-dash"/>
+<path d="M70.0 292.0 Q343.8 292.5 615.4 292.1" class="k-thin k-dash"/>
+<text x="86.0" y="98.0" class="t">a niche:</text><text x="86.0" y="126.0" class="t">a bet on one market</text>
+<text x="600.0" y="98.0" class="t t-bold t-end">career capital:</text><text x="600.0" y="126.0" class="t t-bold t-end">it compounds</text>
+<path d="M586.0 146.0 L590.2 156.2 L601.2 157.1 L592.8 164.2 L595.4 174.9 L586.0 169.2 L576.6 174.9 L579.2 164.2 L570.8 157.1 L581.8 156.2 Z" class="f-a3s k-thin"/>
+<text x="86.0" y="500.0" class="t t-mute">a hobby</text>
+<text x="600.0" y="472.0" class="t t-end">a commodity:</text><text x="600.0" y="500.0" class="t t-end">everyone has it soon</text>
+<circle cx="389.0" cy="180" r="9" class="f-a4s"/>
+<text x="407.0" y="186.0" class="t t-sm">Dev: making</text><text x="407.0" y="208.0" class="t t-sm">systems testable</text>
+<circle cx="389.0" cy="240" r="9" class="f-a4s"/>
+<text x="407.0" y="246.0" class="t t-sm">Bea: zero-downtime</text><text x="407.0" y="268.0" class="t t-sm">migrations</text>
+<circle cx="546" cy="356.0" r="9" class="f-a1s"/>
+<text x="530.0" y="363.0" class="t t-sm t-end">this year’s hot tool</text>
+<path d="M538.0 370.0 Q425.6 429.4 303.0 450.0" class="k-thin k-dash k-a1"/><path d="M303.0 450.0 L312.5 453.2 M303.0 450.0 L310.9 443.9" class="k-thin k-dash k-a1"/>
+<text x="293.0" y="474.0" class="t t-sm t-a1 t-end">goes stale</text>
+<text x="343.0" y="554.0" class="t t-mid">few employers value it  →  many employers value it</text>
+<g transform="rotate(-90 40 292.0)"><text x="40.0" y="292.0" class="t t-mid">easy to pick up  →  hard to acquire</text></g>
+<text x="343.0" y="592.0" class="t t-sm t-mid t-mute">A thinking tool, not a measurement.</text>
+</svg>

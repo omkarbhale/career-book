@@ -1,6 +1,6 @@
 ---
 id: epi
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. LANTERNFISH, THE QUIET DESK BY THE WINDOW — DEV'S LAST FRIDAY, 3:10 PM"}
@@ -12,7 +12,7 @@ The box below it asks: *How do you know this person, and why should we talk to t
 
 > *I worked next to Bea at Corvid for three years. She rewrote their billing engine in a fortnight, and since then she has become one of the few people anywhere who can change a live payments database without downtime; the open-source tool she maintains to do it is linked below. She is the best engineer I have worked with, and the worst at saying so, which is why I'm saying it. Ask her about the billing rewrite.*
 
-Below that she pastes two links. Two years ago Bea had none to give. Now there is the tool itself, with two years of history in which every bug anyone reported is fixed in public, and a résumé whose bullets say what changed because of her.
+Below that she pastes two links. Four years ago, when Bea was searching, she had none to give. Now there is the tool itself, with years of history in which every bug anyone reported is fixed in public, and a résumé whose bullets say what changed because of her.
 
 She texts Bea.
 

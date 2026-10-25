@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 612" class="fig">
+<title>The commitment loop</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { fill: var(--fig-ink, #26211c); font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<text x="320.0" y="32.0" class="t t-sans t-mid">The commitment loop</text>
+<path d="M22.7 94.3 Q161.7 95.3 300.2 94.0 Q301.4 155.3 300.6 217.9 Q162.6 219.5 24.5 218.2 Q25.0 154.5 23.9 94.6 Z" class="f-soft k"/>
+<text x="40.0" y="130.0" class="t t-bold">1 · Hear the ask</text>
+<text x="40.0" y="166.0" class="t t-sm">what do they</text><text x="40.0" y="192.0" class="t t-sm">actually need?</text>
+<path d="M24.8 253.8 Q161.1 253.5 299.9 253.4 Q301.4 316.5 300.0 377.5 Q161.4 377.7 23.4 377.7 Q23.6 316.8 24.7 253.2 Z" class="f-soft k"/>
+<text x="40.0" y="290.0" class="t t-bold">2 · Clarify</text>
+<text x="40.0" y="326.0" class="t t-sm">what, by when, and</text><text x="40.0" y="352.0" class="t t-sm">what does done mean?</text>
+<path d="M22.8 415.1 Q160.4 413.2 300.1 414.1 Q299.1 476.8 300.3 537.2 Q162.7 537.6 24.0 538.1 Q24.5 477.0 23.5 413.5 Z" class="f-a3 k"/>
+<text x="40.0" y="450.0" class="t t-bold">3 · Say it out loud</text>
+<text x="40.0" y="486.0" class="t t-sm">“Rates by Thursday,</text><text x="40.0" y="512.0" class="t t-sm">tested, in staging.”</text>
+<path d="M339.1 413.0 Q478.9 415.2 615.8 414.3 Q616.9 477.2 616.4 538.1 Q479.0 537.4 340.2 537.6 Q339.7 475.6 340.0 413.2 Z" class="f-soft k"/>
+<text x="356.0" y="450.0" class="t t-bold">4 · Track it</text>
+<text x="356.0" y="486.0" class="t t-sm">somewhere you will</text><text x="356.0" y="512.0" class="t t-sm">see it tomorrow</text>
+<path d="M339.8 254.0 Q479.3 254.7 615.4 253.8 Q616.8 314.7 616.6 377.3 Q478.6 378.2 340.7 377.8 Q339.4 315.0 339.6 253.7 Z" class="f-a2 k"/>
+<text x="356.0" y="290.0" class="t t-bold">5 · Deliver, or</text>
+<text x="356.0" y="326.0" class="t t-sm">renegotiate early,</text><text x="356.0" y="352.0" class="t t-sm">the day you know</text>
+<path d="M340.3 93.3 Q477.0 95.2 615.3 94.7 Q615.2 156.8 616.4 218.7 Q478.9 216.4 340.4 218.8 Q340.9 156.1 339.3 93.2 Z" class="f-soft k"/>
+<text x="356.0" y="130.0" class="t t-bold">6 · Close the loop</text>
+<text x="356.0" y="166.0" class="t t-sm">tell them it’s done;</text><text x="356.0" y="192.0" class="t t-sm">don’t make them ask</text>
+<path d="M162.0 220.0 Q161.2 235.7 162.0 250.0" class="k"/><path d="M162.0 250.0 L166.2 240.9 M162.0 250.0 L156.8 241.5" class="k"/>
+<path d="M162.0 380.0 Q160.9 395.2 162.0 410.0" class="k"/><path d="M162.0 410.0 L166.0 400.8 M162.0 410.0 L156.7 401.5" class="k"/>
+<path d="M302.0 476.0 Q319.8 476.2 336.0 476.0" class="k"/><path d="M336.0 476.0 L327.1 471.4 M336.0 476.0 L327.2 480.8" class="k"/>
+<path d="M478.0 410.0 Q478.7 397.0 478.0 382.0" class="k"/><path d="M478.0 382.0 L473.7 391.0 M478.0 382.0 L483.1 390.6" class="k"/>
+<path d="M478.0 250.0 Q478.7 234.4 478.0 222.0" class="k"/><path d="M478.0 222.0 L473.8 231.1 M478.0 222.0 L483.2 230.5" class="k"/>
+<path d="M410.0 64.0 Q320.5 64.2 230.0 64.0" class="k k-dash"/><path d="M230.0 64.0 L240.6 69.7 M230.0 64.0 L240.6 58.4" class="k k-dash"/>
+<text x="320.0" y="588.0" class="t t-sm t-mid t-mute">Step 5&#x27;s second half is not failure. It is the loop working.</text>
+</svg>

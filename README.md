@@ -14,19 +14,27 @@ The book follows Dev, a software tester trying to become a developer, and a smal
 
 ## Read it
 
-**https://omkarbhale.github.io/career-book/** (once GitHub Pages is enabled for this repository, serving the `docs/` folder on `main`).
+**https://omkarbhale.github.io/career-book/**
 
-Until then, build it locally (below) and open `docs/index.html`.
+The site is the `docs/` folder on `main`, so it goes live once GitHub Pages is set to serve that folder (Settings → Pages → Deploy from a branch → `main`, `/docs`). You can also open `docs/index.html` straight from a clone, or build and preview it yourself (below).
+
+Start with *How to Use This Book*; it takes five minutes and suggests shorter routes if you are in a hurry.
 
 ## Status
 
-| Part | Status |
+**Complete.** Every page is written, fact-checked and edited:
+
+| Part | Contents |
 | --- | --- |
-| Front matter: *How to Use This Book*, *Meet the Cast* | Written |
-| Chapter 1: *Three Games, One You* | Written (the exemplar for later chapters) |
-| Chapters 2 to 22, the epilogue and *Left Out, on Purpose* | In production. Each is published as its plan until written. |
-| Evidence base | `research/part1/` (getting a job, 102 sources) and `research/part2/` (conduct at work, 212 sources); `research/part3/` (the career game) is in progress |
-| Design | `DESIGN.md`: thesis, full table of contents, cast, voice, element catalogue, visual language, claim policy, length guides, six writer assignments, and the plan for the appendix |
+| Front matter | *How to Use This Book* and *Meet the Cast* |
+| Part I, The Snapshot Game | Chapters 1 to 9 |
+| Part II, The Long Game | Chapters 10 to 17 |
+| Part III, The Career Game | Chapters 18 to 22 |
+| Back matter | the epilogue, *The Loop*; the appendix *Left Out, on Purpose*; and a generated reference list |
+
+About 145,000 words, including boxes and exercises, with original SVG figures throughout and 460 cited sources, each graded. The evidence bases are `research/part1/` (getting a job, 102 sources), `research/part2/` (conduct at work, 212) and `research/part3/` (the career game, 104), plus sources the writers added in `book/sources/`. The fact-check logs are public in `checks/part1.md`, `checks/part2.md` and `checks/part3.md`. `DESIGN.md` records the design, the cast and the story as written.
+
+Found a mistake, a broken link or a better source? Open an issue. The claim policy in `DESIGN.md` §9 is the standard every change is held to.
 
 ## Build it
 
@@ -61,5 +69,9 @@ Start with `DESIGN.md`, then `WRITING-GUIDE.md`, then read Chapter 1 as the mode
 ## Licence
 
 The book and its code are released under the MIT License; see [`LICENSE`](LICENSE). Characters and companies in the book are fictional.
+
+## Credits
+
+Written with AI assistance under the direction of the repository's owner, Omkar Bhale, who set the brief and its scope. The research, drafting, figures, fact-checking and editing were done by AI agents working to that brief. Every source the book cites was opened and checked during the work, and the fact-check logs are public in [`checks/`](checks/), so you can see what was verified, what was changed and what was left out.
 
 The style owes a debt to the learner-centred approach Kathy Sierra and Bert Bates brought to technical books, and to Richard Mayer's research on learning from words and pictures. This book is not affiliated with any publisher or series; all of its words and pictures are original.

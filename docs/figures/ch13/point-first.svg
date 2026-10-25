@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 540" class="fig">
+<title>Story order versus point first</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { fill: var(--fig-ink, #26211c); font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<text x="160.0" y="36.0" class="t t-sans t-mid t-a1">Story order</text>
+<text x="480.0" y="36.0" class="t t-sans t-mid t-a2">Point first</text>
+<path d="M320.0 20.0 Q319.4 270.9 319.5 519.7" class="k-thin k-dash k-mute"/>
+<path d="M39.6 61.3 Q159.5 60.3 279.4 59.5 Q280.6 83.2 280.4 105.9 Q160.0 105.0 39.6 105.3 Q38.9 82.8 40.1 60.4 Z" class="f-soft k-thin"/>
+<text x="56.0" y="91.0" class="t t-sm t-mute">background</text>
+<path d="M40.5 117.0 Q160.8 114.4 280.6 116.0 Q279.8 137.7 279.4 161.3 Q158.7 162.9 39.8 162.4 Q41.6 139.4 39.5 115.5 Z" class="f-soft k-thin"/>
+<text x="56.0" y="147.0" class="t t-sm t-mute">how we got here</text>
+<path d="M41.5 172.0 Q159.5 173.5 279.5 172.6 Q278.4 194.8 279.7 218.8 Q159.9 218.2 40.5 218.2 Q41.1 196.0 39.3 171.4 Z" class="f-soft k-thin"/>
+<text x="56.0" y="203.0" class="t t-sm t-mute">what I tried</text>
+<path d="M39.7 227.7 Q161.0 226.9 280.8 228.5 Q280.5 250.2 280.5 274.3 Q161.2 273.4 40.5 273.5 Q39.9 249.8 39.6 228.7 Z" class="f-soft k-thin"/>
+<text x="56.0" y="259.0" class="t t-sm t-mute">more context</text>
+<path d="M41.6 282.9 Q160.5 282.4 279.8 283.9 Q279.1 305.5 280.3 330.6 Q159.0 329.6 40.4 330.3 Q40.6 306.4 40.7 284.5 Z" class="f-soft k-thin"/>
+<text x="56.0" y="315.0" class="t t-sm t-mute">three options</text>
+<path d="M41.0 340.4 Q159.0 341.4 280.1 340.0 Q280.6 363.9 279.5 385.5 Q159.5 384.8 40.3 385.4 Q40.4 363.4 40.4 340.5 Z" class="f-soft k-thin"/>
+<text x="56.0" y="371.0" class="t t-sm t-mute">caveats</text>
+<path d="M40.1 395.0 Q161.3 396.4 280.0 396.6 Q281.0 422.3 279.8 447.5 Q158.6 446.5 39.2 448.3 Q38.8 422.6 39.6 395.5 Z" class="f-a1s k"/>
+<text x="160.0" y="430.0" class="t t-bold t-mid t-paper">the ask</text>
+<text x="160.0" y="492.0" class="t t-sm t-mid t-a1">most readers</text><text x="160.0" y="516.0" class="t t-sm t-mid t-a1">stop before here</text>
+<path d="M250.0 478.0 Q257.5 465.6 262.0 454.0" class="k-thin k-a1"/><path d="M262.0 454.0 L255.9 459.2 M262.0 454.0 L262.9 461.9" class="k-thin k-a1"/>
+<path d="M358.7 60.5 Q480.5 61.4 600.5 59.8 Q600.3 85.0 599.7 111.9 Q479.2 113.1 360.5 111.8 Q361.0 85.7 359.5 59.6 Z" class="f-a2s k"/>
+<text x="480.0" y="94.0" class="t t-bold t-mid t-paper">the ask</text>
+<path d="M358.8 122.7 Q479.4 120.6 599.3 122.0 Q601.2 144.2 600.5 168.5 Q478.7 167.3 360.7 168.4 Q360.4 143.5 359.6 122.3 Z" class="f-a2 k-thin"/>
+<text x="376.0" y="153.0" class="t t-sm">why, in one line</text>
+<path d="M358.9 177.1 Q478.6 178.0 599.5 178.5 Q598.7 201.6 600.7 223.6 Q479.6 224.9 359.5 224.0 Q358.9 200.6 360.0 177.3 Z" class="f-a2 k-thin"/>
+<text x="376.0" y="209.0" class="t t-sm">what you need from them</text>
+<path d="M361.2 243.8 Q478.7 242.7 599.6 243.3 Q600.7 266.1 600.0 290.0 Q479.2 290.4 359.8 290.3 Q360.2 267.5 360.7 244.4 Z" class="f-paper k-thin k-dash"/>
+<text x="376.0" y="275.0" class="t t-sm t-mute">details, if wanted</text>
+<text x="480.0" y="340.0" class="t t-sm t-mid t-a2">a reader who stops</text><text x="480.0" y="366.0" class="t t-sm t-mid t-a2">after one line still</text><text x="480.0" y="392.0" class="t t-sm t-mid t-a2">knows what to do</text>
+</svg>

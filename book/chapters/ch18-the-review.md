@@ -1,6 +1,6 @@
 ---
 id: ch18
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. DEV'S FLAT — SUNDAY, 3 PM"}
@@ -247,7 +247,7 @@ A few habits help you hear a review as information rather than a verdict [!craft
 
 ## Disagreeing well {#ch18.sec.disagree}
 
-Sometimes, after the pause, you still think the review is wrong. Then the question is not *whether* to say so but *how*, because disagreeing with your manager has costs. In a field study and two experiments, managers rated employees who voiced challenging ideas as worse performers than those who voiced supportive ones, partly because the challenges felt less loyal and more threatening [@burris2012]. The answer is not silence; it is to disagree in a way that is plainly on the same side.
+Sometimes, after the pause, you still think the review is wrong. Then the question is not *whether* to say so but *how*, because disagreeing with your manager has costs. As [[ch13.sec.disagree]] showed, in a field study and two experiments managers rated employees who voiced challenging ideas as worse performers than those who voiced supportive ones, partly because the challenges felt less loyal and more threatening [@burris2012]. The answer is not silence; it is to disagree in a way that is plainly on the same side.
 
 ::: scene {slug="INT. LANTERNFISH, TOMÁS'S OFFICE — THURSDAY, 10 AM"}
 Dev has brought one page. She has rewritten it four times, mostly to make it shorter.

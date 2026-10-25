@@ -149,7 +149,7 @@ The chapters build on each other, and reading them in order works best. But you 
 
 ## A few honest limits {#howto.sec.limits}
 
-Some topics are deliberately left to others (managing people in depth, founding a company, personal finance, legal specifics, immigration), and [[more]] says where to go for each. Much of the research this book draws on, about hiring and about behaviour at work, comes from the United States and Western Europe. Where that matters, we say so. The rules of the hiring game also change: laws on pay transparency and non-compete clauses were moving even while this book was being written [@ec-paytransparency; @cooley2026; @cms2025-uk-noncompete], so treat any legal detail as a pointer to check, not as advice.
+Some topics are deliberately left to others (managing people in depth, founding a company, personal finance, legal specifics, immigration), and [[more]] says where to go for each. Much of the research this book draws on, about hiring and about behaviour at work, comes from the United States and Western Europe. Where that matters, we say so, and [[more.sec.missing]] lists the gaps we know about. The rules of the hiring game also change: laws on pay transparency and non-compete clauses were moving even while this book was being written [@ec-paytransparency; @cooley2026; @cms2025-uk-noncompete], so treat any legal detail as a pointer to check, not as advice.
 
 The style of this book owes a debt to the learner-centred approach Kathy Sierra and Bert Bates championed in technical books [@javaranch2004], and to Richard Mayer's research on learning from words and pictures. Every word and every picture here is original.
 

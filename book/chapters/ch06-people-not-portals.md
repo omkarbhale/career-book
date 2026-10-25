@@ -283,7 +283,7 @@ The point of the exercise is calibration. Most people who avoid asking are not a
 :::
 ::::
 
-Dev's *People* tab is not finished, and it never will be. That is the point. The snapshot game is about to get much more intense for her, but the tab she just started will matter long after it ends. In [[ch19]] a few of them become the people who vouch for her on the inside, which turns out to be how promotions work too; and in [[epi]] it is Dev's turn to be someone's Ana.
+Dev's *People* tab is not finished, and it never will be. That is the point. The snapshot game is about to get much more intense for her, but the habit she just started will matter long after it ends. In [[ch19]], people who have seen her work vouching for her turns out to be how promotions work too; and in [[epi]] it is Dev's turn to be someone's Ana.
 
 ::: rewind
 - Referred candidates are a sliver of applicants and a large share of hires: **6.1% of applicants and 29.1% of hires** in one large firm, with the same direction in vendor data.

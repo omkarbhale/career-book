@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 510" class="fig">
+<title>Hours it takes to make a friend</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { fill: var(--fig-ink, #26211c); font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<path d="M60.0 300.0 Q347.6 301.4 636.0 300.0" class="k-thick"/><path d="M636.0 300.0 L625.4 294.4 M636.0 300.0 L625.4 305.7" class="k-thick"/>
+<text x="60.0" y="340.0" class="t t-sm t-mid">0 h</text>
+<text x="636.0" y="340.0" class="t t-sm t-end">hours together</text>
+<path d="M185.0 286 L185.0 314" class="k-thick k-a2"/>
+<text x="185.0" y="244.0" class="t t-bold t-mid">~50 h</text>
+<text x="185.0" y="270.0" class="t t-sm t-mid t-a2">casual friend</text>
+<path d="M285.0 286 L285.0 314" class="k-thick k-a2"/>
+<text x="285.0" y="244.0" class="t t-bold t-mid">~90 h</text>
+<text x="285.0" y="270.0" class="t t-sm t-mid t-a2">friend</text>
+<path d="M560.0 286 L560.0 314" class="k-thick k-a2"/>
+<text x="560.0" y="244.0" class="t t-bold t-mid">200+ h</text>
+<text x="560.0" y="270.0" class="t t-sm t-mid t-a2">close friend</text>
+<circle cx="95.0" cy="136" r="9" class="f-a3 k-thin"/><path d="M108.0 136.0 L114.0 136.0" class="k-thin k-a3"/><path d="M82.0 136.0 L76.0 136.0" class="k-thin k-a3"/><path d="M95.0 149.0 L95.0 155.0" class="k-thin k-a3"/><path d="M95.0 123.0 L95.0 117.0" class="k-thin k-a3"/><path d="M104.1 145.1 L108.3 149.3" class="k-thin k-a3"/><path d="M85.9 145.1 L81.7 149.3" class="k-thin k-a3"/><path d="M104.1 126.9 L108.3 122.7" class="k-thin k-a3"/><path d="M85.9 126.9 L81.7 122.7" class="k-thin k-a3"/>
+<path d="M147.0 146 A18 14 0 0 0 183.0 146 Z" class="f-a1 k-thin"/><path d="M161.0 142 L179.0 120 M167.0 142 L185.0 124" class="k-thin"/>
+<ellipse cx="227.0" cy="142" rx="5" ry="8" class="f-mute"/><ellipse cx="243.0" cy="132" rx="5" ry="8" class="f-mute"/>
+<text x="165.0" y="96.0" class="t t-sm t-mid">lunches on the roof, one long dinner,</text>
+<text x="165.0" y="118.0" class="t t-sm t-mid">walks to the station</text>
+<path d="M65.0 176 L65.0 184 L290.0 184 L290.0 176" class="k-thin"/>
+<text x="435.0" y="196.0" class="t t-sm t-a1 t-mid">Dev and Kai, after the noodle bar</text>
+<path d="M375.0 204.0 Q329.6 237.1 300.0 288.0" class="k-thin k-a1"/><path d="M300.0 288.0 L307.7 283.3 M300.0 288.0 L300.3 279.0" class="k-thin k-a1"/>
+<rect x="71.0" y="374" width="28" height="18" rx="2" class="f-paper k-thin k-mute"/><path d="M66.0 394 L104.0 394" class="k-thin k-mute"/>
+<rect x="136.0" y="374" width="28" height="18" rx="2" class="f-paper k-thin k-mute"/><path d="M131.0 394 L169.0 394" class="k-thin k-mute"/>
+<rect x="201.0" y="374" width="28" height="18" rx="2" class="f-paper k-thin k-mute"/><path d="M196.0 394 L234.0 394" class="k-thin k-mute"/>
+<rect x="266.0" y="374" width="28" height="18" rx="2" class="f-paper k-thin k-mute"/><path d="M261.0 394 L299.0 394" class="k-thin k-mute"/>
+<rect x="331.0" y="374" width="28" height="18" rx="2" class="f-paper k-thin k-mute"/><path d="M326.0 394 L364.0 394" class="k-thin k-mute"/>
+<rect x="396.0" y="374" width="28" height="18" rx="2" class="f-paper k-thin k-mute"/><path d="M391.0 394 L429.0 394" class="k-thin k-mute"/>
+<rect x="461.0" y="374" width="28" height="18" rx="2" class="f-paper k-thin k-mute"/><path d="M456.0 394 L494.0 394" class="k-thin k-mute"/>
+<text x="60.0" y="440.0" class="t t-sm t-mute">hours in meetings together: they count for less</text>
+<text x="636.0" y="492.0" class="t t-sm t-end t-mute">approximate figures, from Hall (2019)</text>
+</svg>

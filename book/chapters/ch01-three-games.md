@@ -298,7 +298,7 @@ Two skills, four places to be. Rex has the trailer without the film; Bea has the
 
 Bea's problem and Rex's problem look like opposites, but they have the same shape: one game is strong and the other is weak. Bea does not need to become a better engineer to get hired; she needs a trailer that is as good as her film. Rex does not need a better trailer; he needs a film that lives up to it, or he will keep having to make new trailers. Most people are somewhere in the middle, strong in places and invisible in others, which is where Dev is.
 
-:::: move {#ch01.move.scorecards} Your two scorecards
+:::: move {#ch01.move.scorecards} Your three scorecards
 Score yourself from 1 (not at all) to 5 (completely) on each statement. Be honest; nobody is checking.
 
 **The snapshot game**
@@ -382,6 +382,8 @@ For each moment, decide whether it is mainly **snapshot** (strangers, a short sa
 The most interesting moments in a career sit at the edges, where one game feeds the other.
 :::
 ::::
+
+Dev, meanwhile, has decided which game she is in tonight.
 
 ::: scene {slug="INT. DEV'S FLAT — SUNDAY, LATE"}
 Dev opens the spreadsheet. It has one tab, called *Applications*, with 47 rows and 46 noes. She renames the tab *Game 1*. Then she adds two more, *Game 2* and *Game 3*, and sits looking at the empty grids for a while.
