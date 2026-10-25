@@ -3,1534 +3,1613 @@
 # accessed: date the URL was opened for this research (all 2026-10-25 unless noted).
 
 schmidt1998:
-  type: article
-  authors: [Frank L. Schmidt, John E. Hunter]
+  type: "article"
+  authors: ["Frank L. Schmidt", "John E. Hunter"]
   year: 1998
   title: "The validity and utility of selection methods in personnel psychology: Practical and theoretical implications of 85 years of research findings"
-  venue: Psychological Bulletin, 124(2), 262-274
-  doi: 10.1037/0033-2909.124.2.262
-  url: https://raw-files.adaface.com/adaface-lp/The_Validity_and_Utility_of_Selection_Methods_in_P.pdf
-  url_note: Third-party-hosted copy of the published article (hosted by an assessment vendor); verified it is the APA typeset paper.
-  accessed: 2026-10-25
-  supports: Classic meta-analytic summary of 19 selection procedures; GMA .51, work sample .54, structured interview .51, unstructured .38; GMA plus work sample .63, plus integrity .65, plus structured interview .63.
-  sample: Summary of prior meta-analyses (85 years of research).
-  grade: strong
-  caveats: Its range-restriction corrections were later judged to overcorrect (see sackett2022); treat its validity values as historical upper estimates.
+  venue: "Psychological Bulletin, 124(2), 262-274"
+  doi: "10.1037/0033-2909.124.2.262"
+  url: "https://raw-files.adaface.com/adaface-lp/The_Validity_and_Utility_of_Selection_Methods_in_P.pdf"
+  url_note: "Third-party-hosted copy of the published article (hosted by an assessment vendor); verified it is the APA typeset paper."
+  accessed: "2026-10-25"
+  supports: "Classic meta-analytic summary of 19 selection procedures; GMA .51, work sample .54, structured interview .51, unstructured .38; GMA plus work sample .63, plus integrity .65, plus structured interview .63."
+  sample: "Summary of prior meta-analyses (85 years of research)."
+  grade: "strong"
+  caveats: "Its range-restriction corrections were later judged to overcorrect (see sackett2022); treat its validity values as historical upper estimates."
   commercial: false
-  topics: [selection-methods]
+  topics: ["selection-methods"]
 
 sackett2022:
-  type: article
-  authors: [Paul R. Sackett, Charlene Zhang, Christopher M. Berry, Filip Lievens]
+  type: "article"
+  authors: ["Paul R. Sackett", "Charlene Zhang", "Christopher M. Berry", "Filip Lievens"]
   year: 2022
   title: "Revisiting meta-analytic estimates of validity in personnel selection: Addressing systematic overcorrection for restriction of range"
-  venue: Journal of Applied Psychology, 107(11), 2040-2068
-  doi: 10.1037/apl0000994
-  url: https://gwern.net/doc/statistics/meta-analysis/2021-sackett.pdf
-  url_note: Copy of the accepted/typeset article hosted on gwern.net.
-  accessed: 2026-10-25
-  supports: Revised validity estimates (Table 3) - structured interviews .42 (top), job knowledge .40, empirically keyed biodata .38, work samples .33, cognitive ability .31, integrity .31, assessment centres .29, unstructured interviews .19, years of job experience .07. Most estimates fall .10-.20 vs Schmidt & Hunter.
-  sample: Re-analysis of the meta-analyses underlying Schmidt & Hunter and later work.
-  grade: strong
-  caveats: Contested by some meta-analysts (see ones2023); the ranking is more robust than the exact values. Validities are correlations with supervisor-rated performance, not certainty about any one hire.
+  venue: "Journal of Applied Psychology, 107(11), 2040-2068"
+  doi: "10.1037/apl0000994"
+  url: "https://gwern.net/doc/statistics/meta-analysis/2021-sackett.pdf"
+  url_note: "Copy of the accepted/typeset article hosted on gwern.net."
+  accessed: "2026-10-25"
+  supports: "Revised validity estimates (Table 3) - structured interviews .42 (top), job knowledge .40, empirically keyed biodata .38, work samples .33, cognitive ability .31, integrity .31, assessment centres .29, unstructured interviews .19, years of job experience .07. Most estimates fall .10-.20 vs Schmidt & Hunter."
+  sample: "Re-analysis of the meta-analyses underlying Schmidt & Hunter and later work."
+  grade: "strong"
+  caveats: "Contested by some meta-analysts (see ones2023); the ranking is more robust than the exact values. Validities are correlations with supervisor-rated performance, not certainty about any one hire."
   commercial: false
-  topics: [selection-methods, interviewing]
+  topics: ["selection-methods", "interviewing"]
 
 rajkumar2022:
-  type: article
-  authors: [Karthik Rajkumar, Guillaume Saint-Jacques, Iavor Bojinov, Erik Brynjolfsson, Sinan Aral]
+  type: "article"
+  authors: ["Karthik Rajkumar", "Guillaume Saint-Jacques", "Iavor Bojinov", "Erik Brynjolfsson", "Sinan Aral"]
   year: 2022
   title: "A causal test of the strength of weak ties"
-  venue: Science, 377(6612), 1304-1310
-  doi: 10.1126/science.abl4476
-  url: https://gwern.net/doc/sociology/technology/2022-rajkumar.pdf
-  url_note: Copy of the published Science article; science.org itself blocked automated access (403).
-  accessed: 2026-10-25
-  supports: Randomised LinkedIn "People You May Know" experiments (2015, 2019) on 20M+ people; inverted-U between tie strength and job transmission; moderately weak ties (by mutual connections) most useful; weak ties matter more in digital industries, strong ties in less digital ones.
-  sample: >20 million LinkedIn members, ~2 billion new ties, 600,000 new jobs, 2015-2019, global.
-  grade: strong
-  caveats: Job transmission = later working at the connection's company; per-tie probabilities are tiny (fractions of a percent). LinkedIn users only; users were not told they were in the experiments (see acs2022-linkedin).
+  venue: "Science, 377(6612), 1304-1310"
+  doi: "10.1126/science.abl4476"
+  url: "https://gwern.net/doc/sociology/technology/2022-rajkumar.pdf"
+  url_note: "Copy of the published Science article; science.org itself blocked automated access (403)."
+  accessed: "2026-10-25"
+  supports: "Randomised LinkedIn \"People You May Know\" experiments (2015, 2019) on 20M+ people; inverted-U between tie strength and job transmission; moderately weak ties (by mutual connections) most useful; weak ties matter more in digital industries, strong ties in less digital ones."
+  sample: ">20 million LinkedIn members, ~2 billion new ties, 600,000 new jobs, 2015-2019, global."
+  grade: "strong"
+  caveats: "Job transmission = later working at the connection's company; per-tie probabilities are tiny (fractions of a percent). LinkedIn users only; users were not told they were in the experiments (see acs2022-linkedin)."
   commercial: false
-  conflicts: Two authors were LinkedIn employees.
-  topics: [networking]
+  conflicts: "Two authors were LinkedIn employees."
+  topics: ["networking"]
 
 granovetter1973:
-  type: article
-  authors: [Mark S. Granovetter]
+  type: "article"
+  authors: ["Mark S. Granovetter"]
   year: 1973
   title: "The strength of weak ties"
-  venue: American Journal of Sociology, 78(6), 1360-1380
-  doi: 10.1086/225469
-  url: https://www.cs.umd.edu/~golbeck/INST633o/granovetterTies.pdf
-  url_note: JSTOR scan hosted on a University of Maryland course page.
-  accessed: 2026-10-25
-  supports: Theory that weak ties bridge to new information; in a sample of professional, technical and managerial job changers in a Boston suburb who found jobs through contacts, 16.7% saw the contact often, 55.6% occasionally, 27.8% rarely (N=54).
-  sample: N=54 contact-finders in a random sample of recent PTM job changers, Boston suburb, c. 1969-70.
-  grade: moderate
-  caveats: Foundational theory but tiny, local, 1970s sample; frequency of contact is only one dimension of tie strength. Causal support came only in rajkumar2022.
+  venue: "American Journal of Sociology, 78(6), 1360-1380"
+  doi: "10.1086/225469"
+  url: "https://www.cs.umd.edu/~golbeck/INST633o/granovetterTies.pdf"
+  url_note: "JSTOR scan hosted on a University of Maryland course page."
+  accessed: "2026-10-25"
+  supports: "Theory that weak ties bridge to new information; in a sample of professional, technical and managerial job changers in a Boston suburb who found jobs through contacts, 16.7% saw the contact often, 55.6% occasionally, 27.8% rarely (N=54)."
+  sample: "N=54 contact-finders in a random sample of recent PTM job changers, Boston suburb, c. 1969-70."
+  grade: "moderate"
+  caveats: "Foundational theory but tiny, local, 1970s sample; frequency of contact is only one dimension of tie strength. Causal support came only in rajkumar2022."
   commercial: false
-  topics: [networking]
+  topics: ["networking"]
 
 kroft2013:
-  type: article
-  authors: [Kory Kroft, Fabian Lange, Matthew J. Notowidigdo]
+  type: "article"
+  authors: ["Kory Kroft", "Fabian Lange", "Matthew J. Notowidigdo"]
   year: 2013
   title: "Duration dependence and labor market conditions: Evidence from a field experiment"
-  venue: Quarterly Journal of Economics, 128(3), 1123-1167
-  doi: 10.1093/qje/qjt015
-  url: https://www.nber.org/system/files/working_papers/w18387/w18387.pdf
-  url_note: NBER working paper w18387 (Sept 2012); the NBER page https://www.nber.org/papers/w18387 lists the QJE 2013 published version. academic.oup.com blocked automated access.
-  accessed: 2026-10-25
-  supports: ~12,000 fictitious resumes to ~3,000 US postings in 100 metro areas; callbacks fall sharply over the first 8 months of unemployment (about 45% lower at 8 months than 1 month, ~7% to ~4%), then flatten; effect stronger in tight labour markets.
-  sample: Sales, customer service, administrative support and clerical postings, US, 2011-2012.
-  grade: strong
-  caveats: Lower-skill job categories; employer screening signal, not a law of nature; tells you about callbacks, not hires.
+  venue: "Quarterly Journal of Economics, 128(3), 1123-1167"
+  doi: "10.1093/qje/qjt015"
+  url: "https://www.nber.org/system/files/working_papers/w18387/w18387.pdf"
+  url_note: "NBER working paper w18387 (Sept 2012); the NBER page https://www.nber.org/papers/w18387 lists the QJE 2013 published version. academic.oup.com blocked automated access."
+  accessed: "2026-10-25"
+  supports: "~12,000 fictitious resumes to ~3,000 US postings in 100 metro areas; callbacks fall sharply over the first 8 months of unemployment (about 45% lower at 8 months than 1 month, ~7% to ~4%), then flatten; effect stronger in tight labour markets."
+  sample: "Sales, customer service, administrative support and clerical postings, US, 2011-2012."
+  grade: "strong"
+  caveats: "Lower-skill job categories; employer screening signal, not a law of nature; tells you about callbacks, not hires."
   commercial: false
-  topics: [switching, unemployment]
+  topics: ["switching", "unemployment"]
 
 burks2015:
-  type: article
-  authors: [Stephen V. Burks, Bo Cowgill, Mitchell Hoffman, Michael Housman]
+  type: "article"
+  authors: ["Stephen V. Burks", "Bo Cowgill", "Mitchell Hoffman", "Michael Housman"]
   year: 2015
   title: "The value of hiring through employee referrals"
-  venue: Quarterly Journal of Economics, 130(2), 805-839
-  doi: 10.1093/qje/qjv010
-  url: https://epflicht.ulb.uni-bonn.de/download/pdf/103985
-  url_note: Opened the IZA Discussion Paper 7382 version ("You'd be perfect for this: Understanding the value of hiring through referrals", May 2013); the QJE publisher page blocked automated access.
-  accessed: 2026-10-25
-  supports: Nine large firms (call centres, trucking, high-tech); referred workers 10-30% less likely to quit, better on rare high-impact metrics (patents, fewer truck accidents), similar on ordinary metrics; referred applicants substantially more likely to be hired; workers refer people like themselves.
-  sample: Personnel and productivity data from nine large US firms in three industries.
-  grade: strong
-  caveats: Industries are specific; effects on the firm, not a guarantee to the candidate. Working-paper wording may differ from published version.
+  venue: "Quarterly Journal of Economics, 130(2), 805-839"
+  doi: "10.1093/qje/qjv010"
+  url: "https://epflicht.ulb.uni-bonn.de/download/pdf/103985"
+  url_note: "Opened the IZA Discussion Paper 7382 version (\"You'd be perfect for this: Understanding the value of hiring through referrals\", May 2013); the QJE publisher page blocked automated access."
+  accessed: "2026-10-25"
+  supports: "Nine large firms (call centres, trucking, high-tech); referred workers 10-30% less likely to quit, better on rare high-impact metrics (patents, fewer truck accidents), similar on ordinary metrics; referred applicants substantially more likely to be hired; workers refer people like themselves."
+  sample: "Personnel and productivity data from nine large US firms in three industries."
+  grade: "strong"
+  caveats: "Industries are specific; effects on the firm, not a guarantee to the candidate. Working-paper wording may differ from published version."
   commercial: false
-  topics: [referrals]
+  topics: ["referrals"]
 
 brown2016:
-  type: article
-  authors: [Meta Brown, Elizabeth Setren, Giorgio Topa]
+  type: "article"
+  authors: ["Meta Brown", "Elizabeth Setren", "Giorgio Topa"]
   year: 2016
   title: "Do informal referrals lead to better matches? Evidence from a firm's employee referral system"
-  venue: Journal of Labor Economics, 34(1), 161-209
-  doi: 10.1086/682338
-  url: https://resources.newyorkfed.org/medialibrary/media/research/staff_reports/sr568.pdf
-  url_note: Federal Reserve Bank of New York Staff Report 568 (Aug 2012, rev. June 2013), the pre-publication version.
-  accessed: 2026-10-25
-  supports: In one large US corporation (62,127 applicants), referred candidates were 6.1% of applicants but 21.4% of interviewees, 27.3% of offer recipients and 29.1% of hires; job-board applicants were 60.1% of applicants but 23.5% of hires. Referred hires start with a wage advantage that dissipates by year 3, and stay longer. Also cites Pellizzari (2004): 25-40% of Europeans in most countries heard of their job via informal contacts.
-  sample: Single large US corporation, applicant and personnel records.
-  grade: strong
-  caveats: One firm; descriptive stage shares are raw, not causal.
+  venue: "Journal of Labor Economics, 34(1), 161-209"
+  doi: "10.1086/682338"
+  url: "https://resources.newyorkfed.org/medialibrary/media/research/staff_reports/sr568.pdf"
+  url_note: "Federal Reserve Bank of New York Staff Report 568 (Aug 2012, rev. June 2013), the pre-publication version."
+  accessed: "2026-10-25"
+  supports: "In one large US corporation (62,127 applicants), referred candidates were 6.1% of applicants but 21.4% of interviewees, 27.3% of offer recipients and 29.1% of hires; job-board applicants were 60.1% of applicants but 23.5% of hires. Referred hires start with a wage advantage that dissipates by year 3, and stay longer. Also cites Pellizzari (2004): 25-40% of Europeans in most countries heard of their job via informal contacts."
+  sample: "Single large US corporation, applicant and personnel records."
+  grade: "strong"
+  caveats: "One firm; descriptive stage shares are raw, not causal."
   commercial: false
-  topics: [referrals, hiring-funnel]
+  topics: ["referrals", "hiring-funnel"]
 
 atlantafed-wgt:
-  type: dataset
-  authors: [Federal Reserve Bank of Atlanta]
+  type: "dataset"
+  authors: ["Federal Reserve Bank of Atlanta"]
   year: 2026
   title: "Wage Growth Tracker"
-  venue: Federal Reserve Bank of Atlanta (based on Census Bureau / BLS Current Population Survey)
-  url: https://www.atlantafed.org/research-and-data/data/wage-growth-tracker
-  accessed: 2026-10-25
-  supports: Median 12-month wage growth of matched individuals, with separate series for job switchers vs job stayers; methodology page defines a switcher as in a different occupation or industry than a year ago or changed employer/duties in the past three months.
-  sample: Matched CPS individuals observed 12 months apart; skews toward older, more educated, continuously employed workers (per its own notes).
-  grade: strong
-  caveats: Median of individuals, not causal; switcher definition is broad and local (movers drop out of the CPS); the gap varies with the cycle.
+  venue: "Federal Reserve Bank of Atlanta (based on Census Bureau / BLS Current Population Survey)"
+  url: "https://www.atlantafed.org/research-and-data/data/wage-growth-tracker"
+  accessed: "2026-10-25"
+  supports: "Median 12-month wage growth of matched individuals, with separate series for job switchers vs job stayers; methodology page defines a switcher as in a different occupation or industry than a year ago or changed employer/duties in the past three months."
+  sample: "Matched CPS individuals observed 12 months apart; skews toward older, more educated, continuously employed workers (per its own notes)."
+  grade: "strong"
+  caveats: "Median of individuals, not causal; switcher definition is broad and local (movers drop out of the CPS); the gap varies with the cycle."
   commercial: false
-  topics: [switching]
+  topics: ["switching"]
 
 gem2025:
-  type: industry-report
-  authors: [Gem]
+  type: "industry-report"
+  authors: ["Gem"]
   year: 2025
   title: "2025 Recruiting Benchmarks Report"
-  venue: Gem (recruiting software vendor)
-  url: https://lp.gem.com/rs/972-IVV-330/images/2025%20Recruiting%20Benchmarks%20-%20Gem.pdf?version=0
-  accessed: 2026-10-25
-  supports: Customer ATS/CRM data 2021-2024 - application-to-hire 1.6% (2021) to 0.5% (2024); inbound 2024 - 6% reach pre-onsite, 20% of those onsite, 35% of onsites get offers, 0.4% hired; sourced 2.0%; offer acceptance 84% (2024) vs 81% (2021); 20 interviews per hire (2024) vs 14 (2021); 41 days to hire vs 33; referrals 1.64% of applications but 17.09% of hires; internal candidates 0.27% of applications, 12.56% of hires; job boards 48.98% of applications, 24.55% of hires.
-  sample: Gem customers (skews to tech and venture-backed and enterprise firms); sample size not stated in the extracted text.
-  grade: moderate
-  caveats: Vendor data with a product to sell (sourcing/CRM); customer base not representative; definitions are Gem's.
+  venue: "Gem (recruiting software vendor)"
+  url: "https://lp.gem.com/rs/972-IVV-330/images/2025%20Recruiting%20Benchmarks%20-%20Gem.pdf?version=0"
+  accessed: "2026-10-25"
+  supports: "Customer ATS/CRM data 2021-2024 - application-to-hire 1.6% (2021) to 0.5% (2024); inbound 2024 - 6% reach pre-onsite, 20% of those onsite, 35% of onsites get offers, 0.4% hired; sourced 2.0%; offer acceptance 84% (2024) vs 81% (2021); 20 interviews per hire (2024) vs 14 (2021); 41 days to hire vs 33; referrals 1.64% of applications but 17.09% of hires; internal candidates 0.27% of applications, 12.56% of hires; job boards 48.98% of applications, 24.55% of hires."
+  sample: "Gem customers (skews to tech and venture-backed and enterprise firms); sample size not stated in the extracted text."
+  grade: "moderate"
+  caveats: "Vendor data with a product to sell (sourcing/CRM); customer base not representative; definitions are Gem's."
   commercial: true
-  topics: [hiring-funnel, referrals, channels]
+  topics: ["hiring-funnel", "referrals", "channels"]
 
 careerplug2025:
-  type: industry-report
-  authors: [CareerPlug]
+  type: "industry-report"
+  authors: ["CareerPlug"]
   year: 2025
   title: "2025 Recruiting Metrics Report"
-  venue: CareerPlug (applicant tracking vendor for small businesses)
-  url: https://www.careerplug.com/wp-content/uploads/2025/04/Recruiting-Metrics-Report.pdf
-  accessed: 2026-10-25
-  supports: 2024 data from 60,000+ small businesses and 10M+ applications - 180 applicants per hire (up from 93); 3% of applicants invited to interview; 27% of interviews become hires; click-to-apply 4.7%; referrals 2% of applicants but 11.3% of hires; job boards 61.3% of applicants, 43.3% of hires.
-  sample: Small US businesses, mostly hourly and frontline roles (restaurants, retail, healthcare, services).
-  grade: moderate
-  caveats: Vendor data; SMB and hourly skew - not representative of professional or tech hiring.
+  venue: "CareerPlug (applicant tracking vendor for small businesses)"
+  url: "https://www.careerplug.com/wp-content/uploads/2025/04/Recruiting-Metrics-Report.pdf"
+  accessed: "2026-10-25"
+  supports: "2024 data from 60,000+ small businesses and 10M+ applications - 180 applicants per hire (up from 93); 3% of applicants invited to interview; 27% of interviews become hires; click-to-apply 4.7%; referrals 2% of applicants but 11.3% of hires; job boards 61.3% of applicants, 43.3% of hires."
+  sample: "Small US businesses, mostly hourly and frontline roles (restaurants, retail, healthcare, services)."
+  grade: "moderate"
+  caveats: "Vendor data; SMB and hourly skew - not representative of professional or tech hiring."
   commercial: true
-  topics: [hiring-funnel, referrals]
+  topics: ["hiring-funnel", "referrals"]
 
 enhancv2025-ats:
-  type: industry-survey
-  authors: [Enhancv]
+  type: "industry-survey"
+  authors: ["Enhancv"]
   year: 2025
   title: "Does ATS reject resumes? (interviews with 25 US recruiters)"
-  venue: Enhancv blog (resume-builder vendor)
-  url: https://enhancv.com/blog/does-ats-reject-resumes/
-  accessed: 2026-10-25
-  supports: 23 of 25 recruiters (92%) said their systems do not auto-reject for formatting; 2 of 25 used strict match thresholds or auto-reject on missing skills; knockout questions (work authorisation, licences, location) universal.
-  sample: 25 US recruiters, convenience sample.
-  grade: weak
-  caveats: Tiny non-random sample by a resume-tool vendor; useful only as corroboration of the mechanism.
+  venue: "Enhancv blog (resume-builder vendor)"
+  url: "https://enhancv.com/blog/does-ats-reject-resumes/"
+  accessed: "2026-10-25"
+  supports: "23 of 25 recruiters (92%) said their systems do not auto-reject for formatting; 2 of 25 used strict match thresholds or auto-reject on missing skills; knockout questions (work authorisation, licences, location) universal."
+  sample: "25 US recruiters, convenience sample."
+  grade: "weak"
+  caveats: "Tiny non-random sample by a resume-tool vendor; useful only as corroboration of the mechanism."
   commercial: true
-  topics: [ats, myths]
+  topics: ["ats", "myths"]
 
 hiringthing-ats-myth:
-  type: web
-  authors: [HiringThing]
+  type: "web"
+  authors: ["HiringThing"]
   year: 2021
   title: "Applicant tracking systems aren't excluding job applicants - people are"
-  venue: HiringThing blog (ATS vendor)
-  url: https://blog.hiringthing.com/applicant-tracking-systems-arent-excluding-job-applicants-people-are
-  accessed: 2026-10-25
-  supports: Recounts HR consultant Christine Assaf's investigation finding no study behind "75% of resumes are never read by a human"; notes the Harvard "Hidden Workers" report is about employer-set filters, not autonomous software.
-  sample: n/a (commentary)
-  grade: weak
-  caveats: ATS vendor defending ATSs - obvious interest. Year inferred from its discussion of the Sept 2021 Hidden Workers report; page date not shown in extracted text.
+  venue: "HiringThing blog (ATS vendor)"
+  url: "https://blog.hiringthing.com/applicant-tracking-systems-arent-excluding-job-applicants-people-are"
+  accessed: "2026-10-25"
+  supports: "Recounts HR consultant Christine Assaf's investigation finding no study behind \"75% of resumes are never read by a human\"; notes the Harvard \"Hidden Workers\" report is about employer-set filters, not autonomous software."
+  sample: "n/a (commentary)"
+  grade: "weak"
+  caveats: "ATS vendor defending ATSs - obvious interest. Year inferred from its discussion of the Sept 2021 Hidden Workers report; page date not shown in extracted text."
   commercial: true
-  topics: [ats, myths]
+  topics: ["ats", "myths"]
 
 interviewguys-ats-myth:
-  type: web
-  authors: [Mike Simpson]
+  type: "web"
+  authors: ["Mike Simpson"]
   year: 2026
   title: "The ATS resume rejection myth"
-  venue: The Interview Guys (career-advice business)
-  url: https://blog.theinterviewguys.com/ats-resume-rejection-myth/
-  accessed: 2026-10-25
-  supports: States the 75% figure came from a 2012 sales pitch by Preptel, a resume-optimisation company that closed in 2013, with no published method.
-  sample: n/a
-  grade: weak
-  caveats: Page dated 25 June 2026 (likely an update). Secondary, commercial; origin story is consistent across several secondary sources but the original Preptel material was not located.
+  venue: "The Interview Guys (career-advice business)"
+  url: "https://blog.theinterviewguys.com/ats-resume-rejection-myth/"
+  accessed: "2026-10-25"
+  supports: "States the 75% figure came from a 2012 sales pitch by Preptel, a resume-optimisation company that closed in 2013, with no published method."
+  sample: "n/a"
+  grade: "weak"
+  caveats: "Page dated 25 June 2026 (likely an update). Secondary, commercial; origin story is consistent across several secondary sources but the original Preptel material was not located."
   commercial: true
-  topics: [ats, myths]
+  topics: ["ats", "myths"]
 
 sackett2023-gca:
-  type: article
-  authors: [Paul R. Sackett, Saron Demeke, Isaac M. Bazian, Anne Marie Griebie, Reed Priest, Nathan R. Kuncel]
+  type: "article"
+  authors: ["Paul R. Sackett", "Saron Demeke", "Isaac M. Bazian", "Anne Marie Griebie", "Reed Priest", "Nathan R. Kuncel"]
   year: 2024
   title: "A contemporary look at the relationship between general cognitive ability and job performance"
-  venue: Journal of Applied Psychology, 109(5), 687-713
-  doi: 10.1037/apl0001159
-  url: https://gwern.net/doc/iq/ses/2023-sackett.pdf
-  url_note: Copy hosted on gwern.net (filename says 2023, the online-first year); print 2024 confirmed via Crossref.
-  accessed: 2026-10-25
-  supports: 153 samples, N=40,740 from 21st-century studies - mean observed validity .16, corrected .22 for general cognitive ability vs job performance.
-  sample: Meta-analysis of studies from 2000 onward.
-  grade: strong
-  caveats: Part of an active dispute about corrections (see ones2023).
+  venue: "Journal of Applied Psychology, 109(5), 687-713"
+  doi: "10.1037/apl0001159"
+  url: "https://gwern.net/doc/iq/ses/2023-sackett.pdf"
+  url_note: "Copy hosted on gwern.net (filename says 2023, the online-first year); print 2024 confirmed via Crossref."
+  accessed: "2026-10-25"
+  supports: "153 samples, N=40,740 from 21st-century studies - mean observed validity .16, corrected .22 for general cognitive ability vs job performance."
+  sample: "Meta-analysis of studies from 2000 onward."
+  grade: "strong"
+  caveats: "Part of an active dispute about corrections (see ones2023)."
   commercial: false
-  topics: [selection-methods]
+  topics: ["selection-methods"]
 
 ones2023:
-  type: article
-  authors: [Deniz S. Ones, Chockalingam Viswesvaran]
+  type: "article"
+  authors: ["Deniz S. Ones", "Chockalingam Viswesvaran"]
   year: 2023
   title: "A response to speculations about concurrent validities in selection: Implications for cognitive ability"
-  venue: Industrial and Organizational Psychology (commentary)
-  url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5C25EFD82F603039E111FFAF299B1B0F/S1754942623000433a.pdf/a-response-to-speculations-about-concurrent-validities-in-selection-implications-for-cognitive-ability.pdf
-  accessed: 2026-10-25
-  supports: Counter-argument that range-restriction corrections in concurrent studies are appropriate; disputes that cognitive ability's validity is much lower than previously reported.
-  sample: n/a (commentary)
-  grade: moderate
-  caveats: Commentary, not new data; shows the magnitude debate is live.
+  venue: "Industrial and Organizational Psychology (commentary)"
+  url: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5C25EFD82F603039E111FFAF299B1B0F/S1754942623000433a.pdf/a-response-to-speculations-about-concurrent-validities-in-selection-implications-for-cognitive-ability.pdf"
+  accessed: "2026-10-25"
+  supports: "Counter-argument that range-restriction corrections in concurrent studies are appropriate; disputes that cognitive ability's validity is much lower than previously reported."
+  sample: "n/a (commentary)"
+  grade: "moderate"
+  caveats: "Commentary, not new data; shows the magnitude debate is live."
   commercial: false
-  topics: [selection-methods]
+  topics: ["selection-methods"]
 
 levashina2014:
-  type: article
-  authors: [Julia Levashina, Christopher J. Hartwell, Frederick P. Morgeson, Michael A. Campion]
+  type: "article"
+  authors: ["Julia Levashina", "Christopher J. Hartwell", "Frederick P. Morgeson", "Michael A. Campion"]
   year: 2014
   title: "The structured employment interview: Narrative and quantitative review of the research literature"
-  venue: Personnel Psychology, 67(1), 241-293
-  doi: 10.1111/peps.12052
-  url: https://apps.it.purdue.edu/sites/Home/DirectoryApi/Files/42d5154c-ccc5-403e-b3ed-edd69e3f6896/Download
-  url_note: Author copy via Purdue directory.
-  accessed: 2026-10-25
-  supports: Past-behaviour questions slightly more valid than situational (uncorrected .31 vs .25-.26 in cited meta-analyses); meta-analysis of impression management in structured interviews - self-promotion r=.26, nonverbal .18, other-focused .13, defensive .12; structure reduces but does not eliminate IM.
-  sample: Review of structured interview literature with new meta-analyses.
-  grade: strong
-  caveats: Validity values quoted from other meta-analyses are uncorrected.
+  venue: "Personnel Psychology, 67(1), 241-293"
+  doi: "10.1111/peps.12052"
+  url: "https://apps.it.purdue.edu/sites/Home/DirectoryApi/Files/42d5154c-ccc5-403e-b3ed-edd69e3f6896/Download"
+  url_note: "Author copy via Purdue directory."
+  accessed: "2026-10-25"
+  supports: "Past-behaviour questions slightly more valid than situational (uncorrected .31 vs .25-.26 in cited meta-analyses); meta-analysis of impression management in structured interviews - self-promotion r=.26, nonverbal .18, other-focused .13, defensive .12; structure reduces but does not eliminate IM."
+  sample: "Review of structured interview literature with new meta-analyses."
+  grade: "strong"
+  caveats: "Validity values quoted from other meta-analyses are uncorrected."
   commercial: false
-  topics: [selection-methods, interviewing]
+  topics: ["selection-methods", "interviewing"]
 
 hiddenworkers2021:
-  type: report
-  authors: [Joseph B. Fuller, Manjari Raman, Eva Sage-Gavin, Kristen Hines]
+  type: "report"
+  authors: ["Joseph B. Fuller", "Manjari Raman", "Eva Sage-Gavin", "Kristen Hines"]
   year: 2021
   title: "Hidden Workers: Untapped Talent"
-  venue: Harvard Business School Project on Managing the Future of Work and Accenture
-  url: https://www.hbs.edu/managing-the-future-of-work/research/hidden-workers-untapped-talent
-  url_note: PDF opened via the download link on this HBS page (hiddenworkers09032021.pdf, Contentful-hosted with an expiring token).
-  accessed: 2026-10-25
-  supports: Survey of 2,275 executives and 8,720 hidden workers (US, UK, Germany). >90% of employers use their RMS to initially filter or rank candidates; 88% agree qualified high-skills candidates are vetted out for not matching exact job-description criteria (94% middle-skills); 48% filter middle-skills candidates on employment gaps over six months.
-  sample: 2,275 executives, 8,720 workers, three countries.
-  grade: moderate
-  caveats: Executive self-report; Accenture is a consultancy with services in this space. Shows employer-configured filters, not autonomous rejection.
-  commercial: partly (Accenture co-author)
-  topics: [ats, hiring-funnel, switching]
+  venue: "Harvard Business School Project on Managing the Future of Work and Accenture"
+  url: "https://www.hbs.edu/managing-the-future-of-work/research/hidden-workers-untapped-talent"
+  url_note: "PDF opened via the download link on this HBS page (hiddenworkers09032021.pdf, Contentful-hosted with an expiring token)."
+  accessed: "2026-10-25"
+  supports: "Survey of 2,275 executives and 8,720 hidden workers (US, UK, Germany). >90% of employers use their RMS to initially filter or rank candidates; 88% agree qualified high-skills candidates are vetted out for not matching exact job-description criteria (94% middle-skills); 48% filter middle-skills candidates on employment gaps over six months."
+  sample: "2,275 executives, 8,720 workers, three countries."
+  grade: "moderate"
+  caveats: "Executive self-report; Accenture is a consultancy with services in this space. Shows employer-configured filters, not autonomous rejection."
+  commercial: true
+  topics: ["ats", "hiring-funnel", "switching"]
 
 sullivan2013:
-  type: web
-  authors: [John Sullivan]
+  type: "web"
+  authors: ["John Sullivan"]
   year: 2013
   title: "Why you can't get a job... Recruiting explained by the numbers"
-  venue: ERE (recruiting trade site), 20 May 2013
-  url: https://www.ere.net/articles/why-you-cant-get-a-job-recruiting-explained-by-the-numbers
-  accessed: 2026-10-25
-  supports: Origin of the widely repeated "250 resumes per corporate job opening" figure, hedged in the original ("Although it varies with the company and the job").
-  sample: None stated.
-  grade: weak
-  caveats: Consultant estimate without method; later misattributed to Glassdoor.
+  venue: "ERE (recruiting trade site), 20 May 2013"
+  url: "https://www.ere.net/articles/why-you-cant-get-a-job-recruiting-explained-by-the-numbers"
+  accessed: "2026-10-25"
+  supports: "Origin of the widely repeated \"250 resumes per corporate job opening\" figure, hedged in the original (\"Although it varies with the company and the job\")."
+  sample: "None stated."
+  grade: "weak"
+  caveats: "Consultant estimate without method; later misattributed to Glassdoor."
   commercial: false
-  topics: [hiring-funnel, myths]
+  topics: ["hiring-funnel", "myths"]
 
 shrm2015-recruiters:
-  type: web
-  authors: [SHRM]
+  type: "web"
+  authors: ["SHRM"]
   year: 2015
   title: "Recruiters must be 'project managers' and 'consultants'"
-  venue: SHRM news (28 April 2015), reporting a talk by Gerry Eskenazi at the 2015 SHRM Talent Management conference
-  url: https://www.shrm.org/in/topics-tools/news/talent-acquisition/recruiters-must-project-managers-consultants
-  accessed: 2026-10-25
-  supports: Practitioner framing that recruiters project-manage while hiring managers decide; intake meetings and service-level agreements.
-  sample: n/a
-  grade: weak
-  caveats: Practitioner opinion; uncontroversial but not research.
+  venue: "SHRM news (28 April 2015), reporting a talk by Gerry Eskenazi at the 2015 SHRM Talent Management conference"
+  url: "https://www.shrm.org/in/topics-tools/news/talent-acquisition/recruiters-must-project-managers-consultants"
+  accessed: "2026-10-25"
+  supports: "Practitioner framing that recruiters project-manage while hiring managers decide; intake meetings and service-level agreements."
+  sample: "n/a"
+  grade: "weak"
+  caveats: "Practitioner opinion; uncontroversial but not research."
   commercial: false
-  topics: [hiring-funnel]
+  topics: ["hiring-funnel"]
 
 ladders2012:
-  type: industry-report
-  authors: [TheLadders (Will Evans)]
+  type: "industry-report"
+  authors: ["TheLadders (Will Evans)"]
   year: 2012
   title: "Keeping an eye on recruiter behavior (Eye tracking online metacognition: cognitive complexity and recruiter decision making)"
-  venue: TheLadders (job site)
-  url: https://web.archive.org/web/20131214121352/http://cdn.theladders.net/static/images/basicSite/pdfs/TheLadders-EyeTracking-StudyC2.pdf
-  url_note: Internet Archive copy of the original PDF.
-  accessed: 2026-10-25
-  supports: 30 recruiters over 10 weeks; ~6 seconds on initial fit/no-fit decision; ~80% of time on name, titles, companies, dates, education.
-  sample: 30 professional recruiters.
-  grade: weak
-  caveats: Not peer-reviewed; small sample; document promotes TheLadders' resume-rewrite service and compares its own profiles favourably to LinkedIn's.
+  venue: "TheLadders (job site)"
+  url: "https://web.archive.org/web/20131214121352/http://cdn.theladders.net/static/images/basicSite/pdfs/TheLadders-EyeTracking-StudyC2.pdf"
+  url_note: "Internet Archive copy of the original PDF."
+  accessed: "2026-10-25"
+  supports: "30 recruiters over 10 weeks; ~6 seconds on initial fit/no-fit decision; ~80% of time on name, titles, companies, dates, education."
+  sample: "30 professional recruiters."
+  grade: "weak"
+  caveats: "Not peer-reviewed; small sample; document promotes TheLadders' resume-rewrite service and compares its own profiles favourably to LinkedIn's."
   commercial: true
-  topics: [resumes, hiring-funnel, myths]
+  topics: ["resumes", "hiring-funnel", "myths"]
 
 ladders2018:
-  type: industry-report
-  authors: [Ladders Inc.]
+  type: "industry-report"
+  authors: ["Ladders Inc."]
   year: 2018
   title: "Eye-Tracking Study 2018"
-  venue: Ladders (job site)
-  url: https://web.archive.org/web/20210110010358/https://www.theladders.com/static/images/basicSite/pdfs/TheLadders-EyeTracking-StudyC2.pdf
-  url_note: Internet Archive copy; live theladders.com blocked automated access (403). Secondary coverage - https://hrdailyadvisor.hci.org/2018/11/15/eye-tracking-recruiters-average-7-4-seconds-reviewing-a-resume/
-  accessed: 2026-10-25
-  supports: 7.4-second average initial screen; simple layouts with clear titles and headers performed best; clutter, multiple columns, keyword stuffing performed worst.
-  sample: Not stated in the report.
-  grade: weak
-  caveats: Commercial; no sample size or peer review; measures first-pass glance only.
+  venue: "Ladders (job site)"
+  url: "https://web.archive.org/web/20210110010358/https://www.theladders.com/static/images/basicSite/pdfs/TheLadders-EyeTracking-StudyC2.pdf"
+  url_note: "Internet Archive copy; live theladders.com blocked automated access (403). Secondary coverage - https://hrdailyadvisor.hci.org/2018/11/15/eye-tracking-recruiters-average-7-4-seconds-reviewing-a-resume/"
+  accessed: "2026-10-25"
+  supports: "7.4-second average initial screen; simple layouts with clear titles and headers performed best; clutter, multiple columns, keyword stuffing performed worst."
+  sample: "Not stated in the report."
+  grade: "weak"
+  caveats: "Commercial; no sample size or peer review; measures first-pass glance only."
   commercial: true
-  topics: [resumes, hiring-funnel, myths]
+  topics: ["resumes", "hiring-funnel", "myths"]
 
 acs2022-linkedin:
-  type: news
-  authors: [Information Age (Australian Computer Society)]
+  type: "news"
+  authors: ["Information Age (Australian Computer Society)"]
   year: 2022
   title: "Secret study conducted on 20 million LinkedIn users"
-  venue: Information Age, ACS
-  url: https://ia.acs.org.au/article/2022/secret-study-conducted-on-20-million-linkedin-users.html
-  accessed: 2026-10-25
-  supports: Reports that users in the rajkumar2022 experiments were not told they were test subjects; quotes Michael Zimmer (Marquette) on ethics; LinkedIn said it acted consistently with its user agreement and privacy policy.
-  sample: n/a
-  grade: moderate
-  caveats: Secondary news report (relays NYT coverage).
+  venue: "Information Age, ACS"
+  url: "https://ia.acs.org.au/article/2022/secret-study-conducted-on-20-million-linkedin-users.html"
+  accessed: "2026-10-25"
+  supports: "Reports that users in the rajkumar2022 experiments were not told they were test subjects; quotes Michael Zimmer (Marquette) on ethics; LinkedIn said it acted consistently with its user agreement and privacy policy."
+  sample: "n/a"
+  grade: "moderate"
+  caveats: "Secondary news report (relays NYT coverage)."
   commercial: false
-  topics: [networking]
+  topics: ["networking"]
 
 pellizzari-via-brown2016:
-  type: note
-  authors: [n/a]
+  type: "note"
+  authors: ["n/a"]
   year: 2016
   title: "Pellizzari (2004) as cited in brown2016"
-  venue: cited in brown2016 footnote 2
-  url: https://resources.newyorkfed.org/medialibrary/media/research/staff_reports/sr568.pdf
-  accessed: 2026-10-25
-  supports: Between 25% and 40% of respondents in most European countries heard about their current job through informal contacts (European Community Household Panel).
-  sample: ECHP households.
-  grade: moderate
-  caveats: Secondary citation; Pellizzari's original was not opened.
+  venue: "cited in brown2016 footnote 2"
+  url: "https://resources.newyorkfed.org/medialibrary/media/research/staff_reports/sr568.pdf"
+  accessed: "2026-10-25"
+  supports: "Between 25% and 40% of respondents in most European countries heard about their current job through informal contacts (European Community Household Panel)."
+  sample: "ECHP households."
+  grade: "moderate"
+  caveats: "Secondary citation; Pellizzari's original was not opened."
   commercial: false
-  topics: [networking, regional]
+  topics: ["networking", "regional"]
 
 lester2021:
-  type: working-paper
-  authors: [Benjamin Lester, David A. Rivers, Giorgio Topa]
+  type: "working-paper"
+  authors: ["Benjamin Lester", "David A. Rivers", "Giorgio Topa"]
   year: 2021
   title: "The heterogeneous impact of referrals on labor market outcomes"
-  venue: Federal Reserve Bank of New York Staff Reports, no. 987
-  url: https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr987.pdf
-  accessed: 2026-10-25
-  supports: Survey literature - most surveys of job seekers find 50-60% report using a referral to find employment; firm surveys range from just under 40% to over 50% of hires via referral. In the NY Fed Survey of Consumer Expectations (2013-2018), business-contact referrals associate with higher starting wages and are used more for high-skill jobs; family/friend referrals with lower starting wages, used more for low-skill jobs.
-  sample: SCE Job Search Surveys 2013-2018, nationally representative US online panel.
-  grade: strong
-  caveats: Working paper; "using a referral" is broad (any contact help).
+  venue: "Federal Reserve Bank of New York Staff Reports, no. 987"
+  url: "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr987.pdf"
+  accessed: "2026-10-25"
+  supports: "Survey literature - most surveys of job seekers find 50-60% report using a referral to find employment; firm surveys range from just under 40% to over 50% of hires via referral. In the NY Fed Survey of Consumer Expectations (2013-2018), business-contact referrals associate with higher starting wages and are used more for high-skill jobs; family/friend referrals with lower starting wages, used more for low-skill jobs."
+  sample: "SCE Job Search Surveys 2013-2018, nationally representative US online panel."
+  grade: "strong"
+  caveats: "Working paper; \"using a referral\" is broad (any contact help)."
   commercial: false
-  topics: [referrals, networking]
+  topics: ["referrals", "networking"]
 
 fresnostate2024-hidden:
-  type: web
-  authors: [College Recruiter, republished by California State University Fresno Career Development Center]
+  type: "web"
+  authors: ["College Recruiter", "republished by California State University Fresno Career Development Center"]
   year: 2024
   title: "Is it true that 80% of job openings are not advertised?"
-  venue: Fresno State Career Development Center blog (11 July 2024)
-  url: https://careercenter.fresnostate.edu/blog/2024/07/11/is-it-true-that-80-of-job-openings-are-not-advertised/
-  accessed: 2026-10-25
-  supports: The 80%-unadvertised claim is hard to trace to any single source and "likely originated from anecdotal evidence and informal surveys rather than rigorous, peer-reviewed research."
-  sample: n/a
-  grade: weak
-  caveats: Originally from College Recruiter (a job board); commentary only.
+  venue: "Fresno State Career Development Center blog (11 July 2024)"
+  url: "https://careercenter.fresnostate.edu/blog/2024/07/11/is-it-true-that-80-of-job-openings-are-not-advertised/"
+  accessed: "2026-10-25"
+  supports: "The 80%-unadvertised claim is hard to trace to any single source and \"likely originated from anecdotal evidence and informal surveys rather than rigorous, peer-reviewed research.\""
+  sample: "n/a"
+  grade: "weak"
+  caveats: "Originally from College Recruiter (a job board); commentary only."
   commercial: true
-  topics: [networking, myths]
+  topics: ["networking", "myths"]
 
 fernandez1997:
-  type: article
-  authors: [Roberto M. Fernandez, Nancy Weinberg]
+  type: "article"
+  authors: ["Roberto M. Fernandez", "Nancy Weinberg"]
   year: 1997
   title: "Sifting and sorting: Personal contacts and hiring in a retail bank"
-  venue: American Sociological Review, 62(6), 883-902
-  doi: 10.2307/2657345
-  url: https://www.gsb.stanford.edu/faculty-research/working-papers/getting-job-networks-hiring-retail-bank
-  url_note: Opened the 1996 Stanford GSB working-paper page ("Getting a job - networks and hiring in a retail bank"), which carries the abstract; the ASR article itself was not opened.
-  accessed: 2026-10-25
-  supports: Applicants to four job categories at a large retail bank (1993-1995) followed through interview, offer and hire; referrals advantaged at interview and offer stages after controls; referrals present more appropriate resumes, but resume quality and timing do not explain their advantage.
-  sample: Applicant pool of one retail bank.
-  grade: strong
-  caveats: Single firm; evidence taken from the working-paper abstract.
+  venue: "American Sociological Review, 62(6), 883-902"
+  doi: "10.2307/2657345"
+  url: "https://www.gsb.stanford.edu/index%2Ephp/faculty-research/working-papers/getting-job-networks-hiring-retail-bank"
+  url_note: "Opened the 1996 Stanford GSB working-paper page (\"Getting a job - networks and hiring in a retail bank\"), which carries the abstract; the ASR article itself was not opened."
+  accessed: "2026-10-25"
+  supports: "Applicants to four job categories at a large retail bank (1993-1995) followed through interview, offer and hire; referrals advantaged at interview and offer stages after controls; referrals present more appropriate resumes, but resume quality and timing do not explain their advantage."
+  sample: "Applicant pool of one retail bank."
+  grade: "strong"
+  caveats: "Single firm; evidence taken from the working-paper abstract."
   commercial: false
-  topics: [referrals]
+  topics: ["referrals"]
 
 pallais2016:
-  type: article
-  authors: [Amanda Pallais, Emily Glassberg Sands]
+  type: "article"
+  authors: ["Amanda Pallais", "Emily Glassberg Sands"]
   year: 2016
   title: "Why the referential treatment? Evidence from field experiments on referrals"
-  venue: Journal of Political Economy (2016); NBER working paper w21357, doi 10.3386/w21357
-  url: https://www.nber.org/system/files/working_papers/w21357/w21357.pdf
-  url_note: NBER working paper w21357 (July 2015) opened; JPE publication per author's 2016 copyright notice in search results, volume/issue not verified.
-  accessed: 2026-10-25
-  supports: Three field experiments in an online labour market (oDesk) - referrals carry positive information about performance and persistence beyond observables; referred workers do especially well working directly with their referrer; no evidence of extra effort to protect the referrer.
-  sample: Workers hired on oDesk (now Upwork) for experimental tasks.
-  grade: strong
-  caveats: Online micro-task context; generalisation to salaried jobs is an inference.
+  venue: "Journal of Political Economy (2016); NBER working paper w21357, doi 10.3386/w21357"
+  url: "https://www.nber.org/system/files/working_papers/w21357/w21357.pdf"
+  url_note: "NBER working paper w21357 (July 2015) opened; JPE publication per author's 2016 copyright notice in search results, volume/issue not verified."
+  accessed: "2026-10-25"
+  supports: "Three field experiments in an online labour market (oDesk) - referrals carry positive information about performance and persistence beyond observables; referred workers do especially well working directly with their referrer; no evidence of extra effort to protect the referrer."
+  sample: "Workers hired on oDesk (now Upwork) for experimental tasks."
+  grade: "strong"
+  caveats: "Online micro-task context; generalisation to salaried jobs is an inference."
   commercial: false
-  topics: [referrals]
+  topics: ["referrals"]
 
 fernandez2019:
-  type: article
-  authors: [Roberto M. Fernandez, Brian Rubineau]
+  type: "article"
+  authors: ["Roberto M. Fernandez", "Brian Rubineau"]
   year: 2019
   title: "Network recruitment and the glass ceiling: Evidence from two firms"
   venue: "RSF: The Russell Sage Foundation Journal of the Social Sciences, 5(3), 88-102"
-  doi: 10.7758/rsf.2019.5.3.05
-  url: https://www.mcgill.ca/desautels/channels/news/network-recruitment-and-glass-ceiling-evidence-two-firms-296396
-  url_note: McGill Desautels page carrying the abstract and citation.
-  accessed: 2026-10-25
-  supports: With gender homophily, referral hiring can disadvantage women where an old-boys network exists, more so at higher levels; but overall network recruitment was desegregating and promoted women's representation at all levels.
-  sample: Administrative data from two firms.
-  grade: moderate
-  caveats: Two firms; abstract-level reading.
+  doi: "10.7758/rsf.2019.5.3.05"
+  url: "https://www.mcgill.ca/desautels/channels/news/network-recruitment-and-glass-ceiling-evidence-two-firms-296396"
+  url_note: "McGill Desautels page carrying the abstract and citation."
+  accessed: "2026-10-25"
+  supports: "With gender homophily, referral hiring can disadvantage women where an old-boys network exists, more so at higher levels; but overall network recruitment was desegregating and promoted women's representation at all levels."
+  sample: "Administrative data from two firms."
+  grade: "moderate"
+  caveats: "Two firms; abstract-level reading."
   commercial: false
-  topics: [referrals]
+  topics: ["referrals"]
 
 gee2017:
-  type: article
-  authors: [Laura K. Gee, Jason Jones, Moira Burke]
+  type: "article"
+  authors: ["Laura K. Gee", "Jason Jones", "Moira Burke"]
   year: 2017
   title: "Social networks and labor markets: How strong ties relate to job finding on Facebook's social network"
-  venue: Journal of Labor Economics, 35(2), 485-518
-  doi: 10.1086/686225
-  url: https://dl.tufts.edu/concern/pdfs/zk51vt87x
-  url_note: Tufts Digital Library record with abstract and full citation.
-  accessed: 2026-10-25
-  supports: 6 million Facebook users; most people are helped through one of their numerous weak ties, but a single stronger tie is significantly more valuable at the margin.
-  sample: De-identified Facebook data; job help proxied by later working with a pre-existing friend.
-  grade: strong
-  caveats: Correlational; Facebook-measured ties only; two authors were Facebook researchers.
+  venue: "Journal of Labor Economics, 35(2), 485-518"
+  doi: "10.1086/686225"
+  url: "https://dl.tufts.edu/concern/pdfs/zk51vt87x"
+  url_note: "Tufts Digital Library record with abstract and full citation."
+  accessed: "2026-10-25"
+  supports: "6 million Facebook users; most people are helped through one of their numerous weak ties, but a single stronger tie is significantly more valuable at the margin."
+  sample: "De-identified Facebook data; job help proxied by later working with a pre-existing friend."
+  grade: "strong"
+  caveats: "Correlational; Facebook-measured ties only; data came from Facebook (author affiliations not verified here)."
   commercial: false
-  topics: [networking]
+  topics: ["networking"]
 
 bidwell2011:
-  type: article
-  authors: [Matthew Bidwell]
+  type: "article"
+  authors: ["Matthew Bidwell"]
   year: 2011
   title: "Paying more to get less: The effects of external hiring versus internal mobility"
-  venue: Administrative Science Quarterly, 56(3), 369-407
-  doi: 10.1177/0001839211433562
-  url: https://knowledge.wharton.upenn.edu/article/why-external-hires-get-paid-more-and-perform-worse-than-internal-staff/
-  url_note: Opened Knowledge at Wharton's write-up (28 March 2012), which links the ASQ abstract; the paper itself was not opened. Volume/issue inferred from the ASQ link path (content/56/3/369).
-  accessed: 2026-10-25
-  supports: US investment-banking division, 2003-2009 - external hires paid about 18-20% more than internal promotions, significantly lower performance evaluations in first two years, higher exit rates, faster promotion if they stay beyond two years; similar in another bank and a publisher.
-  sample: Personnel data from one investment-bank division (plus two replication sites).
-  grade: moderate
-  caveats: Secondary write-up of a peer-reviewed paper; one industry.
+  venue: "Administrative Science Quarterly, 56(3), 369-407"
+  doi: "10.1177/0001839211433562"
+  url: "https://knowledge.wharton.upenn.edu/article/why-external-hires-get-paid-more-and-perform-worse-than-internal-staff/"
+  url_note: "Opened Knowledge at Wharton's write-up (28 March 2012), which links the ASQ abstract; the paper itself was not opened. Volume/issue inferred from the ASQ link path (content/56/3/369)."
+  accessed: "2026-10-25"
+  supports: "US investment-banking division, 2003-2009 - external hires paid about 18-20% more than internal promotions, significantly lower performance evaluations in first two years, higher exit rates, faster promotion if they stay beyond two years; similar in another bank and a publisher."
+  sample: "Personnel data from one investment-bank division (plus two replication sites)."
+  grade: "moderate"
+  caveats: "Secondary write-up of a peer-reviewed paper; one industry."
   commercial: false
-  topics: [channels, switching]
+  topics: ["channels", "switching"]
 
 topechelon-fees:
-  type: web
-  authors: [Top Echelon]
+  type: "web"
+  authors: ["Top Echelon"]
   year: 2026
   title: "Recruitment agency fee structure types"
-  venue: Top Echelon blog (software and services vendor to recruitment agencies)
-  url: https://topechelon.com/blog/recruitment-agency-fee-structures/
-  accessed: 2026-10-25
-  supports: Agencies typically charge employers a percentage of the new hire's first-year wages; retained search paid in instalments and typically a higher total percentage than contingency; illustrative examples at 18-25%.
-  sample: n/a
-  grade: weak
-  caveats: Vendor to agencies; examples, not survey data.
+  venue: "Top Echelon blog (software and services vendor to recruitment agencies)"
+  url: "https://topechelon.com/blog/recruitment-agency-fee-structures/"
+  accessed: "2026-10-25"
+  supports: "Agencies typically charge employers a percentage of the new hire's first-year wages; retained search paid in instalments and typically a higher total percentage than contingency; illustrative examples at 18-25%."
+  sample: "n/a"
+  grade: "weak"
+  caveats: "Vendor to agencies; examples, not survey data."
   commercial: true
-  topics: [channels]
+  topics: ["channels"]
 
 startwire2011:
-  type: news
-  authors: [ERE (reporting StartWire data)]
+  type: "news"
+  authors: ["ERE (reporting StartWire data)"]
   year: 2011
   title: "Post a job this week? Your hire has probably already applied"
-  venue: ERE, 8 June 2011
-  url: https://www.ere.net/articles/post-a-job-this-week-your-hire-has-probably-already-applied
-  accessed: 2026-10-25
-  supports: StartWire data on 6,600 hires across 10 industries - almost 50% of hires applied within first week of posting, 27% within two days, three-quarters within three weeks.
-  sample: 6,600 hires from employers that shared data with a startup; method not published.
-  grade: weak
-  caveats: Startup's own unpublished analysis; correlation (early posting periods also have most applicants).
+  venue: "ERE, 8 June 2011"
+  url: "https://www.ere.net/articles/post-a-job-this-week-your-hire-has-probably-already-applied"
+  accessed: "2026-10-25"
+  supports: "StartWire data on 6,600 hires across 10 industries - almost 50% of hires applied within first week of posting, 27% within two days, three-quarters within three weeks."
+  sample: "6,600 hires from employers that shared data with a startup; method not published."
+  grade: "weak"
+  caveats: "Startup's own unpublished analysis; correlation (early posting periods also have most applicants)."
   commercial: true
-  topics: [channels, myths]
+  topics: ["channels", "myths"]
 
 fradkin-bu2025:
-  type: news
-  authors: [Boston University (The Brink)]
+  type: "news"
+  authors: ["Boston University (The Brink)"]
   year: 2025
   title: "Looking for jobs on Indeed or LinkedIn? BU research finds it's best to apply early"
-  venue: BU Faculty of Computing & Data Sciences / The Brink, 24 July 2025
-  url: https://www.bu.edu/cds-faculty/2025/07/24/bu-careers-research-apply-early/
-  accessed: 2026-10-25
-  supports: Summary of Andrey Fradkin's Management Science research - fewer people apply after a posting's first few days; people more likely to apply when told few others have applied.
-  sample: Job-board platform data (details in the paper, not opened).
-  grade: moderate
-  caveats: University press summary; measures applicant behaviour, not hiring outcomes.
+  venue: "BU Faculty of Computing & Data Sciences / The Brink, 24 July 2025"
+  url: "https://www.bu.edu/cds-faculty/2025/07/24/bu-careers-research-apply-early/"
+  accessed: "2026-10-25"
+  supports: "Summary of Andrey Fradkin's Management Science research - fewer people apply after a posting's first few days; people more likely to apply when told few others have applied."
+  sample: "Job-board platform data (details in the paper, not opened)."
+  grade: "moderate"
+  caveats: "University press summary; measures applicant behaviour, not hiring outcomes."
   commercial: false
-  topics: [channels]
+  topics: ["channels"]
 
 faberman2017:
-  type: working-paper
-  authors: [R. Jason Faberman, Andreas I. Mueller, Aysegul Sahin, Giorgio Topa]
+  type: "working-paper"
+  authors: ["R. Jason Faberman", "Andreas I. Mueller", "Aysegul Sahin", "Giorgio Topa"]
   year: 2017
   title: "Job search behavior among the employed and non-employed"
-  venue: Working paper (August 2017); later published in Econometrica (2022) per secondary listings, not verified
-  url: https://business.columbia.edu/sites/default/files-efs/pubfiles/20320/FMST_WP.pdf
-  accessed: 2026-10-25
-  supports: Employed searchers receive more offers per application and higher wage offers than the non-employed, even after controls; unconditional wage-offer gap 40 log points (49%), 25 log points after controls; employed nearly three times more efficient at converting search effort into offers.
-  sample: NY Fed Survey of Consumer Expectations job-search supplement (annual each October from 2013), US.
-  grade: strong
-  caveats: Working-paper figures; the published version may differ. Part of the gap reflects who is unemployed (selection), which the paper models.
+  venue: "Working paper (August 2017); later published in Econometrica (2022) per secondary listings, not verified"
+  url: "https://business.columbia.edu/sites/default/files-efs/pubfiles/20320/FMST_WP.pdf"
+  accessed: "2026-10-25"
+  supports: "Employed searchers receive more offers per application and higher wage offers than the non-employed, even after controls; unconditional wage-offer gap 40 log points (49%), 25 log points after controls; employed nearly three times more efficient at converting search effort into offers."
+  sample: "NY Fed Survey of Consumer Expectations job-search supplement (annual each October from 2013), US."
+  grade: "strong"
+  caveats: "Working-paper figures; the published version may differ. Part of the gap reflects who is unemployed (selection), which the paper models."
   commercial: false
-  topics: [switching, channels]
+  topics: ["switching", "channels"]
 
 sterkens2023:
-  type: article
-  authors: [Philippe Sterkens, Ralf Caers, Marijke De Couck, Victor Van Driessche, Michael Geamanu, Stijn Baert]
+  type: "article"
+  authors: ["Philippe Sterkens", "Ralf Caers", "Marijke De Couck", "Victor Van Driessche", "Michael Geamanu", "Stijn Baert"]
   year: 2023
   title: "Costly mistakes: Why and when spelling errors in resumes jeopardise interview chances"
-  venue: PLOS ONE, 18(4), e0283280
-  doi: 10.1371/journal.pone.0283280
-  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10075394/
-  accessed: 2026-10-25
-  supports: Scenario experiment with 445 recruiters - error-laden resumes 18.5 pp lower interview probability, fewer errors 7.3 pp lower; half the penalty explained by inferred lower interpersonal skills (9.0%), conscientiousness (12.1%), mental ability (32.2%).
-  sample: 445 recruiters (Belgium-based research team).
-  grade: strong
-  caveats: Vignette experiment rather than real hiring; author list verified against the PMC author-roles section.
+  venue: "PLOS ONE, 18(4), e0283280"
+  doi: "10.1371/journal.pone.0283280"
+  url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10075394/"
+  accessed: "2026-10-25"
+  supports: "Scenario experiment with 445 recruiters - error-laden resumes 18.5 pp lower interview probability, fewer errors 7.3 pp lower; half the penalty explained by inferred lower interpersonal skills (9.0%), conscientiousness (12.1%), mental ability (32.2%)."
+  sample: "445 recruiters (Belgium-based research team)."
+  grade: "strong"
+  caveats: "Vignette experiment rather than real hiring; author list verified against the PMC author-roles section."
   commercial: false
-  topics: [resumes]
+  topics: ["resumes"]
 
 resumego2018-length:
-  type: industry-study
-  authors: [ResumeGo]
+  type: "industry-study"
+  authors: ["ResumeGo"]
   year: 2018
   title: "Settling the debate: One or two page resumes"
-  venue: ResumeGo (resume-writing service)
-  url: https://www.resumego.net/research/one-or-two-page-resumes/
-  accessed: 2026-10-25
-  supports: Simulated hiring (15 Oct - 2 Nov 2018) with 482 recruiters/hiring managers/HR/executives; of 7,712 resumes chosen 5,375 were two pages; "2.3 times as likely to prefer" two-page resumes, 1.4x for entry-level.
-  sample: 482 professionals, simulation.
-  grade: weak
-  caveats: Commercial, unpublished, simulation; selection not hiring.
+  venue: "ResumeGo (resume-writing service)"
+  url: "https://www.resumego.net/research/one-or-two-page-resumes/"
+  accessed: "2026-10-25"
+  supports: "Simulated hiring (15 Oct - 2 Nov 2018) with 482 recruiters/hiring managers/HR/executives; of 7,712 resumes chosen 5,375 were two pages; \"2.3 times as likely to prefer\" two-page resumes, 1.4x for entry-level."
+  sample: "482 professionals, simulation."
+  grade: "weak"
+  caveats: "Commercial, unpublished, simulation; selection not hiring."
   commercial: true
-  topics: [resumes, myths]
+  topics: ["resumes", "myths"]
 
 resumego2020-cover:
-  type: industry-study
-  authors: [ResumeGo]
+  type: "industry-study"
+  authors: ["ResumeGo"]
   year: 2020
   title: "Cover letters: Just how important are they?"
-  venue: ResumeGo (resume-writing service)
-  url: https://www.resumego.net/research/cover-letters/
-  accessed: 2026-10-25
-  supports: Field experiment 15 July 2019 - 10 January 2020 with 7,287 fictitious applications to job-board postings (none / generic / tailored cover letter); reports tailored letters had a 53% higher callback rate than none; survey of 236 hiring professionals - 87% read cover letters, 81% value tailored over generic.
-  sample: 7,287 applications; 236 surveyed professionals.
-  grade: weak
-  caveats: Commercial, unpublished, results table is an image so group-level callback rates were not verified from text.
+  venue: "ResumeGo (resume-writing service)"
+  url: "https://www.resumego.net/research/cover-letters/"
+  accessed: "2026-10-25"
+  supports: "Field experiment 15 July 2019 - 10 January 2020 with 7,287 fictitious applications to job-board postings (none / generic / tailored cover letter); reports tailored letters had a 53% higher callback rate than none; survey of 236 hiring professionals - 87% read cover letters, 81% value tailored over generic."
+  sample: "7,287 applications; 236 surveyed professionals."
+  grade: "weak"
+  caveats: "Commercial, unpublished, results table is an image so group-level callback rates were not verified from text."
   commercial: true
-  topics: [cover-letters]
+  topics: ["cover-letters"]
 
 aacsb2020-twimc:
-  type: web
-  authors: [AACSB Insights]
+  type: "web"
+  authors: ["AACSB Insights"]
   year: 2020
   title: "To whom it may concern: Getting hiring managers' attention"
-  venue: AACSB Insights (May 2020)
-  url: https://www.aacsb.edu/insights/articles/2020/05/getting-hiring-managers-attention-to-whom-it-may-concern
-  accessed: 2026-10-25
-  supports: Reports a Resume Companion survey of 1,000+ US hiring managers - 83% said "To Whom It May Concern" would have little or no impact on interview decisions.
-  sample: 1,000+ US hiring managers (survey by a resume-services company).
-  grade: weak
-  caveats: Secondary report of a commercial survey.
+  venue: "AACSB Insights (May 2020)"
+  url: "https://www.aacsb.edu/insights/articles/2020/05/getting-hiring-managers-attention-to-whom-it-may-concern"
+  accessed: "2026-10-25"
+  supports: "Reports a Resume Companion survey of 1,000+ US hiring managers - 83% said \"To Whom It May Concern\" would have little or no impact on interview decisions."
+  sample: "1,000+ US hiring managers (survey by a resume-services company)."
+  grade: "weak"
+  caveats: "Secondary report of a commercial survey."
   commercial: true
-  topics: [cover-letters, myths]
+  topics: ["cover-letters", "myths"]
 
 bertrand2004:
-  type: article
-  authors: [Marianne Bertrand, Sendhil Mullainathan]
+  type: "article"
+  authors: ["Marianne Bertrand", "Sendhil Mullainathan"]
   year: 2004
   title: "Are Emily and Greg more employable than Lakisha and Jamal? A field experiment on labor market discrimination"
-  venue: American Economic Review, 94(4), 991-1013
-  url: https://www.nber.org/system/files/working_papers/w9873/w9873.pdf
-  url_note: NBER working paper w9873 (2003) opened.
-  accessed: 2026-10-25
-  supports: Fictitious resumes to help-wanted ads in Boston and Chicago; white-sounding names received 50% more callbacks than African-American-sounding names.
-  sample: Newspaper job ads, Boston and Chicago, early 2000s.
-  grade: strong
-  caveats: US, one era, newspaper ads; magnitudes vary across later studies.
+  venue: "American Economic Review, 94(4), 991-1013"
+  url: "https://www.nber.org/system/files/working_papers/w9873/w9873.pdf"
+  url_note: "NBER working paper w9873 (2003) opened."
+  accessed: "2026-10-25"
+  supports: "Fictitious resumes to help-wanted ads in Boston and Chicago; white-sounding names received 50% more callbacks than African-American-sounding names."
+  sample: "Newspaper job ads, Boston and Chicago, early 2000s."
+  grade: "strong"
+  caveats: "US, one era, newspaper ads; magnitudes vary across later studies."
   commercial: false
-  topics: [resumes, discrimination]
+  topics: ["resumes", "discrimination"]
 
 quillian2017:
-  type: article
-  authors: [Lincoln Quillian, Devah Pager, Ole Hexel, Arnfinn H. Midtboen]
+  type: "article"
+  authors: ["Lincoln Quillian", "Devah Pager", "Ole Hexel", "Arnfinn H. Midtboen"]
   year: 2017
   title: "Meta-analysis of field experiments shows no change in racial discrimination in hiring over time"
-  venue: PNAS, 114(41), 10870-10875
-  doi: 10.1073/pnas.1706255114
-  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5642692/
-  accessed: 2026-10-25
-  supports: 28 US field experiments (55,842 applications, 26,326 positions); since 1989 whites receive on average 36% more callbacks than equally qualified African Americans and 24% more than Latinos; no change for African Americans over 25 years.
-  sample: Meta-analysis of US audit/correspondence studies 1989-2015.
-  grade: strong
-  caveats: US only; callbacks, not hires.
+  venue: "PNAS, 114(41), 10870-10875"
+  doi: "10.1073/pnas.1706255114"
+  url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5642692/"
+  accessed: "2026-10-25"
+  supports: "28 US field experiments (55,842 applications, 26,326 positions); since 1989 whites receive on average 36% more callbacks than equally qualified African Americans and 24% more than Latinos; no change for African Americans over 25 years."
+  sample: "Meta-analysis of US audit/correspondence studies 1989-2015."
+  grade: "strong"
+  caveats: "US only; callbacks, not hires."
   commercial: false
-  topics: [resumes, discrimination]
+  topics: ["resumes", "discrimination"]
 
 kline2022:
-  type: article
-  authors: [Patrick Kline, Evan K. Rose, Christopher R. Walters]
+  type: "article"
+  authors: ["Patrick Kline", "Evan K. Rose", "Christopher R. Walters"]
   year: 2022
   title: "Systemic discrimination among large U.S. employers"
-  venue: Quarterly Journal of Economics, 137(4), 1963-2036
-  doi: 10.1093/qje/qjac024
-  url: https://docs.iza.org/dp14634.pdf
-  url_note: IZA Discussion Paper 14634 (August 2021) version opened.
-  accessed: 2026-10-25
-  supports: 83,000+ fictitious applications to jobs at 108 of the largest US employers; distinctively Black names reduced employer contact by 2.1 pp (about 9% of the Black mean contact rate); between-firm SD 1.9 pp; insignificant average gender gap with firm-level variation.
-  sample: Entry-level postings at 108 Fortune 500 firms, US.
-  grade: strong
-  caveats: Entry-level roles; contact not hire.
+  venue: "Quarterly Journal of Economics, 137(4), 1963-2036"
+  doi: "10.1093/qje/qjac024"
+  url: "https://docs.iza.org/dp14634.pdf"
+  url_note: "IZA Discussion Paper 14634 (August 2021) version opened."
+  accessed: "2026-10-25"
+  supports: "83,000+ fictitious applications to jobs at 108 of the largest US employers; distinctively Black names reduced employer contact by 2.1 pp (about 9% of the Black mean contact rate); between-firm SD 1.9 pp; insignificant average gender gap with firm-level variation."
+  sample: "Entry-level postings at 108 Fortune 500 firms, US."
+  grade: "strong"
+  caveats: "Entry-level roles; contact not hire."
   commercial: false
-  topics: [resumes, discrimination]
+  topics: ["resumes", "discrimination"]
 
 thorat2009:
-  type: working-paper
-  authors: [Sukhadeo Thorat, Paul Attewell, Firdaus Fatima Rizvi]
+  type: "working-paper"
+  authors: ["Sukhadeo Thorat", "Paul Attewell", "Firdaus Fatima Rizvi"]
   year: 2009
   title: "Urban labour market discrimination"
-  venue: Indian Institute of Dalit Studies working paper (summarised by GSDRC)
-  url: https://gsdrc.org/document-library/urban-labour-market-discrimination/
-  url_note: GSDRC document-library summary opened; original IIDS paper not opened.
-  accessed: 2026-10-25
-  supports: Correspondence study of graduate applicants to India's urban private sector (including multinationals) - odds of interview invitation for Dalit applicants about two-thirds, for Muslim applicants about one-third, of equally qualified high-caste Hindu applicants.
-  sample: Responses to job ads in modern private sector, urban India.
-  grade: moderate
-  caveats: Read via summary; published also as a chapter in Blocked by Caste (OUP 2010), not opened.
+  venue: "Indian Institute of Dalit Studies working paper (summarised by GSDRC)"
+  url: "https://gsdrc.org/document-library/urban-labour-market-discrimination/"
+  url_note: "GSDRC document-library summary opened; original IIDS paper not opened."
+  accessed: "2026-10-25"
+  supports: "Correspondence study of graduate applicants to India's urban private sector (including multinationals) - odds of interview invitation for Dalit applicants about two-thirds, for Muslim applicants about one-third, of equally qualified high-caste Hindu applicants."
+  sample: "Responses to job ads in modern private sector, urban India."
+  grade: "moderate"
+  caveats: "Read via summary; published also as a chapter in Blocked by Caste (OUP 2010), not opened."
   commercial: false
-  topics: [resumes, discrimination, regional]
+  topics: ["resumes", "discrimination", "regional"]
 
 marlow2013:
-  type: conference-paper
-  authors: [Jennifer Marlow, Laura Dabbish]
+  type: "conference-paper"
+  authors: ["Jennifer Marlow", "Laura Dabbish"]
   year: 2013
   title: "Activity traces and signals in software developer recruitment and hiring"
-  venue: Proceedings of the 2013 Conference on Computer Supported Cooperative Work (CSCW), 145-156
-  doi: 10.1145/2441776.2441794
-  url: https://www.cs.cmu.edu/~xia/resources/Documents/Marlow-cscw13.pdf
-  accessed: 2026-10-25
-  supports: Interviews with seven employers who use GitHub to evaluate candidates and six job seekers (from 128 survey respondents); profile cues read as evidence of skills, motivation and values, trusted more than resumes because activity is visible and hard to fake.
-  sample: 13 interviewees, self-selected GitHub users, 2012-13.
-  grade: weak
-  caveats: Small qualitative sample; old; GitHub-active population.
+  venue: "Proceedings of the 2013 Conference on Computer Supported Cooperative Work (CSCW), 145-156"
+  doi: "10.1145/2441776.2441794"
+  url: "https://www.cs.cmu.edu/~xia/resources/Documents/Marlow-cscw13.pdf"
+  accessed: "2026-10-25"
+  supports: "Interviews with seven employers who use GitHub to evaluate candidates and six job seekers (from 128 survey respondents); profile cues read as evidence of skills, motivation and values, trusted more than resumes because activity is visible and hard to fake."
+  sample: "13 interviewees, self-selected GitHub users, 2012-13."
+  grade: "weak"
+  caveats: "Small qualitative sample; old; GitHub-active population."
   commercial: false
-  topics: [portfolios, tech]
+  topics: ["portfolios", "tech"]
 
 sej-linkedin-photo:
-  type: web
-  authors: [Search Engine Journal]
+  type: "web"
+  authors: ["Search Engine Journal"]
   year: 2017
   title: "LinkedIn profile picture filters"
-  venue: Search Engine Journal
-  url: https://www.searchenginejournal.com/linkedin-profile-picture-filters/190137/
-  accessed: 2026-10-25
-  supports: Repeats LinkedIn's claim that profiles with a photo get "up to 21x more profile views... 36x more messages and 9x more connection requests."
-  sample: None disclosed.
-  grade: myth-or-unsupported
-  caveats: Platform marketing claim relayed secondhand; no primary dataset found. Year inferred from article ID era; not confirmed on page.
+  venue: "Search Engine Journal"
+  url: "https://www.searchenginejournal.com/linkedin-profile-picture-filters/190137/"
+  accessed: "2026-10-25"
+  supports: "Repeats LinkedIn's claim that profiles with a photo get \"up to 21x more profile views... 36x more messages and 9x more connection requests.\""
+  sample: "None disclosed."
+  grade: "myth-or-unsupported"
+  caveats: "Platform marketing claim relayed secondhand; no primary dataset found. Year inferred from article ID era; not confirmed on page."
   commercial: true
-  topics: [linkedin, myths]
+  topics: ["linkedin", "myths"]
 
 mohr2014:
-  type: web
-  authors: [Tara Sophia Mohr]
+  type: "web"
+  authors: ["Tara Sophia Mohr"]
   year: 2014
   title: "Why women don't apply for jobs unless they're 100% qualified"
-  venue: Harvard Business Review (August 2014)
-  url: https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified
-  accessed: 2026-10-25
-  supports: Popularised the 60%/100% statistic; attributes it to an internal Hewlett-Packard report (per widely reported text; the opened page showed only the opening paragraph because of paywall).
-  sample: Mohr's own survey of 1,000+ people (reported secondarily).
-  grade: weak
-  caveats: The HP report is unpublished; paywall limited what was read.
+  venue: "Harvard Business Review (August 2014)"
+  url: "https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified"
+  accessed: "2026-10-25"
+  supports: "Popularised the 60%/100% statistic; attributes it to an internal Hewlett-Packard report (per widely reported text; the opened page showed only the opening paragraph because of paywall)."
+  sample: "Mohr's own survey of 1,000+ people (reported secondarily)."
+  grade: "weak"
+  caveats: "The HP report is unpublished; paywall limited what was read."
   commercial: false
-  topics: [myths, applying]
+  topics: ["myths", "applying"]
 
 salwender2024:
-  type: article
-  authors: [Mona Salwender, Dagmar Stahlberg]
+  type: "article"
+  authors: ["Mona Salwender", "Dagmar Stahlberg"]
   year: 2024
   title: "Do women only apply when they are 100% qualified, whereas men already apply when they are 60% qualified?"
-  venue: European Journal of Social Psychology
-  doi: 10.1002/ejsp.3109
-  url: https://www.citedrive.com/en/discovery/do-women-only-apply-when-they-are-100-qualified-whereas-men-already-apply-when-they-are-60-qualified/
-  url_note: Abstract read on CiteDrive; Wiley and Mannheim repository blocked automated access.
-  accessed: 2026-10-25
-  supports: Study 1 found no gender difference in application intentions at 60% or 100% fit; Studies 2-4 found a significant but not robust gender difference; women robustly reported higher desire for preparedness.
-  sample: Four experiments (German samples per the authors' affiliation; sizes not read).
-  grade: moderate
-  caveats: Intentions, not real applications; abstract-level reading.
+  venue: "European Journal of Social Psychology"
+  doi: "10.1002/ejsp.3109"
+  url: "https://www.citedrive.com/en/discovery/do-women-only-apply-when-they-are-100-qualified-whereas-men-already-apply-when-they-are-60-qualified/"
+  url_note: "Abstract read on CiteDrive; Wiley and Mannheim repository blocked automated access."
+  accessed: "2026-10-25"
+  supports: "Study 1 found no gender difference in application intentions at 60% or 100% fit; Studies 2-4 found a significant but not robust gender difference; women robustly reported higher desire for preparedness."
+  sample: "Four experiments (German samples per the authors' affiliation; sizes not read)."
+  grade: "moderate"
+  caveats: "Intentions, not real applications; abstract-level reading."
   commercial: false
-  topics: [myths, applying]
+  topics: ["myths", "applying"]
 
 behroozi2020:
-  type: conference-paper
-  authors: [Mahnaz Behroozi, Shivani Shirolkar, Titus Barik, Chris Parnin]
+  type: "conference-paper"
+  authors: ["Mahnaz Behroozi", "Shivani Shirolkar", "Titus Barik", "Chris Parnin"]
   year: 2020
   title: "Does stress impact technical interview performance?"
-  venue: Proceedings of ESEC/FSE 2020 (ACM), 481-492
-  doi: 10.1145/3368089.3409712
-  url: https://2020.esec-fse.org/details/fse-2020-papers/140/Does-Stress-Impact-Technical-Interview-Performance-
-  url_note: Conference page with abstract; bibliographic details verified via Crossref.
-  accessed: 2026-10-25
-  supports: RCT with 48 computer-science students, private vs observed whiteboard - performance reduced by more than half when watched; stress and cognitive load significantly higher in traditional format.
-  sample: 48 CS students, one university (NC State).
-  grade: moderate
-  caveats: Small student sample, single task; strong design but limited generalisation.
+  venue: "Proceedings of ESEC/FSE 2020 (ACM), 481-492"
+  doi: "10.1145/3368089.3409712"
+  url: "https://2020.esec-fse.org/details/fse-2020-papers/140/Does-Stress-Impact-Technical-Interview-Performance-"
+  url_note: "Conference page with abstract; bibliographic details verified via Crossref."
+  accessed: "2026-10-25"
+  supports: "RCT with 48 computer-science students, private vs observed whiteboard - performance reduced by more than half when watched; stress and cognitive load significantly higher in traditional format."
+  sample: "48 CS students, one university (NC State)."
+  grade: "moderate"
+  caveats: "Small student sample, single task; strong design but limited generalisation."
   commercial: false
-  topics: [interviewing, tech]
+  topics: ["interviewing", "tech"]
 
 behroozi2019:
-  type: conference-paper
-  authors: [Mahnaz Behroozi, Chris Parnin, Titus Barik]
+  type: "conference-paper"
+  authors: ["Mahnaz Behroozi", "Chris Parnin", "Titus Barik"]
   year: 2019
   title: "Hiring is broken: What do developers say about technical interviews?"
-  venue: 2019 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC), 1-9
-  doi: 10.1109/vlhcc.2019.8818836
-  url: https://www.microsoft.com/en-us/research/publication/hiring-is-broken-what-do-developers-say-about-technical-interviews/
-  accessed: 2026-10-25
-  supports: Qualitative analysis of Hacker News posts - concerns about real-world relevance, bias toward younger developers, time demands, anxiety, arbitrary implicit norms; suggests collaborative problem-solving formats.
-  sample: Hacker News discussion threads.
-  grade: weak
-  caveats: Opinions of a self-selected online community.
+  venue: "2019 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC), 1-9"
+  doi: "10.1109/vlhcc.2019.8818836"
+  url: "https://www.microsoft.com/en-us/research/publication/hiring-is-broken-what-do-developers-say-about-technical-interviews/"
+  accessed: "2026-10-25"
+  supports: "Qualitative analysis of Hacker News posts - concerns about real-world relevance, bias toward younger developers, time demands, anxiety, arbitrary implicit norms; suggests collaborative problem-solving formats."
+  sample: "Hacker News discussion threads."
+  grade: "weak"
+  caveats: "Opinions of a self-selected online community."
   commercial: false
-  topics: [interviewing, tech]
+  topics: ["interviewing", "tech"]
 
 interviewingio2016:
-  type: web
-  authors: [Aline Lerner (interviewing.io)]
+  type: "web"
+  authors: ["Aline Lerner (interviewing.io)"]
   year: 2016
   title: "After a lot more data, technical interview performance really is kind of arbitrary"
-  venue: interviewing.io blog
-  url: https://interviewing.io/blog/after-a-lot-more-data-technical-interview-performance-really-is-kind-of-arbitrary
-  accessed: 2026-10-25
-  supports: Same users interviewing repeatedly with different interviewers show large score swings; roughly 20% of interviewees consistent; ~12% had a score SD of 1 or more on a 1-4 scale.
-  sample: ~1,000+ interviews on the platform (2016), mostly practice interviews.
-  grade: weak
-  caveats: Commercial interview-practice platform; self-selected users; not peer-reviewed.
+  venue: "interviewing.io blog"
+  url: "https://interviewing.io/blog/after-a-lot-more-data-technical-interview-performance-really-is-kind-of-arbitrary"
+  accessed: "2026-10-25"
+  supports: "Same users interviewing repeatedly with different interviewers show large score swings; roughly 20% of interviewees consistent; ~12% had a score SD of 1 or more on a 1-4 scale."
+  sample: "~1,000+ interviews on the platform (2016), mostly practice interviews."
+  grade: "weak"
+  caveats: "Commercial interview-practice platform; self-selected users; not peer-reviewed."
   commercial: true
-  topics: [interviewing, tech]
+  topics: ["interviewing", "tech"]
 
 interviewingio-selfassess:
-  type: web
-  authors: [interviewing.io]
+  type: "web"
+  authors: ["interviewing.io"]
   year: 2016
   title: "People can't gauge their own interview performance, and that makes them harder to hire"
-  venue: interviewing.io blog
-  url: https://interviewing.io/blog/people-cant-gauge-their-own-interview-performance-and-that-makes-them-harder-to-hire
-  accessed: 2026-10-25
-  supports: Claim that candidates misjudge their own interview performance.
-  sample: Platform interviews (details not extracted).
-  grade: weak
-  caveats: Commercial; details not verified from the extracted text; year approximate (same series as interviewingio2016).
+  venue: "interviewing.io blog"
+  url: "https://interviewing.io/blog/people-cant-gauge-their-own-interview-performance-and-that-makes-them-harder-to-hire"
+  accessed: "2026-10-25"
+  supports: "Claim that candidates misjudge their own interview performance."
+  sample: "Platform interviews (details not extracted)."
+  grade: "weak"
+  caveats: "Commercial; details not verified from the extracted text; year approximate (same series as interviewingio2016)."
   commercial: true
-  topics: [interviewing]
+  topics: ["interviewing"]
 
 abc2013-google:
-  type: news
-  authors: [ABC News]
+  type: "news"
+  authors: ["ABC News"]
   year: 2013
   title: "Google skips 'waste of time' brainteaser interview questions"
-  venue: ABC News (June 2013), relaying a New York Times interview with Laszlo Bock
-  url: https://abcnews.go.com/blogs/business/2013/06/google-skips-waste-of-time-brainteaser-interview-questions
-  accessed: 2026-10-25
-  supports: Bock - "brainteasers are a complete waste of time"; what works "are structured behavioral interviews, where you have a consistent rubric".
-  sample: n/a (employer testimony)
-  grade: moderate
-  caveats: Secondary report of an interview; Google's internal data not published.
+  venue: "ABC News (June 2013), relaying a New York Times interview with Laszlo Bock"
+  url: "https://abcnews.go.com/blogs/business/2013/06/google-skips-waste-of-time-brainteaser-interview-questions"
+  accessed: "2026-10-25"
+  supports: "Bock - \"brainteasers are a complete waste of time\"; what works \"are structured behavioral interviews, where you have a consistent rubric\"."
+  sample: "n/a (employer testimony)"
+  grade: "moderate"
+  caveats: "Secondary report of an interview; Google's internal data not published."
   commercial: false
-  topics: [interviewing]
+  topics: ["interviewing"]
 
 powell2018:
-  type: article
-  authors: [Deborah M. Powell, David J. Stanley, K. N. Brown]
+  type: "article"
+  authors: ["Deborah M. Powell", "David J. Stanley", "K. N. Brown"]
   year: 2018
   title: "Meta-analysis of the relation between interview anxiety and interview performance"
-  venue: Canadian Journal of Behavioural Science
-  url: https://cannexus.ceric.ca/download/378/en/2735/deborah-powell-silvia-bonaccio-understanding-interview-anxiety-causes-coping-and-consequences.pdf
-  url_note: First author's Cannexus conference slides citing and summarising the meta-analysis; the article itself was not opened.
-  accessed: 2026-10-25
-  supports: 30 studies; average correlation between self-reported interview anxiety and interviewer-rated performance r = -.19; moderated by measurement approach and mock vs real interviews.
-  sample: Meta-analysis of 30 studies.
-  grade: strong
-  caveats: Read via author slides; volume/pages not verified.
+  venue: "Canadian Journal of Behavioural Science"
+  url: "https://cannexus.ceric.ca/download/378/en/2735/deborah-powell-silvia-bonaccio-understanding-interview-anxiety-causes-coping-and-consequences.pdf"
+  url_note: "First author's Cannexus conference slides citing and summarising the meta-analysis; the article itself was not opened."
+  accessed: "2026-10-25"
+  supports: "30 studies; average correlation between self-reported interview anxiety and interviewer-rated performance r = -.19; moderated by measurement approach and mock vs real interviews."
+  sample: "Meta-analysis of 30 studies."
+  grade: "strong"
+  caveats: "Read via author slides; volume/pages not verified."
   commercial: false
-  topics: [interviewing]
+  topics: ["interviewing"]
 
 barrick2010:
-  type: article
-  authors: [Murray R. Barrick, Brian W. Swider, Greg L. Stewart]
+  type: "article"
+  authors: ["Murray R. Barrick", "Brian W. Swider", "Greg L. Stewart"]
   year: 2010
   title: "Initial evaluations in the interview: Relationships with subsequent interviewer evaluations and employment offers"
-  venue: Journal of Applied Psychology, 95(6), 1163-1172
-  doi: 10.1037/a0019918
-  url: https://pubmed.ncbi.nlm.nih.gov/20718533/
-  url_note: Abstract retrieved via NCBI E-utilities for PMID 20718533.
-  accessed: 2026-10-25
-  supports: Better initial impressions in rapport building associated with more internship offers (r = .22) and higher interviewer ratings (r = .42); competence judgments carried to separate interviewers, liking/similarity did not.
-  sample: Structured mock/real interviews for internships (student candidates).
-  grade: strong
-  caveats: Student/internship context.
+  venue: "Journal of Applied Psychology, 95(6), 1163-1172"
+  doi: "10.1037/a0019918"
+  url: "https://pubmed.ncbi.nlm.nih.gov/20718533/"
+  url_opened: "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=20718533&rettype=abstract&retmode=text"
+  url_note: "Abstract retrieved via NCBI E-utilities for PMID 20718533."
+  accessed: "2026-10-25"
+  supports: "Better initial impressions in rapport building associated with more internship offers (r = .22) and higher interviewer ratings (r = .42); competence judgments carried to separate interviewers, liking/similarity did not."
+  sample: "Structured mock/real interviews for internships (student candidates)."
+  grade: "strong"
+  caveats: "Student/internship context."
   commercial: false
-  topics: [interviewing, first-impressions]
+  topics: ["interviewing", "first-impressions"]
 
 swider2016:
-  type: article
-  authors: [Brian W. Swider, Murray R. Barrick, T. B. Harris]
+  type: "article"
+  authors: ["Brian W. Swider", "Murray R. Barrick", "T. B. Harris"]
   year: 2016
   title: "Initial impressions: What they are, what they are not, and how they influence structured interview outcomes"
-  venue: Journal of Applied Psychology, 101(5), 625-638
-  doi: 10.1037/apl0000077
-  url: https://pubmed.ncbi.nlm.nih.gov/26727208/
-  url_note: Abstract via NCBI E-utilities; also BPS Research Digest summary https://www.bps.org.uk/research-digest/psychologists-have-looked-importance-pre-interview-chitchat
-  accessed: 2026-10-25
-  supports: 163 mock interviews - a significant portion of initial impressions' influence overlaps with job-related content; distinct from image-related constructs; stronger on early than late answers.
-  sample: 163 mock interviews (accountancy students per BPS summary).
-  grade: strong
-  caveats: Mock interviews.
+  venue: "Journal of Applied Psychology, 101(5), 625-638"
+  doi: "10.1037/apl0000077"
+  url: "https://pubmed.ncbi.nlm.nih.gov/26727208/"
+  url_opened: "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=26727208&rettype=abstract&retmode=text"
+  url_note: "Abstract via NCBI E-utilities; also BPS Research Digest summary https://www.bps.org.uk/research-digest/psychologists-have-looked-importance-pre-interview-chitchat"
+  accessed: "2026-10-25"
+  supports: "163 mock interviews - a significant portion of initial impressions' influence overlaps with job-related content; distinct from image-related constructs; stronger on early than late answers."
+  sample: "163 mock interviews (accountancy students per BPS summary)."
+  grade: "strong"
+  caveats: "Mock interviews."
   commercial: false
-  topics: [interviewing, first-impressions]
+  topics: ["interviewing", "first-impressions"]
 
 stewart2008:
-  type: article
-  authors: [Greg L. Stewart, Susan L. Dustin, Murray R. Barrick, Todd C. Darnold]
+  type: "article"
+  authors: ["Greg L. Stewart", "Susan L. Dustin", "Murray R. Barrick", "Todd C. Darnold"]
   year: 2008
   title: "Exploring the handshake in employment interviews"
-  venue: Journal of Applied Psychology, 93(5), 1139-1146
-  doi: 10.1037/0021-9010.93.5.1139
-  url: https://www.newswise.com/articles/dont-shake-off-the-handshake-research-confirms-a-firm-grip-is-key-to-successful-job-interview
-  url_note: University of Iowa press release via Newswise; citation verified via Crossref.
-  accessed: 2026-10-25
-  supports: 98 business students in mock interviews with local business representatives; five trained raters scored handshakes; handshake quality associated with hireability ratings; linked to extraversion.
-  sample: 98 students.
-  grade: moderate
-  caveats: Small student sample; press-release framing ("more important than dress") goes beyond the abstract.
+  venue: "Journal of Applied Psychology, 93(5), 1139-1146"
+  doi: "10.1037/0021-9010.93.5.1139"
+  url: "https://www.newswise.com/articles/dont-shake-off-the-handshake-research-confirms-a-firm-grip-is-key-to-successful-job-interview"
+  url_note: "University of Iowa press release via Newswise; citation verified via Crossref."
+  accessed: "2026-10-25"
+  supports: "98 business students in mock interviews with local business representatives; five trained raters scored handshakes; handshake quality associated with hireability ratings; linked to extraversion."
+  sample: "98 students."
+  grade: "moderate"
+  caveats: "Small student sample; press-release framing (\"more important than dress\") goes beyond the abstract."
   commercial: false
-  topics: [interviewing, first-impressions]
+  topics: ["interviewing", "first-impressions"]
 
 ambady1993:
-  type: article
-  authors: [Nalini Ambady, Robert Rosenthal]
+  type: "article"
+  authors: ["Nalini Ambady", "Robert Rosenthal"]
   year: 1993
   title: "Half a minute: Predicting teacher evaluations from thin slices of nonverbal behavior and physical attractiveness"
-  venue: Journal of Personality and Social Psychology, 64(3), 431-441
-  url: https://www.math.stonybrook.edu/~bishop/classes/math598.F25/Half_a_Minute.pdf
-  url_note: Course-hosted copy of the published article.
-  accessed: 2026-10-25
-  supports: Strangers' ratings of silent clips (under 30 s; 6 s and 15 s in Study 3) of teachers predicted end-of-semester student evaluations and a principal's ratings.
-  sample: College and high-school teachers.
-  grade: strong
-  caveats: About teaching evaluations, not job interviews; often misused as evidence that interviewers decide in seconds.
+  venue: "Journal of Personality and Social Psychology, 64(3), 431-441"
+  url: "https://www.math.stonybrook.edu/~bishop/classes/math598.F25/Half_a_Minute.pdf"
+  url_note: "Course-hosted copy of the published article."
+  accessed: "2026-10-25"
+  supports: "Strangers' ratings of silent clips (under 30 s; 6 s and 15 s in Study 3) of teachers predicted end-of-semester student evaluations and a principal's ratings."
+  sample: "College and high-school teachers."
+  grade: "strong"
+  caveats: "About teaching evaluations, not job interviews; often misused as evidence that interviewers decide in seconds."
   commercial: false
-  topics: [first-impressions, myths]
+  topics: ["first-impressions", "myths"]
 
 carney2016:
-  type: web
-  authors: [Dana R. Carney]
+  type: "web"
+  authors: ["Dana R. Carney"]
   year: 2016
   title: "My position on 'Power Poses'"
-  venue: Statement hosted on Carney's UC Berkeley Haas faculty page
-  url: https://faculty.haas.berkeley.edu/dana_carney/pdf_My%20position%20on%20power%20poses.pdf
-  accessed: 2026-10-25
-  supports: First author of Carney, Cuddy & Yap (2010) states "I do not believe that 'power pose' effects are real."
-  sample: n/a
-  grade: strong
-  caveats: Statement, not data; year from widely reported release (2016), not printed in the extracted text.
+  venue: "Statement hosted on Carney's UC Berkeley Haas faculty page"
+  url: "https://faculty.haas.berkeley.edu/dana_carney/pdf_My%20position%20on%20power%20poses.pdf"
+  accessed: "2026-10-25"
+  supports: "First author of Carney, Cuddy & Yap (2010) states \"I do not believe that 'power pose' effects are real.\""
+  sample: "n/a"
+  grade: "strong"
+  caveats: "Statement, not data; year from widely reported release (2016), not printed in the extracted text."
   commercial: false
-  topics: [interviewing, myths]
+  topics: ["interviewing", "myths"]
 
 forrt-powerposing:
-  type: web
-  authors: [FORRT (Framework for Open and Reproducible Research Training)]
+  type: "web"
+  authors: ["FORRT (Framework for Open and Reproducible Research Training)"]
   year: 2024
   title: "Power posing (Open social psychology, chapter 27)"
-  venue: forrt.org
-  url: https://forrt.org/open-social-psychology/chapter27.html
-  accessed: 2026-10-25
-  supports: Summarises Ranehill et al. (2015) non-replication of hormonal/behavioural effects and Korner et al. (2022, Psychological Bulletin, 88 studies, 9,779 participants) - effects on self-report but no reliable physiological effects; behavioural effects likely inflated by publication bias.
-  sample: n/a (review)
-  grade: moderate
-  caveats: Secondary teaching resource; year approximate.
+  venue: "forrt.org"
+  url: "https://forrt.org/open-social-psychology/chapter27.html"
+  accessed: "2026-10-25"
+  supports: "Summarises Ranehill et al. (2015) non-replication of hormonal/behavioural effects and Korner et al. (2022, Psychological Bulletin, 88 studies, 9,779 participants) - effects on self-report but no reliable physiological effects; behavioural effects likely inflated by publication bias."
+  sample: "n/a (review)"
+  grade: "moderate"
+  caveats: "Secondary teaching resource; year approximate."
   commercial: false
-  topics: [myths]
+  topics: ["myths"]
 
 rivera2012:
-  type: article
-  authors: [Lauren A. Rivera]
+  type: "article"
+  authors: ["Lauren A. Rivera"]
   year: 2012
   title: "Hiring as cultural matching: The case of elite professional service firms"
-  venue: American Sociological Review, 77(6), 999-1022
-  doi: 10.1177/0003122412463213
-  url: https://edbatista.com/wp-content/uploads/files/hiring-as-cultural-matching-the-case-of-elite-professional-service-firms-rivera.pdf
-  url_note: Copy of the published article on a personal site.
-  accessed: 2026-10-25
-  supports: 120 interviews with hiring professionals at elite US banks, law firms and consultancies plus participant observation; employers sought candidates culturally similar in leisure, experiences, self-presentation; shared culture often outweighed productivity concerns.
-  sample: 120 evaluators, 2006-2008, elite US firms.
-  grade: strong
-  caveats: Qualitative; elite professional services specifically.
+  venue: "American Sociological Review, 77(6), 999-1022"
+  doi: "10.1177/0003122412463213"
+  url: "https://edbatista.com/wp-content/uploads/files/hiring-as-cultural-matching-the-case-of-elite-professional-service-firms-rivera.pdf"
+  url_note: "Copy of the published article on a personal site."
+  accessed: "2026-10-25"
+  supports: "120 interviews with hiring professionals at elite US banks, law firms and consultancies plus participant observation; employers sought candidates culturally similar in leisure, experiences, self-presentation; shared culture often outweighed productivity concerns."
+  sample: "120 evaluators, 2006-2008, elite US firms."
+  grade: "strong"
+  caveats: "Qualitative; elite professional services specifically."
   commercial: false
-  topics: [interviewing, culture-fit]
+  topics: ["interviewing", "culture-fit"]
 
 eeoc-prohibited:
-  type: government
-  authors: [US Equal Employment Opportunity Commission]
+  type: "government"
+  authors: ["US Equal Employment Opportunity Commission"]
   year: 2026
   title: "Prohibited employment policies/practices"
-  venue: eeoc.gov
-  url: https://www.eeoc.gov/prohibited-employment-policiespractices
-  accessed: 2026-10-25
-  supports: Pre-employment information should be limited to what is essential to determine qualification; race, sex, national origin, age, religion irrelevant; explicit prohibition on pre-offer disability inquiries; other questions not clearly forbidden but usable as evidence of discriminatory intent; avoid requesting photographs pre-offer.
-  sample: n/a
-  grade: strong
-  caveats: Federal level only; states add rules.
+  venue: "eeoc.gov"
+  url: "https://www.eeoc.gov/prohibited-employment-policiespractices"
+  accessed: "2026-10-25"
+  supports: "Pre-employment information should be limited to what is essential to determine qualification; race, sex, national origin, age, religion irrelevant; explicit prohibition on pre-offer disability inquiries; other questions not clearly forbidden but usable as evidence of discriminatory intent; avoid requesting photographs pre-offer."
+  sample: "n/a"
+  grade: "strong"
+  caveats: "Federal level only; states add rules."
   commercial: false
-  topics: [interviewing, legal, regional]
+  topics: ["interviewing", "legal", "regional"]
 
 ukparl2020-health:
-  type: government
-  authors: [UK Parliament (Minister for Women and Equalities)]
+  type: "government"
+  authors: ["UK Parliament (Minister for Women and Equalities)"]
   year: 2020
   title: "Written question 64193 - autistic job applicants and the Equality Act 2010 (answered 29 June 2020)"
-  venue: UK Parliament written questions
-  url: https://questions-statements-api.parliament.uk/api/writtenquestions/questions/1217455
-  accessed: 2026-10-25
+  venue: "UK Parliament written questions"
+  url: "https://questions-statements-api.parliament.uk/api/writtenquestions/questions/1217455"
+  accessed: "2026-10-25"
   supports: "It is generally unlawful under the Equality Act 2010... for an employer to ask a job applicant about their health or disability... during the initial stages of a recruitment process, except in a few specific circumstances."
-  sample: n/a
-  grade: strong
-  caveats: Ministerial summary of Equality Act s.60; the statute page itself blocked automated access.
+  sample: "n/a"
+  grade: "strong"
+  caveats: "Ministerial summary of Equality Act s.60; the statute page itself blocked automated access."
   commercial: false
-  topics: [interviewing, legal, regional]
+  topics: ["interviewing", "legal", "regional"]
 
 govuk-agency-fees:
-  type: government
-  authors: [GOV.UK]
+  type: "government"
+  authors: ["GOV.UK"]
   year: 2026
   title: "Your rights as an agency worker: Fees"
-  venue: gov.uk
-  url: https://www.gov.uk/agency-workers-your-rights/fees
-  accessed: 2026-10-25
-  supports: "Recruitment agencies cannot charge you a fee for finding or trying to find you work"; they can charge for optional services such as CV writing, training or transport.
-  sample: n/a
-  grade: strong
-  caveats: Great Britain; separate rules for entertainment and modelling agencies.
+  venue: "gov.uk"
+  url: "https://www.gov.uk/agency-workers-your-rights/fees"
+  accessed: "2026-10-25"
+  supports: "\"Recruitment agencies cannot charge you a fee for finding or trying to find you work\"; they can charge for optional services such as CV writing, training or transport."
+  sample: "n/a"
+  grade: "strong"
+  caveats: "Great Britain; separate rules for entertainment and modelling agencies."
   commercial: false
-  topics: [channels, regional]
+  topics: ["channels", "regional"]
 
 govuk-notice:
-  type: government
-  authors: [GOV.UK]
+  type: "government"
+  authors: ["GOV.UK"]
   year: 2026
   title: "Handing in your notice (giving notice; garden leave; restrictive covenants) and Redundancy: notice periods"
-  venue: gov.uk
-  url: https://www.gov.uk/handing-in-your-notice/giving-notice
-  url_note: Also opened https://www.gov.uk/handing-in-your-notice/garden-leave, https://www.gov.uk/handing-in-your-notice/restrictive-covenants, https://www.gov.uk/redundancy-your-rights/notice-periods
-  accessed: 2026-10-25
-  supports: Employee must give at least a week's notice after a month in the job (contract may require more); garden leave defined; restrictive covenants can be enforced in court; statutory employer notice - one week (1 month to 2 years), one week per year (2-12 years), 12 weeks (12+ years).
-  sample: n/a
-  grade: strong
-  caveats: Great Britain; contracts commonly specify longer periods.
+  venue: "gov.uk"
+  url: "https://www.gov.uk/handing-in-your-notice/giving-notice"
+  url_note: "Also opened https://www.gov.uk/handing-in-your-notice/garden-leave, https://www.gov.uk/handing-in-your-notice/restrictive-covenants, https://www.gov.uk/redundancy-your-rights/notice-periods"
+  accessed: "2026-10-25"
+  supports: "Employee must give at least a week's notice after a month in the job (contract may require more); garden leave defined; restrictive covenants can be enforced in court; statutory employer notice - one week (1 month to 2 years), one week per year (2-12 years), 12 weeks (12+ years)."
+  sample: "n/a"
+  grade: "strong"
+  caveats: "Great Britain; contracts commonly specify longer periods."
   commercial: false
-  topics: [switching, regional]
+  topics: ["switching", "regional"]
 
 galinsky2001:
-  type: article
-  authors: [Adam D. Galinsky, Thomas Mussweiler]
+  type: "article"
+  authors: ["Adam D. Galinsky", "Thomas Mussweiler"]
   year: 2001
   title: "First offers as anchors: The role of perspective-taking and negotiator focus"
-  venue: Journal of Personality and Social Psychology, 81(4), 657-669
-  doi: 10.1037/0022-3514.81.4.657
-  url: https://pubmed.ncbi.nlm.nih.gov/11642352/
-  url_note: Abstract retrieved via NCBI E-utilities (PMID 11642352); DOI via Crossref.
-  accessed: 2026-10-25
-  supports: Across three experiments whichever party made the first offer obtained a better outcome; first offers strongly predicted settlement; effect eliminated when the other side focused on the opponent's alternatives, reservation price, or own target; held face-to-face and by email.
-  sample: Laboratory negotiation experiments (MBA/student participants).
-  grade: strong
-  caveats: Lab deal-making, not employment negotiations with an ongoing relationship.
+  venue: "Journal of Personality and Social Psychology, 81(4), 657-669"
+  doi: "10.1037/0022-3514.81.4.657"
+  url: "https://pubmed.ncbi.nlm.nih.gov/11642352/"
+  url_opened: "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=11642352&rettype=abstract&retmode=text"
+  url_note: "Abstract retrieved via NCBI E-utilities (PMID 11642352); DOI via Crossref."
+  accessed: "2026-10-25"
+  supports: "Across three experiments whichever party made the first offer obtained a better outcome; first offers strongly predicted settlement; effect eliminated when the other side focused on the opponent's alternatives, reservation price, or own target; held face-to-face and by email."
+  sample: "Laboratory negotiation experiments (MBA/student participants)."
+  grade: "strong"
+  caveats: "Lab deal-making, not employment negotiations with an ongoing relationship."
   commercial: false
-  topics: [negotiation]
+  topics: ["negotiation"]
 
 hallkrueger2012:
-  type: article
-  authors: [Robert E. Hall, Alan B. Krueger]
+  type: "article"
+  authors: ["Robert E. Hall", "Alan B. Krueger"]
   year: 2012
   title: "Evidence on the incidence of wage posting, wage bargaining, and on-the-job search"
-  venue: American Economic Journal - Macroeconomics, 4(4), 56-67
-  doi: 10.1257/mac.4.4.56
-  url: https://www.nber.org/papers/w16033
-  url_note: NBER w16033 abstract (2010 working-paper title "Evidence on the determinants of the choice between wage posting and wage bargaining"); also Princeton IRS working paper 1062 abstract https://repec-prod.princeton.edu/econlib/RePEc/pri/papers/1062
-  accessed: 2026-10-25
-  supports: Representative US survey - a third bargained over pay before accepting; about a third had precise pay information at first meeting; about 40% could have stayed in their earlier jobs; wages higher among bargainers after adjusting for composition.
-  sample: Representative sample of US workers (Princeton survey).
-  grade: strong
-  caveats: Self-report; c. 2008-2009 data.
+  venue: "American Economic Journal - Macroeconomics, 4(4), 56-67"
+  doi: "10.1257/mac.4.4.56"
+  url: "https://www.nber.org/papers/w16033"
+  url_note: "NBER w16033 abstract (2010 working-paper title \"Evidence on the determinants of the choice between wage posting and wage bargaining\"); also Princeton IRS working paper 1062 abstract https://repec-prod.princeton.edu/econlib/RePEc/pri/papers/1062"
+  accessed: "2026-10-25"
+  supports: "Representative US survey - a third bargained over pay before accepting; about a third had precise pay information at first meeting; about 40% could have stayed in their earlier jobs; wages higher among bargainers after adjusting for composition."
+  sample: "Representative sample of US workers (Princeton survey)."
+  grade: "strong"
+  caveats: "Self-report; c. 2008-2009 data."
   commercial: false
-  topics: [negotiation]
+  topics: ["negotiation"]
 
 marks2011:
-  type: article
-  authors: [Michelle Marks, Crystal Harold]
+  type: "article"
+  authors: ["Michelle Marks", "Crystal Harold"]
   year: 2011
   title: "Who asks and who receives in salary negotiation"
-  venue: Journal of Organizational Behavior, 32(3), 371-394
-  doi: 10.1002/job.671
-  url: https://www.strategy-business.com/article/11115
-  url_note: Read via strategy+business coverage; DOI/venue via Crossref; article not opened.
-  accessed: 2026-10-25
-  supports: Survey of 149 employees - negotiators rather than accepters of first offer boosted annual pay by an average of US$5,000; most competitive negotiators gained most.
-  sample: 149 employees.
-  grade: weak
-  caveats: Secondary coverage; self-report; selection into negotiating.
+  venue: "Journal of Organizational Behavior, 32(3), 371-394"
+  doi: "10.1002/job.671"
+  url: "https://www.strategy-business.com/article/11115"
+  url_note: "Read via strategy+business coverage; DOI/venue via Crossref; article not opened."
+  accessed: "2026-10-25"
+  supports: "Survey of 149 employees - negotiators rather than accepters of first offer boosted annual pay by an average of US$5,000; most competitive negotiators gained most."
+  sample: "149 employees."
+  grade: "weak"
+  caveats: "Secondary coverage; self-report; selection into negotiating."
   commercial: false
-  topics: [negotiation]
+  topics: ["negotiation"]
 
 leibbrandt2015:
-  type: article
-  authors: [Andreas Leibbrandt, John A. List]
+  type: "article"
+  authors: ["Andreas Leibbrandt", "John A. List"]
   year: 2015
   title: "Do women avoid salary negotiations? Evidence from a large-scale natural field experiment"
-  venue: Management Science, 61(9), 2016-2024
-  doi: 10.1287/mnsc.2014.1994
-  url: https://gap.hks.harvard.edu/do-women-avoid-salary-negotiations-evidence-large-scale-natural-field-experiment
-  url_note: Harvard Kennedy School Gender Action Portal summary; NBER w18511 abstract also opened https://www.nber.org/papers/w18511
-  accessed: 2026-10-25
-  supports: 2,422 job seekers responding to ads on 18 job boards in nine US cities; without a negotiability statement men negotiated more; with "negotiable" stated the difference disappeared (women 21.2%, men 21.4%); initiation 21% vs 7%; statement cut application gender gap ~45%.
-  sample: 2,422 US job seekers (administrative-assistant style postings).
-  grade: strong
-  caveats: One job type; figures from GAP summary.
+  venue: "Management Science, 61(9), 2016-2024"
+  doi: "10.1287/mnsc.2014.1994"
+  url: "https://gap.hks.harvard.edu/do-women-avoid-salary-negotiations-evidence-large-scale-natural-field-experiment"
+  url_note: "Harvard Kennedy School Gender Action Portal summary; NBER w18511 abstract also opened https://www.nber.org/papers/w18511"
+  accessed: "2026-10-25"
+  supports: "2,422 job seekers responding to ads on 18 job boards in nine US cities; without a negotiability statement men negotiated more; with \"negotiable\" stated the difference disappeared (women 21.2%, men 21.4%); initiation 21% vs 7%; statement cut application gender gap ~45%."
+  sample: "2,422 US job seekers (administrative-assistant style postings)."
+  grade: "strong"
+  caveats: "One job type; figures from GAP summary."
   commercial: false
-  topics: [negotiation, gender]
+  topics: ["negotiation", "gender"]
 
 bowles2007:
-  type: article
-  authors: [Hannah Riley Bowles, Linda Babcock, Lei Lai]
+  type: "article"
+  authors: ["Hannah Riley Bowles", "Linda Babcock", "Lei Lai"]
   year: 2007
   title: "Social incentives for gender differences in the propensity to initiate negotiations: Sometimes it does hurt to ask"
-  venue: Organizational Behavior and Human Decision Processes, 103(1), 84-103
-  doi: 10.1016/j.obhdp.2006.09.001
-  url: https://gap.hks.harvard.edu/social-incentives-gender-differences-propensity-initiate-negotiations-sometimes-it-does-hurt-ask
-  url_note: Gender Action Portal summary; Harvard DASH full text returned 429 (rate-limited).
-  accessed: 2026-10-25
-  supports: Four experiments; evaluators penalised women more than men for initiating compensation negotiations; negative effect on willingness to work with candidate 5.5x greater for female candidates; in video study male evaluators penalised only women, female evaluators penalised all.
-  sample: US experimental participants (GAP lists 1,070 per search snippet; not confirmed on opened page).
-  grade: strong
-  caveats: Hypothetical evaluations; 2000s US.
+  venue: "Organizational Behavior and Human Decision Processes, 103(1), 84-103"
+  doi: "10.1016/j.obhdp.2006.09.001"
+  url: "https://gap.hks.harvard.edu/social-incentives-gender-differences-propensity-initiate-negotiations-sometimes-it-does-hurt-ask"
+  url_note: "Gender Action Portal summary; Harvard DASH full text returned 429 (rate-limited)."
+  accessed: "2026-10-25"
+  supports: "Four experiments; evaluators penalised women more than men for initiating compensation negotiations; negative effect on willingness to work with candidate 5.5x greater for female candidates; in video study male evaluators penalised only women, female evaluators penalised all."
+  sample: "US experimental participants (GAP lists 1,070 per search snippet; not confirmed on opened page)."
+  grade: "strong"
+  caveats: "Hypothetical evaluations; 2000s US."
   commercial: false
-  topics: [negotiation, gender]
+  topics: ["negotiation", "gender"]
 
 hernandez2019:
-  type: article
-  authors: [Morela Hernandez, Derek R. Avery, Sabrina D. Volpone, Cheryl R. Kaiser]
+  type: "article"
+  authors: ["Morela Hernandez", "Derek R. Avery", "Sabrina D. Volpone", "Cheryl R. Kaiser"]
   year: 2019
   title: "Bargaining while Black: The role of race in salary negotiations"
-  venue: Journal of Applied Psychology, 104(4), 581-592
-  doi: 10.1037/apl0000363
-  url: https://pubmed.ncbi.nlm.nih.gov/30335407/
-  url_note: Abstract via NCBI E-utilities (PMID 30335407).
-  accessed: 2026-10-25
-  supports: Three studies - more racially biased evaluators expect Black job seekers to negotiate less; when they negotiate they receive lower starting salaries; evaluators more resistant to concessions.
-  sample: Experimental studies, US.
-  grade: strong
-  caveats: Simulated negotiations.
+  venue: "Journal of Applied Psychology, 104(4), 581-592"
+  doi: "10.1037/apl0000363"
+  url: "https://pubmed.ncbi.nlm.nih.gov/30335407/"
+  url_opened: "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=30335407&rettype=abstract&retmode=text"
+  url_note: "Abstract via NCBI E-utilities (PMID 30335407)."
+  accessed: "2026-10-25"
+  supports: "Three studies - more racially biased evaluators expect Black job seekers to negotiate less; when they negotiate they receive lower starting salaries; evaluators more resistant to concessions."
+  sample: "Experimental studies, US."
+  grade: "strong"
+  caveats: "Simulated negotiations."
   commercial: false
-  topics: [negotiation, discrimination]
+  topics: ["negotiation", "discrimination"]
 
 clockspot-paytransparency:
-  type: web
-  authors: [Clockspot]
+  type: "web"
+  authors: ["Clockspot"]
   year: 2026
   title: "Pay transparency laws by state: Salary range posting rules"
-  venue: Clockspot (time-tracking software vendor)
-  url: https://www.clockspot.com/articles/pay-transparency-laws-by-state
-  accessed: 2026-10-25
-  supports: As of May 2026, 13 states plus DC have effective pay-transparency posting laws (CA, CO, CT, DC, HI, IL, MD, MA, MN, NJ, NY, RI, VT, WA); employee thresholds by state; CA/WA/NY/CO reach remote roles residents could perform.
-  sample: n/a
-  grade: moderate
-  caveats: Vendor summary, not legal advice; verify individual statutes before print.
+  venue: "Clockspot (time-tracking software vendor)"
+  url: "https://www.clockspot.com/articles/pay-transparency-laws-by-state"
+  accessed: "2026-10-25"
+  supports: "As of May 2026, 13 states plus DC have effective pay-transparency posting laws (CA, CO, CT, DC, HI, IL, MD, MA, MN, NJ, NY, RI, VT, WA); employee thresholds by state; CA/WA/NY/CO reach remote roles residents could perform."
+  sample: "n/a"
+  grade: "moderate"
+  caveats: "Vendor summary, not legal advice; verify individual statutes before print."
   commercial: true
-  topics: [pay-transparency, regional]
+  topics: ["pay-transparency", "regional"]
 
 cooley2026:
-  type: web
-  authors: [Cooley LLP]
+  type: "web"
+  authors: ["Cooley LLP"]
   year: 2026
   title: "Show me the money (or the wage range): New state pay transparency laws"
-  venue: Cooley insight, 6 July 2026
-  url: https://www.cooley.com/news/insight/2026/2026-07-06-show-me-the-money-or-the-wage-range-new-state-pay-transparency-laws
-  accessed: 2026-10-25
-  supports: Virginia (effective 1 July 2026; all employers; also bans seeking/relying on salary history), Maine (29 July 2026; 10+ employees), Delaware (26 September 2027; more than 25 employees), Connecticut changes.
-  sample: n/a
-  grade: moderate
-  caveats: Law-firm client alert.
+  venue: "Cooley insight, 6 July 2026"
+  url: "https://www.cooley.com/news/insight/2026/2026-07-06-show-me-the-money-or-the-wage-range-new-state-pay-transparency-laws"
+  accessed: "2026-10-25"
+  supports: "Virginia (effective 1 July 2026; all employers; also bans seeking/relying on salary history), Maine (29 July 2026; 10+ employees), Delaware (26 September 2027; more than 25 employees), Connecticut changes."
+  sample: "n/a"
+  grade: "moderate"
+  caveats: "Law-firm client alert."
   commercial: false
-  topics: [pay-transparency, regional]
+  topics: ["pay-transparency", "regional"]
 
 nydol-paytransparency:
-  type: government
-  authors: [New York State Department of Labor]
+  type: "government"
+  authors: ["New York State Department of Labor"]
   year: 2026
   title: "Pay transparency"
-  venue: dol.ny.gov
-  url: https://dol.ny.gov/pay-transparency
-  accessed: 2026-10-25
-  supports: Labor Law Section 194-B requires NY State businesses with four or more employees to list compensation ranges and job descriptions for advertised jobs, promotions, transfers.
-  sample: n/a
-  grade: strong
-  caveats: State-level; NYC has its own ordinance.
+  venue: "dol.ny.gov"
+  url: "https://dol.ny.gov/pay-transparency"
+  accessed: "2026-10-25"
+  supports: "Labor Law Section 194-B requires NY State businesses with four or more employees to list compensation ranges and job descriptions for advertised jobs, promotions, transfers."
+  sample: "n/a"
+  grade: "strong"
+  caveats: "State-level; NYC has its own ordinance."
   commercial: false
-  topics: [pay-transparency, regional]
+  topics: ["pay-transparency", "regional"]
 
 ec-paytransparency:
-  type: government
-  authors: [European Commission]
+  type: "government"
+  authors: ["European Commission"]
   year: 2026
   title: "EU action for equal pay"
-  venue: commission.europa.eu
-  url: https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/gender-equality/equal-pay/eu-action-equal-pay_en
-  accessed: 2026-10-25
-  supports: Directive (EU) 2023/970 includes a right to information on pay prior to employment and a prohibition on asking salary history; member states must transpose by 7 June 2026.
-  sample: n/a
-  grade: strong
-  caveats: The directive text on EUR-Lex blocked automated access; details via Commission summary.
+  venue: "commission.europa.eu"
+  url: "https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/gender-equality/equal-pay/eu-action-equal-pay_en"
+  accessed: "2026-10-25"
+  supports: "Directive (EU) 2023/970 includes a right to information on pay prior to employment and a prohibition on asking salary history; member states must transpose by 7 June 2026."
+  sample: "n/a"
+  grade: "strong"
+  caveats: "The directive text on EUR-Lex blocked automated access; details via Commission summary."
   commercial: false
-  topics: [pay-transparency, regional]
+  topics: ["pay-transparency", "regional"]
 
 lockton2026-eu:
-  type: web
-  authors: [Lockton]
+  type: "web"
+  authors: ["Lockton"]
   year: 2026
   title: "EU Pay Transparency Directive implementation status"
-  venue: Lockton alert, 25 September 2026
-  url: https://global.lockton.com/us/en/news-insights/eu-pay-transparency-directive-implementation-status
-  accessed: 2026-10-25
-  supports: Status table as of 23 September 2026 - few member states fully transposed by deadline (e.g., Greece, Italy, Lithuania, Malta); Germany and France not yet; Estonia partially (pre-employment provisions from 13 July 2026).
-  sample: n/a
-  grade: moderate
-  caveats: Broker/consultancy summary; fast-moving.
+  venue: "Lockton alert, 25 September 2026"
+  url: "https://global.lockton.com/us/en/news-insights/eu-pay-transparency-directive-implementation-status"
+  accessed: "2026-10-25"
+  supports: "Status table as of 23 September 2026 - few member states fully transposed by deadline (e.g., Greece, Italy, Lithuania, Malta); Germany and France not yet; Estonia partially (pre-employment provisions from 13 July 2026)."
+  sample: "n/a"
+  grade: "moderate"
+  caveats: "Broker/consultancy summary; fast-moving."
   commercial: true
-  topics: [pay-transparency, regional]
+  topics: ["pay-transparency", "regional"]
 
 cullen2023:
-  type: article
-  authors: [Zoe B. Cullen, Bobak Pakzad-Hurson]
+  type: "article"
+  authors: ["Zoe B. Cullen", "Bobak Pakzad-Hurson"]
   year: 2023
   title: "Equilibrium effects of pay transparency"
-  venue: Econometrica, 91(3), 765-802
-  doi: 10.3982/ECTA19788
-  url: https://www.nber.org/papers/w28903
-  url_note: NBER w28903 abstract page opened; publication details via Crossref.
-  accessed: 2026-10-25
-  supports: US state laws protecting workers' right to discuss pay led wages to decline by approximately 2%; smaller where workers have low individual bargaining power; mechanism - reduced individual bargaining power.
-  sample: US private sector, state-level event study.
-  grade: strong
-  caveats: About pay-discussion protections, not range-posting mandates.
+  venue: "Econometrica, 91(3), 765-802"
+  doi: "10.3982/ECTA19788"
+  url: "https://www.nber.org/papers/w28903"
+  url_note: "NBER w28903 abstract page opened; publication details via Crossref."
+  accessed: "2026-10-25"
+  supports: "US state laws protecting workers' right to discuss pay led wages to decline by approximately 2%; smaller where workers have low individual bargaining power; mechanism - reduced individual bargaining power."
+  sample: "US private sector, state-level event study."
+  grade: "strong"
+  caveats: "About pay-discussion protections, not range-posting mandates."
   commercial: false
-  topics: [pay-transparency, negotiation]
+  topics: ["pay-transparency", "negotiation"]
 
 irs-p525:
-  type: government
-  authors: [US Internal Revenue Service]
+  type: "government"
+  authors: ["US Internal Revenue Service"]
   year: 2026
   title: "Publication 525: Taxable and nontaxable income"
-  venue: irs.gov
-  url: https://www.irs.gov/publications/p525
-  accessed: 2026-10-25
-  supports: Rules for nonstatutory stock options (income at grant only if FMV readily determinable, else at exercise), statutory/incentive stock options (AMT implications), restricted property taxed when no longer subject to substantial risk of forfeiture.
-  sample: n/a
-  grade: strong
-  caveats: US federal tax only; not advice.
+  venue: "irs.gov"
+  url: "https://www.irs.gov/publications/p525"
+  accessed: "2026-10-25"
+  supports: "Rules for nonstatutory stock options (income at grant only if FMV readily determinable, else at exercise), statutory/incentive stock options (AMT implications), restricted property taxed when no longer subject to substantial risk of forfeiture."
+  sample: "n/a"
+  grade: "strong"
+  caveats: "US federal tax only; not advice."
   commercial: false
-  topics: [equity]
+  topics: ["equity"]
 
 secfi-vesting:
-  type: web
-  authors: [Secfi]
+  type: "web"
+  authors: ["Secfi"]
   year: 2026
   title: "What is a stock option vesting schedule?"
-  venue: Secfi (equity-financing company)
-  url: https://secfi.com/learn/stock-option-vesting-schedule
-  accessed: 2026-10-25
-  supports: Most common schedule is four-year vesting with a one-year cliff, 25% after year one.
-  sample: n/a
-  grade: weak
-  caveats: Vendor explainer; prevalence not measured here.
+  venue: "Secfi (equity-financing company)"
+  url: "https://secfi.com/learn/stock-option-vesting-schedule"
+  accessed: "2026-10-25"
+  supports: "Most common schedule is four-year vesting with a one-year cliff, 25% after year one."
+  sample: "n/a"
+  grade: "weak"
+  caveats: "Vendor explainer; prevalence not measured here."
   commercial: true
-  topics: [equity]
+  topics: ["equity"]
 
 interviewguys-counteroffer:
-  type: web
-  authors: [The Interview Guys]
+  type: "web"
+  authors: ["The Interview Guys"]
   year: 2026
   title: "The counteroffer stat everyone cites is fake"
-  venue: The Interview Guys blog
-  url: https://blog.theinterviewguys.com/?p=17416
-  accessed: 2026-10-25
-  supports: The 80% counteroffer-departure statistic cannot be traced to a legitimate study; figure varies (48-93%); CEB data cited by HBR put it closer to 50% within 12 months (not verified here).
-  sample: n/a
-  grade: weak
-  caveats: Commercial career site; CEB claim unverified; year approximate.
+  venue: "The Interview Guys blog"
+  url: "https://blog.theinterviewguys.com/?p=17416"
+  accessed: "2026-10-25"
+  supports: "The 80% counteroffer-departure statistic cannot be traced to a legitimate study; figure varies (48-93%); CEB data cited by HBR put it closer to 50% within 12 months (not verified here)."
+  sample: "n/a"
+  grade: "weak"
+  caveats: "Commercial career site; CEB claim unverified; year approximate."
   commercial: true
-  topics: [counteroffers, myths]
+  topics: ["counteroffers", "myths"]
 
 4dayweek-counteroffer:
-  type: web
-  authors: [4dayweek.io]
+  type: "web"
+  authors: ["4dayweek.io"]
   year: 2026
   title: "Should you accept a counteroffer?"
-  venue: 4dayweek.io career advice
-  url: https://4dayweek.io/career-advice/counteroffer
-  accessed: 2026-10-25
-  supports: No large credible research supports 70-90% counteroffer departure figures; notes recruiters' interest in discouraging counteroffers; CEB ~50% within 12 months, methodology not widely published.
-  sample: n/a
-  grade: weak
-  caveats: Commercial job board; year approximate.
+  venue: "4dayweek.io career advice"
+  url: "https://4dayweek.io/career-advice/counteroffer"
+  accessed: "2026-10-25"
+  supports: "No large credible research supports 70-90% counteroffer departure figures; notes recruiters' interest in discouraging counteroffers; CEB ~50% within 12 months, methodology not widely published."
+  sample: "n/a"
+  grade: "weak"
+  caveats: "Commercial job board; year approximate."
   commercial: true
-  topics: [counteroffers, myths]
+  topics: ["counteroffers", "myths"]
 
 niederle2009:
-  type: article
-  authors: [Muriel Niederle, Alvin E. Roth]
+  type: "article"
+  authors: ["Muriel Niederle", "Alvin E. Roth"]
   year: 2009
   title: "Market culture: How rules governing exploding offers affect market performance"
-  venue: American Economic Journal - Microeconomics, 1(2), 199-219
-  doi: 10.1257/mic.1.2.199
-  url: https://stanford.edu/~alroth/papers/MarketCultureAEJMicro.pdf
-  accessed: 2026-10-25
-  supports: Markets with far-advance transactions allow exploding offers and forbid reneging; lab - exploding offers with binding acceptances produce inefficient early contracting; relaxing either yields later, better-informed, more efficient matching.
-  sample: Field comparison of ~a dozen markets plus lab experiments.
-  grade: moderate
-  caveats: Market-design evidence, not individual negotiation advice.
+  venue: "American Economic Journal - Microeconomics, 1(2), 199-219"
+  doi: "10.1257/mic.1.2.199"
+  url: "https://stanford.edu/~alroth/papers/MarketCultureAEJMicro.pdf"
+  accessed: "2026-10-25"
+  supports: "Markets with far-advance transactions allow exploding offers and forbid reneging; lab - exploding offers with binding acceptances produce inefficient early contracting; relaxing either yields later, better-informed, more efficient matching."
+  sample: "Field comparison of ~a dozen markets plus lab experiments."
+  grade: "moderate"
+  caveats: "Market-design evidence, not individual negotiation advice."
   commercial: false
-  topics: [offers]
+  topics: ["offers"]
 
 eeoc-ftc-background:
-  type: government
-  authors: [US EEOC, US FTC]
+  type: "government"
+  authors: ["US EEOC", "US FTC"]
   year: 2014
   title: "Background checks: What job applicants and employees should know"
-  venue: eeoc.gov (joint EEOC/FTC guidance)
-  url: https://www.eeoc.gov/laws/guidance/background-checks-what-job-applicants-and-employees-should-know
-  accessed: 2026-10-25
-  supports: Employer must ask written permission before getting a report from a background-check company; must provide a copy and notice of rights before acting on it adversely; must treat applicants equally.
-  sample: n/a
-  grade: strong
-  caveats: US federal; states add rules.
+  venue: "eeoc.gov (joint EEOC/FTC guidance)"
+  url: "https://www.eeoc.gov/laws/guidance/background-checks-what-job-applicants-and-employees-should-know"
+  accessed: "2026-10-25"
+  supports: "Employer must ask written permission before getting a report from a background-check company; must provide a copy and notice of rights before acting on it adversely; must treat applicants equally."
+  sample: "n/a"
+  grade: "strong"
+  caveats: "US federal; states add rules."
   commercial: false
-  topics: [background-checks, legal]
+  topics: ["background-checks", "legal"]
 
 agan2018:
-  type: article
-  authors: [Amanda Agan, Sonja Starr]
+  type: "article"
+  authors: ["Amanda Agan", "Sonja Starr"]
   year: 2018
   title: "Ban the box, criminal records, and racial discrimination: A field experiment"
-  venue: Quarterly Journal of Economics, 133(1), 191-235
-  doi: 10.1093/qje/qjx028
-  url: https://www.cato.org/sites/cato.org/files/pubs/pdf/rb65.pdf
-  url_note: Cato Research Brief by the authors (working-paper version); Princeton Alumni Weekly summary also opened https://paw.princeton.edu/article/economics-study-finds-employer-bias-increased-after-ban-box
-  accessed: 2026-10-25
-  supports: ~15,000 fictitious applications in NJ and NYC before/after ban-the-box; employers asking about records called no-record applicants 63% more; white-Black callback gap among affected employers rose from ~7% to ~45% (43% in some versions).
-  sample: Entry-level online applications, young men without college.
-  grade: strong
-  caveats: Figures differ slightly by version.
+  venue: "Quarterly Journal of Economics, 133(1), 191-235"
+  doi: "10.1093/qje/qjx028"
+  url: "https://www.cato.org/sites/cato.org/files/pubs/pdf/rb65.pdf"
+  url_note: "Cato Research Brief by the authors (working-paper version); Princeton Alumni Weekly summary also opened https://paw.princeton.edu/article/economics-study-finds-employer-bias-increased-after-ban-box"
+  accessed: "2026-10-25"
+  supports: "~15,000 fictitious applications in NJ and NYC before/after ban-the-box; employers asking about records called no-record applicants 63% more; white-Black callback gap among affected employers rose from ~7% to ~45% (43% in some versions)."
+  sample: "Entry-level online applications, young men without college."
+  grade: "strong"
+  caveats: "Figures differ slightly by version."
   commercial: false
-  topics: [background-checks, discrimination]
+  topics: ["background-checks", "discrimination"]
 
 govuk-dbs:
-  type: government
-  authors: [GOV.UK / Disclosure and Barring Service]
+  type: "government"
+  authors: ["GOV.UK / Disclosure and Barring Service"]
   year: 2026
   title: "DBS checks (applicant criminal record checks) and About DBS"
-  venue: gov.uk
-  url: https://www.gov.uk/dbs-check-applicant-criminal-record
-  url_note: Also https://www.gov.uk/government/organisations/disclosure-and-barring-service/about
-  accessed: 2026-10-25
-  supports: Four types of DBS check (basic, standard, enhanced, enhanced with barred lists); basic shows unspent convictions and conditional cautions; results issued to the applicant.
-  sample: n/a
-  grade: strong
-  caveats: England and Wales (Scotland and NI differ).
+  venue: "gov.uk"
+  url: "https://www.gov.uk/dbs-check-applicant-criminal-record"
+  url_note: "Also https://www.gov.uk/government/organisations/disclosure-and-barring-service/about"
+  accessed: "2026-10-25"
+  supports: "Four types of DBS check (basic, standard, enhanced, enhanced with barred lists); basic shows unspent convictions and conditional cautions; results issued to the applicant."
+  sample: "n/a"
+  grade: "strong"
+  caveats: "England and Wales (Scotland and NI differ)."
   commercial: false
-  topics: [background-checks, regional]
+  topics: ["background-checks", "regional"]
 
 bls-tenure2026:
-  type: government
-  authors: [US Bureau of Labor Statistics]
+  type: "government"
+  authors: ["US Bureau of Labor Statistics"]
   year: 2026
   title: "Employee tenure in 2026 (news release USDL-26-1532, 24 September 2026)"
-  venue: bls.gov
-  url: https://www.bls.gov/news.release/tenure.nr0.htm
-  url_note: Opened via a web-fetch subagent (direct curl was blocked with 403); Table 1 at https://www.bls.gov/news.release/tenure.t01.htm also read.
-  accessed: 2026-10-25
-  supports: Median tenure with current employer 4.1 years in January 2026 (3.9 in January 2024); ages 25-34 3.0 years; ages 55-64 9.6 years; public sector 5.6 vs private 3.9.
-  sample: CPS January supplement (biennial), US wage and salary workers.
-  grade: strong
-  caveats: US only; median, not distribution.
+  venue: "bls.gov"
+  url: "https://www.bls.gov/news.release/tenure.nr0.htm"
+  url_note: "Opened via a web-fetch subagent (direct curl was blocked with 403); Table 1 at https://www.bls.gov/news.release/tenure.t01.htm also read."
+  accessed: "2026-10-25"
+  supports: "Median tenure with current employer 4.1 years in January 2026 (3.9 in January 2024); ages 25-34 3.0 years; ages 55-64 9.6 years; public sector 5.6 vs private 3.9."
+  sample: "CPS January supplement (biennial), US wage and salary workers."
+  grade: "strong"
+  caveats: "US only; median, not distribution."
   commercial: false
-  topics: [switching, tenure]
+  topics: ["switching", "tenure"]
 
 cohn2021:
-  type: article
-  authors: [Alain Cohn, Michel Andre Marechal, Frederic Schneider, Roberto A. Weber]
+  type: "article"
+  authors: ["Alain Cohn", "Michel Andre Marechal", "Frederic Schneider", "Roberto A. Weber"]
   year: 2021
   title: "Frequent job changes can signal poor work attitude and reduce employability"
-  venue: Journal of the European Economic Association, 19(1), 475-508
-  doi: 10.1093/jeea/jvaa017
-  url: https://www.repository.cam.ac.uk/handle/1810/301792
-  url_note: Cambridge repository record with abstract; also Chicago Booth Review summary of the 2015 working paper https://www.chicagobooth.edu/review/why-frequent-job-hopping-can-harm-your-employment-prospects
-  accessed: 2026-10-25
-  supports: Lab, field and survey experiments - resumes with fewer job changes received 40-50% more callbacks (field); HR professionals perceived frequent changers as having poorer work attitude, largely accounting for callback differences.
-  sample: Field experiment with fictitious resumes (Switzerland per authors' affiliations; occupations not confirmed here) plus HR survey and lab.
-  grade: strong
-  caveats: Callback effects; the authors note job changes can also signal positives; country/occupation scope not verified in opened text.
+  venue: "Journal of the European Economic Association, 19(1), 475-508"
+  doi: "10.1093/jeea/jvaa017"
+  url: "https://www.repository.cam.ac.uk/handle/1810/301792"
+  url_note: "Cambridge repository record with abstract; also Chicago Booth Review summary of the 2015 working paper https://www.chicagobooth.edu/review/why-frequent-job-hopping-can-harm-your-employment-prospects"
+  accessed: "2026-10-25"
+  supports: "Lab, field and survey experiments - resumes with fewer job changes received 40-50% more callbacks (field); HR professionals perceived frequent changers as having poorer work attitude, largely accounting for callback differences."
+  sample: "Field experiment with fictitious resumes (Switzerland per authors' affiliations; occupations not confirmed here) plus HR survey and lab."
+  grade: "strong"
+  caveats: "Callback effects; the authors note job changes can also signal positives; country/occupation scope not verified in opened text."
   commercial: false
-  topics: [switching, job-hopping]
+  topics: ["switching", "job-hopping"]
 
 eriksson2014:
-  type: article
-  authors: [Stefan Eriksson, Dan-Olof Rooth]
+  type: "article"
+  authors: ["Stefan Eriksson", "Dan-Olof Rooth"]
   year: 2014
   title: "Do employers use unemployment as a sorting criterion when hiring? Evidence from a field experiment"
-  venue: American Economic Review, 104(3), 1014-1039
-  doi: 10.1257/aer.104.3.1014
-  url: https://www.iza.org/publications/dp/6235
-  url_note: IZA Discussion Paper 6235 (2011) abstract page.
-  accessed: 2026-10-25
-  supports: Swedish field experiment - no evidence employers use past unemployment to sort young applicants, some evidence they use contemporary unemployment.
-  sample: Fictitious applications in Sweden (8,466 applications to 3,786 employers per secondary summary; not confirmed on opened page).
-  grade: strong
-  caveats: Young workers, Sweden, interview invitations.
+  venue: "American Economic Review, 104(3), 1014-1039"
+  doi: "10.1257/aer.104.3.1014"
+  url: "https://www.iza.org/publications/dp/6235"
+  url_note: "IZA Discussion Paper 6235 (2011) abstract page."
+  accessed: "2026-10-25"
+  supports: "Swedish field experiment - no evidence employers use past unemployment to sort young applicants, some evidence they use contemporary unemployment."
+  sample: "Fictitious applications in Sweden (8,466 applications to 3,786 employers per secondary summary; not confirmed on opened page)."
+  grade: "strong"
+  caveats: "Young workers, Sweden, interview invitations."
   commercial: false
-  topics: [switching, unemployment]
+  topics: ["switching", "unemployment"]
 
 lii-atwill:
-  type: web
-  authors: [Legal Information Institute, Cornell Law School]
+  type: "web"
+  authors: ["Legal Information Institute", "Cornell Law School"]
   year: 2026
   title: "Employment-at-will doctrine (Wex)"
-  venue: law.cornell.edu
-  url: https://www.law.cornell.edu/wex/employment-at-will_doctrine
-  accessed: 2026-10-25
-  supports: At-will is the US default; employment may be terminated by either party at any time and for almost any reason (subject to exceptions).
-  sample: n/a
-  grade: strong
-  caveats: Legal encyclopedia, not statute; state exceptions vary (e.g., Montana).
+  venue: "law.cornell.edu"
+  url: "https://www.law.cornell.edu/wex/employment-at-will_doctrine"
+  accessed: "2026-10-25"
+  supports: "At-will is the US default; employment may be terminated by either party at any time and for almost any reason (subject to exceptions)."
+  sample: "n/a"
+  grade: "strong"
+  caveats: "Legal encyclopedia, not statute; state exceptions vary (e.g., Montana)."
   commercial: false
-  topics: [switching, legal, regional]
+  topics: ["switching", "legal", "regional"]
 
 warn-2102:
-  type: statute
-  authors: [US Congress]
+  type: "statute"
+  authors: ["US Congress"]
   year: 1988
   title: "29 U.S.C. 2102 - Notice required before plant closings and mass layoffs (WARN Act)"
-  venue: US Code via Cornell LII
-  url: https://www.law.cornell.edu/uscode/text/29/2102
-  accessed: 2026-10-25
-  supports: Employer shall not order a plant closing or mass layoff until the end of a 60-day period after written notice; exceptions for faltering company and unforeseeable business circumstances.
-  sample: n/a
-  grade: strong
-  caveats: Federal; state mini-WARN laws not covered.
+  venue: "US Code via Cornell LII"
+  url: "https://www.law.cornell.edu/uscode/text/29/2102"
+  accessed: "2026-10-25"
+  supports: "Employer shall not order a plant closing or mass layoff until the end of a 60-day period after written notice; exceptions for faltering company and unforeseeable business circumstances."
+  sample: "n/a"
+  grade: "strong"
+  caveats: "Federal; state mini-WARN laws not covered."
   commercial: false
-  topics: [layoffs, legal, regional]
+  topics: ["layoffs", "legal", "regional"]
 
 warn-2101:
-  type: statute
-  authors: [US Congress]
+  type: "statute"
+  authors: ["US Congress"]
   year: 1988
   title: "29 U.S.C. 2101 - Definitions; exclusions (WARN Act)"
-  venue: US Code via Cornell LII
-  url: https://www.law.cornell.edu/uscode/text/29/2101
-  accessed: 2026-10-25
-  supports: Covered employer - 100 or more employees (excluding part-time) or 100+ working 4,000 hours/week; mass layoff - at least 33% and at least 50 employees at a site, or at least 500.
-  sample: n/a
-  grade: strong
-  caveats: Simplified; see statute for definitions.
+  venue: "US Code via Cornell LII"
+  url: "https://www.law.cornell.edu/uscode/text/29/2101"
+  accessed: "2026-10-25"
+  supports: "Covered employer - 100 or more employees (excluding part-time) or 100+ working 4,000 hours/week; mass layoff - at least 33% and at least 50 employees at a site, or at least 500."
+  sample: "n/a"
+  grade: "strong"
+  caveats: "Simplified; see statute for definitions."
   commercial: false
-  topics: [layoffs, legal, regional]
+  topics: ["layoffs", "legal", "regional"]
 
 bgb622:
-  type: statute
-  authors: [Federal Republic of Germany]
+  type: "statute"
+  authors: ["Federal Republic of Germany"]
   year: 2026
   title: "German Civil Code (BGB) section 622 - Notice periods in the case of employment relationships"
-  venue: gesetze-im-internet.de (official German text and official English translation)
-  url: https://www.gesetze-im-internet.de/englisch_bgb/englisch_bgb.html
-  url_note: German original also opened https://www.gesetze-im-internet.de/bgb/__622.html
-  accessed: 2026-10-25
-  supports: Basic notice four weeks to the 15th or end of a month; employer notice rises with service (1 month after 2 years up to 7 months after 20 years); two weeks during probation of up to six months.
-  sample: n/a
-  grade: strong
-  caveats: Germany only as an EU example; collective agreements may differ.
+  venue: "gesetze-im-internet.de (official German text and official English translation)"
+  url: "https://www.gesetze-im-internet.de/englisch_bgb/englisch_bgb.html"
+  url_note: "German original also opened https://www.gesetze-im-internet.de/bgb/__622.html"
+  accessed: "2026-10-25"
+  supports: "Basic notice four weeks to the 15th or end of a month; employer notice rises with service (1 month after 2 years up to 7 months after 20 years); two weeks during probation of up to six months."
+  sample: "n/a"
+  grade: "strong"
+  caveats: "Germany only as an EU example; collective agreements may differ."
   commercial: false
-  topics: [switching, legal, regional]
+  topics: ["switching", "legal", "regional"]
 
 khaitan-notice:
-  type: web
-  authors: [Khaitan & Co]
+  type: "web"
+  authors: ["Khaitan & Co"]
   year: 2025
   title: "Lengthy notice periods in employment contracts: Understanding law and market trends"
-  venue: Khaitan & Co Compass (Indian law firm)
-  url: https://compass.khaitanco.com/lengthy-notice-periods-in-employment-contracts-understanding-law-and-market-trends
-  accessed: 2026-10-25
-  supports: In India non-managerial employees usually serve 1-2 months' notice, senior roles 3-6 months; direct judicial precedents on lengthy notice periods are limited; Supreme Court voided a termination clause under s.23 Contract Act in a particular case.
-  sample: n/a
-  grade: moderate
-  caveats: Law-firm commentary; year approximate (not shown in extracted text).
+  venue: "Khaitan & Co Compass (Indian law firm)"
+  url: "https://compass.khaitanco.com/lengthy-notice-periods-in-employment-contracts-understanding-law-and-market-trends"
+  accessed: "2026-10-25"
+  supports: "In India non-managerial employees usually serve 1-2 months' notice, senior roles 3-6 months; direct judicial precedents on lengthy notice periods are limited; Supreme Court voided a termination clause under s.23 Contract Act in a particular case."
+  sample: "n/a"
+  grade: "moderate"
+  caveats: "Law-firm commentary; year approximate (not shown in extracted text)."
   commercial: false
-  topics: [switching, regional]
+  topics: ["switching", "regional"]
 
 argus-labourcodes:
-  type: web
-  authors: [Argus Partners]
+  type: "web"
+  authors: ["Argus Partners"]
   year: 2026
   title: "Cracking the code: The new labour laws at a glance"
-  venue: Argus Partners thought paper (Indian law firm)
-  url: https://www.argus-p.com/papers-publications/thought-paper/cracking-the-code-the-new-labour-laws-at-a-glance-1/
-  accessed: 2026-10-25
-  supports: All four Labour Codes came into force on 21 November 2025, consolidating 29 central laws (repealed as of 2 February 2026); rules still being notified; employers must pay employees within two days of resignation.
-  sample: n/a
-  grade: moderate
-  caveats: Law-firm summary; state rules vary.
+  venue: "Argus Partners thought paper (Indian law firm)"
+  url: "https://www.argus-p.com/papers-publications/thought-paper/cracking-the-code-the-new-labour-laws-at-a-glance-1/"
+  accessed: "2026-10-25"
+  supports: "All four Labour Codes came into force on 21 November 2025, consolidating 29 central laws (repealed as of 2 February 2026); rules still being notified; employers must pay employees within two days of resignation."
+  sample: "n/a"
+  grade: "moderate"
+  caveats: "Law-firm summary; state rules vary."
   commercial: false
-  topics: [switching, regional]
+  topics: ["switching", "regional"]
 
 barandbench-labourcodes:
-  type: web
-  authors: [Bar & Bench (law-firm viewpoint)]
+  type: "web"
+  authors: ["Bar & Bench (law-firm viewpoint)"]
   year: 2025
   title: "Labour Codes - Key highlights"
-  venue: Bar & Bench, 29 November 2025
-  url: https://www.barandbench.com/law-firms/view-point/labour-codes-key-highlights
-  accessed: 2026-10-25
-  supports: Ministry of Labour and Employment notified enforcement of the four labour codes on 21 November 2025 (Wages, Social Security, OSH, Industrial Relations).
-  sample: n/a
-  grade: moderate
-  caveats: Secondary legal commentary.
+  venue: "Bar & Bench, 29 November 2025"
+  url: "https://www.barandbench.com/law-firms/view-point/labour-codes-key-highlights"
+  accessed: "2026-10-25"
+  supports: "Ministry of Labour and Employment notified enforcement of the four labour codes on 21 November 2025 (Wages, Social Security, OSH, Industrial Relations)."
+  sample: "n/a"
+  grade: "moderate"
+  caveats: "Secondary legal commentary."
   commercial: false
-  topics: [regional]
+  topics: ["regional"]
 
 uschamber-ryan:
-  type: web
-  authors: [US Chamber of Commerce Litigation Center]
+  type: "web"
+  authors: ["US Chamber of Commerce Litigation Center"]
   year: 2025
   title: "Ryan LLC v. FTC (case page)"
-  venue: uschamber.com
-  url: https://www.uschamber.com/cases/antitrust-and-competition-law/ryan-llc-v.-ftc-2
-  accessed: 2026-10-25
-  supports: FTC moved to voluntarily dismiss its appeal (5 September 2025); Fifth Circuit dismissed the appeal of the Chamber's victory over the Noncompete Rule (8 September 2025).
-  sample: n/a
-  grade: strong
-  caveats: Litigant's own page (interested party) but documents docket events.
+  venue: "uschamber.com"
+  url: "https://www.uschamber.com/cases/antitrust-and-competition-law/ryan-llc-v.-ftc-2"
+  accessed: "2026-10-25"
+  supports: "FTC moved to voluntarily dismiss its appeal (5 September 2025); Fifth Circuit dismissed the appeal of the Chamber's victory over the Noncompete Rule (8 September 2025)."
+  sample: "n/a"
+  grade: "strong"
+  caveats: "Litigant's own page (interested party) but documents docket events."
   commercial: false
-  topics: [non-competes, regional]
+  topics: ["non-competes", "regional"]
 
 loeb2023-california:
-  type: web
-  authors: [Loeb & Loeb LLP]
+  type: "web"
+  authors: ["Loeb & Loeb LLP"]
   year: 2023
   title: "California strengthens its prohibitions on noncompetes with the enactment of two new laws"
-  venue: Loeb & Loeb client alert, December 2023
-  url: https://www.loeb.com/en/insights/publications/2023/12/california-strengthens-its-prohibitions-on-noncompetes-with-the-enactment-of-two-new-laws
-  accessed: 2026-10-25
-  supports: SB 699 and AB 1076 strengthen B&P Code 16600 - employers may not enter into or attempt to enforce void noncompetes regardless of where/when signed; notice obligations.
-  sample: n/a
-  grade: moderate
-  caveats: Law-firm alert; check current statute.
+  venue: "Loeb & Loeb client alert, December 2023"
+  url: "https://www.loeb.com/en/insights/publications/2023/12/california-strengthens-its-prohibitions-on-noncompetes-with-the-enactment-of-two-new-laws"
+  accessed: "2026-10-25"
+  supports: "SB 699 and AB 1076 strengthen B&P Code 16600 - employers may not enter into or attempt to enforce void noncompetes regardless of where/when signed; notice obligations."
+  sample: "n/a"
+  grade: "moderate"
+  caveats: "Law-firm alert; check current statute."
   commercial: false
-  topics: [non-competes, regional]
+  topics: ["non-competes", "regional"]
 
 cms2025-uk-noncompete:
-  type: web
-  authors: [CMS (law firm)]
+  type: "web"
+  authors: ["CMS (law firm)"]
   year: 2025
   title: "UK Government re-opens the potential for legislating on employee non-compete clauses"
-  venue: CMS Law-Now, 28 November 2025
-  url: https://cms.law/en/gbr/legal-updates/uk-government-re-opens-the-potential-for-legislating-on-employee-non-compete-clauses
-  accessed: 2026-10-25
-  supports: Government published a working paper on non-compete reform options (statutory length limit, ban below salary threshold); the previous government's 2023 three-month cap was never legislated.
-  sample: n/a
-  grade: moderate
-  caveats: Law-firm update; outcome after Nov 2025 not found.
+  venue: "CMS Law-Now, 28 November 2025"
+  url: "https://cms.law/en/gbr/legal-updates/uk-government-re-opens-the-potential-for-legislating-on-employee-non-compete-clauses"
+  accessed: "2026-10-25"
+  supports: "Government published a working paper on non-compete reform options (statutory length limit, ban below salary threshold); the previous government's 2023 three-month cap was never legislated."
+  sample: "n/a"
+  grade: "moderate"
+  caveats: "Law-firm update; outcome after Nov 2025 not found."
   commercial: false
-  topics: [non-competes, regional]
+  topics: ["non-competes", "regional"]
 
 barandbench-s27:
-  type: web
-  authors: [Chandan Kini, Nikhil Sharma, Sonali Shendge, Nidhi Acharya (Bar & Bench viewpoint)]
+  type: "web"
+  authors: ["Chandan Kini", "Nikhil Sharma", "Sonali Shendge", "Nidhi Acharya (Bar & Bench viewpoint)"]
   year: 2022
   title: "The Viewpoint - Validity of restrictive covenants in contracts"
-  venue: Bar & Bench
-  url: https://www.barandbench.com/law-firms/view-point/the-viewpoint-validity-of-restrictive-covenants-in-contracts
-  accessed: 2026-10-25
-  supports: Indian Contract Act s.27 makes agreements in restraint of trade void; restrictive covenants during employment not treated as restraint of trade; Percept D'Mark v Zaheer Khan - covenant extending beyond contract term void.
-  sample: n/a
-  grade: moderate
-  caveats: Law-firm commentary; authors from search listing; year approximate.
+  venue: "Bar & Bench"
+  url: "https://www.barandbench.com/law-firms/view-point/the-viewpoint-validity-of-restrictive-covenants-in-contracts"
+  accessed: "2026-10-25"
+  supports: "Indian Contract Act s.27 makes agreements in restraint of trade void; restrictive covenants during employment not treated as restraint of trade; Percept D'Mark v Zaheer Khan - covenant extending beyond contract term void."
+  sample: "n/a"
+  grade: "moderate"
+  caveats: "Law-firm commentary; authors from search listing; year approximate."
   commercial: false
-  topics: [non-competes, regional]
+  topics: ["non-competes", "regional"]
+
+mehrabian-site:
+  type: "web"
+  authors: ["Albert Mehrabian"]
+  year: 2026
+  title: "Silent Messages - description and order information (author's site)"
+  venue: "kaaj.com (Mehrabian's website)"
+  url: "http://www.kaaj.com/psych/smorder.html"
+  accessed: "2026-10-25"
+  supports: "Mehrabian's own caveat - the verbal/nonverbal equations \"were derived from experiments dealing with communications of feelings and attitudes (i.e., like-dislike). Unless a communicator is talking about their feelings or attitudes, these equations are not applicable.\""
+  sample: "n/a"
+  grade: "strong"
+  caveats: "Author's own statement; page undated (year = access year)."
+  commercial: false
+  topics: ["myths", "interviewing"]
+
+bigthink-mehrabian:
+  type: "web"
+  authors: ["Big Think"]
+  year: 2026
+  title: "The 7-38-55 rule: Debunking the 'golden ratio' of conversation"
+  venue: "Big Think (The Learning Curve)"
+  url: "https://bigthink.com/the-learning-curve/the-7-38-55-rule-debunking-the-golden-ratio-of-conversation"
+  accessed: "2026-10-25"
+  supports: "Original studies used 30 and 37 women participants in lab tasks on single words and tone/facial expression; quotes David Lapakko that broad conclusions cannot be derived."
+  sample: "n/a"
+  grade: "moderate"
+  caveats: "Popular-science article; year approximate."
+  commercial: false
+  topics: ["myths"]
+
+ncs-cv:
+  type: "government"
+  authors: ["National Careers Service (England)"]
+  year: 2026
+  title: "CV sections"
+  venue: "nationalcareers.service.gov.uk"
+  url: "https://nationalcareers.service.gov.uk/careers-advice/cv-sections"
+  accessed: "2026-10-25"
+  supports: "UK guidance - \"You should not include your age, your date of birth, whether you're married or your nationality.\""
+  sample: "n/a"
+  grade: "strong"
+  caveats: "Advice, not law."
+  commercial: false
+  topics: ["resumes", "regional"]
+
+europass-cv:
+  type: "government"
+  authors: ["European Union (Europass)"]
+  year: 2026
+  title: "Create your Europass CV"
+  venue: "europass.europa.eu"
+  url: "https://europass.europa.eu/en/create-europass-cv"
+  accessed: "2026-10-25"
+  supports: "EU's official CV tool tips include \"add a professional photograph of yourself.\""
+  sample: "n/a"
+  grade: "strong"
+  caveats: "Template advice; national norms vary."
+  commercial: false
+  topics: ["resumes", "regional"]
+
+tickertape-ctc:
+  type: "web"
+  authors: ["Tickertape"]
+  year: 2025
+  title: "What is Cost To Company (CTC) in the salary? CTC vs in-hand salary"
+  venue: "Tickertape blog (Indian fintech)"
+  url: "https://www.tickertape.in/blog/difference-between-ctc-and-inhand-salary/"
+  accessed: "2026-10-25"
+  supports: "CTC is the total salary package and differs from take-home (in-hand) salary."
+  sample: "n/a"
+  grade: "weak"
+  caveats: "Commercial explainer; component percentages not used."
+  commercial: true
+  topics: ["regional", "offers"]
