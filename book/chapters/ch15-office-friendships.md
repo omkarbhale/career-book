@@ -171,6 +171,8 @@ Alt: A grid with six rows of topics and three columns of people: "the whole team
 A boundary map. These cells are our suggestions, not findings; the point is that the same topic belongs in different relationships, and when a friend becomes your lead, some topics move from dinner to the one-to-one.
 :::
 
+Boundaries are easier to hold when you have the words ready, so draft some now.
+
 :::: move {#ch15.move.scripts} Boundary scripts
 Write one or two sentences you could actually say in each situation. Aim for warm and clear; no apologising for having a life.
 
@@ -259,6 +261,8 @@ Kai is now Dev's squad lead. For each situation, decide what each of them should
 The common thread: each person keeps doing their *role* properly, and the friendship survives because it is not asked to carry the role.
 :::
 ::::
+
+For Kai, this is only the first lesson in a new job.
 
 ::: coming {ref=ch21}
 Kai's promotion is the start of a longer story. In [[ch21]], when Dev is offered a lead role of her own, Kai is the person who shows her what managing people actually involves, and what it cost them.

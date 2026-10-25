@@ -110,6 +110,8 @@ How experienced people read a new room, in practice:
 - **Notice how disagreement is done.** A team that disagrees bluntly in meetings may still expect softness in writing, or the other way round.
 :::
 
+Try the dial on a few real situations before you need it.
+
 :::: move {#ch14.move.room} Read the room
 For each situation, choose a dial setting from 1 (most formal) to 5 (most casual), and say in one line what would change your answer.
 
@@ -192,6 +194,8 @@ Kai turns both up, and it works for Kai, partly because they are a peer sharing 
 ::: coming {ref=ch15}
 How a colleague who shares and a colleague who doesn't become friends anyway, and what happens to the friendship when one of them becomes the other's lead, is [[ch15]].
 :::
+
+Before that, try the disclosure dial on yourself.
 
 :::: move {#ch14.move.disclosure} The disclosure decision
 For each of these, decide **who** (if anyone) at work should hear it, **when**, and **how deep** to go. Assume you are a few months into a job, with a manager you trust reasonably well.
@@ -309,6 +313,8 @@ Wherever you work, presence is something you can build deliberately. Visibility 
 In [[ch19]], visibility stops being about presence and becomes part of a promotion case: who has seen your work, what they could say about it, and why making it legible is translation rather than self-promotion.
 :::
 
+For now, make your own presence concrete.
+
 :::: move {#ch14.move.remote} Your remote-presence plan
 Draft a one-paragraph plan for how you will be present at work for the next three months. Answer these four questions in it:
 
@@ -349,6 +355,8 @@ Q: We're fully remote. Is my career doomed?
 
 A: No. The evidence shows trade-offs, not doom: the one fully remote experiment found a promotion penalty for home workers [@bloom2015], but that was one call centre, and it is a reason to make your results visible, not to despair. If you are early in your career, make deliberate time for feedback from experienced people, because that is the thing remote work most easily loses [@emanuel2026].
 :::
+
+As for Dev, the coffee machine gave her a second chance the following week.
 
 ::: scene {slug="INT. LANTERNFISH, THE #OLD-FAITHFUL CHANNEL — THE FOLLOWING THURSDAY"}
 Old Faithful has a new error code, E-47, which it displays while making a noise like a sigh. Someone posts a photo of it.

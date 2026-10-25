@@ -179,7 +179,7 @@ In one field study and two experiments, managers rated employees who voiced *cha
 That is not a reason to stay silent. It is a reason to raise challenges in a way that is heard as loyalty rather than threat. These suggestions follow from Burris's finding about loyalty and threat, but they are inferences, not tested scripts [!view]:
 
 - **Lead with the shared goal.** "I want this launch to land with the warehouse clients, and I'm worried about one thing" frames you as on the same side.
-- **Go private first.** A manager challenged in front of their own manager has to defend their position; one challenged in a one-to-one can change it.
+- **Go private first.** A manager challenged in front of their own manager has to defend their position; one challenged in a one-to-one can change it. This is the dial from [[ch14.sec.dial]] again: the same point, at the setting the room can hear.
 - **Bring options, not just objections.** "Here are two ways we could reduce the risk" is harder to hear as an attack.
 - **Disagree once, clearly, then commit or escalate.** Relitigating a decision every week is how a task conflict becomes a relationship conflict.
 
@@ -212,6 +212,8 @@ Difficult *managers* are harder, because the power runs the other way. The leade
 ::: trapdoor
 **The 11 pm message.** Conflict feels most urgent late at night, which is when people send the message that turns a disagreement into a feud. Write it if you must; send it in the morning, after reading it as if you were the recipient. Remember from [[ch13]] that people consistently overestimate how well their tone comes across in writing [@kruger2005]: the message that feels firm to you will read as furious to them.
 :::
+
+Two questions come up whenever this topic does.
 
 ::: ask
 Q: What if the difficult person is a high performer the company won't touch?
@@ -250,6 +252,8 @@ The ladder's most important feature is the box underneath it. You do not have to
 
 **Everywhere else**, and for the details in these regions: we did not verify the rules, and they change. Check an official source before you rely on any of this, and get advice for a specific case. [[more.sec.law]] says where to start.
 :::
+
+Now try placing some real situations on the ladder.
 
 :::: move {#ch16.move.escalate} When to escalate
 For each situation, decide which rung of [[ch16.fig.escalation]] you would start on, and why.
