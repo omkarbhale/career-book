@@ -131,3 +131,24 @@ cowan2001:
   sample: Review of a wide range of capacity studies.
   grade: strong
   caveats: Capacity estimates depend on how chunks are defined and measured.
+
+javaranch2004:
+  type: web
+  authors: ['JavaRanch']
+  year: 2004
+  title: 'Meet the authors: Kathy Sierra and Bert Bates'
+  container: The JavaRanch Journal, June 2004
+  url: https://javaranch.com/journal/200406/MeetTheAuthors-KathySierraAndBertBates.html
+  url_checked: '2026-10-25'
+  url_note: Full interview read on javaranch.com.
+  kind: practitioner
+  design: interview with the authors
+  supports: >-
+    Sierra and Bates describe the aim of their technical-book series as drawing on learning theory,
+    cognitive science, game design and neurobiology to create "a brain-friendly approach to learning",
+    and say that when readers struggle it is "nearly always the fault of the book, not the learner".
+  sample: Interview.
+  grade: moderate
+  caveats: >-
+    The authors describing their own approach; it documents what they championed, not whether the
+    approach works.

@@ -159,3 +159,33 @@ benson2019:
   sample: Sales workers at 131 US firms.
   grade: strong
   caveats: Sales jobs, where individual output is easy to measure; other jobs may differ.
+
+# Fact-check (checks/part1a.md): the Part I registry read this paper only through the first author's
+# conference slides; this entry records the published abstract, read directly. Same work, so it
+# takes precedence in the reference list.
+powell2018:
+  type: article
+  authors: ['Powell, Deborah M.', 'Stanley, David J.', 'Brown, Kayla N.']
+  year: 2018
+  title: Meta-analysis of the relation between interview anxiety and interview performance
+  container: Canadian Journal of Behavioural Science
+  volume: '50'
+  issue: '4'
+  pages: 195-207
+  doi: 10.1037/cbs0000108
+  url: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1037/cbs0000108?fields=title,abstract
+  url_checked: '2026-10-25'
+  url_note: >-
+    Published abstract read via the Semantic Scholar API (the publisher's page refused automated
+    access); the first author's Cannexus slides, which report the 30 studies, were also read.
+  kind: evidence
+  design: meta-analysis
+  supports: >-
+    Across 30 studies, self-reported interview anxiety correlated -.19 with interviewer-rated interview
+    performance, which the authors call "a medium effect size in this research area"; the relation was
+    moderated by how anxiety was measured and by mock versus real interviews.
+  sample: 30 studies of job candidates and mock interviewees.
+  grade: strong
+  caveats: >-
+    Correlational. A later study by the same group (Schneider, Powell and Bonaccio 2019) found interview
+    anxiety had near-zero correlations with later job performance in one sample.

@@ -1,0 +1,47 @@
+# Sources for Chapter 4 added by the fact-check of Chapters 1-5 (checks/part1a.md). Same schema as the
+# research registries (see WRITING-GUIDE.md). Every entry was opened on the date given. An entry whose key
+# also appears in a research registry describes the same work (same URL) and takes precedence in the
+# reference list, because it records what the fact-checker read.
+
+mohr2014:
+  type: web
+  authors: ['Mohr, Tara Sophia']
+  year: 2014
+  title: Why women don't apply for jobs unless they're 100% qualified
+  container: Harvard Business Review (online), 25 August 2014
+  url: https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified
+  url_checked: '2026-10-25'
+  url_note: >-
+    The live page showed only the opening paragraph (paywall); the full text was read in the Internet
+    Archive copy:
+    https://web.archive.org/web/2015/https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified
+  kind: practitioner
+  supports: >-
+    Popularised the claim that men apply when they meet 60% of a job's qualifications and women only at
+    100%, saying "The finding comes from a Hewlett Packard internal report"; the author's own survey of
+    over a thousand people asked why they had not applied for jobs.
+  sample: Author's informal survey of over 1,000 people, mostly American professionals.
+  grade: weak
+  caveats: The Hewlett-Packard report it cites has not been made public; see rice2014.
+  flags: ['practitioner', 'not-peer-reviewed']
+
+rice2014:
+  type: web
+  authors: ['Rice, Curt']
+  year: 2014
+  title: Anecdata, or how McKinsey's story became Sheryl Sandberg's fact
+  container: curt-rice.com, 22 April 2014
+  url: https://curt-rice.com/2014/04/22/what-happens-when-under-qualified-women-apply-for-jobs-and-why-sheryl-sandberg-and-mckinsey-wrongly-think-we-dont-know/
+  url_checked: '2026-10-25'
+  url_note: Full blog post read.
+  kind: practitioner
+  supports: >-
+    Traces the 60%/100% claim to a McKinsey Quarterly article ("A business case for women") that gave no
+    source; its first author told Rice it "came from interviews with senior executives" at many companies,
+    including HP, and that he did not have access to the internal HP document.
+  sample: One researcher's attempt to trace a citation.
+  grade: weak
+  caveats: >-
+    A blog post by an academic, not peer-reviewed; it shows the claim's source cannot be checked, not that
+    the claim is false.
+  flags: ['not-peer-reviewed']

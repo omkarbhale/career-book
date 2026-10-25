@@ -32,11 +32,11 @@ Working life is three different games. In the first, strangers judge a short, ed
 
 This is not a textbook, but it borrows from the research on how people learn from words and pictures. A few of the design choices, and why:
 
-- **It talks to you.** Rewriting instructional text in a conversational, second-person style has improved both recall and the ability to apply what was learned, though in studies longer than about 35 minutes the benefit shrank to almost nothing [@ginns2013]. So the book talks with you, and it keeps sections short.
+- **It talks to you.** Rewriting instructional text in a conversational, second-person style has improved both recall and the ability to apply what was learned, though in studies longer than about 35 minutes the benefit was small and no longer statistically reliable [@ginns2013]. So the book talks with you, and it keeps sections short.
 - **Pictures carry ideas, not decoration.** Every figure explains something, and its labels sit on the picture rather than in a key you have to match up. In lab studies, placing words next to the parts of a picture they describe, and signalling the structure of an explanation, both helped people understand it [@mayer2003].
 - **Jokes have to earn their place.** Interesting but irrelevant material ("seductive details") tends to hurt learning a little [@cheng2026], and cutting it helped in Mayer and Moreno's experiments [@mayer2003]. So the humour here is meant to make a point stick, not to fill a page. If a joke ever gets in the way, that is our failure, not yours.
 - **You will be asked to do things.** In a major review of study techniques, testing yourself earned the top rating for usefulness, while rereading and highlighting earned the bottom one [@dunlosky2013]. That is what the exercises are for.
-- **One idea at a time.** Working memory holds only a handful of chunks at once (about four, on the best current estimate) [@cowan2001], so each section tries to land one idea before starting the next.
+- **One idea at a time.** Working memory holds only a handful of chunks at once (about four, according to an influential review of the evidence) [@cowan2001], so each section tries to land one idea before starting the next.
 
 And one thing we avoid: brain myths. "Learning styles" and "left-brain versus right-brain learners" are popular, and a survey of teachers interested in neuroscience found that they believed about half of such myths [@dekker2012]. You will not find them here.
 
@@ -80,7 +80,7 @@ A: You can skip them; the main text still makes sense. But the exercises and the
 **Trapdoor** marks a common mistake that costs more than it seems to. When you see one, slow down.
 :::
 
-::: myth {verdict=busted grade=strong} You only use 10% of your brain
+::: myth {verdict=busted grade=moderate} You only use 10% of your brain
 **Myth Check** takes a popular claim and gives a verdict (*Busted*, *Partly true* or *Holds up*) plus a badge for how strong the evidence behind the verdict is. Dekker and colleagues list this one among the classic neuromyths; the teachers in their survey believed about half of the myths they were shown [@dekker2012].
 :::
 
@@ -149,8 +149,8 @@ The chapters build on each other, and reading them in order works best. But you 
 
 ## A few honest limits {#howto.sec.limits}
 
-Some topics are deliberately left to others (managing people in depth, founding a company, personal finance, legal specifics, immigration), and [[more]] says where to go for each. Much of the research on hiring and on behaviour at work comes from the United States and Western Europe. Where that matters, we say so. The rules of the hiring game also change: laws on pay transparency, non-compete clauses and notice periods were moving even while this book was being written, so treat any legal detail as a pointer to check, not as advice.
+Some topics are deliberately left to others (managing people in depth, founding a company, personal finance, legal specifics, immigration), and [[more]] says where to go for each. Much of the research this book draws on, about hiring and about behaviour at work, comes from the United States and Western Europe. Where that matters, we say so. The rules of the hiring game also change: laws on pay transparency and non-compete clauses were moving even while this book was being written [@ec-paytransparency; @cooley2026; @cms2025-uk-noncompete], so treat any legal detail as a pointer to check, not as advice.
 
-The style of this book owes a debt to the learner-centred approach Kathy Sierra and Bert Bates championed in technical books, and to Richard Mayer's research on learning from words and pictures. Every word and every picture here is original.
+The style of this book owes a debt to the learner-centred approach Kathy Sierra and Bert Bates championed in technical books [@javaranch2004], and to Richard Mayer's research on learning from words and pictures. Every word and every picture here is original.
 
 Ready? Meet the people you will be learning with in [[cast]], or go straight to [[ch01]].

@@ -72,7 +72,7 @@ Start with the employer's problem, because it explains most of what feels unfair
 
 An employer hiring you is placing a bet on how you will perform in the future, using evidence gathered over a few hours today. The economist Michael Spence, who won a Nobel prize partly for thinking about exactly this, put the difficulty plainly: the value of individuals to firms "is not directly observed, at least at the time of hiring" [@spence2001-lecture]. Employers cannot watch the film before they buy the ticket. They have to infer it from signals.
 
-How good are they at inferring? Organisational psychologists have been measuring this for decades, by comparing how candidates scored on a selection method with how they performed on the job later. The most recent big revision of that research, a re-analysis of the meta-analyses, concluded that earlier estimates had been too optimistic and cut most of them by .10 to .20 [@sackett2022]. The best single method left standing was the **structured interview**, in which every candidate gets the same job-related questions, scored against the same scale. Its estimated correlation with later job performance, after the standard statistical corrections, is **.42** [@sackett2022; @sackett2023-iop].
+How good are they at inferring? Organisational psychologists have been measuring this for decades, by comparing how people scored on a selection method with how well they performed on the job. A major recent revision of that research, a re-analysis of the meta-analyses, concluded that earlier estimates had been too optimistic and cut most of them by .10 to .20 [@sackett2022]. The best single method left standing was the **structured interview**, in which every candidate gets the same job-related questions, scored against the same scale. Its estimated correlation with later job performance, after the standard statistical corrections, is **.42** [@sackett2022; @sackett2023-iop].
 
 A correlation of .42 is a respectable number in this field, and it is easy to misread. Here is what it looks like.
 
@@ -84,14 +84,14 @@ What a correlation of .42 looks like. The people are simulated, but the relation
 
 Look at the cloud rather than the line. On average, people who interview better do perform better, which is why structured interviews are worth using. But there are plenty of people in the top left, who would have been excellent and interviewed badly, and plenty in the bottom right, who interviewed beautifully and then struggled. Bea lives in the top left. Rex, on his less good days, visits the bottom right.
 
-And that is the *best* method, on average. The researchers themselves warn that the figure is really ".42, plus or minus .24": in some settings structured interviews predict well, and in others they barely predict at all [@sackett2023-iop]. A casual, unstructured conversation, the kind many interviews still are, does markedly worse.
+And that is the *best* method, on average. The researchers themselves warn that the figure is really ".42, plus or minus .24": in some settings structured interviews predict well, and in others they barely predict at all [@sackett2023-iop]. A casual, unstructured conversation does markedly worse, at about .19 [@sackett2022].
 
 ::: receipts {source=sackett2022} The validity league table, revised
 **What they did.** Sackett, Zhang, Berry and Lievens re-examined the meta-analyses that employers and textbooks have relied on for decades to rank selection methods, and showed that a statistical correction (for "range restriction") had usually been applied too generously, inflating most estimates [@sackett2022].
 
 **What they found.** Most methods that ranked high before still ranked high, but lost .10 to .20 of validity. Structured interviews moved to the top, at .42. Methods built around the specific job (structured interviews, job-knowledge tests, work samples) generally beat broad measures [@sackett2023-iop].
 
-**What it cannot tell you.** These are averages across many studies and jobs, and the plausible range for structured interviews runs from .18 to .66, so any one company's process may be much better or much worse. They also describe each method used alone; most employers combine several, which predicts better [@sackett2023-iop].
+**What it cannot tell you.** These are averages across many studies and jobs, and the plausible range for structured interviews runs from .18 to .66, so any one company's process may be much better or much worse. They also describe each method used alone; employers often combine several, which predicts better [@sackett2023-iop].
 :::
 
 ### What else the interview is measuring {#ch01.sec.what-else}
@@ -100,7 +100,7 @@ If interviews only partly measure how good you will be at the job, what else are
 
 The first is **self-presentation**. A meta-analysis of the employment-interview research found that the impressions candidates create (through appearance, impression management, and verbal and nonverbal behaviour) shape interviewers' ratings, and concluded that "what you see in the interview may not be what you get on the job", with unstructured interviews especially affected [@barrick2009]. Even in *structured* interviews, candidates' self-promotion correlated .26 with their ratings across 13 studies [@levashina2014]. Rex self-promotes the way other people breathe.
 
-The second is **nerves**. Across 30 studies, candidates who reported more interview anxiety got lower ratings from interviewers, with an average correlation of −.19 [@powell2018]. That is a small effect, not a death sentence. But Bea's phone screens go badly in a way her code reviews never do, and some of the reason is that she dreads them.
+The second is **nerves**. Across 30 studies, candidates who reported more interview anxiety got lower ratings from interviewers, with an average correlation of −.19 [@powell2018]. The authors count that as a medium-sized effect for this kind of research: a real handicap, not a death sentence. But Bea's phone screens go badly in a way her code reviews never do, and some of the reason is that she dreads them.
 
 Put those together and the puzzle from the opening scene looks less like a bug. Rex is very good at exactly the things interviews over-reward. Bea is very good at the things they under-observe.
 
@@ -247,7 +247,7 @@ So this is not one exam followed by a career. It is three interleaved games, pla
 ::: field {regions="US, UK, India"} How often, and how fast, you can move
 The tenure and job-count figures above are American, from the Bureau of Labor Statistics. We did not find comparable figures for India or the UK that we could verify, so we have not guessed.
 
-The *speed* of a switch also varies. Most US employment is "at will": by default, either side can end it at any time, for almost any reason, with exceptions that vary by state [@lii-atwill]. In the UK, you must give at least a week's notice once you have been in a job for a month, and your contract may require more [@govuk-notice]. In India, notice is set by contract, typically one to two months for non-managerial staff and three to six months for senior roles [@khaitan-notice]. A three-month notice period changes how you run a job search. [[ch09]] has the details.
+The *speed* of a switch also varies. Most US employment is "at will": by default, either side can end it at any time, for almost any reason, with exceptions that vary by state [@lii-atwill]. In the UK, you must give at least a week's notice once you have been in a job for a month, and your contract may require more [@govuk-notice]. In India, notice is set mainly by contract, typically one to two months for non-managerial staff and three to six months for senior roles [@khaitan-notice]. A three-month notice period changes how you run a job search. [[ch09]] has the details.
 :::
 
 ## The loop {#ch01.sec.loop}
@@ -274,7 +274,7 @@ Meera, Dev's first team lead, now runs engineering somewhere else. She has broug
 
 Meera's story is an anecdote, but it points at something the data shows. In one US company that tracked where its hires came from, candidates referred by current employees were 6.1% of applicants but 21.4% of interviewees, 27.3% of offers and 29.1% of hires [@brown2016]. A referral is a signal sent by someone else, about you, from inside the long game, which is why it is so hard to fake and so heavily weighted.
 
-It is not only close friends who matter. A randomised experiment on LinkedIn, run across more than 20 million people over five years, found that weak ties raised job mobility, but only up to a point: moderately weak ties (people you share a few connections with) helped most, and weak ties mattered more in digital industries, strong ties in less digital ones [@rajkumar2022]. Your next job may well come through someone you worked with once and liked.
+It is not only close friends who matter. Randomised experiments on LinkedIn, run across more than 20 million people over five years, found that weak ties raised job mobility, but only up to a point: moderately weak ties (people you share a few connections with) helped most, and weak ties mattered more in digital industries, strong ties in less digital ones [@rajkumar2022]. Your next job may well come through someone you worked with once and liked.
 
 ::: figure {#ch01.fig.loop src="ch01/loop.svg"}
 Alt: A circle split into three arcs around a portrait of Dev labelled "one you, in all three games". The top arc, in coral, is Part I, the snapshot game, running through "apply", "interview" and "offer" to a star marked "you're hired". The right-hand arc, in teal, is Part II, the long game, running down through "do the work" and "earn trust". The left-hand arc, in purple, is Part III, the career game, running back up through "get good" and "get reviewed" to a point labelled "reputation, skills, stories, people: your next trailer", where the snapshot game begins again.

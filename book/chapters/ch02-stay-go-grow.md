@@ -57,7 +57,7 @@ Write both lists down, on paper or in a spreadsheet tab, and give each item a sc
 
 There is a confident piece of folk wisdom about why people quit, and it is worth checking against what people say when they are asked.
 
-In a 2022 Pew Research Center survey of US workers who had quit a job in 2021, the most common reasons were low pay (63%), no opportunities for advancement (63%) and feeling disrespected at work (57%), followed by childcare problems (48%), inflexible hours (45%) and poor benefits (43%) [@pew2022]. Those are self-reported reasons, from one country in one unusual year, and people can cite more than one. Still, look at the top of the list. Two of the three biggest reasons are about money and a path forward, and the third is about how people are treated. Dev's list has all three in it.
+In a 2022 Pew Research Center survey of US workers who had quit a job in 2021, the most common reasons were low pay (63%), no opportunities for advancement (63%) and feeling disrespected at work (57%), followed by childcare problems (48% of those with children under 18 at home), inflexible hours (45%) and poor benefits (43%) [@pew2022]. Those are self-reported reasons, from one country in one unusual year, and people can cite more than one. Still, look at the top of the list. Two of the three biggest reasons are about money and a path forward, and the third is about how people are treated. Dev's list has all three in it.
 
 Researchers who study turnover more broadly find no single cause. A large meta-analysis of the predictors of voluntary turnover found many of them, from job attitudes and the alternatives people have to how embedded they are in the place and how they are led, with effects that vary by context [@rubenstein2018]. People leave for a mixture of reasons, and the mixture is personal.
 
@@ -103,7 +103,7 @@ If any of your reasons might be fixable, the cheapest experiment in your whole c
 
 There is a good economic reason to try. Moving inside a company and moving to a new one trade different things. In a study of an investment-banking division's personnel records, as reported by Wharton, external hires were paid about 18 to 20% more than people promoted internally into similar jobs, but received significantly lower performance ratings for their first two years and were more likely to leave; those who stayed beyond two years were promoted faster [@bidwell2011]. That is one industry, read through a secondary write-up, so treat the numbers as an illustration rather than a law. But the shape makes sense. An outsider is paid a premium partly because the employer cannot see their film, and then has to rebuild a reputation from scratch. An insider is paid less partly because everybody has already seen it.
 
-Internal moves are also a much bigger channel than they look from outside. In one recruiting-software vendor's customer data, internal candidates were 0.27% of applications but 12.56% of hires [@gem2025]. That is a vendor's data, with a product to sell and a customer base that leans towards technology and large companies, but it points the same way: once someone is inside, they are hired at a very different rate.
+Internal moves are also a much bigger channel than they look from outside. In one recruiting-software vendor's customer data, internal candidates were 0.27% of applications but 12.56% of hires [@gem2025]. That is a vendor's data, with a product to sell and a customer base that is not a random sample of employers, but it points the same way: once someone is inside, they are hired at a very different rate.
 
 This is [[ch01.sec.loop|the loop from Chapter 1]] working in your favour. Inside your company, you do not need a trailer. People have watched the film.
 
@@ -117,15 +117,15 @@ What about "maybe next year"? It can mean exactly what it says. It can also mean
 
 Rex would tell you that moving jobs is the fastest way to a pay rise, and the internet agrees with him loudly. The data agree with him more quietly.
 
-The Federal Reserve Bank of Atlanta tracks the median yearly wage growth of US workers, with separate series for people who have recently changed jobs and people who have not. We downloaded the data file and checked it ourselves. From January 1997 to September 2026, job switchers' wage growth beat stayers' in 91% of months, but by only 0.73 percentage points on average [@atlantafed-wgt-data2026]. The gap moves with the economy: it peaked at 2.2 points in November 2022, when employers were desperate for people, and it disappeared, and briefly reversed, in the slack market after the 2008 financial crisis [@atlantafed-wgt-data2026].
+The Federal Reserve Bank of Atlanta tracks the median yearly wage growth of US workers, with separate series for people who have recently changed jobs and people who have not. We downloaded the data file and checked it ourselves. From January 1997 to September 2026, job switchers' wage growth beat stayers' in 91% of months, but by only 0.73 percentage points on average [@atlantafed-wgt-data2026]. The gap moves with the economy: it peaked at 2.2 points in November 2022 [@atlantafed-wgt-data2026], in a year when US job openings stood at record highs [@bls-jolts2022], and it disappeared, and reversed for more than a year, in 2009–10, after the financial crisis [@atlantafed-wgt-data2026].
 
 ::: figure {#ch02.fig.switchers src="ch02/switchers.svg"}
-Alt: A line chart headed "Median yearly pay growth, US workers", from 1997 to 2026, on a scale from 0% to 8%. A coral line for people who changed jobs runs above a teal line for people who stayed put for almost the whole period. The lines cross in a shaded band labelled "2009–10: switchers behind". They spread widest in 2023, labelled "7.1% vs 5.5%", and nearly meet in 2025, labelled "4.4% vs 4.3%". Notes: annual averages of 12-month moving averages, 1997 to September 2026; source, Atlanta Fed Wage Growth Tracker, our calculation.
+Alt: A line chart headed "Median yearly pay growth, US workers", from 1997 to 2026, on a scale from 0% to 8%. A coral line for people who changed jobs runs above a teal line for people who stayed put for almost the whole period. The lines cross in a shaded band labelled "2009–10: switchers behind". Both lines peak in 2023, labelled "7.1% vs 5.5%", and nearly meet in 2025, labelled "4.4% vs 4.3%". Notes: annual averages of 12-month moving averages, 1997 to September 2026; source, Atlanta Fed Wage Growth Tracker, our calculation.
 
-Switchers usually win, by a little. The gap is widest when employers are short of people and can vanish when they are not, as in 2009–10 and again in 2025.
+Switchers usually win, by a little. The gap moves with the economy: it was widest in 2022–23, vanished in 2009–10, and nearly vanished again in 2025.
 :::
 
-Three cautions keep this honest. First, these are medians, and the series counts people as switchers fairly broadly, including some who changed occupation or duties rather than employer [@atlantafed-wgt]. Second, it is descriptive, not causal: the people who switch differ from the people who stay, and some of them would have earned more anyway [@atlantafed-wgt]. Third, it is American; we did not find a comparable series for the UK, the EU or India that we could verify.
+Three cautions keep this honest. First, these are medians, and the series counts people as switchers fairly broadly, including some who changed occupation or duties rather than employer [@atlantafed-wgt]. Second, it is descriptive, not causal: the people who switch may differ from the people who stay, and some of them would probably have earned more anyway [!view]. Third, it is American; we did not find a comparable series for the UK, the EU or India that we could verify.
 
 So switching *tends* to pay more, especially when employers are short of people. It is not a guaranteed raise, and in a slow market the premium can be close to zero.
 
@@ -157,7 +157,7 @@ Once you have decided to look, *when* and *from where* you look matter more than
 
 The clearest finding is that it pays to search from a job. In a large US survey run by the Federal Reserve Bank of New York, employed job seekers received more offers per application than people who were not working, and better-paid offers even after controlling for their characteristics; per unit of effort, they were nearly three times as efficient at turning search into offers [@faberman2017]. Some of that gap is about who happens to be unemployed, which the researchers model, but not all of it.
 
-Employers read *current* unemployment as a signal too, and they read it fast. In a US field experiment that sent about 12,000 fictitious résumés to 3,000 job ads, callbacks fell sharply over the first eight months of unemployment, to about 45% fewer at eight months than at one month, before levelling off [@kroft2013]. We will come back to what that means if you have already lost your job. For now, the lesson for someone like Dev is simple: if you can, start looking before you leave.
+Employers can read *current* unemployment as a signal too, and some read it fast. In a US field experiment that sent about 12,000 fictitious résumés to 3,000 job ads in sales, customer service and clerical work, callbacks fell sharply over the first eight months of unemployment, to about 45% fewer at eight months than at one month, before levelling off [@kroft2013]. Not every study agrees: a later US experiment with experienced, college-educated women applying for administrative jobs found no link at all between how long they had been out of work and their callbacks [@farber2017]. We will come back to what that means if you have already lost your job. For now, the lesson for someone like Dev is simple: if you can, start looking before you leave.
 
 That makes a job search while employed a project with two constraints: time and money. Dev builds a new tab for them. She calls it *Runway*.
 
@@ -186,8 +186,8 @@ A runway is just two numbers: how long you could last without income if things w
 
 **Non-competes**, clauses that stop you working for a competitor after you leave, differ even more.
 
-- **US.** The Federal Trade Commission's nationwide ban was struck down in court, and the appeal was dismissed in September 2025, so state law governs [@uschamber-ryan]. California voids most non-competes and bars employers from trying to enforce them [@loeb2023-california].
-- **UK.** Restrictive covenants can be enforced in court [@govuk-notice]. A proposed three-month cap was never legislated, and the government reopened the question in late 2025 [@cms2025-uk-noncompete]; we found no outcome yet.
+- **US.** The Federal Trade Commission's nationwide ban was struck down in court, and the appeal was dismissed in September 2025, so there is no nationwide ban and state law sets the main rules [@uschamber-ryan]. California voids most non-competes and bars employers from trying to enforce them [@loeb2023-california].
+- **UK.** If your contract has a restrictive covenant, your employer can take you to court for breaching it [@govuk-notice]. A proposed three-month cap was never legislated, and the government reopened the question in late 2025 [@cms2025-uk-noncompete]; we found no outcome yet.
 - **India.** Agreements in restraint of trade are void under section 27 of the Indian Contract Act, and courts have held covenants that extend beyond the end of employment to be void, though restrictions *during* employment are treated differently [@barandbench-s27].
 
 We have not verified rules for other EU countries or other regions; check your contract and local official guidance. [[ch09]] returns to notice when you actually resign.
@@ -232,9 +232,9 @@ There is no right number, but the shape of the answers tells you how to search. 
 
 Everything so far assumes you get to choose. Many people enter the snapshot game without choosing at all: a reorganisation, a lost client, an email with a meeting invitation from someone in HR you have never met. If that is you, this section is the one to read first.
 
-Start with something true that does not feel true at the time: **a layoff is an event, not a verdict.** Companies often cut roles for reasons that have little to do with the people in them [!view]. And the evidence we have points at time out of work, not at layoffs as such. In a Swedish field experiment with young applicants, employers showed no sign of sorting on *past* unemployment, but some sign of sorting on *current* unemployment [@eriksson2014]. In the US experiment above, callbacks fell sharply over the first eight months out of work [@kroft2013]. And many employers filter on gaps: 48% of employers in one large survey said they screened out middle-skills candidates with employment gaps of more than six months [@hiddenworkers2021].
+Start with something true that does not feel true at the time: **a layoff is an event, not a verdict.** Companies often cut roles for reasons that have little to do with the people in them [!view]. And the evidence we have points at time out of work, not at layoffs as such. In a Swedish field experiment with applicants in their twenties and early thirties, employers ignored even long spells of unemployment in an applicant's *past*, and short *current* spells too, but marked down applicants who were currently out of work for nine months or more [@eriksson2014]. In the first US experiment above, callbacks fell sharply over the first eight months out of work [@kroft2013], though the second found no such effect [@farber2017]. And many employers filter on gaps: 48% of employers in one large survey said they screened out middle-skills candidates with employment gaps of more than six months [@hiddenworkers2021].
 
-Put plainly: the first months matter most. That is not a reason to panic. It is a reason to start.
+Put plainly: the evidence is mixed, but where a current gap hurts, it hurts more the longer it stays open. That is not a reason to panic. It is a reason to start.
 
 It is also a real shock, and it is fine to treat it as one. A meta-analysis of studies of unemployment found that people out of work have lower psychological and physical well-being, and that coping resources and how people appraise their situation matter more than demographics [@mckeeryan2005]. One sobering long-run study of high-seniority men displaced in mass layoffs in Pennsylvania in the 1970s and 1980s found mortality 50 to 100% higher than expected in the following year, and still 10 to 15% higher twenty years later [@sullivan2009]. That is old data from one US state, about one group of workers, and it describes averages, not your future. But it is why the advice below starts with people and structure, not with your résumé.
 
@@ -246,9 +246,9 @@ Help works, and some kinds of help work better than others. A meta-analysis of 4
 1. **Read before you sign.** If you are offered a severance or settlement agreement, ask for time to read it, and get advice if it waives legal claims.
 2. **Claim what you are owed, quickly.** Unemployment benefits, redundancy pay and final dues all have rules and deadlines.
 3. **Tell people, today.** Former colleagues, friends, your old team lead. Most will want to help, more than you expect ([[ch06]]).
-4. **Build a week.** Fixed hours for searching, fixed hours for not searching, and something physical every day. Structure is part of what effective programmes provide [@liu2014].
+4. **Build a week.** Fixed hours for searching, fixed hours for not searching, and something physical every day. Setting goals is one of the ingredients of effective programmes [@liu2014].
 5. **Write your one-sentence explanation** and practise it: "My role was one of 120 cut when the company closed its London office." Then move straight on to what you did and what you want next.
-6. **Fill the gap with evidence.** A course, a project, some freelance work: anything you can talk about, because a current gap reads worse the longer it is silent [@kroft2013].
+6. **Fill the gap with evidence.** A course, a project, some freelance work: anything you can talk about, because in some markets a current gap costs more callbacks the longer it runs [@kroft2013].
 :::
 
 Where the official rules exist, the deadlines in them are real, so look them up in the first week.
@@ -256,13 +256,13 @@ Where the official rules exist, the deadlines in them are real, so look them up 
 ::: field {regions="US, UK, India"} If you are laid off
 - **US.** Employers with 100 or more employees generally must give 60 days' written notice of a plant closing or mass layoff under the federal WARN Act, with exceptions [@warn-2102; @warn-2101]. Unemployment insurance is run by each state within federal guidelines; the Department of Labor advises contacting your state's programme "as soon as possible after becoming unemployed", in the state where you worked [@dol-ui].
 - **UK.** Employees with two or more years' service are normally entitled to statutory redundancy pay, and have six months from the end of the job to claim it; redundancy can also bring a notice period, consultation and time off to look for work, and selection must be fair [@govuk-redundancy-pay; @govuk-notice].
-- **India.** The four Labour Codes came into force on 21 November 2025, and a law-firm summary notes that employers must pay final dues within two days of an employee's resignation [@argus-labourcodes]; we did not verify how that applies to layoffs, or the rules on retrenchment compensation or unemployment benefits, so check current official guidance.
+- **India.** The four Labour Codes came into force on 21 November 2025, and a law-firm summary notes that wages due on resignation must now be paid within two working days, the same deadline as on termination [@argus-labourcodes]; we did not verify the rules on retrenchment compensation or unemployment benefits, so check current official guidance.
 :::
 
 If you are one of the people who *stayed*, notice what usually happens next. Organisations that downsize tend to see more voluntary departures afterwards, because survivors' commitment drops, though fair procedures soften the effect [@trevor2008]. A layoff round is often a moment to ask the push-and-pull questions again, before everyone else does.
 
 ::: myth {#ch02.myth.gaps verdict=partly grade=strong} Any gap on your résumé is fatal
-A *current* gap does cost callbacks, and the cost grows over the first eight months [@kroft2013]; some employers also filter out gaps longer than six months [@hiddenworkers2021]. But a *past* gap that was followed by work showed no measurable effect in a Swedish field experiment with young applicants, while current unemployment did [@eriksson2014]. A gap you have closed, and can explain in a sentence, is a small thing. A gap that is still open, and silent, is the one to work on.
+A *current* gap can cost callbacks: in one US experiment the cost grew over the first eight months [@kroft2013], though another found no effect for experienced applicants [@farber2017]; some employers also filter out gaps longer than six months [@hiddenworkers2021]. But a *past* gap that was followed by work, even a long one, showed no measurable effect in a Swedish field experiment with young applicants, while a current spell of nine months or more did [@eriksson2014]. A gap you have closed, and can explain in a sentence, is a small thing. A gap that is still open, and silent, is the one to work on.
 :::
 
 ## Changing fields {#ch02.sec.changers}
@@ -368,7 +368,7 @@ To see it, you have to sit on the other side of the table, which is where [[ch03
 - **Ask before you leave**, specifically and with a date. Internal moves keep the reputation you have built; external hires are paid more but start from zero.
 - Switching **usually pays a little**: in US data, switchers beat stayers in about 91% of months by about 0.7 points, and the premium can vanish in slack markets. A run of short stays costs callbacks.
 - **Search from a job** if you can: employed searchers get more offers per application and better ones. Know your **runway**: savings, notice period and real search hours.
-- A layoff is **an event, not a verdict**, but a current gap costs callbacks fast. Start early, use people and structure, and close the gap with evidence.
+- A layoff is **an event, not a verdict**, but a current gap can cost callbacks, and more the longer it lasts. Start early, use people and structure, and close the gap with evidence.
 - Career changers carry **tasks, not titles**. Translate what you did into what the new field needs.
 - **Stay** is a legitimate answer. Whatever you choose, leave through a door you would be happy to walk back through.
 :::

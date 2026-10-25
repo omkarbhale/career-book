@@ -47,7 +47,7 @@ How fast is the first glance? You have probably heard a precise answer.
 The number comes from a 2012 eye-tracking study by TheLadders, a job site, which watched thirty recruiters over ten weeks and reported that they spent "about 6 seconds" on their initial fit or no-fit decision, with almost 80% of that time on names, current and previous titles and employers, dates and education [@ladders2012]. It was never peer-reviewed, and the same document ended by recommending the company's own résumé-rewriting service [@ladders2012]. A 2018 update reported an average of 7.4 seconds but gave no sample size [@ladders2018]. So the seconds are shaky. The underlying point holds up: the first pass is a brief skim of the page's scaffolding, which fits everything we know about funnels with hundreds of applicants ([[ch03.sec.funnel]]). The skim is not the evaluation; it is the gate to it.
 :::
 
-If your guess for the pause was "a few seconds", you were right in spirit. If you guessed the reader looks at your carefully worded summary paragraph, you are in good company, and the eye-tracking suggests otherwise [@ladders2012!]. That leads to the most useful design principle in this chapter: **make the scaffolding carry the message**. Titles, employers, dates and the first lines of the page must say "plausible fit" on their own [!view]. Then the bullets have to survive the full read.
+If your guess for the pause was "a few seconds", you were right in spirit. If you guessed the reader looks at your carefully worded summary paragraph, you are in good company, and the 2012 eye-tracking suggests otherwise [@ladders2012!], though the 2018 update found that the best-performing résumés did open with a short overview [@ladders2018!]. That leads to the most useful design principle in this chapter: **make the scaffolding carry the message**. Titles, employers, dates and the first lines of the page must say "plausible fit" on their own [!view]. Then the bullets have to survive the full read.
 
 ## The anatomy of a trailer {#ch05.sec.anatomy}
 
@@ -65,7 +65,7 @@ A résumé as a trailer. Each part has one job, and the parts the first skim rea
 - **Skills** use the employer's own words for things you can genuinely do. If the ad says "PostgreSQL", write "PostgreSQL", not "relational databases". Recruiters search for terms, and some filters match exact criteria [@hiddenworkers2021]. Stuffing in words you cannot back up fails the full read, and a 2018 eye-tracking update found keyword-stuffed résumés among the worst performers with human readers [@ladders2018!].
 - **Education** is short unless it is your strongest evidence, as it often is for new graduates.
 
-What about format? The evidence is thin and commercial, but consistent: clean single-column layouts with clear section headings did best in the eye-tracking studies, and multiple columns and clutter did worst [@ladders2018!]. Rex's two-column masterpiece is the kind of design that looks impressive on a screen and gets lost in a skim, and some applicant tracking systems also mangle columns and tables [!craft]. Boring formatting is a gift to a tired reader.
+What about format? The evidence is thin and commercial, but consistent: clean, simple layouts with clearly marked section headings did best in the 2018 eye-tracking update, and cluttered pages with multiple columns did worst [@ladders2018!]. Rex's two-column masterpiece is the kind of design that looks impressive on a screen and gets lost in a skim, and some applicant tracking systems also mangle columns and tables [!craft]. Boring formatting is a gift to a tired reader.
 
 ## Bullets that work {#ch05.sec.bullets}
 
@@ -179,8 +179,8 @@ This is our view, not a measured finding. It is also the same rule the book will
 
 Not every rule about résumés is folklore. One of the best-evidenced is also the most boring.
 
-::: myth {#ch05.myth.typos verdict=busted grade=strong} A typo or two doesn't matter
-In an experiment in which 445 recruiters rated résumés for job interviews, résumés with several spelling errors cut the probability of an interview invitation by 18.5 percentage points, and even résumés with just a few errors cut it by 7.3 points [@sterkens2023]. About half of the penalty came from what recruiters inferred about the candidate from the mistakes: lower conscientiousness, lower mental ability and weaker interpersonal skills [@sterkens2023]. It was a scenario experiment rather than real hiring decisions, but the effect was large and the mechanism plausible. Typos are cheap signals of carelessness, read by people looking for a reason to shorten the pile.
+::: myth {#ch05.myth.typos verdict=busted grade=moderate} A typo or two doesn't matter
+In an experiment in which 445 recruiters in Flanders, Belgium, rated résumés for job interviews, résumés with several spelling errors cut the probability of an interview invitation by 18.5 percentage points, and even résumés with just a few errors cut it by 7.3 points [@sterkens2023]. About half of the penalty came from what recruiters inferred about the candidate from the mistakes: lower conscientiousness, lower mental ability and weaker interpersonal skills [@sterkens2023]. It was a single scenario experiment rather than real hiring decisions, but the effect was large and the mechanism plausible. Typos are cheap signals of carelessness, read by people looking for a reason to shorten the pile.
 :::
 
 The fix is cheap and dull. Read your résumé aloud, slowly. Read it backwards, bullet by bullet, so that you see words rather than meaning. Ask someone who has not seen it before to read it, because your eyes will correct mistakes your brain knows should not be there [!craft]. And check the details that matter most: names of employers, job titles, dates, and the name of the company you are applying to, which is the one people most regret getting wrong.
@@ -199,7 +199,7 @@ Paper you is not only paper. Online profiles and portfolios do two jobs a résum
 
 Findability matters because recruiters do not only wait for applications; they go looking. In one vendor's data, candidates whom recruiters sourced were hired at 2.0%, against 0.4% for people who applied through the front door [@gem2025]. That is mostly because the recruiter chose them, but you can only be chosen if you can be found. A profile with your real current title, a clear headline in the spirit of your one-line answer, and the skills you would want a recruiter to search for is a channel in its own right [!view]. Professional networks are also how weak ties find you, which is the subject of [[ch06]].
 
-::: myth {#ch05.myth.photo verdict=busted grade=weak} LinkedIn profiles with a photo get 21 times more views
+::: myth {#ch05.myth.photo verdict=partly grade=weak} LinkedIn profiles with a photo get 21 times more views
 The claim, that profiles with a photo get "up to 21x more profile views" and "36x more messages", is LinkedIn's own and is repeated widely in marketing articles [@sej-linkedin-photo]. We found no published method, dataset or study behind it. A photo may well help on a platform built around people; nobody has shown by how much, and the "21x" should not be quoted as a finding.
 :::
 
@@ -211,9 +211,9 @@ Dev starts one: a small open-source tool that runs test suites in parallel, the 
 
 Do cover letters matter? The honest answer is that nobody has tested it well.
 
-The evidence we have is commercial and conflicting. A résumé-writing service sent 7,287 fictitious applications to real job postings with no cover letter, a generic letter or a tailored one, and reported that tailored letters received a 53% higher callback rate than no letter; in its survey of 236 hiring professionals, 87% said they read cover letters [@resumego2020-cover!]. The study is unpublished, and its group-by-group results were only available as an image we could not verify. A different résumé-services company surveyed more than 1,000 US hiring managers and reported that 83% said "To Whom It May Concern" would have little or no effect on whether they offered an interview [@aacsb2020-twimc!].
+The evidence we have is commercial and thin. A résumé-writing service sent 7,287 fictitious applications to real job postings with no cover letter, a generic letter or a tailored one, and reported callback rates of 10.7%, 12.5% and 16.4% respectively, so tailored letters did 53% better than no letter; in its survey of 236 hiring professionals, 87% said they read cover letters [@resumego2020-cover!]. The study is unpublished, and its results appear only as a chart on the company's own site. A different résumé-services company surveyed more than 1,000 US hiring managers and reported that 83% said "To Whom It May Concern" would have little or no effect on whether they offered an interview [@aacsb2020-twimc!].
 
-From that, a modest rule [!view]: when an application has a place for a letter, send a short one written for this job; when it does not, do not force one. A good letter is three short paragraphs: why this role, the one or two pieces of evidence that make you a fit (straight from your story bank), and what you would like to happen next. A generic letter is worse than none, because it is a costless signal that you did not take the trouble. And often the best cover letter is not a letter at all, but a colleague of the hiring manager saying your name ([[ch06]]).
+From that, a modest rule [!view]: when an application has a place for a letter, send a short one written for this job; when it does not, do not force one. A good letter is three short paragraphs: why this role, the one or two pieces of evidence that make you a fit (straight from your story bank), and what you would like to happen next. A generic letter adds little: in that experiment it did only a little better than no letter at all, and it is a cheap signal, one that tells the reader nothing about why you want this job. And often the best cover letter is not a letter at all, but a colleague of the hiring manager saying your name ([[ch06]]).
 
 ## Names, and what paper cannot fix {#ch05.sec.names}
 
@@ -255,7 +255,7 @@ A friend sends you this advice, which they found online. Mark each line **holds*
 2. **Myth.** There is no evidence for a one-page rule; the only test we found was commercial and leaned the other way [@resumego2018-length!]. Length should follow content.
 3. **Myth.** Even a few errors cut interview chances by 7.3 percentage points in a recruiter experiment [@sterkens2023].
 4. **Myth, and a trap.** There is no study behind the idea that software rejects most résumés unseen ([[ch03.sec.ats]]), and the humans who read the result will see the trick. Keyword stuffing did badly with human readers [@ladders2018!].
-5. **Myth as stated, and region-dependent.** The "21 times" figure has no published basis [@sej-linkedin-photo]; and on a US résumé, a photo goes against official advice to employers [@eeoc-prohibited].
+5. **Partly at best, and region-dependent.** A photo may help on a profile, but the "21 times" figure has no published basis [@sej-linkedin-photo]; and on a US résumé, a photo goes against official advice to employers [@eeoc-prohibited].
 6. **Holds**, with the condition attached. Employers search for terms and filter on exact criteria [@hiddenworkers2021], so the posting's words for skills you genuinely have help both the search and the skim.
 :::
 ::::

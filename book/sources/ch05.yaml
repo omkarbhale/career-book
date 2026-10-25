@@ -25,3 +25,56 @@ kang2016:
   grade: strong
   caveats: >-
     Abstract-level reading, so no callback percentages are printed; North American labour market.
+
+# Corrected by the fact-check of Chapters 1-5 (checks/part1a.md). Same works as the Part I registry
+# entries (same DOI or URL), so these take precedence in the reference list.
+
+sterkens2023:
+  type: article
+  authors: ['Sterkens, Philippe', 'Caers, Ralf', 'De Couck, Marijke', 'Van Driessche, Victor', 'Geamanu, Michael', 'Baert, Stijn']
+  year: 2023
+  title: 'Costly mistakes: Why and when spelling errors in resumes jeopardise interview chances'
+  container: PLOS ONE
+  volume: '18'
+  issue: '4'
+  pages: e0283280
+  doi: 10.1371/journal.pone.0283280
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10075394/
+  url_checked: '2026-10-25'
+  url_note: Full text read on PubMed Central.
+  kind: evidence
+  design: factorial scenario (vignette) experiment
+  supports: >-
+    445 recruiters rated résumés with randomly assigned spelling errors: error-laden résumés had an 18.5
+    percentage-point lower interview probability than error-free ones, and résumés with fewer errors (two)
+    a 7.3-point lower one; half the penalty was explained by inferred lower interpersonal skills,
+    conscientiousness and mental ability.
+  sample: 445 HR professionals in Flanders, Belgium, surveyed in April 2020.
+  grade: moderate
+  caveats: >-
+    One vignette experiment in one region rather than real hiring decisions; the authors note that earlier
+    experiments used at least five errors per résumé. Graded moderate as a single well-designed study.
+
+resumego2020-cover:
+  type: web
+  authors: ['ResumeGo']
+  year: 2020
+  title: 'Cover letters: Just how important are they?'
+  container: ResumeGo (résumé-writing service)
+  url: https://www.resumego.net/research/cover-letters/
+  url_checked: '2026-10-25'
+  url_note: >-
+    Page read in full, including the results chart
+    (https://www.resumego.net/wp-content/uploads/Callback-Rates-By-Cover-Letter-Method-3.png), viewed as an
+    image.
+  kind: practitioner
+  design: field experiment and survey run by a company
+  supports: >-
+    7,287 fictitious applications to job-board postings, 15 July 2019 to 10 January 2020, with no cover
+    letter, a generic one or a tailored one; the results chart shows callback rates of 10.7%, 12.5% and 16.4%
+    respectively (tailored 53% higher than none). In a survey of 236 hiring professionals, 87% said they read
+    cover letters and 81% valued tailored letters significantly more than generic ones.
+  sample: 7,287 applications; 236 surveyed professionals.
+  grade: weak
+  caveats: Commercial and unpublished; no method beyond the page; the company sells résumé services.
+  flags: ['commercial', 'self-interested', 'not-peer-reviewed']
