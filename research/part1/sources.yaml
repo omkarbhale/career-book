@@ -539,3 +539,191 @@ faberman2017:
   caveats: Working-paper figures; the published version may differ. Part of the gap reflects who is unemployed (selection), which the paper models.
   commercial: false
   topics: [switching, channels]
+
+sterkens2023:
+  type: article
+  authors: [Philippe Sterkens, Ralf Caers, Marijke De Couck, Valentina Van Driessche, Michel Geamanu, Stijn Baert]
+  year: 2023
+  title: "Costly mistakes: Why and when spelling errors in resumes jeopardise interview chances"
+  venue: PLOS ONE
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10075394/
+  accessed: 2026-10-25
+  supports: Scenario experiment with 445 recruiters - error-laden resumes 18.5 pp lower interview probability, fewer errors 7.3 pp lower; half the penalty explained by inferred lower interpersonal skills (9.0%), conscientiousness (12.1%), mental ability (32.2%).
+  sample: 445 recruiters (Belgium-based research team).
+  grade: strong
+  caveats: Vignette experiment rather than real hiring; co-author list beyond Sterkens and Baert taken from the PMC record header and should be re-checked before print.
+  commercial: false
+  topics: [resumes]
+
+resumego2018-length:
+  type: industry-study
+  authors: [ResumeGo]
+  year: 2018
+  title: "Settling the debate: One or two page resumes"
+  venue: ResumeGo (resume-writing service)
+  url: https://www.resumego.net/research/one-or-two-page-resumes/
+  accessed: 2026-10-25
+  supports: Simulated hiring (15 Oct - 2 Nov 2018) with 482 recruiters/hiring managers/HR/executives; of 7,712 resumes chosen 5,375 were two pages; "2.3 times as likely to prefer" two-page resumes, 1.4x for entry-level.
+  sample: 482 professionals, simulation.
+  grade: weak
+  caveats: Commercial, unpublished, simulation; selection not hiring.
+  commercial: true
+  topics: [resumes, myths]
+
+resumego2020-cover:
+  type: industry-study
+  authors: [ResumeGo]
+  year: 2020
+  title: "Cover letters: Just how important are they?"
+  venue: ResumeGo (resume-writing service)
+  url: https://www.resumego.net/research/cover-letters/
+  accessed: 2026-10-25
+  supports: Field experiment 15 July 2019 - 10 January 2020 with 7,287 fictitious applications to job-board postings (none / generic / tailored cover letter); reports tailored letters had a 53% higher callback rate than none; survey of 236 hiring professionals - 87% read cover letters, 81% value tailored over generic.
+  sample: 7,287 applications; 236 surveyed professionals.
+  grade: weak
+  caveats: Commercial, unpublished, results table is an image so group-level callback rates were not verified from text.
+  commercial: true
+  topics: [cover-letters]
+
+aacsb2020-twimc:
+  type: web
+  authors: [AACSB Insights]
+  year: 2020
+  title: "To whom it may concern: Getting hiring managers' attention"
+  venue: AACSB Insights (May 2020)
+  url: https://www.aacsb.edu/insights/articles/2020/05/getting-hiring-managers-attention-to-whom-it-may-concern
+  accessed: 2026-10-25
+  supports: Reports a Resume Companion survey of 1,000+ US hiring managers - 83% said "To Whom It May Concern" would have little or no impact on interview decisions.
+  sample: 1,000+ US hiring managers (survey by a resume-services company).
+  grade: weak
+  caveats: Secondary report of a commercial survey.
+  commercial: true
+  topics: [cover-letters, myths]
+
+bertrand2004:
+  type: article
+  authors: [Marianne Bertrand, Sendhil Mullainathan]
+  year: 2004
+  title: "Are Emily and Greg more employable than Lakisha and Jamal? A field experiment on labor market discrimination"
+  venue: American Economic Review, 94(4), 991-1013
+  url: https://www.nber.org/system/files/working_papers/w9873/w9873.pdf
+  url_note: NBER working paper w9873 (2003) opened.
+  accessed: 2026-10-25
+  supports: Fictitious resumes to help-wanted ads in Boston and Chicago; white-sounding names received 50% more callbacks than African-American-sounding names.
+  sample: Newspaper job ads, Boston and Chicago, early 2000s.
+  grade: strong
+  caveats: US, one era, newspaper ads; magnitudes vary across later studies.
+  commercial: false
+  topics: [resumes, discrimination]
+
+quillian2017:
+  type: article
+  authors: [Lincoln Quillian, Devah Pager, Ole Hexel, Arnfinn H. Midtboen]
+  year: 2017
+  title: "Meta-analysis of field experiments shows no change in racial discrimination in hiring over time"
+  venue: PNAS, 114(41), 10870-10875
+  doi: 10.1073/pnas.1706255114
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5642692/
+  accessed: 2026-10-25
+  supports: 28 US field experiments (55,842 applications, 26,326 positions); since 1989 whites receive on average 36% more callbacks than equally qualified African Americans and 24% more than Latinos; no change for African Americans over 25 years.
+  sample: Meta-analysis of US audit/correspondence studies 1989-2015.
+  grade: strong
+  caveats: US only; callbacks, not hires.
+  commercial: false
+  topics: [resumes, discrimination]
+
+kline2022:
+  type: article
+  authors: [Patrick Kline, Evan K. Rose, Christopher R. Walters]
+  year: 2022
+  title: "Systemic discrimination among large U.S. employers"
+  venue: Quarterly Journal of Economics, 137(4), 1963-2036
+  doi: 10.1093/qje/qjac024
+  url: https://docs.iza.org/dp14634.pdf
+  url_note: IZA Discussion Paper 14634 (August 2021) version opened.
+  accessed: 2026-10-25
+  supports: 83,000+ fictitious applications to jobs at 108 of the largest US employers; distinctively Black names reduced employer contact by 2.1 pp (about 9% of the Black mean contact rate); between-firm SD 1.9 pp; insignificant average gender gap with firm-level variation.
+  sample: Entry-level postings at 108 Fortune 500 firms, US.
+  grade: strong
+  caveats: Entry-level roles; contact not hire.
+  commercial: false
+  topics: [resumes, discrimination]
+
+thorat2009:
+  type: working-paper
+  authors: [Sukhadeo Thorat, Paul Attewell, Firdaus Fatima Rizvi]
+  year: 2009
+  title: "Urban labour market discrimination"
+  venue: Indian Institute of Dalit Studies working paper (summarised by GSDRC)
+  url: https://gsdrc.org/document-library/urban-labour-market-discrimination/
+  url_note: GSDRC document-library summary opened; original IIDS paper not opened.
+  accessed: 2026-10-25
+  supports: Correspondence study of graduate applicants to India's urban private sector (including multinationals) - odds of interview invitation for Dalit applicants about two-thirds, for Muslim applicants about one-third, of equally qualified high-caste Hindu applicants.
+  sample: Responses to job ads in modern private sector, urban India.
+  grade: moderate
+  caveats: Read via summary; published also as a chapter in Blocked by Caste (OUP 2010), not opened.
+  commercial: false
+  topics: [resumes, discrimination, regional]
+
+marlow2013:
+  type: conference-paper
+  authors: [Jennifer Marlow, Laura Dabbish]
+  year: 2013
+  title: "Activity traces and signals in software developer recruitment and hiring"
+  venue: Proceedings of CSCW 2013 (ACM)
+  doi: 10.1145/2441776.2441792
+  url: https://www.cs.cmu.edu/~xia/resources/Documents/Marlow-cscw13.pdf
+  accessed: 2026-10-25
+  supports: Interviews with seven employers who use GitHub to evaluate candidates and six job seekers (from 128 survey respondents); profile cues read as evidence of skills, motivation and values, trusted more than resumes because activity is visible and hard to fake.
+  sample: 13 interviewees, self-selected GitHub users, 2012-13.
+  grade: weak
+  caveats: Small qualitative sample; old; GitHub-active population.
+  commercial: false
+  topics: [portfolios, tech]
+
+sej-linkedin-photo:
+  type: web
+  authors: [Search Engine Journal]
+  year: 2017
+  title: "LinkedIn profile picture filters"
+  venue: Search Engine Journal
+  url: https://www.searchenginejournal.com/linkedin-profile-picture-filters/190137/
+  accessed: 2026-10-25
+  supports: Repeats LinkedIn's claim that profiles with a photo get "up to 21x more profile views... 36x more messages and 9x more connection requests."
+  sample: None disclosed.
+  grade: myth-or-unsupported
+  caveats: Platform marketing claim relayed secondhand; no primary dataset found. Year inferred from article ID era; not confirmed on page.
+  commercial: true
+  topics: [linkedin, myths]
+
+mohr2014:
+  type: web
+  authors: [Tara Sophia Mohr]
+  year: 2014
+  title: "Why women don't apply for jobs unless they're 100% qualified"
+  venue: Harvard Business Review (August 2014)
+  url: https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified
+  accessed: 2026-10-25
+  supports: Popularised the 60%/100% statistic; attributes it to an internal Hewlett-Packard report (per widely reported text; the opened page showed only the opening paragraph because of paywall).
+  sample: Mohr's own survey of 1,000+ people (reported secondarily).
+  grade: weak
+  caveats: The HP report is unpublished; paywall limited what was read.
+  commercial: false
+  topics: [myths, applying]
+
+salwender2024:
+  type: article
+  authors: [Mona Salwender, Dagmar Stahlberg]
+  year: 2024
+  title: "Do women only apply when they are 100% qualified, whereas men already apply when they are 60% qualified?"
+  venue: European Journal of Social Psychology
+  doi: 10.1002/ejsp.3109
+  url: https://www.citedrive.com/en/discovery/do-women-only-apply-when-they-are-100-qualified-whereas-men-already-apply-when-they-are-60-qualified/
+  url_note: Abstract read on CiteDrive; Wiley and Mannheim repository blocked automated access.
+  accessed: 2026-10-25
+  supports: Study 1 found no gender difference in application intentions at 60% or 100% fit; Studies 2-4 found a significant but not robust gender difference; women robustly reported higher desire for preparedness.
+  sample: Four experiments (German samples per the authors' affiliation; sizes not read).
+  grade: moderate
+  caveats: Intentions, not real applications; abstract-level reading.
+  commercial: false
+  topics: [myths, applying]

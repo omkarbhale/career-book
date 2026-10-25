@@ -26,7 +26,7 @@ Every channel works some of the time, at very different yields. Cold application
 - Agency was a minor source of hires in `gem2025`'s customer data.
 - *Author view, labelled:* the agency's incentive is a placement, quickly. That is often aligned with yours, but not on salary ceilings or on which job is best for you. Legitimate agencies in the US, UK and EU don't charge candidates. In the UK, the Conduct of Employment Agencies Regulations govern fees (see `regional.md` if verified there).
 
-### 4. Internal moves. Grade: strong (one peer-reviewed study plus vendor corroboration)
+### 4. Internal moves. Grade: moderate (a peer-reviewed study read via a secondary write-up, plus vendor corroboration)
 - `bidwell2011`: personnel data from a US investment-banking division, 2003–2009, as reported by Knowledge at Wharton. External hires were paid "about 18% to 20% more" than internal promotions into similar jobs. They received "significantly lower performance evaluations for their first two years" and had higher exit rates. If they stayed beyond two years, they were promoted faster. Similar results appeared at another investment bank and a publishing company.
 - `gem2025`: internal candidates were 0.27% of applications and 12.56% of hires.
 - Implication for the book: switching employers is often the faster way to a pay bump (`switching.md`). Moving internally carries lower risk and keeps your accumulated reputation. That trade-off is the tension of the "Switching" chapter.
