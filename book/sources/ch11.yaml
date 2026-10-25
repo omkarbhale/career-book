@@ -1,0 +1,31 @@
+# Chapter 11 sources not already in a research registry.
+# Added by the Part II fact-check (checks/part2.md). Each was opened on the date in
+# url_checked; url_note says exactly what was read.
+
+manycoauthors-cable2013:
+  type: web
+  authors: ['Cable, Daniel M.', 'Staats, Bradley R.']
+  year: 2023
+  title: >-
+    Many Co-Authors project: data provenance for "Breaking Them In Or Eliciting Their Best?
+    Reframing Socialization Around Newcomers' Authentic Self-expression"
+  container: Many Co-Authors
+  url: https://manycoauthors.org/gino/93
+  url_checked: '2026-10-25'
+  url_note: >-
+    Page read in full: the co-authors' data-provenance table and Daniel Cable's message (last
+    updated 6 November 2023).
+  kind: data
+  flags: [self-interested, not-peer-reviewed]
+  design: co-authors' self-report on data provenance
+  supports: >-
+    Both co-authors report that Francesca Gino was not involved in collecting the field data
+    (Study 1, the Indian outsourcing firm); Cable reports that the co-authors hold those data and
+    have replicated the results, but not the data for the laboratory study (Study 2), which Gino
+    was involved in collecting.
+  sample: n/a
+  grade: weak
+  caveats: >-
+    Unvetted statements by the paper's own authors, who have an interest in the paper standing.
+    The field data are under a non-disclosure agreement and are not public, so the replication
+    cannot be checked independently.

@@ -121,7 +121,7 @@ Then Kai sends a first message to a new client.
 
 The client replies, two days later, in a single formal line addressed to Tomás.
 
-There is research on exactly this. In three experiments on work-related first impressions, a smiley emoticon in a message did not make the sender seem warmer, and it made them seem *less* competent, which in turn made recipients share less information; the effect depended on how formal the context was [@glikson2018]. That is about first contact with strangers in formal settings. Once a relationship exists, the picture changes: a small descriptive study of exclamation marks in two professional email discussion lists found they mostly worked as markers of friendliness [@waseleski2006!].
+There is research on exactly this. In three experiments on work-related first impressions, a smiley emoticon in a message did not make the sender seem warmer, and it made them seem *less* competent, which in turn made recipients share less information; the effect depended on how formal the context was [@glikson2018]. That is about first contact with strangers in formal settings. Once a relationship exists, the picture changes: a small descriptive study of exclamation marks in two professional email discussion lists found they rarely signalled excitability and often seemed to mark friendliness [@waseleski2006!].
 
 The rule this suggests is the same one [[ch11]] gave for newcomers, applied to writing [!view]: **match down, not up.** With strangers, senior people and new clients, start one notch more formal and let the other person set the level. Once they send the first emoji, you can send the second. Inside a team where everyone writes like Kai, writing like a bank is the odd thing.
 
@@ -219,12 +219,12 @@ Alt: Two parts. At the top, under "Feedback interventions, on average", a horizo
 Feedback that helps versus feedback that hurts. The same observation, aimed at the work or at the person, has very different effects. The bar's proportions are drawn approximately; the study reports "more than a third".
 :::
 
-Feedback aimed at the **task**, what to change and how, keeps attention on the work. Feedback aimed at the **self**, who you are or what kind of person you are, pulls attention to self-protection, and that is where a third of feedback goes wrong [@kluger1996]. "The decision is in paragraph six" is task feedback. "You're a rambling writer" is self feedback, even if it is accurate, and it is much less likely to change anything.
+Feedback aimed at the **task**, what to change and how, keeps attention on the work. Feedback aimed at the **self**, who you are or what kind of person you are, pulls attention to self-protection, which is the review's best explanation for why so much feedback goes wrong [@kluger1996]. "The decision is in paragraph six" is task feedback. "You're a rambling writer" is self feedback, even if it is accurate, and it is much less likely to change anything.
 
 That brings us to the most popular feedback technique in the world.
 
 ::: myth {#ch13.myth.sandwich verdict=busted grade=weak} The feedback sandwich (praise, criticism, praise) is the best way to give feedback
-In a study of written peer feedback among medical students, students *believed* that "feedback sandwiches" improved their performance, but their performance did not actually improve [@parkes2013]. That is one study in a narrow setting, so it is not proof that the sandwich always fails. But we found no good evidence that it works, and the Kluger and DeNisi review gives a reason to worry about it: wrapping criticism in general praise can shift attention to how the person is doing, rather than what to change [@kluger1996]. Specific praise for specific things is worth giving on its own merits. It does not need to be used as bread.
+In a study of written peer feedback among medical students, students *believed* that "feedback sandwiches" improved their performance, but there was no evidence that it did [@parkes2013]. That is one study in a narrow setting, so it is not proof that the sandwich always fails. But we found no good evidence that it works, and the Kluger and DeNisi review gives a reason to worry about it: wrapping criticism in general praise can shift attention to how the person is doing, rather than what to change [@kluger1996]. Specific praise for specific things is worth giving on its own merits. It does not need to be used as bread.
 :::
 
 What about the popular frameworks? Kim Scott's *Radical Candor*, built on "care personally and challenge directly", is widely used in technology companies; it contrasts candour with "ruinous empathy" (caring but not challenging) and "obnoxious aggression" (challenging but not caring) [@scott2017!]. It is a practitioner model sold through workshops, and we found no peer-reviewed test of it. Its core advice, to be specific, keep feedback about the work and make it clear you are on the person's side, is consistent with the Kluger and DeNisi findings. Its memorable two-by-two grid is a teaching device, not a validated model.
@@ -279,7 +279,7 @@ Tomás gave feedback in exactly the shape the evidence supports. He asked first.
 
 Dev, receiving it, did three things that are worth copying [!craft]. She did not argue or explain. She said what was fair. And she connected it to a pattern she had already heard, which turned one piece of feedback into a lesson rather than a sting. The urge to defend yourself when receiving feedback is strong, and it is exactly the self-focused reaction the Kluger and DeNisi review warns about. A useful default: say "thank you", ask one clarifying question, and decide what you think about it later, once the heat has gone.
 
-You can also make feedback much more likely to happen. Feedback-seeking declines as people's tenure grows, and it rises with a learning orientation and a good relationship with one's manager, though its direct link to performance is small [@anseel2015]. In practice, people rarely volunteer useful feedback to colleagues; you usually have to ask. And general questions ("any feedback?") get general answers ("all good!"). Specific ones get real answers: "What's one thing I could do to make my design docs easier to review?" You will need every one of these habits in [[ch18]], where feedback arrives once a year, in writing, attached to a rating.
+You can also make feedback much more likely to happen. Feedback-seeking declines as people's tenure grows, and it rises with a learning orientation and a good relationship with one's manager, though its direct link to performance is small [@anseel2015]. In practice, people rarely volunteer useful feedback to colleagues; you usually have to ask [!view]. And general questions ("any feedback?") get general answers ("all good!"). Specific ones get real answers: "What's one thing I could do to make my design docs easier to review?" You will need every one of these habits in [[ch18]], where feedback arrives once a year, in writing, attached to a rating.
 
 ### Giving feedback upward
 
@@ -305,7 +305,7 @@ For the stand-up example, a strong version:
 
 Notice what it does: it is specific ("around ten past", "the last few weeks"), it states an effect on other people rather than a judgement ("you're disrespectful"), it makes a request, and it offers a way out that assumes there might be a reason, because there often is (a clash, a school run, a time zone).
 
-Check your own script for the two most common slips: a verdict about the person sneaking in ("you never...", "you're always..."), and a request so vague that nothing could change ("just be more mindful"). Both point the feedback at the self rather than the task, which is where a third of feedback goes wrong [@kluger1996].
+Check your own script for the two most common slips: a verdict about the person sneaking in ("you never...", "you're always..."), and a request so vague that nothing could change ("just be more mindful"). Both point the feedback at the self rather than the task, which is where, on the best explanation we have, feedback most often goes wrong [@kluger1996].
 :::
 ::::
 
@@ -351,5 +351,5 @@ Over seven months, the long game has started to feel like her game. Dev has lear
 - **Match down**: with strangers and new clients, skip the smileys until they use one. **Thank people specifically**; it lands better than you expect.
 - **Message for information, meeting for disagreement and emotion, document then meeting for complex decisions.** Brainstorm alone first, then together.
 - **Disagree about the work, not the person**: start from the shared goal, raise it privately, bring an option. Venting rehearses anger rather than releasing it.
-- **More than a third of feedback backfires**, mostly when it points at the self rather than the task. Be specific, describe behaviour and effect, make a request, and listen; skip the sandwich. Ask for feedback specifically, and give it upward small and kind.
+- **More than a third of feedback backfires**, and the best explanation is that it points at the self rather than the task. Be specific, describe behaviour and effect, make a request, and listen; skip the sandwich. Ask for feedback specifically, and give it upward small and kind.
 :::

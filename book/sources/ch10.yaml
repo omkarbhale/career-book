@@ -56,3 +56,105 @@ psychsci2023-retraction:
   caveats: >-
     Supports only the fact and date of the retraction. The reasons given in the notice were not
     read, so the book does not state them.
+
+# Added by the Part II fact-check (checks/part2.md).
+
+porath2009:
+  type: article
+  authors: ['Porath, Christine L.', 'Erez, Amir']
+  year: 2009
+  title: "Overlooked but not untouched: How rudeness reduces onlookers' performance on routine and creative tasks"
+  container: Organizational Behavior and Human Decision Processes
+  volume: '109'
+  issue: '1'
+  pages: 29-44
+  doi: 10.1016/j.obhdp.2009.01.003
+  url: https://bps.org.uk/research-digest/harm-caused-witnessing-rudeness
+  url_checked: '2026-10-25'
+  url_note: >-
+    Crossref and OpenAlex records read (title, journal, volume, pages). The publisher's page
+    refused access (HTTP 403), so the findings were read in the British Psychological Society's
+    Research Digest summary of the paper (5 May 2009). The abstract itself was not read.
+  kind: evidence
+  design: laboratory experiments (three studies, per the digest)
+  supports: >-
+    People who merely witnessed rudeness, whether from a researcher or a fellow student, did
+    worse on a routine task (anagrams) and a creative one (uses for a brick), were less willing
+    to help, and were in a worse mood.
+  sample: Student participants in laboratory studies (sizes not read).
+  grade: moderate
+  caveats: >-
+    Lab studies with students; findings read through a reliable secondary summary, not the paper
+    itself. Consistent with porath2007, which tested rudeness aimed at the participant.
+
+nauts2014:
+  type: article
+  authors: ['Nauts, Sanne', 'Langner, Oliver', 'Huijsmans, Inge', 'Vonk, Roos', 'Wigboldus, Daniel H. J.']
+  year: 2014
+  title: "Forming Impressions of Personality: A Replication and Review of Asch's (1946) Evidence for a Primacy-of-Warmth Effect in Impression Formation"
+  container: Social Psychology
+  volume: '45'
+  issue: '3'
+  pages: 153-163
+  doi: 10.1027/1864-9335/a000179
+  url: https://doi.org/10.1027/1864-9335/a000179
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the OpenAlex API (doi resolved); full text not read.
+  kind: evidence
+  design: replication of Asch's (1946) impression-formation studies
+  supports: >-
+    A replication of the Asch studies most often cited for a primacy-of-warmth effect found no
+    evidence for that effect: the role of warmth was highly context-dependent, and competence
+    was at least as important as warmth in shaping impressions.
+  sample: Replications of several of Asch's studies (sizes not read).
+  grade: moderate
+  caveats: >-
+    Tests one classic paradigm (trait lists), not every study behind the warmth-first claim;
+    other work still reports warmth primacy, so the question is open rather than settled.
+
+corns2018:
+  type: article
+  authors: ['Corns, Jennifer']
+  year: 2018
+  title: Rethinking the Negativity Bias
+  container: Review of Philosophy and Psychology
+  volume: '9'
+  issue: '3'
+  pages: 607-625
+  doi: 10.1007/s13164-018-0382-7
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6132407/
+  url_checked: '2026-10-25'
+  url_note: Open-access full text on PubMed Central; abstract and introduction read.
+  kind: theory
+  design: philosophical analysis
+  supports: >-
+    States that the negativity bias ("bad is stronger than good") is widely accepted and often
+    used as a constraint in affective science, then argues on conceptual grounds that, as a broad
+    general principle, it should be rejected.
+  sample: n/a (argument, no new data)
+  grade: moderate
+  caveats: >-
+    A conceptual critique, not new evidence. It shows the general principle is contested, not
+    that the many specific asymmetries in baumeister2001 are wrong.
+
+flynn2003-time:
+  type: article
+  authors: ['Flynn, Francis J.']
+  year: 2003
+  title: 'What have you done for me lately? Temporal adjustments to favor evaluations'
+  container: Organizational Behavior and Human Decision Processes
+  volume: '91'
+  issue: '1'
+  pages: 38-50
+  doi: 10.1016/S0749-5978(02)00523-X
+  url: https://www.gsb.stanford.edu/faculty-research/publications/what-have-you-done-me-lately-temporal-changes-subjective-favor
+  url_checked: '2026-10-25'
+  url_note: Abstract read on the Stanford Graduate School of Business publication page; full text not read.
+  kind: evidence
+  design: two studies (experimentally constructed favours; real favours between employees)
+  supports: >-
+    Right after a favour, receivers valued it more than givers did; as time passed, givers
+    valued the favour more and receivers valued it less.
+  sample: One experimental sample and one sample of employees in an organisation.
+  grade: moderate
+  caveats: Two studies by one author; self-reported valuations.

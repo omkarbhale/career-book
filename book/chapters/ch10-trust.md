@@ -61,7 +61,7 @@ This is not only a theory. In a laboratory experiment, players in repeated priso
 
 A workplace has a very long shadow. You are not playing one game with one colleague; you are playing hundreds of overlapping games with dozens of people, for years. And there is a second mechanism at work, which makes the shadow longer still. You are not only dealing with the person in front of you. You are dealing with everyone *they* talk to.
 
-Evolutionary biologists call this **indirect reciprocity**: I help you, and someone who saw it, or heard about it, helps me later. Martin Nowak and Karl Sigmund showed in simulations that cooperation can evolve this way through reputation alone, provided the chance of knowing someone's reputation is high enough relative to the cost of helping [@nowak1998]. Nowak later listed it as one of five basic mechanisms by which cooperation evolves, alongside direct reciprocity, the "you scratch my back" kind [@nowak2006].
+Evolutionary biologists call this **indirect reciprocity**: I help you, and someone who saw it, or heard about it, helps me later. Martin Nowak and Karl Sigmund showed in simulations that cooperation can evolve this way through reputation alone, provided the chance of knowing someone's reputation is higher than the cost of helping divided by its benefit [@nowak1998; @nowak2006]. Nowak later listed it as one of five basic mechanisms by which cooperation evolves, alongside direct reciprocity, the "you scratch my back" kind [@nowak2006].
 
 Read that condition again with an office in mind: *the chance of knowing someone's reputation*. In a company of two hundred people, with chat channels, lunch tables, reviews and references, that chance is very high. Kai watched Dev empty the drip tray. By Friday, half of the design team will know that the new backend developer fixes things without making a speech about it.
 
@@ -77,7 +77,7 @@ These are game-theory models and laboratory money games, not studies of offices,
 
 1. **Every interaction is also a reputation event.** You are never only dealing with the person in front of you.
 2. **Wins that cost trust are expensive.** In a one-shot game, defecting pays. At work, almost nothing is one-shot.
-3. **"Kind but not a pushover" is a strategy, not just a temperament.** The spirit of Axelrod's winning strategy was simple: start by cooperating, respond to what others actually do, forgive quickly, and be easy to read. That maps cleanly onto good conduct at work, though nobody has tested it as a workplace intervention [!view].
+3. **"Kind but not a pushover" is a strategy, not just a temperament.** The spirit of Axelrod's winning strategy was simple: start by cooperating, respond to what others actually do, forgive quickly, and be easy to read [@axelrod1981]. Later models found that a slightly *more* forgiving version does better still when players sometimes make mistakes [@nowak2006], which, at work, they do. That maps cleanly onto good conduct at work, though nobody has tested it as a workplace intervention [!view].
 
 The shadow of the future tells you *why* trust matters so much at work. It does not tell you what trust is made of. For that, we need a different literature.
 
@@ -94,7 +94,7 @@ Roger Mayer, James Davis and David Schoorman proposed that this willingness rest
 ::: figure {#ch10.fig.trust src="ch10/trust.svg"}
 Alt: Three gauge dials side by side, each with its needle pointing high. The first, coral, is "Ability: can you do the job?", with the everyday sign "your estimates come true". The second, teal, is "Benevolence: are you on my side?", with "you warn me before I trip". The third, purple, is "Integrity: do you keep to fair principles?", with "same you when nobody checks". Arrows from all three point down into a gold box labelled "TRUST: being willing to be vulnerable to you".
 
-Three things trust is made of. Each dial is a separate judgement, and a high reading on one does not make up for a low reading on another: a brilliant colleague who is out for themselves is still hard to trust.
+Three things trust is made of. Each dial is a separate judgement, and a high reading on one does not guarantee the others: a brilliant colleague who is out for themselves can still be hard to trust.
 :::
 
 A theory is only a theory, but this one has been tested hard. A meta-analysis of 132 independent samples found that ability, benevolence and integrity each predicted how much people trusted their leaders and coworkers. Trustworthiness, in turn, predicted people's willingness to take risks with that person, their task performance, their helping behaviour, and lower counterproductive behaviour, partly through trust and partly directly [@colquitt2007]. Most of those studies were correlational surveys, so being trusted may help you perform as much as performing well gets you trusted, but the three dials are not a consultant's invention. They are what people actually weigh.
@@ -140,16 +140,16 @@ Notice that most everyday trust is not lost to dramatic betrayals. It is lost to
 If you prefer formulas to dials, consultants have one for you.
 
 ::: craft
-**A practitioner's version: the Trust Equation.** Consultants David Maister, Charles Green and Robert Galford offer a formula many people find memorable: trustworthiness equals credibility plus reliability plus intimacy, divided by self-orientation [@maister2000!]. Nobody has validated it as a measure, and it is promoted by the authors' own consulting firm, so treat it as a teaching device, not a finding. Its three top terms map loosely onto ability, integrity and benevolence. Its one genuinely useful addition is the denominator: people discount everything else you offer if they suspect it is mostly about you.
+**A practitioner's version: the Trust Equation.** Consultants David Maister, Charles Green and Robert Galford offer a formula many people find memorable: trustworthiness equals credibility plus reliability plus intimacy, divided by self-orientation [@maister2000!]. We found no published validation of it as a measure, and it is promoted by the authors' own consulting firm, so treat it as a teaching device, not a finding. Its three top terms map loosely onto ability, integrity and benevolence. Its one genuinely useful addition is the denominator: people discount everything else you offer if they suspect it is mostly about you.
 :::
 
 ## Warmth first, then competence {#ch10.sec.warmth}
 
 There is a second research tradition that lands in a similar place from a different direction, and it explains a mistake almost every newcomer makes.
 
-Across many studies and cultures, people judging others seem to ask two questions above all: **warmth** (are this person's intentions good towards me?) and **competence** (can they act on those intentions?) [@fiske2007]. The two judgements are often mixed: a person or group seen as warm but not competent tends to attract pity, and one seen as competent but cold tends to attract envy [@fiske2002]. And warmth tends to be judged first [@fiske2007]. Before people decide whether you are good at your job, they decide whether you are on their side.
+Across many studies and cultures, people judging others seem to ask two questions above all: **warmth** (are this person's intentions good towards me?) and **competence** (can they act on those intentions?) [@fiske2007]. The two judgements are often mixed: a person or group seen as warm but not competent tends to attract pity, and one seen as competent but cold tends to attract envy [@fiske2002]. And warmth tends to be judged first [@fiske2007]: before people decide whether you are good at your job, they decide whether you are on their side. Treat that as a tendency, not a law. A careful replication of the classic experiments behind it found no warmth-first effect, and competence mattered at least as much [@nauts2014].
 
-Here is the twist. When people judge *others*, warmth-related traits weigh more; when they judge *themselves*, competence-related traits weigh more [@abele2007]. So on your first day, you are anxiously trying to prove you are good, while everyone around you is quietly checking whether you are nice. You are answering a question nobody has asked yet.
+Here is the twist. When people judge *others*, warmth-related traits weigh more; when they judge *themselves*, competence-related traits weigh more. Competence does count for more when your own outcomes depend on the other person [@abele2007], which at work they often do, but warmth is still being weighed. So on your first day, you are anxiously trying to prove you are good, while everyone around you is quietly checking whether you are nice. You are answering a question nobody has asked yet.
 
 That gap explains a lot of stiff first weeks, including the one Dev is about to have in [[ch11]]. It also explains a worry many people have about being "too professional". Overly professional, in practice, often means competent-but-cold: crisp, careful and impossible to read. It feels safe from the inside. From the outside it can look like someone keeping their distance.
 
@@ -159,9 +159,9 @@ None of this means competence doesn't matter; ability is one of the three trust 
 
 If trust were symmetrical, you could build it and lose it at the same rate. It isn't.
 
-In a wide-ranging review titled, with admirable directness, "Bad Is Stronger than Good", Roy Baumeister and colleagues found that across many areas of psychology, bad events, bad feedback and bad impressions have more impact than equivalent good ones, and that bad impressions form faster and resist change more [@baumeister2001]. Some of the individual findings it cites have since weakened, but the broad asymmetry is widely accepted.
+In a wide-ranging review titled, with admirable directness, "Bad Is Stronger than Good", Roy Baumeister and colleagues found that across many areas of psychology, bad events, bad feedback and bad impressions have more impact than equivalent good ones, and that bad impressions form faster and resist change more [@baumeister2001]. The broad asymmetry is widely accepted, though not by everyone: one philosopher of psychology has argued that, as a broad principle, it should be rejected [@corns2018].
 
-At work, small bad moments travel further than you would think. In three experiments, people who experienced rudeness, *or merely witnessed it*, or even just imagined it, performed worse on both routine and creative tasks and were less helpful afterwards [@porath2007]. Lynne Andersson and Christine Pearson's theory of incivility describes how it spirals: each side returns slightly more than it received, until a snide comment becomes a feud [@andersson1999]. The sign on Old Faithful cost the sign-writer something with every person who read it, and it probably cost the office a little too.
+At work, small bad moments travel further than you would think. In three experiments, people on the receiving end of rudeness, from an authority figure or a passing stranger, or who even just imagined it, performed worse on both routine and creative tasks and were less helpful afterwards [@porath2007]. A follow-up found much the same for people who *merely witnessed* it [@porath2009]. Lynne Andersson and Christine Pearson's theory of incivility describes how it spirals: each side returns slightly more than it received, until a snide comment becomes a feud [@andersson1999]. The sign on Old Faithful cost the sign-writer something with every person who read it, and it probably cost the office a little too.
 
 Put the shadow of the future together with this asymmetry and you get the picture this book will use for the rest of Part II, and spend in Part III.
 
@@ -217,13 +217,13 @@ The sociologist Alvin Gouldner argued in 1960 that almost every society runs on 
 
 Two findings make the norm more useful, and more human, than "always repay favours".
 
-**The obligation fades.** People returned a small favour five minutes later, but showed no reliable reciprocity a week later [@burger1997]. Reciprocity is not a bank loan with compound interest. That is good news: you do not need to keep score, and neither does anyone else. It also means that favours work best as a *habit*, not a one-off investment you expect to cash in months later.
+**The obligation fades.** People returned a small favour five minutes later, but showed no reliable reciprocity a week later [@burger1997]. Reciprocity is not a bank loan with compound interest. That is good news: you do not need to keep score. Keeping score would not work anyway, because the two sides' books drift apart: as time passes, givers value a favour more and receivers value it less [@flynn2003-time]. It also means that favours work best as a *habit*, not a one-off investment you expect to cash in months later.
 
-**Frequency matters as much as size.** In a survey of 161 employees at one large firm, Frank Flynn found that people seen as generous in exchanging favours had higher status, while those who kept their exchanges evenly balanced were more productive. People who exchanged favours *frequently* got some of both [@flynn2003]. The practical reading: give first, give small, give often. Run between the same two people for long enough, that rhythm of small favours is also how colleagues turn into friends, which brings its own rewards and complications in [[ch15]].
+**Frequency matters as much as size.** In a survey of 161 employees at one large firm, Frank Flynn found that people seen as generous in exchanging favours had higher status, while those who kept their exchanges evenly balanced were more productive. People who exchanged favours *frequently* got some of both [@flynn2003]. The practical reading: give first, give small, give often [!view]. Run between the same two people for long enough, that rhythm of small favours is also how colleagues turn into friends, which brings its own rewards and complications in [[ch15]].
 
 Helping beyond your job description pays in other ways too. A meta-analysis of 168 samples, covering more than 51,000 people, found that this kind of "citizenship behaviour" went with better performance ratings, more rewards, less turnover and better unit performance [@podsakoff2009], though some of that may be managers who like you rating everything about you more highly.
 
-But helping has a cost, and it is not shared evenly. Time spent helping comes out of time spent on your own work, which is what most rewards actually track [@bergeron2007]. In a study of 98 couples, employees who took more initiative beyond their role reported more overload, stress and work-family conflict, and the link was stronger for women [@bolino2005]. That is the first sign of a pattern that [[ch17]] and [[ch19]] take seriously: some helpful work builds trust and careers, and some quietly eats both.
+But helping has a cost, and it is not shared evenly. As the management researcher Diane Bergeron has argued, time spent helping can come out of time spent on your own work, which is what most reward systems actually track [@bergeron2007]. In a study of 98 couples, employees whose partners rated them as taking more initiative beyond their role reported more overload, stress and work-family conflict, and the link with work-family conflict was stronger for women [@bolino2005]. That is the first sign of a pattern that [[ch17]] and [[ch19]] take seriously: some helpful work builds trust and careers, and some quietly eats both.
 
 ::: coming {ref=ch17}
 Dev's quiet fix on Old Faithful was a deposit. Done every morning for a year, it becomes a job nobody gave her. [[ch17]] is about the helping trap, and how to stay generous without becoming the office's unpaid mechanic.
@@ -235,7 +235,7 @@ By now a reasonable reader has a worry. If trust is built from what other people
 
 The uncomfortable answer is that chameleons do get ahead, up to a point. *Self-monitoring* is the psychologist's term for the habit of watching social cues and adjusting how you present yourself to fit them [@snyder1974]. A meta-analysis of 136 samples and over 23,000 people found that high self-monitors tend to perform slightly better and are more likely to emerge as leaders [@day2002]. Following 139 MBA graduates for five years, Martin Kilduff and David Day found that high self-monitors changed employers more often and won more promotions, both within their companies and across them [@kilduff1994].
 
-Then the catch. A newer meta-analysis of 55 samples found that self-monitoring goes with being seen as a leader and an effective one, *except*, usually, when the people doing the rating are the leader's own subordinates [@lei2025]. The people above and beside a chameleon like what they see. The people who watch the whole film from below are less impressed. It is the snapshot game and the long game again, inside a single job.
+Then the catch. A newer meta-analysis of 55 samples found that the link between self-monitoring and leadership is modest, and usually disappears when the people doing the rating are the leader's own subordinates [@lei2025]. Look closer and it gets better. On how *effective* a leader is, the only raters who saw chameleons as better were the chameleons themselves; neither their bosses nor their teams did [@lei2025]. Chameleons get noticed and get moved. Whether they lead better is, mostly, their own opinion. It is the snapshot game and the long game again, inside a single job.
 
 So is "be yourself" naive? Not if you are precise about what "yourself" means, and here the research has a surprise.
 
@@ -257,7 +257,7 @@ The research on emotional labour lets us be exact about which kind of performanc
 
 The sociologist Arlie Hochschild, studying flight attendants and bill collectors, coined the term **emotional labour** for managing your feelings to produce the display a job requires. She distinguished **surface acting**, faking the outward display (the smile over gritted teeth), from **deep acting**, working to actually feel what the situation calls for [@hochschild1983].
 
-The difference turns out to matter a great deal. In a study of service employees, coworkers rated people's emotional delivery as worse when they surface acted and better when they deep acted, and only surface acting was related to stress [@grandey2003]. A meta-analysis of 95 studies found that surface acting, and the felt clash between what you feel and what you are supposed to show, go with substantially impaired well-being (correlations of roughly .39 to .48) and worse job attitudes, while deep acting has only weak links to strain and positive links to customer satisfaction [@hulsheger2011].
+The difference turns out to matter a great deal. In a field study, coworkers rated people's emotional delivery as worse when they surface acted and better when they deep acted, and only surface acting was related to stress [@grandey2003]. A meta-analysis of 95 studies found that surface acting, and the felt clash between what you feel and what you are supposed to show, go with substantially impaired well-being (correlations of roughly .39 to .48) and worse job attitudes, while deep acting has only weak links to strain and positive links to customer satisfaction [@hulsheger2011].
 
 ::: figure {#ch10.fig.acting src="ch10/acting.svg"}
 Alt: Two panels separated by a dashed line. Left, "Surface acting": a frowning face holds a smiling mask in front of itself; labels read "inside: annoyed, outside: a bright smile", a coral box says "felt ≠ shown", and notes read "a gap you have to hold shut, all day" and "goes with worse well-being". Right, "Deep acting": a calm face with a thought bubble saying "she's scared, not hostile"; labels read "you change how you see it, so you feel it", a teal box says "felt ≈ shown", and notes read "nothing to hold shut" and "weak links to strain". A line across the bottom reads "Neither is choosing your words or your volume. That is register, not acting."
@@ -305,11 +305,11 @@ A few questions tend to come up at this point, usually from the sceptical end of
 ::: ask
 Q: Isn't this just a long way of saying "be nice"?
 
-A: No. Nice is a mood; trust is three separate judgements. Plenty of nice people are hard to trust because their estimates never hold (ability) or their follow-through is patchy (integrity). And plenty of brusque people are trusted deeply because they are excellent and straight. Warmth matters, and it is judged first, but it is one dial of three.
+A: No. Nice is a mood; trust is three separate judgements. Plenty of nice people are hard to trust because their estimates never hold (ability) or their follow-through is patchy (integrity). And plenty of brusque people are trusted deeply because they are excellent and straight. Warmth matters, and it is often judged first, but it is one dial of three.
 
 Q: Thinking of work as a "game" with a "ledger" sounds calculating. Isn't that the opposite of authentic?
 
-A: The models describe why good behaviour pays; they are not a reason to fake it. The whole argument of this chapter is that calculated performances are expensive and fragile, and that the cheapest strategy over years is to actually be trustworthy. You do not need to keep score, and as [[ch10.sec.reciprocity]] showed, reciprocity fades too fast for score-keeping to work anyway.
+A: The models describe why good behaviour pays; they are not a reason to fake it. The whole argument of this chapter is that calculated performances are expensive and fragile, and that the cheapest strategy over years is to actually be trustworthy. You do not need to keep score, and as [[ch10.sec.reciprocity]] showed, score-keeping does not work anyway: the felt obligation fades fast, and givers and receivers remember the same favour differently.
 
 Q: My workplace has high turnover, or I'm a contractor. Is my game really repeated?
 
@@ -340,7 +340,7 @@ Strong lists tend to include at least one default from each of these families, t
 - **Honesty under mild pressure** (integrity): "I say 'I don't know' instead of guessing." "I disagree in the meeting, not in the corridor afterwards."
 - **Care for your own limits**, because defaults you cannot sustain become surface acting: "I don't answer non-urgent messages after 7 pm." [[ch17]] returns to this.
 
-Weak defaults are aspirations ("always go the extra mile"), traits ("be authentic") or rules that depend on the audience ("be extra careful with senior people"). If a default would make you behave differently when your manager walks in, it fails the third test, and the people below and beside you will notice, as the chameleon research suggests [@lei2025].
+Weak defaults are aspirations ("always go the extra mile"), traits ("be authentic") or rules that depend on the audience ("be extra careful with senior people"). If a default would make you behave differently when your manager walks in, it fails the third test. The chameleon research suggests the performance is mostly lost on its audience anyway: chameleons rate their own leadership more highly than either their bosses or their teams do [@lei2025].
 
 Keep the list. You will test it against a missed deadline in [[ch12]], a hard conversation in [[ch13]] and a real temptation in [[ch17]].
 :::
@@ -384,11 +384,11 @@ Meera is right about the cost, and [[ch12]] collects it. But first, Dev has a mo
 
 ::: rewind
 - At work you are in a **repeated game with an audience**: the shadow of the future makes cooperation pay, and reputation means you are dealing with everyone the other person talks to.
-- **Trust is the willingness to be vulnerable to someone**, and it rests on three separate judgements: **ability, benevolence and integrity**. A high reading on one does not make up for a low reading on another.
-- People judge **warmth first and competence second**, while judging themselves the other way round. Newcomers who only try to look competent are answering a question nobody has asked yet.
+- **Trust is the willingness to be vulnerable to someone**, and it rests on three separate judgements: **ability, benevolence and integrity**. A high reading on one does not guarantee the others.
+- People often judge **warmth first and competence second**, while judging themselves the other way round. Newcomers who only try to look competent are answering a question nobody has asked yet.
 - **Bad is stronger than good**, and rudeness costs even the people who only witness it. Think of every relationship as a **trust ledger**: small, frequent deposits; heavier withdrawals; and a balance that is spent later, in references, referrals and promotions.
-- **Reciprocity** runs office life, but the obligation fades within days. Give first, give small, give often, and watch how much invisible helping you take on.
-- Chameleons get ahead with those above them, less with those below. **Authenticity is keeping your values constant while your style adapts.**
+- **Reciprocity** runs office life, but the felt obligation fades within a week. Give first, give small, give often, and watch how much invisible helping you take on.
+- Chameleons get noticed and promoted, but neither their bosses nor their teams rate them as better leaders; mostly, they do. **Authenticity is keeping your values constant while your style adapts.**
 - **Faking feelings is expensive; adjusting style is not.** Surface acting goes with worse well-being; deep acting, honestly reappraising a situation, much less so.
 - Replace scripts with **defaults**: a few actions you decide once, keep on your worst week, and do the same whoever is watching.
 :::

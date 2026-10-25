@@ -81,7 +81,7 @@ The rest of this chapter takes the three in turn.
 
 The single most useful thing a newcomer can do is also the one Corporate Dev is avoiding: ask questions.
 
-In a study that followed 135 new staff accountants through their first six months, those who sought information more often became better at their jobs, understood their roles and the culture better, and integrated socially better [@morrison1993]. Other research on newcomers lists the same proactive moves (seeking information and feedback, building relationships, negotiating what the job involves, framing things positively) and finds that some of them, though not all, go with better self-rated performance and satisfaction [@ashford1996].
+In a study that followed 135 new staff accountants through their first six months, those who sought information more often had mastered their jobs better, understood their roles and the culture better, and fitted in socially better [@morrison1993]. Other research on newcomers lists the same proactive moves (seeking information and feedback, building relationships, negotiating what the job involves, framing things positively) and finds that some of them, though not all, go with better self-rated performance and satisfaction [@ashford1996].
 
 There is also a timing argument, and it is the strongest reason to ask now. A meta-analysis of thirty years of research on feedback-seeking found that people seek feedback less as their tenure grows and as they get older [@anseel2015]. Part of the reason is obvious: the longer you have been somewhere, the more you feel you *should* know, so asking feels costlier. In week two, nobody expects you to know where the deployment scripts live. In month eighteen, the same question is awkward. **You will never again be allowed to ask so many questions for free.** Spend that allowance.
 
@@ -127,10 +127,10 @@ Corporate Dev's logic goes like this: *They hired a competent person. Competent 
 
 The first wrong step is about what asking signals. In a set of experiments, people who asked for advice were seen as *more* competent, not less, especially when the task was hard and when the person being asked was the one doing the judging [@brooks2015]. That paper's co-authors include a researcher with retractions elsewhere, so we lean on it only alongside converging evidence. That evidence is the second point.
 
-The second wrong step is about how people respond. Across six studies in the lab and in the field, people underestimated by as much as 50% how likely others were to agree to a direct request for help, because they forgot how awkward it is to say no [@flynn2008]. You imagine the colleague sighing at your question. In fact, most people like being asked something they know, and find it uncomfortable to refuse.
+The second wrong step is about how people respond. Across six studies in the lab and in the field, people underestimated by as much as 50% how likely others were to agree to a direct request for help, because they forgot how awkward it is to say no [@flynn2008]. You imagine the colleague sighing at your question. In fact, saying no to someone's face is uncomfortable, so people say yes far more often than you expect.
 
 ::: flashback {ref=ch10.sec.warmth}
-In [[ch10]], we saw that people judge warmth first and competence second, but judge *themselves* the other way round. Corporate Dev is working flat out on a question nobody is asking yet ("is she competent?") while neglecting the one they are ("is she one of us?").
+In [[ch10]], we saw that people often judge warmth first and competence second, but judge *themselves* the other way round. Corporate Dev is working flat out on a question nobody is asking yet ("is she competent?") while neglecting the one they are ("is she one of us?").
 :::
 
 Corporate Dev's silence is also hiding a cost. Every hour spent stuck alone on a problem a colleague could solve in four minutes is an hour of nothing much for the team, and a small drain on the very self-belief that Bauer's research links to a good start. The heroic newcomer who never asks is not saving anyone time. They are spending it, quietly, in a way nobody can see.
@@ -143,9 +143,9 @@ Corporate Dev's silence is also hiding a cost. Every hour spent stuck alone on a
 
 Newcomers worry about first impressions for good reason, and also for some bad ones. It is worth separating what is true from what is folklore.
 
-**True: impressions form fast.** In a series of experiments, people's judgements of a face's trustworthiness, competence and likeability formed after a tenth of a second and barely changed with more time; extra time mostly made people more *confident* in what they had already decided [@willis2006].
+**True: impressions form fast.** In a series of experiments, people's judgements of a face's trustworthiness, competence and likeability after a tenth of a second already lined up closely with judgements made with no time limit; extra time mostly made people more *confident* in what they had already decided [@willis2006].
 
-**True: warmth tends to be read first** [@fiske2007]. Whether people think you are on their side colours how they read everything else, as [[ch10]] showed.
+**Mostly true: warmth tends to be read first** [@fiske2007], though not in every study [@nauts2014]. Whether people think you are on their side colours how they read everything else, as [[ch10]] showed.
 
 **False: fast means accurate.** Those split-second judgements are quick, not correct, and the research does not claim they are [@willis2006]. A colleague's first read of you is a guess based on very little.
 
@@ -199,7 +199,7 @@ Kai did in five minutes what three weeks of anxiety could not: supplied evidence
 
 Connection is not only about lunch. For newcomers, especially junior ones, being near colleagues seems to change how much they learn.
 
-A study of software engineers at a Fortune 500 company, published in 2026, compared engineers who sat near their teammates with those who didn't. Sitting near teammates increased the feedback engineers got on their code by 18.3% and improved code quality, and the gains were concentrated among junior engineers. There was a trade-off: senior engineers who sat near juniors wrote less code themselves, because they spent time mentoring [@emanuel2026].
+A study of software engineers at a Fortune 500 company, published in 2026, compared engineers who sat near their teammates with those who didn't. Sitting near teammates increased the feedback engineers got on their code by 18.3% and improved code quality, and the gains were concentrated among junior engineers. There was a trade-off: senior engineers who sat near juniors wrote less code themselves, apparently because mentoring took up their time [@emanuel2026].
 
 If you are new and junior, that is a reason to be where your team is, at least some of the time, and to make your work easy to comment on: small pull requests, drafts shared early, questions asked where others can see them. If you are new and fully remote, it is a reason to build the equivalent on purpose: regular pairing, a standing call with your onboarding buddy, and asking for reviews rather than waiting for them [!craft]. [[ch14]] looks at remote and hybrid work in more depth, including what the large trials found.
 
@@ -207,7 +207,7 @@ If you are new and junior, that is a reason to be where your team is, at least s
 
 Corporate Dev's instinct was not entirely wrong. It was just stuck.
 
-There is some evidence that newcomers have good reason to start slightly careful. In work-related first contacts, a smiley emoticon did not make senders seem warmer, and it made them seem less competent [@glikson2018]. And breaking a workplace's dress or formality norms on purpose can raise people's perceived status, but only when observers know the norms, see the break as deliberate, and the person's status is already secure [@bellezza2014]. Both these findings point the same way: casualness is a privilege the room grants you, not one you claim on day one.
+There is some evidence that newcomers have good reason to start slightly careful. In work-related first contacts, a smiley emoticon did not make senders seem warmer, and it made them seem less competent [@glikson2018]. And breaking a workplace's dress or formality norms on purpose can raise people's perceived status, but only when observers know the setting and its norms and see the break as deliberate [@bellezza2014]. A newcomer's casual note can easily read as not knowing the rules yet [!view]. Both these findings point the same way: casualness is a privilege the room grants you, not one you claim on day one.
 
 So here is a rule of thumb that we think works better than either Corporate Dev or Rex's big entrance [!view]: **start a notch more formal than you expect the room to be, watch how people actually talk, and match down as the relationships form.** The mistake is not starting formal. It is staying formal after the room has told you, three times, that it is not.
 
@@ -219,7 +219,7 @@ So here is a rule of thumb that we think works better than either Corporate Dev 
 
 There is one more finding about starting well, and it connects the first ninety days back to the argument of [[ch10]].
 
-In a field study at a business-process outsourcing company in India, new hires went through one of several versions of onboarding. Those whose onboarding invited them to reflect on and express their "best selves" (what they were like at their best, and how they could bring that to the job) had higher customer satisfaction and were more likely to still be there six months later than those whose onboarding focused on pride in the organisation [@cable2013]. This is a single field site, and one of the co-authors has retractions elsewhere, so treat it as promising rather than settled. But it fits the evidence on authenticity in [[ch10]]: people do better when the job asks for their best real self, not a corporate costume.
+In a field study at a business-process outsourcing company in India, new hires went through one of several versions of onboarding. Those whose onboarding invited them to reflect on and express their "best selves" (what they were like at their best, and how they could bring that to the job) had higher customer satisfaction and were more likely to still be there six months later than those whose onboarding focused on pride in the organisation [@cable2013]. This is a single field site, and one of the co-authors has retractions elsewhere, so treat it as promising rather than settled. (Her co-authors report that she did not collect the field data and that they have reproduced its results, but those data are confidential, so nobody else can check [@manycoauthors-cable2013!].) But it fits the evidence on authenticity in [[ch10]]: people do better when the job asks for their best real self, not a corporate costume.
 
 Most organisations will not run that kind of onboarding for you. You can run it yourself.
 

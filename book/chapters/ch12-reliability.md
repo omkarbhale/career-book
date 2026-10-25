@@ -49,7 +49,7 @@ We think reliability is the cheapest trust anyone can buy at work, and the most 
 Notice what reliability is not. It is not "never missing a deadline". Everyone misses deadlines. It is never letting a deadline *surprise* anyone.
 :::
 
-That last line is the whole chapter in one sentence. Dev did not damage Tomás's trust by being slow. She damaged it by letting him plan a customer demo around a date she already knew was wrong. The first is a competence problem, and competence problems are forgiven quickly. The second starts to look like an integrity problem, and those are not.
+That last line is the whole chapter in one sentence. Dev did not damage Tomás's trust by being slow. She damaged it by letting him plan a customer demo around a date she already knew was wrong. The first is a competence problem, and competence problems are relatively easy to repair. The second starts to look like an integrity problem, and those are harder: in experiments, apologies repaired trust better after competence failures than after integrity ones [@lewicki2016].
 
 ## The commitment loop {#ch12.sec.loop}
 
@@ -150,7 +150,7 @@ Check your message against four tests.
 
 - **Could the reader act on it today?** If the options are vague ("we could look at scope"), sharpen them into decisions someone can make.
 - **Is the "why" one sentence?** The reader needs enough to judge the new estimate, not your full debugging history. [[ch13]] has more on putting the point first.
-- **Did you recommend something?** People who bring a recommendation along with the problem are much easier to say yes to, and it shows you have thought about their position, not just yours.
+- **Did you recommend something?** People who bring a recommendation along with the problem are much easier to say yes to, and it shows you have thought about their position, not just yours [!craft].
 - **Is the tone calm?** An early warning is not an apology, because nothing has broken yet. Save "sorry" for when you have actually let someone down.
 
 If writing it made you uncomfortable, notice that discomfort. It is the same fear that made people in the extension experiments hold back, and it is usually larger than the real cost [@whillans2022].
@@ -199,7 +199,7 @@ Two things are missing from that apology on purpose. There is no "but" ("I'm sor
 
 Why do people find this so hard? A review of the research suggests three common barriers: not caring enough about the person harmed, feeling that apologising threatens your own self-image, and believing that apologies will not work anyway [@schumann2018]. The second is the one capable people struggle with. An apology for a competence mistake can feel like a confession of incompetence. The evidence above says the opposite: it is the move that best repairs trust after exactly that kind of failure.
 
-One last apology finding is small but useful. In four studies, "superfluous" apologies, saying sorry for things you clearly did not cause, such as "I'm sorry about the rain", increased trust a little, by signalling that you cared [@brooks2014]. That is not a case for apologising for everything; constant apology dilutes the real ones. It is a case for the small "sorry you got caught up in that" when a colleague has had a rough day, which costs nothing and lands well.
+One last apology finding is small but useful. In four studies, "superfluous" apologies, saying sorry for things you clearly did not cause, such as "I'm sorry about the rain", increased trust, apparently by signalling that you cared [@brooks2014]. That is not a case for apologising for everything; constant apology dilutes the real ones. It is a case for the small "sorry you got caught up in that" when a colleague has had a rough day, which costs nothing and lands well.
 
 ::: scene {slug="INT. LANTERNFISH, SMALL MEETING ROOM — MONDAY, 8:15 AM"}
 Dev is in before Tomás, which has never happened before. She has written the apology three times. The final version fits on one screen.
@@ -239,7 +239,7 @@ There is a quiet threat to reliability that has nothing to do with estimates: sa
 
 So why do people say yes so often? Partly because no feels expensive. Across studies, people asking for help underestimated by as much as 50% how likely others were to say yes, because they forgot how awkward it is to refuse [@flynn2008]. That awkwardness is real, and it pushes people into yeses they cannot afford. On the other side, in experiments about declining social invitations, people who said no overestimated how angry or hurt the other person would be, and how much it would cost them future invitations [@givi2024]. Those were invitations to social events, not work requests, so treat the finding as suggestive at work. But the direction is consistent: saying no costs less than it feels like.
 
-Saying yes costs more than it feels like, too. As [[ch10]] showed, helping beyond your role has real costs in overload and stress, and they fall more heavily on women [@bolino2005], who are also asked more often to take on low-promotability tasks [@babcock2017]. [[ch17]] takes that pattern seriously. For now, the point is simpler: an overloaded person cannot be reliable.
+Saying yes costs more than it feels like, too. As [[ch10]] showed, helping beyond your role has real costs in overload and stress, and in one study its link with work-family conflict was stronger for women [@bolino2005], who are also asked more often to take on low-promotability tasks [@babcock2017]. [[ch17]] takes that pattern seriously. For now, the point is simpler: an overloaded person cannot be reliable.
 
 ::: chairs {left="The Yes" right="The No"}
 @left: People like me. I'm helpful, I'm a team player, I make everyone's life easier.
@@ -347,7 +347,7 @@ The Northwind work landed on the Wednesday, as promised in the apology. That wee
 Tomás replied with a single thumbs-up. From Tomás, Kai told her later, that is practically a speech.
 
 ::: coming {ref=ch18}
-In [[ch18]], all of this shows up again in Dev's first performance review, because reliability turns out to be one of the things reviews reward most consistently, and one of the easiest to evidence if you wrote it down.
+In [[ch18]], all of this shows up again in Dev's first performance review, because reliability is one of the easiest things to evidence in a review, if you wrote it down.
 :::
 
 Reliability is mostly what you do. But a lot of it is what you say, and how: the early warning, the clear commitment, the apology that fits on one screen. [[ch13]] is about talking and writing at work, where Dev is about to discover that a message can be reliable and still be four hundred words too long.
