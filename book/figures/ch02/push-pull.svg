@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 604" class="fig">
+<title>Push and pull reasons on a balance</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<text x="320.0" y="40.0" class="t t-sans t-mid">Why leave?</text>
+<path d="M320 182 L292 236 L348 236 Z" class="f-soft k"/>
+<path d="M270.0 238.0 Q318.9 238.6 370.2 238.0" class="k"/>
+<path d="M130.0 166.0 Q319.1 182.9 510.4 198.0" class="k-thick"/>
+<circle cx="320" cy="182" r="6" class="f-ink"/>
+<path d="M150.0 168.0 Q104.0 213.2 57.4 259.8" class="k-thin"/>
+<path d="M150.0 168.0 Q196.3 212.6 242.4 259.7" class="k-thin"/>
+<path d="M490.0 196.0 Q443.1 240.5 398.6 288.3" class="k-thin"/>
+<path d="M490.0 196.0 Q537.2 242.4 581.4 287.8" class="k-thin"/>
+<path d="M46 260 Q150 296 254 260 Z" class="f-a1 k"/>
+<path d="M386 288 Q490 324 594 288 Z" class="f-a3 k"/>
+<text x="150.0" y="92.0" class="t t-sans t-mid t-a1">PUSH</text>
+<text x="150.0" y="118.0" class="t t-mid t-a1">what’s wrong here</text>
+<text x="490.0" y="92.0" class="t t-sans t-mid">PULL</text>
+<text x="490.0" y="118.0" class="t t-mid">what’s right there</text>
+<rect x="41.0" y="300" width="218" height="38" rx="9" class="f-paper"/><path d="M41.0 298.8 Q151.4 299.6 258.4 300.5 Q257.8 320.4 258.9 338.1 Q149.5 338.0 40.5 337.3 Q42.2 318.2 41.4 299.5 Z" class="k-thin"/><text x="150.0" y="327.0" class="t t-mid">no route into dev</text>
+<rect x="372.0" y="312" width="236" height="38" rx="9" class="f-paper"/><path d="M373.5 313.3 Q490.8 312.8 608.1 312.4 Q606.8 330.9 608.5 349.5 Q491.4 351.2 371.9 349.8 Q371.8 330.6 372.8 311.8 Z" class="k-thin"/><text x="490.0" y="339.0" class="t t-mid">build, not just break</text>
+<rect x="41.0" y="350" width="218" height="38" rx="9" class="f-paper"/><path d="M39.5 348.7 Q150.7 351.6 259.0 350.0 Q259.2 369.8 258.6 388.2 Q150.2 388.4 40.5 387.5 Q40.5 370.4 40.8 350.2 Z" class="k-thin"/><text x="150.0" y="377.0" class="t t-mid">same tests, year 3</text>
+<rect x="372.0" y="362" width="236" height="38" rx="9" class="f-paper"/><path d="M371.4 360.7 Q488.6 363.0 608.4 361.8 Q608.6 381.6 608.6 400.7 Q489.7 401.6 372.7 400.1 Q373.2 381.0 371.8 361.6 Z" class="k-thin"/><text x="490.0" y="389.0" class="t t-mid">seniors to learn from</text>
+<rect x="41.0" y="400" width="218" height="38" rx="9" class="f-paper"/><path d="M42.2 398.9 Q148.6 401.0 259.4 400.0 Q260.1 417.6 258.6 437.7 Q149.7 436.9 40.3 437.7 Q42.3 420.5 41.4 400.0 Z" class="k-thin"/><text x="150.0" y="427.0" class="t t-mid">pay a bit low</text>
+<rect x="372.0" y="412" width="236" height="38" rx="9" class="f-paper"/><path d="M371.2 413.5 Q490.1 412.7 607.2 411.5 Q609.1 431.9 608.6 450.2 Q489.8 450.3 372.6 449.7 Q372.1 430.3 372.4 411.2 Z" class="k-thin"/><text x="490.0" y="439.0" class="t t-mid">fair pay</text>
+<path d="M24.0 470.0 Q320.6 471.5 615.4 470.1" class="k-thin k-dash k-mute"/>
+<text x="150.0" y="506.0" class="t t-mid t-a1">first question:</text><text x="150.0" y="534.0" class="t t-mid t-a1">could this be fixed here?</text>
+<text x="490.0" y="506.0" class="t t-mid">first question:</text><text x="490.0" y="534.0" class="t t-mid">is this on offer here?</text>
+<text x="320.0" y="584.0" class="t t-sm t-mid t-mute">Dev’s reasons, sorted. Same feeling, two different questions.</text>
+</svg>

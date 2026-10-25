@@ -1,0 +1,25 @@
+# Sources added for Chapter 3 that are not already in research/part1 or research/part2.
+# Same schema as the research registries (see WRITING-GUIDE.md). Every entry was opened on the date given.
+
+kanfer2001:
+  type: article
+  authors: ['Kanfer, Ruth', 'Wanberg, Connie R.', 'Kantrowitz, Tracy M.']
+  year: 2001
+  title: 'Job search and employment: A personality-motivational analysis and meta-analytic review'
+  container: Journal of Applied Psychology
+  volume: '86'
+  issue: '5'
+  pages: 837-855
+  doi: 10.1037/0021-9010.86.5.837
+  url: https://api.openalex.org/works/https://doi.org/10.1037/0021-9010.86.5.837
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the OpenAlex API; bibliographic details checked on Crossref.
+  kind: review
+  design: meta-analysis
+  supports: >-
+    Job search behaviour was significantly and positively related to finding employment; personality,
+    expectancy, social and motive variables related to job search behaviour (population correlations from
+    -.15 to .46), and more weakly to employment itself.
+  sample: Meta-analysis of studies of job losers, employed job seekers and new entrants.
+  grade: strong
+  caveats: Abstract-level reading; correlational. Effect sizes for search-to-employment are not quoted here.

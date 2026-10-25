@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="fig">
+<title>A story bank grid</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<text x="24.0" y="40.0" class="t t-sans">Dev’s story bank, first draft</text>
+<g transform="rotate(-62 310.0 178)"><text x="310.0" y="178.0" class="t t-sm">hard problem</text></g>
+<g transform="rotate(-62 366.0 178)"><text x="366.0" y="178.0" class="t t-sm">mistake owned</text></g>
+<g transform="rotate(-62 422.0 178)"><text x="422.0" y="178.0" class="t t-sm">disagreement</text></g>
+<g transform="rotate(-62 478.0 178)"><text x="478.0" y="178.0" class="t t-sm">led, no title</text></g>
+<g transform="rotate(-62 534.0 178)"><text x="534.0" y="178.0" class="t t-sm">learned fast</text></g>
+<g transform="rotate(-62 590.0 178)"><text x="590.0" y="178.0" class="t t-sm">under pressure</text></g>
+<rect x="20" y="190" width="598" height="54" class="f-soft"/>
+<text x="32.0" y="225.0" class="t">The 6-hour suite</text>
+<circle cx="310.0" cy="217.0" r="15" class="f-a3s"/>
+<path d="M303.0 217.0 l5 6 l10 -12" class="k"/>
+<circle cx="534.0" cy="217.0" r="15" class="f-a3s"/>
+<path d="M527.0 217.0 l5 6 l10 -12" class="k"/>
+<rect x="20" y="244" width="598" height="54" class="f-paper"/>
+<text x="32.0" y="279.0" class="t">Bug before the client</text>
+<circle cx="310.0" cy="271.0" r="15" class="f-a3s"/>
+<path d="M303.0 271.0 l5 6 l10 -12" class="k"/>
+<circle cx="590.0" cy="271.0" r="15" class="f-a3s"/>
+<path d="M583.0 271.0 l5 6 l10 -12" class="k"/>
+<rect x="20" y="298" width="598" height="54" class="f-soft"/>
+<text x="32.0" y="333.0" class="t">Flaky deploy scripts</text>
+<circle cx="310.0" cy="325.0" r="15" class="f-a3s"/>
+<path d="M303.0 325.0 l5 6 l10 -12" class="k"/>
+<circle cx="366.0" cy="325.0" r="15" class="f-a3s"/>
+<path d="M359.0 325.0 l5 6 l10 -12" class="k"/>
+<circle cx="534.0" cy="325.0" r="15" class="f-a3s"/>
+<path d="M527.0 325.0 l5 6 l10 -12" class="k"/>
+<rect x="20" y="352" width="598" height="54" class="f-paper"/>
+<text x="32.0" y="387.0" class="t">The release I blocked</text>
+<circle cx="422.0" cy="379.0" r="15" class="f-a3s"/>
+<path d="M415.0 379.0 l5 6 l10 -12" class="k"/>
+<circle cx="590.0" cy="379.0" r="15" class="f-a3s"/>
+<path d="M583.0 379.0 l5 6 l10 -12" class="k"/>
+<rect x="20" y="406" width="598" height="54" class="f-soft"/>
+<text x="32.0" y="441.0" class="t">Training the new tester</text>
+<circle cx="478.0" cy="433.0" r="15" class="f-a3s"/>
+<path d="M471.0 433.0 l5 6 l10 -12" class="k"/>
+<rect x="20" y="460" width="598" height="54" class="f-paper"/>
+<text x="32.0" y="495.0" class="t">Wrong about the cache</text>
+<circle cx="366.0" cy="487.0" r="15" class="f-a3s"/>
+<path d="M359.0 487.0 l5 6 l10 -12" class="k"/>
+<circle cx="422.0" cy="487.0" r="15" class="f-a3s"/>
+<path d="M415.0 487.0 l5 6 l10 -12" class="k"/>
+<circle cx="534.0" cy="487.0" r="15" class="f-a3s"/>
+<path d="M527.0 487.0 l5 6 l10 -12" class="k"/>
+<path d="M282 190 L282 514" class="k-thin k-mute"/>
+<path d="M338 190 L338 514" class="k-thin k-mute"/>
+<path d="M394 190 L394 514" class="k-thin k-mute"/>
+<path d="M450 190 L450 514" class="k-thin k-mute"/>
+<path d="M506 190 L506 514" class="k-thin k-mute"/>
+<path d="M562 190 L562 514" class="k-thin k-mute"/>
+<path d="M618 190 L618 514" class="k-thin k-mute"/>
+<path d="M20.4 188.5 Q318.3 189.1 618.4 190.3 Q619.3 350.7 617.9 513.2 Q318.1 514.0 19.2 513.5 Q20.5 352.1 19.6 190.1 Z" class="k"/>
+<path d="M518.0 578.0 Q509.4 543.0 482.0 522.0" class="k-thin k-a1"/><path d="M482.0 522.0 L487.0 532.9 M482.0 522.0 L493.8 524.0" class="k-thin k-a1"/>
+<text x="524.0" y="586.0" class="t t-sm t-a1">only one story:</text><text x="524.0" y="608.0" class="t t-sm t-a1">find another</text>
+<text x="24.0" y="558.0" class="t t-sm t-mute">Rows: true stories. Columns: what a story can show.</text>
+<text x="24.0" y="584.0" class="t t-sm t-mute">Aim for two ticks in every column.</text>
+</svg>

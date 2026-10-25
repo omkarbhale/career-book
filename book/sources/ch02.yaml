@@ -1,0 +1,118 @@
+# Sources added for Chapter 2 that are not already in research/part1 or research/part2.
+# Same schema as the research registries (see WRITING-GUIDE.md). Every entry was opened on the date given.
+
+atlantafed-wgt-data2026:
+  type: dataset
+  authors: ['Federal Reserve Bank of Atlanta']
+  year: 2026
+  title: Wage Growth Tracker data file (wage-growth-data.xlsx), sheet "Job Switcher"
+  url: https://www.atlantafed.org/-/media/Project/Atlanta/FRBA/Documents/datafiles/chcs/wage-growth-tracker/wage-growth-data.xlsx
+  url_checked: '2026-10-25'
+  url_note: >-
+    Data file downloaded from the Wage Growth Tracker page and read in full; the calculations below are the
+    chapter writer's own, repeating and confirming the Part I researcher's analysis (research/part1/switching.md).
+  kind: data
+  design: official survey data (Current Population Survey), 12-month moving averages of median wage growth
+  supports: >-
+    356 monthly observations, January 1997 to September 2026. Job switchers' median wage growth exceeded job
+    stayers' in 91.3% of months, by 0.73 percentage points on average. Largest gap November 2022 (switchers
+    7.7%, stayers 5.5%); lowest February 2010 (switchers 2.0%, stayers 2.6%). Switchers trailed stayers in
+    19 months, almost all from June 2009 to September 2010, plus February 2004 and May-June 2025. Calendar-year
+    averages of the monthly values (switchers vs stayers): 1999 6.0 vs 4.7; 2007 4.6 vs 3.8; 2010 1.8 vs 2.1;
+    2015 3.2 vs 2.8; 2019 4.1 vs 3.3; 2022 6.4 vs 4.8; 2023 7.1 vs 5.5; 2024 5.4 vs 4.9; 2025 4.4 vs 4.3
+    (11 months); 2026 4.4 vs 3.7 (January to September).
+  sample: Matched individuals in the US Current Population Survey; see atlantafed-wgt for definitions.
+  grade: strong
+  caveats: >-
+    Descriptive, not causal: people who switch differ from people who stay. Medians of individual wage changes;
+    "switcher" is broadly defined (see atlantafed-wgt). US only. Annual figures are simple averages of
+    already-smoothed monthly values.
+
+gathmann2010:
+  type: article
+  authors: ['Gathmann, Christina', 'Schönberg, Uta']
+  year: 2010
+  title: 'How general is human capital? A task-based approach'
+  container: Journal of Labor Economics
+  volume: '28'
+  issue: '1'
+  pages: 1-49
+  doi: 10.1086/649786
+  url: https://api.openalex.org/works/https://doi.org/10.1086/649786
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the OpenAlex API; bibliographic details checked on Crossref.
+  kind: evidence
+  design: analysis of administrative employment data with task measures for occupations
+  supports: >-
+    Skills are more portable across occupations than previously thought; people tend to move to occupations
+    with similar task requirements, the distance of moves falls with experience, and task-specific human
+    capital accounts for up to 52% of overall wage growth.
+  sample: Large-scale labour-market data with task measures (the abstract does not name the country).
+  grade: moderate
+  caveats: >-
+    Abstract-level reading; one study and one labour market. Supports the idea that tasks, not job titles, are what
+    transfer; it does not test any particular career-change strategy.
+
+liu2014:
+  type: article
+  authors: ['Liu, Songqi', 'Huang, Jason L.', 'Wang, Mo']
+  year: 2014
+  title: 'Effectiveness of job search interventions: A meta-analytic review'
+  container: Psychological Bulletin
+  volume: '140'
+  issue: '4'
+  pages: 1009-1041
+  doi: 10.1037/a0035923
+  url: https://api.openalex.org/works/https://doi.org/10.1037/a0035923
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the OpenAlex API.
+  kind: review
+  design: meta-analysis of 47 experimental or quasi-experimental evaluations
+  supports: >-
+    Job seekers in job search interventions had 2.67 times the odds of finding employment of those in control
+    groups. Interventions teaching job search skills, improving self-presentation, boosting self-efficacy,
+    encouraging proactivity, promoting goal setting and enlisting social support were more effective; they
+    worked only when they combined skill development with motivation enhancement; they helped short-term
+    unemployed job seekers more than long-term unemployed ones.
+  sample: 47 evaluated job search interventions.
+  grade: strong
+  caveats: >-
+    Abstract-level reading; programmes, not self-help, so the book uses it for what the components are rather
+    than promising the effect size to a reader working alone.
+
+dol-ui:
+  type: government
+  authors: ['U.S. Department of Labor']
+  year: 2026
+  title: How do I file for unemployment insurance?
+  url: https://www.dol.gov/general/topic/unemployment-insurance
+  url_checked: '2026-10-25'
+  url_note: Page read through a web-fetch tool (the site blocks scripted access).
+  kind: law
+  design: official guidance
+  supports: >-
+    Unemployment insurance is a joint state-federal programme in which each state administers its own scheme;
+    you file with the programme in the state where you worked, and "should contact your state's unemployment
+    insurance program as soon as possible after becoming unemployed"; benefits are for workers unemployed
+    "through no fault of their own".
+  sample: Official US federal guidance.
+  grade: strong
+  caveats: Eligibility and amounts vary by state.
+
+govuk-redundancy-pay:
+  type: government
+  authors: ['GOV.UK']
+  year: 2026
+  title: 'Redundancy: your rights (overview; redundancy pay)'
+  url: https://www.gov.uk/redundant-your-rights/redundancy-pay
+  url_checked: '2026-10-25'
+  url_note: Overview and redundancy-pay pages read on gov.uk.
+  kind: law
+  design: official guidance
+  supports: >-
+    Employees are normally entitled to statutory redundancy pay after 2 years or more with their current
+    employer; you have 6 months from the date the job ends to apply; redundancy can bring a notice period,
+    consultation, the option of a different job and time off to look for work; selection must be fair.
+  sample: Official UK government guidance.
+  grade: strong
+  caveats: Great Britain; amounts and caps change each April.
