@@ -1,0 +1,49 @@
+# Chapter 14 sources not already in a research registry.
+# Added by the Part II fact-check (checks/part2.md). Each was opened on the date in
+# url_checked; url_note says exactly what was read.
+
+nasem2020-generations:
+  type: report
+  authors: ['National Academies of Sciences, Engineering, and Medicine']
+  year: 2020
+  title: Are Generational Categories Meaningful Distinctions for Workforce Management?
+  publisher: The National Academies Press
+  doi: 10.17226/25796
+  url: https://www.nationalacademies.org/news/2020/07/categorizing-workers-needs-by-generation-such-as-baby-boomers-or-millennials-is-not-supported-by-research-or-useful-for-workforce-management
+  url_checked: '2026-10-25'
+  url_note: >-
+    The National Academies' press release for the report (21 July 2020) and the report's
+    catalogue page (nationalacademies.org/publications/25796) were read. The full report was not
+    read.
+  kind: review
+  design: consensus study report by an expert committee
+  supports: >-
+    Categorising workers with generational labels such as "baby boomer" or "millennial" to define
+    their needs and behaviours is not supported by research and cannot adequately inform
+    workforce management; differences between workers are more likely to reflect age, career
+    stage, job experience and general changes in society and work conditions.
+  sample: n/a (review of the research literature)
+  grade: moderate
+  caveats: >-
+    Read through the press release and catalogue page, not the full report. Sponsored by the US
+    Army Research Institute for the Behavioral and Social Sciences.
+
+nber-digest2013-wfh:
+  type: web
+  authors: ['Gorman, Linda']
+  year: 2013
+  title: Evidence from a Chinese Experiment on Working from Home
+  container: The NBER Digest (September 2013)
+  url: https://www.nber.org/digest/sep13/evidence-chinese-experiment-working-home
+  url_checked: '2026-10-25'
+  url_note: Page read in full; it summarises NBER Working Paper 18871, the working-paper version of bloom2015.
+  kind: evidence
+  design: summary of a randomised field experiment
+  supports: >-
+    The Ctrip experiment had a 131-person home-working group and a 118-person office control
+    group. When the option was opened to the whole firm afterwards, half of the home workers chose
+    to return to the office, citing "concerns over the loneliness of home working and the lower
+    rates of promotion", and two-thirds of the control group stayed in the office.
+  sample: 249 call-centre volunteers (131 treatment, 118 control).
+  grade: moderate
+  caveats: A reliable summary of the working paper rather than the published article.

@@ -121,7 +121,7 @@ Then Kai sends a first message to a new client.
 
 The client replies, two days later, in a single formal line addressed to Tomás.
 
-There is research on exactly this. In three experiments on work-related first impressions, a smiley emoticon in a message did not make the sender seem warmer, and it made them seem *less* competent, which in turn made recipients share less information; the effect depended on how formal the context was [@glikson2018]. That is about first contact with strangers in formal settings. Once a relationship exists, the picture changes: a small descriptive study of exclamation marks in two professional email discussion lists found they rarely signalled excitability and often seemed to mark friendliness [@waseleski2006!].
+There is research on exactly this. In three experiments on work-related first impressions, a smiley emoticon in a message did not make the sender seem warmer, and it made them seem *less* competent, which in turn made recipients share less information; the effect depended on how formal the context was [@glikson2018]. That is about first contact with strangers in formal settings. Casual markers are not always a liability, though: a small descriptive study of exclamation marks in two professional email discussion lists found they rarely signalled excitability and often seemed to mark friendliness [@waseleski2006!].
 
 The rule this suggests is the same one [[ch11]] gave for newcomers, applied to writing [!view]: **match down, not up.** With strangers, senior people and new clients, start one notch more formal and let the other person set the level. Once they send the first emoji, you can send the second. Inside a team where everyone writes like Kai, writing like a bank is the odd thing.
 
