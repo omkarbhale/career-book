@@ -63,14 +63,39 @@ If you look for advice on burnout, most of what you find is about the individual
 
 So the most useful thing you can do about your own strain is often the least comfortable: talk to the person who can change the demands. That is usually your manager, and it is a workload conversation, not a confession [!view].
 
+:::: move {#ch17.move.inventory} A burnout inventory
+This is not a diagnostic test, and no score here means you are or are not burned out. It is a way of seeing your own situation through the two ideas above. Use the last month.
+
+**Part A: the three dimensions.** For each, choose *rarely*, *sometimes*, *often* or *most days*.
+
+1. I feel drained by work, and rest doesn't fully refill me.
+2. I feel distant, cynical or negative about my job, or about the people it serves.
+3. I feel less effective at work than I used to be.
+
+**Part B: the seesaw.** Write down your three heaviest demands and your three most important resources (or the resources you most lack). For each demand, mark it *reducible*, *movable to someone else* or *fixed*.
+
+::: answer
+Read the pattern, not a total.
+
+- **Mostly "exhaustion", with cynicism and effectiveness intact?** That usually points at the demand side: too much, for too long. Your *reducible* and *movable* demands from Part B are the agenda for a workload conversation, which is the kind of organisational fix the intervention research favours [@panagioti2017].
+- **Cynicism high?** That dimension is about your relationship with the job [@maslach2001]. Ask what changed: a decision you disagree with, a feeling of being disrespected, a role you never chose. Those are worth naming to someone who can change them.
+- **Effectiveness low?** Look at the resource side: feedback, support and control are the resources the model says buffer demands [@bakker2007]. A job with no feedback can make a competent person feel incompetent.
+- **All three, most days, for months, and spreading into the rest of your life?** Take it seriously. Talk to your manager about the job, and to a doctor or other clinician about you. [[more.sec.health]] has starting points.
+
+If Part B has no *reducible* or *movable* items at all, that is information too, and the end of this chapter is about what to do with it.
+:::
+::::
+
+Before acting on any of this, two popular ideas about tiredness and positivity are worth checking.
+
 ::: myth {#ch17.myth.willpower verdict=partly grade=strong} Willpower is a tank that runs dry
-The idea that self-control draws on a limited resource that gets used up ("ego depletion") was one of the most popular findings in psychology, and it is often used to explain why people are exhausted by the end of the day. A registered replication across 23 laboratories, with 2,141 participants following one agreed protocol, found an effect close to zero (d = 0.04) [@hagger2016]. Researchers still argue about whether other versions of the effect exist, so "partly true" is the fair verdict for the broad idea that tiredness affects behaviour. But the strong claim, that willpower is a fuel tank, is not supported. If you are worn out by work, the cause is far more likely to be the demands and the lack of recovery than a depleted inner reserve.
+The idea that self-control draws on a limited resource that gets used up ("ego depletion") was one of the most popular findings in psychology, and it is often used to explain why people are exhausted by the end of the day. A registered replication across 23 laboratories, with 2,141 participants following one agreed protocol, found an effect close to zero (d = 0.04) [@hagger2016]. That replication tested one protocol, and researchers still argue about whether other versions of the effect exist, which is why the verdict is "partly" rather than "busted". But the strong claim, that willpower is a fuel tank, is not supported. If you are worn out by work, the cause is far more likely to be the demands and the lack of recovery than a depleted inner reserve.
 :::
 
-A second idea from popular resilience training deserves the same treatment, because it is still taught as a rule for teams.
+A second idea from popular resilience training deserves the same treatment.
 
 ::: myth {#ch17.myth.positivity verdict=busted grade=strong} Flourishing needs a positivity ratio of about 3 to 1
-A 2005 paper claimed that people flourish when their ratio of positive to negative emotions is above about 2.9, and the number spread through management training as a rule for teams too [@fredrickson2005]. In 2013, a critique showed that the fluid-dynamics mathematics behind the ratio had been misapplied, and concluded that the claim to have found a critical positivity ratio was "entirely unfounded" [@brown2013]. That does not mean positive emotions are unimportant, or that negative interactions don't weigh more than positive ones; there is good evidence that bad experiences often have more impact than good ones [@baumeister2001]. It means there is no magic number, and no reason to count.
+A 2005 paper claimed that people flourish when their ratio of positive to negative emotions is above about 2.9 [@fredrickson2005], and the same mathematics had been used to claim a similar ratio for high-performing teams [@brown2013]. In 2013, a critique showed that the fluid-dynamics mathematics behind both ratios had been misapplied, and concluded that the claim to have found a critical positivity ratio was "entirely unfounded" [@brown2013]. That does not mean positive emotions are unimportant, or that negative interactions don't weigh more than positive ones; there is good evidence that bad experiences often have more impact than good ones [@baumeister2001]. It means there is no magic number, and no reason to count.
 :::
 
 ## The helping trap {#ch17.sec.helping}
@@ -219,7 +244,7 @@ If those describe you, it is worth remembering where this book started. Leaving 
 ::: field {regions="UK, EU, US, India"} Working hours and switching off
 **United Kingdom.** You cannot work more than 48 hours a week on average, normally averaged over 17 weeks, unless you choose to opt out. The opt-out must be voluntary and in writing, you cannot be dismissed or treated unfairly for refusing to sign it, and you can cancel it at any time with at least seven days' notice (or up to three months, if your agreement says so). Some jobs are exceptions [@govuk-working-hours].
 
-**European Union.** The Working Time Directive requires member states to limit average working time to 48 hours a week *including overtime*, to guarantee at least 11 consecutive hours of rest in every 24, and to give at least four weeks of paid annual leave; national law sets the details and some states allow individual opt-outs under strict conditions. There is no EU-wide "right to disconnect" law yet: as of our check, the European Commission was consulting on one and planned a proposal for a broader Quality Jobs Act by the end of 2026. Some member states have their own rules, which we did not check [@eu-wtd2003].
+**European Union.** The Working Time Directive requires member states to limit average working time to 48 hours a week *including overtime*, to guarantee at least 11 consecutive hours of rest in every 24, and to give at least four weeks of paid annual leave; national law sets the details and some states allow individual opt-outs under strict conditions. There is no EU-wide "right to disconnect" law yet: as of our check, the European Commission had consulted employers' and workers' representatives on one (that consultation ended in October 2025) and planned a proposal for a broader Quality Jobs Act by the end of 2026. Some member states have their own rules, which we did not check [@eu-wtd2003].
 
 **United States.** Federal law sets no limit on the number of hours employees aged 16 and over may work. Covered employees who are not exempt must be paid at least one and a half times their regular rate for hours over 40 in a workweek; many salaried professionals are exempt, and states can add rules [@dol-flsa-hours].
 
@@ -230,12 +255,12 @@ For other countries, and for what applies to your own contract, check an officia
 
 ## Answering the pause {#ch17.sec.pause}
 
-At the start of the chapter you guessed what mostly caused the last stretch of feeling worn out by work: the amount of work, something about the work, or something about you. If you guessed "me", you are in good company; it is the most common guess, and it is the one the evidence least supports. The WHO definition locates burnout in chronic workplace stress [@who2019], the best-studied model puts it in the balance of demands and resources [@bakker2007], and interventions aimed at the organisation beat interventions aimed at the person [@panagioti2017]. Your habits matter at the margin. The job matters more.
+At the start of the chapter you guessed what mostly caused the last stretch of feeling worn out by work: the amount of work, something about the work, or something about you. If you guessed "me", it is worth knowing that this is the answer the evidence supports least. The WHO definition locates burnout in chronic workplace stress [@who2019], the best-studied model puts it in the balance of demands and resources [@bakker2007], and interventions aimed at the organisation beat interventions aimed at the person [@panagioti2017]. Your habits matter at the margin. The job matters more.
 
 ::: ask
 Q: Isn't saying no just going to make me look less committed?
 
-A: Sometimes, a little, in the moment. But the evidence suggests people overestimate how much refusals cost [@givi2024], and helping beyond your role only helps your ratings up to the point where it starts eating your core work [@bergeron2007]. A clear, well-reasoned no, with an alternative, usually reads as someone who knows their priorities.
+A: It might, a little, in the moment [!view]. But the evidence suggests people overestimate how much refusals cost [@givi2024], and a theory paper argues that helping beyond your role comes at the cost of your core work, which is what reviews mostly reward [@bergeron2007]. A clear, well-reasoned no, with an alternative, usually reads as someone who knows their priorities.
 
 Q: I can't afford to leave. What then?
 
