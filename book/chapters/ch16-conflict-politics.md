@@ -189,8 +189,8 @@ Whether people speak up depends a great deal on the team, not only on the person
 
 Psychological safety is not the same as comfort, though. One study found it also has a downside path: it can reduce average work motivation, which the authors called "slacking off in comfort", with the net effect depending on context [@deng2019]. The useful version is *safe to speak up*, not *safe from standards*. Tomás's squad, where people admit mistakes in stand-up and also get told when their work is not good enough, is the version that works.
 
-::: myth {#ch16.myth.google verdict=partly grade=weak} Google proved psychological safety is the key to great teams
-Google's re:Work guide describes an internal study of 180 teams, 115 in engineering and 65 in sales, which concluded that how a team worked together mattered more than who was on it, and ranked psychological safety first among five factors [@google2015]. But the study was internal, never peer-reviewed, and published without data or effect sizes, from one unusual company; the guide itself is now archived as a record. Psychological safety does matter, and the reason we know is the peer-reviewed research [@edmondson1999; @frazier2017], not Google. The grade on this verdict is for Google's study; the underlying idea has strong support.
+::: myth {#ch16.myth.google verdict=partly grade=strong} Google proved psychological safety is the key to great teams
+Google's re:Work guide describes an internal study of 180 teams, 115 in engineering and 65 in sales, which concluded that how a team worked together mattered more than who was on it, and ranked psychological safety first among five factors [@google2015]. But the study was internal, never peer-reviewed, and published without data or effect sizes, from one unusual company; the guide itself is now archived as a record. Psychological safety does matter, and the reason we know is the peer-reviewed research, including a meta-analysis of 136 samples [@edmondson1999; @frazier2017], not Google's study.
 :::
 
 ## Difficult people {#ch16.sec.difficult}

@@ -59,7 +59,7 @@ What sets the dial? Five things, mostly:
 - **The culture.** Some workplaces, and some societies, have stronger norms and tolerate less deviation from them than others; researchers call these "tight" cultures and the others "loose" [@gelfand2011]. More on culture later in the chapter.
 - **Your standing.** What you can get away with depends on how established you are, which is unfair and real, and gets its own section below.
 
-Dev's all-hands moment fails on three of the five at once. Her audience was mixed, and some of it was senior and new to her. The stakes were high for the people the joke was about, who had just missed a target. And she had no standing with them yet. The joke was not the problem. The setting was.
+Dev's all-hands moment fails on three of the five at once. Her audience was mixed, and some of it was senior and new to her. The stakes were high for the people the joke was about, who had just missed a target. And she had no standing with them yet. Hold on to that; the section on humour shows why it mattered more than the joke itself.
 
 ## Why adjusting isn't faking {#ch14.sec.not-fake}
 
@@ -180,7 +180,7 @@ Everyone laughs, and two people offer Kai coffee. Dev, who has not told anyone a
 
 Kai shares a great deal. Dev shares very little. Which of them has it right?
 
-Neither, as a rule, because people genuinely differ in how much they want work and home to mix. Researchers call the two ends of the scale **segmentation** (keeping work and the rest of life separate) and **integration** (blending them), and people move between their roles many times a day along that range [@ashforth2000]. What matters is not where you sit but whether your workplace fits. In one study of 325 employees across many occupations, the fit between how much separation people wanted and how much their workplace allowed predicted work-home conflict, stress and satisfaction [@kreiner2006]. In another, of 460 employees, "integrating" perks such as onsite childcare actually *lowered* satisfaction among people who preferred to keep things separate [@rothbard2005]. Dev is a segmenter; Kai is an integrator; both are normal.
+Neither, as a rule, because people genuinely differ in how much they want work and home to mix. Researchers call the two ends of the scale **segmentation** (keeping work and the rest of life separate) and **integration** (blending them), and people move between their roles every day, somewhere along that range [@ashforth2000]. What matters is not where you sit but whether your workplace fits. In one study of 325 employees across many occupations, the fit between how much separation people wanted and how much their workplace allowed predicted work-home conflict, stress and satisfaction [@kreiner2006]. In another, of 460 employees, "integrating" perks such as onsite childcare actually *lowered* satisfaction among people who preferred to keep things separate [@rothbard2005]. Dev is a segmenter; Kai is an integrator; both are normal.
 
 A popular slogan says you should "bring your whole self to work". The Part II researchers looked for a study that tests the slogan directly and found none. What exists is narrower. Feeling authentic at work goes with well-being and engagement [@sutton2020]. But disclosure interacts with **status**. In three experiments, when a *higher-status* colleague disclosed a personal weakness, they lost status and influence, and task conflict in the group went up; the same disclosure from a peer did no harm [@gibson2018]. And a theory paper argues that across differences in status and background, sharing personal information can sometimes widen the gap between people rather than close it [@phillips2009]. That fits a wider review of authenticity at work, which concludes that the evidence "both reinforces and tempers" the popular enthusiasm, and that power shapes who can afford to be authentic [@cha2019].
 
@@ -257,7 +257,7 @@ If you are someone for whom the dial is cheap, you have a different job. Status 
 
 Lanternfish sells to warehouses in several countries, and Dev's squad works daily with an integrations team abroad. Her first written review of one of their designs went down badly: she listed eleven problems as bullet points, with no greeting and no sign of what she liked. Her colleague there replied, politely, that he would "consider the feedback". Dev took this as agreement. It was not.
 
-National culture does shape workplace norms, especially around directness and hierarchy. The best-known framework, Geert Hofstede's, describes national cultures along six dimensions, including **power distance** (how far people accept that power is distributed unequally) and **individualism**, and Hofstede himself warns against using national scores to describe individuals [@hofstede2011]. A practitioner framework, Erin Meyer's *Culture Map*, gives useful vocabulary for the daily friction: one of its eight scales, "evaluating", describes how directly negative feedback is given, which explains why one culture's polite feedback sounds harsh, or vague, to another [@meyer2014!]. The Culture Map is a teaching and consulting tool, not a tested model, and its country placements are generalisations.
+National culture does shape workplace norms, especially around directness and hierarchy. The best-known framework, Geert Hofstede's, describes national cultures along six dimensions, among them **power distance**, **uncertainty avoidance** and **individualism versus collectivism**, and Hofstede himself warns against using national scores to describe individuals [@hofstede2011]. A practitioner framework, Erin Meyer's *Culture Map*, gives useful vocabulary for the daily friction: one of its eight scales, "evaluating", describes how directly negative feedback is given, which explains why one culture's polite feedback sounds harsh, or vague, to another [@meyer2014!]. The Culture Map is a teaching and consulting tool, not a tested model, and its country placements are generalisations.
 
 How much do these national differences actually predict? Less than the airport books suggest. A meta-analysis of 598 studies with more than 200,000 people found that Hofstede's original dimensions predict work outcomes with a modest average effect (ρ = .18), more for emotions and attitudes than for job performance, and more strongly in "tight" cultures [@taras2010]. And a later meta-analysis by the same team found that about 80% of the variation in cultural values lies *within* countries rather than between them [@taras2016]. Your colleague's passport tells you something about the average person in their country, and rather little about them.
 
@@ -334,7 +334,7 @@ If you are experienced and working mostly remotely, your plan might reasonably s
 
 ## Answering the pause {#ch14.sec.pause}
 
-So what did Dev get wrong at the all-hands? Not making a joke: humour at work is, on average, a good thing [@mesmermagnus2012]. Not even the joke itself, which would have been fine in the #old-faithful channel aimed at the machine. She got the setting wrong. She told a rung-five joke to a mixed, partly senior audience, about a group in the room, on a bad week for them, with no relationship to cushion it. Each of those was a reason to turn the dial up a notch, and she turned it down.
+So what did Dev get wrong at the all-hands? Not making a joke: humour at work is, on average, a good thing [@mesmermagnus2012]. Not even the joke's content, which aimed at the machine would have been fine in the #old-faithful channel. She got the setting wrong: every feature of that room was a reason to turn the dial up a notch, and she turned it down.
 
 That is the whole chapter in one example. The question is never "should I be formal or casual?" in general. It is "what does this room, this relationship and these stakes call for, from the same me?"
 
@@ -350,10 +350,6 @@ A: Not necessarily. Formal and warm is a perfectly good setting; what people fin
 Q: My manager swears constantly. Should I?
 
 A: You don't have to, and the little evidence there is suggests swearing can cost you in how people judge you, at least on paper [@defrank2019!]. Mirroring your manager's occasional swear word in the team room is unlikely to hurt. Swearing in front of clients or senior people because your manager does, or ever aiming it at a person, is a different matter.
-
-Q: We're fully remote. Is my career doomed?
-
-A: No. The evidence shows trade-offs, not doom: the one fully remote experiment found a promotion penalty for home workers [@bloom2015], but that was one call centre, and it is a reason to make your results visible, not to despair. If you are early in your career, make deliberate time for feedback from experienced people, because that is the thing remote work most easily loses [@emanuel2026].
 :::
 
 As for Dev, the coffee machine gave her a second chance the following week.
