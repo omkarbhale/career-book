@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 776" class="fig">
+<title>Anatomy of a good ask</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<text x="100.0" y="24.0" class="t t-sm t-mute">not this:</text>
+<path d="M99.8 35.3 Q336.3 35.9 569.3 36.4 Q568.6 65.0 569.3 96.2 Q336.1 96.4 99.6 96.6 Q101.2 65.5 99.6 36.3 Z" class="f-soft k-thin"/><path d="M101 62 L84 70 L101 80" class="f-soft k-thin"/>
+<text x="124.0" y="75.0" class="t t-mute">Hey stranger! Can I pick your brain sometime?</text>
+<path d="M108.0 92.0 Q335.5 68.3 560.5 42.3" class="k-thick k-a1"/>
+<text x="100.0" y="134.0" class="t t-sm">but this:</text>
+<g transform="translate(21.0 159.0) scale(0.969)"><defs><clipPath id="ga-dev"><circle cx="32" cy="32" r="30.5"/></clipPath></defs><circle cx="32" cy="32" r="30.5" class="f-soft"/><g clip-path="url(#ga-dev)"><path d="M18.6 30 C17.4 18 24 13.6 32 13.6 C40.5 13.6 47 18.4 45.6 30 L47.4 46.5 C44 49.5 40.5 48.4 39.4 45.4 L24.6 45.4 C23.5 48.4 20 49.5 16.6 46.5 Z" class="f-hair1 k-thin"/><path d="M27 40.5 L27 49 L37 49 L37 40.5 Z" class="f-skin3 k-thin"/><path d="M7 68 C8 54 17 48.5 32 48.5 C47 48.5 56 54 57 68 Z" class="f-dev k-thin"/><path d="M21.5 49.5 C25 55.5 39 55.5 42.5 49.5" class="k-thin"/><path d="M28.4 54 L27.6 61" class="k-thin"/><path d="M35.6 54 L36.4 61" class="k-thin"/><ellipse cx="19.8" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="44.2" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="32" cy="30" rx="12.4" ry="14" class="f-skin3 k-thin"/><path d="M19.7 27.5 C20 18.4 26 15.2 32.6 15.6 C39.4 16 44.2 19.8 44.5 27.5 C40.4 22.6 35.4 21.2 30 21.8 C25.8 22.3 22.4 24.4 19.7 27.5 Z" class="f-hair1 k-thin"/><rect x="37.2" y="18.2" width="6.4" height="2.8" rx="1.2" transform="rotate(28 40.4 19.6)" class="f-a2s k-thin"/><circle cx="27.4" cy="30.4" r="1.6" class="f-ink"/><circle cx="36.6" cy="30.4" r="1.6" class="f-ink"/><path d="M24.8 26.2 Q27.4 24.8 30 26" class="k-thin"/><path d="M34 26 Q36.6 24.8 39.2 26.2" class="k-thin"/><path d="M32.2 31.5 Q31 34.4 32.8 34.8" class="k-thin"/><path d="M28.4 37.6 Q32 40 35.6 37.4" class="k-thin"/></g><circle cx="32" cy="32" r="30.5" class="k-thin"/></g>
+<path d="M99.1 150.4 Q359.8 150.4 620.0 149.5 Q621.3 428.5 619.7 709.7 Q361.5 708.8 100.1 710.7 Q100.4 431.4 99.8 149.9 Z" class="f-paper k"/><path d="M101 176 L84 184 L101 194" class="f-paper k"/>
+<circle cx="136" cy="186" r="15" class="f-a3 k-thin"/><text x="136.0" y="193.0" class="t t-mid t-bold">1</text>
+<text x="162.0" y="192.0" class="t t-sans">the bridge</text>
+<text x="162.0" y="224.0" class="t">Hi Ana, it&#x27;s Dev from second-year databases:</text><text x="162.0" y="253.0" class="t">you saved my exam with a charger.</text>
+<path d="M140.0 282.0 Q369.6 281.6 599.8 281.5" class="k-thin k-dash k-mute"/>
+<circle cx="136" cy="306" r="15" class="f-a3 k-thin"/><text x="136.0" y="313.0" class="t t-mid t-bold">2</text>
+<text x="162.0" y="312.0" class="t t-sans">the specific ask</text>
+<text x="162.0" y="344.0" class="t">I&#x27;ve seen Lanternfish is hiring a backend</text><text x="162.0" y="373.0" class="t">developer, and I&#x27;d love to apply. Would you</text><text x="162.0" y="402.0" class="t">be comfortable referring me, or telling me</text><text x="162.0" y="431.0" class="t">who to talk to?</text>
+<path d="M140.0 460.0 Q371.6 460.7 600.2 460.0" class="k-thin k-dash k-mute"/>
+<circle cx="136" cy="484" r="15" class="f-a3 k-thin"/><text x="136.0" y="491.0" class="t t-mid t-bold">3</text>
+<text x="162.0" y="490.0" class="t t-sans">make it easy</text>
+<text x="162.0" y="522.0" class="t">I can send the link, my résumé and two lines</text><text x="162.0" y="551.0" class="t">on why I fit, so it takes you two minutes.</text>
+<path d="M140.0 580.0 Q369.0 579.1 600.6 580.4" class="k-thin k-dash k-mute"/>
+<circle cx="136" cy="604" r="15" class="f-a3 k-thin"/><text x="136.0" y="611.0" class="t t-mid t-bold">4</text>
+<text x="162.0" y="610.0" class="t t-sans">the clean exit</text>
+<text x="162.0" y="642.0" class="t">And if it&#x27;s not a good time, or you don&#x27;t know</text><text x="162.0" y="671.0" class="t">my work well enough, no problem at all.</text>
+<text x="360.0" y="752.0" class="t t-mid t-a1 t-bold">four sentences, one ask, no guilt</text>
+</svg>
