@@ -1,0 +1,86 @@
+# Chapter 12 sources not already in a research registry.
+# Each was opened on the date in url_checked; url_note says exactly what was read.
+
+buehler1994:
+  type: article
+  authors: ['Buehler, Roger', 'Griffin, Dale W.', 'Ross, Michael']
+  year: 1994
+  title: 'Exploring the "planning fallacy": Why people underestimate their task completion times'
+  container: Journal of Personality and Social Psychology
+  volume: '67'
+  issue: '3'
+  pages: 366-381
+  doi: 10.1037/0022-3514.67.3.366
+  url: https://doi.org/10.1037/0022-3514.67.3.366
+  url_checked: '2026-10-25'
+  url_note: >-
+    Bibliographic record and abstract read via the OpenAlex API (doi resolved); full text not read.
+  kind: evidence
+  design: five studies, including think-aloud procedures and an instruction experiment
+  supports: >-
+    People's predictions of their own completion times were too optimistic across academic and
+    non-academic tasks; they focused on plan-based future scenarios rather than relevant past
+    experience; the optimistic bias disappeared when people were told to connect relevant past
+    experiences with their predictions; they explained away past failures as external, transient
+    and specific; observers predicting other people's times were not optimistic (they
+    overestimated them) and used past experience more.
+  sample: Student participants across five studies.
+  grade: strong
+  caveats: >-
+    Student samples and personal or academic tasks rather than workplace projects; the planning
+    fallacy has been widely replicated since, but this book cites only this paper's findings.
+
+whillans2022:
+  type: article
+  authors: ['Whillans, Ashley V.', 'Yoon, Jaewon', 'Donnelly, Grant E.']
+  year: 2022
+  title: People overestimate the self-presentation costs of deadline extension requests
+  container: Journal of Experimental Social Psychology
+  volume: '98'
+  pages: '104253'
+  doi: 10.1016/j.jesp.2021.104253
+  url: https://doi.org/10.1016/j.jesp.2021.104253
+  url_checked: '2026-10-25'
+  url_note: >-
+    Bibliographic record and abstract read via the OpenAlex API; issue date (January 2022, volume
+    98) confirmed on Crossref. Full text not read.
+  kind: evidence
+  design: five experiments (online and in person)
+  supports: >-
+    Across five studies (N = 4,151), people were less likely to ask for a deadline extension, and
+    submitted lower-quality work, when the request would be visible to a supervisor, because they
+    worried about looking incompetent; yet other people did not respond negatively to extension
+    requests; formal policies that reduced those worries increased requests.
+  sample: 4,151 participants across five studies.
+  grade: moderate
+  caveats: >-
+    Experimental tasks with adjustable deadlines, not real project commitments; shows the fear is
+    overestimated, not that every manager will welcome every late request.
+
+smith2001:
+  type: article
+  authors: ['Smith, H. Jeff', 'Keil, Mark', 'Depledge, Gordon']
+  year: 2001
+  title: 'Keeping Mum as the Project Goes Under: Toward an Explanatory Model'
+  container: Journal of Management Information Systems
+  volume: '18'
+  issue: '2'
+  pages: 189-227
+  doi: 10.1080/07421222.2001.11045677
+  url: https://doi.org/10.1080/07421222.2001.11045677
+  url_checked: '2026-10-25'
+  url_note: >-
+    Bibliographic record and abstract read via the OpenAlex API (doi resolved); full text not read.
+    A near-exact replication (Petter et al. 2016, AIS Transactions on Replication Research) was
+    also read at abstract level and reinforced the core finding.
+  kind: evidence
+  design: model development plus a role-play experiment
+  supports: >-
+    "Runaway" software projects are made worse by people's reluctance to pass on negative
+    information about a project's status (the "mum effect"); an experiment manipulating the impact
+    of failure and observed wrongdoing explained a significant share of that reluctance.
+  sample: Experimental participants in a project-reporting scenario (details not read).
+  grade: moderate
+  caveats: >-
+    Role-play experiment; effect sizes not quoted. Used only to say that reluctance to report bad
+    project news is a recognised, studied problem in software work.

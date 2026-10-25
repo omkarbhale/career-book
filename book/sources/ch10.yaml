@@ -1,0 +1,58 @@
+# Chapter 10 sources not already in a research registry.
+# Each was opened on the date in url_checked; url_note says exactly what was read.
+
+dalbo2005:
+  type: article
+  authors: ['Dal Bó, Pedro']
+  year: 2005
+  title: 'Cooperation under the Shadow of the Future: Experimental Evidence from Infinitely Repeated Games'
+  container: American Economic Review
+  volume: '95'
+  issue: '5'
+  pages: 1591-1604
+  doi: 10.1257/000282805775014434
+  url: https://doi.org/10.1257/000282805775014434
+  url_checked: '2026-10-25'
+  url_note: >-
+    Bibliographic record and abstract read via the OpenAlex API (doi resolved); full text not read.
+  kind: evidence
+  design: laboratory experiment (repeated prisoner's dilemma with a random continuation rule, finite-game controls)
+  supports: >-
+    In lab prisoner's dilemmas, a higher chance of playing again (a longer "shadow of the future")
+    significantly reduced opportunistic behaviour, and the size of the effect closely followed
+    the theory's predictions.
+  sample: University students in incentivised lab sessions with many players per session.
+  grade: moderate
+  caveats: >-
+    A lab money game, not a workplace; it supports the logic of the repeated-game analogy, not
+    any particular office behaviour. Effect sizes are not quoted in the book.
+
+psychsci2023-retraction:
+  type: article
+  authors: ['Psychological Science']
+  year: 2023
+  title: >-
+    Retraction Notice to "The Moral Virtue of Authenticity: How Inauthenticity Produces Feelings
+    of Immorality and Impurity"
+  container: Psychological Science
+  volume: '34'
+  issue: '8'
+  pages: '948'
+  doi: 10.1177/09567976231187596
+  url: https://doi.org/10.1177/09567976231187596
+  url_checked: '2026-10-25'
+  url_note: >-
+    Crossref record read (type journal-article, published 6 July 2023, recorded as a retraction of
+    10.1177/0956797615575277 by the publisher and Retraction Watch); PubMed record 37409891 read
+    (publication type: Retraction Notice, linked to the 2015 article, PMID 25963614). The notice's
+    own text is behind the publisher's site (HTTP 403) and was not read.
+  kind: data
+  design: publisher's retraction notice (bibliographic record)
+  supports: >-
+    Psychological Science retracted Gino, Kouchaki and Galinsky (2015), "The Moral Virtue of
+    Authenticity", in a notice published on 6 July 2023 (volume 34, issue 8, page 948).
+  sample: n/a
+  grade: strong
+  caveats: >-
+    Supports only the fact and date of the retraction. The reasons given in the notice were not
+    read, so the book does not state them.

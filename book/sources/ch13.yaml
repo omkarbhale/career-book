@@ -1,0 +1,30 @@
+# Chapter 13 sources not already in a research registry.
+# Each was opened on the date in url_checked; url_note says exactly what was read.
+
+shulman2024:
+  type: article
+  authors: ['Shulman, Hillary C.', 'Markowitz, David M.', 'Rogers, Todd']
+  year: 2024
+  title: 'Reading dies in complexity: Online news consumers prefer simple writing'
+  container: Science Advances
+  volume: '10'
+  issue: '23'
+  pages: eadn2555
+  doi: 10.1126/sciadv.adn2555
+  url: https://doi.org/10.1126/sciadv.adn2555
+  url_checked: '2026-10-25'
+  url_note: >-
+    Full abstract read via Europe PMC (PMID 38838159, PMC11152133); bibliographic record from
+    OpenAlex. Full text not read.
+  kind: evidence
+  design: field experiments (headline tests) plus a follow-up mechanism experiment
+  supports: >-
+    Over 30,000 field experiments with The Washington Post and Upworthy showed readers prefer
+    simpler headlines (more common words, more readable writing); readers paid more attention to,
+    and processed more deeply, simpler headlines; a sample of professional writers did not show
+    this pattern, suggesting writers read differently from their readers.
+  sample: Headline A/B tests at two online publishers; online samples of readers and professional writers.
+  grade: moderate
+  caveats: >-
+    About news headlines, not workplace messages; used only by analogy for writing to busy
+    readers, and labelled as such.

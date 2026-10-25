@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" class="fig">
+<title>Bad news early versus late</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<path d="M70.0 430.0 Q342.0 430.3 614.0 430.0" class="k"/><path d="M614.0 430.0 L603.4 424.4 M614.0 430.0 L603.4 435.6" class="k"/>
+<path d="M70.0 430.0 Q69.4 249.4 70.0 66.0" class="k"/><path d="M70.0 66.0 L64.3 76.6 M70.0 66.0 L75.6 76.6" class="k"/>
+<path d="M80 100 C290 120 440 310 580 408" class="k-thick k-a2"/>
+<path d="M80 400 C330 390 400 210 580 96" class="k-thick k-a1"/>
+<text x="94.0" y="88.0" class="t t-a2">options left</text>
+<text x="500.0" y="86.0" class="t t-a1 t-end">cost of the</text><text x="500.0" y="112.0" class="t t-a1 t-end">surprise</text>
+<path d="M150.0 430.0 Q150.7 280.8 149.9 130.4" class="k-thin k-dash"/>
+<path d="M540.0 430.0 Q540.7 280.3 539.5 129.9" class="k-thin k-dash"/>
+<text x="150.0" y="462.0" class="t t-mid">Wednesday:</text><text x="150.0" y="488.0" class="t t-mid">Dev knows</text>
+<text x="530.0" y="462.0" class="t t-mid">Friday 4:47 pm:</text><text x="530.0" y="488.0" class="t t-mid">Dev says</text>
+<path d="M175.5 150.2 Q292.6 150.4 411.4 149.7 Q412.9 203.9 411.8 258.8 Q293.1 257.8 173.3 258.2 Q174.0 203.3 174.7 150.2 Z" class="f-a2 k-thin"/>
+<text x="188.0" y="184.0" class="t t-sm">move the demo, cut</text><text x="188.0" y="210.0" class="t t-sm">scope, get help, or</text><text x="188.0" y="236.0" class="t t-sm">warn the customer</text>
+<path d="M172.0 210.0 Q163.1 211.2 154.0 210.0" class="k-thin"/><path d="M154.0 210.0 L160.5 214.6 M154.0 210.0 L161.5 207.2" class="k-thin"/>
+<path d="M369.7 301.5 Q445.6 299.6 519.9 300.7 Q520.3 328.4 520.6 359.9 Q444.4 360.0 369.5 360.3 Q370.4 329.9 370.0 299.7 Z" class="f-a1 k-thin"/>
+<text x="445.0" y="337.0" class="t t-sm t-mid">apologise</text>
+<path d="M522.0 330.0 Q530.6 331.1 538.0 330.0" class="k-thin"/><path d="M538.0 330.0 L530.5 327.3 M538.0 330.0 L531.5 334.7" class="k-thin"/>
+<text x="335.0" y="534.0" class="t t-sm t-mid t-mute">Illustrative shapes, not data</text>
+</svg>
