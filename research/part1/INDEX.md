@@ -1,0 +1,90 @@
+# Part I key findings index
+
+One line per key finding, in the form: finding (grade; source key; file). Grades and method are in `README.md`; claim verdicts are in `myths.md`.
+
+## Hiring from the employer's side
+- In Gem's 2024 customer data, 0.4% of inbound applicants and 2.0% of sourced candidates were hired. Application-to-hire fell from 1.6% (2021) to 0.5% (2024). (moderate; `gem2025`; hiring-funnel.md)
+- Inbound funnel, 2024: 6% reach a screen, 20% of those reach onsite, 35% of onsites get offers; 84% of offers are accepted. (moderate; `gem2025`; hiring-funnel.md)
+- Small-business hiring (2024): 180 applicants per hire; 3% of applicants interviewed; 27% of interviews hired. (moderate; `careerplug2025`; hiring-funnel.md)
+- Interviews per hire rose from 14 to 20, and time to hire from 33 to 41 days (2021→2024). (moderate; `gem2025`; hiring-funnel.md)
+- 88% of employers agree their screening filters out qualified high-skills candidates who don't match exact job-description criteria; 48% filter middle-skills candidates on gaps over 6 months. (moderate; `hiddenworkers2021`; hiring-funnel.md)
+- "ATS rejects 75% of resumes" traces to a 2012 vendor sales claim; no study exists. (myth-or-unsupported; `interviewguys-ats-myth`, `hiringthing-ats-myth`; myths.md)
+- The "6-second resume scan" comes from a 30-recruiter study by a job site selling resume rewrites (2012); the 2018 update says 7.4 s, with no sample size. (weak; `ladders2012`, `ladders2018`; hiring-funnel.md)
+- Recruiters project-manage the process; hiring managers decide. (weak, practitioner consensus; `shrm2015-recruiters`; hiring-funnel.md)
+
+## Selection methods
+- Revised validities: structured interviews .42 (top), job knowledge .40, biodata .38, work samples .33, cognitive ability .31, unstructured interviews .19, years of experience .07. (strong; `sackett2022`; selection-methods.md)
+- The older estimates were higher: GMA .51, work samples .54, structured interviews .51, unstructured .38. (strong as history; `schmidt1998`; selection-methods.md)
+- 21st-century data put cognitive ability at .22, but the correction method is disputed. (strong / contested; `sackett2023-gca`, `ones2023`; selection-methods.md)
+- Past-behaviour interview questions are slightly more valid than situational ones (uncorrected ~.31 vs ~.25). (strong; `levashina2014`; interviewing.md)
+- Self-promotion correlates .26 with structured-interview ratings. (strong; `levashina2014`; selection-methods.md)
+
+## Referrals, networks, channels
+- In one firm, referred candidates were 6.1% of applicants but 21.4% of interviewees, 27.3% of offers and 29.1% of hires. (strong; `brown2016`; referrals.md)
+- Referrals were 1.6% of applications and 17.1% of hires in Gem data, and 2% vs 11.3% in CareerPlug data. (moderate; `gem2025`, `careerplug2025`; referrals.md)
+- Referred workers are 10–30% less likely to quit and better on rare high-impact metrics. The gain comes mainly from better fit. (strong; `burks2015`; referrals.md)
+- The referral starting-wage edge fades by year 3; referred hires stay longer. (strong; `brown2016`; referrals.md)
+- Referrals carry information beyond observable traits. (strong; `pallais2016`; referrals.md)
+- Business-contact referrals come with higher starting wages and are used more for high-skill jobs. (strong; `lester2021`; referrals.md)
+- Referral hiring can disadvantage women at senior levels but is desegregating overall in two firms. (moderate; `fernandez2019`; referrals.md)
+- 50–60% of job seekers in surveys report using a referral to find work. (strong; `lester2021`; networking.md)
+- Weak ties: in Granovetter's sample, 83% of contact-finders saw the contact only occasionally or rarely (N=54). (moderate; `granovetter1973`; networking.md)
+- In a 20M-user randomised LinkedIn experiment, tie strength vs job mobility is an inverted U, and weak ties matter more in digital industries. (strong; `rajkumar2022`; networking.md)
+- Most help arrives via weak ties, but a single strong tie is worth more at the margin. (strong; `gee2017`; networking.md)
+- "80% of jobs are unadvertised" has no traceable source. (myth-or-unsupported; `fresnostate2024-hidden`; networking.md)
+- External hires are paid ~18–20% more than internal promotions but rated lower for two years. (moderate; `bidwell2011`; channels.md)
+- Employed job seekers get more offers per application and higher wage offers. (strong; `faberman2017`; channels.md)
+- GB recruitment agencies cannot charge work-seekers for finding work. (strong; `govuk-agency-fees`; channels.md)
+
+## Positioning
+- Spelling errors cut interview probability by 7.3–18.5 percentage points. (strong; `sterkens2023`; positioning.md)
+- White-sounding names got 50% more callbacks (Boston/Chicago). (strong; `bertrand2004`; positioning.md)
+- US hiring discrimination against African Americans has been unchanged since 1989: 36% more callbacks for whites. (strong; `quillian2017`; positioning.md)
+- Across 108 large US employers, Black names got 2.1 pp less contact, concentrated in some firms. (strong; `kline2022`; positioning.md)
+- In urban India, interview odds were about ⅔ for Dalit and ⅓ for Muslim applicants vs high-caste Hindu applicants. (moderate; `thorat2009`; positioning.md)
+- GitHub activity is read by some employers as harder-to-fake evidence than resumes (13 interviews). (weak; `marlow2013`; positioning.md)
+- Cover letters: a commercial field test reports 53% more callbacks with tailored letters. (weak; `resumego2020-cover`; positioning.md)
+- "Women apply only at 100% fit" was not robustly replicated. (moderate; `salwender2024`; positioning.md)
+
+## Interviewing
+- Being watched halved performance on a whiteboard coding task (RCT, n=48). (moderate; `behroozi2020`; interviewing.md)
+- Only ~20% of candidates score consistently across repeated technical interviews on one platform. (weak; `interviewingio2016`; interviewing.md)
+- Interview anxiety correlates −.19 with interview ratings (30 studies). (strong; `powell2018`; interviewing.md)
+- Rapport-stage impressions correlate .42 with ratings and .22 with offers. (strong; `barrick2010`; interviewing.md)
+- Early impressions partly reflect job-relevant content and weigh most on early answers. (strong; `swider2016`; interviewing.md)
+- "Thin slices" (under 30 s) predicted *teacher* evaluations, not hiring. (strong; `ambady1993`; interviewing.md)
+- Power-pose hormonal and behavioural effects are not real, per the original first author. (strong; `carney2016`, `forrt-powerposing`; myths.md)
+- Mehrabian's 7-38-55 applies only to communicating feelings and attitudes. (strong; `mehrabian-site`; myths.md)
+- "Culture fit" in elite firms often meant shared leisure and self-presentation, and sometimes outweighed productivity. (strong; `rivera2012`; interviewing.md)
+- Google found brainteasers "a complete waste of time" and favours structured behavioural interviews. (moderate; `abc2013-google`; interviewing.md)
+- US: pre-offer disability inquiries are explicitly prohibited; other protected-trait questions are evidence of intent. (strong; `eeoc-prohibited`; interviewing.md)
+- UK: pre-offer health and disability questions are generally unlawful. (strong; `ukparl2020-health`; interviewing.md)
+
+## Offers and negotiation
+- First offers anchor outcomes; focusing on your own target and alternatives removes the effect. (strong; `galinsky2001`; offers-negotiation.md)
+- About a third of US workers bargained over pay before accepting; bargainers earn more after adjustment. (strong; `hallkrueger2012`; offers-negotiation.md)
+- Stating "salary negotiable" in a job ad equalised negotiation rates for men and women (21.4% vs 21.2%). (strong; `leibbrandt2015`; offers-negotiation.md)
+- Women were penalised more than men for initiating negotiations. (strong; `bowles2007`; offers-negotiation.md)
+- More-biased evaluators gave Black negotiators lower salaries. (strong; `hernandez2019`; offers-negotiation.md)
+- 13 US states plus DC require pay ranges in postings (May 2026); NY applies at 4+ employees. (moderate/strong; `clockspot-paytransparency`, `nydol-paytransparency`; offers-negotiation.md)
+- The EU pay-transparency directive gives a right to pay information before employment and bans salary-history questions; it was due 7 June 2026 and most states were late. (strong/moderate; `ec-paytransparency`, `lockton2026-eu`; offers-negotiation.md)
+- Pay-discussion protections lowered average wages by ~2%. (strong; `cullen2023`; offers-negotiation.md)
+- "80% of counteroffer-accepters leave" has no traceable study. (myth-or-unsupported; `interviewguys-counteroffer`, `4dayweek-counteroffer`; offers-negotiation.md)
+- Exploding offers plus binding acceptances cause inefficient early contracting. (moderate; `niederle2009`; offers-negotiation.md)
+- US background checks need written consent, plus a copy of the report before adverse action. (strong; `eeoc-ftc-background`; offers-negotiation.md)
+- Ban-the-box widened the racial callback gap from ~7% to ~43–45%. (strong; `agan2018`; offers-negotiation.md)
+
+## Switching
+- Since 1997, US job switchers' median wage growth beat stayers' in 91% of months, by 0.73 pp on average. The peak gap was 2.2 pp (Nov 2022), near zero in 2025, and it reversed in 2009–10. (strong, original analysis; `atlantafed-wgt`; switching.md)
+- September 2026: switchers 4.7% vs stayers 3.4% (3-month series). (strong; `atlantafed-wgt`; switching.md)
+- US median tenure was 4.1 years (Jan 2026), 3.0 years for ages 25–34. (strong; `bls-tenure2026`; switching.md)
+- Fewer job changes on a resume meant 40–50% more callbacks. (strong; `cohn2021`; switching.md)
+- Callbacks fall ~45% from 1 to 8 months of unemployment, then flatten. (strong; `kroft2013`; switching.md)
+- Past unemployment followed by work showed no sorting effect; current unemployment did. (strong; `eriksson2014`; switching.md)
+- UK notice: at least 1 week from the employee; the employer's statutory minimum rises to 12 weeks. Garden leave and restrictive covenants are lawful. (strong; `govuk-notice`; switching.md)
+- Germany: 4 weeks' basic notice, rising to 7 months for long service. (strong; `bgb622`; switching.md)
+- India: notice is 1–2 months (non-managerial) or 3–6 (senior) by contract; Labour Codes in force since 21 Nov 2025. (moderate; `khaitan-notice`, `argus-labourcodes`; switching.md)
+- The US federal non-compete ban is dead (appeal dismissed 8 Sep 2025); state law governs and California voids non-competes. (strong/moderate; `uschamber-ryan`, `loeb2023-california`; switching.md)
+- UK non-compete cap is not enacted; options reopened Nov 2025. (moderate; `cms2025-uk-noncompete`; switching.md)
+- India: post-employment non-competes are generally void under Contract Act s.27. (moderate; `barandbench-s27`; switching.md)
+- The US WARN Act requires 60 days' notice for covered mass layoffs and closings. (strong; `warn-2102`, `warn-2101`; switching.md)
