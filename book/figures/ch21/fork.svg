@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 660" class="fig">
+<title>The fork: the manager track and the expert track</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<path d="M340 400 C300 330 180 300 120 90" class="k-thick k-a4"/>
+<path d="M340 400 C380 330 500 300 560 90" class="k-thick k-a2"/>
+<path d="M340 470 L340 400" class="k-thick"/>
+<text x="118.0" y="50.0" class="t t-sans t-mid t-a4">the manager track</text>
+<text x="562.0" y="50.0" class="t t-sans t-mid t-a2">the expert track</text>
+<circle cx="258" cy="317" r="9" class="f-paper k k-a4"/><text x="242.0" y="325.0" class="t t-end">team lead</text>
+<circle cx="181" cy="229" r="9" class="f-paper k k-a4"/><text x="165.0" y="237.0" class="t t-end">engineering manager</text>
+<circle cx="126" cy="108" r="9" class="f-paper k k-a4"/><text x="142.0" y="116.0" class="t">director</text>
+<circle cx="430" cy="310" r="9" class="f-paper k k-a2"/><text x="446.0" y="318.0" class="t">staff engineer</text>
+<circle cx="529" cy="173" r="9" class="f-paper k k-a2"/><text x="513.0" y="181.0" class="t t-end">principal engineer</text>
+<path d="M271.6 312.7 Q341.2 279.9 415.8 305.8" class="k k-dash k-mute"/><path d="M415.8 305.8 L409.0 298.4 M415.8 305.8 L406.0 307.3" class="k k-dash k-mute"/>
+<path d="M515.4 179.1 Q361.7 240.4 195.4 234.9" class="k k-dash k-mute"/><path d="M195.4 234.9 L204.1 239.9 M195.4 234.9 L204.4 230.5" class="k k-dash k-mute"/>
+<text x="340.0" y="250.0" class="t t-sm t-mid t-mute">the pendulum: people do</text>
+<text x="340.0" y="272.0" class="t t-sm t-mid t-mute">switch back and forth</text>
+<g transform="translate(308.0 468.0) scale(1.000)"><defs><clipPath id="fork-dev"><circle cx="32" cy="32" r="30.5"/></clipPath></defs><circle cx="32" cy="32" r="30.5" class="f-soft"/><g clip-path="url(#fork-dev)"><path d="M18.6 30 C17.4 18 24 13.6 32 13.6 C40.5 13.6 47 18.4 45.6 30 L47.4 46.5 C44 49.5 40.5 48.4 39.4 45.4 L24.6 45.4 C23.5 48.4 20 49.5 16.6 46.5 Z" class="f-hair1 k-thin"/><path d="M27 40.5 L27 49 L37 49 L37 40.5 Z" class="f-skin3 k-thin"/><path d="M7 68 C8 54 17 48.5 32 48.5 C47 48.5 56 54 57 68 Z" class="f-dev k-thin"/><path d="M21.5 49.5 C25 55.5 39 55.5 42.5 49.5" class="k-thin"/><path d="M28.4 54 L27.6 61" class="k-thin"/><path d="M35.6 54 L36.4 61" class="k-thin"/><ellipse cx="19.8" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="44.2" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="32" cy="30" rx="12.4" ry="14" class="f-skin3 k-thin"/><path d="M19.7 27.5 C20 18.4 26 15.2 32.6 15.6 C39.4 16 44.2 19.8 44.5 27.5 C40.4 22.6 35.4 21.2 30 21.8 C25.8 22.3 22.4 24.4 19.7 27.5 Z" class="f-hair1 k-thin"/><rect x="37.2" y="18.2" width="6.4" height="2.8" rx="1.2" transform="rotate(28 40.4 19.6)" class="f-a2s k-thin"/><circle cx="27.4" cy="30.4" r="1.6" class="f-ink"/><circle cx="36.6" cy="30.4" r="1.6" class="f-ink"/><path d="M24.8 26.2 Q27.4 24.8 30 26" class="k-thin"/><path d="M34 26 Q36.6 24.8 39.2 26.2" class="k-thin"/><path d="M32.2 31.5 Q31 34.4 32.8 34.8" class="k-thin"/><path d="M28.4 37.6 Q32 40 35.6 37.4" class="k-thin"/></g><circle cx="32" cy="32" r="30.5" class="k-thin"/></g>
+<text x="340.0" y="560.0" class="t t-bold t-mid">senior engineer</text>
+<path d="M19.1 404.9 Q146.0 404.0 270.0 403.6 Q268.4 462.6 270.1 521.3 Q145.9 521.1 19.6 521.3 Q21.6 463.8 20.6 404.2 Z" class="f-a4 k-thin"/>
+<text x="36.0" y="436.0" class="t t-bold">judged on:</text>
+<text x="36.0" y="464.0" class="t">your team&#x27;s results,</text>
+<text x="36.0" y="490.0" class="t">whether people grow</text>
+<text x="36.0" y="514.0" class="t">and stay, who you hire</text>
+<path d="M408.5 403.5 Q535.0 402.8 660.7 403.8 Q658.9 451.0 659.4 496.7 Q534.9 496.2 409.7 496.0 Q409.0 448.5 410.6 403.6 Z" class="f-a2 k-thin"/>
+<text x="426.0" y="436.0" class="t t-bold">judged on:</text>
+<text x="426.0" y="464.0" class="t">technical impact,</text>
+<text x="426.0" y="488.0" class="t">at ever wider scope</text>
+<path d="M110.9 589.1 Q341.5 591.3 570.4 590.4 Q570.3 612.7 569.4 634.0 Q341.0 633.0 110.7 634.6 Q109.7 611.6 109.9 589.8 Z" class="f-a3 k"/>
+<text x="340.0" y="620.0" class="t t-mid">first, check both roads exist where you work</text>
+</svg>

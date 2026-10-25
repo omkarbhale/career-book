@@ -1,0 +1,59 @@
+# Sources added for Chapter 22 (The Whole Career) that are not in a research registry.
+# Every entry was opened on 2026-10-25; url_note says exactly what was read.
+
+allan2019:
+  type: article
+  authors: ['Allan, Blake A.', 'Batz-Barbarich, Cassondra', 'Sterling, Haley M.', 'Tay, Louis']
+  year: 2019
+  title: 'Outcomes of Meaningful Work: A Meta-Analysis'
+  container: Journal of Management Studies
+  volume: '56'
+  issue: '3'
+  pages: 500-528
+  doi: 10.1111/joms.12406
+  url: https://doi.org/10.1111/joms.12406
+  url_checked: '2026-10-25'
+  url_note: >-
+    DOI resolved; abstract read via the OpenAlex API (published online 2018, issue 2019). Not flagged
+    as retracted.
+  kind: evidence
+  design: meta-analysis with meta-analytic structural equation modelling
+  supports: >-
+    Across 44 articles (N = 23,144), meaningful work had large correlations (r = .70 and above) with
+    work engagement, commitment and job satisfaction; moderate to large correlations (r = .44 to -.49)
+    with life satisfaction, life meaning, general health and (negatively) withdrawal intentions; and
+    small to moderate correlations (r = -.19 to .33) with organisational citizenship behaviours,
+    self-rated job performance and negative affect. The best-fitting model had meaningful work
+    predicting engagement, commitment and satisfaction, which in turn predicted self-rated performance,
+    citizenship and withdrawal intentions.
+  sample: 44 articles, N = 23,144.
+  grade: strong
+  caveats: >-
+    Correlational primary studies; performance is self-rated. The abstract gives ranges, not the
+    correlation for each outcome, so only the ranges are printed.
+
+davidson2010:
+  type: article
+  authors: ['Davidson, Oranit B.', 'Eden, Dov', 'Westman, Mina', 'Cohen-Charash, Yochi', 'Hammer, Leslie B.', 'Kluger, Avraham N.', 'Krausz, Moshe', 'Maslach, Christina', "O'Driscoll, Michael", 'Perrewé, Pamela L.', 'Quick, James Campbell', 'Rosenblatt, Zehava', 'Spector, Paul E.']
+  year: 2010
+  title: 'Sabbatical leave: Who gains and how much?'
+  container: Journal of Applied Psychology
+  volume: '95'
+  issue: '5'
+  pages: 953-964
+  doi: 10.1037/a0020068
+  url: https://doi.org/10.1037/a0020068
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the OpenAlex API. Not flagged as retracted.
+  kind: evidence
+  design: quasi-experiment with matched controls, measured before, during and after
+  supports: >-
+    Among 129 faculty members on sabbatical, resource loss declined and resource gain and well-being
+    rose during the sabbatical, while 129 matched controls showed no change. Well-being rose more for
+    those with higher respite self-efficacy and more control, who were more detached from work, who had
+    a more positive sabbatical experience, and who spent it outside their home country.
+  sample: 129 university faculty on sabbatical and 129 matched controls.
+  grade: moderate
+  caveats: >-
+    Academics, for whom sabbaticals are routine; the published abstract does not say how long the gains
+    lasted after people returned to work.

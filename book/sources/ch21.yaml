@@ -1,0 +1,162 @@
+# Sources added for Chapter 21 (The Fork: Expert or Manager?) that are not in a research registry.
+# Every entry was opened on 2026-10-25; url_note says exactly what was read.
+
+hoffman2021:
+  type: article
+  authors: ['Hoffman, Mitchell', 'Tadelis, Steven']
+  year: 2021
+  title: 'People Management Skills, Employee Attrition, and Manager Rewards: An Empirical Analysis'
+  container: Journal of Political Economy
+  volume: '129'
+  issue: '1'
+  pages: 243-285
+  doi: 10.1086/711409
+  url: https://doi.org/10.1086/711409
+  url_checked: '2026-10-25'
+  url_note: >-
+    DOI resolved; bibliographic data and abstract read via the OpenAlex API (published online 2020,
+    volume 129, issue 1, 2021). Not flagged as retracted.
+  kind: evidence
+  design: personnel data with several identification strategies (new hires, workers switching managers)
+  supports: >-
+    In personnel data from a large high-tech firm, survey-measured "people management skills" (a
+    manager's interpersonal skills with subordinates) had a strong negative relation to employee
+    turnover, and research designs using new workers joining and workers switching managers support a
+    causal reading. These skills did not consistently improve most other measured outcomes. Better
+    people managers themselves received higher subjective performance ratings, higher promotion rates
+    and larger salary increases.
+  sample: One large US high-tech firm's personnel and survey data.
+  grade: strong
+  caveats: >-
+    One firm; skills are measured by subordinates' survey answers; effects on outcomes other than
+    attrition were inconsistent.
+
+garvin2013:
+  type: magazine
+  authors: ['Garvin, David A.']
+  year: 2013
+  title: How Google Sold Its Engineers on Management
+  container: Harvard Business Review
+  volume: '91'
+  issue: '12'
+  url: https://hbr.org/2013/12/how-google-sold-its-engineers-on-management
+  url_checked: '2026-10-25'
+  url_note: >-
+    Article page read in full except the sidebar listing all eight behaviours, which was truncated, so
+    only the behaviours named in the main text are used.
+  kind: evidence
+  design: case study of one company's internal people-analytics project (Project Oxygen)
+  supports: >-
+    Google's people-analytics team set out to test whether managers mattered and, in its own words,
+    "ended up trying to prove the opposite case - that managers don't matter. Luckily, we failed."
+    In 2008 teams with high-scoring managers had less turnover, and retention related more strongly to
+    manager quality than to seniority, performance, tenure or promotions. The behaviours it identified
+    describe first- and second-level managers and involve developing and motivating direct reports,
+    communicating strategy and removing roadblocks; employee surveys asked about activities such as
+    giving actionable feedback regularly and communicating team goals clearly. One manager quoted says
+    he spends "a third to half" of his time helping team members grow.
+  sample: One company's employee surveys, reviews and interviews (numbers not given in the article).
+  grade: weak
+  caveats: >-
+    A business-school case written from the company's internal analysis, not a peer-reviewed study;
+    one company with an unusual engineering culture.
+  flags: [not-peer-reviewed]
+
+graham2009:
+  type: post
+  authors: ['Graham, Paul']
+  year: 2009
+  title: Maker's Schedule, Manager's Schedule
+  url: https://paulgraham.com/makersschedule.html
+  url_checked: '2026-10-25'
+  url_note: Essay read in full on the author's site.
+  kind: practitioner
+  design: essay
+  supports: >-
+    Distinguishes the "manager's schedule", in which the day is cut into one-hour intervals and you
+    change what you are doing every hour, from the "maker's schedule" of people who make things, who
+    prefer units of at least half a day; for a maker, a single meeting can break an afternoon into
+    pieces too small to do anything hard in.
+  sample: None (the author's experience as a programmer and investor).
+  grade: weak
+  caveats: An essay by an investor and programmer; a useful distinction, not a finding.
+  flags: [practitioner]
+
+chan2001:
+  type: article
+  authors: ['Chan, Kim-Yin', 'Drasgow, Fritz']
+  year: 2001
+  title: 'Toward a theory of individual differences and leadership: Understanding the motivation to lead'
+  container: Journal of Applied Psychology
+  volume: '86'
+  issue: '3'
+  pages: 481-498
+  doi: 10.1037/0021-9010.86.3.481
+  url: https://doi.org/10.1037/0021-9010.86.3.481
+  url_checked: '2026-10-25'
+  url_note: >-
+    Abstract read via the OpenAlex API. The definitions of the three factors were read in the summary
+    by Kennedy et al. (2021), which quotes the paper (key kennedy2021).
+  kind: evidence
+  design: theory plus a large-scale study in three samples
+  supports: >-
+    Proposes "motivation to lead" as an individual difference with three factors - affective-identity,
+    noncalculative and social-normative - found across three samples in different occupational and
+    cultural contexts, adding predictive validity beyond cognitive ability, values, personality and
+    attitudes for two behavioural measures of leadership potential.
+  sample: Three samples, including military recruits (details not in the abstract).
+  grade: moderate
+  caveats: Abstract-level; the factor definitions come from a later paper's summary.
+
+kennedy2021:
+  type: article
+  authors: ['Kennedy, Jeffrey C.', 'Chan, Kim-Yin', 'Ho, Moon-Ho Ringo', 'Uy, Marilyn Ang', 'Chernyshenko, Oleksandr S.']
+  year: 2021
+  title: Motivation to Lead as Mediator of Relations Between the Dark Triad, Big Five, and Leadership Intention
+  container: Frontiers in Psychology
+  volume: '12'
+  pages: '675347'
+  doi: 10.3389/fpsyg.2021.675347
+  url: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.675347/full
+  url_checked: '2026-10-25'
+  url_note: Open-access full text; the literature-review section on Chan and Drasgow (2001) read.
+  kind: review
+  design: literature summary (cited only for its definitions of the three motivation-to-lead factors)
+  supports: >-
+    Summarises Chan and Drasgow's three factors: affective-identity motivation to lead ("the extent one
+    enjoys leading others and identifies as a leader"), social-normative ("the extent one treats
+    leadership as a responsibility and duty") and non-calculative ("the extent that one views
+    leadership opportunities positively despite the potential costs and/or minimal personal benefits
+    of leading").
+  sample: Not used for its own findings (750 university students).
+  grade: moderate
+  caveats: Used only as a reliable summary of definitions; its own study is not cited.
+
+badura2020:
+  type: article
+  authors: ['Badura, Katie L.', 'Grijalva, Emily', 'Galvin, Benjamin M.', 'Owens, Bradley P.', 'Joseph, Dana L.']
+  year: 2020
+  title: 'Motivation to lead: A meta-analysis and distal-proximal model of motivation and leadership'
+  container: Journal of Applied Psychology
+  volume: '105'
+  issue: '4'
+  pages: 331-354
+  doi: 10.1037/apl0000439
+  url: https://doi.org/10.1037/apl0000439
+  url_checked: '2026-10-25'
+  url_note: >-
+    DOI resolved; abstract read via the OpenAlex API (published online 2019, issue 2020). Not flagged
+    as retracted.
+  kind: evidence
+  design: meta-analysis and meta-analytic path analysis
+  supports: >-
+    Across 1,154 effect sizes from 100 primary studies, the three types of motivation to lead
+    (affective-identity, social-normative, noncalculative) were only modestly correlated with each
+    other and had different antecedents, and were generally associated with emerging as a leader,
+    with more beneficial leadership behaviours and with performing more effectively in leadership
+    roles. Traits often seen as good for leadership (extraversion, conscientiousness, openness) may
+    have a darker side transmitted through motivation to lead.
+  sample: 100 primary studies, 1,154 effect sizes.
+  grade: strong
+  caveats: >-
+    Abstract-level; effect sizes per type are not used here. Mostly correlational primary studies.
