@@ -1,0 +1,730 @@
+# Resources recommended in the appendix "Left Out, on Purpose" (book/back/left-out.md).
+# Every entry was opened on 2026-10-25, and url_note says exactly what was read. DESIGN.md §13's
+# vetting rules apply: each resource exists, is reputable, is worth a reader's time, carries no
+# affiliate or tracking links, and is labelled honestly through `kind`.
+# Books link to their Open Library work page (a library-neutral catalogue) or the publisher.
+
+# ------------------------------------------------------------------ managing people
+
+hill2019:
+  type: book
+  authors: ['Hill, Linda A.']
+  year: 2019
+  title: Becoming a Manager
+  container: Harvard Business Review Press
+  url: https://openlibrary.org/works/OL20154102W
+  url_checked: '2026-10-25'
+  url_note: >-
+    Open Library work record (Harvard Business Review Press, 2019; ISBN 9781633696969) and the
+    publisher's description it carries; an earlier record shows the first edition in 1992 and a second
+    edition from Harvard Business School Press. The book itself was not read.
+  kind: evidence
+  design: qualitative longitudinal study (interviews) of new managers through their first year
+  supports: >-
+    Follows nineteen new managers through their first year in the role, using interviews, to show what
+    the transition from individual performer to manager involves: learning to lead others rather than
+    do the work, winning trust and respect, motivating, and balancing delegation and control.
+  sample: Nineteen new managers, first year.
+  grade: moderate
+  caveats: Small qualitative sample; the book was not read in full here, only its description.
+
+fournier2017:
+  type: book
+  authors: ['Fournier, Camille']
+  year: 2017
+  title: "The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change"
+  container: O'Reilly Media
+  url: https://openlibrary.org/works/OL19860807W
+  url_checked: '2026-10-25'
+  url_note: Open Library work record (O'Reilly Media, 2017; ISBN 9781491973899) and the publisher's description.
+  kind: practitioner
+  design: practitioner guide
+  supports: >-
+    A practical guide by a tech lead turned CTO through each stage from engineer to technical manager,
+    from mentoring interns to working with senior staff, for new managers, mentors and more experienced
+    leaders.
+  sample: None (the author's experience).
+  grade: weak
+  caveats: One practitioner's experience; technology industry.
+  flags: [practitioner]
+
+zhuo2019:
+  type: book
+  authors: ['Zhuo, Julie']
+  year: 2019
+  title: The Making of a Manager
+  container: Portfolio (Penguin Random House)
+  url: https://www.juliezhuo.com/book/manager.html
+  url_checked: '2026-10-25'
+  url_note: >-
+    The author's book page, and the Open Library record (OL20159758W) for publisher and year; the book
+    itself was not read.
+  kind: practitioner
+  design: practitioner guide
+  supports: >-
+    A field guide for new managers written by someone who became a manager at twenty-five, covering
+    hiring and firing, meetings, planning and looking after people's careers.
+  sample: None (the author's experience).
+  grade: weak
+  caveats: One practitioner's experience at a large technology company.
+  flags: [practitioner]
+
+# ------------------------------------------------------- freelancing and founding
+
+camuffo2020:
+  type: article
+  authors: ['Camuffo, Arnaldo', 'Cordova, Alessandro', 'Gambardella, Alfonso', 'Spina, Chiara']
+  year: 2020
+  title: 'A Scientific Approach to Entrepreneurial Decision Making: Evidence from a Randomized Control Trial'
+  container: Management Science
+  volume: '66'
+  issue: '2'
+  pages: 564-586
+  doi: 10.1287/mnsc.2018.3249
+  url: https://doi.org/10.1287/mnsc.2018.3249
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the OpenAlex API (published online 2019, issue 2020). Not flagged as retracted.
+  kind: evidence
+  design: randomised controlled trial
+  supports: >-
+    In a trial with 116 Italian startups observed about a year, founders taught to treat their ideas as
+    hypotheses and test them rigorously, as scientists do, performed better and were more likely to
+    pivot to a different idea than a control group given the same general training, without being more
+    likely to drop out early.
+  sample: 116 early-stage Italian startups, 16 data points over about a year.
+  grade: strong
+  caveats: One country and one training programme; early-stage outcomes.
+
+wasserman2013:
+  type: book
+  authors: ['Wasserman, Noam']
+  year: 2013
+  title: "The Founder's Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup"
+  container: Princeton University Press
+  url: https://press.princeton.edu/books/paperback/9780691158303/the-founders-dilemmas
+  url_checked: '2026-10-25'
+  url_note: >-
+    Publisher's page (paperback, 2013; the hardback appeared in 2012), read via a web-fetch tool; Open
+    Library records confirm both editions.
+  kind: evidence
+  design: book based on a decade of research and quantitative data on founders
+  supports: >-
+    Draws on a decade of research and quantitative data on almost ten thousand founders to examine the
+    early decisions that sink or save startups.
+  sample: Almost ten thousand founders (as described by the publisher).
+  grade: moderate
+  caveats: Mostly US technology and life-science startups; the book was not read in full here.
+
+govuk-selfemployed:
+  type: government
+  authors: ['GOV.UK']
+  year: 2026
+  title: Working for yourself
+  url: https://www.gov.uk/working-for-yourself
+  url_checked: '2026-10-25'
+  url_note: Official UK government page opened; links to becoming a sole trader (gov.uk/become-sole-trader) also opened.
+  kind: law
+  design: official guidance
+  supports: The UK government's starting point for working for yourself, including setting up as a sole trader.
+  sample: n/a
+  grade: strong
+  caveats: UK only; tax and legal details change, so read the current page.
+
+sba-guide:
+  type: government
+  authors: ['U.S. Small Business Administration']
+  year: 2026
+  title: Business guide
+  url: https://www.sba.gov/business-guide
+  url_checked: '2026-10-25'
+  url_note: Official page opened (it redirected to the SBA counselling page, which carries the guide's contents).
+  kind: law
+  design: official guidance
+  supports: >-
+    The US Small Business Administration's guide to planning, launching and managing a small business,
+    from market research and business plans to registering, licences and taxes, plus free counselling.
+  sample: n/a
+  grade: strong
+  caveats: US federal; state rules differ.
+
+startupindia:
+  type: government
+  authors: ['Startup India, Government of India']
+  year: 2026
+  title: Startup India
+  url: https://www.startupindia.gov.in/
+  url_checked: '2026-10-25'
+  url_note: Official portal home page opened; its detailed content loads with JavaScript and was not read.
+  kind: law
+  design: official portal
+  supports: The Government of India's official Startup India portal, with a toll-free helpline.
+  sample: n/a
+  grade: moderate
+  caveats: Only the home page could be read; check its schemes and registration rules directly.
+
+# ------------------------------------------------------------------------- money
+
+lusardi2014:
+  type: article
+  authors: ['Lusardi, Annamaria', 'Mitchell, Olivia S.']
+  year: 2014
+  title: 'The Economic Importance of Financial Literacy: Theory and Evidence'
+  container: Journal of Economic Literature
+  volume: '52'
+  issue: '1'
+  pages: 5-44
+  doi: 10.1257/jel.52.1.5
+  url: https://doi.org/10.1257/jel.52.1.5
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the OpenAlex API.
+  kind: review
+  design: review of economic research
+  supports: >-
+    Reviews the research on financial literacy: how much (or how little) people know, which groups know
+    least, how financial literacy relates to economic decisions in the US and elsewhere, and what works
+    to close the gaps.
+  sample: Review.
+  grade: strong
+  caveats: Published in 2014; the field has grown since.
+
+investorgov:
+  type: government
+  authors: ['U.S. Securities and Exchange Commission']
+  year: 2026
+  title: Investor.gov
+  url: https://www.investor.gov/introduction-investing
+  url_checked: '2026-10-25'
+  url_note: Official SEC investor-education site opened (home page and "Introduction to Investing").
+  kind: law
+  design: official investor education
+  supports: The US Securities and Exchange Commission's free investor-education site, starting from the basics of investing.
+  sample: n/a
+  grade: strong
+  caveats: US only; education, not personal advice.
+
+govuk-workplace-pensions:
+  type: government
+  authors: ['GOV.UK']
+  year: 2026
+  title: Workplace pensions
+  url: https://www.gov.uk/workplace-pensions
+  url_checked: '2026-10-25'
+  url_note: Official page opened and read.
+  kind: law
+  design: official guidance
+  supports: >-
+    A workplace pension is arranged by your employer: a percentage of your pay goes into the scheme
+    automatically every payday, in most cases your employer adds money too, and you may get tax relief;
+    the page is part of the government's step-by-step guide to planning retirement income.
+  sample: n/a
+  grade: strong
+  caveats: UK only.
+
+sebi-investor:
+  type: government
+  authors: ['Securities and Exchange Board of India']
+  year: 2026
+  title: SEBI Investor website
+  url: https://investor.sebi.gov.in/
+  url_checked: '2026-10-25'
+  url_note: Official home page opened; it offers Hindi and English and lists a toll-free investor helpline.
+  kind: law
+  design: official investor education
+  supports: The Securities and Exchange Board of India's investor website, with investor education ("Learn to manage your money") and a toll-free helpline.
+  sample: n/a
+  grade: strong
+  caveats: India only; education, not personal advice.
+
+# ------------------------------------------------------------- employment law
+
+acas:
+  type: government
+  authors: ['Acas']
+  year: 2026
+  title: Acas advice
+  url: https://www.acas.org.uk/advice
+  url_checked: '2026-10-25'
+  url_note: Official home page and advice index opened and read.
+  kind: law
+  design: official advice service
+  supports: >-
+    Acas gives employees and employers free, impartial advice on workplace rights, rules and best
+    practice, and helps resolve disputes; its advice covers England, Scotland and Wales, including pay
+    and hours, leave, discrimination and bullying, contracts, resignation and dismissal.
+  sample: n/a
+  grade: strong
+  caveats: Great Britain only (Northern Ireland has its own service).
+
+eeoc-charge:
+  type: government
+  authors: ['U.S. Equal Employment Opportunity Commission']
+  year: 2026
+  title: How to File a Charge of Employment Discrimination
+  url: https://www.eeoc.gov/how-file-charge-employment-discrimination
+  url_checked: '2026-10-25'
+  url_note: Official page opened.
+  kind: law
+  design: official guidance
+  supports: The US federal agency's guide to filing a charge of employment discrimination, with an online portal.
+  sample: n/a
+  grade: strong
+  caveats: US federal law; states have their own agencies and deadlines.
+
+dol-whd:
+  type: government
+  authors: ['U.S. Department of Labor']
+  year: 2026
+  title: Wage and Hour Division
+  url: https://www.dol.gov/agencies/whd
+  url_checked: '2026-10-25'
+  url_note: Official page read via a web-fetch tool (scripted fetches were refused).
+  kind: law
+  design: official guidance
+  supports: The US Department of Labor's Wage and Hour Division, covering wages, the Family and Medical Leave Act, child labour and state minimum-wage laws.
+  sample: n/a
+  grade: strong
+  caveats: US federal; states add rules.
+
+youreurope-work:
+  type: government
+  authors: ['European Union']
+  year: 2026
+  title: Work and retirement - Your Europe
+  url: https://europa.eu/youreurope/citizens/work/index_en.htm
+  url_checked: '2026-10-25'
+  url_note: Official EU portal page opened.
+  kind: law
+  design: official guidance
+  supports: The EU's official guide to rights at work and retirement for people living and working in EU countries, in all EU languages.
+  sample: n/a
+  grade: strong
+  caveats: Explains EU-level rights; national law sets most details.
+
+# ----------------------------------------------------------------- immigration
+
+uscis-work:
+  type: government
+  authors: ['U.S. Citizenship and Immigration Services']
+  year: 2026
+  title: Working in the United States
+  url: https://www.uscis.gov/working-in-the-united-states
+  url_checked: '2026-10-25'
+  url_note: Official page opened.
+  kind: law
+  design: official guidance
+  supports: USCIS's starting point for working in the US, covering permanent and temporary (nonimmigrant) workers and how to avoid immigration scams.
+  sample: n/a
+  grade: strong
+  caveats: Rules change often; check the current page.
+
+govuk-workvisas:
+  type: government
+  authors: ['GOV.UK']
+  year: 2026
+  title: Work in the UK
+  url: https://www.gov.uk/browse/visas-immigration/work-visas
+  url_checked: '2026-10-25'
+  url_note: Official page opened.
+  kind: law
+  design: official guidance
+  supports: The UK government's index of work visas, including the Skilled Worker, Graduate and Global Talent visas, and right-to-work checks.
+  sample: n/a
+  grade: strong
+  caveats: Rules change often; check the current page.
+
+eu-immigration-portal:
+  type: government
+  authors: ['European Commission']
+  year: 2025
+  title: EU Immigration Portal
+  url: https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en
+  url_checked: '2026-10-25'
+  url_note: Official page opened (dated 1 April 2025).
+  kind: law
+  design: official guidance
+  supports: >-
+    The European Commission's practical information about coming to the EU for work, study or family
+    reunification for stays longer than 90 days, and about moving from one EU country to another, with
+    pages for each member state and type of worker.
+  sample: n/a
+  grade: strong
+  caveats: Member states issue the permits; national rules decide.
+
+india-evisa:
+  type: government
+  authors: ['Government of India']
+  year: 2026
+  title: Indian Visa Online (e-Visa)
+  url: https://indianvisaonline.gov.in/evisa/tvoa.html
+  url_checked: '2026-10-25'
+  url_note: Official e-Visa page opened.
+  kind: law
+  design: official portal
+  supports: The Government of India's official online visa portal, for foreign nationals coming to India.
+  sample: n/a
+  grade: strong
+  caveats: >-
+    For people coming to India. For Indian citizens going abroad to work, the Ministry of External
+    Affairs' emigration portal (emigrate.gov.in) loads only with JavaScript and could not be read here.
+
+# ----------------------------------------------------- mental health beyond burnout
+
+who2022-mhwork:
+  type: report
+  authors: ['World Health Organization']
+  year: 2022
+  title: Guidelines on mental health at work
+  url: https://www.who.int/publications/i/item/9789240053052
+  url_checked: '2026-10-25'
+  url_note: WHO publication page opened and its overview read (published 28 September 2022).
+  kind: review
+  design: evidence-based guidelines
+  supports: >-
+    WHO's evidence-based recommendations to promote mental health at work, prevent mental health
+    conditions, and help people with mental health conditions participate and thrive in work, covering
+    organisational interventions, manager and worker training, individual interventions, return to work
+    and gaining employment.
+  sample: Guidelines based on systematic reviews.
+  grade: strong
+  caveats: Written mainly for employers and policymakers rather than individuals.
+
+nhs-talking:
+  type: government
+  authors: ['NHS']
+  year: 2026
+  title: Find NHS talking therapies for anxiety and depression
+  url: https://www.nhs.uk/nhs-services/mental-health-services/find-nhs-talking-therapies-for-anxiety-and-depression/
+  url_checked: '2026-10-25'
+  url_note: Official NHS page opened.
+  kind: law
+  design: official health service
+  supports: >-
+    The NHS service for referring yourself to talking therapies for anxiety and depression, for adults
+    in England; you do not need a diagnosed condition to refer yourself.
+  sample: n/a
+  grade: strong
+  caveats: England only; Scotland, Wales and Northern Ireland run their own services.
+
+lifeline988:
+  type: web
+  authors: ['988 Suicide & Crisis Lifeline']
+  year: 2026
+  title: 988 Lifeline
+  url: https://988lifeline.org/get-help/
+  url_checked: '2026-10-25'
+  url_note: Official site opened ("Get Help" page).
+  kind: law
+  design: national crisis line
+  supports: 'The US 988 Lifeline: free, confidential support by call, text or chat, including in Spanish.'
+  sample: n/a
+  grade: strong
+  caveats: US only. For an emergency, call your local emergency number.
+
+telemanas:
+  type: government
+  authors: ['Press Information Bureau, Government of India']
+  year: 2025
+  title: Update on National Tele Mental Health Programme (NTMHP)
+  url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2118790
+  url_checked: '2026-10-25'
+  url_note: >-
+    Official PIB press release opened and read. The Tele-MANAS site itself (telemanas.mohfw.gov.in)
+    failed a TLS certificate check and loads with JavaScript, so it was not read.
+  kind: law
+  design: official programme description
+  supports: >-
+    India's National Tele Mental Health Programme, launched on 10 October 2022, provides 24x7 tele-mental
+    health counselling through a toll-free number, 14416; as of 1 April 2025, 36 states and union
+    territories had set up 53 Tele-MANAS cells, with services in 20 languages, and a mobile app launched
+    on 10 October 2024.
+  sample: n/a
+  grade: strong
+  caveats: Press release figures date from 2025.
+
+# ----------------------------------------------------------------- salary data
+
+bls-oews:
+  type: dataset
+  authors: ['U.S. Bureau of Labor Statistics']
+  year: 2026
+  title: Occupational Employment and Wage Statistics
+  url: https://www.bls.gov/oes/
+  url_checked: '2026-10-25'
+  url_note: Official page read via a web-fetch tool (scripted fetches were refused).
+  kind: data
+  design: official statistics
+  supports: >-
+    Employment and wage estimates published annually for about 830 occupations, for the US and for
+    individual states and metropolitan and non-metropolitan areas; the latest release (May 2026) reports
+    May 2025 figures.
+  sample: US employer survey.
+  grade: strong
+  caveats: Occupation-level estimates; they cannot show pay at one company or level.
+
+ons-ashe2025:
+  type: dataset
+  authors: ['Office for National Statistics']
+  year: 2025
+  title: 'Employee earnings in the UK: 2025'
+  url: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2025
+  url_checked: '2026-10-25'
+  url_note: Official bulletin opened and read.
+  kind: data
+  design: official statistics (Annual Survey of Hours and Earnings)
+  supports: >-
+    The UK's Annual Survey of Hours and Earnings: median weekly earnings for full-time employees were
+    £766.60 in April 2025, with earnings broken down by occupation and industry.
+  sample: UK employee earnings survey.
+  grade: strong
+  caveats: Published annually; a year old by the time it appears.
+
+eurostat-ses:
+  type: dataset
+  authors: ['Eurostat']
+  year: 2026
+  title: Earnings - Labour market
+  url: https://ec.europa.eu/eurostat/web/labour-market/information-data/earnings
+  url_checked: '2026-10-25'
+  url_note: Official page opened and read.
+  kind: data
+  design: official statistics (Structure of Earnings Survey)
+  supports: >-
+    Eurostat's four-yearly Structure of Earnings Survey gives comparable EU-level data on earnings by
+    employee characteristics, including sex, age, occupation, length of service and education, and by
+    employer characteristics, for businesses with 10 or more employees.
+  sample: EU employer survey.
+  grade: strong
+  caveats: Four-yearly; national statistics offices publish more current figures.
+
+levelsfyi:
+  type: web
+  authors: ['Levels.fyi']
+  year: 2026
+  title: Levels.fyi
+  url: https://www.levels.fyi/about/
+  url_checked: '2026-10-25'
+  url_note: About page and its "How we verify" section read.
+  kind: data
+  design: crowdsourced compensation data
+  supports: >-
+    A compensation platform built from pay data shared by the people earning it, by company, level and
+    location; it weights submissions by proof (offer letters, tax documents and pay stubs most, verified
+    work emails next, anonymous submissions after statistical screening).
+  sample: Self-reported submissions.
+  grade: weak
+  caveats: >-
+    Self-selected and concentrated in technology; a commercial company that also sells negotiation
+    coaching and data products.
+  flags: [commercial]
+
+# -------------------------------------------------------- technical interview practice
+
+techinterviewhandbook:
+  type: web
+  authors: ['Tay, Yangshun']
+  year: 2026
+  title: Tech Interview Handbook
+  url: https://www.techinterviewhandbook.org/
+  url_checked: '2026-10-25'
+  url_note: Site and its software-engineering interview guide opened; the author is named on its GitHub repository (github.com/yangshun/tech-interview-handbook).
+  kind: practitioner
+  design: free practitioner guide
+  supports: >-
+    Free, curated interview preparation material for software engineers: résumés, a step-by-step coding
+    preparation plan, practice question lists, mock interviews and behavioural interviews.
+  sample: None (practitioner material).
+  grade: weak
+  caveats: Practitioner material; the site also promotes a paid front-end platform by the same author.
+  flags: [practitioner]
+
+mcdowell2025:
+  type: book
+  authors: ['McDowell, Gayle Laakmann', 'Mroczka, Mike', 'Lerner, Aline', 'Mamano, Nil']
+  year: 2025
+  title: Beyond Cracking the Coding Interview
+  container: CareerCup
+  url: https://openlibrary.org/works/OL42570617W
+  url_checked: '2026-10-25'
+  url_note: >-
+    Open Library work record (CareerCup, 2025) and a co-author's post on interviewing.io describing the
+    book and releasing nine chapters free
+    (https://interviewing.io/blog/nine-free-chapters-of-beyond-cracking-the-coding-interview).
+  kind: practitioner
+  design: practitioner guide
+  supports: >-
+    The official sequel to Cracking the Coding Interview; its free first chapters cover why technical
+    interviews are broken, what recruiters won't tell you and how to get in the door without a referral,
+    and two technical chapters are also free.
+  sample: None (practitioner material).
+  grade: weak
+  caveats: One co-author runs a commercial mock-interview company.
+  flags: [practitioner]
+
+# -------------------------------------------------------- personality tests and types
+
+barrick1991:
+  type: article
+  authors: ['Barrick, Murray R.', 'Mount, Michael K.']
+  year: 1991
+  title: 'The Big Five Personality Dimensions and Job Performance: A Meta-Analysis'
+  container: Personnel Psychology
+  volume: '44'
+  issue: '1'
+  pages: 1-26
+  doi: 10.1111/j.1744-6570.1991.tb00688.x
+  url: https://doi.org/10.1111/j.1744-6570.1991.tb00688.x
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the OpenAlex API.
+  kind: evidence
+  design: meta-analysis
+  supports: >-
+    Of the Big Five personality dimensions, conscientiousness showed consistent relations with all job
+    performance criteria across five occupational groups; extraversion predicted performance in
+    managerial and sales jobs; other dimensions predicted some criteria in some occupations, with small
+    correlations.
+  sample: Meta-analysis across five occupational groups and three performance criteria.
+  grade: strong
+  caveats: >-
+    A classic; later re-analyses revised validity estimates for many selection methods
+    (see sackett2022 in Part I).
+
+pittenger2005:
+  type: article
+  authors: ['Pittenger, David J.']
+  year: 2005
+  title: Cautionary comments regarding the Myers-Briggs Type Indicator
+  container: 'Consulting Psychology Journal: Practice and Research'
+  volume: '57'
+  issue: '3'
+  pages: 210-221
+  doi: 10.1037/1065-9293.57.3.210
+  url: https://doi.org/10.1037/1065-9293.57.3.210
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the OpenAlex API.
+  kind: review
+  design: critical review of psychometric evidence
+  supports: >-
+    Evaluates the psychometric limitations of the Myers-Briggs Type Indicator and concludes that,
+    despite its intuitive appeal, it may not support the claims its promoters make, so inferences from
+    its four-letter types warrant considerable caution.
+  sample: Review.
+  grade: moderate
+  caveats: A single critical review, written in response to an enthusiastic account of the MBTI's corporate uses.
+
+ipip:
+  type: dataset
+  authors: ['International Personality Item Pool']
+  year: 2026
+  title: International Personality Item Pool
+  url: https://ipip.ori.org/
+  url_checked: '2026-10-25'
+  url_note: Official home page and the Big-Five factor markers page opened.
+  kind: data
+  design: public-domain research instrument
+  supports: >-
+    The official site of the International Personality Item Pool: over 3,000 items and over 250 scales,
+    all in the public domain, including Big-Five factor markers with their reliabilities; launched in
+    1998 with an NIMH grant to Lewis R. Goldberg.
+  sample: n/a
+  grade: strong
+  caveats: Research items, not a polished consumer test; scores need interpreting with care.
+
+# ------------------------------------------------------- reading the research yourself
+
+greenhalgh2024:
+  type: book
+  authors: ['Greenhalgh, Trisha', 'Dijkstra, Hendrik P.']
+  year: 2024
+  title: How to Read a Paper
+  container: Wiley
+  url: https://openlibrary.org/works/OL38617653W
+  url_checked: '2026-10-25'
+  url_note: >-
+    Open Library work records for the current edition (Wiley, 2024) and the long-running original
+    (OL5839259W, first published by BMJ Books in 1997, 24 editions), whose jacket description was read.
+  kind: review
+  design: textbook on critical appraisal
+  supports: >-
+    A widely used introduction to evidence-based medicine that explains critical appraisal, how to
+    search the literature, how to evaluate different types of paper, and terms such as numbers needed
+    to treat.
+  sample: n/a
+  grade: strong
+  caveats: Written for health care; most, not all, of it transfers to research on work.
+
+osc2015:
+  type: article
+  authors: ['Open Science Collaboration']
+  year: 2015
+  title: Estimating the reproducibility of psychological science
+  container: Science
+  volume: '349'
+  issue: '6251'
+  pages: aac4716
+  doi: 10.1126/science.aac4716
+  url: https://doi.org/10.1126/science.aac4716
+  url_checked: '2026-10-25'
+  url_note: Abstract read via the OpenAlex API.
+  kind: evidence
+  design: large-scale replication project
+  supports: >-
+    Replications of 100 studies from three psychology journals found effects half the size of the
+    originals on average; 97% of original studies had significant results against 36% of replications,
+    and replication success was better predicted by the strength of the original evidence than by
+    characteristics of the teams.
+  sample: 100 replications.
+  grade: strong
+  caveats: Three journals from one year; replication methods themselves were later debated.
+
+retractionwatch:
+  type: web
+  authors: ['Crossref']
+  year: 2023
+  title: 'News: Crossref and Retraction Watch'
+  url: https://www.crossref.org/blog/news-crossref-and-retraction-watch/
+  url_checked: '2026-10-25'
+  url_note: Crossref announcement read; the Retraction Watch site (retractionwatch.com) was also opened.
+  kind: data
+  design: open database of retractions
+  supports: >-
+    On 12 September 2023 the Center for Scientific Integrity, which runs Retraction Watch, and Crossref,
+    both not-for-profits, announced that Crossref had acquired the Retraction Watch database and made it
+    a public resource, kept up to date and always open.
+  sample: n/a
+  grade: strong
+  caveats: A database records retractions, not every flawed paper.
+
+bergstrom2020:
+  type: book
+  authors: ['Bergstrom, Carl T.', 'West, Jevin D.']
+  year: 2020
+  title: Calling Bullshit
+  container: Random House / Allen Lane
+  url: https://callingbullshit.org/
+  url_checked: '2026-10-25'
+  url_note: >-
+    The authors' course site, including its syllabus page (University of Washington course INFO 270 /
+    BIOL 270, with readings and videos), and the Open Library record for the book (OL21102663W).
+  kind: review
+  design: book and university course on data reasoning
+  supports: >-
+    Two University of Washington professors' book and free course materials on detecting and defusing
+    misleading claims made with numbers, statistics and data graphics.
+  sample: n/a
+  grade: moderate
+  caveats: Broad data literacy rather than research methods in any one field.
+
+openalex:
+  type: web
+  authors: ['OpenAlex']
+  year: 2026
+  title: OpenAlex
+  url: https://help.openalex.org/
+  url_checked: '2026-10-25'
+  url_note: The OpenAlex help centre opened; the catalogue itself (openalex.org) needs JavaScript and was read through its API throughout this book's research.
+  kind: data
+  design: open catalogue of research
+  supports: A free and open catalogue of the world's research, searchable on the web and through a free API.
+  sample: n/a
+  grade: strong
+  caveats: Coverage of abstracts varies by publisher.

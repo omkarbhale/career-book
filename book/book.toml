@@ -357,6 +357,7 @@ kind = "epilogue"
 title = "Epilogue: The Loop"
 href = "epilogue.html"
 label = "E"
+file = "back/epilogue.md"
 summary = "Dev's next move, made from strength, Bea's referral, and the whole book on one page."
 covers = [
   "How the long game and the career game feed the next snapshot",

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 646" class="fig">
+<title>The edges of the map: what this book leaves out</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<path d="M340.0 218.0 Q339.0 157.2 340.3 95.5" class="k-thin k-dash k-mute"/>
+<path d="M428.2 235.6 Q434.8 186.2 440.4 137.3" class="k-thin k-dash k-mute"/>
+<path d="M482.7 281.6 Q491.7 263.3 501.8 243.9" class="k-thin k-dash k-mute"/>
+<path d="M482.7 338.4 Q492.7 357.9 501.3 375.9" class="k-thin k-dash k-mute"/>
+<path d="M428.2 384.4 Q434.2 433.4 440.2 482.8" class="k-thin k-dash k-mute"/>
+<path d="M340.0 402.0 Q339.2 462.8 339.4 524.3" class="k-thin k-dash k-mute"/>
+<path d="M251.8 384.4 Q245.1 432.2 240.3 483.0" class="k-thin k-dash k-mute"/>
+<path d="M197.3 338.4 Q187.9 356.3 178.5 376.1" class="k-thin k-dash k-mute"/>
+<path d="M197.3 281.6 Q186.4 263.3 177.8 244.1" class="k-thin k-dash k-mute"/>
+<path d="M251.8 235.6 Q246.3 186.1 239.7 137.4" class="k-thin k-dash k-mute"/>
+<ellipse cx="340" cy="310" rx="150" ry="92" class="f-soft k-thick"/>
+<text x="340.0" y="270.0" class="t t-sans t-mid">this book</text>
+<text x="340.0" y="304.0" class="t t-bold t-mid t-a1">snapshot</text>
+<text x="340.0" y="334.0" class="t t-bold t-mid t-a2">long game</text>
+<text x="340.0" y="364.0" class="t t-bold t-mid t-a4">career game</text>
+<ellipse cx="340.0" cy="66.0" rx="86" ry="36" class="f-a4 k"/>
+<text x="340.0" y="61.0" class="t t-mid">managing</text>
+<text x="340.0" y="87.0" class="t t-mid">people</text>
+<ellipse cx="486.9" cy="112.6" rx="86" ry="36" class="f-a1 k"/>
+<text x="486.9" y="107.6" class="t t-mid">founding,</text>
+<text x="486.9" y="133.6" class="t t-mid">freelancing</text>
+<ellipse cx="577.8" cy="234.6" rx="86" ry="36" class="f-a3 k"/>
+<text x="577.8" y="229.6" class="t t-mid">money beyond</text>
+<text x="577.8" y="255.6" class="t t-mid">the pay cheque</text>
+<ellipse cx="577.8" cy="385.4" rx="86" ry="36" class="f-a2 k"/>
+<text x="577.8" y="380.4" class="t t-mid">employment</text>
+<text x="577.8" y="406.4" class="t t-mid">law</text>
+<ellipse cx="486.9" cy="507.4" rx="86" ry="36" class="f-soft k"/>
+<text x="486.9" y="514.4" class="t t-mid">immigration</text>
+<ellipse cx="340.0" cy="554.0" rx="86" ry="36" class="f-a4 k"/>
+<text x="340.0" y="549.0" class="t t-mid">mental</text>
+<text x="340.0" y="575.0" class="t t-mid">health</text>
+<ellipse cx="193.1" cy="507.4" rx="86" ry="36" class="f-a1 k"/>
+<text x="193.1" y="502.4" class="t t-mid">salary</text>
+<text x="193.1" y="528.4" class="t t-mid">data</text>
+<ellipse cx="102.2" cy="385.4" rx="86" ry="36" class="f-a3 k"/>
+<text x="102.2" y="380.4" class="t t-mid">interview</text>
+<text x="102.2" y="406.4" class="t t-mid">drills</text>
+<ellipse cx="102.2" cy="234.6" rx="86" ry="36" class="f-a2 k"/>
+<text x="102.2" y="229.6" class="t t-mid">personality</text>
+<text x="102.2" y="255.6" class="t t-mid">types</text>
+<ellipse cx="193.1" cy="112.6" rx="86" ry="36" class="f-soft k"/>
+<text x="193.1" y="107.6" class="t t-mid">reading the</text>
+<text x="193.1" y="133.6" class="t t-mid">research</text>
+<text x="340.0" y="628.0" class="t t-mid t-mute">each ferry leaves from a chapter</text>
+</svg>
