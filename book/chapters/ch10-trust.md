@@ -1,6 +1,6 @@
 ---
 id: ch10
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. LANTERNFISH, KITCHEN — MONDAY, 8:55 AM"}
@@ -213,11 +213,11 @@ In [[ch19]], the ledger becomes currency. Promotion decisions lean on people spe
 
 If the ledger is the account, reciprocity is the engine that fills it.
 
-The sociologist Alvin Gouldner argued in 1960 that almost every society runs on a moral norm of reciprocity: help those who have helped you, and do not harm them [@gouldner1960]. The experiments came later. In a classic study, people who received an unsolicited soft drink from a stranger later bought more of his raffle tickets, and the favour worked whether or not they liked him [@regan1971]. Reviews place reciprocity among the core processes of social influence, often operating without people noticing [@cialdini2004].
+The sociologist Alvin Gouldner argued in 1960 that almost every society runs on a moral norm of reciprocity: help those who have helped you, and do not harm them [@gouldner1960]. The experiments came later, and you met the classic one in [[ch06.sec.give]]: people who received an unsolicited soft drink from a stranger later bought more of his raffle tickets, whether or not they liked him [@regan1971]. Reviews place reciprocity among the core processes of social influence, often operating without people noticing [@cialdini2004].
 
 Two findings make the norm more useful, and more human, than "always repay favours".
 
-**The obligation fades.** People returned a small favour five minutes later, but showed no reliable reciprocity a week later [@burger1997]. Reciprocity is not a bank loan with compound interest. That is good news: you do not need to keep score. Keeping score would not work anyway, because the two sides' books drift apart: as time passes, givers value a favour more and receivers value it less [@flynn2003-time]. It also means that favours work best as a *habit*, not a one-off investment you expect to cash in months later.
+**The obligation fades.** As [[ch06]] noted, people returned a small favour five minutes later, but showed no reliable reciprocity a week later [@burger1997]. Reciprocity is not a bank loan with compound interest. That is good news: you do not need to keep score. Keeping score would not work anyway, because the two sides' books drift apart: as time passes, givers value a favour more and receivers value it less [@flynn2003-time]. It also means that favours work best as a *habit*, not a one-off investment you expect to cash in months later.
 
 **Frequency matters as much as size.** In a survey of 161 employees at one large firm, Frank Flynn found that people seen as generous in exchanging favours had higher status, while those who kept their exchanges evenly balanced were more productive. People who exchanged favours *frequently* got some of both [@flynn2003]. The practical reading: give first, give small, give often [!view]. Run between the same two people for long enough, that rhythm of small favours is also how colleagues turn into friends, which brings its own rewards and complications in [[ch15]].
 

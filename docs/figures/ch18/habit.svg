@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 912" class="fig">
+<title>The year-long evidence habit</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { fill: var(--fig-ink, #26211c); font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<text x="24.0" y="40.0" class="t t-sans">Every week: one line</text>
+<rect x="66" y="64" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M64.7 64.8 Q79.4 63.4 95.6 64.5 Q96.1 77.7 96.2 94.6 Q79.6 94.4 66.3 94.7 Q67.3 80.5 65.2 63.3 Z" class="k-thin"/>
+<rect x="104" y="64" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M104.5 64.2 Q119.7 65.3 133.8 64.5 Q135.0 79.3 133.7 94.5 Q118.7 95.0 104.3 93.7 Q104.1 80.5 104.5 64.2 Z" class="k-thin"/>
+<rect x="142" y="64" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M141.7 62.6 Q156.2 64.6 171.8 64.6 Q171.4 80.0 172.3 93.3 Q158.1 93.1 142.4 94.4 Q141.3 79.9 141.5 63.8 Z" class="k-thin"/>
+<rect x="180" y="64" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M180.1 64.4 Q195.2 63.8 209.4 64.3 Q210.8 80.0 210.3 94.0 Q193.8 94.5 179.5 93.4 Q180.7 78.2 180.0 63.6 Z" class="k-thin k-mute"/>
+<rect x="218" y="64" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M216.8 63.1 Q231.7 63.3 248.6 63.2 Q248.2 80.4 248.6 94.0 Q233.8 92.4 217.9 93.5 Q216.6 79.9 218.0 64.0 Z" class="k-thin"/>
+<rect x="256" y="64" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M254.7 64.1 Q271.1 65.0 285.8 64.3 Q285.7 77.8 285.6 93.5 Q270.4 93.2 256.2 94.0 Q255.8 77.9 255.6 64.0 Z" class="k-thin"/>
+<rect x="294" y="64" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M295.0 62.7 Q310.3 64.1 324.6 64.4 Q322.6 77.7 324.4 94.7 Q310.4 95.6 293.4 94.5 Q294.6 79.6 294.5 64.4 Z" class="k-thin"/>
+<rect x="332" y="64" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M333.0 65.0 Q347.0 65.3 361.3 64.0 Q363.2 77.8 362.4 94.5 Q347.0 94.6 331.3 93.3 Q332.3 80.4 331.7 64.3 Z" class="k-thin k-mute"/>
+<rect x="370" y="64" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M371.4 63.6 Q384.1 62.5 399.7 63.3 Q401.3 78.3 400.1 94.1 Q386.2 92.8 370.1 94.0 Q369.2 78.2 370.1 64.1 Z" class="k-thin"/>
+<rect x="408" y="64" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M407.0 63.2 Q423.0 64.5 438.6 64.5 Q438.0 79.0 437.3 94.6 Q422.4 94.9 408.0 94.2 Q409.1 79.4 408.1 64.0 Z" class="k-thin k-mute"/>
+<rect x="446" y="64" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M445.0 64.8 Q460.3 62.5 475.3 63.2 Q475.0 78.7 475.7 94.1 Q460.5 94.5 445.5 94.4 Q446.5 79.6 446.0 63.4 Z" class="k-thin"/>
+<rect x="484" y="64" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M483.6 63.9 Q498.5 64.0 514.2 63.8 Q514.2 80.2 513.8 93.4 Q498.8 95.0 483.5 94.5 Q485.5 80.2 484.0 64.3 Z" class="k-thin k-mute"/>
+<rect x="522" y="64" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M521.5 65.2 Q537.1 65.1 551.3 63.5 Q552.7 78.7 552.4 93.9 Q538.1 95.5 521.9 93.5 Q521.5 77.9 522.6 63.7 Z" class="k-thin"/>
+<rect x="66" y="102" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M67.1 100.4 Q80.5 103.5 96.2 101.9 Q95.8 115.7 96.3 132.2 Q81.6 130.5 66.6 131.3 Q65.3 116.5 65.8 102.2 Z" class="k-thin k-mute"/>
+<rect x="104" y="102" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M102.6 101.7 Q118.9 100.6 133.7 101.5 Q134.1 117.1 133.6 132.0 Q119.5 131.0 104.7 132.6 Q105.5 116.9 104.4 102.7 Z" class="k-thin k-mute"/>
+<rect x="142" y="102" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M142.9 103.2 Q158.3 103.0 172.4 101.6 Q172.0 115.7 172.5 131.6 Q155.7 131.9 142.5 132.1 Q143.5 117.3 142.3 101.2 Z" class="k-thin k-mute"/>
+<rect x="180" y="102" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M180.7 102.8 Q195.7 100.9 209.2 102.5 Q208.7 117.8 209.8 131.4 Q195.8 133.5 180.5 132.7 Q181.1 115.8 180.6 102.0 Z" class="k-thin k-mute"/>
+<rect x="218" y="102" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M216.9 103.4 Q232.3 100.7 248.6 102.1 Q247.8 117.9 248.0 131.3 Q232.6 131.0 218.0 132.7 Q216.6 115.8 217.6 101.5 Z" class="k-thin k-mute"/>
+<rect x="256" y="102" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M257.4 102.9 Q269.8 103.2 286.7 102.0 Q286.0 118.0 286.0 131.2 Q271.3 131.7 256.5 131.9 Q254.9 115.5 256.2 101.7 Z" class="k-thin k-mute"/>
+<rect x="294" y="102" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M294.3 101.3 Q310.3 102.7 323.6 102.2 Q322.6 118.2 324.4 131.2 Q308.7 130.5 294.1 131.5 Q292.6 118.5 294.7 102.4 Z" class="k-thin k-mute"/>
+<rect x="332" y="102" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M332.0 101.2 Q345.8 101.1 362.1 101.4 Q363.3 117.3 362.3 132.7 Q348.1 130.9 331.6 132.2 Q332.5 118.3 332.8 102.0 Z" class="k-thin"/>
+<rect x="370" y="102" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M371.2 100.9 Q384.1 102.6 400.8 101.6 Q399.3 117.5 399.2 132.2 Q385.2 133.5 370.1 131.5 Q371.4 115.5 369.6 101.3 Z" class="k-thin"/>
+<rect x="408" y="102" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M406.6 102.9 Q423.9 102.5 437.6 101.5 Q437.5 117.7 437.5 131.5 Q422.2 132.6 407.7 131.5 Q406.5 118.4 407.8 101.4 Z" class="k-thin k-mute"/>
+<rect x="446" y="102" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M447.0 102.0 Q461.9 101.5 475.9 102.1 Q477.3 117.2 476.6 132.1 Q461.4 132.7 446.0 131.9 Q447.6 118.3 446.3 101.8 Z" class="k-thin"/>
+<rect x="484" y="102" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M485.5 101.8 Q498.4 102.8 514.1 101.9 Q512.5 117.8 513.2 131.6 Q499.1 130.6 483.4 132.7 Q483.0 118.4 484.4 102.7 Z" class="k-thin"/>
+<rect x="522" y="102" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M522.2 102.8 Q537.7 103.1 552.0 102.2 Q550.6 116.7 552.2 132.5 Q535.8 130.6 521.7 132.3 Q523.1 118.1 521.4 101.6 Z" class="k-thin k-mute"/>
+<rect x="66" y="140" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M66.3 141.4 Q79.7 138.8 96.8 139.4 Q95.3 153.6 95.6 170.0 Q81.8 169.8 65.4 170.0 Q66.8 155.5 66.7 139.5 Z" class="k-thin"/>
+<rect x="104" y="140" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M102.6 138.6 Q119.2 140.4 133.6 139.4 Q134.6 153.9 133.3 170.5 Q119.9 169.4 103.5 169.7 Q102.8 156.2 104.2 140.7 Z" class="k-thin"/>
+<rect x="142" y="140" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M142.4 140.4 Q155.7 141.2 171.8 139.3 Q170.9 154.4 171.8 170.4 Q157.4 170.8 142.0 170.3 Q141.1 155.2 142.6 139.5 Z" class="k-thin k-mute"/>
+<rect x="180" y="140" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M179.3 140.7 Q193.7 140.9 210.5 140.1 Q208.7 153.6 210.2 169.6 Q194.7 169.2 179.2 169.9 Q180.8 155.6 179.6 140.1 Z" class="k-thin"/>
+<rect x="218" y="140" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M218.8 141.5 Q233.8 141.5 247.2 139.6 Q249.3 154.9 248.8 169.3 Q232.9 169.6 218.7 169.6 Q219.5 155.7 217.7 140.0 Z" class="k-thin k-mute"/>
+<rect x="256" y="140" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M257.1 139.5 Q271.0 139.4 286.2 139.8 Q286.4 154.0 285.4 169.4 Q271.3 170.7 256.8 170.8 Q256.9 154.2 255.3 140.4 Z" class="k-thin"/>
+<rect x="294" y="140" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M294.1 140.0 Q309.8 141.3 324.6 140.6 Q323.6 155.2 324.1 170.6 Q308.0 169.4 293.4 170.1 Q293.4 156.3 294.1 139.9 Z" class="k-thin"/>
+<rect x="332" y="140" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M331.9 140.8 Q346.5 139.4 361.7 140.7 Q362.6 155.4 362.5 169.6 Q346.7 170.7 332.6 169.5 Q331.6 155.9 331.3 140.6 Z" class="k-thin"/>
+<rect x="370" y="140" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M370.3 138.8 Q386.0 141.1 400.0 140.2 Q399.7 156.1 399.3 169.2 Q385.6 170.5 369.6 170.7 Q370.9 155.0 369.8 140.6 Z" class="k-thin k-mute"/>
+<rect x="408" y="140" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M406.9 139.4 Q423.8 139.6 438.1 140.4 Q437.2 156.3 438.3 169.8 Q422.2 171.0 408.6 170.1 Q406.9 154.5 407.7 139.5 Z" class="k-thin k-mute"/>
+<rect x="446" y="140" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M446.4 139.5 Q461.9 140.3 476.4 139.8 Q474.5 153.5 475.9 169.3 Q460.3 168.4 445.8 169.9 Q446.2 155.6 446.8 140.3 Z" class="k-thin k-mute"/>
+<rect x="484" y="140" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M485.1 141.4 Q498.7 138.8 514.3 139.5 Q513.0 155.3 514.0 169.8 Q497.8 168.5 484.5 170.7 Q483.0 155.2 483.2 139.6 Z" class="k-thin k-mute"/>
+<rect x="522" y="140" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M520.4 138.8 Q535.6 139.4 552.6 139.6 Q553.2 154.1 551.6 170.3 Q536.0 169.2 521.5 170.1 Q521.5 153.4 521.7 140.1 Z" class="k-thin k-mute"/>
+<rect x="66" y="178" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M66.8 178.4 Q80.5 176.9 96.0 177.3 Q94.4 191.8 96.1 207.8 Q81.1 209.4 66.6 208.4 Q66.4 193.4 66.8 177.5 Z" class="k-thin"/>
+<rect x="104" y="178" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M103.3 176.6 Q120.2 176.9 133.3 178.3 Q133.5 194.3 133.7 207.3 Q117.4 208.5 104.1 208.0 Q103.9 191.6 104.2 177.2 Z" class="k-thin"/>
+<rect x="142" y="178" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M141.7 177.2 Q158.6 177.4 171.5 178.4 Q170.5 192.1 172.2 207.6 Q157.1 207.8 142.7 208.7 Q142.4 192.0 141.8 178.3 Z" class="k-thin"/>
+<rect x="180" y="178" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M181.1 178.6 Q193.4 178.2 209.9 178.1 Q209.8 193.9 210.7 207.3 Q195.6 206.5 180.0 208.0 Q179.4 194.2 179.7 177.2 Z" class="k-thin k-mute"/>
+<rect x="218" y="178" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M219.0 179.3 Q233.4 179.5 247.6 178.1 Q247.6 193.8 248.7 208.6 Q231.5 206.4 218.4 207.8 Q217.7 193.2 218.7 178.6 Z" class="k-thin"/>
+<rect x="256" y="178" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M257.2 178.0 Q272.3 178.4 285.9 177.8 Q286.4 191.7 285.4 207.6 Q271.9 207.1 255.6 207.9 Q256.9 194.1 255.9 178.5 Z" class="k-thin"/>
+<rect x="294" y="178" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M293.6 178.1 Q309.3 177.9 323.7 178.7 Q323.8 193.7 324.3 208.8 Q308.4 209.0 293.6 207.7 Q295.4 194.3 293.3 177.8 Z" class="k-thin k-mute"/>
+<rect x="332" y="178" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M332.6 177.4 Q347.3 179.4 362.5 178.4 Q362.8 192.7 361.5 208.6 Q348.4 207.5 331.6 208.3 Q331.2 194.6 331.5 178.1 Z" class="k-thin"/>
+<rect x="370" y="178" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M369.2 179.2 Q385.7 178.7 400.7 178.4 Q398.7 193.7 400.5 208.5 Q384.9 207.4 369.7 208.7 Q370.5 191.4 369.5 177.5 Z" class="k-thin"/>
+<rect x="408" y="178" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M407.7 177.7 Q423.6 178.6 438.5 178.7 Q438.2 194.0 438.5 208.1 Q423.6 208.1 407.6 207.9 Q408.2 192.4 407.2 177.8 Z" class="k-thin k-mute"/>
+<rect x="446" y="178" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M447.0 178.4 Q462.3 177.3 475.4 177.4 Q476.5 191.5 475.6 207.6 Q461.0 206.9 446.6 208.2 Q446.5 192.7 445.5 178.4 Z" class="k-thin"/>
+<rect x="484" y="178" width="30" height="30" rx="5" class="f-a3s"/>
+<path d="M483.0 177.2 Q500.3 179.0 513.3 177.5 Q512.8 194.3 513.6 207.4 Q500.0 206.9 484.7 207.4 Q483.9 192.2 483.8 178.8 Z" class="k-thin"/>
+<rect x="522" y="178" width="30" height="30" rx="5" class="f-paper"/>
+<path d="M520.8 176.5 Q537.7 177.7 551.2 178.2 Q552.7 193.0 552.5 208.2 Q536.5 209.2 521.6 208.2 Q521.9 192.9 522.5 177.4 Z" class="k-thin k-mute"/>
+<text x="66.0" y="242.0" class="t t-sm t-a1">spring: 7 empty weeks</text>
+<path d="M156.0 222.0 Q156.9 177.7 156.0 136.0" class="k-thin k-a1"/><path d="M156.0 136.0 L152.4 143.1 M156.0 136.0 L159.9 143.0" class="k-thin k-a1"/>
+<text x="616.0" y="242.0" class="t t-sm t-a1 t-end">autumn: 5 empty</text>
+<path d="M531.0 222.0 Q499.4 197.5 467.0 174.0" class="k-thin k-a1"/><path d="M467.0 174.0 L470.5 181.2 M467.0 174.0 L474.9 175.1" class="k-thin k-a1"/>
+<text x="24.0" y="280.0" class="t t-sm t-mute">Fill gaps from: sent messages, tickets, demo channel,</text>
+<text x="24.0" y="304.0" class="t t-sm t-mute">and two colleagues who remember.</text>
+<path d="M320.0 320.0 Q318.4 342.9 320.0 364.0" class="k"/><path d="M320.0 364.0 L324.8 353.0 M320.0 364.0 L313.6 353.9" class="k"/>
+<text x="24.0" y="404.0" class="t t-sans">Every quarter: three lines to your manager</text>
+<rect x="40" y="426" width="124" height="96" rx="8" class="f-a4"/>
+<path d="M39.3 425.9 Q101.8 425.0 164.5 425.5 Q163.5 475.2 163.8 521.8 Q100.4 521.5 40.5 521.9 Q38.7 475.2 39.4 426.1 Z" class="k-thin"/>
+<text x="54.0" y="454.0" class="t t-sm t-bold">Q1</text>
+<path d="M54.0 474.0 Q98.1 475.4 143.9 473.4" class="k-thin k-mute"/>
+<path d="M54.0 490.0 Q90.0 491.1 125.6 490.2" class="k-thin k-mute"/>
+<path d="M54.0 506.0 Q98.6 506.3 143.9 506.5" class="k-thin k-mute"/>
+<rect x="188" y="426" width="124" height="96" rx="8" class="f-a4"/>
+<path d="M189.2 425.9 Q249.1 427.4 312.2 425.8 Q312.9 473.4 312.4 521.3 Q249.1 521.5 188.8 521.6 Q188.7 473.7 187.6 426.6 Z" class="k-thin"/>
+<text x="202.0" y="454.0" class="t t-sm t-bold">Q2</text>
+<path d="M202.0 474.0 Q246.2 473.6 291.6 473.5" class="k-thin k-mute"/>
+<path d="M202.0 490.0 Q236.8 488.5 273.5 489.9" class="k-thin k-mute"/>
+<path d="M202.0 506.0 Q246.9 506.0 292.5 505.5" class="k-thin k-mute"/>
+<rect x="336" y="426" width="124" height="96" rx="8" class="f-a4"/>
+<path d="M335.6 427.4 Q397.3 425.9 460.5 425.3 Q460.1 473.0 460.0 522.6 Q396.8 522.4 335.3 522.0 Q336.9 474.1 335.7 425.6 Z" class="k-thin"/>
+<text x="350.0" y="454.0" class="t t-sm t-bold">Q3</text>
+<path d="M350.0 474.0 Q393.7 473.1 439.7 474.2" class="k-thin k-mute"/>
+<path d="M350.0 490.0 Q385.7 490.6 421.4 489.9" class="k-thin k-mute"/>
+<path d="M350.0 506.0 Q393.9 506.0 440.5 505.4" class="k-thin k-mute"/>
+<rect x="484" y="426" width="124" height="96" rx="8" class="f-a4"/>
+<path d="M485.5 426.2 Q545.7 426.5 607.5 425.9 Q606.6 474.1 607.6 521.6 Q547.3 523.3 483.6 522.4 Q484.8 475.4 484.6 425.2 Z" class="k-thin"/>
+<text x="498.0" y="454.0" class="t t-sm t-bold">Q4</text>
+<path d="M498.0 474.0 Q542.0 472.5 587.9 474.6" class="k-thin k-mute"/>
+<path d="M498.0 490.0 Q533.7 490.8 570.3 490.1" class="k-thin k-mute"/>
+<path d="M498.0 506.0 Q541.8 505.1 588.5 506.5" class="k-thin k-mute"/>
+<path d="M320.0 536.0 Q318.8 558.9 320.0 580.0" class="k"/><path d="M320.0 580.0 L325.0 569.1 M320.0 580.0 L313.8 569.7" class="k"/>
+<text x="24.0" y="620.0" class="t t-sans">Once a year: the self-review</text>
+<rect x="190" y="642" width="260" height="210" rx="6" class="f-paper"/>
+<path d="M189.1 642.5 Q320.3 643.1 450.2 641.6 Q448.4 745.4 450.2 851.4 Q321.3 852.3 189.4 851.8 Q189.3 748.4 190.6 641.5 Z" class="k"/>
+<circle cx="212" cy="672" r="5" class="f-a3s"/>
+<path d="M226.0 672.0 Q324.0 671.7 419.7 671.4" class="k-thin"/>
+<circle cx="212" cy="698" r="5" class="f-a3s"/>
+<path d="M226.0 698.0 Q317.0 697.9 407.5 697.4" class="k-thin"/>
+<circle cx="212" cy="724" r="5" class="f-a3s"/>
+<path d="M226.0 724.0 Q309.5 722.8 394.5 723.6" class="k-thin"/>
+<circle cx="212" cy="750" r="5" class="f-a3s"/>
+<path d="M226.0 750.0 Q302.8 749.9 381.4 750.6" class="k-thin"/>
+<circle cx="212" cy="776" r="5" class="f-a3s"/>
+<path d="M226.0 776.0 Q321.4 776.6 418.5 776.5" class="k-thin"/>
+<path d="M210.0 814.0 Q318.9 812.9 429.7 813.8" class="k-thin k-mute"/>
+<path d="M210.0 832.0 Q291.5 830.7 370.6 832.4" class="k-thin k-mute"/>
+<text x="470.0" y="702.0" class="t t-sm">five true</text><text x="470.0" y="726.0" class="t t-sm">stories</text>
+<text x="470.0" y="810.0" class="t t-sm">one honest</text><text x="470.0" y="834.0" class="t t-sm">paragraph</text>
+<text x="320.0" y="892.0" class="t t-sm t-mid t-mute">Illustrative: Dev’s year, not data.</text>
+</svg>

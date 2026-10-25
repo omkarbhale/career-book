@@ -1,6 +1,6 @@
 ---
 id: ch16
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. LANTERNFISH, SPRINT DEMO — TUESDAY, 3 PM"}
@@ -156,7 +156,7 @@ The coffee machine gives Dev a small, low-stakes lesson in all of this. The comm
 
 At the first meeting, Rex pitches an espresso robot with an app, a loyalty scheme and a price that makes the finance representative put down her pen. It is a wonderful pitch. It does not survive the question "what's the budget?", and the meeting ends with nothing decided.
 
-Dev's approach is less exciting and works better. She pulls the ticket history: the machine has broken twenty-three times in five months, almost always the same part, and each repair has cost a morning of someone's time. Before the second meeting she talks to each committee member separately. She asks the facilities manager what a service contract would cost, asks finance what she could approve without a fight, and asks Rex whether his robot has a cheaper cousin. Then, at the meeting, she proposes a service contract now and a proper replacement fund for next year, credits the facilities manager for the contract quote and Rex for "making us think about what we actually want from coffee", and it passes in ten minutes.
+Dev's approach is less exciting and works better. She pulls the ticket history: the machine has broken twenty-three times in the five months since its sensor was replaced, almost always the same part, and each repair has cost a morning of someone's time. Before the second meeting she talks to each committee member separately. She asks the facilities manager what a service contract would cost, asks finance what she could approve without a fight, and asks Rex whether his robot has a cheaper cousin. Then, at the meeting, she proposes a service contract now and a proper replacement fund for next year, credits the facilities manager for the contract quote and Rex for "making us think about what we actually want from coffee", and it passes in ten minutes.
 
 That is political skill with nothing hidden in it: social astuteness (she knew finance's real constraint), rationality (she brought data), networking (she talked to people before the meeting rather than ambushing them in it) and generosity with credit, which costs nothing and corrects the bias from the start of this chapter.
 
@@ -174,13 +174,11 @@ Dev realises that Rex has been doing exactly that for years, and that he is genu
 
 Disagreeing with a peer is one thing. Disagreeing with your manager, or your manager's manager, carries a different kind of risk, and the research is honest about it.
 
-In one field study and two experiments, managers rated employees who voiced *challenging* ideas, proposals to change how things were done, as worse performers than employees who voiced *supportive* ideas, and they endorsed the challenging ideas less; the difference was explained by whether managers saw the speaker as loyal or as threatening [@burris2012]. A wider review of why employees speak up or stay silent with concerns describes the same tension: voice helps organisations, and individuals often pay for it [@morrison2014].
+[[ch13.sec.disagree]] met the awkward finding: managers rated employees who voiced *challenging* ideas as worse performers than those who voiced *supportive* ones, because the challenges read as less loyal and more threatening [@burris2012]. A wider review of why employees speak up or stay silent describes the same tension: voice helps organisations, and individuals often pay for it [@morrison2014].
 
-That is not a reason to stay silent. It is a reason to raise challenges in a way that is heard as loyalty rather than threat. These suggestions follow from Burris's finding about loyalty and threat, but they are inferences, not tested scripts [!view]:
+The habits from that chapter (lead with the shared goal, separate the idea from the person, bring an option) apply with more force when the other person has power over you. Two more matter most here, and like the others they are inferences from Burris's finding, not tested scripts [!view]:
 
-- **Lead with the shared goal.** "I want this launch to land with the warehouse clients, and I'm worried about one thing" frames you as on the same side.
 - **Go private first.** A manager challenged in front of their own manager has to defend their position; one challenged in a one-to-one can change it. This is the dial from [[ch14.sec.dial]] again: the same point, at the setting the room can hear.
-- **Bring options, not just objections.** "Here are two ways we could reduce the risk" is harder to hear as an attack.
 - **Disagree once, clearly, then commit or escalate.** Relitigating a decision every week is how a task conflict becomes a relationship conflict.
 
 ### Psychological safety {#ch16.sec.safety}
@@ -197,7 +195,7 @@ Google's re:Work guide describes an internal study of 180 teams, 115 in engineer
 
 Some conflict is not about a decision or a piece of credit but about a person who makes everything harder. The research gives two reasons to take this seriously rather than shrugging it off.
 
-First, rudeness is contagious and costly. In three experiments, people on the receiving end of rudeness, or even asked to imagine it, performed worse on both routine and creative tasks and were less willing to help others [@porath2007], and a follow-up found much the same for people who merely witnessed it [@porath2009]. Theory describes how incivility spirals, with each rude act inviting a slightly ruder one back [@andersson1999]. Second, one persistently negative team member, someone who withholds effort, spreads negative mood or violates basic norms of respect, can damage the whole team, through a sense of unfairness, a worse mood and lower trust [@felps2006].
+First, as [[ch10.sec.asymmetry]] showed, rudeness is contagious and costly: it hurts the performance and helpfulness of the people who receive it [@porath2007] and of those who merely witness it [@porath2009], and it tends to spiral, each rude act inviting a slightly ruder one back [@andersson1999]. Second, one persistently negative team member, someone who withholds effort, spreads negative mood or violates basic norms of respect, can damage the whole team, through a sense of unfairness, a worse mood and lower trust [@felps2006].
 
 What can you do about a difficult colleague, as a peer with no authority over them? Our suggestions, which are practitioner experience rather than tested rules [!craft]:
 
@@ -207,7 +205,7 @@ What can you do about a difficult colleague, as a peer with no authority over th
 - **Keep a dated note of incidents** if the pattern continues. You may never need it; if you do, nothing else will substitute for it.
 - **Find out whether it is just you.** If several people have the same problem, it is a team problem, and it belongs with the person's manager.
 
-Difficult *managers* are harder, because the power runs the other way. The leader-member exchange research shows that managers form relationships of very different quality with different people on the same team, and that these relationships matter for how people are treated and how they perform [@dulebohn2012]. A classic practitioner essay argues that it is worth managing that relationship deliberately: understanding your manager's goals, pressures and preferred way of working, as well as your own [@gabarro1980!]. Sometimes that fixes things. Sometimes the honest conclusion is that a manager is the problem, and then the choices are to escalate, to move teams, or to leave, which is the question [[ch02]] started with and [[ch17]] comes back to.
+Difficult *managers* are harder, because the power runs the other way. As [[ch12.sec.manager]] showed, managers form relationships of very different quality with different people on the same team, and those relationships matter for how people are treated and how they perform [@dulebohn2012]; the practitioner advice there, to manage the relationship deliberately by understanding your manager's goals, pressures and way of working [@gabarro1980!], is the first thing to try. Sometimes that fixes things. Sometimes the honest conclusion is that a manager is the problem, and then the choices are to escalate, to move teams, or to leave, which is the question [[ch02]] started with and [[ch17]] comes back to.
 
 ::: trapdoor
 **The 11 pm message.** Conflict feels most urgent late at night, which is when people send the message that turns a disagreement into a feud. Write it if you must; send it in the morning, after reading it as if you were the recipient. Remember from [[ch13]] that people consistently overestimate how well their tone comes across in writing [@kruger2005]: the message that feels firm to you will read as furious to them.

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 710" class="fig">
+<title>The credit gap</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { fill: var(--fig-ink, #26211c); font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<path d="M109.6 13.9 Q329.7 13.8 549.9 14.3 Q549.2 34.4 549.2 53.7 Q329.5 52.9 110.4 53.7 Q110.9 35.5 109.6 14.6 Z" class="f-a3 k-thin"/>
+<text x="330.0" y="42.0" class="t t-sm t-mid">illustrative numbers: the direction is the finding</text>
+<text x="170.0" y="94.0" class="t t-bold t-mid">how Dev remembers it</text>
+<path d="M170 196 L170.0 114.0 A82 82 0 1 1 103.7 147.8 Z" class="f-dev k-thin"/><path d="M170 196 L103.7 147.8 A82 82 0 0 1 170.0 114.0 Z" class="f-a4 k-thin"/><circle cx="170" cy="196" r="82" class="k"/>
+<text x="170.0" y="308.0" class="t t-sm t-mid">found it, reproduced it,</text><text x="170.0" y="330.0" class="t t-sm t-mid">wrote the patch</text>
+<text x="490.0" y="94.0" class="t t-bold t-mid">how Marcus remembers it</text>
+<path d="M490 196 L490.0 114.0 A82 82 0 0 1 490.0 278.0 Z" class="f-dev k-thin"/><path d="M490 196 L490.0 278.0 A82 82 0 0 1 490.0 114.0 Z" class="f-a4 k-thin"/><circle cx="490" cy="196" r="82" class="k"/>
+<text x="490.0" y="308.0" class="t t-sm t-mid">knew the ledger, fixed the</text><text x="490.0" y="330.0" class="t t-sm t-mid">lock, added the logging</text>
+<text x="330.0" y="380.0" class="t t-mid t-a1">each remembers their own part best</text>
+<path d="M30.0 404.0 Q331.0 404.5 629.4 403.9" class="k-thin k-dash k-mute"/>
+<text x="330.0" y="446.0" class="t t-bold t-mid">listed out, step by step</text>
+<path d="M150 560 L150.0 466.0 A94 94 0 0 1 231.4 513.0 Z" class="f-dev k-thin"/><path d="M150 560 L231.4 513.0 A94 94 0 0 1 231.4 607.0 Z" class="f-dev k-thin"/><path d="M150 560 L231.4 607.0 A94 94 0 0 1 150.0 654.0 Z" class="f-dev k-thin"/><path d="M150 560 L150.0 654.0 A94 94 0 0 1 68.6 607.0 Z" class="f-dev k-thin"/><path d="M150 560 L68.6 607.0 A94 94 0 0 1 68.6 513.0 Z" class="f-a4 k-thin"/><path d="M150 560 L68.6 513.0 A94 94 0 0 1 150.0 466.0 Z" class="f-a4 k-thin"/><circle cx="150" cy="560" r="94" class="k"/>
+<text x="181.0" y="514.3" class="t t-sm t-bold t-mid">1</text>
+<text x="212.0" y="568.0" class="t t-sm t-bold t-mid">2</text>
+<text x="181.0" y="621.7" class="t t-sm t-bold t-mid">3</text>
+<text x="119.0" y="621.7" class="t t-sm t-bold t-mid">4</text>
+<text x="88.0" y="568.0" class="t t-sm t-bold t-mid">5</text>
+<text x="119.0" y="514.3" class="t t-sm t-bold t-mid">6</text>
+<rect x="282" y="476" width="20" height="14" rx="3" class="f-dev k-thin"/>
+<text x="310.0" y="489.0" class="t t-sm t-bold">Dev</text>
+<rect x="372" y="476" width="20" height="14" rx="3" class="f-a4 k-thin"/>
+<text x="400.0" y="489.0" class="t t-sm t-bold">Marcus</text>
+<text x="282.0" y="524.0" class="t t-sm t-a1">1  found the race condition</text>
+<text x="282.0" y="550.0" class="t t-sm t-a1">2  reproduced it, one Saturday</text>
+<text x="282.0" y="576.0" class="t t-sm t-a1">3  wrote the patch</text>
+<text x="282.0" y="602.0" class="t t-sm t-a1">4  tested it</text>
+<text x="282.0" y="628.0" class="t t-sm t-a4">5  fixed the ledger lock</text>
+<text x="282.0" y="654.0" class="t t-sm t-a4">6  added the logging</text>
+<text x="282.0" y="690.0" class="t t-mid t-a2" style="text-anchor:start">both agree on this one</text>
+</svg>

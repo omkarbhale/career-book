@@ -1,6 +1,6 @@
 ---
 id: ch04
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. BEA'S KITCHEN — SUNDAY, 2 PM"}
@@ -98,7 +98,7 @@ This is your film, as other people saw it. In the long game, it was being shot w
 
 Bullets are for paper. Interviews want stories, and there is a good reason to prepare them in advance.
 
-Many structured interviews use **past-behaviour questions**: "Tell me about a time when you..." The idea is that how you handled real situations is good evidence of how you will handle the next ones. Research reviews find that both past-behaviour questions and **situational** questions ("What would you do if...") predict job performance, and that past-behaviour questions do slightly better on average, with mean uncorrected validities around .31 against .25 to .26 in two meta-analyses that one major review summarises [@levashina2014]. Whatever the exact numbers, if you are interviewed by a well-run company you will be asked to describe what you actually did, many times, under some pressure.
+Many structured interviews use **past-behaviour questions**: "Tell me about a time when you..." The idea is that how you handled real situations is good evidence of how you will handle the next ones. Research reviews find that both past-behaviour questions and **situational** questions ("What would you do if...") predict job performance, and that past-behaviour questions do slightly better on average [@levashina2014]; [[ch07.sec.questions]] has the numbers. Whatever the exact figures, if you are interviewed by a well-run company you will be asked to describe what you actually did, many times, under some pressure.
 
 You cannot predict every question, but you do not need to. A small set of good stories covers most of them, because most behavioural questions are asking about the same few things: a hard problem, a mistake, a disagreement, leading without authority, learning something fast, working under pressure. A **story bank** of eight to twelve true stories, each of which can be bent to answer several of those questions, is enough for most interview loops [!craft]. That number is practitioner experience, not a tested figure; what matters is that every kind of question has at least one story ready, and preferably two.
 
@@ -118,7 +118,7 @@ Most work is done in teams, and most people describe it that way. In an intervie
 **Hiding in "we", or hiding behind it.** Two opposite mistakes cost the same thing. The modest version says "we rebuilt the suite" when you designed it and did most of the work, and the interviewer gives the credit to people they will never meet. The inflated version says "I rebuilt the suite" when you wrote one module, and the follow-up questions find the edge of what you know. The fix for both is the same: describe the team's goal in a sentence, then say exactly what *you* did, in the first person, and name what others did. "The team was rebuilding the suite; I designed the parallel runner and wrote the scheduling code; two colleagues migrated the old tests." Accurate credit is more convincing than either version.
 :::
 
-There is evidence that self-promotion works in interviews, which makes the inflated version tempting. In structured interviews, candidates' self-promotion correlated .26 with their ratings across 13 studies [@levashina2014]. But that is the trailer game, and the trailer has to survive the film. A story bank built from true stories, told with accurate credit, lets you promote yourself honestly: you are not adding anything, you are just declining to leave things out. [[ch05]] takes that argument further, with Bea, who would rather not promote herself at all.
+There is evidence that self-promotion works in interviews, which makes the inflated version tempting: as [[ch01.sec.what-else]] showed, it raises ratings even in structured interviews [@levashina2014]. But that is the trailer game, and the trailer has to survive the film. A story bank built from true stories, told with accurate credit, lets you promote yourself honestly: you are not adding anything, you are just declining to leave things out. [[ch05]] takes that argument further, with Bea, who would rather not promote herself at all.
 
 :::: move {#ch04.move.stories} Your first five stories
 Draft five stories for your bank. For each, write a title of three to five words, the four parts (situation, what you did, result, what you learned) in no more than 120 words in total, and tick which of the six columns from [[ch04.fig.story-bank]] it could answer. Then look for the empty column.
@@ -209,7 +209,7 @@ Translation has a failure mode, and it is overselling. A teacher who writes "pro
 
 Dev's version of this is smaller but real. On paper she is a tester. In fact she has read most of the payments code, written thousands of lines of test automation, built a parallel test runner and fixed the deployment scripts. Translated for a backend team, her best evidence is not "found 212 defects" but "understood the payments system well enough to find its defects before the client did, and wrote the tooling that made it faster to test".
 
-For technical roles, there is one more kind of evidence worth knowing about: visible work. In a small interview study, employers who used GitHub to evaluate candidates read people's public activity as evidence of skill, motivation and values, and trusted it more than résumés because it was hard to fake [@marlow2013!]. That study is small and over a decade old, and many excellent engineers have no public code because their work belongs to their employer. But for a career changer, a new graduate or anyone whose title undersells them, a small, real project with a history behind it is a costly signal in exactly Spence's sense. [[ch05]] and [[ch08]] look at what portfolios do and do not prove.
+For technical roles, there is one more kind of evidence worth knowing about: visible work. For a career changer, a new graduate or anyone whose title undersells them, a small, real project with a history behind it is a costly signal in exactly Spence's sense. [[ch05.sec.profiles]] looks at the evidence on what portfolios do and do not prove, and [[ch08]] at showing your work in interviews.
 
 ::: ask
 Q: All my best work is confidential. What can I say?

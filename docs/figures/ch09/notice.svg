@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 810" class="fig">
+<title>Notice and final pay rules by region</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { fill: var(--fig-ink, #26211c); font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<text x="30.0" y="34.0" class="t t-sans">If you resign: notice and final pay</text>
+<path d="M31.3 54.0 Q320.2 53.5 609.4 53.8 Q609.0 128.8 609.5 205.3 Q320.2 204.8 30.2 205.8 Q31.3 130.5 30.4 54.2 Z" class="f-paper k"/>
+<rect x="50" y="72" width="44" height="44" rx="5" class="f-paper k-thin"/><rect x="50" y="72" width="44" height="11" rx="4" class="f-a1s"/><rect x="56" y="88" width="5" height="4" class="f-mute"/><rect x="65" y="88" width="5" height="4" class="f-mute"/><rect x="74" y="88" width="5" height="4" class="f-mute"/><rect x="83" y="88" width="5" height="4" class="f-mute"/><rect x="56" y="96" width="5" height="4" class="f-mute"/><rect x="65" y="96" width="5" height="4" class="f-mute"/><rect x="74" y="96" width="5" height="4" class="f-mute"/><rect x="83" y="96" width="5" height="4" class="f-mute"/><rect x="56" y="104" width="5" height="4" class="f-mute"/><rect x="65" y="104" width="5" height="4" class="f-mute"/><rect x="74" y="104" width="5" height="4" class="f-mute"/><rect x="83" y="104" width="5" height="4" class="f-mute"/>
+<text x="112.0" y="94.0" class="t t-sans">United States</text>
+<text x="112.0" y="130.0" class="t">at will: either side can end it at almost</text><text x="112.0" y="160.0" class="t">any time, for almost any reason</text><text x="112.0" y="190.0" class="t">notice by custom or contract, not by law</text>
+<path d="M30.8 225.4 Q321.6 222.9 609.7 223.7 Q609.1 300.9 610.7 375.3 Q318.9 377.3 29.4 375.3 Q31.3 299.3 29.2 224.1 Z" class="f-paper k"/>
+<rect x="50" y="242" width="44" height="44" rx="5" class="f-paper k-thin"/><rect x="50" y="242" width="44" height="11" rx="4" class="f-a1s"/><rect x="56" y="258" width="5" height="4" class="f-mute"/><rect x="65" y="258" width="5" height="4" class="f-mute"/><rect x="74" y="258" width="5" height="4" class="f-mute"/><rect x="83" y="258" width="5" height="4" class="f-mute"/><rect x="56" y="266" width="5" height="4" class="f-mute"/><rect x="65" y="266" width="5" height="4" class="f-mute"/><rect x="74" y="266" width="5" height="4" class="f-mute"/><rect x="83" y="266" width="5" height="4" class="f-mute"/><rect x="56" y="274" width="5" height="4" class="f-mute"/><rect x="65" y="274" width="5" height="4" class="f-mute"/><rect x="74" y="274" width="5" height="4" class="f-mute"/><rect x="83" y="274" width="5" height="4" class="f-mute"/>
+<text x="112.0" y="264.0" class="t t-sans">United Kingdom</text>
+<text x="112.0" y="300.0" class="t">at least 1 week after a month in the job</text><text x="112.0" y="330.0" class="t">your contract may say more</text><text x="112.0" y="360.0" class="t">garden leave is allowed</text>
+<path d="M29.0 393.6 Q319.4 395.0 610.7 394.7 Q610.0 456.4 610.3 516.1 Q320.5 516.5 30.7 515.6 Q31.3 456.1 30.2 394.0 Z" class="f-paper k"/>
+<rect x="50" y="412" width="44" height="44" rx="5" class="f-paper k-thin"/><rect x="50" y="412" width="44" height="11" rx="4" class="f-a1s"/><rect x="56" y="428" width="5" height="4" class="f-mute"/><rect x="65" y="428" width="5" height="4" class="f-mute"/><rect x="74" y="428" width="5" height="4" class="f-mute"/><rect x="83" y="428" width="5" height="4" class="f-mute"/><rect x="56" y="436" width="5" height="4" class="f-mute"/><rect x="65" y="436" width="5" height="4" class="f-mute"/><rect x="74" y="436" width="5" height="4" class="f-mute"/><rect x="83" y="436" width="5" height="4" class="f-mute"/><rect x="56" y="444" width="5" height="4" class="f-mute"/><rect x="65" y="444" width="5" height="4" class="f-mute"/><rect x="74" y="444" width="5" height="4" class="f-mute"/><rect x="83" y="444" width="5" height="4" class="f-mute"/>
+<text x="112.0" y="434.0" class="t t-sans">Germany</text>
+<text x="112.0" y="470.0" class="t">4 weeks, to the 15th or the end of a month</text><text x="112.0" y="500.0" class="t">2 weeks during probation (up to 6 months)</text>
+<path d="M29.4 535.5 Q319.7 532.6 610.8 534.2 Q609.8 623.4 609.9 716.7 Q321.4 714.8 29.7 716.8 Q30.6 625.1 29.4 534.2 Z" class="f-paper k"/>
+<rect x="50" y="552" width="44" height="44" rx="5" class="f-paper k-thin"/><rect x="50" y="552" width="44" height="11" rx="4" class="f-a1s"/><rect x="56" y="568" width="5" height="4" class="f-mute"/><rect x="65" y="568" width="5" height="4" class="f-mute"/><rect x="74" y="568" width="5" height="4" class="f-mute"/><rect x="83" y="568" width="5" height="4" class="f-mute"/><rect x="56" y="576" width="5" height="4" class="f-mute"/><rect x="65" y="576" width="5" height="4" class="f-mute"/><rect x="74" y="576" width="5" height="4" class="f-mute"/><rect x="83" y="576" width="5" height="4" class="f-mute"/><rect x="56" y="584" width="5" height="4" class="f-mute"/><rect x="65" y="584" width="5" height="4" class="f-mute"/><rect x="74" y="584" width="5" height="4" class="f-mute"/><rect x="83" y="584" width="5" height="4" class="f-mute"/>
+<text x="112.0" y="574.0" class="t t-sans">India</text>
+<text x="112.0" y="610.0" class="t">set by your contract: often 1–2 months,</text><text x="112.0" y="640.0" class="t">3–6 for senior roles</text><text x="112.0" y="670.0" class="t">final dues within 2 days of leaving,</text><text x="112.0" y="700.0" class="t">under the Labour Codes</text>
+<text x="320.0" y="758.0" class="t t-mid t-a1 t-bold">check your own contract: it usually sets the</text><text x="320.0" y="788.0" class="t t-mid t-a1 t-bold">actual period, within the law</text>
+</svg>

@@ -1,6 +1,6 @@
 ---
 id: ch11
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. LANTERNFISH, BACKEND TEAM AREA — WEEK 2, WEDNESDAY, 6:40 PM"}
@@ -37,19 +37,7 @@ The phrase was made famous by Michael Watkins's book *The First 90 Days*, writte
 The ninety-day figure comes from practitioner writing and contract convention [@watkins2003], not from research that found a threshold there. What the evidence does support is the general idea behind it: how newcomers adjust early on is linked to their later performance, satisfaction, commitment and likelihood of staying [@bauer2007]. So the early months matter. But there is no cliff at day 91, and a slow start is not a verdict; first impressions, as this chapter shows, are sticky rather than permanent [@baumeister2001].
 :::
 
-Where does the number come from, then? Partly from probation periods, which are a legal and contractual matter rather than a psychological one, and which vary a lot between countries.
-
-::: field {regions="US, UK, Germany, India"} What "probation" means
-**United States.** Most US employment is "at will": by default, either side can end it at any time, for almost any reason, with exceptions that vary by state [@lii-atwill]. A probation period may matter for company policy or benefits, but it does not create the basic right to end the job; that exists anyway.
-
-**United Kingdom.** Once you have worked somewhere for a month, both you and your employer must give at least a week's statutory notice, and your contract may require more [@govuk-notice]. Probation periods are set by contract; we did not verify any separate statutory rule for them, so check your own contract.
-
-**Germany.** Probation can last up to six months, and during it either side can end the job with two weeks' notice, compared with a basic four weeks afterwards [@bgb622].
-
-**India.** Notice is set by contract, typically one to two months for non-managerial roles and longer for senior ones [@khaitan-notice]. We did not find verified sources on how probation clauses are usually written or enforced, so we have not guessed.
-
-Elsewhere, look up the rules for your own country and your contract. Probation is a legal fact about your job; "the first ninety days" is a story about it.
-:::
+Where does the number come from, then? Partly from probation periods, which are a legal and contractual matter rather than a psychological one, and which vary a lot between countries: in Germany, for example, probation can last up to six months, with two weeks' notice on either side during it [@bgb622], while in the US most employment is "at will" anyway [@lii-atwill]. [[ch09.sec.checks]] covered what probation means; your contract says what yours is. Probation is a legal fact about your job; "the first ninety days" is a story about it.
 
 The useful question is not how long the window is. It is what, during those early months, actually predicts a good start.
 
@@ -127,7 +115,7 @@ Corporate Dev's logic goes like this: *They hired a competent person. Competent 
 
 The first wrong step is about what asking signals. In a set of experiments, people who asked for advice were seen as *more* competent, not less, especially when the task was hard and when the person being asked was the one doing the judging [@brooks2015]. That paper's co-authors include a researcher with retractions elsewhere, so we lean on it only alongside converging evidence. That evidence is the second point.
 
-The second wrong step is about how people respond. Across six studies in the lab and in the field, people underestimated by as much as 50% how likely others were to agree to a direct request for help, because they forgot how awkward it is to say no [@flynn2008]. You imagine the colleague sighing at your question. In fact, saying no to someone's face is uncomfortable, so people say yes far more often than you expect.
+The second wrong step is about how people respond, and you met the evidence in [[ch06.sec.asking]]. Across six studies in the lab and in the field, people underestimated by as much as 50% how likely others were to agree to a direct request for help, because they forgot how awkward it is to say no [@flynn2008]. You imagine the colleague sighing at your question. In fact, saying no to someone's face is uncomfortable, so people say yes far more often than you expect.
 
 ::: flashback {ref=ch10.sec.warmth}
 In [[ch10]], we saw that people often judge warmth first and competence second, but judge *themselves* the other way round. Corporate Dev is working flat out on a question nobody is asking yet ("is she competent?") while neglecting the one they are ("is she one of us?").
@@ -352,10 +340,10 @@ Her phone buzzes. Rex again.
 
 @rex: ??
 
-She puts the phone face down and adds row 4 before she forgets it. On Monday, she has her first real estimate to give, and Tomás has asked for it by Friday.
+She puts the phone face down and adds row 4 before she forgets it.
 :::
 
-That estimate is where [[ch12]] begins. Starting well is mostly about clarity, competence and connection. Staying trusted is mostly about something duller: doing what you said you would do, and saying so early when you can't.
+A few weeks later, Dev gives her first big estimate, and that is where [[ch12]] begins. Starting well is mostly about clarity, competence and connection. Staying trusted is mostly about something duller: doing what you said you would do, and saying so early when you can't.
 
 ::: rewind
 - "**The first ninety days**" is a practitioner's convention and a common probation length, not a threshold found in research. The early months matter, but there is no cliff at day 91.

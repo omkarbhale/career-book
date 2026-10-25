@@ -1,6 +1,6 @@
 ---
 id: ch15
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. A NOODLE BAR NEAR LANTERNFISH — THURSDAY, 9:40 PM"}
@@ -81,7 +81,7 @@ Roughly how many hours friendship takes, from studies of people building new fri
 
 That explains Dev's two speeds. At Corvid, she and Bea spent thousands of hours side by side, almost all of them working, and it took two years. With Kai, a handful of lunches on the roof and one long dinner did more than months of stand-ups.
 
-Two other findings explain why many people never make the move at all. After a conversation, people consistently underestimate how much the other person liked them. Researchers call this the **liking gap**, and among first-year students sharing accommodation it persisted for months [@boothby2018]. It shows up in work teams too, where it is largest between peers [@mastroianni2021]. And people underestimate how much others want to connect: commuters who were asked to talk to a stranger had a more pleasant journey than those who sat in silence, even though people predicted the opposite [@epley2014].
+The findings from [[ch11.sec.connection]] explain why many people never make the move at all. People underestimate how much others liked them after a conversation, the **liking gap**, which shows up in work teams too and is largest between peers [@boothby2018; @mastroianni2021]. And people underestimate how much others want to connect [@epley2014].
 
 Put together, these say that the colleague you think is merely tolerating you probably likes you more than you think, and would probably say yes if you suggested lunch. People underestimate by as much as half how likely others are to agree to a direct request for help [@flynn2008], the finding that made Dev's message to Ana work in [[ch06]]. The same arithmetic applies to "do you want to get lunch?"
 

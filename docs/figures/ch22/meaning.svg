@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 590" class="fig">
+<title>What meaningful work goes with</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { fill: var(--fig-ink, #26211c); font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<text x="30.0" y="40.0" class="t t-lg t-bold">meaningful work goes with...</text>
+<text x="30.0" y="96.0" class="t t-bold">large: r = .70 or more</text>
+<path d="M30.9 111.2 Q179.4 110.5 329.6 112.4 Q329.8 147.6 329.2 186.7 Q178.6 186.0 30.0 185.8 Q29.2 148.5 29.9 111.9 Z" class="f-a4s k"/>
+<text x="350.0" y="136.0" class="t">work engagement,</text>
+<text x="350.0" y="162.0" class="t">commitment,</text>
+<text x="350.0" y="188.0" class="t">job satisfaction</text>
+<text x="30.0" y="236.0" class="t t-bold">moderate to large: r about .44 to .49</text>
+<path d="M31.3 253.3 Q122.6 251.3 217.2 252.0 Q218.5 289.0 217.3 325.7 Q123.0 326.8 30.5 326.2 Q30.1 290.3 30.2 251.5 Z" class="f-a4 k"/>
+<text x="350.0" y="276.0" class="t">life satisfaction, meaning</text>
+<text x="350.0" y="302.0" class="t">in life, general health,</text>
+<text x="350.0" y="328.0" class="t">less wish to quit</text>
+<text x="30.0" y="376.0" class="t t-bold">small to moderate: up to about .33</text>
+<path d="M31.3 392.4 Q85.2 391.6 138.1 392.2 Q138.1 427.7 137.5 465.8 Q82.5 464.5 30.3 466.6 Q30.8 428.7 30.6 391.9 Z" class="f-soft k"/>
+<text x="350.0" y="416.0" class="t">helping beyond the role,</text>
+<text x="350.0" y="442.0" class="t">self-rated performance,</text>
+<text x="350.0" y="468.0" class="t">less bad mood</text>
+<path d="M30.0 494.0 Q328.6 493.4 630.5 494.5" class="k-thin k-mute"/>
+<text x="30.0" y="522.0" class="t t-sm t-mute">bar length shows the size of the correlation; ranges from one</text>
+<text x="30.0" y="546.0" class="t t-sm t-mute">meta-analysis of 44 articles, not individual values;</text>
+<text x="30.0" y="570.0" class="t t-sm t-mute">performance is self-rated</text>
+</svg>

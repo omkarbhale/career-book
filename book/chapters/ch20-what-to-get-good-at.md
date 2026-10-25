@@ -1,6 +1,6 @@
 ---
 id: ch20
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. LANTERNFISH, A QUIET CORNER — WEDNESDAY, 5:30 PM"}

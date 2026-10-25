@@ -1,6 +1,6 @@
 ---
 id: ch21
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. LANTERNFISH, TOMÁS'S OFFICE — MONDAY, 10 AM"}
@@ -76,7 +76,7 @@ The same week, two jobs. The calendars are invented, but the shapes follow the m
 There is evidence that this trade-off starts even before anyone has the title. In a study of software engineers at a large US firm, sitting near teammates increased feedback on code, with the gains concentrated among junior engineers, while the senior engineers wrote less code: a trade-off between helping others and their own output [@emanuel2026]. Every senior person who has spent an afternoon unblocking a colleague has felt this. Management makes it the whole job.
 
 ::: scene {slug="INT. THE NOODLE BAR — THURSDAY, 8 PM"}
-Kai has been a squad lead for nearly two years, and has the look of someone asked to review a film they are still in.
+Kai has been a squad lead for nearly three years, and has the look of someone asked to review a film they are still in.
 
 @kai: What do I actually do? Okay. Monday I had five one-to-ones. One was about a promotion case, one was about a sick parent, and one was a designer telling me the roadmap is wrong, which it is. Tuesday I interviewed two people and rejected one of them, which I'll think about until Saturday.
 
@@ -138,7 +138,7 @@ It depends heavily on where you work. Managers do earn more at the median in US 
 While you are checking, look at what the titles on each road actually mean, because a title is not always what it seems.
 
 ::: field {regions="US, UK"} When "manager" is just a word
-Titles are partly a currency, and some employers pay in them. In the US, salaried workers must earn above a threshold to be exempt from overtime pay, and researchers found a sharp jump in "manager" job titles for salaried jobs paid just above that threshold, with no such jump elsewhere; the practice was more than 50% more common where state worker protections were weaker, and concentrated in retail, food service, cleaning and hotels [@cohen2023]. In the UK, a think tank reported that the share of retail "managers" earning under £400 a week rose from 37% to nearly 60% during the 2000s [@resolution2012!].
+Titles are partly a currency, as [[ch19.sec.inside]] noted, and some employers pay in them. In the US, salaried workers must earn above a threshold to be exempt from overtime pay, and researchers found a sharp jump in "manager" job titles for salaried jobs paid just above that threshold, with no such jump elsewhere; the practice was more than 50% more common where state worker protections were weaker, and concentrated in retail, food service, cleaning and hotels [@cohen2023]. In the UK, a think tank reported that the share of retail "managers" earning under £400 a week rose from 37% to nearly 60% during the 2000s [@resolution2012!].
 
 So when you compare a management offer, inside or outside your company, compare scope, level and pay, not the title [!view]. We did not find verified data on title or "designation" inflation in India or the EU, so we have not guessed; the same check applies everywhere.
 :::

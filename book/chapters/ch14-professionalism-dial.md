@@ -1,6 +1,6 @@
 ---
 id: ch14
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. LANTERNFISH, THE BIG MEETING ROOM — FRIDAY, 4:10 PM"}
@@ -65,13 +65,9 @@ Dev's all-hands moment fails on three of the five at once. Her audience was mixe
 
 The dial raises an obvious objection, and it comes straight from Part II's thesis. If the long game rewards being yourself, isn't adjusting your behaviour to the room exactly the act this book keeps warning against?
 
-The evidence says no, with a twist. Start with **self-monitoring**, the tendency to watch social cues and adjust how you present yourself to fit them. A meta-analysis of 136 samples and 23,191 people found that high self-monitors tend to perform better at work and are more likely to emerge as leaders [@day2002]. So the chameleons do get ahead, modestly. But a newer meta-analysis of 55 samples found that the link between self-monitoring and leadership usually disappears when the people doing the rating are the leader's own subordinates, and that on leadership *effectiveness* the only ratings that favoured chameleons were their own; their bosses' did not either [@lei2025]. Adapting helps you get noticed. Whether it makes you a better leader, the people who watch you lead are not convinced.
+[[ch10.sec.chameleons]] has already answered it, so here is the short version. High self-monitors, the chameleons who adjust to every room, tend to perform slightly better and to emerge as leaders more often [@day2002], but on leadership *effectiveness* the only ratings that favour them are their own [@lei2025]. People feel most authentic when they act like their best selves, not their default selves [@fleeson2010]. And what goes with damaged well-being is **surface acting**, faking feelings you do not have, while deep acting shows only weak links to strain [@hulsheger2011].
 
-The twist is in what makes people *feel* authentic. In experience-sampling studies, people reported feeling most like themselves when they were acting in ways that were extraverted, agreeable, conscientious, emotionally stable and intellectually engaged, whatever their own personality [@fleeson2010]. Acting "in character" was not what made them feel real. In other words, the moments people describe as "being myself" are mostly moments of being their *best* self, which often takes some effort.
-
-And recall the cost from [[ch10]]: what goes with damaged well-being is **surface acting**, faking feelings you do not have, while deep acting, actually trying to feel what the moment needs, shows only weak links to strain [@hulsheger2011]. Turning the dial is neither. Choosing quieter words in a client meeting is not faking a feeling; it is choosing a register, the way you speak differently to a child and to a judge without becoming a different person.
-
-The organisational researcher Herminia Ibarra makes a related practitioner argument: a rigid idea of authenticity ("that's just not me") can stop people growing into new roles, and trying on styles borrowed from people you admire is how most of us find a bigger version of ourselves [@ibarra2015]. That is an essay drawn from her interviews with leaders, not a study, but it fits the evidence above.
+Turning the dial is none of those things. You are not changing your story for each audience, and you are not faking a feeling. Choosing quieter words in a client meeting is choosing a register, the way you speak differently to a child and to a judge without becoming a different person.
 
 ::: chairs {left="The Chameleon" right="The Rock"}
 @left: I read the room. I'm formal with the board, silly in the channel, gentle with the intern. People like working with me.
@@ -93,7 +89,7 @@ The organisational researcher Herminia Ibarra makes a related practitioner argum
 
 If the dial has to be set, where should you start when you do not yet know the room? The evidence points in one direction, and it is the boring one: when in doubt, start slightly more formal, and let the other person turn the dial down.
 
-The clearest study is about something tiny. In three experiments on first contact in work-related settings, adding a smiley emoticon to a message did not make the sender seem any warmer, and it made them seem *less* competent, which in turn made recipients share less information with them; how much it mattered depended on how formal the context was [@glikson2018]. Casual markers are not always a liability, though. In two professional email lists, for example, exclamation marks rarely signalled excitability and often seemed to mark friendliness [@waseleski2006!].
+You have already met the smallest version of this, in [[ch11.sec.calibrate]] and again in [[ch13.sec.emoji]]: in work-related first contacts, a smiley made the sender seem less competent and no warmer, and how much it mattered depended on how formal the context was [@glikson2018].
 
 The same pattern shows up with bigger signals. Deliberately breaking a dress or formality code, like wearing red trainers to a meeting where everyone else is in suits, can *raise* how high-status and competent people think you are, but only when the observers know the setting and its norms and believe you broke them on purpose [@bellezza2014]. One of that paper's co-authors has had other papers retracted; this one has not been, but treat it as one study rather than a law. Our reading, which the paper did not test directly: the same break that reads as confidence from someone established reads as cluelessness from someone new, because nobody yet knows whether you meant it [!view].
 

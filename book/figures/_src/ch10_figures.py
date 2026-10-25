@@ -69,7 +69,7 @@ def fig_repeated():
     # Illustrative running totals over ten rounds.
     grab = [3, 4, 4.5, 4.5, 4.5, 4.4, 4.4, 4.3, 4.3, 4.2]
     keep = [1, 2.2, 3.4, 4.6, 5.8, 7.0, 8.2, 9.4, 10.6, 11.8]
-    x0, x1, y0, y1 = 96, 600, 520, 250
+    x0, x1, y0, y1 = 96, 600, 520, 276
     vmax = 12
 
     def px(i):
@@ -97,7 +97,7 @@ def fig_repeated():
         pen.arrow(x0, y0, x0, y1 - 20, "k"),
         path(keep, "k-a2"),
         path(grab, "k-a1"),
-        fk.lines(128, 272, ["keep cooperating:", "trust compounds"], "t t-a2", 26),
+        fk.lines(128, 290, ["keep cooperating:", "trust compounds"], "t t-a2", 26),
         fk.lines(px(6), py(grab[6]) + 40, ["grab, then get", "frozen out"], "t t-a1 t-mid", 26),
         fk.text((x0 + x1) / 2, y0 + 38, "rounds: meetings, favours, deadlines →", "t t-mid"),
         f'<g transform="rotate(-90 56 {(y0 + y1) / 2})">{fk.text(56, (y0 + y1) / 2, "running total →", "t t-mid")}</g>',

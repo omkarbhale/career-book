@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 510" class="fig">
+<title>Three things trust is made of</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { fill: var(--fig-ink, #26211c); font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<path d="M46 132 A64 64 0 0 1 174 132 Z" class="f-a1"/><path d="M38 132 A72 72 0 0 1 182 132" class="k-thick"/><path d="M42.0 132.0 L52.0 132.0" class="k-thin"/><path d="M61.9 83.9 L69.0 91.0" class="k-thin"/><path d="M110.0 64.0 L110.0 74.0" class="k-thin"/><path d="M158.1 83.9 L151.0 91.0" class="k-thin"/><path d="M178.0 132.0 L168.0 132.0" class="k-thin"/><path d="M110.0 132.0 Q126.7 111.2 145.0 90.6" class="k-thick"/><circle cx="110" cy="132" r="6" class="f-ink"/>
+<text x="110.0" y="40.0" class="t t-sans t-mid t-a1">Ability</text>
+<text x="110.0" y="176.0" class="t t-mid">can you</text><text x="110.0" y="204.0" class="t t-mid">do the job?</text>
+<text x="110.0" y="254.0" class="t t-sm t-mid t-mute">your estimates</text><text x="110.0" y="278.0" class="t t-sm t-mid t-mute">come true</text>
+<path d="M110.0 316.0 Q185.8 349.8 261.2 384.0" class="k k-mute"/><path d="M261.2 384.0 L253.9 374.5 M261.2 384.0 L249.2 384.7" class="k k-mute"/>
+<path d="M256 132 A64 64 0 0 1 384 132 Z" class="f-a2"/><path d="M248 132 A72 72 0 0 1 392 132" class="k-thick"/><path d="M252.0 132.0 L262.0 132.0" class="k-thin"/><path d="M271.9 83.9 L279.0 91.0" class="k-thin"/><path d="M320.0 64.0 L320.0 74.0" class="k-thin"/><path d="M368.1 83.9 L361.0 91.0" class="k-thin"/><path d="M388.0 132.0 L378.0 132.0" class="k-thin"/><path d="M320.0 132.0 Q336.7 111.7 354.7 90.2" class="k-thick"/><circle cx="320" cy="132" r="6" class="f-ink"/>
+<text x="320.0" y="40.0" class="t t-sans t-mid t-a2">Benevolence</text>
+<text x="320.0" y="176.0" class="t t-mid">are you</text><text x="320.0" y="204.0" class="t t-mid">on my side?</text>
+<text x="320.0" y="254.0" class="t t-sm t-mid t-mute">you warn me</text><text x="320.0" y="278.0" class="t t-sm t-mid t-mute">before I trip</text>
+<path d="M320.0 316.0 Q320.2 349.1 320.0 384.0" class="k k-mute"/><path d="M320.0 384.0 L325.7 373.4 M320.0 384.0 L314.4 373.4" class="k k-mute"/>
+<path d="M466 132 A64 64 0 0 1 594 132 Z" class="f-a4"/><path d="M458 132 A72 72 0 0 1 602 132" class="k-thick"/><path d="M462.0 132.0 L472.0 132.0" class="k-thin"/><path d="M481.9 83.9 L489.0 91.0" class="k-thin"/><path d="M530.0 64.0 L530.0 74.0" class="k-thin"/><path d="M578.1 83.9 L571.0 91.0" class="k-thin"/><path d="M598.0 132.0 L588.0 132.0" class="k-thin"/><path d="M530.0 132.0 Q547.6 109.7 564.2 90.8" class="k-thick"/><circle cx="530" cy="132" r="6" class="f-ink"/>
+<text x="530.0" y="40.0" class="t t-sans t-mid t-a4">Integrity</text>
+<text x="530.0" y="176.0" class="t t-mid">do you keep to</text><text x="530.0" y="204.0" class="t t-mid">fair principles?</text>
+<text x="530.0" y="254.0" class="t t-sm t-mid t-mute">same you when</text><text x="530.0" y="278.0" class="t t-sm t-mid t-mute">nobody checks</text>
+<path d="M530.0 316.0 Q455.4 351.0 378.8 384.0" class="k k-mute"/><path d="M378.8 384.0 L390.8 385.0 M378.8 384.0 L386.3 374.6" class="k k-mute"/>
+<path d="M70.5 392.9 Q320.1 393.4 569.6 394.7 Q571.6 438.5 570.6 486.2 Q319.6 485.3 70.3 485.9 Q70.6 440.5 69.4 394.4 Z" class="f-a3 k"/>
+<text x="320.0" y="432.0" class="t t-sans t-mid">TRUST</text>
+<text x="320.0" y="466.0" class="t t-mid">being willing to be vulnerable to you</text>
+</svg>

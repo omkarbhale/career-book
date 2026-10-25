@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 620" class="fig">
+<title>Anatomy of an apology</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { fill: var(--fig-ink, #26211c); font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<text x="24.0" y="40.0" class="t t-sans">Anatomy of an apology</text>
+<path d="M22.6 62.7 Q97.7 62.7 172.6 63.3 Q172.1 101.5 172.6 139.5 Q97.5 139.5 23.6 139.2 Q23.8 100.7 24.2 63.3 Z" class="f-a3 k-thin"/>
+<text x="98.0" y="110.0" class="t t-bold t-mid">Name it</text>
+<text x="192.0" y="94.0" class="t t-sm">I said Northwind would be ready Friday,</text><text x="192.0" y="120.0" class="t t-sm">and I knew on Wednesday it wouldn’t.</text>
+<path d="M23.4 155.8 Q99.3 154.7 171.4 156.5 Q170.5 195.3 172.1 231.6 Q99.1 232.9 23.7 232.5 Q23.1 194.3 24.0 156.5 Z" class="f-a3 k-thin"/>
+<text x="98.0" y="202.0" class="t t-bold t-mid">Own it</text>
+<text x="192.0" y="186.0" class="t t-sm">That’s on me. I should have told</text><text x="192.0" y="212.0" class="t t-sm">you that day.</text>
+<path d="M23.4 247.7 Q98.9 248.0 172.3 248.2 Q172.5 287.2 172.0 324.3 Q97.6 322.5 24.4 323.5 Q25.0 287.3 24.3 247.5 Z" class="f-a1 k-thin"/>
+<text x="98.0" y="294.0" class="t t-bold t-mid">Impact</text>
+<text x="192.0" y="278.0" class="t t-sm">It cost you a scramble before the demo</text><text x="192.0" y="304.0" class="t t-sm">and a weekend of worrying.</text>
+<path d="M23.5 339.7 Q96.6 339.9 172.1 339.7 Q171.0 376.7 172.2 415.2 Q97.5 415.1 24.1 416.4 Q25.3 378.4 24.8 340.7 Z" class="f-a2 k-thin"/>
+<text x="98.0" y="386.0" class="t t-bold t-mid">Fix</text>
+<text x="192.0" y="370.0" class="t t-sm">Rates and booking work now; tracking</text><text x="192.0" y="396.0" class="t t-sm">lands Wednesday. Demo notes attached.</text>
+<path d="M24.4 431.1 Q97.9 431.0 172.8 431.9 Q172.8 468.5 171.4 507.5 Q97.2 507.5 23.6 507.9 Q23.7 468.7 23.3 431.8 Z" class="f-a2 k-thin"/>
+<text x="98.0" y="478.0" class="t t-bold t-mid">Prevent</text>
+<text x="192.0" y="462.0" class="t t-sm">From now on, you hear the day I know,</text><text x="192.0" y="488.0" class="t t-sm">and I’ll check in at the halfway point.</text>
+<path d="M24.0 528.0 Q318.7 527.8 615.4 528.0" class="k-thin k-mute"/>
+<text x="24.0" y="564.0" class="t">Missing on purpose: “but”, “if”, and a speech.</text>
+<text x="24.0" y="598.0" class="t t-bold">Then the most important part: do it.</text>
+</svg>

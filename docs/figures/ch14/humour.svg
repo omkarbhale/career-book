@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 712" class="fig">
+<title>Humour targets ranked by risk</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { fill: var(--fig-ink, #26211c); font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<path d="M74.0 80.0 Q72.9 316.6 74.2 552.0" class="k-thick"/>
+<path d="M132.0 80.0 Q131.1 316.9 132.4 552.0" class="k-thick"/>
+<text x="54.0" y="50.0" class="t t-sans t-a1">riskier</text>
+<text x="54.0" y="588.0" class="t t-sans t-a2">safer</text>
+<text x="470.0" y="46.0" class="t t-sans t-mute">upside</text>
+<text x="470.0" y="68.0" class="t t-sans t-a1">downside</text>
+<rect x="438" y="34" width="22" height="12" rx="3" class="f-a3s"/>
+<rect x="438" y="56" width="22" height="12" rx="3" class="f-a1s"/>
+<path d="M74.0 120.0 Q103.0 119.2 131.4 119.8" class="k"/>
+<text x="103.0" y="108.0" class="t t-sm t-bold t-mid">5</text>
+<text x="160.0" y="114.0" class="t">a group</text>
+<text x="160.0" y="140.0" class="t t-sm t-mute">a team, a job, an identity</text>
+<rect x="452" y="98" width="70" height="16" rx="4" class="f-a3s"/>
+<rect x="452" y="122" width="170" height="16" rx="4" class="f-a1s"/>
+<path d="M74.0 218.0 Q103.3 216.6 132.4 217.7" class="k"/>
+<text x="103.0" y="206.0" class="t t-sm t-bold t-mid">4</text>
+<text x="160.0" y="212.0" class="t">a person in the room</text>
+<text x="160.0" y="238.0" class="t t-sm t-mute">teasing, even friendly</text>
+<rect x="452" y="196" width="70" height="16" rx="4" class="f-a3s"/>
+<rect x="452" y="220" width="112" height="16" rx="4" class="f-a1s"/>
+<path d="M74.0 316.0 Q102.1 314.5 132.6 316.3" class="k"/>
+<text x="103.0" y="304.0" class="t t-sm t-bold t-mid">3</text>
+<text x="160.0" y="310.0" class="t">an in-joke</text>
+<text x="160.0" y="336.0" class="t t-sm t-mute">only lands with insiders</text>
+<rect x="452" y="294" width="70" height="16" rx="4" class="f-a3s"/>
+<rect x="452" y="318" width="62" height="16" rx="4" class="f-a1s"/>
+<path d="M74.0 414.0 Q104.2 414.4 131.4 413.8" class="k"/>
+<text x="103.0" y="402.0" class="t t-sm t-bold t-mid">2</text>
+<text x="160.0" y="408.0" class="t">the situation</text>
+<text x="160.0" y="434.0" class="t t-sm t-mute">the deploy, the coffee machine</text>
+<rect x="452" y="392" width="70" height="16" rx="4" class="f-a3s"/>
+<rect x="452" y="416" width="26" height="16" rx="4" class="f-a1s"/>
+<path d="M74.0 512.0 Q103.0 510.8 132.6 511.8" class="k"/>
+<text x="103.0" y="500.0" class="t t-sm t-bold t-mid">1</text>
+<text x="160.0" y="506.0" class="t">yourself</text>
+<text x="160.0" y="532.0" class="t t-sm t-mute">your own mistake</text>
+<rect x="452" y="490" width="70" height="16" rx="4" class="f-a3s"/>
+<rect x="452" y="514" width="10" height="16" rx="4" class="f-a1s"/>
+<g transform="translate(13.0 95.0) scale(0.719)"><defs><clipPath id="h-dev"><circle cx="32" cy="32" r="30.5"/></clipPath></defs><circle cx="32" cy="32" r="30.5" class="f-soft"/><g clip-path="url(#h-dev)"><path d="M18.6 30 C17.4 18 24 13.6 32 13.6 C40.5 13.6 47 18.4 45.6 30 L47.4 46.5 C44 49.5 40.5 48.4 39.4 45.4 L24.6 45.4 C23.5 48.4 20 49.5 16.6 46.5 Z" class="f-hair1 k-thin"/><path d="M27 40.5 L27 49 L37 49 L37 40.5 Z" class="f-skin3 k-thin"/><path d="M7 68 C8 54 17 48.5 32 48.5 C47 48.5 56 54 57 68 Z" class="f-dev k-thin"/><path d="M21.5 49.5 C25 55.5 39 55.5 42.5 49.5" class="k-thin"/><path d="M28.4 54 L27.6 61" class="k-thin"/><path d="M35.6 54 L36.4 61" class="k-thin"/><ellipse cx="19.8" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="44.2" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="32" cy="30" rx="12.4" ry="14" class="f-skin3 k-thin"/><path d="M19.7 27.5 C20 18.4 26 15.2 32.6 15.6 C39.4 16 44.2 19.8 44.5 27.5 C40.4 22.6 35.4 21.2 30 21.8 C25.8 22.3 22.4 24.4 19.7 27.5 Z" class="f-hair1 k-thin"/><rect x="37.2" y="18.2" width="6.4" height="2.8" rx="1.2" transform="rotate(28 40.4 19.6)" class="f-a2s k-thin"/><circle cx="27.4" cy="30.4" r="1.6" class="f-ink"/><circle cx="36.6" cy="30.4" r="1.6" class="f-ink"/><path d="M24.8 26.2 Q27.4 24.8 30 26" class="k-thin"/><path d="M34 26 Q36.6 24.8 39.2 26.2" class="k-thin"/><path d="M32.2 31.5 Q31 34.4 32.8 34.8" class="k-thin"/><path d="M28.4 37.6 Q32 40 35.6 37.4" class="k-thin"/></g><circle cx="32" cy="32" r="30.5" class="k-thin"/></g>
+<text x="160.0" y="170.0" class="t t-sm t-a1">Dev&#x27;s all-hands joke: the sales team</text>
+<path d="M24.0 632.0 Q328.9 633.0 635.5 632.5" class="k-thin k-dash k-mute"/>
+<text x="330.0" y="666.0" class="t t-mid">the audience decides whether it landed</text>
+<text x="330.0" y="694.0" class="t t-sm t-mid t-mute">our ranking, from the research on humour and status; not a measured scale</text>
+</svg>

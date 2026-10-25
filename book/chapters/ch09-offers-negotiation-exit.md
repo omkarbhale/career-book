@@ -1,6 +1,6 @@
 ---
 id: ch09
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. CORVID SYSTEMS, A BORROWED MEETING ROOM — FRIDAY, 9:20 AM"}
@@ -277,9 +277,9 @@ Without the statistic, you have to think, which is better anyway. Two questions 
 
 **Why did it take a resignation?** If the raise or the role was possible, it was possible last month. A counter-offer can be a sincere correction by a manager who did not realise what they were about to lose. It can also be a way to buy time while they find your replacement. You know your manager better than any statistic does.
 
-**Are your reasons for leaving fixed by what is on offer?** Among US workers who quit a job in 2021, the most common reasons were low pay and no opportunities for advancement (63% each) and feeling disrespected at work (57%) [@pew2022]. If your reason was pay, a counter-offer might genuinely solve it. If it was advancement, a promise about next year is worth exactly as much as the last promise. If it was respect, money rarely buys it back [!view].
+**Are your reasons for leaving fixed by what is on offer?** Recall from [[ch02.sec.why-leave]] that among US workers who quit a job in 2021, the most common reasons were low pay and no opportunities for advancement (63% each) and feeling disrespected at work (57%) [@pew2022]. If your reason was pay, a counter-offer might genuinely solve it. If it was advancement, a promise about next year is worth exactly as much as the last promise. If it was respect, money rarely buys it back [!view].
 
-There is one more piece of evidence worth knowing, about the people who leave and later return. In one large organisation, rehired "boomerang" managers performed about as well as other hires in their first year but improved less over time, and were more likely to leave again, often for the same reasons as the first time [@arnold2021]. That study was about returning rather than staying, but the lesson transfers [!view]: when the original reasons for leaving have not changed, they tend to reassert themselves.
+The boomerang study from [[ch02.sec.boomerangs]] is worth recalling here too. In one large organisation, rehired "boomerang" managers performed about as well as other hires in their first year but improved less over time, and were more likely to leave again, often for the same reasons as the first time [@arnold2021]. That study was about returning rather than staying, but the lesson transfers [!view]: when the original reasons for leaving have not changed, they tend to reassert themselves.
 
 Dev declines the counter-offer, politely and in writing, and thanks her manager for it, because it was a compliment.
 

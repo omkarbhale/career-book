@@ -43,7 +43,7 @@
 .fig .t-sm { font-size: 20px; }
 .fig .t-lg { font-size: 30px; }
 .fig .t-xl { font-size: 40px; }
-.fig .t-sans { font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-sans { fill: var(--fig-ink, #26211c); font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
 .fig .t-mid { text-anchor: middle; }
 .fig .t-end { text-anchor: end; }
 .fig .t-bold { font-weight: 700; }

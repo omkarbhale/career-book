@@ -1,6 +1,6 @@
 ---
 id: ch07
-status: review
+status: final
 ---
 
 ::: scene {slug="INT. LANTERNFISH, MEETING ROOM “THE DEPOT” — THURSDAY, 10:00 AM"}

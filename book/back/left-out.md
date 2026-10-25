@@ -1,6 +1,6 @@
 ---
 id: more
-status: review
+status: final
 ---
 
 A book that claims to cover everything about working life is either very long or not telling the truth. This one is long enough already, so here is the truth: there are whole subjects it leaves out on purpose. Some are different games with their own rules. Some change by country and by month, so that anything we printed would mislead someone by the time they read it. And some belong to professionals, such as lawyers, doctors and financial advisers, whom no book can replace.

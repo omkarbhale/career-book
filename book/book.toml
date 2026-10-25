@@ -389,6 +389,7 @@ sections = [
   { id = "more.sec.interview-prep", title = "Technical interview practice" },
   { id = "more.sec.personality", title = "Personality tests and types" },
   { id = "more.sec.research", title = "Reading the research yourself" },
+  { id = "more.sec.missing", title = "What is still missing" },
 ]
 
 # ----------------------------------------------------------------------- parts

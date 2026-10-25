@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 530" class="fig">
+<title>Four kinds of work relationship</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { fill: var(--fig-ink, #26211c); font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<path d="M25.5 64.4 Q330.8 64.9 636.8 65.2 Q637.2 170.6 636.6 274.8 Q329.2 273.5 24.3 273.6 Q23.2 169.1 24.6 66.6 Z" class="f-paper k-thin k-mute"/>
+<path d="M25.0 297.1 Q331.4 298.0 635.6 297.9 Q635.7 400.7 636.1 505.8 Q330.2 507.4 24.2 505.8 Q25.2 403.6 24.0 298.7 Z" class="f-a2 k-thin"/>
+<text x="620.0" y="94.0" class="t t-sm t-end t-mute">most of your working relationships,</text>
+<text x="620.0" y="116.0" class="t t-sm t-end t-mute">and that&#x27;s fine</text>
+<text x="620.0" y="326.0" class="t t-sm t-end t-a2">a few people: where the</text>
+<text x="620.0" y="348.0" class="t t-sm t-end t-a2">rules start to collide</text>
+<path d="M70.0 118.0 Q68.5 285.8 69.6 456.6" class="k-thick k-mute"/>
+<circle cx="70" cy="118" r="20" class="f-soft k"/>
+<text x="112.0" y="108.0" class="t t-bold">colleague</text>
+<text x="112.0" y="136.0" class="t t-sm">runs on the work</text>
+<text x="112.0" y="160.0" class="t t-sm t-mute">talk: tasks</text>
+<circle cx="70" cy="222" r="20" class="f-a3 k"/>
+<text x="112.0" y="212.0" class="t t-bold">friendly colleague</text>
+<text x="112.0" y="240.0" class="t t-sm">runs on warmth</text>
+<text x="112.0" y="264.0" class="t t-sm t-mute">talk: weekends, the coffee machine</text>
+<circle cx="70" cy="352" r="20" class="f-a2 k"/>
+<text x="112.0" y="342.0" class="t t-bold">work friend</text>
+<text x="112.0" y="370.0" class="t t-sm">runs on trust</text>
+<text x="112.0" y="394.0" class="t t-sm t-mute">talk: how it&#x27;s really going</text>
+<circle cx="70" cy="456" r="20" class="f-a2s k"/>
+<text x="112.0" y="446.0" class="t t-bold">friend</text>
+<text x="112.0" y="474.0" class="t t-sm">runs on life</text>
+<text x="112.0" y="498.0" class="t t-sm t-mute">would stay friends if one of you left</text>
+<g transform="translate(460.0 392.0) scale(0.812)"><defs><clipPath id="f-dev"><circle cx="32" cy="32" r="30.5"/></clipPath></defs><circle cx="32" cy="32" r="30.5" class="f-soft"/><g clip-path="url(#f-dev)"><path d="M18.6 30 C17.4 18 24 13.6 32 13.6 C40.5 13.6 47 18.4 45.6 30 L47.4 46.5 C44 49.5 40.5 48.4 39.4 45.4 L24.6 45.4 C23.5 48.4 20 49.5 16.6 46.5 Z" class="f-hair1 k-thin"/><path d="M27 40.5 L27 49 L37 49 L37 40.5 Z" class="f-skin3 k-thin"/><path d="M7 68 C8 54 17 48.5 32 48.5 C47 48.5 56 54 57 68 Z" class="f-dev k-thin"/><path d="M21.5 49.5 C25 55.5 39 55.5 42.5 49.5" class="k-thin"/><path d="M28.4 54 L27.6 61" class="k-thin"/><path d="M35.6 54 L36.4 61" class="k-thin"/><ellipse cx="19.8" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="44.2" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="32" cy="30" rx="12.4" ry="14" class="f-skin3 k-thin"/><path d="M19.7 27.5 C20 18.4 26 15.2 32.6 15.6 C39.4 16 44.2 19.8 44.5 27.5 C40.4 22.6 35.4 21.2 30 21.8 C25.8 22.3 22.4 24.4 19.7 27.5 Z" class="f-hair1 k-thin"/><rect x="37.2" y="18.2" width="6.4" height="2.8" rx="1.2" transform="rotate(28 40.4 19.6)" class="f-a2s k-thin"/><circle cx="27.4" cy="30.4" r="1.6" class="f-ink"/><circle cx="36.6" cy="30.4" r="1.6" class="f-ink"/><path d="M24.8 26.2 Q27.4 24.8 30 26" class="k-thin"/><path d="M34 26 Q36.6 24.8 39.2 26.2" class="k-thin"/><path d="M32.2 31.5 Q31 34.4 32.8 34.8" class="k-thin"/><path d="M28.4 37.6 Q32 40 35.6 37.4" class="k-thin"/></g><circle cx="32" cy="32" r="30.5" class="k-thin"/></g>
+<g transform="translate(522.0 392.0) scale(0.812)"><defs><clipPath id="f-kai"><circle cx="32" cy="32" r="30.5"/></clipPath></defs><circle cx="32" cy="32" r="30.5" class="f-soft"/><g clip-path="url(#f-kai)"><path d="M27 40.5 L27 49 L37 49 L37 40.5 Z" class="f-skin4 k-thin"/><path d="M7 68 C8 54 17 48.5 32 48.5 C47 48.5 56 54 57 68 Z" class="f-kai k-thin"/><path d="M10 56 L54 56" class="k-thin k-paper"/><path d="M8.5 61 L55.5 61" class="k-thin k-paper"/><path d="M27.6 48.8 C29 51.6 35 51.6 36.4 48.8" class="k-thin"/><ellipse cx="19.8" cy="31.5" rx="2.3" ry="3.3" class="f-skin4 k-thin"/><ellipse cx="44.2" cy="31.5" rx="2.3" ry="3.3" class="f-skin4 k-thin"/><ellipse cx="32" cy="30" rx="12.4" ry="14" class="f-skin4 k-thin"/><path d="M20 30 C19.6 25 20.4 22.4 22 21 L22.4 27 C21.4 28 20.8 29 20 30 Z" class="f-hair1"/><path d="M44 30 C44.4 25 43.6 22.4 42 21 L41.6 27 C42.6 28 43.2 29 44 30 Z" class="f-hair1"/><path d="M20.8 25.6 C20.6 16.8 27 12.4 34.2 12.8 C41.4 13.2 46.4 17 45.4 24.2 C43.4 21.6 38.6 19 33.4 19.8 C29 20.4 24.4 22.4 20.8 25.6 Z" class="f-hair4 k-thin"/><circle cx="44.4" cy="36.8" r="2.3" class="k-thin k-a3"/><circle cx="27.4" cy="30.4" r="1.6" class="f-ink"/><circle cx="36.6" cy="30.4" r="1.6" class="f-ink"/><path d="M24.6 25.8 Q27.4 24.4 30.2 25.6" class="k-thin"/><path d="M33.8 25.6 Q36.6 24.4 39.4 25.8" class="k-thin"/><path d="M32.2 31.5 Q31 34.4 32.8 34.8" class="k-thin"/><path d="M27.2 36.4 Q32 42.4 36.8 36.4 Z" class="f-paper k-thin"/></g><circle cx="32" cy="32" r="30.5" class="k-thin"/></g>
+<text x="517.0" y="470.0" class="t t-sm t-mid">Dev and Kai, month six:</text>
+<text x="517.0" y="492.0" class="t t-sm t-mid">heading for friends</text>
+</svg>

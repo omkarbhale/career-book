@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 712" class="fig">
+<title>Inside the promotion room</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { fill: var(--fig-ink, #26211c); font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<text x="24.0" y="40.0" class="t t-sans">Inside the promotion room</text>
+<path d="M24.0 64.0 Q320.8 64.9 616.5 64.0" class="k-thick"/>
+<path d="M24.0 64.0 Q22.9 281.7 24.2 500.0" class="k-thick"/>
+<path d="M616.0 64.0 Q616.4 283.3 615.9 499.8" class="k-thick"/>
+<path d="M24.0 500.0 Q176.6 500.7 330.2 500.4" class="k-thick"/>
+<path d="M410.0 500.0 Q511.5 500.0 616.4 500.5" class="k-thick"/>
+<path d="M330 500 Q340 466 384 452" class="k-thin k-dash"/>
+<ellipse cx="320" cy="270" rx="150" ry="78" class="f-soft"/>
+<ellipse cx="320" cy="270" rx="150" ry="78" class="k"/>
+<rect x="262" y="236" width="116" height="66" rx="4" class="f-a4"/>
+<path d="M261.3 235.6 Q321.1 234.5 378.4 236.5 Q378.6 270.2 377.6 302.2 Q321.6 301.9 261.6 301.8 Q261.7 268.9 262.5 235.3 Z" class="k-thin"/>
+<text x="320.0" y="264.0" class="t t-sans t-mid">THE PACKET</text>
+<path d="M280.0 280.0 Q318.6 279.1 359.6 279.7" class="k-thin k-mute"/>
+<path d="M280.0 292.0 Q311.0 290.9 344.2 292.6" class="k-thin k-mute"/>
+<g transform="translate(164.0 136.0) scale(1.000)"><defs><clipPath id="tomasroom"><circle cx="32" cy="32" r="30.5"/></clipPath></defs><circle cx="32" cy="32" r="30.5" class="f-soft"/><g clip-path="url(#tomasroom)"><path d="M27 40.5 L27 49 L37 49 L37 40.5 Z" class="f-skin2 k-thin"/><path d="M7 68 C8 54 17 48.5 32 48.5 C47 48.5 56 54 57 68 Z" class="f-tomas k-thin"/><path d="M25.2 48.6 L29.2 53.6 L32 49.4 L34.8 53.6 L38.8 48.6" class="k-thin"/><path d="M14 58 L50 58" class="k-thin k-paper"/><path d="M22 52 L21 66 M42 52 L43 66" class="k-thin k-paper"/><ellipse cx="19.8" cy="31.5" rx="2.3" ry="3.3" class="f-skin2 k-thin"/><ellipse cx="44.2" cy="31.5" rx="2.3" ry="3.3" class="f-skin2 k-thin"/><ellipse cx="32" cy="30" rx="12.4" ry="14" class="f-skin2 k-thin"/><path d="M20 27.4 C19.4 17.4 25.6 14.2 32 14.2 C38.4 14.2 44.6 17.4 44 27.4 C42 21.6 38 19.6 32 19.6 C26 19.6 22 21.6 20 27.4 Z" class="f-hair1 k-thin"/><path d="M20.4 32.6 C20.8 42.8 26.8 46.6 32 46.6 C37.2 46.6 43.2 42.8 43.6 32.6 C41.4 37.8 37.2 39.4 32 39.4 C26.8 39.4 22.6 37.8 20.4 32.6 Z" class="f-hair1 k-thin"/><circle cx="27.4" cy="30.4" r="1.6" class="f-ink"/><circle cx="36.6" cy="30.4" r="1.6" class="f-ink"/><path d="M24.6 26 Q27.4 25 30.2 26" class="k-thin"/><path d="M33.8 26 Q36.6 25 39.4 26" class="k-thin"/><path d="M32.2 31.5 Q31 34.4 32.8 34.8" class="k-thin"/><ellipse cx="32" cy="40.6" rx="3.4" ry="1.3" class="f-skin2"/></g><circle cx="32" cy="32" r="30.5" class="k-thin"/></g>
+<text x="44.0" y="108.0" class="t">your manager:</text><text x="44.0" y="134.0" class="t">your advocate</text>
+<path d="M410.2 211.4 C412.8 185.4 475.2 185.4 477.8 211.4 Z" class="f-mute k-thin"/><circle cx="444" cy="162" r="16.1" class="f-mute k-thin"/>
+<text x="596.0" y="108.0" class="t t-end">a director from</text><text x="596.0" y="134.0" class="t t-end">another squad</text>
+<path d="M162.2 421.4 C164.8 395.4 227.2 395.4 229.8 421.4 Z" class="f-mute k-thin"/><circle cx="196" cy="372" r="16.1" class="f-mute k-thin"/>
+<text x="44.0" y="446.0" class="t">a senior engineer</text><text x="44.0" y="472.0" class="t">who&#x27;s never met you</text>
+<path d="M410.2 421.4 C412.8 395.4 475.2 395.4 477.8 421.4 Z" class="f-paper k-thin k-dash"/><circle cx="444" cy="372" r="16.1" class="f-paper k-thin k-dash"/>
+<text x="596.0" y="450.0" class="t t-end t-a4">saw your work</text><text x="596.0" y="476.0" class="t t-end t-a4">first-hand?</text>
+<g transform="translate(370.0 632.0) scale(0.500)"><path d="M-14 -70 L-15 -8 L-4 -8 L-2 -70 Z" class="f-mute k-thin"/><path d="M2 -70 L4 -8 L15 -8 L14 -70 Z" class="f-mute k-thin"/><ellipse cx="-11" cy="-5" rx="10" ry="5" class="f-ink"/><ellipse cx="11" cy="-5" rx="10" ry="5" class="f-ink"/><path d="M-24 -128 C-36 -112 -40 -94 -38 -76 L-29 -75 C-30 -92 -27 -106 -19 -118 Z" class="f-dev k-thin"/><path d="M24 -128 C36 -112 40 -94 38 -76 L29 -75 C30 -92 27 -106 19 -118 Z" class="f-dev k-thin"/><circle cx="-33.5" cy="-71" r="6" class="f-skin3 k-thin"/><circle cx="33.5" cy="-71" r="6" class="f-skin3 k-thin"/><path d="M-25 -129 C-30 -112 -26 -88 -20 -66 L20 -66 C26 -88 30 -112 25 -129 C14 -136 -14 -136 -25 -129 Z" class="f-dev k-thin"/><path d="M-14 -131 C-8 -121 8 -121 14 -131" class="k-thin"/><path d="M-5 -124 L-6 -110 M5 -124 L6 -110" class="k-thin"/><path d="M-5 -142 L-5 -130 L5 -130 L5 -142 Z" class="f-skin3 k-thin"/><g transform="translate(-48.0 -204.5) scale(1.5)"><path d="M18.6 30 C17.4 18 24 13.6 32 13.6 C40.5 13.6 47 18.4 45.6 30 L47.4 46.5 C44 49.5 40.5 48.4 39.4 45.4 L24.6 45.4 C23.5 48.4 20 49.5 16.6 46.5 Z" class="f-hair1 k-thin"/><ellipse cx="19.8" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="44.2" cy="31.5" rx="2.3" ry="3.3" class="f-skin3 k-thin"/><ellipse cx="32" cy="30" rx="12.4" ry="14" class="f-skin3 k-thin"/><path d="M19.7 27.5 C20 18.4 26 15.2 32.6 15.6 C39.4 16 44.2 19.8 44.5 27.5 C40.4 22.6 35.4 21.2 30 21.8 C25.8 22.3 22.4 24.4 19.7 27.5 Z" class="f-hair1 k-thin"/><rect x="37.2" y="18.2" width="6.4" height="2.8" rx="1.2" transform="rotate(28 40.4 19.6)" class="f-a2s k-thin"/><circle cx="27.4" cy="30.4" r="1.6" class="f-ink"/><circle cx="36.6" cy="30.4" r="1.6" class="f-ink"/><path d="M24.8 26.2 Q27.4 24.8 30 26" class="k-thin"/><path d="M34 26 Q36.6 24.8 39.2 26.2" class="k-thin"/><path d="M32.2 31.5 Q31 34.4 32.8 34.8" class="k-thin"/><path d="M28.4 37.6 Q32 40 35.6 37.4" class="k-thin"/></g></g>
+<text x="410.0" y="578.0" class="t">you:</text><text x="410.0" y="604.0" class="t">not invited</text>
+<text x="24.0" y="548.0" class="t t-sm t-mute">the packet: what changed,</text><text x="24.0" y="572.0" class="t t-sm t-mute">at what scope,</text><text x="24.0" y="596.0" class="t t-sm t-mute">who says so</text>
+<text x="320.0" y="670.0" class="t t-sm t-mid t-mute">They know you through the packet, your manager,</text>
+<text x="320.0" y="694.0" class="t t-sm t-mid t-mute">and anyone who has seen your work.</text>
+</svg>

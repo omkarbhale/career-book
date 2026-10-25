@@ -247,7 +247,7 @@ So this is not one exam followed by a career. It is three interleaved games, pla
 ::: field {regions="US, UK, India"} How often, and how fast, you can move
 The tenure and job-count figures above are American, from the Bureau of Labor Statistics. We did not find comparable figures for India or the UK that we could verify, so we have not guessed.
 
-The *speed* of a switch also varies. Most US employment is "at will": by default, either side can end it at any time, for almost any reason, with exceptions that vary by state [@lii-atwill]. In the UK, you must give at least a week's notice once you have been in a job for a month, and your contract may require more [@govuk-notice]. In India, notice is set mainly by contract, typically one to two months for non-managerial staff and three to six months for senior roles [@khaitan-notice]. A three-month notice period changes how you run a job search. [[ch09]] has the details.
+The *speed* of a switch also varies. Most US employment is "at will": by default, either side can end it at any time, for almost any reason, with exceptions that vary by state [@lii-atwill]. In the UK, you must give at least a week's notice once you have been in a job for a month, and your contract may require more [@govuk-notice]. In India, notice is set mainly by contract, typically one to two months for non-managerial staff and three to six months for senior roles [@khaitan-notice]. A three-month notice period changes how you run a job search. [[ch02.sec.runway]] shows how, and [[ch09.sec.leaving]] has the rules region by region.
 :::
 
 ## The loop {#ch01.sec.loop}
@@ -298,7 +298,7 @@ Two skills, four places to be. Rex has the trailer without the film; Bea has the
 
 Bea's problem and Rex's problem look like opposites, but they have the same shape: one game is strong and the other is weak. Bea does not need to become a better engineer to get hired; she needs a trailer that is as good as her film. Rex does not need a better trailer; he needs a film that lives up to it, or he will keep having to make new trailers. Most people are somewhere in the middle, strong in places and invisible in others, which is where Dev is.
 
-:::: move {#ch01.move.scorecards} Your two scorecards
+:::: move {#ch01.move.scorecards} Your three scorecards
 Score yourself from 1 (not at all) to 5 (completely) on each statement. Be honest; nobody is checking.
 
 **The snapshot game**
@@ -382,6 +382,8 @@ For each moment, decide whether it is mainly **snapshot** (strangers, a short sa
 The most interesting moments in a career sit at the edges, where one game feeds the other.
 :::
 ::::
+
+Dev, meanwhile, has decided which game she is in tonight.
 
 ::: scene {slug="INT. DEV'S FLAT — SUNDAY, LATE"}
 Dev opens the spreadsheet. It has one tab, called *Applications*, with 47 rows and 46 noes. She renames the tab *Game 1*. Then she adds two more, *Game 2* and *Game 3*, and sits looking at the empty grids for a while.

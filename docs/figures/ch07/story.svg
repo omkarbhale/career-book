@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 738" class="fig">
+<title>Anatomy of a story answer</title>
+<style>
+/* Figure vocabulary. Every figure's style element is an exact copy of this file
+   (python3 tools/build.py --sync-figure-style). Colours come from theme tokens;
+   the fallbacks are the light theme, used when a figure is opened on its own. */
+.fig { font-family: var(--font-hand, "Caveat", "Segoe Print", "Comic Sans MS", cursive); }
+.fig .k { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thin { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-thick { fill: none; stroke: var(--fig-ink, #26211c); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig .k-dash { stroke-dasharray: 7 8; }
+.fig .k-mute { stroke: var(--fig-ink-2, #6b6156); }
+.fig .k-a1 { stroke: var(--fig-a1-strong, #d2552f); }
+.fig .k-a2 { stroke: var(--fig-a2-strong, #1f8a7e); }
+.fig .k-a3 { stroke: var(--fig-a3-strong, #d9a521); }
+.fig .k-a4 { stroke: var(--fig-a4-strong, #7b4fa0); }
+.fig .k-paper { stroke: var(--fig-paper, #fbf7ef); }
+.fig .f-none { fill: none; }
+.fig .f-paper { fill: var(--fig-paper, #fbf7ef); }
+.fig .f-soft { fill: var(--fig-soft, #efe6d6); }
+.fig .f-ink { fill: var(--fig-ink, #26211c); }
+.fig .f-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .f-a1 { fill: var(--fig-a1, #f6c9b6); }
+.fig .f-a2 { fill: var(--fig-a2, #b9e3dc); }
+.fig .f-a3 { fill: var(--fig-a3, #f9e2a6); }
+.fig .f-a4 { fill: var(--fig-a4, #dccbec); }
+.fig .f-a1s { fill: var(--fig-a1-strong, #d2552f); }
+.fig .f-a2s { fill: var(--fig-a2-strong, #1f8a7e); }
+.fig .f-a3s { fill: var(--fig-a3-strong, #d9a521); }
+.fig .f-a4s { fill: var(--fig-a4-strong, #7b4fa0); }
+.fig .f-skin1 { fill: var(--skin-1, #f2cba8); }
+.fig .f-skin2 { fill: var(--skin-2, #d9a27c); }
+.fig .f-skin3 { fill: var(--skin-3, #b0724c); }
+.fig .f-skin4 { fill: var(--skin-4, #7c4b2f); }
+.fig .f-hair1 { fill: var(--hair-1, #2b211c); }
+.fig .f-hair2 { fill: var(--hair-2, #6b4a2f); }
+.fig .f-hair3 { fill: var(--hair-3, #a7a29b); }
+.fig .f-hair4 { fill: var(--hair-4, #7e5bc4); }
+.fig .f-dev { fill: var(--c-dev, #e3a92b); }
+.fig .f-bea { fill: var(--c-bea, #2f9e7a); }
+.fig .f-rex { fill: var(--c-rex, #d94f3d); }
+.fig .f-meera { fill: var(--c-meera, #8e3b6b); }
+.fig .f-tomas { fill: var(--c-tomas, #3c6fb0); }
+.fig .f-kai { fill: var(--c-kai, #8e6fd8); }
+.fig .t { fill: var(--fig-ink, #26211c); font-size: 24px; }
+.fig .t-sm { font-size: 20px; }
+.fig .t-lg { font-size: 30px; }
+.fig .t-xl { font-size: 40px; }
+.fig .t-sans { fill: var(--fig-ink, #26211c); font-family: var(--font-ui, "Bricolage Grotesque", system-ui, sans-serif); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
+.fig .t-mid { text-anchor: middle; }
+.fig .t-end { text-anchor: end; }
+.fig .t-bold { font-weight: 700; }
+.fig .t-mute { fill: var(--fig-ink-2, #6b6156); }
+.fig .t-a1 { fill: var(--fig-a1-ink, #a53d1c); }
+.fig .t-a2 { fill: var(--fig-a2-ink, #156b62); }
+.fig .t-a4 { fill: var(--fig-a4-ink, #5f3a80); }
+.fig .t-paper { fill: var(--fig-paper, #fbf7ef); }
+</style>
+<text x="30.0" y="34.0" class="t t-sans">A two-minute answer, roughly to scale</text>
+<path d="M29.4 52.4 Q76.8 53.5 127.2 52.8 Q125.9 79.0 126.0 107.5 Q76.8 108.6 29.8 108.5 Q30.8 79.5 29.5 51.8 Z" class="f-soft k"/>
+<circle cx="78.33333333333334" cy="80" r="15" class="f-paper k-thin"/><text x="78.3" y="87.0" class="t t-mid t-bold">1</text>
+<path d="M125.2 52.5 Q294.8 50.9 465.6 51.9 Q466.4 81.5 465.3 107.6 Q294.7 107.2 127.0 108.0 Q126.0 78.5 126.4 51.8 Z" class="f-a1 k"/>
+<circle cx="295.8333333333333" cy="80" r="15" class="f-paper k-thin"/><text x="295.8" y="87.0" class="t t-mid t-bold">2</text>
+<path d="M463.6 51.2 Q512.7 51.7 561.7 52.1 Q562.8 79.3 561.0 107.7 Q512.4 108.2 465.0 107.7 Q463.7 80.8 465.2 52.2 Z" class="f-a3 k"/>
+<circle cx="513.3333333333334" cy="80" r="15" class="f-paper k-thin"/><text x="513.3" y="87.0" class="t t-mid t-bold">3</text>
+<path d="M562.3 53.1 Q584.3 51.0 610.0 52.3 Q610.0 80.0 609.7 107.6 Q587.0 109.5 561.7 107.9 Q560.5 80.3 561.2 52.2 Z" class="f-a2 k"/>
+<circle cx="585.8333333333333" cy="80" r="15" class="f-paper k-thin"/><text x="585.8" y="87.0" class="t t-mid t-bold">4</text>
+<text x="30.0" y="136.0" class="t t-sm t-mute">0</text>
+<text x="610.0" y="136.0" class="t t-sm t-mute t-end">2 minutes</text>
+<path d="M29.3 167.9 Q44.2 167.4 56.1 167.7 Q56.0 182.2 56.0 194.7 Q42.7 193.9 30.2 194.0 Q30.6 180.3 29.2 167.9 Z" class="f-soft k-thin"/>
+<text x="43.0" y="188.0" class="t t-sm t-mid t-bold">1</text>
+<text x="74.0" y="190.0" class="t t-sans">situation and task · about 20 seconds</text>
+<text x="74.0" y="224.0" class="t">the queue was dropping 1 in 2,000</text><text x="74.0" y="254.0" class="t">messages; nobody had spotted it</text>
+<path d="M28.6 289.2 Q43.3 290.6 56.7 290.3 Q56.2 302.5 56.0 315.7 Q41.7 316.1 30.2 315.7 Q30.8 303.1 29.7 290.6 Z" class="f-a1 k-thin"/>
+<text x="43.0" y="310.0" class="t t-sm t-mid t-bold">2</text>
+<text x="74.0" y="312.0" class="t t-sans">what I did · about 70 seconds</text>
+<text x="74.0" y="346.0" class="t">noticed a pattern in the test logs, wrote</text><text x="74.0" y="376.0" class="t">a reproduction, paired with the developer</text><text x="74.0" y="406.0" class="t">on the fix, added a nightly test</text>
+<path d="M28.5 441.3 Q42.4 442.6 55.6 442.8 Q54.7 454.8 56.0 468.4 Q42.2 466.9 30.4 468.5 Q30.2 456.3 29.8 441.9 Z" class="f-a3 k-thin"/>
+<text x="43.0" y="462.0" class="t t-sm t-mid t-bold">3</text>
+<text x="74.0" y="464.0" class="t t-sans">result · about 20 seconds</text>
+<text x="74.0" y="498.0" class="t">fixed two days before go-live;</text><text x="74.0" y="528.0" class="t">no repeats in a year</text>
+<path d="M30.0 562.8 Q44.0 562.6 55.3 564.7 Q55.8 575.9 56.6 589.5 Q42.9 588.4 29.4 590.0 Q30.6 575.8 30.4 564.2 Z" class="f-a2 k-thin"/>
+<text x="43.0" y="584.0" class="t t-sm t-mid t-bold">4</text>
+<text x="74.0" y="586.0" class="t t-sans">what I&#x27;d keep · about 10 seconds</text>
+<text x="74.0" y="620.0" class="t">now I check retries first</text>
+<text x="30.0" y="684.0" class="t t-sm t-mute">a rule of thumb, not a finding:</text><text x="30.0" y="710.0" class="t t-sm t-mute">most of the time goes on what you did</text>
+</svg>
