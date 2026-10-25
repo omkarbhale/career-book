@@ -1,0 +1,400 @@
+# Part I source registry: getting or switching a job.
+# Format is documented in research/part1/README.md. Keys are stable: never rename one.
+# accessed: date the URL was opened for this research (all 2026-10-25 unless noted).
+
+schmidt1998:
+  type: article
+  authors: [Frank L. Schmidt, John E. Hunter]
+  year: 1998
+  title: "The validity and utility of selection methods in personnel psychology: Practical and theoretical implications of 85 years of research findings"
+  venue: Psychological Bulletin, 124(2), 262-274
+  doi: 10.1037/0033-2909.124.2.262
+  url: https://raw-files.adaface.com/adaface-lp/The_Validity_and_Utility_of_Selection_Methods_in_P.pdf
+  url_note: Third-party-hosted copy of the published article (hosted by an assessment vendor); verified it is the APA typeset paper.
+  accessed: 2026-10-25
+  supports: Classic meta-analytic summary of 19 selection procedures; GMA .51, work sample .54, structured interview .51, unstructured .38; GMA plus work sample .63, plus integrity .65, plus structured interview .63.
+  sample: Summary of prior meta-analyses (85 years of research).
+  grade: strong
+  caveats: Its range-restriction corrections were later judged to overcorrect (see sackett2022); treat its validity values as historical upper estimates.
+  commercial: false
+  topics: [selection-methods]
+
+sackett2022:
+  type: article
+  authors: [Paul R. Sackett, Charlene Zhang, Christopher M. Berry, Filip Lievens]
+  year: 2022
+  title: "Revisiting meta-analytic estimates of validity in personnel selection: Addressing systematic overcorrection for restriction of range"
+  venue: Journal of Applied Psychology, 107(11), 2040-2068
+  doi: 10.1037/apl0000994
+  url: https://gwern.net/doc/statistics/meta-analysis/2021-sackett.pdf
+  url_note: Copy of the accepted/typeset article hosted on gwern.net.
+  accessed: 2026-10-25
+  supports: Revised validity estimates (Table 3) - structured interviews .42 (top), job knowledge .40, empirically keyed biodata .38, work samples .33, cognitive ability .31, integrity .31, assessment centres .29, unstructured interviews .19, years of job experience .07. Most estimates fall .10-.20 vs Schmidt & Hunter.
+  sample: Re-analysis of the meta-analyses underlying Schmidt & Hunter and later work.
+  grade: strong
+  caveats: Contested by some meta-analysts (see ones2023); the ranking is more robust than the exact values. Validities are correlations with supervisor-rated performance, not certainty about any one hire.
+  commercial: false
+  topics: [selection-methods, interviewing]
+
+rajkumar2022:
+  type: article
+  authors: [Karthik Rajkumar, Guillaume Saint-Jacques, Iavor Bojinov, Erik Brynjolfsson, Sinan Aral]
+  year: 2022
+  title: "A causal test of the strength of weak ties"
+  venue: Science, 377(6612), 1304-1310
+  doi: 10.1126/science.abl4476
+  url: https://gwern.net/doc/sociology/technology/2022-rajkumar.pdf
+  url_note: Copy of the published Science article; science.org itself blocked automated access (403).
+  accessed: 2026-10-25
+  supports: Randomised LinkedIn "People You May Know" experiments (2015, 2019) on 20M+ people; inverted-U between tie strength and job transmission; moderately weak ties (by mutual connections) most useful; weak ties matter more in digital industries, strong ties in less digital ones.
+  sample: >20 million LinkedIn members, ~2 billion new ties, 600,000 new jobs, 2015-2019, global.
+  grade: strong
+  caveats: Job transmission = later working at the connection's company; per-tie probabilities are tiny (fractions of a percent). LinkedIn users only; users were not told they were in the experiments (see acs2022-linkedin).
+  commercial: false
+  conflicts: Two authors were LinkedIn employees.
+  topics: [networking]
+
+granovetter1973:
+  type: article
+  authors: [Mark S. Granovetter]
+  year: 1973
+  title: "The strength of weak ties"
+  venue: American Journal of Sociology, 78(6), 1360-1380
+  doi: 10.1086/225469
+  url: https://www.cs.umd.edu/~golbeck/INST633o/granovetterTies.pdf
+  url_note: JSTOR scan hosted on a University of Maryland course page.
+  accessed: 2026-10-25
+  supports: Theory that weak ties bridge to new information; in a sample of professional, technical and managerial job changers in a Boston suburb who found jobs through contacts, 16.7% saw the contact often, 55.6% occasionally, 27.8% rarely (N=54).
+  sample: N=54 contact-finders in a random sample of recent PTM job changers, Boston suburb, c. 1969-70.
+  grade: moderate
+  caveats: Foundational theory but tiny, local, 1970s sample; frequency of contact is only one dimension of tie strength. Causal support came only in rajkumar2022.
+  commercial: false
+  topics: [networking]
+
+kroft2013:
+  type: article
+  authors: [Kory Kroft, Fabian Lange, Matthew J. Notowidigdo]
+  year: 2013
+  title: "Duration dependence and labor market conditions: Evidence from a field experiment"
+  venue: Quarterly Journal of Economics, 128(3), 1123-1167
+  doi: 10.1093/qje/qjt015
+  url: https://www.nber.org/system/files/working_papers/w18387/w18387.pdf
+  url_note: NBER working paper w18387 (Sept 2012); the NBER page https://www.nber.org/papers/w18387 lists the QJE 2013 published version. academic.oup.com blocked automated access.
+  accessed: 2026-10-25
+  supports: ~12,000 fictitious resumes to ~3,000 US postings in 100 metro areas; callbacks fall sharply over the first 8 months of unemployment (about 45% lower at 8 months than 1 month, ~7% to ~4%), then flatten; effect stronger in tight labour markets.
+  sample: Sales, customer service, administrative support and clerical postings, US, 2011-2012.
+  grade: strong
+  caveats: Lower-skill job categories; employer screening signal, not a law of nature; tells you about callbacks, not hires.
+  commercial: false
+  topics: [switching, unemployment]
+
+burks2015:
+  type: article
+  authors: [Stephen V. Burks, Bo Cowgill, Mitchell Hoffman, Michael Housman]
+  year: 2015
+  title: "The value of hiring through employee referrals"
+  venue: Quarterly Journal of Economics, 130(2), 805-839
+  doi: 10.1093/qje/qjv010
+  url: https://epflicht.ulb.uni-bonn.de/download/pdf/103985
+  url_note: Opened the IZA Discussion Paper 7382 version ("You'd be perfect for this: Understanding the value of hiring through referrals", May 2013); the QJE publisher page blocked automated access.
+  accessed: 2026-10-25
+  supports: Nine large firms (call centres, trucking, high-tech); referred workers 10-30% less likely to quit, better on rare high-impact metrics (patents, fewer truck accidents), similar on ordinary metrics; referred applicants substantially more likely to be hired; workers refer people like themselves.
+  sample: Personnel and productivity data from nine large US firms in three industries.
+  grade: strong
+  caveats: Industries are specific; effects on the firm, not a guarantee to the candidate. Working-paper wording may differ from published version.
+  commercial: false
+  topics: [referrals]
+
+brown2016:
+  type: article
+  authors: [Meta Brown, Elizabeth Setren, Giorgio Topa]
+  year: 2016
+  title: "Do informal referrals lead to better matches? Evidence from a firm's employee referral system"
+  venue: Journal of Labor Economics, 34(1), 161-209
+  doi: 10.1086/682338
+  url: https://resources.newyorkfed.org/medialibrary/media/research/staff_reports/sr568.pdf
+  url_note: Federal Reserve Bank of New York Staff Report 568 (Aug 2012, rev. June 2013), the pre-publication version.
+  accessed: 2026-10-25
+  supports: In one large US corporation (62,127 applicants), referred candidates were 6.1% of applicants but 21.4% of interviewees, 27.3% of offer recipients and 29.1% of hires; job-board applicants were 60.1% of applicants but 23.5% of hires. Referred hires start with a wage advantage that dissipates by year 3, and stay longer. Also cites Pellizzari (2004): 25-40% of Europeans in most countries heard of their job via informal contacts.
+  sample: Single large US corporation, applicant and personnel records.
+  grade: strong
+  caveats: One firm; descriptive stage shares are raw, not causal.
+  commercial: false
+  topics: [referrals, hiring-funnel]
+
+atlantafed-wgt:
+  type: dataset
+  authors: [Federal Reserve Bank of Atlanta]
+  year: 2026
+  title: "Wage Growth Tracker"
+  venue: Federal Reserve Bank of Atlanta (based on Census Bureau / BLS Current Population Survey)
+  url: https://www.atlantafed.org/research-and-data/data/wage-growth-tracker
+  accessed: 2026-10-25
+  supports: Median 12-month wage growth of matched individuals, with separate series for job switchers vs job stayers; methodology page defines a switcher as in a different occupation or industry than a year ago or changed employer/duties in the past three months.
+  sample: Matched CPS individuals observed 12 months apart; skews toward older, more educated, continuously employed workers (per its own notes).
+  grade: strong
+  caveats: Median of individuals, not causal; switcher definition is broad and local (movers drop out of the CPS); the gap varies with the cycle.
+  commercial: false
+  topics: [switching]
+
+gem2025:
+  type: industry-report
+  authors: [Gem]
+  year: 2025
+  title: "2025 Recruiting Benchmarks Report"
+  venue: Gem (recruiting software vendor)
+  url: https://lp.gem.com/rs/972-IVV-330/images/2025%20Recruiting%20Benchmarks%20-%20Gem.pdf?version=0
+  accessed: 2026-10-25
+  supports: Customer ATS/CRM data 2021-2024 - application-to-hire 1.6% (2021) to 0.5% (2024); inbound 2024 - 6% reach pre-onsite, 20% of those onsite, 35% of onsites get offers, 0.4% hired; sourced 2.0%; offer acceptance 84% (2024) vs 81% (2021); 20 interviews per hire (2024) vs 14 (2021); 41 days to hire vs 33; referrals 1.64% of applications but 17.09% of hires; internal candidates 0.27% of applications, 12.56% of hires; job boards 48.98% of applications, 24.55% of hires.
+  sample: Gem customers (skews to tech and venture-backed and enterprise firms); sample size not stated in the extracted text.
+  grade: moderate
+  caveats: Vendor data with a product to sell (sourcing/CRM); customer base not representative; definitions are Gem's.
+  commercial: true
+  topics: [hiring-funnel, referrals, channels]
+
+careerplug2025:
+  type: industry-report
+  authors: [CareerPlug]
+  year: 2025
+  title: "2025 Recruiting Metrics Report"
+  venue: CareerPlug (applicant tracking vendor for small businesses)
+  url: https://www.careerplug.com/wp-content/uploads/2025/04/Recruiting-Metrics-Report.pdf
+  accessed: 2026-10-25
+  supports: 2024 data from 60,000+ small businesses and 10M+ applications - 180 applicants per hire (up from 93); 3% of applicants invited to interview; 27% of interviews become hires; click-to-apply 4.7%; referrals 2% of applicants but 11.3% of hires; job boards 61.3% of applicants, 43.3% of hires.
+  sample: Small US businesses, mostly hourly and frontline roles (restaurants, retail, healthcare, services).
+  grade: moderate
+  caveats: Vendor data; SMB and hourly skew - not representative of professional or tech hiring.
+  commercial: true
+  topics: [hiring-funnel, referrals]
+
+enhancv2025-ats:
+  type: industry-survey
+  authors: [Enhancv]
+  year: 2025
+  title: "Does ATS reject resumes? (interviews with 25 US recruiters)"
+  venue: Enhancv blog (resume-builder vendor)
+  url: https://enhancv.com/blog/does-ats-reject-resumes/
+  accessed: 2026-10-25
+  supports: 23 of 25 recruiters (92%) said their systems do not auto-reject for formatting; 2 of 25 used strict match thresholds or auto-reject on missing skills; knockout questions (work authorisation, licences, location) universal.
+  sample: 25 US recruiters, convenience sample.
+  grade: weak
+  caveats: Tiny non-random sample by a resume-tool vendor; useful only as corroboration of the mechanism.
+  commercial: true
+  topics: [ats, myths]
+
+hiringthing-ats-myth:
+  type: web
+  authors: [HiringThing]
+  year: 2021
+  title: "Applicant tracking systems aren't excluding job applicants - people are"
+  venue: HiringThing blog (ATS vendor)
+  url: https://blog.hiringthing.com/applicant-tracking-systems-arent-excluding-job-applicants-people-are
+  accessed: 2026-10-25
+  supports: Recounts HR consultant Christine Assaf's investigation finding no study behind "75% of resumes are never read by a human"; notes the Harvard "Hidden Workers" report is about employer-set filters, not autonomous software.
+  sample: n/a (commentary)
+  grade: weak
+  caveats: ATS vendor defending ATSs - obvious interest. Year inferred from its discussion of the Sept 2021 Hidden Workers report; page date not shown in extracted text.
+  commercial: true
+  topics: [ats, myths]
+
+interviewguys-ats-myth:
+  type: web
+  authors: [Mike Simpson]
+  year: 2026
+  title: "The ATS resume rejection myth"
+  venue: The Interview Guys (career-advice business)
+  url: https://blog.theinterviewguys.com/ats-resume-rejection-myth/
+  accessed: 2026-10-25
+  supports: States the 75% figure came from a 2012 sales pitch by Preptel, a resume-optimisation company that closed in 2013, with no published method.
+  sample: n/a
+  grade: weak
+  caveats: Page dated 25 June 2026 (likely an update). Secondary, commercial; origin story is consistent across several secondary sources but the original Preptel material was not located.
+  commercial: true
+  topics: [ats, myths]
+
+sackett2023-gca:
+  type: article
+  authors: [Paul R. Sackett, Saron Demeke, Isaac M. Bazian, Anne Marie Griebie, Reed Priest, Nathan R. Kuncel]
+  year: 2024
+  title: "A contemporary look at the relationship between general cognitive ability and job performance"
+  venue: Journal of Applied Psychology, 109(5)
+  doi: 10.1037/apl0001159
+  url: https://gwern.net/doc/iq/ses/2023-sackett.pdf
+  url_note: Copy hosted on gwern.net (filename says 2023, online-first year); print issue 2024 per secondary listings.
+  accessed: 2026-10-25
+  supports: 153 samples, N=40,740 from 21st-century studies - mean observed validity .16, corrected .22 for general cognitive ability vs job performance.
+  sample: Meta-analysis of studies from 2000 onward.
+  grade: strong
+  caveats: Part of an active dispute about corrections (see ones2023); print year/issue taken from search listing, the PDF itself was the online version.
+  commercial: false
+  topics: [selection-methods]
+
+ones2023:
+  type: article
+  authors: [Deniz S. Ones, Chockalingam Viswesvaran]
+  year: 2023
+  title: "A response to speculations about concurrent validities in selection: Implications for cognitive ability"
+  venue: Industrial and Organizational Psychology (commentary)
+  url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5C25EFD82F603039E111FFAF299B1B0F/S1754942623000433a.pdf/a-response-to-speculations-about-concurrent-validities-in-selection-implications-for-cognitive-ability.pdf
+  accessed: 2026-10-25
+  supports: Counter-argument that range-restriction corrections in concurrent studies are appropriate; disputes that cognitive ability's validity is much lower than previously reported.
+  sample: n/a (commentary)
+  grade: moderate
+  caveats: Commentary, not new data; shows the magnitude debate is live.
+  commercial: false
+  topics: [selection-methods]
+
+levashina2014:
+  type: article
+  authors: [Julia Levashina, Christopher J. Hartwell, Frederick P. Morgeson, Michael A. Campion]
+  year: 2014
+  title: "The structured employment interview: Narrative and quantitative review of the research literature"
+  venue: Personnel Psychology, 67(1), 241-293
+  doi: 10.1111/peps.12052
+  url: https://apps.it.purdue.edu/sites/Home/DirectoryApi/Files/42d5154c-ccc5-403e-b3ed-edd69e3f6896/Download
+  url_note: Author copy via Purdue directory.
+  accessed: 2026-10-25
+  supports: Past-behaviour questions slightly more valid than situational (uncorrected .31 vs .25-.26 in cited meta-analyses); meta-analysis of impression management in structured interviews - self-promotion r=.26, nonverbal .18, other-focused .13, defensive .12; structure reduces but does not eliminate IM.
+  sample: Review of structured interview literature with new meta-analyses.
+  grade: strong
+  caveats: Validity values quoted from other meta-analyses are uncorrected.
+  commercial: false
+  topics: [selection-methods, interviewing]
+
+hiddenworkers2021:
+  type: report
+  authors: [Joseph B. Fuller, Manjari Raman, Eva Sage-Gavin, Kristen Hines]
+  year: 2021
+  title: "Hidden Workers: Untapped Talent"
+  venue: Harvard Business School Project on Managing the Future of Work and Accenture
+  url: https://www.hbs.edu/managing-the-future-of-work/research/hidden-workers-untapped-talent
+  url_note: PDF opened via the download link on this HBS page (hiddenworkers09032021.pdf, Contentful-hosted with an expiring token).
+  accessed: 2026-10-25
+  supports: Survey of 2,275 executives and 8,720 hidden workers (US, UK, Germany). >90% of employers use their RMS to initially filter or rank candidates; 88% agree qualified high-skills candidates are vetted out for not matching exact job-description criteria (94% middle-skills); 48% filter middle-skills candidates on employment gaps over six months.
+  sample: 2,275 executives, 8,720 workers, three countries.
+  grade: moderate
+  caveats: Executive self-report; Accenture is a consultancy with services in this space. Shows employer-configured filters, not autonomous rejection.
+  commercial: partly (Accenture co-author)
+  topics: [ats, hiring-funnel, switching]
+
+sullivan2013:
+  type: web
+  authors: [John Sullivan]
+  year: 2013
+  title: "Why you can't get a job... Recruiting explained by the numbers"
+  venue: ERE (recruiting trade site), 20 May 2013
+  url: https://www.ere.net/articles/why-you-cant-get-a-job-recruiting-explained-by-the-numbers
+  accessed: 2026-10-25
+  supports: Origin of the widely repeated "250 resumes per corporate job opening" figure, hedged in the original ("Although it varies with the company and the job").
+  sample: None stated.
+  grade: weak
+  caveats: Consultant estimate without method; later misattributed to Glassdoor.
+  commercial: false
+  topics: [hiring-funnel, myths]
+
+shrm2015-recruiters:
+  type: web
+  authors: [SHRM]
+  year: 2015
+  title: "Recruiters must be 'project managers' and 'consultants'"
+  venue: SHRM news (28 April 2015), reporting a talk by Gerry Eskenazi at the 2015 SHRM Talent Management conference
+  url: https://www.shrm.org/in/topics-tools/news/talent-acquisition/recruiters-must-project-managers-consultants
+  accessed: 2026-10-25
+  supports: Practitioner framing that recruiters project-manage while hiring managers decide; intake meetings and service-level agreements.
+  sample: n/a
+  grade: weak
+  caveats: Practitioner opinion; uncontroversial but not research.
+  commercial: false
+  topics: [hiring-funnel]
+
+ladders2012:
+  type: industry-report
+  authors: [TheLadders (Will Evans)]
+  year: 2012
+  title: "Keeping an eye on recruiter behavior (Eye tracking online metacognition: cognitive complexity and recruiter decision making)"
+  venue: TheLadders (job site)
+  url: https://web.archive.org/web/20131214121352/http://cdn.theladders.net/static/images/basicSite/pdfs/TheLadders-EyeTracking-StudyC2.pdf
+  url_note: Internet Archive copy of the original PDF.
+  accessed: 2026-10-25
+  supports: 30 recruiters over 10 weeks; ~6 seconds on initial fit/no-fit decision; ~80% of time on name, titles, companies, dates, education.
+  sample: 30 professional recruiters.
+  grade: weak
+  caveats: Not peer-reviewed; small sample; document promotes TheLadders' resume-rewrite service and compares its own profiles favourably to LinkedIn's.
+  commercial: true
+  topics: [resumes, hiring-funnel, myths]
+
+ladders2018:
+  type: industry-report
+  authors: [Ladders Inc.]
+  year: 2018
+  title: "Eye-Tracking Study 2018"
+  venue: Ladders (job site)
+  url: https://web.archive.org/web/20210110010358/https://www.theladders.com/static/images/basicSite/pdfs/TheLadders-EyeTracking-StudyC2.pdf
+  url_note: Internet Archive copy; live theladders.com blocked automated access (403). Secondary coverage - https://hrdailyadvisor.hci.org/2018/11/15/eye-tracking-recruiters-average-7-4-seconds-reviewing-a-resume/
+  accessed: 2026-10-25
+  supports: 7.4-second average initial screen; simple layouts with clear titles and headers performed best; clutter, multiple columns, keyword stuffing performed worst.
+  sample: Not stated in the report.
+  grade: weak
+  caveats: Commercial; no sample size or peer review; measures first-pass glance only.
+  commercial: true
+  topics: [resumes, hiring-funnel, myths]
+
+acs2022-linkedin:
+  type: news
+  authors: [Information Age (Australian Computer Society)]
+  year: 2022
+  title: "Secret study conducted on 20 million LinkedIn users"
+  venue: Information Age, ACS
+  url: https://ia.acs.org.au/article/2022/secret-study-conducted-on-20-million-linkedin-users.html
+  accessed: 2026-10-25
+  supports: Reports that users in the rajkumar2022 experiments were not told they were test subjects; quotes Michael Zimmer (Marquette) on ethics; LinkedIn said it acted consistently with its user agreement and privacy policy.
+  sample: n/a
+  grade: moderate
+  caveats: Secondary news report (relays NYT coverage).
+  commercial: false
+  topics: [networking]
+
+pellizzari-via-brown2016:
+  type: note
+  authors: [n/a]
+  year: 2016
+  title: "Pellizzari (2004) as cited in brown2016"
+  venue: cited in brown2016 footnote 2
+  url: https://resources.newyorkfed.org/medialibrary/media/research/staff_reports/sr568.pdf
+  accessed: 2026-10-25
+  supports: Between 25% and 40% of respondents in most European countries heard about their current job through informal contacts (European Community Household Panel).
+  sample: ECHP households.
+  grade: moderate
+  caveats: Secondary citation; Pellizzari's original was not opened.
+  commercial: false
+  topics: [networking, regional]
+
+lester2021:
+  type: working-paper
+  authors: [Benjamin Lester, David A. Rivers, Giorgio Topa]
+  year: 2021
+  title: "The heterogeneous impact of referrals on labor market outcomes"
+  venue: Federal Reserve Bank of New York Staff Reports, no. 987
+  url: https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr987.pdf
+  accessed: 2026-10-25
+  supports: Survey literature - most surveys of job seekers find 50-60% report using a referral to find employment; firm surveys range from just under 40% to over 50% of hires via referral. In the NY Fed Survey of Consumer Expectations (2013-2018), business-contact referrals associate with higher starting wages and are used more for high-skill jobs; family/friend referrals with lower starting wages, used more for low-skill jobs.
+  sample: SCE Job Search Surveys 2013-2018, nationally representative US online panel.
+  grade: strong
+  caveats: Working paper; "using a referral" is broad (any contact help).
+  commercial: false
+  topics: [referrals, networking]
+
+fresnostate2024-hidden:
+  type: web
+  authors: [College Recruiter, republished by California State University Fresno Career Development Center]
+  year: 2024
+  title: "Is it true that 80% of job openings are not advertised?"
+  venue: Fresno State Career Development Center blog (11 July 2024)
+  url: https://careercenter.fresnostate.edu/blog/2024/07/11/is-it-true-that-80-of-job-openings-are-not-advertised/
+  accessed: 2026-10-25
+  supports: The 80%-unadvertised claim is hard to trace to any single source and "likely originated from anecdotal evidence and informal surveys rather than rigorous, peer-reviewed research."
+  sample: n/a
+  grade: weak
+  caveats: Originally from College Recruiter (a job board); commentary only.
+  commercial: true
+  topics: [networking, myths]
