@@ -3,10 +3,10 @@ id: ch21
 status: review
 ---
 
-::: scene {slug="INT. LANTERNFISH, TOMÁS'S OFFICE — TUESDAY, 9:30 AM"}
-Tomás has drawn a box on the whiteboard and written RELIABILITY SQUAD inside it. Under the box are five short lines, one for each engineer, and above it one longer line with nothing on it.
+::: scene {slug="INT. LANTERNFISH, TOMÁS'S OFFICE — MONDAY, 10 AM"}
+This is the half-hour Tomás asked for on Sunday night. He has drawn a box on the whiteboard and written RELIABILITY SQUAD inside it. Under the box are five short lines, one for each engineer, and above it one longer line with nothing on it.
 
-@tomas: We're splitting the platform team. The new squad owns testability, release safety and the on-call tooling, which is mostly the work you've been doing anyway. I'd like you to lead it.
+@tomas: We're making testability its own squad. It owns the design reviews, the test tooling and release safety across the platform, which is mostly the work you've been doing anyway for three squads. I'd like you to lead it.
 
 @dev: Lead it as in tech lead? Or lead it as in one-to-ones?
 
@@ -16,7 +16,7 @@ Tomás has drawn a box on the whiteboard and written RELIABILITY SQUAD inside it
 
 @tomas: The pay goes up a little. The job changes a lot. That's the honest answer.
 
-Dev looks at the empty line above the box. Six months ago, after a year of building the case, she was promoted to senior engineer. This is the first offer in her working life that she did not have to ask for, and her first feeling, to her surprise, is not delight. It is something closer to *wait*.
+Dev looks at the empty line above the box. A little over a year ago, after a "not yet" and six months of building a better case, she was promoted to senior engineer ([[ch19]]). This is the first offer in her working life that she did not have to ask for, and her first feeling, to her surprise, is not delight. It is something closer to *wait*.
 
 @dev: Can I have a week?
 
@@ -105,7 +105,7 @@ When Kai first became Dev's lead, the two of them wrote down their rules on a st
 
 If managing is a different job, being excellent at the old one should not, on its own, predict being excellent at the new one. The evidence says it doesn't, and sometimes the relationship runs the wrong way.
 
-Remember the study from [[ch01.sec.career-game]]. Across sales workers in 131 firms, companies promoted their best salespeople into management, even though better sales performance before promotion predicted *worse* performance as a manager [@benson2019]. What did predict success as a manager was a history of collaborating with colleagues, and firms did not reward it with promotion. In the working-paper version of the study, salespeople who had never collaborated, the "lone wolves", did particularly badly as managers [@benson2019]. This is the pattern the Peter Principle describes, measured in real personnel data.
+Remember the study from [[ch01.sec.career-game]], which [[ch19.sec.peter]] looked at from the promotion side. Across sales workers in 131 firms, companies promoted their best salespeople into management, even though better sales performance before promotion predicted *worse* performance as a manager [@benson2019]. What did predict success as a manager was a history of collaborating with colleagues, and firms did not reward it with promotion. In the working-paper version of the study, salespeople who had never collaborated, the "lone wolves", did particularly badly as managers [@benson2019]. This is the pattern the Peter Principle describes, measured in real personnel data.
 
 Two cautions keep it honest. First, some of the slump after any promotion is simple statistics: people are promoted after a good run, part of every good run is luck, and luck does not get promoted with you, so average performance falls even when the organisation promotes sensibly [@lazear2004]. Second, technical skill is not irrelevant. In US and British survey data, a boss's technical competence was the single strongest predictor of workers' job satisfaction, and workers' well-being rose when their boss became more competent [@artz2017]. Both findings can be true at once: people want a manager who *could* do their job, but the *best* person at the job is not automatically the best person to manage it [!view].
 
@@ -188,7 +188,7 @@ Sort each reason into **about the work** (you want what managers actually do), *
 ::: answer
 - **1. Work.** This is affective-identity motivation in plain words, and the strongest reason on the list.
 - **2. Reward.** Legitimate, and worth checking: is it true? If a senior technical track exists, it may not be. If it really is the only route, say so honestly to yourself, and weigh it against the rest of this list.
-- **3. Escape.** Boredom is a real push ([[ch02]]), but management is a strange cure for it. Ask first whether a different project or skill would fix it ([[ch20]]).
+- **3. Escape.** Boredom is a real push ([[ch02]]), but management is a strange cure for it. Ask first whether a different project or skill would fix it ([[ch20.sec.choosing]]).
 - **4. Mixed.** Influence over direction is part of the job, but much of it comes through persuasion rather than authority, on both tracks. A staff engineer often has more say over *technical* direction than a manager does.
 - **5. Work, mostly.** This is social-normative motivation, a sense of duty to the team, which the research links to leading well [@badura2020]. Check that it is about the team and not about the rival.
 - **6. Reward**, of the comparison kind, and the weakest reason here. Their jobs are not your job.
@@ -203,7 +203,7 @@ Reasons that survive "would I still want it at the same pay?" are usually about 
 
 The best feature of this decision, and the one people least often use, is that you can usually test it before you make it.
 
-There are several ways to try management without taking the job permanently: an *acting* lead role while a manager is on leave, a fixed-term "tour of duty" leading a project or a small team, leading the onboarding of a new hire, or running a hiring loop from start to finish. Each gives you a sample of the real work, the one-to-ones, the interruptions and the responsibility for other people's results, at lower stakes. None of these formats has been tested in research that we could find, so treat this section as craft [!craft]. But the logic is the same as a take-home task in [[ch08]]: a work sample tells you more than an interview, and that is true when you are the one deciding.
+There are several ways to try management without taking the job permanently: an *acting* lead role while a manager is on leave, a fixed-term "tour of duty" leading a project or a small team, leading the onboarding of a new hire, or running a hiring loop from start to finish. Each gives you a sample of the real work, the one-to-ones, the interruptions and the responsibility for other people's results, at lower stakes. None of these formats has been tested in research that we could find, so treat this section as craft [!craft]. But the logic is the same as a take-home task in [[ch08.sec.take-home]]: a work sample tells you more than an interview, and that is true when you are the one deciding.
 
 Reversibility is the other half. A practitioner essay argues that the best frontline engineering managers stay close to hands-on work and the best senior engineers have often spent time managing, and recommends swinging between the two "like a pendulum" every few years [@majors2017!]. That is one experienced person's view, not a finding. But it is a useful corrective to the idea that the fork is permanent. In many organisations it is not, provided you leave the door open when you go through it.
 
@@ -262,7 +262,7 @@ There are no right answers, but there are revealing ones. If question 1 shows a 
 
 Dev ran her trial. It was, in her later description, "the most useful three months I've ever hated about half of".
 
-Some of it she liked more than she expected. One-to-ones turned out to be a lot like testing: asking careful questions until the real problem surfaced. She was good at spotting the engineer who had gone quiet. She ran a hiring loop with a structured scoring sheet that Meera would have framed ([[ch07]]). Some of it she liked less than she feared. By week three she had not written code in eleven days, and found herself reviewing pull requests at eleven at night to feel like herself. By week eight, the honest answer to "what's energising?" was "the people", and to "what's draining?" was "everything between the people". And by week ten she had noticed something else: one of the squad's engineers had been quietly doing half of the lead's job for months, organising, unblocking and asking how people were, and was better at it than Dev.
+Some of it she liked more than she expected. One-to-ones turned out to be a lot like testing: asking careful questions until the real problem surfaced. She was good at spotting the engineer who had gone quiet. She ran a hiring loop with a structured scoring sheet that Meera would have framed ([[ch07.sec.structure]]). Some of it she liked less than she feared. By week three she had not written code in eleven days, and found herself reviewing pull requests at eleven at night to feel like herself. By week eight, the honest answer to "what's energising?" was "the people", and to "what's draining?" was "everything between the people". And by week ten she had noticed something else: one of the squad's engineers had been quietly doing half of the lead's job for months, organising, unblocking and asking how people were, and was better at it than Dev.
 
 So she chose the expert track, for now, and the way she said it mattered as much as the choice.
 
@@ -289,7 +289,7 @@ Neither chair is wrong, which is the point. The fork is a choice between two goo
 ::: craft
 **Saying no to the lead role, well.** A useful shape: thank them, say what you learned, say what you want instead, and point at someone if you honestly can. Dev's version, to Tomás:
 
-*"Thank you for the trial. I learned that I like the people part more than I expected, and the calendar much less. I'd like to stay on the technical track and work towards staff, starting with the release-safety work. And I think the squad already has its lead: she has been doing half the job for months, and the team goes to her first. I'd be glad to help her through her own trial."*
+*"Thank you for the trial. I learned that I like the people part more than I expected, and the calendar much less. I'd like to stay on the technical track and work towards staff, starting with testability across the whole platform. And I think the squad already has its lead: she has been doing half the job for months, and the team goes to her first. I'd be glad to help her through her own trial."*
 
 It turns a no into information, keeps the door open for later, and gives the organisation a better answer than the one it asked for. This is craft, not research [!craft], but it follows from the same rule as every good exit in this book: leave through a door you would be happy to walk back through ([[ch02.sec.boomerangs]]).
 :::

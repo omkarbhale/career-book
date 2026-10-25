@@ -8,11 +8,11 @@ Dev's laptop is wiped, her badge is in an envelope for Tomás, and she has one b
 
 She has filled in the name already. *Beatriz Santos.*
 
-The box below it asks: *How do you know this person, and why should we talk to them?* Four years ago Dev could not have written a good answer to that question about herself. Now she writes one about somebody else, in four sentences, the way [[ch06]] taught her:
+The box below it asks: *How do you know this person, and why should we talk to them?* Four years ago Dev could not have written a good answer to that question about herself. Now she writes one about somebody else, in four sentences, the way [[ch06.sec.asking]] taught her:
 
-> *I worked next to Bea at Corvid for three years. She rewrote their billing engine in a fortnight, and since then she has become one of the best engineers in the industry at the hard problem she chose to get good at. She is the best engineer I have worked with, and the worst at saying so, which is why I'm saying it. Her portfolio and write-ups are linked below; ask her about the billing rewrite.*
+> *I worked next to Bea at Corvid for three years. She rewrote their billing engine in a fortnight, and since then she has become one of the few people anywhere who can change a live payments database without downtime; the open-source tool she maintains to do it is linked below. She is the best engineer I have worked with, and the worst at saying so, which is why I'm saying it. Ask her about the billing rewrite.*
 
-Below that she pastes three links. Two years ago Bea had none to give. Now there is a public write-up of her best work, a conference talk she nearly backed out of and didn't, and a résumé whose bullets say what changed because of her.
+Below that she pastes two links. Two years ago Bea had none to give. Now there is the tool itself, with two years of history in which every bug anyone reported is fixed in public, and a résumé whose bullets say what changed because of her.
 
 She texts Bea.
 
@@ -25,7 +25,7 @@ She texts Bea.
 @bea: Two minutes. With a follow-up question I'm actually hoping they ask.
 :::
 
-That is what a trailer looks like when it finally matches the film. Bea has not become a different person, louder or more polished or more like Rex. She has made what she already was easy to see: specific, checkable and costly to fake, in the language of [[ch01.sec.signals]]. And the referral that opens the door is worth so much for the reason [[ch06]] gave: someone who has watched her film for years is putting their own reputation behind it.
+That is what a trailer looks like when it finally matches the film. Bea has not become a different person, louder or more polished or more like Rex. She has made what she already was easy to see: specific, checkable and costly to fake, in the language of [[ch01.sec.signals]]. And the referral that opens the door is worth so much for the reason [[ch06.sec.why]] gave: someone who has watched her film for years is putting their own reputation behind it.
 
 At four o'clock Rex comes by with two coffees from the new machine and the expression of a man about to ask a favour.
 

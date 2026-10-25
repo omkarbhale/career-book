@@ -192,7 +192,7 @@ The sequel to the best-known coding-interview book, by its original author and t
 :::
 
 ::: resource {source=behroozi2020}
-For the evidence-minded: the small experiment behind [[ch08]], in which students solving a coding problem while watched did less than half as well as those working in private. Worth reading before you over-interpret one bad whiteboard round, and before you design one.
+For the evidence-minded: the small experiment behind [[ch08.sec.watched]], in which students solving a coding problem while watched did less than half as well as those working in private. Worth reading before you over-interpret one bad whiteboard round, and before you design one.
 :::
 
 ## Personality tests and types {#more.sec.personality}

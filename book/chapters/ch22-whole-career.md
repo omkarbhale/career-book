@@ -37,7 +37,7 @@ Think of someone ten or twenty years further into their working life than you wh
 
 The picture most people carry of a career is a ladder: start at the bottom, climb, stop at the top. It is a tidy picture and a misleading one.
 
-Start with how often people move. In the US, people born between 1957 and 1964 held an average of 12.9 jobs between the ages of 18 and 58 [@bls-nlsy2025]. Moves between occupations and industries, not just employers, were common in the US and rose substantially between 1968 and 1997, and the same research found that much of what people learn at work is specific to an occupation or an industry, so a bigger move costs more of it [@kambourov2008]. A career, in the data, looks much less like one ladder than like a series of jobs joined by turns.
+Start with how often people move. In the US, people born between 1957 and 1964 held an average of 12.9 jobs between the ages of 18 and 58 [@bls-nlsy2025]. Moves between whole occupations and industries were common too, and became more common between 1968 and 1997 [@kambourov2008]; [[ch20.sec.capital]] drew the other half of that finding, that much of what you learn is specific to a kind of work, so a bigger turn costs more of it. A career, in the data, looks much less like one ladder than like a series of jobs joined by turns.
 
 [[ch01.sec.loop|The loop from Chapter 1]] gives you a better picture. Each job is a full turn of it: a snapshot game to get in, a long game once you are there, a career game that turns the work into skills and reputation, and then, eventually, another snapshot, played with what the last turn produced. A career is that loop, repeated. The loops are rarely the same size, and they rarely point in exactly the same direction.
 
@@ -72,15 +72,15 @@ Put the two kinds together and you get a distinction worth keeping [!view]. The 
 
 Over decades, some of what you know will become worth less. That is a real effect, and it has a slogan attached that is not real.
 
-The real effect is measurable. Using a near-universe of US online job postings from 2007 to 2019, linked to earnings data, David Deming and Kadeem Noray found that the returns to experience are a race between learning on the job and skills becoming obsolete. In faster-changing careers the age-earnings profile is flatter; the earnings premium for applied science and engineering graduates such as computer scientists is highest at entry and, in the working-paper version, falls by more than half in the first decade; and graduates tend to move out of fast-changing occupations as they get older [@deming2020].
+The real effect is the one [[ch20.sec.capital]] described: in fast-changing fields, the earnings premium for a degree in something like computer science falls by more than half over the first decade in the working-paper version of a large study of US job postings, because the skills jobs ask for change underneath it [@deming2020]. Seen over a whole career, the same study adds two things: in faster-changing careers the age-earnings profile is flatter, and people tend to move out of fast-changing occupations as they get older [@deming2020].
 
 ::: myth {#ch22.myth.half-life verdict=partly grade=strong} Your skills have a half-life of five years
 The decay is real. The number is not. The labour-market evidence shows that skills tied to fast-changing work lose market value, fastest in technology [@deming2020]. But the "five-year half-life" traces back, as far as our researchers could follow it, to a hedged aside in talk slides by John Seely Brown: the half-life of skills is shrinking, "perhaps as low as 5 years", with no data or method behind it [@brown2026]. By 2010 it was circulating as a talk line [@campbell2010!], and it now appears with confident attributions that we could not trace to any primary report. Say instead: tool-specific skills lose value, sometimes quickly; there is no measured half-life.
 :::
 
-So what lasts? The same study suggests an answer: in the working-paper version, the authors find that ability matters relatively more in slower-changing careers because "learning gains accumulate" [@deming2020]. Our reading, which is a view rather than a finding [!view], is that the durable part of expertise is judgement: knowing which problem matters, how systems fail, how to work with people, how to learn the next tool quickly. The specific framework you use this year is a tool. Your ability to choose the right one, and to explain why, compounds. That is why [[ch20]] argued for skills that compound rather than skills that are fashionable.
+So what lasts? The same study suggests an answer: in the working-paper version, the authors find that ability matters relatively more in slower-changing careers because "learning gains accumulate" [@deming2020]. Our reading, which is a view rather than a finding [!view], is that the durable part of expertise is judgement: knowing which problem matters, how systems fail, how to work with people, how to learn the next tool quickly. The specific framework you use this year is a tool. Your ability to choose the right one, and to explain why, compounds. That is why [[ch20.sec.capital]] argued for skills that compound rather than skills that are fashionable.
 
-Age itself is a smaller factor than many people fear. A meta-analysis across ten dimensions of job performance found that age was largely unrelated to core task performance, creativity and performance in training [@ng2008]. Where performance stalls with time, the better explanation is usually that people stop learning, not that they get older [!view]. A meta-analysis of work experience found that the *amount* of relevant experience predicted performance better than time served [@quinones1995], which is the point [[ch20]] makes about practice.
+Age itself is a smaller factor than many people fear: as [[ch20]] noted, it is largely unrelated to core task performance [@ng2008]. Where performance stalls with time, the better explanation is usually that people stop learning, not that they get older [!view]. A meta-analysis of work experience found that the *amount* of relevant experience predicted performance better than time served [@quinones1995], which is the point [[ch20.sec.experience]] makes.
 
 ## The middle of the road {#ch22.sec.middle}
 
@@ -112,10 +112,10 @@ What meaningful work goes with. The correlations are ranges from one meta-analys
 
 Those are correlations, so they cannot show that meaningful work *causes* engagement; engaged people may also find their work more meaningful. But the shape is worth noticing. Meaning goes with how work feels far more than with how well it is done, which is a reason to want it for your own sake rather than as a productivity trick.
 
-Meaning has a cost, and the research is clear about that too. Zookeepers with a strong sense of calling found deep meaning in their work, and were also more likely to treat it as a moral duty and to sacrifice pay, personal time and comfort for it [@bunderson2009]. In a series of experiments, observers judged unpaid extra hours and demeaning tasks as more legitimate when the worker was seen as passionate, assuming such workers would volunteer anyway [@kim2020]. And people accept lower pay for work they find meaningful [@hu2017]. Put plainly: meaningful work is good for you, and it is also the easiest thing for an employer to underpay. Love the work, and still negotiate ([[ch09]]), and still keep the boundaries from [[ch17]].
+Meaning has a cost, and the research is clear about that too. Zookeepers with a strong sense of calling found deep meaning in their work, and were also more likely to treat it as a moral duty and to sacrifice pay, personal time and comfort for it [@bunderson2009]. In a series of experiments, observers judged unpaid extra hours and demeaning tasks as more legitimate when the worker was seen as passionate, assuming such workers would volunteer anyway [@kim2020]. And people accept lower pay for work they find meaningful [@hu2017]. Put plainly: meaningful work is good for you, and it is also the easiest thing for an employer to underpay. Love the work, and still negotiate ([[ch09.sec.should]]), and still keep the boundaries from [[ch17]].
 
 ::: myth {#ch22.myth.passion verdict=partly grade=moderate} Find your passion first, and the rest will follow
-Believing that a passion is something you *find*, already formed, has costs. In five studies, mostly with students, people who saw interests as fixed were less interested in areas outside their existing ones, expected limitless motivation once they found a passion, and lost interest faster when a new interest became difficult; as the authors put it, urging people to find their passion may lead them "to put all their eggs in one basket but then to drop that basket when it becomes difficult to carry" [@okeefe2018]. But the opposite slogan is not proven either: people who believe passion comes from finding the right fit and people who believe it is developed over time can both reach well-being and success at work [@chen2015]. The popular argument that skill should come before passion [@newport2012!] is a practitioner's case, not a finding. The honest version: interest often grows with competence and investment, and you rarely know in advance where it will grow.
+[[ch20.sec.choosing]] met the evidence on this when Dev was choosing a skill; here it is as a verdict on the slogan. Believing that a passion is something you *find*, already formed, has costs: in five studies, mostly with students, people who saw interests as fixed lost interest faster when a new interest became difficult, and, as the authors put it, urging people to find their passion may lead them "to put all their eggs in one basket but then to drop that basket when it becomes difficult to carry" [@okeefe2018]. But the opposite slogan is not proven either: people who believe passion comes from finding the right fit and people who believe it is developed over time can both reach well-being and success at work [@chen2015]. The popular argument that skill should come before passion [@newport2012!] is a practitioner's case, not a finding. The honest version: interest often grows with competence and investment, and you rarely know in advance where it will grow.
 :::
 
 ## Money, over decades {#ch22.sec.money}
@@ -171,7 +171,7 @@ That is the career-game version of the thesis of this book. The trailer, the fil
 Which brings us back to the recruiter.
 
 ::: scene {slug="INT. DEV'S FLAT — WEDNESDAY, 6:40 PM"}
-The call is from a recruiter at Kestrel, a payments company about four times Lanternfish's size. She has done her homework: she has read Dev's write-up on release-safety checks, which a friend of a friend shared, and she has spoken to someone who worked with Dev at Corvid.
+The call is from a recruiter at Kestrel, a payments company about four times Lanternfish's size. She has done her homework: she has read Dev's public write-up on designing services to be testable before they are built, which a friend of a friend shared, and she has spoken to someone who worked with Dev at Corvid.
 
 @dev: Can I ask how you found me?
 
@@ -179,7 +179,7 @@ The call is from a recruiter at Kestrel, a payments company about four times Lan
 
 @dev: Staff engineer, actually. Or that's the job you're calling about, isn't it?
 
-The recruiter laughs. The role is a staff engineer leading release safety across a dozen teams: exactly the work Dev has spent two years building, at three times the scale. Dev says she is interested, and that she will need a week before deciding whether to start a process.
+The recruiter laughs. The role is a staff engineer leading testability and release safety across a dozen teams: exactly the work Dev has spent two years building, at three times the scale. Dev says she is interested, and that she will need a week before deciding whether to start a process.
 
 After the call she does something she has not done for four years. She opens the old spreadsheet and clicks on the first tab, the one she renamed *Game 1* on a Sunday night in [[ch01]]. Forty-seven rows. Forty-six noes.
 
@@ -217,8 +217,8 @@ Imagine a recruiter calls you tomorrow about the job you would most like next. U
 ::: answer
 Dev's version:
 
-1. "I make releases safe: I built the release-safety checks and on-call tooling that let Lanternfish's platform team ship daily, and I lead that work across three squads."
-2. Evidence: *cut failed releases from roughly one a week to one a quarter by adding pre-release checks to every service; built the duplicate-shipment detector that has caught four client-facing defects before go-live; wrote the internal guide to testable services that new engineers now start with.*
+1. "I make systems testable before they are built: I run testability design reviews across Lanternfish's platform, and I lead the reliability squad's technical work."
+2. Evidence: *reviewed more than forty service designs for testability before they were built, with a log of which suggestions squads adopted; cut failed releases from roughly one a week to one a quarter by adding pre-release checks to every service; wrote the internal guide to testable services that new engineers now start with.*
 3. Names: Tomás, and the engineer she named as the squad's lead in [[ch21]].
 4. Gap: "I've never set technical direction across a dozen teams I don't work in every day."
 
@@ -244,7 +244,7 @@ Dev's answers: 1, pull (scale) and one push (a stalled role); 2, asked, with a d
 :::
 ::::
 
-Kestrel's process takes five weeks. It is the same game as four years ago, and it feels entirely different: Dev tells stories from her story bank instead of inventing answers in the room, asks the questions on her *Questions for them* tab, scopes the design exercise before starting it, and negotiates once, calmly, with numbers. When the offer comes, she tells Tomás first, in person, on a Monday morning rather than a Friday afternoon. He is disappointed and not surprised, and he says the thing good managers say: "If it doesn't work out, call me." She hands over the release-safety work with a written guide and two weeks of pairing, because the door she leaves through stays in the building.
+Kestrel's process takes five weeks. It is the same game as four years ago, and it feels entirely different: Dev tells stories from her story bank instead of inventing answers in the room, asks the questions on her *Questions for them* tab ([[ch07.sec.ask-them]]), scopes the design exercise before starting it ([[ch08.sec.take-home]]), and negotiates once, calmly, with numbers ([[ch09.sec.dev-negotiates]]). When the offer comes, she tells Tomás first, in person, on a Monday morning rather than a Friday afternoon. He is disappointed and not surprised, and he says the thing good managers say: "If it doesn't work out, call me." She hands over the testability reviews with a written guide and two weeks of pairing, because the door she leaves through stays in the building.
 
 ::: scene {slug="INT. LANTERNFISH, KITCHEN — DEV'S LAST FRIDAY, 8:50 AM"}
 There is a crowd in the kitchen, which is unusual at 8:50, and a large cardboard box, which is unprecedented.
@@ -261,7 +261,7 @@ Old Faithful has been unplugged. In its place stands a new machine, matt black, 
 
 The new machine makes a perfect flat white in nineteen seconds. Somebody applauds. Dev drinks it and finds, slightly to her alarm, that she misses the noise.
 
-At ten, she opens her laptop for the last time on the Lanternfish network, scrolls to the *Wins* tab, and adds one line: *Left the release-safety work in better hands than I found it.* Then she closes the spreadsheet and, for once, does not add a tab.
+At ten, she opens her laptop for the last time on the Lanternfish network, scrolls to the *Wins* tab, and adds one line: *Left the testability reviews in better hands than I found them.* Then she closes the spreadsheet and, for once, does not add a tab.
 :::
 
 That is not quite the end of Dev's time at Lanternfish. On her last afternoon she has two more things to do: refer someone, and give someone a reference. The [[epi]] closes the loop.
