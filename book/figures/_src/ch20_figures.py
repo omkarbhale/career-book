@@ -63,8 +63,9 @@ def fig_compound():
 
 # ---------------------------------------------------------- Figure 20.2
 
-# Macnamara, Hambrick & Oswald (2014): variance in performance explained by deliberate practice.
-DOMAINS = [("Games", 26), ("Music", 21), ("Sports", 18), ("Education", 4), ("Professions", 0.6)]
+# Macnamara, Hambrick & Oswald (2014), as corrected in their 2018 corrigendum:
+# variance in performance explained by deliberate practice.
+DOMAINS = [("Games", 24), ("Music", 23), ("Sports", 20), ("Education", 5), ("Professions", 1)]
 
 
 def fig_practice():
@@ -87,7 +88,7 @@ def fig_practice():
     b.append(pen.arrow(bx + 150, py + 52, bx + 6, py + 6, "k-thin k-a1", bend=-10, head=10))
     b.append(fk.text(bx + 160, py + 60, "your job is here", "t t-a1"))
     b.append(fk.text(320, py + 108, "Share of differences in performance explained by", "t t-sm t-mid t-mute"))
-    b.append(fk.text(320, py + 132, "deliberate practice. Macnamara, Hambrick and Oswald (2014).", "t t-sm t-mid t-mute"))
+    b.append(fk.text(320, py + 132, "deliberate practice. Macnamara et al. (2014), corrected 2018.", "t t-sm t-mid t-mute"))
     fk.write_svg("ch20/practice.svg", 640, py + 152, "What deliberate practice explains, by domain", "\n".join(b))
 
 

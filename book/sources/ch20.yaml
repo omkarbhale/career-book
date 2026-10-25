@@ -45,3 +45,32 @@ higgins2001:
     how different network types shape people's development.
   grade: moderate
   caveats: Theory, not a test; cited only for the idea that development usually comes from several relationships.
+
+macnamara2018:
+  type: article
+  authors: ['Macnamara, Brooke N.', 'Hambrick, David Z.', 'Oswald, Frederick L.']
+  year: 2018
+  title: 'Corrigendum: Deliberate practice and performance in music, games, sports, education, and professions: A meta-analysis'
+  container: Psychological Science
+  volume: '29'
+  issue: '7'
+  pages: 1202-1204
+  doi: 10.1177/0956797618769891
+  url: https://doi.org/10.1177/0956797618769891
+  url_checked: '2026-10-25'
+  url_note: >-
+    Added during the Part III fact-check, after Crossref listed it as a correction to macnamara2014. doi.org
+    resolved (HTTP 302; SAGE refuses scripted access); OpenAlex and Europe PMC (PMID 29733772) records checked;
+    the full text was read in the copy that opens the PDF of the original article hosted by Macnamara's lab at Purdue
+    (hhs.purdue.edu, skill-learning-and-performance-lab).
+  kind: evidence
+  design: correction to a meta-analysis
+  supports: >-
+    The authors had applied the Cheung and Chan adjustment for dependent effect sizes incorrectly; reanalysed
+    correctly, the average correlation is .38 (95% CI .33 to .42) rather than .35, and deliberate practice
+    explains 14% of the variance overall (95% CI 11% to 18%) rather than 12%. By domain: games 24% (was 26%),
+    music 23% (was 21%), sports 20% (was 18%), education 5% (was 4%), professions 1% (r = .09, p = .377; was
+    under 1%, p = .62). The authors state the changes had "no impact whatsoever on the substance of our findings
+    and conclusions".
+  grade: strong
+  caveats: Corrects the numbers in macnamara2014; cite both. Ericsson and Harwell's "14%" (ericsson2019) is this corrected overall figure.
