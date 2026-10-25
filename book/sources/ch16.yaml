@@ -152,3 +152,30 @@ india-companies177:
     Most private limited companies are outside the mandate unless they meet r.7(1). SEBI's listing
     regulations (Reg 22) also require listed entities to have a vigil mechanism (mentioned in the
     judgment, not checked separately).
+
+# Added by the Part II fact-check (checks/part2.md).
+
+osborneclarke-whistleblowing:
+  type: web
+  authors: ['Osborne Clarke']
+  year: 2023
+  title: What the Whistleblowing Directive means for reporting channels in corporate groups
+  container: Osborne Clarke Insights
+  url: https://osborneclarke.com/insights/what-whistleblowing-directive-means-reporting-channels-corporate-groups
+  url_checked: '2026-10-25'
+  url_note: >-
+    Law-firm commentary read in full. The year is approximate (no date was visible in the
+    extracted text). EUR-Lex and legislation.gov.uk copies of the Directive refused automated
+    access, so the Article's own text was not read.
+  kind: practitioner
+  design: law-firm commentary on Directive (EU) 2019/1937
+  supports: >-
+    States that Article 8(3) of the Whistleblowing Directive requires legal entities in the
+    private sector "with 50 or more employees" to establish internal reporting channels and
+    procedures, including entities that belong to a group of companies.
+  sample: n/a
+  grade: moderate
+  caveats: >-
+    Secondary commentary by a law firm, used only for the threshold's wording; the European
+    Parliament briefing (eu-whistleblower2019) words it as "more than 50 workers". National
+    transposition laws may set lower thresholds.
