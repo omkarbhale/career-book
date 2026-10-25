@@ -1,12 +1,16 @@
-# Fact-check log: front matter and Chapters 1 to 5
+# Fact-check log: front matter and Part I (Chapters 1 to 9)
 
-**Scope.** "How to Use This Book" (`book/front/how-to-use.md`), the cast page (`book/front/cast.md`) and Chapters 1 to 5, including the claims inside figures, figure scripts, exercise answers, Myth Checks, Receipts, Field Notes and captions, together with the source registries they cite.
+**Scope.** "How to Use This Book" (`book/front/how-to-use.md`), the cast page (`book/front/cast.md`) and Chapters 1 to 9, including the claims inside figures, figure scripts, exercise answers, Myth Checks, Receipts, Field Notes and captions, together with the source registries they cite.
 
 **Method.** Adversarial. The writers had already checked their own claims; this check assumed nothing they did. For every factual claim I found its citation, opened the source itself (the paper, its published abstract, the official page, the data file or, where a site refused scripted access, an Internet Archive copy), compared the claim with what the source says (direction, size, certainty, population, year, exact wording), and searched for a correction, retraction, failed replication or newer evidence. All 38 cited DOIs were checked against OpenAlex for retractions; none is retracted. Every source was opened on 25 October 2026.
+
+**Two passes.** The front matter and Chapters 1 to 5 were checked first, claim by claim, and are logged one row per claim. Chapters 6 to 9 were checked afterwards under a faster method the book's owner asked for: claims grouped by source, each source opened once, and two tiers of rigour. A *full check* (open the source and search for contrary evidence) was used for headline numbers, every Myth Check, legal and regional facts and anything surprising. A *light check* (compare against the registry note, and open the source only if the wording or number differs or the note is thin) was used for background claims the registry already backs at strong or moderate. Those chapters are logged one row per source. The truth rules were the same in both passes.
 
 **Verdicts.** *Confirmed*: the claim matches the source and survives the search for contrary evidence. *Fixed*: the text was changed (what changed is stated). *Downgraded*: the claim stands but its evidence grade or verdict was lowered. *Cut*: the claim was removed.
 
 ## Summary
+
+**Front matter and Chapters 1 to 5 (one row per claim):**
 
 | | Front matter | Ch 1 | Ch 2 | Ch 3 | Ch 4 | Ch 5 | Total |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -16,23 +20,32 @@
 | Downgraded | 1 | 0 | 0 | 0 | 0 | 1 | **2** |
 | Cut | 0 | 0 | 1 | 1 | 0 | 0 | **2** |
 
+**Chapters 6 to 9 (one row per source or source group):**
+
+| | Ch 6 | Ch 7 | Ch 8 | Ch 9 | Total |
+| --- | --- | --- | --- | --- | --- |
+| Entries | 18 | 15 | 5 | 21 | **59** |
+| Confirmed | 17 | 11 | 5 | 18 | **51** |
+| Fixed | 1 | 4 | 0 | 3 | **8** |
+
 The cast page contains no factual claims (its people and companies are fictional), so it has no rows.
 
 ### The most serious problems found
 
-1. **A claim contradicted by its own source (Ch 5, cover letters).** The chapter said "a generic letter is worse than none". The only experiment it cites shows the opposite: callback rates of 10.7% with no letter, 12.5% with a generic letter and 16.4% with a tailored one. The chapter had also said those group results were "only available as an image we could not verify"; the chart was read and the numbers are now in the text.
-2. **A failed replication left out (Ch 2, unemployment gaps).** The chapter presented one US field experiment's finding (callbacks fall sharply over the first eight months out of work) as how employers behave, and built "the first months matter most" on it. A later US audit study of about 12,000 applications (Farber, Silverman and von Wachter 2017) found *no* link between unemployment duration and callbacks for experienced, college-educated applicants, and the published version of the Swedish study the chapter cites finds an effect only for current spells of nine months or more. The text, the gaps Myth Check and the Rewind now describe mixed evidence; the advice to start searching early still stands on other grounds.
-3. **Misdescribed meta-analysis (Ch 3).** "A meta-analysis of 28 US field experiments since 1989" was wrong: 28 studies in total, 24 of them since 1989, which is the period the 36% and 24% figures describe.
-4. **A survey statistic without its base (Ch 3).** "More than 90% of employers" used their recruiting software to filter or rank candidates; the report shows only 63% of employers used such software, so the 90% refers to those that do.
-5. **Claims attributed to sources that do not make them.** The Atlanta Fed was cited for the caution that its data are "descriptive, not causal" (its page says nothing of the kind; now labelled as the book's view). Gem's customer base was said to lean "towards technology and large companies" and CareerPlug's data to be "mostly hourly and frontline jobs"; neither report says so. The "250 applications" figure was said to have been "later widely misattributed to Glassdoor", cited to a 2013 article that cannot report what happened later; cut.
-6. **Grades and verdicts that overclaimed.** The sample Myth Check on the 10% brain myth showed *strong* evidence for a verdict resting on one teacher survey (now *moderate*). The typo Myth Check showed *strong* for a single vignette experiment in one region (now *moderate*). The LinkedIn photo Myth Check said *busted* when the evidence shows only that the "21 times" figure is unsupported, not that it is false (now *partly*).
-7. **Smaller overstatements**, all fixed: a Pew percentage reported without its base (48% of quitters *with children*), "the most recent" re-analysis (unverifiable), a universal claim about what "nobody" in a research debate thinks, a medium effect called "small", and two legal summaries that went beyond their sources.
+1. **A Myth Check overturned by newer evidence (Ch 9, pay transparency).** "Pay transparency raises everyone's pay" was marked *busted*, grade *strong*, "probably wrong on average", on the strength of a study of laws protecting the right to *discuss* pay. A 2025 NBER working paper on laws requiring salary information *in job postings* (the kind the chapter's Field Note describes) found wages rose 1.3% to 3.6%, including for incumbent workers. The verdict is now *partly*, grade *moderate*, with both results; new source `arnold2025`.
+2. **A claim contradicted by its own source (Ch 5, cover letters).** The chapter said "a generic letter is worse than none". The only experiment it cites shows the opposite: callback rates of 10.7% with no letter, 12.5% with a generic letter and 16.4% with a tailored one. The chapter had also said those group results were "only available as an image we could not verify"; the chart was read and the numbers are now in the text.
+3. **A failed replication left out (Ch 2, unemployment gaps).** The chapter presented one US field experiment's finding (callbacks fall sharply over the first eight months out of work) as how employers behave, and built "the first months matter most" on it. A later US audit study of about 12,000 applications (Farber, Silverman and von Wachter 2017) found *no* link between unemployment duration and callbacks for experienced, college-educated applicants, and the published version of the Swedish study the chapter cites finds an effect only for current spells of nine months or more. The text, the gaps Myth Check and the Rewind now describe mixed evidence; the advice to start searching early still stands on other grounds.
+4. **Misdescribed meta-analysis (Ch 3).** "A meta-analysis of 28 US field experiments since 1989" was wrong: 28 studies in total, 24 of them since 1989, which is the period the 36% and 24% figures describe.
+5. **A survey statistic without its base (Ch 3).** "More than 90% of employers" used their recruiting software to filter or rank candidates; the report shows only 63% of employers used such software, so the 90% refers to those that do.
+6. **Claims attributed to sources that do not make them.** The Atlanta Fed was cited for the caution that its data are "descriptive, not causal" (its page says nothing of the kind; now labelled as the book's view). Gem's customer base was said to lean "towards technology and large companies" and CareerPlug's data to be "mostly hourly and frontline jobs"; neither report says so. In Chapter 6, a two-firm study was summarised as showing that referral hiring could disadvantage women; what it found is that referrals brought more women in at every job level, though less so at higher levels. The "250 applications" figure was said to have been "later widely misattributed to Glassdoor", cited to a 2013 article that cannot report what happened later; cut.
+7. **Grades and verdicts that overclaimed.** The sample Myth Check on the 10% brain myth showed *strong* evidence for a verdict resting on one teacher survey (now *moderate*). The typo Myth Check showed *strong* for a single vignette experiment in one region (now *moderate*). The LinkedIn photo Myth Check said *busted* when the evidence shows only that the "21 times" figure is unsupported, not that it is false (now *partly*).
+8. **Smaller overstatements**, all fixed: a Pew percentage reported without its base (48% of quitters *with children*), "the most recent" re-analysis (unverifiable), a universal claim about what "nobody" in a research debate thinks, a medium effect called "small", and two legal summaries that went beyond their sources. In Chapters 7 and 9: "about a dozen" markets (a count the cited paper does not give), a claim that Google "did not publish" its interview data (unverifiable; now "not a published study"), and two UK legal points worded beyond the cited pages (health questions and non-competes).
 
 ### Registries
 
 Where a research registry (`research/part1`, `research/part2`) described a source wrongly or recorded a second-hand reading, I added a corrected entry for the same work (same DOI or URL) to the relevant `book/sources/chNN.yaml`. The build keeps the first copy it reads, and `book/sources/` is read before `research/`, so the corrected entry is what readers see. The research registries were outside this check's file scope and were not edited; their entries for `eriksson2014`, `hiddenworkers2021`, `mohr2014`, `pew2022`, `powell2018`, `resumego2020-cover`, `sterkens2023` and `sullivan2013` should be brought into line by their owners.
 
-New sources added, each opened and read: `javaranch2004` (howto), `bls-jolts2022` and `farber2017` (ch02), `rice2014` (ch04). Corrected copies: `powell2018` (ch01), `eriksson2014`, `pew2022` (ch02), `hiddenworkers2021`, `sullivan2013` (ch03), `mohr2014` (ch04), `resumego2020-cover`, `sterkens2023` (ch05).
+New sources added, each opened and read: `javaranch2004` (howto), `bls-jolts2022` and `farber2017` (ch02), `rice2014` (ch04), `arnold2025` (ch09). Corrected copies: `powell2018` (ch01), `eriksson2014`, `pew2022` (ch02), `hiddenworkers2021`, `sullivan2013` (ch03), `mohr2014` (ch04), `resumego2020-cover`, `sterkens2023` (ch05).
 
 ### What this check could not do
 
@@ -217,3 +230,82 @@ Some sources could be read only in part, and the grades shown reflect that. The 
 | 5.21 | Europass: "add a professional photograph of yourself". | `europass-cv`. | **Confirmed.** Exact quote. |
 | 5.22 | Figure 5.3, regional cards. | As 5.19 to 5.21. | **Confirmed.** |
 | 5.23 | Exercise answer 5: "Myth as stated". | As 5.13. | **Fixed.** "Partly at best, and region-dependent". |
+
+## Chapter 6: People, Not Portals
+
+| Source | Claims checked | Tier | Verdict |
+| --- | --- | --- | --- |
+| `brown2016` | Referred 6.1% of applicants, 21.4% of interviewees, 27.3% of offers, 29.1% of hires; job boards 60.1% and 23.5%; figure's "everything else" 33.8% and 47.4% (arithmetic); Myth Check "who you know". | Light (read in full for Ch 1 and 3) | **Confirmed.** |
+| `gem2025` | Referrals 1.64% of applications, 17.09% of hires; job boards about a quarter of hires; sourced 2.0% vs inbound 0.4%. | Light (read for Ch 2 and 3) | **Confirmed.** |
+| `careerplug2025` | Referrals 2% of applicants, 11.3% of hires; job boards 43.3% of hires. | Full (report PDF) | **Confirmed.** |
+| `burks2015` | Nine firms; referred workers 10–30% less likely to quit; better on patents and truck accidents; similar on ordinary productivity; matching mechanism; people refer people like themselves. | Full (IZA working paper) | **Confirmed.** |
+| `pallais2016` | Referrals carry information on performance and persistence that profiles lack. | Full (NBER working paper) | **Confirmed.** |
+| `granovetter1973` | Boston-suburb job changers; of 54 who found jobs through contacts, 16.7% saw them often, 55.6% occasionally, 27.8% rarely; Myth Check on weak ties. | Full (published article scan) | **Confirmed.** |
+| `rajkumar2022` | Inverted U; moderately weak ties most useful; digital vs less digital industries; per-connection chance "a fraction of one per cent". | Full (Science article) | **Confirmed.** Edge-level job-transmission probabilities in the paper's figures are below 0.005. |
+| `gee2017` | 6 million Facebook users; most help through weak ties, but each strong tie worth more. | Full (Tufts record, abstract) | **Confirmed.** |
+| `lester2021` | 50–60% of workers report using a referral; business-contact referrals for higher-skill, higher-wage jobs. | Full (NY Fed staff report) | **Confirmed.** |
+| `pellizzari-via-brown2016` | A quarter to two-fifths of Europeans heard of their job through contacts. | Light | **Confirmed** in `brown2016` ("between 25% and 40%"). |
+| `fresnostate2024-hidden` | "Likely originated from anecdotal evidence and informal surveys rather than rigorous, peer-reviewed research"; Myth Check "80% of jobs never advertised". | Full | **Confirmed.** Exact quote. |
+| `flynn2008` | People underestimate compliance with direct requests by as much as half, overlooking the cost of saying no. | Full (abstract) | **Confirmed.** |
+| `boothby2018` | Liking gap, lasting months among new room-mates. | Light (abstract) | **Confirmed.** |
+| `regan1971` | Unsolicited soft drink → more raffle tickets, regardless of liking. | Light | **Confirmed (secondary).** No index carries the abstract; secondary accounts agree on the direction, which is all the chapter uses. |
+| `burger1997` | Favour repaid after 5 minutes, not reliably after a week. | Light (abstract) | **Confirmed.** |
+| `fernandez2019` | Referral hiring and women in two firms. | Full (abstract) | **Fixed.** The chapter said referral hiring "could disadvantage women ... more so at higher levels". The study found referrals *raised* women's representation at every level, though less at higher levels. Text now says so. |
+| `topechelon-fees` | Agency fees as a share of first-year pay; examples 18–25%; retained search paid in instalments, usually more in total. | Full | **Confirmed.** |
+| `govuk-agency-fees` | GB agencies "cannot charge you a fee for finding or trying to find you work"; extras such as CV writing allowed; separate rules for entertainment and modelling. | Full | **Confirmed.** Exact quote. |
+
+## Chapter 7: Interviews, Decoded
+
+| Source | Claims checked | Tier | Verdict |
+| --- | --- | --- | --- |
+| `sackett2022`, `schmidt1998` | Structured .42, unstructured .19; 1998 figures .51 and .38; "the most recent large review". | Light (read for Ch 1 and 3) | **Fixed.** Numbers confirmed; "most recent" → "a major recent review", as in Chapters 1 and 3. |
+| `abc2013-google` | Bock: brainteasers "a complete waste of time"; "structured behavioral interviews, where you have a consistent rubric"; internal data "which it did not publish". | Full | **Fixed.** Quotes exact; whether Google ever published is unverifiable, so now "rather than a published study". |
+| `rivera2012` | 120 interviews at elite firms; cultural similarity often outweighed productivity. | Light | **Confirmed.** |
+| `levashina2014` | Past-behaviour .31 vs situational .25–.26 "in the meta-analyses"; self-promotion .26 across 13 studies; structure reduces impression effects. | Light (read for Ch 1 and 4) | **Fixed.** "Two meta-analyses", as in Chapter 4. |
+| `barrick2009` | Self-presentation shapes ratings; quote. | Light (read for Ch 1) | **Confirmed.** |
+| `barrick2010` | Rapport-stage impressions: r = .42 with ratings, .22 with offers; competence carried to separate interviewers, liking did not. | Full (PubMed abstract) | **Confirmed.** |
+| `swider2016` | 163 mock interviews; much of first impressions' influence overlaps with job-related content; stronger on early answers. | Full (PubMed abstract) | **Confirmed.** |
+| `ambady1993` | Silent clips under 30 seconds of *teachers* predicted end-of-semester ratings; Myth Check "seven seconds". | Full (article) | **Confirmed.** |
+| `mehrabian-site`, `bigthink-mehrabian` | Mehrabian: "unless a communicator is talking about their feelings or attitudes, these equations are not applicable"; small lab studies (30 and 37 women); Myth Check "93% non-verbal". | Full | **Confirmed.** |
+| `carney2016`, `forrt-powerposing` | Carney: "I do not believe that 'power pose' effects are real"; 2022 meta-analysis of 88 studies: self-report effects, no reliable physiological effects, behavioural effects likely inflated by publication bias. | Full | **Confirmed.** |
+| `stewart2008` | 98 students; five trained handshake raters; handshake quality linked to hireability and extraversion. | Light (press release) | **Confirmed.** |
+| `powell2018` | −.19 across 30 studies; "about 4%" of variance; Myth Check on nerves. | Light (read for Ch 1) | **Confirmed.** .19² = .036. |
+| `blacksmith2016` | 12 studies; technology-mediated interviews rated lower (d = −.41); fairness warning. | Light (abstract) | **Confirmed.** |
+| `eeoc-prohibited` | US: questions limited to qualifications; "explicitly prohibited from making pre-offer inquiries about disability"; other questions usable as evidence of intent; no photo before an offer. | Full | **Confirmed.** |
+| `ukparl2020-health` | UK quote on health and disability questions; "an offer can be made conditional on health checks". | Full | **Fixed.** Quote exact. The source says questions "can only be asked when an applicant has been offered a job" and says nothing about conditional offers; wording now matches. |
+
+## Chapter 8: Show, Don't Tell
+
+| Source | Claims checked | Tier | Verdict |
+| --- | --- | --- | --- |
+| `schmidt1998`, `sackett2022`, `sackett2023-iop` | Work samples .54 (1998) → .33 (2022); structured interviews .42, job knowledge .40; job-specific methods beat broad measures. | Light (read for Ch 1 and 3) | **Confirmed.** |
+| `behroozi2020` | Randomised trial, 48 computer-science students at NC State; performance more than halved when watched; higher stress and cognitive load; Receipts and Myth Check. | Full | **Confirmed.** |
+| `interviewingio2016` | Only about 20% of repeat interviewees scored consistently. | Full | **Confirmed.** |
+| `behroozi2019` | Hacker News complaints: relevance, anxiety, time, arbitrary norms. | Light | **Confirmed.** |
+| `dunlosky2013` | Practice testing and spacing top-rated; rereading and highlighting bottom. | Light (read for front matter) | **Confirmed.** |
+
+## Chapter 9: Offers, Negotiation, and the Exit
+
+| Source | Claims checked | Tier | Verdict |
+| --- | --- | --- | --- |
+| `secfi-vesting` | Four years with a one-year cliff, 25% at the cliff. | Light | **Confirmed.** |
+| `irs-p525` | US option taxation depends on statutory vs nonstatutory type and timing. | Full | **Confirmed.** |
+| `tickertape-ctc` | CTC differs from in-hand pay. | Light | **Confirmed.** |
+| `argus-labourcodes` | Labour Codes in force 21 November 2025; wage definitions changed; rules still being notified. | Light (read for Ch 2) | **Confirmed.** |
+| `niederle2009` | "Across about a dozen real markets", early markets allow exploding offers and binding acceptances; lab: that combination gives inefficient early matching, relaxing either rule helps. | Full | **Fixed.** Findings confirmed; the paper gives no count of markets, so "a number of real markets". |
+| `hallkrueger2012` | A third bargained; a third knew the precise pay at first meeting; about 40% could have stayed; bargainers earned more after adjustment. | Full (NBER abstract) | **Confirmed.** |
+| `marks2011` | 149 employees; negotiators about US$5,000 higher. | Light (secondary coverage, as the chapter says) | **Confirmed.** |
+| `galinsky2001` | First offers win and anchor settlements; focusing on own target or the other side's alternatives removes the advantage; Myth Check "never name a number first". | Full (PubMed abstract) | **Confirmed.** |
+| `clockspot-paytransparency`, `nydol-paytransparency`, `cooley2026`, `ec-paytransparency`, `lockton2026-eu` | 13 states plus DC as of May 2026; New York's four-employee threshold; Virginia 1 July 2026, Maine 29 July 2026, Delaware 26 September 2027; EU directive rights and 7 June 2026 deadline; few member states fully transposed by late September 2026, not Germany or France. | Full | **Confirmed.** |
+| `cullen2023` + new `arnold2025` | Myth Check "Pay transparency raises everyone's pay": *busted*, *strong*, "probably wrong on average". | Full, with contrary-evidence search | **Fixed.** Cullen and Pakzad-Hurson's −2% (laws on *discussing* pay) confirmed. The search found Arnold, Quach and Taska (NBER WP 34480, November 2025): salary-*posting* laws raised wages 1.3–3.6%, with spillovers to incumbent workers. Verdict now *partly*, grade *moderate*; Rewind updated. |
+| `bowles2007` | Women penalised more for negotiating; 5.5 times greater effect; video study: male evaluators penalised only women, female evaluators everyone; Myth Checks. | Full (Gender Action Portal summary) | **Confirmed.** |
+| `hernandez2019` | More racially biased evaluators gave Black negotiators lower salaries, through resistance to concessions. | Full (PubMed abstract) | **Confirmed.** |
+| `leibbrandt2015` | 2,422 job seekers, nine cities; "negotiable" ads: women 21.2%, men 21.4%; 21% vs 7% overall; Myth Check "women don't negotiate". | Full (summary and NBER abstract) | **Confirmed.** |
+| `schmidt1998` | Reference checks .26. | Light | **Confirmed** (Table 1). |
+| `eeoc-ftc-background` | Written permission; copy of report and notice of rights before adverse action; equal treatment. | Full | **Confirmed.** |
+| `agan2018` | Ban the box in New Jersey and New York City: no-record applicants called back 63% more where the question was asked; white–Black gap grew from 7% to 45%. | Full | **Confirmed.** |
+| `govuk-dbs` | Basic, standard and enhanced checks; basic shows unspent convictions and conditional cautions; certificate issued to you. | Full | **Confirmed.** The certificate detail is on GOV.UK's "request a basic DBS check" page ("A paper certificate will then be posted to you"). |
+| `bgb622`, `lii-atwill`, `govuk-notice`, `khaitan-notice`, `barandbench-s27`, `loeb2023-california`, `uschamber-ryan` | Notice periods and non-competes, recapping Chapter 2; UK non-competes "potentially enforceable ... if reasonable". | Light (read for Ch 1 and 2) | **Fixed.** All confirmed except the UK phrase: the cited GOV.UK page says only that your employer could take you to court, so the text now says that. |
+| `klotz2016`, `shrm2016-resignation` | Seven resignation styles and shares (31%, 23.5%, 12.7%, 10%, 8.6%, 7.9%, 6.3%); managers' reactions; harmful resignations often respond to unfair treatment. | Light (SHRM article) | **Confirmed.** |
+| `interviewguys-counteroffer`, `4dayweek-counteroffer` | The counter-offer figure circulates as 48% to 93% with no study; CEB figure of about 50% within a year; recruiters' interest; Myth Check. | Full | **Confirmed.** |
+| `pew2022`, `arnold2021` | Quit reasons (63%, 63%, 57%); boomerang managers. | Light (read for Ch 2) | **Confirmed.** |

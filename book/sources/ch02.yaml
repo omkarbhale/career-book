@@ -117,7 +117,7 @@ govuk-redundancy-pay:
   grade: strong
   caveats: Great Britain; amounts and caps change each April.
 
-# Added or corrected by the fact-check of Chapters 1-5 (checks/part1a.md). Entries for keys that also
+# Added or corrected by the fact-check of Chapters 1-5 (checks/part1.md). Entries for keys that also
 # appear in a research registry describe the same work (same DOI or URL) and take precedence in the
 # reference list, because they record what the fact-checker read in the source itself.
 

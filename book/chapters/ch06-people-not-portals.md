@@ -203,7 +203,7 @@ Dev tells Bea about Ana while the kettle boils.
 @bea: I have you. Lucky me. What about everyone who doesn't have a you?
 :::
 
-Bea is right, and the book should say so plainly. People tend to refer people like themselves, in characteristics and even in behaviour [@burks2015]. In two firms' data, referral hiring could disadvantage women where an established male network was in place, and more so at higher levels, although overall, network recruitment brought more women in rather than fewer [@fernandez2019]. And the kind of contact matters: in US survey data, referrals from business contacts were used more for high-skill jobs and came with higher starting wages, while referrals from family and friends were used more for low-skill jobs and came with lower starting wages [@lester2021].
+Bea is right, and the book should say so plainly. People tend to refer people like themselves, in characteristics and even in behaviour [@burks2015]. In two firms' data, referral hiring brought more women in at every job level, but less so at higher levels, the pattern you would expect where an established male network is in place [@fernandez2019]. And the kind of contact matters: in US survey data, referrals from business contacts were used more for high-skill jobs and came with higher starting wages, while referrals from family and friends were used more for low-skill jobs and came with lower starting wages [@lester2021].
 
 So a referral-heavy labour market rewards people who already have professional networks, and those networks are not handed out at random. That is a real unfairness, and no amount of good advice makes it disappear.
 
