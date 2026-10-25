@@ -67,7 +67,7 @@ PARTS = [
     ("the rater’s own tendencies", "f-a4s", "t-paper"),
     ("the ratee’s performance", "f-a3s", ""),
     ("random error", "f-mute", "t-paper"),
-    ("the rater’s role (boss, peer, report)", "f-soft", ""),
+    ("the rest, including the rater’s role", "f-soft", ""),
 ]
 
 

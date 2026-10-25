@@ -13,7 +13,7 @@ Alt: A map. In the middle, a rounded island labelled "this book" holds the three
 The edges of the map. Each topic here touches the book somewhere, which is where its ferry leaves from, but the island itself needs a different guide.
 :::
 
-**How the resources were chosen.** Every resource below was opened during the making of this book, and each is a recognised publisher, a university or public body, a peer-reviewed journal, or an author with a track record in the field. Each card is labelled by what it rests on: **Evidence-based** (research, official statistics or law), **Theory**, or **Practitioner view** (experience that has not been tested, which is sometimes the best guidance available). We prefer free and official sources where they are as good as anything else, and we never prefer them over a clearly better paid one. There are no affiliate links and no tracking parameters: books link to a library catalogue or the publisher. Where we could check official sources only for some regions, we say which, and we say plainly what we could not check. Two good resources beat four adequate ones, so some sections are short.
+**How the resources were chosen.** Every resource below was opened during the making of this book, and each is a recognised publisher, a university or public body, a peer-reviewed journal, or an author with a track record in the field. Each card is labelled by what it rests on: **Evidence-based** (research, official statistics, the law, or an official public service), **Theory**, or **Practitioner view** (experience that has not been tested, which is sometimes the best guidance available). We prefer free and official sources where they are as good as anything else, and we never prefer them over a clearly better paid one. There are no affiliate links and no tracking parameters: books link to a library catalogue or the publisher. Where we could check official sources only for some regions, we say which, and we say plainly what we could not check. Two good resources beat four adequate ones, so some sections are short.
 
 One more caution: the links were checked in October 2026. Official sites reorganise, and laws, visa rules and benefit schemes change. If a page has moved, search the same organisation's site rather than trusting a copy elsewhere.
 
@@ -171,9 +171,7 @@ The UK's official annual survey of earnings, with breakdowns by occupation and i
 Eurostat's Structure of Earnings Survey, the comparable EU-wide source, broken down by occupation, age, experience and more. Updated every four years, so pair it with your national statistics office for current figures.
 :::
 
-::: resource {source=levelsfyi}
-Crowdsourced pay by company, level and location, weighted by how much proof each submission carries. The most specific source for technology roles; self-reported and commercial, so treat it as one input, not the truth.
-:::
+For technology roles, the most specific source is crowdsourced. Levels.fyi reports pay by company, level and location, weighted by how much proof each submission carries [@levelsfyi]. It is self-reported and commercial, so it gets no evidence card here: treat it as one input, not the truth.
 
 We did not verify an official source of pay by occupation for India, so we have not recommended one.
 

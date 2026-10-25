@@ -17,7 +17,7 @@ Her chat lights up. It is someone she barely knows, from the pricing squad.
 It is the third message like that this month. Dev looks at it for a while. Then she looks at her three tabs. Then she opens a fourth row in *Skills* and types, slowly, *the thing people already ask me for*.
 :::
 
-When Dev left Corvid, her testing background felt like something to apologise for: the tester who wanted to be a developer ([[ch04.sec.targets]]). Two and a half years later, it is the reason people from other squads seek her out. She did not plan that. Most people who end up very good at something did not plan it either, which raises the question this chapter tries to answer honestly: if you cannot predict the future, how do you choose what to get good at?
+When Dev left Corvid, her testing background felt like something to apologise for: the tester who wanted to be a developer ([[ch04.sec.targets]]). Two and a half years later, it is the reason people from other squads seek her out. She did not plan that. Plenty of people who end up very good at something did not plan it either, we suspect, which raises the question this chapter tries to answer honestly: if you cannot predict the future, how do you choose what to get good at?
 
 The popular answers are confident. Ten thousand hours. Follow the trend. Seventy per cent of learning happens on the job. Find a mentor. The evidence behind each of them is more interesting, and more useful, than the slogans. This chapter goes through it, and ends with a way of choosing that does not depend on knowing what the world will want in ten years.
 
@@ -31,7 +31,7 @@ Start with what makes a skill worth the effort.
 
 The most useful frame comes from practitioners rather than researchers. The careers organisation 80,000 Hours defines **career capital** as "anything that puts you in a better position to make a difference in the future": skills, connections, credentials, character and financial runway, with a warning against both neglecting it and endlessly collecting generic credentials [@todd2026!]. The phrase was popularised by Cal Newport's book *So Good They Can't Ignore You*, which argues that skill should come before passion [@newport2012!]. Both are frameworks, not findings, and we label them that way.
 
-What does the evidence say about which skills hold their value? Two findings matter. First, a great deal of what people know at work is specific to their occupation or industry: in US data from 1968 to 1997, occupational mobility was high and rising, and the authors conclude that human capital is largely occupation-specific [@kambourov2008]. Skills travel well within a kind of work, and less well outside it. Second, in fast-changing fields, specific skills lose market value quickly. For graduates in applied science and engineering subjects such as computer science, the earnings premium is highest at entry and, in the working-paper version of the study, falls by more than half over the first decade, as the skills that jobs require change underneath them [@deming2020]. Returns to experience are, in the authors' framing, a race between learning on the job and skills going stale.
+What does the evidence say about which skills hold their value? Two findings matter. First, a great deal of what people know at work is specific to their occupation or industry: in US data from 1968 to 1997, occupational mobility was high and rising, which the authors note matters because other research had found human capital to be largely specific to an occupation or industry [@kambourov2008]. Skills travel well within a kind of work, and less well outside it. Second, in fast-changing fields, specific skills lose market value quickly. For graduates in applied science and engineering subjects such as computer science, the earnings premium is highest at entry and, in the working-paper version of the study, falls by more than half over the first decade, as the skills that jobs require change underneath them [@deming2020]. Returns to experience are, in the authors' framing, a race between learning on the job and skills going stale.
 
 Put the frameworks and the evidence together and you get a working test for a skill worth building, which is our synthesis rather than anyone's measured result [!view]. Ask three questions:
 
@@ -53,12 +53,12 @@ Once you have chosen a skill, the next question is how to get good at it, and th
 
 The number comes, indirectly, from a 1993 study of violin students, which argued that expert performance results largely from years of deliberate practice, meaning effortful activity designed specifically to improve, and which was later popularised as "ten thousand hours" [@ericsson1993]. The idea is attractive because it is democratic: anyone can practise.
 
-Then researchers tested it across domains. A 2014 meta-analysis found that deliberate practice explained 26% of the differences in performance in games, 21% in music, 18% in sports, 4% in education, and **less than 1% in professions** [@macnamara2014]. If you picked "about 1%" for the pause, you were right, and in very good company if you did not.
+Then researchers tested it across domains. A 2014 meta-analysis, in figures its authors corrected in 2018, found that deliberate practice explained 24% of the differences in performance in games, 23% in music, 20% in sports, 5% in education, and **about 1% in professions**, too little to tell apart from nothing [@macnamara2014; @macnamara2018]. If you picked "about 1%" for the pause, you were right, and in very good company if you did not.
 
 ::: figure {#ch20.fig.practice src="ch20/practice.svg"}
-Alt: Five horizontal bars, each drawn as a full-length outline representing 100% of the differences in performance, with the part explained by deliberate practice filled in purple. Games: 26%. Music: 21%. Sports: 18%. Education: 4%. Professions: under 1%, a sliver too thin to see, with an arrow labelled "your job is here". The empty part of the first bar is labelled "everything else". A note: "Share of differences in performance explained by deliberate practice. Macnamara, Hambrick and Oswald (2014)."
+Alt: Five horizontal bars, each drawn as a full-length outline representing 100% of the differences in performance, with the part explained by deliberate practice filled in purple. Games: 24%. Music: 23%. Sports: 20%. Education: 5%. Professions: 1%, a sliver barely visible, with an arrow labelled "your job is here". The empty part of the first bar is labelled "everything else". A note: "Share of differences in performance explained by deliberate practice. Macnamara et al. (2014), corrected 2018."
 
-What practice explains, to scale. In every domain studied, deliberate practice mattered, but it explained a minority of the differences between people, and in professions almost none of them.
+What practice explains, to scale. In most domains studied, deliberate practice mattered, but it explained a minority of the differences between people, and in professions almost none of them.
 :::
 
 That result contradicts a very popular idea, so it is worth opening up.
@@ -66,7 +66,7 @@ That result contradicts a very popular idea, so it is worth opening up.
 ::: receipts {source=macnamara2014} The meta-analysis behind the myth-busting
 **What they did.** Macnamara, Hambrick and Oswald gathered the studies that had measured both deliberate practice and performance, in every major domain where the idea had been tested, and pooled them to estimate how much of the variation in performance practice could account for [@macnamara2014].
 
-**What they found.** Practice explained 26% of the variance in games, 21% in music, 18% in sports, 4% in education and under 1% in professions. Their conclusion was measured: deliberate practice is important, but not as important as had been argued.
+**What they found.** Practice explained 24% of the variance in games, 23% in music, 20% in sports, 5% in education and 1% in professions. Those are the figures as corrected in 2018: the original paper reported 26%, 21%, 18%, 4% and under 1%, and the authors later found a calculation error that, they report, did not change the substance of their conclusions [@macnamara2018]. Their conclusion was measured: deliberate practice is important, but not as important as had been argued.
 
 **What it cannot tell you.** The studies it pooled defined and measured practice in different ways, and Ericsson, the theory's originator, argued that many of them counted activities that did not meet his strict definition, and that studies using it found larger effects [@ericsson2019]. And "explains little of the difference *between* people" is not the same as "does little for any one person": practice can matter a great deal to your own improvement while other things (prior skill, the job, luck) explain more of why you differ from someone else.
 :::
@@ -76,7 +76,7 @@ The debate since then is worth knowing, because it points somewhere useful. A la
 The two camps disagree about the size of the effect. They agree about something more useful: **the design of practice matters far more than the hours**. Hours of ordinary work, repeating what you can already do, are not deliberate practice in anyone's definition.
 
 ::: myth {#ch20.myth.ten-thousand verdict=partly grade=strong} Ten thousand hours of practice makes you an expert
-Practice matters, which is why this is not simply busted. But across domains, deliberate practice explained a minority of the differences in performance, and less than 1% in professions [@macnamara2014]; among elite athletes, 1% [@macnamara2016]; and a replication of the original violin study found a much smaller effect than the original [@macnamara2019]. Even the theory's originator argues for strictly designed practice, not hours [@ericsson2019]. There is no threshold of hours that turns anyone into an expert.
+Practice matters, which is why this is not simply busted. But across domains, deliberate practice explained a minority of the differences in performance, and about 1% in professions [@macnamara2014; @macnamara2018]; among elite athletes, 1% [@macnamara2016]; and a replication of the original violin study found a much smaller effect than the original [@macnamara2019]. Even the theory's originator argues for strictly designed practice, not hours [@ericsson2019]. There is no threshold of hours that turns anyone into an expert.
 :::
 
 ## Experience is not expertise {#ch20.sec.experience}
@@ -270,7 +270,7 @@ Whatever she decides, the method is the same as for any other skill: choose on p
 ::: rewind
 - **Career capital** is a practitioner idea, not a finding, but the evidence behind it is real: much human capital is specific to an occupation, and specific skills in fast-changing fields lose value quickly.
 - A skill worth building is **valued by many employers, hard to acquire, and slow to go stale**. Rare combinations of ordinary skills often beat single rare talents. Dev's QA years were half of hers.
-- **Ten thousand hours is a myth.** Deliberate practice explained under 1% of performance differences in professions; both sides of the debate agree that the design of practice matters far more than the hours.
+- **Ten thousand hours is a myth.** Deliberate practice explained about 1% of performance differences in professions; both sides of the debate agree that the design of practice matters far more than the hours.
 - **Experience is not expertise.** The amount of relevant work predicts performance better than years served, and experience becomes skill only where the work is regular and gives you feedback. Feeling sure is not evidence of being right.
 - **Build practice into the job**: one narrow sub-skill, reps a notch harder, fast feedback about the task, and written predictions where real feedback is slow. Challenge pays with diminishing returns; feedback keeps it paying.
 - **70-20-10 is a slogan, not a measurement.** Learning on the job works only when the job has stretch, feedback and some structure.
