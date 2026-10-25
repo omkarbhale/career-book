@@ -1,6 +1,6 @@
 # Writing guide
 
-How to take an assignment from `DESIGN.md` to a finished chapter that builds, reads well and holds up to a fact-check. Read `DESIGN.md` first (especially §4 for your chapters, §5 for the cast, §6 for voice and §9 for the claim policy), then read Chapter 1 (`book/chapters/ch01-two-games.md`) as the worked example. Imitate it.
+How to take an assignment from `DESIGN.md` to a finished chapter that builds, reads well and holds up to a fact-check. Read `DESIGN.md` first (especially §4 for your chapters, §5 for the cast, §6 for voice and §9 for the claim policy), then read Chapter 1 (`book/chapters/ch01-three-games.md`) as the worked example. Imitate it.
 
 ## 1. What you own
 
@@ -12,6 +12,8 @@ Parallel writers never edit the same file. For a chapter with id `chNN` you own,
 | `book/figures/chNN/*.svg` | its figures |
 | `book/figures/_src/chNN_figures.py` | optional: the script that generates them with `tools/figkit.py` |
 | `book/sources/chNN.yaml` | sources you add that are not already in a research registry |
+
+The appendix *Left Out, on Purpose* is owned the same way by assignment F: `book/back/left-out.md`, `book/sources/more.yaml` and any figures under `book/figures/more/`.
 
 Every id you create starts with your chapter id (`ch07.sec.star`, `ch07.fig.rubric`, `ch07.move.questions`), so two writers can never create the same id.
 
@@ -28,6 +30,8 @@ Copy this into your pull request description and tick it off.
 - [ ] **Figures.** Draw 3 to 5 (§6). Each teaches one idea, has alt text and a caption, and works in both themes and at phone width.
 - [ ] **Exercises.** 2 to 4 *Your Move* boxes with answers that explain; 1 or 2 *Pause* questions that the chapter later answers.
 - [ ] **Cross-references.** Every **Back** and **Forward** in your brief appears as a `[[...]]` link. Prefer section ids once the target exists.
+- [ ] **Going Further.** If DESIGN.md §13 assigns your chapter a pointer, add it after the Rewind.
+- [ ] **Part III only.** Revisit every evidence pointer against `research/part3/` once it lands (DESIGN.md §12).
 - [ ] **Labels.** Practitioner advice carries `[!craft]` or sits in a Craft Note; opinion carries `[!view]` or sits in an Author's View.
 - [ ] **Self-edit.** Read it aloud. Cut every sentence that does not teach, show or move the story. Check the density rule (no more than one box per ~400 words; never two boxes back to back). Check the humour rules (DESIGN.md §6). Check that the chapter still makes sense with every box skipped.
 - [ ] **Length.** 4,500 to 6,000 words of prose.
@@ -73,9 +77,10 @@ Citations number themselves per chapter and link to the chapter's reference list
 [[ch01.move.signal]]           → "Your Move 1.1"
 [[ch01.sec.signals]]           → "“Signals, not secrets” in Chapter 1"
 [[ch01.sec.signals|signals]]   → your own link text
+[[more.sec.managing]]          → "“Managing people” in “Left Out, on Purpose”"
 ```
 
-Links work forward and backward. The build fails on any id that does not exist, so link to chapter ids (`[[ch12]]`) until the chapter you are pointing at exists, then tighten to section ids. Each chapter page automatically lists the chapters that link to it ("Threads into this chapter").
+Links work forward and backward. The build fails on any id that does not exist, so link to chapter ids (`[[ch12]]`) until the chapter you are pointing at exists, then tighten to section ids. The appendix's section ids are declared in `book/book.toml` (`sections = [...]`), so they work before the appendix is written; once it is, the build checks that every declared section exists. Each chapter page automatically lists the chapters that link to it ("Threads into this chapter").
 
 ### Ids
 
@@ -164,6 +169,18 @@ What to notice in this figure, in one or two sentences.
 
 ::: rewind
 - Five to eight bullets.
+:::
+
+::: further {ref=more.sec.managing}
+One or two sentences: what this chapter left out, and what the appendix section offers.
+:::
+```
+
+In the appendix only, each recommended resource is a card. Its label (Evidence-based, Theory or Practitioner view) comes from the source's `kind`; its body says what the resource is good for and who it suits:
+
+```markdown
+::: resource {source=dunlosky2013}
+Good for anyone who studies for a living; readable without a psychology degree.
 :::
 ```
 

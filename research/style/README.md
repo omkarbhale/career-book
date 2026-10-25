@@ -120,7 +120,7 @@ None of this undercuts the series' approach, which is broadly consistent with th
 ### Adapts
 
 - **Evidence is graded on the page.** The series cites little; this book's subject (careers) is full of confident folklore, so every factual claim is sourced and graded, and myths get a **Myth Check** with a verdict. **Receipts** opens up a key study. This is the book's main departure, and it follows from the owner's "no compromises on truth".
-- **A cast with an arc, not just a gag.** The series uses one-off characters. This book follows one protagonist across both parts, because its argument (one person, two games) is about continuity.
+- **A cast with an arc, not just a gag.** The series uses one-off characters. This book follows one protagonist across all three parts, because its argument (one person, three games) is about continuity.
 - **Opinion is labelled.** **Craft Note** (practitioner experience) and **Author's View** (our argument) keep advice separate from evidence.
 - **Global reader.** **Field Note** boxes flag regional differences that we could verify.
 - **Web first.** The series' "no two pages are the same" layout depends on hand-made print pages. This book is a responsive site, so it gets variety from its elements and figures instead of collage layouts, and it has to work on a phone.

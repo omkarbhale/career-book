@@ -1,15 +1,16 @@
-# Two Games, One You
+# Three Games, One You
 
-*A field guide to landing the job and being yourself at work.*
+*A field guide to landing the job, being yourself at work, and making the work count.*
 
-Getting a job and doing a job are different games. In the **snapshot game**, strangers judge a short, edited trailer of you: a résumé, a few conversations, an afternoon of interviews. In the **long game**, colleagues watch the whole film, every day, for years. The skills differ, so this book teaches both:
+Working life is three different games. In the **snapshot game**, strangers judge a short, edited trailer of you: a résumé, a few conversations, an afternoon of interviews. In the **long game**, colleagues watch the whole film, every day, for years. In the **career game**, the film gets reviewed, in cycles, and the review decides what you do next. The skills differ, so this book teaches all three:
 
 - **Part I, The Snapshot Game**: deciding whether to switch, how hiring works from the other side of the table, turning your experience into evidence, résumés and profiles, referrals and weak ties, interviews, work samples, offers, negotiation and leaving well.
-- **Part II, The Long Game**: first-principles conduct at work: trust and reputation, starting a new job, reliability, writing and feedback, the professionalism dial, office friendships, conflict and politics, and growing without losing yourself.
+- **Part II, The Long Game**: first-principles conduct at work: trust and reputation, starting a new job, reliability, writing and feedback, the professionalism dial, office friendships, conflict and politics, and staying yourself under pressure.
+- **Part III, The Career Game**: being good at the work and having it count: performance reviews, promotion cases, choosing what to get good at, the fork between expert and manager, and the career over decades, which loops back to Part I.
 
-The thread through both is one person. Learn the snapshot game without shame, play the long game without a mask, and keep the trailer a true cut of the film.
+The thread through all three is one person. Learn the snapshot game without shame, play the long game without a mask, make the work count honestly, and keep the trailer a true cut of the film. A closing appendix, *Left Out, on Purpose*, says what the book deliberately does not cover and where to go instead.
 
-The book follows Dev, a software tester trying to become a developer, and a small cast through both games. It is written in a conversational, picture-rich style inspired by learner-centred technical books, and **every factual claim is sourced and graded** (strong, moderate, weak, or myth-or-unsupported), with practitioner advice and the author's opinions labelled as such.
+The book follows Dev, a software tester trying to become a developer, and a small cast through all three games. It is written in a conversational, picture-rich style inspired by learner-centred technical books, and **every factual claim is sourced and graded** (strong, moderate, weak, or myth-or-unsupported), with practitioner advice and the author's opinions labelled as such.
 
 ## Read it
 
@@ -22,10 +23,10 @@ Until then, build it locally (below) and open `docs/index.html`.
 | Part | Status |
 | --- | --- |
 | Front matter: *How to Use This Book*, *Meet the Cast* | Written |
-| Chapter 1: *Two Games, One You* | Written (the exemplar for later chapters) |
-| Chapters 2 to 17 and the epilogue | In production. Each is published as its plan until written. |
-| Evidence base | `research/part1/` (getting a job, 102 sources) and `research/part2/` (conduct at work, 212 sources) |
-| Design | `DESIGN.md`: thesis, full table of contents, cast, voice, element catalogue, visual language, claim policy, writer assignments |
+| Chapter 1: *Three Games, One You* | Written (the exemplar for later chapters) |
+| Chapters 2 to 22, the epilogue and *Left Out, on Purpose* | In production. Each is published as its plan until written. |
+| Evidence base | `research/part1/` (getting a job, 102 sources) and `research/part2/` (conduct at work, 212 sources); `research/part3/` (the career game) is in progress |
+| Design | `DESIGN.md`: thesis, full table of contents, cast, voice, element catalogue, visual language, claim policy, length guides, six writer assignments, and the plan for the appendix |
 
 ## Build it
 
@@ -44,11 +45,11 @@ The build fails if any cross-reference, citation key, figure or alt text is miss
 | Path | What it is |
 | --- | --- |
 | `book/book.toml` | the book's spine: metadata, reading order, chapter summaries, cast |
-| `book/front/`, `book/chapters/` | the text, in Book Markdown (see `WRITING-GUIDE.md`) |
+| `book/front/`, `book/chapters/`, `book/back/` | the text, in Book Markdown (see `WRITING-GUIDE.md`) |
 | `book/figures/` | standalone SVG figures; `figure.css` is their shared style; `_src/` holds the scripts that draw them |
 | `book/sources/` | sources added by the book's writers (the research registries live in `research/`) |
 | `book/theme/` | the site stylesheet and icon |
-| `research/` | evidence bases for Part I and Part II, and the style research note |
+| `research/` | evidence bases for each part, and the style research note |
 | `tools/build.py`, `tools/bookkit/` | the build (Python standard library only) |
 | `tools/figkit.py` | optional helpers for drawing figures and the cast |
 | `docs/` | the generated site (do not edit by hand) |
